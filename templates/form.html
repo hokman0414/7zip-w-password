@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}{% if mode == 'edit' %}Edit{% else %}Add{% endif %} — Job Tracker{% endblock %}
+
+{% block content %}
+<section class="form-section">
+  <h1>{% if mode == 'edit' %}Edit application{% else %}Add application{% endif %}</h1>
+  <p class="lede">Everything saves to a local file on this PC.</p>
+
+  <form method="post" class="app-form">
+    <div class="grid">
+      <label>
+        <span>Company *</span>
+        <input type="text" name="company" required value="{{ app_row.company or '' }}" autofocus>
+      </label>
+      <label>
+        <span>Role *</span>
+        <input type="text" name="role" required value="{{ app_row.role or '' }}">
+      </label>
+      <label>
+        <span>Location</span>
+        <input type="text" name="location" value="{{ app_row.location or '' }}" placeholder="Remote / city">
+      </label>
+      <label>
+        <span>Job URL</span>
+        <input type="url" name="url" value="{{ app_row.url or '' }}" placeholder="https://…">
+      </label>
+      <label>
+        <span>Status</span>
+        <select name="status">
+          {% for s in statuses %}
+            <option value="{{ s }}" {% if app_row.status == s %}selected{% endif %}>{{ s }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      <label>
+        <span>Applied on</span>
+        <input type="date" name="applied_on" value="{{ app_row.applied_on or today }}">
+      </label>
+      <label>
+        <span>Salary / range</span>
+        <input type="text" name="salary" value="{{ app_row.salary or '' }}" placeholder="$120k–$140k">
+      </label>
+      <label>
+        <span>Follow-up date</span>
+        <input type="date" name="follow_up_on" value="{{ app_row.follow_up_on or '' }}">
+      </label>
+    </div>
+
+    <label class="full">
+      <span>Notes</span>
+      <textarea name="notes" rows="5" placeholder="Referral, recruiter name, interview prep…">{{ app_row.notes or '' }}</textarea>
+    </label>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary">{% if mode == 'edit' %}Save changes{% else %}Save application{% endif %}</button>
+      <a class="btn" href="{{ url_for('index') }}">Cancel</a>
+    </div>
+  </form>
+</section>
+{% endblock %}

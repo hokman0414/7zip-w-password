@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}Applications — Job Tracker{% endblock %}
+
+{% block content %}
+<section class="hero-bar">
+  <div>
+    <h1>Your applications</h1>
+    <p class="lede">{{ total }} total{% if status_filter %} · filtered to {{ status_filter }}{% endif %}</p>
+  </div>
+  <form class="search" method="get" action="{{ url_for('index') }}">
+    {% if status_filter %}
+      <input type="hidden" name="status" value="{{ status_filter }}">
+    {% endif %}
+    <input type="search" name="q" value="{{ q }}" placeholder="Search company, role, notes…" aria-label="Search">
+    <button type="submit" class="btn">Search</button>
+  </form>
+</section>
+
+<section class="filters" aria-label="Filter by status">
+  <a class="chip {% if not status_filter %}is-active{% endif %}" href="{{ url_for('index', q=q) }}">All {{ total }}</a>
+  {% for s in statuses %}
+    <a class="chip status-{{ s|lower }} {% if status_filter == s %}is-active{% endif %}"
+       href="{{ url_for('index', status=s, q=q) }}">
+      {{ s }} {{ counts.get(s, 0) }}
+    </a>
+  {% endfor %}
+</section>
+
+{% if applications %}
+  <section class="table-wrap">
+    <table class="apps">
+      <thead>
+        <tr>
+          <th>Company / Role</th>
+          <th>Status</th>
+          <th>Applied</th>
+          <th>Follow-up</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for a in applications %}
+          <tr>
+            <td>
+              <div class="company">{{ a.company }}</div>
+              <div class="role">
+                {% if a.url %}
+                  <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.role }}</a>
+                {% else %}
+                  {{ a.role }}
+                {% endif %}
+              </div>
+              {% if a.location or a.salary %}
+                <div class="meta">
+                  {% if a.location %}{{ a.location }}{% endif %}
+                  {% if a.location and a.salary %} · {% endif %}
+                  {% if a.salary %}{{ a.salary }}{% endif %}
+                </div>
+              {% endif %}
+              {% if a.notes %}
+                <div class="notes">{{ a.notes }}</div>
+              {% endif %}
+            </td>
+            <td>
+              <form method="post" action="{{ url_for('update_status', app_id=a.id) }}" class="status-form">
+                <select name="status" class="status-select status-{{ a.status|lower }}" onchange="this.form.submit()">
+                  {% for s in statuses %}
+                    <option value="{{ s }}" {% if a.status == s %}selected{% endif %}>{{ s }}</option>
+                  {% endfor %}
+                </select>
+              </form>
+            </td>
+            <td class="date">{{ a.applied_on }}</td>
+            <td class="date {% if a.follow_up_on and a.follow_up_on <= today and a.status not in ['Rejected', 'Withdrawn', 'Offer'] %}due{% endif %}">
+              {{ a.follow_up_on or "—" }}
+            </td>
+            <td class="actions">
+              <a class="link" href="{{ url_for('edit', app_id=a.id) }}">Edit</a>
+              <form method="post" action="{{ url_for('delete', app_id=a.id) }}" onsubmit="return confirm('Delete this application?');">
+                <button type="submit" class="link danger">Delete</button>
+              </form>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+{% else %}
+  <section class="empty">
+    <h2>No applications yet</h2>
+    <p>Add the first role you’re chasing and keep status updates here.</p>
+    <a class="btn btn-primary" href="{{ url_for('add') }}">Add application</a>
+  </section>
+{% endif %}
+{% endblock %}
