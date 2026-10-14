@@ -1,0 +1,212 @@
+# Topic filters for cyber technical talks (past ~2 years focus in pipeline)
+# A talk matches when title/description hits any include term (case-insensitive)
+# and does not exclusively match exclude-only noise.
+
+topics:
+  detection_engineering:
+    weight: 10
+    terms:
+      - detection engineering
+      - detection engineer
+      - detection-as-code
+      - detection as code
+      - sigma rules
+      - sigma rule
+      - yara rule
+      - yara rules
+      - detection rule
+      - detection rules
+      - alert triage
+      - false positive reduction
+      - detection coverage
+      - atomic detection
+      - detection testing
+      - detection validation
+      - purple team
+      - purple teaming
+      - adversary emulation
+      - threat hunting
+      - hunting query
+      - kql hunt
+      - splunk detection
+      - elastic detection
+      - siem detection
+      - soar playbook
+      - detection pipeline
+      - telemetry engineering
+      - log engineering
+      - security analytics
+      - behavioral detection
+      - anomaly detection security
+      - mitre attack detection
+      - att&ck detection
+
+  agentic_workflows:
+    weight: 10
+    terms:
+      - agentic
+      - ai agent
+      - llm agent
+      - autonomous agent
+      - multi-agent
+      - multi agent
+      - agentic workflow
+      - agentic security
+      - ai-assisted detection
+      - llm for detection
+      - llm soc
+      - ai soc
+      - generative ai security
+      - genai security
+      - rag security
+      - mcp security
+      - tool-using agent
+      - security copilots
+      - ai automation security
+      - autonomous response
+      - agent orchestration
+
+  threat_intelligence:
+    weight: 8
+    terms:
+      - threat intelligence
+      - threat intel
+      - cti
+      - apt
+      - threat actor
+      - campaign analysis
+      - ioc
+      - indicators of compromise
+      - threat landscape
+      - nation-state
+      - nation state
+      - malware analysis
+      - reverse engineering malware
+      - attribution
+      - diamond model
+      - stix
+      - taxii
+      - intel fusion
+      - open source intelligence
+      - osint threat
+
+  insider_threat:
+    weight: 8
+    terms:
+      - insider threat
+      - insider risk
+      - privileged access abuse
+      - data exfiltration employee
+      - UEBA
+      - user behavior analytics
+      - insider detection
+      - trusted insider
+      - workplace monitoring security
+
+  general_cyber_technical:
+    weight: 3
+    terms:
+      - red team
+      - blue team
+      - purple team
+      - incident response
+      - digital forensics
+      - cloud security
+      - zero trust
+      - identity security
+      - ransomware
+      - supply chain attack
+      - vulnerability research
+      - exploit development
+      - memory forensics
+      - network detection
+      - ndr
+      - xdr
+      - edr
+      - endpoint detection
+      - kerberos
+      - active directory attack
+      - lateral movement
+      - c2
+      - command and control
+      - phishing
+      - initial access
+      - persistence
+      - privilege escalation
+      - defense evasion
+      - living off the land
+      - lotl
+      - container security
+      - kubernetes security
+      - api security
+      - web application security
+      - binary analysis
+      - firmware security
+      - iot security
+      - ot security
+      - ics security
+      - fraud detection
+      - botnet
+      - domain generation algorithm
+
+# Soft exclusions (down-rank, don't hard-drop unless only these match)
+noise_terms:
+  - keynote welcome
+  - opening remarks
+  - closing remarks
+  - party
+  - CTF awards
+  - sponsor lightning
+  - job fair
+  - happy hour
+  - afterparty
+  - comedy
+  - music set
+
+# Prefer talks whose titles/descriptions also mention these conference cues
+conference_cues:
+  - defcon
+  - def con
+  - black hat
+  - blackhat
+  - bsides
+  - rsa conference
+  - sans
+  - first.org
+  - virus bulletin
+  - hitb
+  - hack in the box
+  - nullcon
+  - bluehat
+  - blue hat
+  - carnesec
+  - fwd:cloudsec
+  - tropsec
+  - x33fcon
+  - bheu
+  - bhusa
+  - cacon
+  - grrcon
+  - derbycon
+  - shmoocon
+  - thotcon
+  - layerone
+  - reboot
+  - cyclone
+  - hashdays
+  - troopers
+  - offzone
+  - phdays
+  - hack.lu
+  - deepsec
+  - ekoparty
+  - rootedcon
+  - nola
+  - wild west hackin
+  - wwhf
+  - cackalacky
+  - CarolinaCon
+  - thcon
+  - open source summit security
+  - kubecon security
+  - oscon security
