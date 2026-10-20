@@ -1,20 +1,20 @@
 # Royale Diamonds Investigation Report
 
 **Case ID:** `royale_diamonds`  
-**As of (UTC):** 2026-10-20T04:02:57.314791+00:00  
+**As of (UTC):** 2026-10-20T15:53:28.939713+00:00  
 **Method:** Evidence-first OSINT; competing hypotheses; no fabricated sources.
 
 ## 1. Executive intelligence assessment
 
 | Topic | Status | Assessment |
 |---|---|---|
-| Seller public identity | CORROBORATED | TikTok `@royalediamondslive` / display RoyaleDiamon…; livestream screenshot preserved |
+| Seller public identity | CORROBORATED | TikTok `@royalediamondslive` linked by Mashable and live profile |
 | Legal business entity | UNKNOWN | No verified SOS linkage yet |
 | IGI certificate LG839637366 | CONFIRMED | Exists; lab-grown marquise 3.03ct F / VS1 / CVD |
-| Spec match to listing | CONFIRMED vs on-stream sticker | Sticker `VG EX NON` matches IGI Very Good / Excellent / None |
+| Spec match to listing | MOSTLY MATCH / Polish CONTRADICTED | IGI polish = Very Good; listing said Excellent |
 | Economic plausibility of $350 | CORROBORATED as plausible auction price | Below observed retail-ask median; not proof of fraud |
-| Fulfillment | UNKNOWN | Tracking `9200190390470924693050` — NO_PUBLIC_SCAN_DATA — aggregator reports no information; USPS authoritative portal blocked from this environment. Do not infer transit progress. |
-| Leading hypotheses | Qualitative | H1, H2 (subjective posteriors, not base rates) |
+| Fulfillment | UNKNOWN | Tracking `9200190390470924693050` — USER_REPORTS_TRACKING_WORKS — authoritative USPS status not independently readable from this investigation host (Access Denied / no aggregator data). Awaiting user-provided current status text or screenshot. |
+| Leading hypotheses | Qualitative | H2, H1 (subjective posteriors, not base rates) |
 
 ### Recommended actions
 - Manually open USPS tracking for 9200190390470924693050 and archive screenshot (portal blocked here).
@@ -30,7 +30,7 @@ Append-only ledger files:
 - `evidence/normalized/evidence_ledger.json`
 - `evidence/normalized/evidence_ledger.csv`
 
-Records currently persisted: **19**
+Records currently persisted: **20**
 
 Every factual claim below cites evidence IDs or source URLs actually accessed in this run.
 
@@ -63,21 +63,6 @@ Inscription(s): IGI LG839637366
 
 **Manual checkpoint:** If PDF download is Cloudflare-blocked, open the verify page in a normal browser and save the PDF/screenshot into `evidence/raw/`.
 
-
-## 3a. Livestream primary evidence (user-supplied)
-
-**Artifact:** `evidence/screenshots/tiktok_live_LG839637366.jpg`  
-**SHA-256:** `fec0ae418a0337846404aaa882875ce8ba8bc5d96c9c091de9c2195370a8d6af`  
-**Status:** CONFIRMED primary visual of the auction lot
-
-Visible sticker:
-- Stock ID: `100198387413` (public index hit: NONE / UNKNOWN)
-- Codes: `F VS1 VG EX NON 3.03`
-- MM: `14.39 - 7.67 x 4.78` · TD `62.3%` · Tbl `61%`
-- IGI: `LG839637366` · Shape: `MARQUISE`
-
-**Revision:** Earlier polish “Excellent vs Very Good” conflict is superseded for the on-stream label — the sticker correctly shows **VG** (Very Good), matching official IGI. If checkout text said “Excellent,” treat that as a possible UI/copy misread of `VG EX`.
-
 ## 4. Retail / wholesale pricing
 
 Observed **retail asking** prices for similar 2.8–3.2ct F/VS1 IGI marquises (n=10):
@@ -108,12 +93,12 @@ Telegram: UNKNOWN — no confirmed official Telegram channel identified
 
 ## 6. Fraud hypothesis matrix (ACH)
 
-- **H1**: Legitimate sale of the advertised diamond — subjective posterior 0.379; inconsistency count 1
-- **H2**: Legitimate sale with exaggerated retail-value claims — subjective posterior 0.373; inconsistency count 0
-- **H3**: Genuine diamond shipped but different from advertised certificate — subjective posterior 0.091; inconsistency count 0
-- **H4**: Counterfeit, simulant, or materially misrepresented stone shipped — subjective posterior 0.021; inconsistency count 3
-- **H5**: Seller fails to fulfill the order — subjective posterior 0.091; inconsistency count 1
-- **H6**: Fraudulent impersonation of a legitimate diamond seller — subjective posterior 0.045; inconsistency count 2
+- **H1**: Legitimate sale of the advertised diamond — subjective posterior 0.227; inconsistency count 1
+- **H2**: Legitimate sale with exaggerated retail-value claims — subjective posterior 0.487; inconsistency count 0
+- **H3**: Genuine diamond shipped but different from advertised certificate — subjective posterior 0.097; inconsistency count 0
+- **H4**: Counterfeit, simulant, or materially misrepresented stone shipped — subjective posterior 0.032; inconsistency count 2
+- **H5**: Seller fails to fulfill the order — subjective posterior 0.107; inconsistency count 1
+- **H6**: Fraudulent impersonation of a legitimate diamond seller — subjective posterior 0.049; inconsistency count 2
 
 Diagnostic highlights:
 - E1 (IGI match) supports certificate reality; does not prove the shipped stone will match.
@@ -129,7 +114,7 @@ Diagnostic highlights:
 | Ship-by (seller promised) | UNKNOWN — need user input |
 | Tracking | 9200190390470924693050 |
 | Carrier | USPS |
-| Shipment status | NO_PUBLIC_SCAN_DATA — aggregator reports no information; USPS authoritative portal blocked from this environment. Do not infer transit progress. |
+| Shipment status | USER_REPORTS_TRACKING_WORKS — authoritative USPS status not independently readable from this investigation host (Access Denied / no aggregator data). Awaiting user-provided current status text or screenshot. |
 | Delivery | NOT_DELIVERED_UNVERIFIED |
 
 ### Indicators to watch

@@ -1,0 +1,7 @@
+{
+  "tracking_number": "9200190390470924693050",
+  "user_statement": "tracking works",
+  "investigator_recheck_utc": "2026-10-20T15:53:28.935738+00:00",
+  "investigator_result": "USPS portal Access Denied; parcelsapp still No information",
+  "interpretation": "Do not treat investigator non-access as evidence the number is fake. User can see status that this host cannot scrape."
+}

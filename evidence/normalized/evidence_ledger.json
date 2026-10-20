@@ -392,5 +392,24 @@
       "seller_display": "RoyaleDiamon..."
     },
     "notes": "Primary visual of stone + IGI sleeve during livestream. Sticker polish VG matches official IGI."
+  },
+  {
+    "evidence_id": "tracking_user_says_works",
+    "source_url": "user://chat",
+    "source_title": "User states USPS tracking works",
+    "collection_timestamp_utc": "2026-10-20T15:53:28.936167Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "shipping",
+    "reliability": "C",
+    "evidence_tier": "hearsay",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "tracking_number": "9200190390470924693050",
+      "user_claim": "works"
+    },
+    "notes": "Investigator still blocked from USPS TrackConfirm; need status screenshot/text to confirm events."
   }
 ]
