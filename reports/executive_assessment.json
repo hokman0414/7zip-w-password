@@ -1,6 +1,6 @@
 {
   "case_id": "royale_diamonds",
-  "as_of_utc": "2026-10-20T15:53:28.939713+00:00",
+  "as_of_utc": "2026-10-20T22:22:15.496886+00:00",
   "seller_legitimacy": {
     "status": "CORROBORATED_PUBLIC_PRESENCE",
     "username": "royalediamondslive",
@@ -30,20 +30,25 @@
       "H1"
     ],
     "subjective_posteriors": {
-      "H1": 0.227,
-      "H2": 0.487,
+      "H1": 0.389,
+      "H2": 0.399,
       "H3": 0.097,
       "H4": 0.032,
-      "H5": 0.107,
+      "H5": 0.034,
       "H6": 0.049
     },
-    "summary": "Current evidence most favors legitimate/fulfillable sale with possible value exaggeration (H2/H1). Fulfillment, substitution, and impersonation remain open until delivery + inscription check."
+    "summary": "USPS Accepted scan reduces non-fulfillment risk. Leading hypotheses remain legitimate sale (H1/H2). Residual risk is mainly stone/certificate match at delivery."
   },
   "recommended_actions": [
-    "Manually open USPS tracking for 9200190390470924693050 and archive screenshot (portal blocked here).",
-    "On receipt: verify girdle inscription 'IGI LG839637366' and compare measurements to IGI fields.",
-    "Note polish grade mismatch (Excellent advertised vs Very Good on IGI) for dispute leverage if needed.",
-    "Provide TikTok Shop order ID, seller legal name, and promised ship-by date to tighten corporate OSINT.",
-    "If no USPS acceptance scan by ship-by + 3 business days, open TikTok Shop dispute."
-  ]
+    "Continue monitoring USPS until Delivered.",
+    "On receipt: verify girdle inscription IGI LG839637366 and measurements vs report/sticker.",
+    "Optional: Florida SOS search once TikTok Shop seller legal name is known (Hollywood/Miami lead).",
+    "Retain livestream + USPS screenshots as dispute evidence if contents mismatch."
+  ],
+  "fulfillment": {
+    "status": "CONFIRMED_IN_PROGRESS",
+    "summary": "Accepted \u2014 Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot",
+    "label_origin": "HOLLYWOOD, FL 33019",
+    "latest_scan": "MIAMI, FL 33180 \u2014 Accepted / Package Acceptance Pending"
+  }
 }

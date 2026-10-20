@@ -1,0 +1,12 @@
+{
+  "case_id": "royale_diamonds",
+  "tracking_number": "9200190390470924693050",
+  "label_origin": "HOLLYWOOD, FL 33019",
+  "acceptance_scan": "MIAMI, FL 33180",
+  "status": "CORROBORATED",
+  "manual_tasks": [
+    "Search Florida SOS / OpenCorporates for jewelry or diamond entities tied to Hollywood/Miami and TikTok Shop seller legal name once known",
+    "Do not attribute private residence from ZIP alone"
+  ],
+  "collected_at_utc": "2026-10-20T22:22:15.488409+00:00"
+}

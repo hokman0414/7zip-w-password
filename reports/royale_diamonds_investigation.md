@@ -1,7 +1,7 @@
 # Royale Diamonds Investigation Report
 
 **Case ID:** `royale_diamonds`  
-**As of (UTC):** 2026-10-20T15:53:28.939713+00:00  
+**As of (UTC):** 2026-10-20T22:22:15.496886+00:00  
 **Method:** Evidence-first OSINT; competing hypotheses; no fabricated sources.
 
 ## 1. Executive intelligence assessment
@@ -13,7 +13,7 @@
 | IGI certificate LG839637366 | CONFIRMED | Exists; lab-grown marquise 3.03ct F / VS1 / CVD |
 | Spec match to listing | MOSTLY MATCH / Polish CONTRADICTED | IGI polish = Very Good; listing said Excellent |
 | Economic plausibility of $350 | CORROBORATED as plausible auction price | Below observed retail-ask median; not proof of fraud |
-| Fulfillment | UNKNOWN | Tracking `9200190390470924693050` — USER_REPORTS_TRACKING_WORKS — authoritative USPS status not independently readable from this investigation host (Access Denied / no aggregator data). Awaiting user-provided current status text or screenshot. |
+| Fulfillment | UNKNOWN | Tracking `9200190390470924693050` — Accepted — Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot |
 | Leading hypotheses | Qualitative | H2, H1 (subjective posteriors, not base rates) |
 
 ### Recommended actions
@@ -30,7 +30,7 @@ Append-only ledger files:
 - `evidence/normalized/evidence_ledger.json`
 - `evidence/normalized/evidence_ledger.csv`
 
-Records currently persisted: **20**
+Records currently persisted: **21**
 
 Every factual claim below cites evidence IDs or source URLs actually accessed in this run.
 
@@ -93,11 +93,11 @@ Telegram: UNKNOWN — no confirmed official Telegram channel identified
 
 ## 6. Fraud hypothesis matrix (ACH)
 
-- **H1**: Legitimate sale of the advertised diamond — subjective posterior 0.227; inconsistency count 1
-- **H2**: Legitimate sale with exaggerated retail-value claims — subjective posterior 0.487; inconsistency count 0
+- **H1**: Legitimate sale of the advertised diamond — subjective posterior 0.389; inconsistency count 1
+- **H2**: Legitimate sale with exaggerated retail-value claims — subjective posterior 0.399; inconsistency count 0
 - **H3**: Genuine diamond shipped but different from advertised certificate — subjective posterior 0.097; inconsistency count 0
 - **H4**: Counterfeit, simulant, or materially misrepresented stone shipped — subjective posterior 0.032; inconsistency count 2
-- **H5**: Seller fails to fulfill the order — subjective posterior 0.107; inconsistency count 1
+- **H5**: Seller fails to fulfill the order — subjective posterior 0.034; inconsistency count 3
 - **H6**: Fraudulent impersonation of a legitimate diamond seller — subjective posterior 0.049; inconsistency count 2
 
 Diagnostic highlights:
@@ -114,8 +114,8 @@ Diagnostic highlights:
 | Ship-by (seller promised) | UNKNOWN — need user input |
 | Tracking | 9200190390470924693050 |
 | Carrier | USPS |
-| Shipment status | USER_REPORTS_TRACKING_WORKS — authoritative USPS status not independently readable from this investigation host (Access Denied / no aggregator data). Awaiting user-provided current status text or screenshot. |
-| Delivery | NOT_DELIVERED_UNVERIFIED |
+| Shipment status | Accepted — Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot |
+| Delivery | NOT_DELIVERED |
 
 ### Indicators to watch
 - **seller_impersonation**: Sudden username/branding change; Mismatched shop legal name vs livestream branding
@@ -126,6 +126,23 @@ Diagnostic highlights:
 - **diamond_substitution**: Measurements off beyond tolerance; Different clarity/color under gemologist check
 - **unusual_refund_behavior**: Pressure to accept store credit only; Refusal to use TikTok Shop dispute channel
 
+
+
+## 7a. USPS tracking (user screenshot)
+
+**Artifact:** `evidence/screenshots/usps_tracking_user_9200190390470924693050.jpg`  
+**SHA-256:** `d9297107a1789cd6b4bfb20bc207e444b9a0edb848dd6de2ca22c42c8da47d72`  
+**Status:** CONFIRMED (primary)
+
+| Event | When | Where |
+|---|---|---|
+| Pre-Shipment Info Sent to USPS | October 19, 2026 | — |
+| Shipping Label Created | October 19, 2026, 5:34 pm | HOLLYWOOD, FL 33019 |
+| Accepted — Shipment Received, Package Acceptance Pending | October 20, 2026, 12:53 pm | MIAMI, FL 33180 |
+
+Not yet reached: On the Way → Preparing for Delivery → Out for Delivery → Delivered.
+
+**Note:** 2026 dates match the purchase/investigation timeline (not treated as anomalous).
 
 ## 8. Evidence gaps / blocked sources
 

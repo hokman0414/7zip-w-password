@@ -411,5 +411,44 @@
       "user_claim": "works"
     },
     "notes": "Investigator still blocked from USPS TrackConfirm; need status screenshot/text to confirm events."
+  },
+  {
+    "evidence_id": "usps_tracking_user_screenshot",
+    "source_url": "https://tools.usps.com/",
+    "source_title": "User USPS Tracking History screenshot \u2014 9200190390470924693050",
+    "collection_timestamp_utc": "2026-10-20T22:22:15.489334Z",
+    "publication_timestamp_utc": null,
+    "local_path": "evidence/screenshots/usps_tracking_user_9200190390470924693050.jpg",
+    "sha256": "d9297107a1789cd6b4bfb20bc207e444b9a0edb848dd6de2ca22c42c8da47d72",
+    "source_category": "shipping",
+    "reliability": "A",
+    "evidence_tier": "primary",
+    "independently_corroborates": [
+      "tracking_user_says_works"
+    ],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "current_status": "Accepted",
+      "label_origin": "HOLLYWOOD, FL 33019",
+      "acceptance": "MIAMI, FL 33180",
+      "events": [
+        {
+          "status": "Pre-Shipment Info Sent to USPS",
+          "date": "October 19, 2026",
+          "location": null
+        },
+        {
+          "status": "Shipping Label Created",
+          "date": "October 19, 2026, 5:34 pm",
+          "location": "HOLLYWOOD, FL 33019"
+        },
+        {
+          "status": "Accepted \u2014 Shipment Received, Package Acceptance Pending",
+          "date": "October 20, 2026, 12:53 pm",
+          "location": "MIAMI, FL 33180"
+        }
+      ]
+    },
+    "notes": "Official USPS mobile tracking history provided by purchaser."
   }
 ]

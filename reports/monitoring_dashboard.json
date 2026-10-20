@@ -5,41 +5,30 @@
   "seller_promised_ship_by_date": null,
   "tracking_number": "9200190390470924693050",
   "carrier": "USPS",
-  "shipment_status": "USER_REPORTS_TRACKING_WORKS \u2014 authoritative USPS status not independently readable from this investigation host (Access Denied / no aggregator data). Awaiting user-provided current status text or screenshot.",
-  "delivery_status": "NOT_DELIVERED_UNVERIFIED",
-  "refund_eligibility": {
-    "note": "TikTok livestream auction purchases often final sale; disputes may still apply if not as described / non-delivery.",
-    "action": "Check TikTok Shop order detail for return window and open dispute deadlines"
-  },
-  "probes": [
+  "shipment_status": "Accepted \u2014 Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot",
+  "delivery_status": "NOT_DELIVERED",
+  "label_created": "2026-10-19 17:34 HOLLYWOOD, FL 33019",
+  "events": [
     {
-      "source": "usps",
-      "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
-      "http_status": 200,
-      "status": "ok",
-      "blocked": false
+      "status": "Pre-Shipment Info Sent to USPS",
+      "date": "October 19, 2026",
+      "location": null
     },
     {
-      "source": "parcelsapp",
-      "url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
-      "http_status": 200,
-      "no_information": true
+      "status": "Shipping Label Created",
+      "date": "October 19, 2026, 5:34 pm",
+      "location": "HOLLYWOOD, FL 33019"
+    },
+    {
+      "status": "Accepted \u2014 Shipment Received, Package Acceptance Pending",
+      "date": "October 20, 2026, 12:53 pm",
+      "location": "MIAMI, FL 33180"
     }
   ],
-  "collected_at_utc": "2026-10-20T15:53:28.935549+00:00",
-  "tracking_format": {
-    "tracking_number": "9200190390470924693050",
-    "format_looks_like_usps": true,
-    "carrier_guess": "USPS"
+  "evidence": "usps_tracking_user_screenshot",
+  "refund_eligibility": {
+    "note": "TikTok livestream auction purchases often final sale; disputes may still apply if not as described / non-delivery.",
+    "action": "Continue monitoring until Delivered; then verify girdle inscription."
   },
-  "user_claim": {
-    "claim": "USPS tracking number works when checked by purchaser",
-    "status": "CORROBORATED_ONLY_BY_USER_STATEMENT",
-    "collected_at_utc": "2026-10-20T15:53:28.935536+00:00"
-  },
-  "investigator_access": {
-    "usps_tools": "BLOCKED_ACCESS_DENIED",
-    "parcelsapp": "LOADED_BUT_NO_INFORMATION",
-    "note": "Environment/IP cannot view USPS TrackConfirm; does not imply invalid tracking number."
-  }
+  "collected_at_utc": "2026-10-20T22:22:15.488409+00:00"
 }
