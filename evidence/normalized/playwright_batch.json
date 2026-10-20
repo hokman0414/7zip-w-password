@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.igi.org/Verify-Your-Report/?r=LG839637366",
+    "ts": "2026-10-20T02:30:00.534173+00:00",
+    "status": "collected",
+    "title": "403 - Forbidden",
+    "html_path": "evidence/raw/playwright_a7fedc7f9c.html",
+    "sha256": "9df2d3e8952ed020a16ebde56c1232f3b6c19fc46229f3ac64cae2b3db94de40",
+    "screenshot": "evidence/screenshots/igi_a7fedc7f9c.png",
+    "body_excerpt": "403 - Forbidden\n\nAccess to this page is forbidden."
+  },
+  {
+    "url": "https://lookup.igi.org/",
+    "ts": "2026-10-20T02:30:05.069171+00:00",
+    "status": "collected",
+    "title": "IGI | Jewelry & Gemstone Grading | International Gemological Institute",
+    "html_path": "evidence/raw/playwright_9d0ad289a8.html",
+    "sha256": "f530c5b00d2ec09fc14dd5bcda587c21957e63cbca43eac0753b5d94920d4eb5",
+    "screenshot": "evidence/screenshots/igi_9d0ad289a8.png",
+    "body_excerpt": "ABOUT US \nREPORTS \nEDUCATION \nGEMBLOG\nSHOWS\nCONSUMER SERVICES\nCONTACT \n \nVERIFY YOUR REPORT\nLEARN MORE\nIGI REPORTS\nIGI grades the widest variety of gemstones and jewelry in more corners of the world than any other gemological organization.\nAs the global leader for jewelry assessment our experience and reach are unrivaled. Renowned for diamonds and colored gemstones, we are equally trusted with the grading of pearls, exotic carvings, fine jewelry pieces and modern synthetics and simulants.\nDiamond Report\nJewelry Report\nColored Stone Report\nLab Grown Report\nCommitted to Excellence\nLEARN MORE\nIGI EDUCATION\nEnroll in IGI\u2019s School of Gemology to discover the breathtaking world of diamonds, gemstones and jewelry. With more courses covering more topics in more countries than any other organization, IGI is the perfect choice for invested jewelry professionals and consumer enthusiasts alike.\nPolished Diamond\nRough Diamond\nColored Stones\nPearl\nJewelry Design\nJewelry CAD\nRetail Workshops\nPolished Diamond\n\nThis course is fast-paced and will quickly bring you to a level where you can identify, grade and price diamonds according to international grading and trading practices. It will give you a thorough understanding of the grading standards followed worldwide and is ideally suited for individuals with tight time constraints.\n\nLEARN MORE\nRetail Support\nDISCOVER\n IGI BLOG & NEWS\nEnjoy a collection of information from the world of diamonds, colored gemstones and fine jewelry.\nSingle Stone Repurposes Vintage Diamonds For A New Life\n\nThere\u2019s been a lot of excitement around vintage these days. Celebrities are showing up on the red carpet in vintage designer creations and real people are shopping in thrift stores...\n\nLEARN MORE\n74 Ct Diamond Necklace Headlines HK's Magnificent Jewels Auction\n\nAn internally flawless fancy vivid yellow diamond set in a diamond studded necklace will headline Sotheby's Magnificent Jewels auction in LEARN MORE\n\nWhat A Gem - Get To Know Jewelry Designer Ray Griffiths\n\nBorn in Sydney and now based in New York City, designer Ray Griffiths is known for his bold, gem-forward pieces, which always give the stone or stones pride of...\n\nLEARN MORE\nSapphire, Ruby & Diamond Rings Lead Bonham's Auction\n\nA Ruser ring with a 21.15 carat sapphire and diamond side stones set in platinum surpassed its pre-sale estimate by four times, commanding $127,500 when the gavel fell at...\n\nLEARN MORE\nREAD ALL NEWS AND UPDATES\nContact your local IGI\nCONTACT\n GEMSTONE GUIDES\nDiamond 4Cs\nDiamond Shapes\nJewelry Care Tips\nWe Train the Best Gemologists in the World\nENROLL NOW\nIGI's supreme position in the gemological world is no coincidence. It is the result of continuous research, support and synergy with professionals and consumers alike.\nABOUT US\nAbout IGI\n\nPress Room\n\nTimeline\n\nAffiliations\n\nImportance of Certification\n\nREPORTS\nOur Expertise\n\nHow to Read a Report\n\nDiamond Reports\n\nJewelry Report\n\nColored Stone Report\n\nScreening Services\n\nSorting Services\n\nSecurity Seal\n\nLaserscribe\n\nVerify Your Report\n\nEDUCATION\nGemological Education\n\nSchool Courses\n\nCourse Schedules\n\nTuition Fees\n\nEnrollment Form\n\neLearning Courses\n\nEnquiry Form\n\nGemstone Articles\n\nRetail Support\n\nLearn with Videos\n\nVerify a Diploma\n\nOther\nGemblog\nShows\nConsumer Services\nContact Us\n\n2020 \u00a9 IGI Ltd. All rights reserved\n\nTerms & Conditions \u00a0|\u00a0 Privacy policy \u00a0|\u00a0 Terms of use\n\n\u6caa ICP \u5907 19000101 \u53f7 -1\n\nFOLLOW IGI  \nPowered by Minds!\nIP Geolocation by geoPlugin\n\u00a0",
+    "found_input": "input[name=\"r\"]",
+    "interact_error": "TimeoutError('Locator.fill: Timeout 30000ms exceeded.\\nCall log:\\n  - waiting for locator(\"input[name=\\\\\"r\\\\\"]\").first\\n    - locator resolved to <input name=\"r\" type=\"text\" required=\"\" id=\"verifyReport_h\" class=\"form-control\" placeholder=\"Enter Report No.\"/>\\n    - fill(\"LG839637366\")\\n  - attempting fill action\\n    2 \u00d7 waiting for element to be visible, enabled and editable\\n      - element is not visible\\n    - retrying fill action\\n    - waiting 20ms\\n    2 \u00d7 waiting for element to be visible, enabled and editable\\n      - element is not visible\\n    - retrying fill action\\n      - waiting 100ms\\n    60 \u00d7 waiting for element to be visible, enabled and editable\\n       - element is not visible\\n     - retrying fill action\\n       - waiting 500ms\\n')"
+  },
+  {
+    "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+    "ts": "2026-10-20T02:30:45.440904+00:00",
+    "final_url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+    "title": "Access Denied",
+    "sha256": "8544e55eabddac32de495c5100457d182e105157de1f1e38d08a32df5b8db4c5",
+    "html_path": "evidence/raw/usps_tracking_playwright.html",
+    "screenshot": "evidence/screenshots/usps_tracking.png",
+    "body_excerpt": "Access Denied\nYou don't have permission to access \"http://tools.usps.com/go/TrackConfirmAction?\" on this server.\n\nReference #18.d5ab3717.1792463445.56971e91\n\nhttps://errors.edgesuite.net/18.d5ab3717.1792463445.56971e91",
+    "status": "collected"
+  },
+  {
+    "url": "https://www.tiktok.com/@royalediamondslive",
+    "ts": "2026-10-20T02:30:53.567612+00:00",
+    "final_url": "https://www.tiktok.com/@royalediamondslive",
+    "title": "RoyaleDiamonds (@royalediamondslive) | TikTok",
+    "sha256": "a897420caf4bd7061eafc45c3b18db76eb4bc31bcd909c71a81955ecb74a7770",
+    "html_path": "evidence/raw/tiktok_royalediamondslive.html",
+    "screenshot": "evidence/screenshots/tiktok_royalediamondslive.png",
+    "body_excerpt": "TikTok Shop is now available on web!\n\nBrowse your favorite items.\n\nTikTok\nSearch\nFor You\nShop\nExplore\nFollowing\nShort dramas\nLIVE\nUpload\nProfile\nMore\nLog in\nCompany\nProgram\nTerms & Policies\n\u00a9 2026 TikTok\nRoyaleDiamonds\nroyalediamondslive\n2\nFollowing\n83.9K\nFollowers\n100.5K\nLikes\nFollow\nMessage\n\ud83d\udc8e Premium Lab-Grown Diamonds\n\ud83d\udcc4 IGI certified & CVD growth\n\ud83d\udcb0 Wholesale pricing \u2014 no middleman\n\ud83d\udce6 Fast shipping | Always available\n\ud83d\udd25 IG - @RoyaleDiamondsLive\nLIVE Event\n\u00a0\u00b7\u00a0\nOct 19, 10:15 PM\n|\n3\n\nSuggested accounts\n\nView all\n\ntate mcrae\n\n14M followers\n\nFollow\n\nBad Bunny\n\n41.4M followers\n\nFollow\n\nThe Rock\n\n79.9M followers\n\nFollow\n\nOlivia Rodrigo\n\n28.2M followers\n\nFollow\n\nrauwalejandro\n\n18.7M followers\n\nFollow\n\nShakira\n\n56.7M followers\n\nFollow\n\nMarshmello\n\n25.5M followers\n\nFollow\n\nTaylor Swift\n\n33.4M followers\n\nFollow\n\nSelena Gomez\n\n58.6M followers\n\nFollow\n\nPost Malone\n\n17.6M followers\n\nFollow\n\nSam Smith\n\n9.1M followers\n\nFollow\n\nNicki Minaj\n\n22.8M followers\n\nFollow\n\nGordon Ramsay\n\n40.7M followers\n\nFollow\n\nSia\n\n6.2M followers\n\nFollow\n\nTerry Crews\n\n25M followers\n\nFollow\n\nJ Balvin\n\n22.4M followers\n\nFollow\n\nEd Sheeran\n\n18.1M followers\n\nFollow\n\nBILLIE EILISH\n\n74.7M followers\n\nFollow\n\nCooking With Marshmello\n\n4.4M followers\n\nFollow\n\nBebe Rexha\n\n8.8M followers\n\nFollow\n\nVideos\n\nReposts\n\nLiked\n\nLatest\nPopular\nOldest\n\nSomething went wrong\n\nSorry about that! Please try again later.\n\nRefresh\nLog in",
+    "status": "collected"
+  },
+  {
+    "url": "https://www.ritani.com/search?q=LG839637366",
+    "ts": "2026-10-20T02:30:59.213326+00:00",
+    "final_url": "https://www.ritani.com/search?q=LG839637366",
+    "title": "Just a moment...",
+    "sha256": "3d153f086cba1b12611dfcbbc88314399cadf50e90941ad451e9fa3363074109",
+    "html_path": "evidence/raw/ritani_search_LG839637366.html",
+    "screenshot": "evidence/screenshots/ritani_search_LG839637366.png",
+    "body_excerpt": "www.ritani.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a4d49a8c896787a6\nPerformance and Security by Cloudflare\nPrivacy",
+    "status": "collected"
+  }
+]

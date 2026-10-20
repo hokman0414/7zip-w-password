@@ -1,0 +1,123 @@
+[
+  {
+    "id": "igi_verify_page",
+    "source_url": "https://www.igi.org/Verify-Your-Report/?r=LG839637366",
+    "source_category": "diamond_cert",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "igi_lookup",
+    "source_url": "https://lookup.igi.org/",
+    "source_category": "diamond_cert",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "collected",
+    "http_status": 200,
+    "final_url": "https://lookup.igi.org/",
+    "content_type": "text/html; charset=UTF-8",
+    "local_path": "/workspace/evidence/raw/igi_lookup.html",
+    "sha256": "3009e809adb8861e29eb4f9b8493ac0de24a06fef6576408e7736c151007d0df",
+    "bytes": 80930
+  },
+  {
+    "id": "igi_verify_alt",
+    "source_url": "https://www.igi.org/verify-your-report/",
+    "source_category": "diamond_cert",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "mashable_tiktok_auctions",
+    "source_url": "https://mashable.com/life/tiktok-shop-lab-grown-diamond-live-auctions",
+    "source_category": "media",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "collected",
+    "http_status": 200,
+    "final_url": "https://mashable.com/life/tiktok-shop-lab-grown-diamond-live-auctions",
+    "content_type": "text/html; charset=UTF-8",
+    "local_path": "/workspace/evidence/raw/mashable_tiktok_auctions.html",
+    "sha256": "e7887f0de583348e6d2f6f14702a8e896a92db9e449a74d5a1b28f7096bd7ad4",
+    "bytes": 264713
+  },
+  {
+    "id": "instore_tiktok_auctions",
+    "source_url": "https://instoremag.com/live-diamond-auctions-are-tiktok-shops-newest-craze/",
+    "source_category": "media",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "collected",
+    "http_status": 200,
+    "final_url": "https://instoremag.com/live-diamond-auctions-are-tiktok-shops-newest-craze/",
+    "content_type": "text/html; charset=UTF-8",
+    "local_path": "/workspace/evidence/raw/instore_tiktok_auctions.html",
+    "sha256": "b419c3b79cc9f89ad7ff9e0e370bc703ec2728e147223c4e109793ef07ddb525",
+    "bytes": 195068
+  },
+  {
+    "id": "reddit_royale_discussion",
+    "source_url": "https://www.reddit.com/r/labdiamond/comments/1vwjjf6/7ct_emerald_cut_f_vvs2/.json",
+    "source_category": "complaints",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Blocked'>"
+  },
+  {
+    "id": "ritani_nearby_cert",
+    "source_url": "https://www.ritani.com/products/1-55-carat-marquise-lab-diamond-very-good-cut-g-color-vs2-clarity-igi-lg839636637-sku-d-3s59ohd9y5",
+    "source_category": "inventory",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "usps_tracking_tools",
+    "source_url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+    "source_category": "shipping",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "collected",
+    "http_status": 200,
+    "final_url": "https://tools.usps.com/tracking/?tLabels=9200190390470924693050",
+    "content_type": "text/html",
+    "local_path": "/workspace/evidence/raw/usps_tracking_tools.html",
+    "sha256": "2b65847e38a1ceb9078d75e69bebe7b83dfefc0ba23d74d998b68fc6045ba6dd",
+    "bytes": 2293
+  },
+  {
+    "id": "ritani_search_cert",
+    "source_url": "https://www.ritani.com/search?q=LG839637366",
+    "source_category": "inventory",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "brilliance_search",
+    "source_url": "https://www.brilliance.com/search?q=LG839637366",
+    "source_category": "inventory",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "rarecarat_home",
+    "source_url": "https://www.rarecarat.com/",
+    "source_category": "inventory",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "blocked_or_error",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "opencorporates_search",
+    "source_url": "https://opencorporates.com/companies?q=Royale+Diamonds",
+    "source_category": "business",
+    "collection_timestamp_utc": "2026-10-20T02:28:54.839339+00:00",
+    "status": "collected",
+    "http_status": 200,
+    "final_url": "https://opencorporates.com/companies?q=Royale+Diamonds",
+    "content_type": "text/html; charset=utf-8",
+    "local_path": "/workspace/evidence/raw/opencorporates_search.html",
+    "sha256": "28732ae1c7f0c511a0d3250b5d5f80e4d1013ffbf159452ae7924fbdbef12872",
+    "bytes": 21315
+  }
+]

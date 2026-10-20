@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+    "ts": "2026-10-20T15:39:28.546297+00:00",
+    "final_url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+    "title": "Access Denied",
+    "http": 403,
+    "excerpt": "Access Denied\nYou don't have permission to access \"http://tools.usps.com/go/TrackConfirmAction?\" on this server.\n\nReference #18.c7b52e17.1792510768.16507b73\n\nhttps://errors.edgesuite.net/18.c7b52e17.1792510768.16507b73",
+    "screenshot": "evidence/screenshots/tracking_recheck_0.png",
+    "sha256": "4bc087dffeeab6c3650c2fa5dc98968d466f4077ca46ca103990b48810064022",
+    "keywords": [
+      "usps",
+      "error"
+    ]
+  },
+  {
+    "url": "https://tools.usps.com/go/TrackConfirmAction_input?qtc_tLabels1=9200190390470924693050",
+    "ts": "2026-10-20T15:39:36.705018+00:00",
+    "final_url": "https://tools.usps.com/go/TrackConfirmAction_input?qtc_tLabels1=9200190390470924693050",
+    "title": "Access Denied",
+    "http": 403,
+    "excerpt": "Access Denied\nYou don't have permission to access \"http://tools.usps.com/go/TrackConfirmAction_input?\" on this server.\n\nReference #18.c7b52e17.1792510776.1650f8ca\n\nhttps://errors.edgesuite.net/18.c7b52e17.1792510776.1650f8ca",
+    "screenshot": "evidence/screenshots/tracking_recheck_1.png",
+    "sha256": "bcfa4dd20f0096c92df592e79d89fb530d419d04d3f7b93a17f3b629bea4ece1",
+    "keywords": [
+      "usps",
+      "error"
+    ]
+  },
+  {
+    "url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
+    "ts": "2026-10-20T15:39:44.788296+00:00",
+    "final_url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
+    "title": "Universal Parcel Tracking - Global Package Tracking",
+    "http": 200,
+    "excerpt": " Parcels\n PARCELS PRO\n COURIERS\n API \nCONTACTS\n ENGLISH \nGlobal Package Tracking\n\nTrack USPS, Canada Post, Royal Mail, DHL, China Post, Fedex, UPS, Amazon, Deutsche Post, AliExpress, Wish, ShopeeShip Packages\n\n TRACK PACKAGE\n9200190390470924693050\nDiscover more\nShip Packages\nCompare Couriers\nMail\nAdd package title\n20 Oct 2026\nNo information about your package.\nWhy is my parcel not tracking?\nTrack any package, freight and shipment\n\nHaving bought in the online store always want to know where the package is now? To save time checking the sites of postal companies manually, I created \"Parcels\" website and mobile apps which will automatically check every relevant postal, courier and logistics company website on your behalf. Ship Packages\n\nTo find out where your parcel is, you need to know only tracking number of your package.\n\nWhat is a tracking number?\n\nTracking number or tracking code is a unique number assigned to each package, which allows you to monitor the movement of the parcel between the countries or even inside one country.\n\nTracking numbers can be international or traceable only within the country of the sender.\n\nThe tracking number in the format of the Universal Postal Union looks like RA123456789CN, where the first 2 letters are the type of package and the last 2 letters are the code of the country of origin. Packages with such numbers can be tracked right until delivery.\n\nOther shipments can be delivered by courier, transport and logistics companies, and how tracking codes look can vary a lot: CTAFT0000160477YQ, UPAAB000000251682107, AEL10105033654UA, SGADN143797855. Such packages are not always trackable in the recipient's country, and you'll have to wait for notification from the Post Office or a call from a courier company.\n\nTracking eBay order\n\neBay sellers use multiple delivery and postal companies depending on item price and selected \u00a0shipping method. Whether it's SpeedPAK, Pitney Bowes, Global \u00a0Shipping Program, China Post, Winit, Yanwen or any other shipping company we've got your back. Read our extensive guide to tracking eBay orders.\n\nDelivery time\n\nWondering how long it will take for your order to arrive to United States, UK, Canada, Australia or any other country? Wonder no more, with our state of the art delivery time estimation algorithm you'll always informed when to expect your parcel. We collect extensive delivery time statistics for each package going into each country and city and will use all of this data to get you most accurate estimated date of arrival.Ship Packages\n\nDiscover more\nOrder Custom Boxes\ne-commerce\neCommerce\nTRACKING\nSHEIN tracking\nPRO number tracking\nAWB tracking\nContainer tracking\nUSPS tracking\nAmazon tracking\nFedEx tracking\nUPS tracking\nDHL eCommerce tracking\nSea cargo hub\nAir cargo hub\nRESOURCES\nStuck in transit\nStuck in customs\nDelivered but not received\nAirport directory\nPort directory\nAWB prefixes\nIMPC directory\nCarrier directory\nPackage not tracking\nGUIDES\nTracking status guide\nTracking number or order number?\nParcel locker storage times\nDEVELOPERS\nAPI overview\nDashboard\nDocumentation\nPricing\nTracking widget\nINSIGHTS\nDelivery Times\nShipping Reports\nNetwork Atlas\nPulse Gallery\nWorld Pulse\nSignal Current\nCOMPANY\nAbout\nTerms\nPrivacy\nContact\n\n\u00a9 2017-2026 ParcelsShip Packages\n\n\ud83c\uddec\ud83c\udde7\nEnglish\n\u25be",
+    "screenshot": "evidence/screenshots/tracking_recheck_2.png",
+    "sha256": "1ae161b2f6f585be04fa173a00d130d0d493c4af91c5adf567fce251e737c835",
+    "keywords": [
+      "delivered",
+      "in transit",
+      "usps",
+      "status",
+      "no information"
+    ]
+  },
+  {
+    "url": "https://www.packagemapping.com/track/auto/9200190390470924693050",
+    "ts": "2026-10-20T15:39:53.672171+00:00",
+    "error": "Error('Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.packagemapping.com/track/auto/9200190390470924693050\\nCall log:\\n  - navigating to \"https://www.packagemapping.com/track/auto/9200190390470924693050\", waiting until \"domcontentloaded\"\\n')"
+  },
+  {
+    "url": "https://www.trackingmore.com/track/en/9200190390470924693050",
+    "ts": "2026-10-20T15:39:53.746172+00:00",
+    "error": "Error('Page.goto: Navigation to \"https://www.trackingmore.com/track/en/9200190390470924693050\" is interrupted by another navigation to \"chrome-error://chromewebdata/\"\\nCall log:\\n  - navigating to \"https://www.trackingmore.com/track/en/9200190390470924693050\", waiting until \"domcontentloaded\"\\n')"
+  }
+]

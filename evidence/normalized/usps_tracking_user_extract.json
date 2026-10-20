@@ -1,0 +1,50 @@
+{
+  "tracking_number": "9200190390470924693050",
+  "carrier": "USPS",
+  "source": "user_supplied_official_usps_screenshot",
+  "source_url_visible": "https://tools.usps.com/",
+  "local_path": "evidence/screenshots/usps_tracking_user_9200190390470924693050.jpg",
+  "sha256": "d9297107a1789cd6b4bfb20bc207e444b9a0edb848dd6de2ca22c42c8da47d72",
+  "collection_timestamp_utc": "2026-10-20T22:22:15.488409+00:00",
+  "status": "CONFIRMED",
+  "current_status": "Accepted",
+  "current_detail": "Shipment Received, Package Acceptance Pending",
+  "current_location": "MIAMI, FL 33180",
+  "current_timestamp_local": "October 20, 2026, 12:53 pm",
+  "events": [
+    {
+      "status": "Pre-Shipment Info Sent to USPS",
+      "date": "October 19, 2026",
+      "location": null
+    },
+    {
+      "status": "Shipping Label Created",
+      "date": "October 19, 2026, 5:34 pm",
+      "location": "HOLLYWOOD, FL 33019"
+    },
+    {
+      "status": "Accepted \u2014 Shipment Received, Package Acceptance Pending",
+      "date": "October 20, 2026, 12:53 pm",
+      "location": "MIAMI, FL 33180"
+    }
+  ],
+  "future_milestones_not_yet_reached": [
+    "On the Way",
+    "Preparing for Delivery",
+    "Out for Delivery",
+    "Delivered"
+  ],
+  "geographic_leads": {
+    "label_origin_zip": "33019",
+    "label_origin_city": "Hollywood, FL",
+    "acceptance_zip": "33180",
+    "acceptance_city": "Miami, FL",
+    "note": "Public business-facing shipping geography only; do not treat as confirmed legal address of seller owners."
+  },
+  "date_context": "Event dates in 2026 are consistent with case purchase date 2026-10-19 and investigation clock; not treated as anomalous.",
+  "implications": {
+    "fulfillment_started": true,
+    "fake_tracking_likelihood": "reduced (official USPS page events with FL facility scans)",
+    "h5_nonfulfillment": "less supported while acceptance progresses"
+  }
+}

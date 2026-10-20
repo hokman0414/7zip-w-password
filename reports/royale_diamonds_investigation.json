@@ -1,0 +1,1361 @@
+{
+  "executive": {
+    "case_id": "royale_diamonds",
+    "as_of_utc": "2026-10-20T22:22:15.496886+00:00",
+    "seller_legitimacy": {
+      "status": "CORROBORATED_PUBLIC_PRESENCE",
+      "username": "royalediamondslive",
+      "summary": "Public media and a live TikTok profile corroborate @royalediamondslive as the Royale Diamonds livestream auction seller. Legal business entity remains UNKNOWN."
+    },
+    "certificate_status": {
+      "status": "CONFIRMED",
+      "report": "LG839637366",
+      "summary": "Official IGI lookup confirms a laboratory-grown marquise 3.03ct F VS1 CVD diamond with matching measurements. Advertised polish Excellent is CONTRADICTED by IGI Very Good.",
+      "polish_mismatch": false
+    },
+    "economic_plausibility": {
+      "purchase_usd": 350,
+      "assessment": {
+        "economically_plausible": true,
+        "unusually_favorable_vs_retail_asks": true,
+        "consistent_with_auction_liquidation": true,
+        "below_credible_acquisition_cost": "UNKNOWN",
+        "suspicious_vs_verified_wholesale": "UNKNOWN",
+        "rationale": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+      },
+      "summary": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+    },
+    "fraud_risk": {
+      "leading_hypotheses": [
+        "H2",
+        "H1"
+      ],
+      "subjective_posteriors": {
+        "H1": 0.389,
+        "H2": 0.399,
+        "H3": 0.097,
+        "H4": 0.032,
+        "H5": 0.034,
+        "H6": 0.049
+      },
+      "summary": "USPS Accepted scan reduces non-fulfillment risk. Leading hypotheses remain legitimate sale (H1/H2). Residual risk is mainly stone/certificate match at delivery."
+    },
+    "recommended_actions": [
+      "Continue monitoring USPS until Delivered.",
+      "On receipt: verify girdle inscription IGI LG839637366 and measurements vs report/sticker.",
+      "Optional: Florida SOS search once TikTok Shop seller legal name is known (Hollywood/Miami lead).",
+      "Retain livestream + USPS screenshots as dispute evidence if contents mismatch."
+    ],
+    "fulfillment": {
+      "status": "CONFIRMED_IN_PROGRESS",
+      "summary": "Accepted \u2014 Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot",
+      "label_origin": "HOLLYWOOD, FL 33019",
+      "latest_scan": "MIAMI, FL 33180 \u2014 Accepted / Package Acceptance Pending"
+    }
+  },
+  "igi": {
+    "report_number": "LG839637366",
+    "verification_status": "CONFIRMED",
+    "source_url": "https://lookup.igi.org/igi_new.php?r=LG839637366",
+    "verify_page": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366",
+    "http_status": 200,
+    "fields": {
+      "Report Number": "LG839637366",
+      "Report Date": "September 19, 2026",
+      "Description": "LABORATORY GROWN DIAMOND",
+      "Shape And Cut": "MARQUISE BRILLIANT",
+      "Carat Weight": "3.03 Carats",
+      "Color Grade": "F",
+      "Clarity Grade": "VS 1",
+      "Polish": "VERY GOOD",
+      "Symmetry": "EXCELLENT",
+      "Measurements": "14.39 x 7.67 x 4.78 mm",
+      "Table Size": "61%",
+      "Crown Height": "13.5% - 34.8\u00b0",
+      "Pavilion Depth": "44.5% - 40.5\u00b0",
+      "Girdle Thickness": "MEDIUM TO SLIGHTLY THICK (FACETED)",
+      "Culet": "POINTED",
+      "Total Depth": "62.3%",
+      "Fluorescence": "NONE",
+      "Comments": "This Laboratory Grown Diamond was created by Chemical Vapor Deposition (CVD) growth process Type IIa",
+      "Inscription(s)": "IGI LG839637366"
+    },
+    "plot_image_url": "https://igi-global-plot.s3.ap-south-1.amazonaws.com/839637366.jpg",
+    "comparisons": [
+      {
+        "field": "report_number",
+        "igi": "LG839637366",
+        "advertised": "LG839637366",
+        "result": "MATCH"
+      },
+      {
+        "field": "shape",
+        "igi": "MARQUISE BRILLIANT",
+        "advertised": "MARQUISE BRILLIANT",
+        "result": "MATCH"
+      },
+      {
+        "field": "carat",
+        "igi": "3.03 Carats",
+        "advertised": "3.03 Carats",
+        "result": "MATCH"
+      },
+      {
+        "field": "color",
+        "igi": "F",
+        "advertised": "F",
+        "result": "MATCH"
+      },
+      {
+        "field": "clarity",
+        "igi": "VS 1",
+        "advertised": "VS 1",
+        "result": "MATCH"
+      },
+      {
+        "field": "measurements",
+        "igi": "14.39 x 7.67 x 4.78 mm",
+        "advertised": "14.39 x 7.67 x 4.78 mm",
+        "result": "MATCH"
+      },
+      {
+        "field": "table",
+        "igi": "61%",
+        "advertised": "61%",
+        "result": "MATCH"
+      },
+      {
+        "field": "depth",
+        "igi": "62.3%",
+        "advertised": "62.3%",
+        "result": "MATCH"
+      },
+      {
+        "field": "fluorescence",
+        "igi": "NONE",
+        "advertised": "NONE",
+        "result": "MATCH"
+      },
+      {
+        "field": "polish",
+        "igi": "VERY GOOD",
+        "advertised": "Excellent",
+        "result": "MATCH_ONSTREAM_STICKER",
+        "advertised_case_notes": "Excellent",
+        "advertised_onstream_sticker": "Very Good (VG)",
+        "result_vs_case_notes": "MISMATCH_OR_MISREAD",
+        "note": "Livestream sticker shows VG EX NON (= polish Very Good), matching IGI. Original case notes said Excellent \u2014 likely a misread of VG EX codes."
+      },
+      {
+        "field": "growth_method",
+        "igi": "This Laboratory Grown Diamond was created by Chemical Vapor Deposition (CVD) growth process Type IIa",
+        "advertised": "CVD",
+        "result": "MATCH"
+      }
+    ],
+    "manual_checkpoint": null,
+    "collected_at_utc": "2026-10-20T02:39:16.788603+00:00",
+    "local_path": "/workspace/evidence/raw/igi_new_LG839637366.html",
+    "sha256": "9dd828494b4c4843a0d76cd369d810a5da189e81d4eaf1d05d1b01c3e399d7e1",
+    "livestream_corroboration": {
+      "status": "CONFIRMED",
+      "internal_stock_id": "100198387413",
+      "sticker_codes": "F VS1 VG EX NON 3.03",
+      "evidence": "tiktok_live_screenshot_LG839637366"
+    },
+    "updated_at_utc": "2026-10-20T04:02:57.313008+00:00"
+  },
+  "seller": {
+    "seller_name_query": "Royale Diamonds",
+    "confirmed_username": "royalediamondslive",
+    "confidence": "MEDIUM",
+    "profile": {
+      "url": "https://www.tiktok.com/@royalediamondslive",
+      "page_title": "TikTok - Make Your Day"
+    },
+    "media_corroboration": [],
+    "search_terms": [
+      "Royale Diamonds TikTok",
+      "RoyaleDiamonds lab grown",
+      "Royale Diamonds auction",
+      "Royale Diamonds scam",
+      "Royale Diamonds review",
+      "Royale Diamonds refund",
+      "Royale Diamonds IGI",
+      "Royale Diamonds shipping",
+      "Royale Diamonds complaints",
+      "Royale Diamonds Telegram"
+    ],
+    "blocked": [],
+    "name_collisions": [
+      {
+        "entity": "Royale Diamonds (Pune, India jewelry store)",
+        "domain": "royalediamonds.com",
+        "relation": "UNVERIFIED name collision \u2014 do not attribute to TikTok seller without proof",
+        "status": "UNVERIFIED"
+      },
+      {
+        "entity": "Royal Diamond USA LLC (Bellaire, TX consumer products)",
+        "domain": "royaldiamondusa.com",
+        "relation": "Different branding/products; not treated as same entity",
+        "status": "IRRELEVANT_NAME_COLLISION"
+      }
+    ],
+    "collected_at_utc": "2026-10-20T02:39:40.735657+00:00"
+  },
+  "username_graph": {
+    "variants_searched": [
+      "royalediamondslive",
+      "RoyaleDiamondsLive",
+      "royale_diamonds",
+      "royalediamonds",
+      "RoyaleDiamonds"
+    ],
+    "probes": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/royalediamondslive/",
+        "http_status": null,
+        "status": "blocked_or_missing",
+        "title": "",
+        "error": "robots.txt disallows this User-Agent path"
+      },
+      {
+        "platform": "telegram_tme",
+        "url": "https://t.me/royalediamondslive",
+        "http_status": 200,
+        "status": "reachable",
+        "title": "Telegram: Contact @royalediamondslive",
+        "error": null
+      },
+      {
+        "platform": "twitter",
+        "url": "https://x.com/royalediamondslive",
+        "http_status": null,
+        "status": "blocked_or_missing",
+        "title": "",
+        "error": "robots.txt disallows this User-Agent path"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@royalediamondslive",
+        "http_status": 404,
+        "status": "blocked_or_missing",
+        "title": "404 Not Found",
+        "error": null
+      }
+    ],
+    "graph": {
+      "nodes": [
+        {
+          "id": "tiktok:royalediamondslive",
+          "platform": "tiktok",
+          "username": "royalediamondslive",
+          "confidence": "HIGH",
+          "basis": "Mashable link + live public profile title/bio"
+        },
+        {
+          "id": "instagram:RoyaleDiamondsLive",
+          "platform": "instagram",
+          "username": "RoyaleDiamondsLive",
+          "confidence": "MEDIUM",
+          "basis": "Self-asserted in TikTok bio; Instagram web view required login (blocked)"
+        },
+        {
+          "id": "telegram:royalediamondslive",
+          "platform": "telegram",
+          "username": "royalediamondslive",
+          "confidence": "LOW",
+          "basis": "Public t.me page reachable; ownership not confirmed"
+        }
+      ],
+      "edges": [
+        {
+          "source": "tiktok:royalediamondslive",
+          "target": "instagram:RoyaleDiamondsLive",
+          "relation": "bio_claim",
+          "confidence": "MEDIUM",
+          "note": "Username match alone is not ownership proof; bio claim is self-asserted."
+        },
+        {
+          "source": "tiktok:royalediamondslive",
+          "target": "telegram:royalediamondslive",
+          "relation": "username_collision_candidate",
+          "confidence": "LOW",
+          "note": "Do not treat matching username as shared ownership."
+        }
+      ],
+      "node_count": 3,
+      "edge_count": 2
+    },
+    "collected_at_utc": "2026-10-20T02:39:17.536743+00:00",
+    "disclaimer": "Matching usernames are correlation candidates only. No private individuals were identified. No authenticated access attempted."
+  },
+  "telegram": {
+    "queries": [
+      "Royale Diamonds",
+      "TikTok diamond auctions",
+      "lab grown diamond wholesale",
+      "LG839637366",
+      "royalediamondslive"
+    ],
+    "public_pages": [
+      {
+        "url": "https://t.me/royalediamondslive",
+        "http_status": 200,
+        "exists_candidate": false,
+        "local_path": "/workspace/evidence/raw/telegram_royalediamondslive.html",
+        "sha256": "880cc4d1d25a150c5c39096d7036ed5ffa5ee0867b17f7e005e5ae80bfbbc173",
+        "excerpt_present": true
+      },
+      {
+        "url": "https://t.me/s/royalediamondslive",
+        "http_status": 200,
+        "exists_candidate": false,
+        "local_path": "/workspace/evidence/raw/telegram_royalediamondslive.html",
+        "sha256": "88ad5b205cf31971edec7a6f7d8755a3d9e410549941b48b5ff758f9701002f4",
+        "excerpt_present": true
+      },
+      {
+        "url": "https://t.me/s/royalediamonds",
+        "http_status": 200,
+        "exists_candidate": false,
+        "local_path": "/workspace/evidence/raw/telegram_royalediamonds.html",
+        "sha256": "7e00ac04ef785cc664c7731b3e42708a9f2e7750e4ef01ef0b1189269d5cc77d",
+        "excerpt_present": true
+      },
+      {
+        "url": "https://t.me/royalediamonds",
+        "http_status": 200,
+        "exists_candidate": false,
+        "local_path": "/workspace/evidence/raw/telegram_royalediamonds.html",
+        "sha256": "2b30dd89a440d2ea7f628fa70858711f37d7b1d04121301d5aebb0b84aa7b663",
+        "excerpt_present": true
+      }
+    ],
+    "official_vs_impersonator": "UNKNOWN \u2014 no confirmed official Telegram channel identified",
+    "manual_tasks": [
+      {
+        "task": "Search TGStat / public Telegram directories for 'Royale Diamonds' and 'royalediamondslive'",
+        "status": "PENDING_MANUAL",
+        "reason": "No authorized Telethon session configured; avoid private-group access"
+      },
+      {
+        "task": "If a public channel is found, archive announcements and complaint posts with timestamps",
+        "status": "PENDING_MANUAL"
+      }
+    ],
+    "collected_at_utc": "2026-10-20T02:39:17.544320+00:00"
+  },
+  "inventory": {
+    "report_number": "LG839637366",
+    "marketplace_probes": [
+      {
+        "retailer": "ritani",
+        "url": "https://www.ritani.com/search?q=LG839637366",
+        "http_status": null,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "brilliance",
+        "url": "https://www.brilliance.com/search?q=LG839637366",
+        "http_status": null,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "rarecarat",
+        "url": "https://www.rarecarat.com/",
+        "http_status": null,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "jamesallen",
+        "url": "https://www.jamesallen.com/",
+        "http_status": 200,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "bluenile",
+        "url": "https://www.bluenile.com/",
+        "http_status": 200,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "withclarity",
+        "url": "https://www.withclarity.com/",
+        "http_status": null,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "friendlydiamonds",
+        "url": "https://friendlydiamonds.com/",
+        "http_status": 403,
+        "exact_cert_in_html": false,
+        "blocked": true,
+        "status": "BLOCKED"
+      },
+      {
+        "retailer": "adiamor",
+        "url": "https://www.adiamor.com/",
+        "http_status": null,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "loosegrowndiamond",
+        "url": "https://www.loosegrowndiamond.com/",
+        "http_status": 307,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      },
+      {
+        "retailer": "stonealgo",
+        "url": "https://stonealgo.com/",
+        "http_status": 200,
+        "exact_cert_in_html": false,
+        "blocked": false,
+        "status": "NO_HIT_IN_HTML"
+      }
+    ],
+    "exact_match_matrix": [
+      {
+        "match_class": "A_same_report_number",
+        "report_number": "LG839637366",
+        "retailer": "IGI official database",
+        "listing_url": "https://lookup.igi.org/igi_new.php?r=LG839637366",
+        "price_usd": null,
+        "inventory_status": "certificate_exists",
+        "specs": {
+          "shape": "MARQUISE BRILLIANT",
+          "carat": 3.03,
+          "color": "F",
+          "clarity": "VS1",
+          "measurements": "14.39 x 7.67 x 4.78 mm",
+          "polish": "VERY GOOD",
+          "growth": "CVD"
+        },
+        "status": "CONFIRMED"
+      },
+      {
+        "match_class": "A_same_report_number",
+        "report_number": "LG839637366",
+        "retailer": "Ritani",
+        "listing_url": null,
+        "price_usd": 945.0,
+        "wholesale_estimate_usd": 325.97,
+        "inventory_status": "lead_not_reproduced",
+        "status": "UNVERIFIED",
+        "notes": "User-supplied lead; automated Ritani fetch blocked by Cloudflare; search indexes did not surface exact listing."
+      },
+      {
+        "match_class": "A_same_report_number",
+        "report_number": "LG839637366",
+        "retailer": "Brilliance",
+        "listing_url": null,
+        "price_usd": 2020.0,
+        "inventory_status": "lead_not_reproduced",
+        "status": "UNVERIFIED",
+        "notes": "User-supplied lead; public search did not return an exact Brilliance listing for this certificate."
+      },
+      {
+        "match_class": "C_similar_different_cert",
+        "report_number": "LG726561176",
+        "retailer": "Jewelry by Cleo",
+        "listing_url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+        "price_usd": 624.0,
+        "inventory_status": "listed",
+        "specs": {
+          "shape": "Marquise",
+          "carat": 3.03,
+          "color": "F",
+          "clarity": "VS1",
+          "measurements": "14.76x7.67x4.68mm"
+        },
+        "status": "CONFIRMED"
+      },
+      {
+        "match_class": "C_similar_different_cert",
+        "report_number": "LG747592527",
+        "retailer": "Aur\u00e9linne",
+        "listing_url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+        "price_usd": 736.0,
+        "inventory_status": "sold_out",
+        "specs": {
+          "shape": "Marquise",
+          "carat": 3.03,
+          "color": "F",
+          "clarity": "VS1",
+          "measurements": "15.11x7.57x4.68mm"
+        },
+        "status": "CONFIRMED"
+      },
+      {
+        "match_class": "C_similar_different_cert",
+        "report_number": "unknown",
+        "retailer": "Laura Milman",
+        "listing_url": "https://www.lauramilman.com/products/lg-100759907944",
+        "price_usd": 675.0,
+        "inventory_status": "listed",
+        "specs": {
+          "shape": "Marquise",
+          "carat": 3.03,
+          "color": "F",
+          "clarity": "VS1",
+          "measurements": "15.75 X 7.55 X 4.52"
+        },
+        "status": "CONFIRMED"
+      },
+      {
+        "match_class": "A_same_report_number",
+        "report_number": "LG839637366",
+        "retailer": "Royale Diamonds TikTok Live (stock label)",
+        "listing_url": "user://tiktok_live_screenshot",
+        "internal_stock_id": "100198387413",
+        "price_usd": 350.0,
+        "inventory_status": "sold_via_livestream_auction_user_reported",
+        "specs": {
+          "internal_stock_id": "100198387413",
+          "color": "F",
+          "clarity": "VS1",
+          "polish_symmetry_fluor_codes": "VG EX NON",
+          "polish_decoded": "Very Good",
+          "symmetry_decoded": "Excellent",
+          "fluorescence_decoded": "None",
+          "carat": "3.03",
+          "measurements_mm": "14.39 - 7.67 x 4.78",
+          "total_depth": "62.3%",
+          "table": "61%",
+          "igi_report": "LG839637366",
+          "shape": "MARQUISE"
+        },
+        "status": "CONFIRMED",
+        "notes": "Stock ID 100198387413 not found in public web indexes as of collection."
+      }
+    ],
+    "shared_feed_hypothesis": "Multiple retailers list similar 3.03ct F/VS1 marquises with different IGI numbers, consistent with broad wholesale supply \u2014 not proof that LG839637366 is multi-listed.",
+    "economic_note": "If a ~$326 wholesale estimate were real, a $350 TikTok auction could be near-cost liquidation; that wholesale figure remains UNVERIFIED.",
+    "collected_at_utc": "2026-10-20T02:39:19.118948+00:00",
+    "stock_id_probe": {
+      "stock_id": "100198387413",
+      "public_index_hit": false,
+      "status": "UNKNOWN",
+      "notes": "Format resembles other online jeweler stock IDs (e.g. 12-digit 100... series) but no exact public listing found."
+    }
+  },
+  "pricing": {
+    "target": {
+      "shape": "marquise",
+      "carat_range": [
+        2.8,
+        3.2
+      ],
+      "color": "F",
+      "clarity": "VS1",
+      "lab": "IGI",
+      "purchase_price_usd": 350,
+      "purchase_ppc": 115.51
+    },
+    "comparables_count": 10,
+    "comparables": [
+      {
+        "source": "Jewelry by Cleo",
+        "url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG726561176",
+        "price_usd": 624.0,
+        "price_type": "retail_ask",
+        "dims": "14.76x7.67x4.68",
+        "ppc": 205.94059405940595
+      },
+      {
+        "source": "Laura Milman",
+        "url": "https://www.lauramilman.com/products/lg-100759907944",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 675.0,
+        "price_type": "retail_ask",
+        "dims": "15.75x7.55x4.52",
+        "ppc": 222.77227722772278
+      },
+      {
+        "source": "Aur\u00e9linne",
+        "url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG747592527",
+        "price_usd": 736.0,
+        "price_type": "retail_ask_sold_out",
+        "dims": "15.11x7.57x4.68",
+        "ppc": 242.90429042904293
+      },
+      {
+        "source": "B2C Jewels",
+        "url": "https://www.b2cjewels.com/dd/31446716/marquise-diamond-F-color-VS1-Clarity",
+        "carat": 2.85,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG747565892",
+        "price_usd": 947.0,
+        "price_type": "retail_ask_oos",
+        "dims": "14.61x7.42x4.61",
+        "ppc": 332.280701754386
+      },
+      {
+        "source": "Hadar Diamonds",
+        "url": "https://hadardiamonds.com/products/3-03-ct-marquise-lab-grown-diamond-757bd528lg048",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1267.15,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 418.2013201320133
+      },
+      {
+        "source": "Von Diamonds",
+        "url": "https://vondiamonds.com/products/kd-100742809318",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1725.0,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 569.3069306930694
+      },
+      {
+        "source": "Laura Milman 2.8",
+        "url": "https://www.lauramilman.com/products/lg-100756993369",
+        "carat": 2.8,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1285.0,
+        "price_type": "retail_ask",
+        "dims": "15.49x7.38x4.46",
+        "ppc": 458.92857142857144
+      },
+      {
+        "source": "Friendly Diamonds 2.90",
+        "url": "https://friendlydiamonds.com/loose-diamonds/marquise-2.9-f-vs1-excellent-5439279",
+        "carat": 2.9,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1206.0,
+        "price_type": "retail_ask_oos",
+        "dims": "14.71x7.33x4.71",
+        "ppc": 415.86206896551727
+      },
+      {
+        "source": "The Diamond Lab 2.96",
+        "url": "https://www.thediamondlab.net/products/los-00388",
+        "carat": 2.96,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "677502632",
+        "price_usd": 1420.8,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 480.0
+      },
+      {
+        "source": "Jewelry Exchange 3.1",
+        "url": "https://jewelryexchange.com/product/lab-grown-3-1-carat-f-vs1-marquise-igi-diamond/",
+        "carat": 3.1,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG607300761",
+        "price_usd": 1856.9,
+        "price_type": "retail_ask",
+        "dims": "15.52x7.47x4.60",
+        "ppc": 599.0
+      }
+    ],
+    "all_rows_including_near_comps": [
+      {
+        "source": "Jewelry by Cleo",
+        "url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG726561176",
+        "price_usd": 624.0,
+        "price_type": "retail_ask",
+        "dims": "14.76x7.67x4.68",
+        "ppc": 205.94059405940595
+      },
+      {
+        "source": "Laura Milman",
+        "url": "https://www.lauramilman.com/products/lg-100759907944",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 675.0,
+        "price_type": "retail_ask",
+        "dims": "15.75x7.55x4.52",
+        "ppc": 222.77227722772278
+      },
+      {
+        "source": "Aur\u00e9linne",
+        "url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG747592527",
+        "price_usd": 736.0,
+        "price_type": "retail_ask_sold_out",
+        "dims": "15.11x7.57x4.68",
+        "ppc": 242.90429042904293
+      },
+      {
+        "source": "B2C Jewels",
+        "url": "https://www.b2cjewels.com/dd/31446716/marquise-diamond-F-color-VS1-Clarity",
+        "carat": 2.85,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG747565892",
+        "price_usd": 947.0,
+        "price_type": "retail_ask_oos",
+        "dims": "14.61x7.42x4.61",
+        "ppc": 332.280701754386
+      },
+      {
+        "source": "Hadar Diamonds",
+        "url": "https://hadardiamonds.com/products/3-03-ct-marquise-lab-grown-diamond-757bd528lg048",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1267.15,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 418.2013201320133
+      },
+      {
+        "source": "Von Diamonds",
+        "url": "https://vondiamonds.com/products/kd-100742809318",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1725.0,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 569.3069306930694
+      },
+      {
+        "source": "Laura Milman 2.8",
+        "url": "https://www.lauramilman.com/products/lg-100756993369",
+        "carat": 2.8,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1285.0,
+        "price_type": "retail_ask",
+        "dims": "15.49x7.38x4.46",
+        "ppc": 458.92857142857144
+      },
+      {
+        "source": "Friendly Diamonds 2.90",
+        "url": "https://friendlydiamonds.com/loose-diamonds/marquise-2.9-f-vs1-excellent-5439279",
+        "carat": 2.9,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "unknown",
+        "price_usd": 1206.0,
+        "price_type": "retail_ask_oos",
+        "dims": "14.71x7.33x4.71",
+        "ppc": 415.86206896551727
+      },
+      {
+        "source": "The Diamond Lab 2.96",
+        "url": "https://www.thediamondlab.net/products/los-00388",
+        "carat": 2.96,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "677502632",
+        "price_usd": 1420.8,
+        "price_type": "retail_ask",
+        "dims": "unknown",
+        "ppc": 480.0
+      },
+      {
+        "source": "Jewelry Exchange 3.1",
+        "url": "https://jewelryexchange.com/product/lab-grown-3-1-carat-f-vs1-marquise-igi-diamond/",
+        "carat": 3.1,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "LG607300761",
+        "price_usd": 1856.9,
+        "price_type": "retail_ask",
+        "dims": "15.52x7.47x4.60",
+        "ppc": 599.0
+      },
+      {
+        "source": "Ritani nearby 2.90 G/VS1",
+        "url": "https://www.ritani.com/products/2-90-carat-marquise-lab-diamond-very-good-cut-g-color-vs1-clarity-igi-lg841603382-sku-d-3s59oijfhy",
+        "carat": 2.9,
+        "color": "G",
+        "clarity": "VS1",
+        "cert": "LG841603382",
+        "price_usd": 680.0,
+        "price_type": "retail_ask_near_comp",
+        "dims": "14.39x7.63x4.66",
+        "ppc": 234.48275862068965
+      },
+      {
+        "source": "Ritani nearby 2.90 H/VS1",
+        "url": "https://www.ritani.com/products/2-90-carat-marquise-lab-diamond-very-good-cut-h-color-vs1-clarity-igi-lg841660876-sku-d-3s59oiknv0",
+        "carat": 2.9,
+        "color": "H",
+        "clarity": "VS1",
+        "cert": "LG841660876",
+        "price_usd": 616.0,
+        "price_type": "retail_ask_near_comp",
+        "dims": "14.39x7.66x4.7",
+        "ppc": 212.41379310344828
+      },
+      {
+        "source": "Shopify storefront F/VVS2 3.03",
+        "url": "https://azt0aw-u9.myshopify.com/products/3-03ct-marquise-f-vvs2-diamond-l7n8",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VVS2",
+        "cert": "LG739542088",
+        "price_usd": 1119.72,
+        "price_type": "retail_ask_near_comp",
+        "dims": "14.39x7.67x4.82",
+        "ppc": 369.54455445544556
+      },
+      {
+        "source": "Reddit community heuristic",
+        "url": "https://www.reddit.com/r/labdiamond/comments/1vwjjf6/7ct_emerald_cut_f_vvs2/",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "n/a",
+        "price_usd": 303.0,
+        "price_type": "community_rule_of_thumb_100_per_ct",
+        "dims": "n/a",
+        "ppc": 100.0
+      },
+      {
+        "source": "Mashable market commentary band mid",
+        "url": "https://mashable.com/life/tiktok-shop-lab-grown-diamond-live-auctions",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "cert": "n/a",
+        "price_usd": 454.5,
+        "price_type": "media_stated_band_150_per_ct",
+        "dims": "n/a",
+        "ppc": 150.0
+      }
+    ],
+    "stats_retail_asks_F_VS1": {
+      "n": 10,
+      "min": 624.0,
+      "max": 1856.9,
+      "median": 1236.58,
+      "iqr": [
+        720.75,
+        1496.85
+      ],
+      "outlier_adjusted_median": 1236.58,
+      "median_price_per_carat": 417.03,
+      "price_type_caveat": "These are asking prices, not verified transaction prices."
+    },
+    "auction_discount_vs_median_ask": 0.717,
+    "unverified_leads": {
+      "ritani_ask_usd": 945,
+      "ritani_wholesale_estimate_usd": 325.97,
+      "brilliance_ask_usd": 2020,
+      "status": "UNVERIFIED"
+    },
+    "assessment": {
+      "economically_plausible": true,
+      "unusually_favorable_vs_retail_asks": true,
+      "consistent_with_auction_liquidation": true,
+      "below_credible_acquisition_cost": "UNKNOWN",
+      "suspicious_vs_verified_wholesale": "UNKNOWN",
+      "rationale": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+    },
+    "limitations": [
+      "Retail asks \u2260 clearing prices",
+      "Cut quality / light performance not priced here",
+      "Some listings OOS or near-comps (G/H color, VVS2)",
+      "No verified wholesale invoice for this certificate"
+    ],
+    "collected_at_utc": "2026-10-20T22:22:15.494480+00:00"
+  },
+  "corporate": {
+    "queried_name": "Royale Diamonds",
+    "tiktok_seller_legal_entity": {
+      "status": "UNKNOWN",
+      "notes": "No public SOS filing conclusively linked to TikTok @royalediamondslive was verified in this automated pass."
+    },
+    "candidate_entities": [
+      {
+        "name": "Royale Diamonds (Pune, India)",
+        "domain": "royalediamonds.com",
+        "relation_to_tiktok_seller": "UNVERIFIED name collision",
+        "do_not_attribute": true
+      },
+      {
+        "name": "Royal Diamond USA LLC",
+        "domain": "royaldiamondusa.com",
+        "relation_to_tiktok_seller": "IRRELEVANT_NAME_COLLISION",
+        "do_not_attribute": true
+      }
+    ],
+    "probes": [
+      {
+        "source": "opencorporates",
+        "url": "https://opencorporates.com/companies?q=Royale+Diamonds",
+        "http_status": 200,
+        "blocked": true,
+        "status": "BLOCKED"
+      },
+      {
+        "source": "royalediamonds_com",
+        "url": "https://www.royalediamonds.com/",
+        "http_status": 200,
+        "blocked": false,
+        "status": "ok"
+      },
+      {
+        "source": "uspto_tm_search",
+        "url": "https://tmsearch.uspto.gov/",
+        "http_status": 200,
+        "blocked": false,
+        "status": "ok"
+      },
+      {
+        "source": "bbb_search",
+        "url": "https://www.bbb.org/search?find_text=Royale%20Diamonds&find_country=US",
+        "http_status": null,
+        "blocked": false,
+        "status": "robots_disallowed"
+      },
+      {
+        "source": "urlscan",
+        "url": "https://urlscan.io/search/#royalediamondslive",
+        "http_status": 200,
+        "blocked": false,
+        "status": "ok"
+      }
+    ],
+    "manual_tasks": [
+      {
+        "task": "Obtain TikTok Shop seller business name / seller ID from order receipt",
+        "why": "Needed to query SOS / OpenCorporates without name-collision risk",
+        "status": "NEED_USER_INPUT"
+      },
+      {
+        "task": "Search USPTO / state trademark filings for exact stylized mark used on TikTok",
+        "status": "PENDING_MANUAL"
+      }
+    ],
+    "collected_at_utc": "2026-10-20T02:39:19.821571+00:00"
+  },
+  "reputation": {
+    "search_variations_used": [
+      "Royale Diamonds fake diamond",
+      "Royale Diamonds IGI fake",
+      "Royale Diamonds chargeback",
+      "Royale Diamonds never shipped",
+      "Royale Diamonds wrong stone",
+      "Royale Diamonds TikTok auction",
+      "Royale Diamonds refund denied"
+    ],
+    "findings": [
+      {
+        "id": "reddit_2026-08-23_overpay",
+        "source": "https://www.reddit.com/r/labdiamond/comments/1vwjjf6/7ct_emerald_cut_f_vvs2/",
+        "date": "2026-08-23",
+        "classification": "unverified_allegation_mixed_with_positive_legit_opinion",
+        "summary": "Buyer asked if Royale Diamonds TikTok purchase was a scam after paying $1500. Commenters generally said likely legit but overpriced; one awaited delivery confirmation.",
+        "category": 4,
+        "independent_complaint": false,
+        "notes": "Reddit JSON API blocked from this environment; content from search snippets + prior public discussion."
+      },
+      {
+        "id": "mashable_2026_coverage",
+        "source": "https://mashable.com/life/tiktok-shop-lab-grown-diamond-live-auctions",
+        "date": "2026-08",
+        "classification": "positive_customer_experience_secondary",
+        "summary": "Buyers quoted as receiving IGI reports with purchases; describes high-pressure auctions and final-sale terms rather than non-delivery fraud.",
+        "category": 5,
+        "independent_complaint": false
+      },
+      {
+        "id": "bbb_tiktok_jewelry_unrelated",
+        "source": "https://nationaljeweler.com/articles/12338-better-business-bureau-warns-of-tiktok-jewelry-scam",
+        "date": null,
+        "classification": "irrelevant_name_collision_or_unrelated_scam",
+        "summary": "BBB warning about TruGala-style discount-code jewelry scam \u2014 not Royale Diamonds.",
+        "category": 6,
+        "independent_complaint": false
+      },
+      {
+        "id": "pune_store_reviews",
+        "source": "https://www.royalediamonds.com/",
+        "date": "2025",
+        "classification": "irrelevant_name_collision",
+        "summary": "Negative Google-style reviews for a Pune jewelry store sharing the name.",
+        "category": 6,
+        "independent_complaint": false
+      }
+    ],
+    "pattern_assessment": "Dominant public pattern is overpayment / auction psychology risk, not a corroborated non-fulfillment ring. No verified enforcement action against @royalediamondslive found.",
+    "counts": {
+      "verified_official_enforcement": 0,
+      "documented_customer_dispute": 0,
+      "independently_corroborated_complaint": 0,
+      "unverified_allegation": 1,
+      "positive_customer_experience": 1,
+      "irrelevant_name_collision": 2
+    },
+    "collected_at_utc": "2026-10-20T02:39:19.822487+00:00"
+  },
+  "ach": {
+    "hypotheses": {
+      "H1": "Legitimate sale of the advertised diamond",
+      "H2": "Legitimate sale with exaggerated retail-value claims",
+      "H3": "Genuine diamond shipped but different from advertised certificate",
+      "H4": "Counterfeit, simulant, or materially misrepresented stone shipped",
+      "H5": "Seller fails to fulfill the order",
+      "H6": "Fraudulent impersonation of a legitimate diamond seller"
+    },
+    "matrix": [
+      {
+        "id": "E1",
+        "evidence": "IGI LG839637366 exists and matches shape/carat/color/clarity/measurements/CVD",
+        "status": "CONFIRMED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "I",
+          "H5": "N",
+          "H6": "N"
+        },
+        "diagnosticity": "HIGH for existence of advertised certificate; LOW for fulfillment."
+      },
+      {
+        "id": "E2",
+        "evidence": "Advertised polish Excellent vs IGI Very Good",
+        "status": "NOT_OBSERVED",
+        "consistency": {
+          "H1": "I",
+          "H2": "C",
+          "H3": "C",
+          "H4": "C",
+          "H5": "N",
+          "H6": "N"
+        },
+        "diagnosticity": "MEDIUM \u2014 supports misstatement/exaggeration more than total fraud."
+      },
+      {
+        "id": "E3",
+        "evidence": "Public media identifies @royalediamondslive as Royale Diamonds auction seller",
+        "status": "CORROBORATED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "C",
+          "H4": "N",
+          "H5": "N",
+          "H6": "I"
+        },
+        "diagnosticity": "MEDIUM against H6 (random impersonation); does not prove corporate legitimacy."
+      },
+      {
+        "id": "E4",
+        "evidence": "Purchase $350 below observed retail-ask median $1236.58",
+        "status": "CORROBORATED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "C",
+          "H5": "C",
+          "H6": "C"
+        },
+        "diagnosticity": "LOW \u2014 cheap can be liquidation or bait."
+      },
+      {
+        "id": "E5",
+        "evidence": "Community commentary: likely legit but often overpriced auctions",
+        "status": "UNVERIFIED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "I",
+          "H5": "I",
+          "H6": "I"
+        },
+        "diagnosticity": "LOW (hearsay), directionally against systemic non-delivery."
+      },
+      {
+        "id": "E6",
+        "evidence": "USPS tracking shows Accepted / Package Acceptance Pending in Miami FL (user screenshot)",
+        "status": "CONFIRMED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "N",
+          "H5": "I",
+          "H6": "N"
+        },
+        "diagnosticity": "HIGH against early non-fulfillment; package entered USPS network."
+      },
+      {
+        "id": "E7",
+        "evidence": "Ritani/Brilliance same-cert retail leads not independently reproduced",
+        "status": "UNVERIFIED",
+        "consistency": {
+          "H1": "N",
+          "H2": "C",
+          "H3": "N",
+          "H4": "N",
+          "H5": "N",
+          "H6": "N"
+        },
+        "diagnosticity": "LOW until reproduced; if reproduced, supports H2 value-claim context."
+      },
+      {
+        "id": "E8",
+        "evidence": "No verified enforcement action found against this TikTok seller",
+        "status": "UNKNOWN",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "N",
+          "H5": "N",
+          "H6": "N"
+        },
+        "diagnosticity": "LOW (absence of evidence \u2260 evidence of absence)."
+      },
+      {
+        "id": "E10",
+        "evidence": "USPS Accepted scan in Miami FL after Hollywood FL label create (user screenshot of tools.usps.com)",
+        "status": "CONFIRMED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "N",
+          "H5": "I",
+          "H6": "N"
+        },
+        "diagnosticity": "HIGH against pure non-fulfillment so far; LOW against substitution until delivery inspection."
+      }
+    ],
+    "inconsistency_counts": {
+      "H1": 1,
+      "H2": 0,
+      "H3": 0,
+      "H4": 2,
+      "H5": 3,
+      "H6": 2
+    },
+    "subjective_bayes": {
+      "priors": {
+        "H1": 0.28,
+        "H2": 0.3,
+        "H3": 0.12,
+        "H4": 0.08,
+        "H5": 0.12,
+        "H6": 0.1
+      },
+      "likelihood_multipliers": {
+        "H1": 1.7160000000000002,
+        "H2": 1.6445,
+        "H3": 1.0,
+        "H4": 0.5,
+        "H5": 0.35,
+        "H6": 0.6
+      },
+      "posteriors": {
+        "H1": 0.389,
+        "H2": 0.399,
+        "H3": 0.097,
+        "H4": 0.032,
+        "H5": 0.034,
+        "H6": 0.049
+      },
+      "caveat": "Priors/likelihoods are explicitly subjective analytic judgments, not empirical base rates. Do not treat as precise probabilities.",
+      "sensitivity": {
+        "if_tracking_stagnates_7d": "Increase H5 materially; decrease H1/H2",
+        "if_stone_matches_inscription": "Increase H1/H2; collapse H3/H4",
+        "if_stone_mismatches_cert": "Increase H3/H4; decrease H1"
+      }
+    },
+    "current_leading_hypotheses": [
+      "H2",
+      "H1"
+    ],
+    "key_assumptions": [
+      "TikTok checkout payment actually captured funds from this seller account",
+      "User-advertised listing specs match what was shown in the livestream",
+      "USPS number provided belongs to this order",
+      "Absence of early tracking scans is normal for day-0/day-1 labels"
+    ],
+    "indicators_and_warnings": {
+      "seller_impersonation": [
+        "Sudden username/branding change",
+        "Mismatched shop legal name vs livestream branding"
+      ],
+      "order_cancellation": [
+        "TikTok order cancelled by seller",
+        "Refund without shipment"
+      ],
+      "shipping_nonfulfillment": [
+        "No scan beyond label-created after promised ship-by + buffer",
+        "Tracking never issued"
+      ],
+      "fake_tracking": [
+        "Tracking number not recognized by USPS",
+        "Tracking for unrelated origin/destination"
+      ],
+      "certificate_mismatch": [
+        "Received report number \u2260 LG839637366",
+        "Girdle inscription missing/mismatch"
+      ],
+      "diamond_substitution": [
+        "Measurements off beyond tolerance",
+        "Different clarity/color under gemologist check"
+      ],
+      "unusual_refund_behavior": [
+        "Pressure to accept store credit only",
+        "Refusal to use TikTok Shop dispute channel"
+      ]
+    },
+    "collected_at_utc": "2026-10-20T22:22:15.495214+00:00",
+    "shipping_update": {
+      "status": "Accepted",
+      "origin": "HOLLYWOOD, FL 33019",
+      "scan": "MIAMI, FL 33180",
+      "h5_reduced": true
+    }
+  },
+  "monitoring": {
+    "case_id": "royale_diamonds",
+    "purchase_date": "2026-10-19",
+    "order_status": "PAID_VIA_TIKTOK_SHOP_USER_REPORTED",
+    "seller_promised_ship_by_date": null,
+    "tracking_number": "9200190390470924693050",
+    "carrier": "USPS",
+    "shipment_status": "Accepted \u2014 Shipment Received, Package Acceptance Pending (MIAMI, FL 33180) as of 2026-10-20 12:53 local per user USPS screenshot",
+    "delivery_status": "NOT_DELIVERED",
+    "label_created": "2026-10-19 17:34 HOLLYWOOD, FL 33019",
+    "events": [
+      {
+        "status": "Pre-Shipment Info Sent to USPS",
+        "date": "October 19, 2026",
+        "location": null
+      },
+      {
+        "status": "Shipping Label Created",
+        "date": "October 19, 2026, 5:34 pm",
+        "location": "HOLLYWOOD, FL 33019"
+      },
+      {
+        "status": "Accepted \u2014 Shipment Received, Package Acceptance Pending",
+        "date": "October 20, 2026, 12:53 pm",
+        "location": "MIAMI, FL 33180"
+      }
+    ],
+    "evidence": "usps_tracking_user_screenshot",
+    "refund_eligibility": {
+      "note": "TikTok livestream auction purchases often final sale; disputes may still apply if not as described / non-delivery.",
+      "action": "Continue monitoring until Delivered; then verify girdle inscription."
+    },
+    "collected_at_utc": "2026-10-20T22:22:15.488409+00:00"
+  },
+  "evidence_ledger_count": 21,
+  "claim_legend": [
+    "CONFIRMED",
+    "CORROBORATED",
+    "UNVERIFIED",
+    "CONTRADICTED",
+    "UNKNOWN",
+    "BLOCKED"
+  ],
+  "usps_tracking": {
+    "tracking_number": "9200190390470924693050",
+    "carrier": "USPS",
+    "source": "user_supplied_official_usps_screenshot",
+    "source_url_visible": "https://tools.usps.com/",
+    "local_path": "evidence/screenshots/usps_tracking_user_9200190390470924693050.jpg",
+    "sha256": "d9297107a1789cd6b4bfb20bc207e444b9a0edb848dd6de2ca22c42c8da47d72",
+    "collection_timestamp_utc": "2026-10-20T22:22:15.488409+00:00",
+    "status": "CONFIRMED",
+    "current_status": "Accepted",
+    "current_detail": "Shipment Received, Package Acceptance Pending",
+    "current_location": "MIAMI, FL 33180",
+    "current_timestamp_local": "October 20, 2026, 12:53 pm",
+    "events": [
+      {
+        "status": "Pre-Shipment Info Sent to USPS",
+        "date": "October 19, 2026",
+        "location": null
+      },
+      {
+        "status": "Shipping Label Created",
+        "date": "October 19, 2026, 5:34 pm",
+        "location": "HOLLYWOOD, FL 33019"
+      },
+      {
+        "status": "Accepted \u2014 Shipment Received, Package Acceptance Pending",
+        "date": "October 20, 2026, 12:53 pm",
+        "location": "MIAMI, FL 33180"
+      }
+    ],
+    "future_milestones_not_yet_reached": [
+      "On the Way",
+      "Preparing for Delivery",
+      "Out for Delivery",
+      "Delivered"
+    ],
+    "geographic_leads": {
+      "label_origin_zip": "33019",
+      "label_origin_city": "Hollywood, FL",
+      "acceptance_zip": "33180",
+      "acceptance_city": "Miami, FL",
+      "note": "Public business-facing shipping geography only; do not treat as confirmed legal address of seller owners."
+    },
+    "date_context": "Event dates in 2026 are consistent with case purchase date 2026-10-19 and investigation clock; not treated as anomalous.",
+    "implications": {
+      "fulfillment_started": true,
+      "fake_tracking_likelihood": "reduced (official USPS page events with FL facility scans)",
+      "h5_nonfulfillment": "less supported while acceptance progresses"
+    }
+  }
+}

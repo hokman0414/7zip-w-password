@@ -1,0 +1,98 @@
+ Parcels
+ PARCELS PRO
+ COURIERS
+ API 
+CONTACTS
+ ENGLISH 
+Global Package Tracking
+
+Track USPS, Canada Post, Royal Mail, DHL, China Post, Fedex, UPS, Amazon, Deutsche Post, AliExpress, Wish, Shopee
+
+ TRACK PACKAGE
+9200190390470924693050
+Discover more
+Global package tracking
+Parcel tracking app
+Shipping reports analysis
+Add package title
+20 Oct 2026
+No information about your package.
+Why is my parcel not tracking?
+Track any package, freight and shipment
+
+Having bought in the online store always want to know where the package is now? To save time checking the sites of postal companies manually, I created "Parcels" website and mobile apps which will automatically check every relevant postal, courier and logistics company website on your behalf.
+
+To find out where your parcel is, you need to know only tracking number of your package.
+
+What is a tracking number?
+
+Tracking number or tracking code is a unique number assigned to each package, which allows you to monitor the movement of the parcel between the countries or even inside one country.
+
+Tracking numbers can be international or traceable only within the country of the sender.
+
+The tracking number in the format of the Universal Postal Union looks like RA123456789CN, where the first 2 letters are the type of package and the last 2 letters are the code of the country of origin. Packages with such numbers can be tracked right until delivery.
+
+Other shipments can be delivered by courier, transport and logistics companies, and how tracking codes look can vary a lot: CTAFT0000160477YQ, UPAAB000000251682107, AEL10105033654UA, SGADN143797855. Such packages are not always trackable in the recipient's country, and you'll have to wait for notification from the Post Office or a call from a courier company.
+
+Tracking eBay order
+
+eBay sellers use multiple delivery and postal companies depending on item price and selected shipping method. Whether it's SpeedPAK, Pitney Bowes, Global Shipping Program, China Post, Winit, Yanwen or any other shipping company we've got your back. Read our extensive guide to tracking eBay orders.
+
+Delivery time
+
+Wondering how long it will take for your order to arrive to United States, UK, Canada, Australia or any other country? Wonder no more, with our state of the art delivery time estimation algorithm you'll always informed when to expect your parcel. We collect extensive delivery time statistics for each package going into each country and city and will use all of this data to get you most accurate estimated date of arrival.
+
+Discover more
+Courier service directory
+API tracking integration
+Tracking widget
+TRACKING
+SHEIN tracking
+PRO number tracking
+AWB tracking
+Container tracking
+USPS tracking
+Amazon tracking
+FedEx tracking
+UPS tracking
+DHL eCommerce tracking
+Sea cargo hub
+Air cargo hub
+RESOURCES
+Stuck in transit
+Stuck in customs
+Delivered but not received
+Airport directory
+Port directory
+AWB prefixes
+IMPC directory
+Carrier directory
+Package not tracking
+GUIDES
+Tracking status guide
+Tracking number or order number?
+Parcel locker storage times
+DEVELOPERS
+API overview
+Dashboard
+Documentation
+Pricing
+Tracking widget
+INSIGHTS
+Delivery Times
+Shipping Reports
+Network Atlas
+Pulse Gallery
+World Pulse
+Signal Current
+COMPANY
+About
+Terms
+Privacy
+Contact
+
+© 2017-2026 Parcels
+
+🇬🇧
+English
+▾

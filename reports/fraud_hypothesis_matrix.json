@@ -1,0 +1,225 @@
+{
+  "hypotheses": {
+    "H1": "Legitimate sale of the advertised diamond",
+    "H2": "Legitimate sale with exaggerated retail-value claims",
+    "H3": "Genuine diamond shipped but different from advertised certificate",
+    "H4": "Counterfeit, simulant, or materially misrepresented stone shipped",
+    "H5": "Seller fails to fulfill the order",
+    "H6": "Fraudulent impersonation of a legitimate diamond seller"
+  },
+  "matrix": [
+    {
+      "id": "E1",
+      "evidence": "IGI LG839637366 exists and matches shape/carat/color/clarity/measurements/CVD",
+      "status": "CONFIRMED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "I",
+        "H5": "N",
+        "H6": "N"
+      },
+      "diagnosticity": "HIGH for existence of advertised certificate; LOW for fulfillment."
+    },
+    {
+      "id": "E2",
+      "evidence": "Advertised polish Excellent vs IGI Very Good",
+      "status": "NOT_OBSERVED",
+      "consistency": {
+        "H1": "I",
+        "H2": "C",
+        "H3": "C",
+        "H4": "C",
+        "H5": "N",
+        "H6": "N"
+      },
+      "diagnosticity": "MEDIUM \u2014 supports misstatement/exaggeration more than total fraud."
+    },
+    {
+      "id": "E3",
+      "evidence": "Public media identifies @royalediamondslive as Royale Diamonds auction seller",
+      "status": "CORROBORATED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "C",
+        "H4": "N",
+        "H5": "N",
+        "H6": "I"
+      },
+      "diagnosticity": "MEDIUM against H6 (random impersonation); does not prove corporate legitimacy."
+    },
+    {
+      "id": "E4",
+      "evidence": "Purchase $350 below observed retail-ask median $1236.58",
+      "status": "CORROBORATED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "C",
+        "H5": "C",
+        "H6": "C"
+      },
+      "diagnosticity": "LOW \u2014 cheap can be liquidation or bait."
+    },
+    {
+      "id": "E5",
+      "evidence": "Community commentary: likely legit but often overpriced auctions",
+      "status": "UNVERIFIED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "I",
+        "H5": "I",
+        "H6": "I"
+      },
+      "diagnosticity": "LOW (hearsay), directionally against systemic non-delivery."
+    },
+    {
+      "id": "E6",
+      "evidence": "USPS tracking shows Accepted / Package Acceptance Pending in Miami FL (user screenshot)",
+      "status": "CONFIRMED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "N",
+        "H5": "I",
+        "H6": "N"
+      },
+      "diagnosticity": "HIGH against early non-fulfillment; package entered USPS network."
+    },
+    {
+      "id": "E7",
+      "evidence": "Ritani/Brilliance same-cert retail leads not independently reproduced",
+      "status": "UNVERIFIED",
+      "consistency": {
+        "H1": "N",
+        "H2": "C",
+        "H3": "N",
+        "H4": "N",
+        "H5": "N",
+        "H6": "N"
+      },
+      "diagnosticity": "LOW until reproduced; if reproduced, supports H2 value-claim context."
+    },
+    {
+      "id": "E8",
+      "evidence": "No verified enforcement action found against this TikTok seller",
+      "status": "UNKNOWN",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "N",
+        "H5": "N",
+        "H6": "N"
+      },
+      "diagnosticity": "LOW (absence of evidence \u2260 evidence of absence)."
+    },
+    {
+      "id": "E10",
+      "evidence": "USPS Accepted scan in Miami FL after Hollywood FL label create (user screenshot of tools.usps.com)",
+      "status": "CONFIRMED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "N",
+        "H5": "I",
+        "H6": "N"
+      },
+      "diagnosticity": "HIGH against pure non-fulfillment so far; LOW against substitution until delivery inspection."
+    }
+  ],
+  "inconsistency_counts": {
+    "H1": 1,
+    "H2": 0,
+    "H3": 0,
+    "H4": 2,
+    "H5": 3,
+    "H6": 2
+  },
+  "subjective_bayes": {
+    "priors": {
+      "H1": 0.28,
+      "H2": 0.3,
+      "H3": 0.12,
+      "H4": 0.08,
+      "H5": 0.12,
+      "H6": 0.1
+    },
+    "likelihood_multipliers": {
+      "H1": 1.7160000000000002,
+      "H2": 1.6445,
+      "H3": 1.0,
+      "H4": 0.5,
+      "H5": 0.35,
+      "H6": 0.6
+    },
+    "posteriors": {
+      "H1": 0.389,
+      "H2": 0.399,
+      "H3": 0.097,
+      "H4": 0.032,
+      "H5": 0.034,
+      "H6": 0.049
+    },
+    "caveat": "Priors/likelihoods are explicitly subjective analytic judgments, not empirical base rates. Do not treat as precise probabilities.",
+    "sensitivity": {
+      "if_tracking_stagnates_7d": "Increase H5 materially; decrease H1/H2",
+      "if_stone_matches_inscription": "Increase H1/H2; collapse H3/H4",
+      "if_stone_mismatches_cert": "Increase H3/H4; decrease H1"
+    }
+  },
+  "current_leading_hypotheses": [
+    "H2",
+    "H1"
+  ],
+  "key_assumptions": [
+    "TikTok checkout payment actually captured funds from this seller account",
+    "User-advertised listing specs match what was shown in the livestream",
+    "USPS number provided belongs to this order",
+    "Absence of early tracking scans is normal for day-0/day-1 labels"
+  ],
+  "indicators_and_warnings": {
+    "seller_impersonation": [
+      "Sudden username/branding change",
+      "Mismatched shop legal name vs livestream branding"
+    ],
+    "order_cancellation": [
+      "TikTok order cancelled by seller",
+      "Refund without shipment"
+    ],
+    "shipping_nonfulfillment": [
+      "No scan beyond label-created after promised ship-by + buffer",
+      "Tracking never issued"
+    ],
+    "fake_tracking": [
+      "Tracking number not recognized by USPS",
+      "Tracking for unrelated origin/destination"
+    ],
+    "certificate_mismatch": [
+      "Received report number \u2260 LG839637366",
+      "Girdle inscription missing/mismatch"
+    ],
+    "diamond_substitution": [
+      "Measurements off beyond tolerance",
+      "Different clarity/color under gemologist check"
+    ],
+    "unusual_refund_behavior": [
+      "Pressure to accept store credit only",
+      "Refusal to use TikTok Shop dispute channel"
+    ]
+  },
+  "collected_at_utc": "2026-10-20T22:22:15.495214+00:00",
+  "shipping_update": {
+    "status": "Accepted",
+    "origin": "HOLLYWOOD, FL 33019",
+    "scan": "MIAMI, FL 33180",
+    "h5_reduced": true
+  }
+}

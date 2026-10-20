@@ -1,0 +1,56 @@
+{
+  "queries": [
+    "Royale Diamonds",
+    "TikTok diamond auctions",
+    "lab grown diamond wholesale",
+    "LG839637366",
+    "royalediamondslive"
+  ],
+  "public_pages": [
+    {
+      "url": "https://t.me/royalediamondslive",
+      "http_status": 200,
+      "exists_candidate": false,
+      "local_path": "/workspace/evidence/raw/telegram_royalediamondslive.html",
+      "sha256": "880cc4d1d25a150c5c39096d7036ed5ffa5ee0867b17f7e005e5ae80bfbbc173",
+      "excerpt_present": true
+    },
+    {
+      "url": "https://t.me/s/royalediamondslive",
+      "http_status": 200,
+      "exists_candidate": false,
+      "local_path": "/workspace/evidence/raw/telegram_royalediamondslive.html",
+      "sha256": "88ad5b205cf31971edec7a6f7d8755a3d9e410549941b48b5ff758f9701002f4",
+      "excerpt_present": true
+    },
+    {
+      "url": "https://t.me/s/royalediamonds",
+      "http_status": 200,
+      "exists_candidate": false,
+      "local_path": "/workspace/evidence/raw/telegram_royalediamonds.html",
+      "sha256": "7e00ac04ef785cc664c7731b3e42708a9f2e7750e4ef01ef0b1189269d5cc77d",
+      "excerpt_present": true
+    },
+    {
+      "url": "https://t.me/royalediamonds",
+      "http_status": 200,
+      "exists_candidate": false,
+      "local_path": "/workspace/evidence/raw/telegram_royalediamonds.html",
+      "sha256": "2b30dd89a440d2ea7f628fa70858711f37d7b1d04121301d5aebb0b84aa7b663",
+      "excerpt_present": true
+    }
+  ],
+  "official_vs_impersonator": "UNKNOWN \u2014 no confirmed official Telegram channel identified",
+  "manual_tasks": [
+    {
+      "task": "Search TGStat / public Telegram directories for 'Royale Diamonds' and 'royalediamondslive'",
+      "status": "PENDING_MANUAL",
+      "reason": "No authorized Telethon session configured; avoid private-group access"
+    },
+    {
+      "task": "If a public channel is found, archive announcements and complaint posts with timestamps",
+      "status": "PENDING_MANUAL"
+    }
+  ],
+  "collected_at_utc": "2026-10-20T02:39:17.544320+00:00"
+}
