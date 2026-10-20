@@ -1,7 +1,7 @@
 {
   "executive": {
     "case_id": "royale_diamonds",
-    "as_of_utc": "2026-10-20T02:39:43.509803+00:00",
+    "as_of_utc": "2026-10-20T04:02:57.314791+00:00",
     "seller_legitimacy": {
       "status": "CORROBORATED_PUBLIC_PRESENCE",
       "username": "royalediamondslive",
@@ -10,8 +10,9 @@
     "certificate_status": {
       "status": "CONFIRMED",
       "report": "LG839637366",
-      "summary": "Official IGI lookup confirms a laboratory-grown marquise 3.03ct F VS1 CVD diamond with matching measurements. Advertised polish Excellent is CONTRADICTED by IGI Very Good.",
-      "polish_mismatch": true
+      "summary": "Official IGI lookup confirms laboratory-grown marquise 3.03ct F VS1 CVD with matching measurements. User TikTok live screenshot shows the same report sleeve and sticker codes VG EX NON (polish Very Good), matching IGI. Internal stock ID 100198387413 recorded; not found in public indexes.",
+      "polish_mismatch": false,
+      "livestream_stock_id": "100198387413"
     },
     "economic_plausibility": {
       "purchase_usd": 350,
@@ -27,23 +28,23 @@
     },
     "fraud_risk": {
       "leading_hypotheses": [
-        "H2",
-        "H1"
+        "H1",
+        "H2"
       ],
       "subjective_posteriors": {
-        "H1": 0.227,
-        "H2": 0.487,
-        "H3": 0.097,
-        "H4": 0.032,
-        "H5": 0.107,
-        "H6": 0.049
+        "H1": 0.379,
+        "H2": 0.373,
+        "H3": 0.091,
+        "H4": 0.021,
+        "H5": 0.091,
+        "H6": 0.045
       },
-      "summary": "Current evidence most favors legitimate/fulfillable sale with possible value exaggeration (H2/H1). Fulfillment, substitution, and impersonation remain open until delivery + inscription check."
+      "summary": "Livestream primary evidence strengthens certificate-presentation legitimacy (H1/H2). Main residual risks are fulfillment/substitution until delivery and girdle-inscription verification."
     },
     "recommended_actions": [
       "Manually open USPS tracking for 9200190390470924693050 and archive screenshot (portal blocked here).",
-      "On receipt: verify girdle inscription 'IGI LG839637366' and compare measurements to IGI fields.",
-      "Note polish grade mismatch (Excellent advertised vs Very Good on IGI) for dispute leverage if needed.",
+      "On receipt: verify girdle inscription IGI LG839637366 and compare measurements to IGI/sticker fields.",
+      "Retain livestream screenshot as dispute evidence if the shipped stone/report differs.",
       "Provide TikTok Shop order ID, seller legal name, and promised ship-by date to tighten corporate OSINT.",
       "If no USPS acceptance scan by ship-by + 3 business days, open TikTok Shop dispute."
     ]
@@ -135,7 +136,11 @@
         "field": "polish",
         "igi": "VERY GOOD",
         "advertised": "Excellent",
-        "result": "MISMATCH"
+        "result": "MATCH_ONSTREAM_STICKER",
+        "advertised_case_notes": "Excellent",
+        "advertised_onstream_sticker": "Very Good (VG)",
+        "result_vs_case_notes": "MISMATCH_OR_MISREAD",
+        "note": "Livestream sticker shows VG EX NON (= polish Very Good), matching IGI. Original case notes said Excellent \u2014 likely a misread of VG EX codes."
       },
       {
         "field": "growth_method",
@@ -147,7 +152,14 @@
     "manual_checkpoint": null,
     "collected_at_utc": "2026-10-20T02:39:16.788603+00:00",
     "local_path": "/workspace/evidence/raw/igi_new_LG839637366.html",
-    "sha256": "9dd828494b4c4843a0d76cd369d810a5da189e81d4eaf1d05d1b01c3e399d7e1"
+    "sha256": "9dd828494b4c4843a0d76cd369d810a5da189e81d4eaf1d05d1b01c3e399d7e1",
+    "livestream_corroboration": {
+      "status": "CONFIRMED",
+      "internal_stock_id": "100198387413",
+      "sticker_codes": "F VS1 VG EX NON 3.03",
+      "evidence": "tiktok_live_screenshot_LG839637366"
+    },
+    "updated_at_utc": "2026-10-20T04:02:57.313008+00:00"
   },
   "seller": {
     "seller_name_query": "Royale Diamonds",
@@ -502,11 +514,43 @@
           "measurements": "15.75 X 7.55 X 4.52"
         },
         "status": "CONFIRMED"
+      },
+      {
+        "match_class": "A_same_report_number",
+        "report_number": "LG839637366",
+        "retailer": "Royale Diamonds TikTok Live (stock label)",
+        "listing_url": "user://tiktok_live_screenshot",
+        "internal_stock_id": "100198387413",
+        "price_usd": 350.0,
+        "inventory_status": "sold_via_livestream_auction_user_reported",
+        "specs": {
+          "internal_stock_id": "100198387413",
+          "color": "F",
+          "clarity": "VS1",
+          "polish_symmetry_fluor_codes": "VG EX NON",
+          "polish_decoded": "Very Good",
+          "symmetry_decoded": "Excellent",
+          "fluorescence_decoded": "None",
+          "carat": "3.03",
+          "measurements_mm": "14.39 - 7.67 x 4.78",
+          "total_depth": "62.3%",
+          "table": "61%",
+          "igi_report": "LG839637366",
+          "shape": "MARQUISE"
+        },
+        "status": "CONFIRMED",
+        "notes": "Stock ID 100198387413 not found in public web indexes as of collection."
       }
     ],
     "shared_feed_hypothesis": "Multiple retailers list similar 3.03ct F/VS1 marquises with different IGI numbers, consistent with broad wholesale supply \u2014 not proof that LG839637366 is multi-listed.",
     "economic_note": "If a ~$326 wholesale estimate were real, a $350 TikTok auction could be near-cost liquidation; that wholesale figure remains UNVERIFIED.",
-    "collected_at_utc": "2026-10-20T02:39:19.118948+00:00"
+    "collected_at_utc": "2026-10-20T02:39:19.118948+00:00",
+    "stock_id_probe": {
+      "stock_id": "100198387413",
+      "public_index_hit": false,
+      "status": "UNKNOWN",
+      "notes": "Format resembles other online jeweler stock IDs (e.g. 12-digit 100... series) but no exact public listing found."
+    }
   },
   "pricing": {
     "target": {
@@ -860,7 +904,7 @@
       "Some listings OOS or near-comps (G/H color, VVS2)",
       "No verified wholesale invoice for this certificate"
     ],
-    "collected_at_utc": "2026-10-20T02:39:43.508719+00:00"
+    "collected_at_utc": "2026-10-20T04:02:57.311585+00:00"
   },
   "corporate": {
     "queried_name": "Royale Diamonds",
@@ -1019,7 +1063,7 @@
       {
         "id": "E2",
         "evidence": "Advertised polish Excellent vs IGI Very Good",
-        "status": "CONFIRMED",
+        "status": "NOT_OBSERVED",
         "consistency": {
           "H1": "I",
           "H2": "C",
@@ -1046,7 +1090,7 @@
       },
       {
         "id": "E4",
-        "evidence": "Purchase $350 below observed retail-ask median $900",
+        "evidence": "Purchase $350 below observed retail-ask median $1236.58",
         "status": "CORROBORATED",
         "consistency": {
           "H1": "C",
@@ -1075,7 +1119,7 @@
       {
         "id": "E6",
         "evidence": "USPS tracking shows no public scan data yet / carrier portal blocked",
-        "status": "NO_INFO",
+        "status": "UNKNOWN",
         "consistency": {
           "H1": "N",
           "H2": "N",
@@ -1113,13 +1157,27 @@
           "H6": "N"
         },
         "diagnosticity": "LOW (absence of evidence \u2260 evidence of absence)."
+      },
+      {
+        "id": "E9",
+        "evidence": "TikTok live screenshot shows physical stone + IGI sleeve LG839637366 with sticker VG EX NON matching official IGI",
+        "status": "CONFIRMED",
+        "consistency": {
+          "H1": "C",
+          "H2": "C",
+          "H3": "N",
+          "H4": "I",
+          "H5": "N",
+          "H6": "N"
+        },
+        "diagnosticity": "HIGH that the advertised certificate was presented on-stream; still does not prove the shipped parcel contains that stone."
       }
     ],
     "inconsistency_counts": {
       "H1": 1,
       "H2": 0,
       "H3": 0,
-      "H4": 2,
+      "H4": 3,
       "H5": 1,
       "H6": 2
     },
@@ -1133,20 +1191,20 @@
         "H6": 0.1
       },
       "likelihood_multipliers": {
-        "H1": 1.001,
-        "H2": 2.002,
+        "H1": 1.7875,
+        "H2": 1.6445,
         "H3": 1.0,
-        "H4": 0.5,
-        "H5": 1.1,
+        "H4": 0.35,
+        "H5": 1.0,
         "H6": 0.6
       },
       "posteriors": {
-        "H1": 0.227,
-        "H2": 0.487,
-        "H3": 0.097,
-        "H4": 0.032,
-        "H5": 0.107,
-        "H6": 0.049
+        "H1": 0.379,
+        "H2": 0.373,
+        "H3": 0.091,
+        "H4": 0.021,
+        "H5": 0.091,
+        "H6": 0.045
       },
       "caveat": "Priors/likelihoods are explicitly subjective analytic judgments, not empirical base rates. Do not treat as precise probabilities.",
       "sensitivity": {
@@ -1156,8 +1214,8 @@
       }
     },
     "current_leading_hypotheses": [
-      "H2",
-      "H1"
+      "H1",
+      "H2"
     ],
     "key_assumptions": [
       "TikTok checkout payment actually captured funds from this seller account",
@@ -1195,7 +1253,12 @@
         "Refusal to use TikTok Shop dispute channel"
       ]
     },
-    "collected_at_utc": "2026-10-20T02:39:21.647791+00:00"
+    "collected_at_utc": "2026-10-20T04:02:57.313547+00:00",
+    "livestream_update": {
+      "stock_id": "100198387413",
+      "polish_finding_revised": true,
+      "note": "On-stream label matches IGI polish Very Good; strengthens certificate-presentation evidence."
+    }
   },
   "monitoring": {
     "case_id": "royale_diamonds",
@@ -1232,7 +1295,7 @@
       "carrier_guess": "USPS"
     }
   },
-  "evidence_ledger_count": 18,
+  "evidence_ledger_count": 19,
   "claim_legend": [
     "CONFIRMED",
     "CORROBORATED",
@@ -1240,5 +1303,67 @@
     "CONTRADICTED",
     "UNKNOWN",
     "BLOCKED"
-  ]
+  ],
+  "livestream": {
+    "artifact": "tiktok_live_screenshot",
+    "local_path": "evidence/screenshots/tiktok_live_LG839637366.jpg",
+    "sha256": "fec0ae418a0337846404aaa882875ce8ba8bc5d96c9c091de9c2195370a8d6af",
+    "collection_timestamp_utc": "2026-10-20T04:02:35.678476+00:00",
+    "source_category": "tiktok_livestream",
+    "evidence_tier": "primary",
+    "reliability": "A",
+    "provided_by": "user",
+    "notes": "User-supplied screenshot of TikTok live showing physical stone + IGI report sleeve for the purchased lot.",
+    "visible_ui": {
+      "seller_display_truncated": "RoyaleDiamon...",
+      "likes_displayed": "24.4K",
+      "video_timestamp": "29:06 / 34:20"
+    },
+    "sticker_fields": {
+      "internal_stock_id": "100198387413",
+      "color": "F",
+      "clarity": "VS1",
+      "polish_symmetry_fluor_codes": "VG EX NON",
+      "polish_decoded": "Very Good",
+      "symmetry_decoded": "Excellent",
+      "fluorescence_decoded": "None",
+      "carat": "3.03",
+      "measurements_mm": "14.39 - 7.67 x 4.78",
+      "total_depth": "62.3%",
+      "table": "61%",
+      "igi_report": "LG839637366",
+      "shape": "MARQUISE"
+    },
+    "report_visible_fields": {
+      "shape_and_cutting_style": "MARQUISE BRILLIANT",
+      "measurements": "14.39 X 7.67 X 4.78 MM",
+      "carat_weight": "3.03 CARATS",
+      "color_grade": "F",
+      "clarity_grade": "VS 1",
+      "table": "61%",
+      "total_depth": "62.3%",
+      "crown_height_visible": "13.5%",
+      "pavilion_depth_visible": "44.5%",
+      "growth_comment_visible": "Chemical Vapor Deposition (CVD) process / Type IIa"
+    },
+    "comparison_to_official_igi": {
+      "report_number": "MATCH",
+      "shape": "MATCH",
+      "carat": "MATCH",
+      "color": "MATCH",
+      "clarity": "MATCH",
+      "measurements": "MATCH",
+      "table": "MATCH",
+      "depth": "MATCH",
+      "polish_on_sticker_vs_igi": "MATCH (VG / VERY GOOD)",
+      "symmetry_on_sticker_vs_igi": "MATCH (EX / EXCELLENT)",
+      "fluorescence": "MATCH (NON / NONE)",
+      "growth": "MATCH (CVD Type IIa)"
+    },
+    "revision_to_prior_assessment": {
+      "prior_claim": "Advertised polish Excellent vs IGI Very Good = MISMATCH",
+      "update": "Livestream sticker explicitly shows VG EX NON, which matches IGI polish Very Good / symmetry Excellent / fluorescence None. Prior mismatch was based on case-notes wording, not the on-stream label.",
+      "status": "PRIOR_POLISH_MISMATCH_SUPERSEDED_FOR_ONSTREAM_LABEL"
+    }
+  }
 }

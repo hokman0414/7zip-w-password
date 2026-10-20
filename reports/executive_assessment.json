@@ -1,6 +1,6 @@
 {
   "case_id": "royale_diamonds",
-  "as_of_utc": "2026-10-20T02:39:43.509803+00:00",
+  "as_of_utc": "2026-10-20T04:02:57.314791+00:00",
   "seller_legitimacy": {
     "status": "CORROBORATED_PUBLIC_PRESENCE",
     "username": "royalediamondslive",
@@ -9,8 +9,9 @@
   "certificate_status": {
     "status": "CONFIRMED",
     "report": "LG839637366",
-    "summary": "Official IGI lookup confirms a laboratory-grown marquise 3.03ct F VS1 CVD diamond with matching measurements. Advertised polish Excellent is CONTRADICTED by IGI Very Good.",
-    "polish_mismatch": true
+    "summary": "Official IGI lookup confirms laboratory-grown marquise 3.03ct F VS1 CVD with matching measurements. User TikTok live screenshot shows the same report sleeve and sticker codes VG EX NON (polish Very Good), matching IGI. Internal stock ID 100198387413 recorded; not found in public indexes.",
+    "polish_mismatch": false,
+    "livestream_stock_id": "100198387413"
   },
   "economic_plausibility": {
     "purchase_usd": 350,
@@ -26,23 +27,23 @@
   },
   "fraud_risk": {
     "leading_hypotheses": [
-      "H2",
-      "H1"
+      "H1",
+      "H2"
     ],
     "subjective_posteriors": {
-      "H1": 0.227,
-      "H2": 0.487,
-      "H3": 0.097,
-      "H4": 0.032,
-      "H5": 0.107,
-      "H6": 0.049
+      "H1": 0.379,
+      "H2": 0.373,
+      "H3": 0.091,
+      "H4": 0.021,
+      "H5": 0.091,
+      "H6": 0.045
     },
-    "summary": "Current evidence most favors legitimate/fulfillable sale with possible value exaggeration (H2/H1). Fulfillment, substitution, and impersonation remain open until delivery + inscription check."
+    "summary": "Livestream primary evidence strengthens certificate-presentation legitimacy (H1/H2). Main residual risks are fulfillment/substitution until delivery and girdle-inscription verification."
   },
   "recommended_actions": [
     "Manually open USPS tracking for 9200190390470924693050 and archive screenshot (portal blocked here).",
-    "On receipt: verify girdle inscription 'IGI LG839637366' and compare measurements to IGI fields.",
-    "Note polish grade mismatch (Excellent advertised vs Very Good on IGI) for dispute leverage if needed.",
+    "On receipt: verify girdle inscription IGI LG839637366 and compare measurements to IGI/sticker fields.",
+    "Retain livestream screenshot as dispute evidence if the shipped stone/report differs.",
     "Provide TikTok Shop order ID, seller legal name, and promised ship-by date to tighten corporate OSINT.",
     "If no USPS acceptance scan by ship-by + 3 business days, open TikTok Shop dispute."
   ]

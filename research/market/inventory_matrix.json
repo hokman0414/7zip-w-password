@@ -169,9 +169,41 @@
         "measurements": "15.75 X 7.55 X 4.52"
       },
       "status": "CONFIRMED"
+    },
+    {
+      "match_class": "A_same_report_number",
+      "report_number": "LG839637366",
+      "retailer": "Royale Diamonds TikTok Live (stock label)",
+      "listing_url": "user://tiktok_live_screenshot",
+      "internal_stock_id": "100198387413",
+      "price_usd": 350.0,
+      "inventory_status": "sold_via_livestream_auction_user_reported",
+      "specs": {
+        "internal_stock_id": "100198387413",
+        "color": "F",
+        "clarity": "VS1",
+        "polish_symmetry_fluor_codes": "VG EX NON",
+        "polish_decoded": "Very Good",
+        "symmetry_decoded": "Excellent",
+        "fluorescence_decoded": "None",
+        "carat": "3.03",
+        "measurements_mm": "14.39 - 7.67 x 4.78",
+        "total_depth": "62.3%",
+        "table": "61%",
+        "igi_report": "LG839637366",
+        "shape": "MARQUISE"
+      },
+      "status": "CONFIRMED",
+      "notes": "Stock ID 100198387413 not found in public web indexes as of collection."
     }
   ],
   "shared_feed_hypothesis": "Multiple retailers list similar 3.03ct F/VS1 marquises with different IGI numbers, consistent with broad wholesale supply \u2014 not proof that LG839637366 is multi-listed.",
   "economic_note": "If a ~$326 wholesale estimate were real, a $350 TikTok auction could be near-cost liquidation; that wholesale figure remains UNVERIFIED.",
-  "collected_at_utc": "2026-10-20T02:39:19.118948+00:00"
+  "collected_at_utc": "2026-10-20T02:39:19.118948+00:00",
+  "stock_id_probe": {
+    "stock_id": "100198387413",
+    "public_index_hit": false,
+    "status": "UNKNOWN",
+    "notes": "Format resembles other online jeweler stock IDs (e.g. 12-digit 100... series) but no exact public listing found."
+  }
 }

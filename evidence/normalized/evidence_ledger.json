@@ -368,5 +368,29 @@
     "status": "UNKNOWN",
     "extracted_facts": {},
     "notes": ""
+  },
+  {
+    "evidence_id": "tiktok_live_screenshot_LG839637366",
+    "source_url": "user://tiktok_live_screenshot",
+    "source_title": "User-supplied TikTok live screenshot \u2014 Royale Diamonds LG839637366",
+    "collection_timestamp_utc": "2026-10-20T04:02:35.679384Z",
+    "publication_timestamp_utc": null,
+    "local_path": "evidence/screenshots/tiktok_live_LG839637366.jpg",
+    "sha256": "fec0ae418a0337846404aaa882875ce8ba8bc5d96c9c091de9c2195370a8d6af",
+    "source_category": "tiktok_livestream",
+    "reliability": "A",
+    "evidence_tier": "primary",
+    "independently_corroborates": [
+      "igi_LG839637366",
+      "tiktok_profile_royalediamondslive"
+    ],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "internal_stock_id": "100198387413",
+      "igi_report": "LG839637366",
+      "sticker_codes": "F VS1 VG EX NON 3.03",
+      "seller_display": "RoyaleDiamon..."
+    },
+    "notes": "Primary visual of stone + IGI sleeve during livestream. Sticker polish VG matches official IGI."
   }
 ]

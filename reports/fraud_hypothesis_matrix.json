@@ -25,7 +25,7 @@
     {
       "id": "E2",
       "evidence": "Advertised polish Excellent vs IGI Very Good",
-      "status": "CONFIRMED",
+      "status": "NOT_OBSERVED",
       "consistency": {
         "H1": "I",
         "H2": "C",
@@ -52,7 +52,7 @@
     },
     {
       "id": "E4",
-      "evidence": "Purchase $350 below observed retail-ask median $900",
+      "evidence": "Purchase $350 below observed retail-ask median $1236.58",
       "status": "CORROBORATED",
       "consistency": {
         "H1": "C",
@@ -81,7 +81,7 @@
     {
       "id": "E6",
       "evidence": "USPS tracking shows no public scan data yet / carrier portal blocked",
-      "status": "NO_INFO",
+      "status": "UNKNOWN",
       "consistency": {
         "H1": "N",
         "H2": "N",
@@ -119,13 +119,27 @@
         "H6": "N"
       },
       "diagnosticity": "LOW (absence of evidence \u2260 evidence of absence)."
+    },
+    {
+      "id": "E9",
+      "evidence": "TikTok live screenshot shows physical stone + IGI sleeve LG839637366 with sticker VG EX NON matching official IGI",
+      "status": "CONFIRMED",
+      "consistency": {
+        "H1": "C",
+        "H2": "C",
+        "H3": "N",
+        "H4": "I",
+        "H5": "N",
+        "H6": "N"
+      },
+      "diagnosticity": "HIGH that the advertised certificate was presented on-stream; still does not prove the shipped parcel contains that stone."
     }
   ],
   "inconsistency_counts": {
     "H1": 1,
     "H2": 0,
     "H3": 0,
-    "H4": 2,
+    "H4": 3,
     "H5": 1,
     "H6": 2
   },
@@ -139,20 +153,20 @@
       "H6": 0.1
     },
     "likelihood_multipliers": {
-      "H1": 1.001,
-      "H2": 2.002,
+      "H1": 1.7875,
+      "H2": 1.6445,
       "H3": 1.0,
-      "H4": 0.5,
-      "H5": 1.1,
+      "H4": 0.35,
+      "H5": 1.0,
       "H6": 0.6
     },
     "posteriors": {
-      "H1": 0.227,
-      "H2": 0.487,
-      "H3": 0.097,
-      "H4": 0.032,
-      "H5": 0.107,
-      "H6": 0.049
+      "H1": 0.379,
+      "H2": 0.373,
+      "H3": 0.091,
+      "H4": 0.021,
+      "H5": 0.091,
+      "H6": 0.045
     },
     "caveat": "Priors/likelihoods are explicitly subjective analytic judgments, not empirical base rates. Do not treat as precise probabilities.",
     "sensitivity": {
@@ -162,8 +176,8 @@
     }
   },
   "current_leading_hypotheses": [
-    "H2",
-    "H1"
+    "H1",
+    "H2"
   ],
   "key_assumptions": [
     "TikTok checkout payment actually captured funds from this seller account",
@@ -201,5 +215,10 @@
       "Refusal to use TikTok Shop dispute channel"
     ]
   },
-  "collected_at_utc": "2026-10-20T02:39:21.647791+00:00"
+  "collected_at_utc": "2026-10-20T04:02:57.313547+00:00",
+  "livestream_update": {
+    "stock_id": "100198387413",
+    "polish_finding_revised": true,
+    "note": "On-stream label matches IGI polish Very Good; strengthens certificate-presentation evidence."
+  }
 }
