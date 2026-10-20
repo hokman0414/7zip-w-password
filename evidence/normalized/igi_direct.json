@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366",
+    "ts": "2026-10-20T02:33:32.134789+00:00",
+    "status_code": 200,
+    "final_url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366",
+    "title": "Verify Your Report | Verify Your Diamond Online | IGI",
+    "sha256": "3d4e6e6bff249c1105e145988413b0d2c28a6112cd2200a15ddb0f92bbb133e3",
+    "path": "evidence/raw/igi_direct_0.html",
+    "excerpt": "ABOUT US \nREPORTS \nEDUCATION \nGEMBLOG\nSHOWS\nCONSUMER SERVICES\nCONTACT \n \nVERIFY YOUR REPORT\nREPORT RESULT\nTHE 4C'S\nYOUR DIAMOND'S STORY\nZoom \n Download PDF\nIGI's supreme position in the gemological world is no coincidence. It is the result of continuous research, support and synergy with professionals and consumers alike.\nABOUT US\nAbout IGI\n\nPress Room\n\nTimeline\n\nAffiliations\n\nImportance of Certification\n\nREPORTS\nOur Expertise\n\nHow to Read a Report\n\nDiamond Reports\n\nJewelry Report\n\nColored Stone Report\n\nScreening Services\n\nSorting Services\n\nSecurity Seal\n\nLaserscribe\n\nVerify Your Report\n\nEDUCATION\nGemological Education\n\nSchool Courses\n\nCourse Schedules\n\nTuition Fees\n\nEnrollment Form\n\neLearning Courses\n\nEnquiry Form\n\nGemstone Articles\n\nRetail Support\n\nLearn with Videos\n\nVerify a Diploma\n\nOther\nPress\nShows\nConsumer Services\nContact Us\n\n2020 \u00a9 IGI Ltd. All rights reserved\n\nTerms & Conditions \u00a0|\u00a0 Privacy policy \u00a0|\u00a0 Terms of use\nFOLLOW IGI  \nPowered by Powerful Minds\n\nLoading\n\n\u00a0",
+    "keywords": [
+      "f "
+    ]
+  },
+  {
+    "url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366&shape=Marquise&weight=3.03",
+    "ts": "2026-10-20T02:33:41.048602+00:00",
+    "status_code": 200,
+    "final_url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366&shape=Marquise&weight=3.03#The4cs/",
+    "title": "Verify Your Report | Verify Your Diamond Online | IGI",
+    "sha256": "16e20de654415632d12383e13bf25f595e09d87839cfaa059ec3912a4b60f2a7",
+    "path": "evidence/raw/igi_direct_1.html",
+    "excerpt": "ABOUT US \nREPORTS \nEDUCATION \nGEMBLOG\nSHOWS\nCONSUMER SERVICES\nCONTACT \n \nVERIFY YOUR REPORT\nLEARN WITH VIDEOS\n Download PDF\nSHAPE\nCOLOR\nCARAT\nCLARITY\nCUT\nIGI's supreme position in the gemological world is no coincidence. It is the result of continuous research, support and synergy with professionals and consumers alike.\nABOUT US\nAbout IGI\n\nPress Room\n\nTimeline\n\nAffiliations\n\nImportance of Certification\n\nREPORTS\nOur Expertise\n\nHow to Read a Report\n\nDiamond Reports\n\nJewelry Report\n\nColored Stone Report\n\nScreening Services\n\nSorting Services\n\nSecurity Seal\n\nLaserscribe\n\nVerify Your Report\n\nEDUCATION\nGemological Education\n\nSchool Courses\n\nCourse Schedules\n\nTuition Fees\n\nEnrollment Form\n\neLearning Courses\n\nEnquiry Form\n\nGemstone Articles\n\nRetail Support\n\nLearn with Videos\n\nVerify a Diploma\n\nOther\nPress\nShows\nConsumer Services\nContact Us\n\n2020 \u00a9 IGI Ltd. All rights reserved\n\nTerms & Conditions \u00a0|\u00a0 Privacy policy \u00a0|\u00a0 Terms of use\nFOLLOW IGI  \nPowered by Powerful Minds\n\u00a0",
+    "keywords": [
+      "f "
+    ]
+  },
+  {
+    "url": "https://lookup.igi.org/verify-your-report?r=LG839637366",
+    "ts": "2026-10-20T02:33:47.240540+00:00",
+    "status_code": 404,
+    "final_url": "https://lookup.igi.org/verify-your-report?r=LG839637366",
+    "title": "404 - File or directory not found.",
+    "sha256": "869d908d81eed8c486e9566463a72f28ea86c9f9c8495537b2944b4fa5507e09",
+    "path": "evidence/raw/igi_direct_2.html",
+    "excerpt": "Server Error\n404 - File or directory not found.\nThe resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "keywords": [
+      "not found"
+    ]
+  },
+  {
+    "url": "https://lookup.igi.org/verify-your-report/en?r=LG839637366",
+    "ts": "2026-10-20T02:33:51.530299+00:00",
+    "status_code": 404,
+    "final_url": "https://lookup.igi.org/verify-your-report/en?r=LG839637366",
+    "title": "404 - File or directory not found.",
+    "sha256": "869d908d81eed8c486e9566463a72f28ea86c9f9c8495537b2944b4fa5507e09",
+    "path": "evidence/raw/igi_direct_3.html",
+    "excerpt": "Server Error\n404 - File or directory not found.\nThe resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+    "keywords": [
+      "not found"
+    ]
+  }
+]

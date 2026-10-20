@@ -1,0 +1,88 @@
+{
+  "variants_searched": [
+    "royalediamondslive",
+    "RoyaleDiamondsLive",
+    "royale_diamonds",
+    "royalediamonds",
+    "RoyaleDiamonds"
+  ],
+  "probes": [
+    {
+      "platform": "instagram",
+      "url": "https://www.instagram.com/royalediamondslive/",
+      "http_status": null,
+      "status": "blocked_or_missing",
+      "title": "",
+      "error": "robots.txt disallows this User-Agent path"
+    },
+    {
+      "platform": "telegram_tme",
+      "url": "https://t.me/royalediamondslive",
+      "http_status": 200,
+      "status": "reachable",
+      "title": "Telegram: Contact @royalediamondslive",
+      "error": null
+    },
+    {
+      "platform": "twitter",
+      "url": "https://x.com/royalediamondslive",
+      "http_status": null,
+      "status": "blocked_or_missing",
+      "title": "",
+      "error": "robots.txt disallows this User-Agent path"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@royalediamondslive",
+      "http_status": 404,
+      "status": "blocked_or_missing",
+      "title": "404 Not Found",
+      "error": null
+    }
+  ],
+  "graph": {
+    "nodes": [
+      {
+        "id": "tiktok:royalediamondslive",
+        "platform": "tiktok",
+        "username": "royalediamondslive",
+        "confidence": "HIGH",
+        "basis": "Mashable link + live public profile title/bio"
+      },
+      {
+        "id": "instagram:RoyaleDiamondsLive",
+        "platform": "instagram",
+        "username": "RoyaleDiamondsLive",
+        "confidence": "MEDIUM",
+        "basis": "Self-asserted in TikTok bio; Instagram web view required login (blocked)"
+      },
+      {
+        "id": "telegram:royalediamondslive",
+        "platform": "telegram",
+        "username": "royalediamondslive",
+        "confidence": "LOW",
+        "basis": "Public t.me page reachable; ownership not confirmed"
+      }
+    ],
+    "edges": [
+      {
+        "source": "tiktok:royalediamondslive",
+        "target": "instagram:RoyaleDiamondsLive",
+        "relation": "bio_claim",
+        "confidence": "MEDIUM",
+        "note": "Username match alone is not ownership proof; bio claim is self-asserted."
+      },
+      {
+        "source": "tiktok:royalediamondslive",
+        "target": "telegram:royalediamondslive",
+        "relation": "username_collision_candidate",
+        "confidence": "LOW",
+        "note": "Do not treat matching username as shared ownership."
+      }
+    ],
+    "node_count": 3,
+    "edge_count": 2
+  },
+  "collected_at_utc": "2026-10-20T02:39:17.536743+00:00",
+  "disclaimer": "Matching usernames are correlation candidates only. No private individuals were identified. No authenticated access attempted."
+}

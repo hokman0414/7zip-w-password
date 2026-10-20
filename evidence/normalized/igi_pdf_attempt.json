@@ -1,0 +1,636 @@
+{
+  "results": [
+    {
+      "url": "https://api.igi.org/viewpdf.php?r=LG839637366",
+      "ts": "2026-10-20T02:34:23.278116+00:00",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 5737,
+      "sha256": "f4453e49f68a2b6e994affb8895dea0cbe5c0f6fd04fa2bddd3ef868eadc567a",
+      "path": "evidence/raw/igi_LG839637366_63dd61.bin",
+      "magic": "b'<!DOCTYPE html><html'"
+    },
+    {
+      "url": "https://api.igi.org/viewpdf.php?r=LG839637366&type=pdf",
+      "ts": "2026-10-20T02:34:23.418652+00:00",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 5779,
+      "sha256": "aa554df11c9ee90cc503d6c504a71f3ee33c3ea6c0afa4403f932d5c712ac321",
+      "path": "evidence/raw/igi_LG839637366_762b3b.bin",
+      "magic": "b'<!DOCTYPE html><html'"
+    },
+    {
+      "url": "https://www.igi.org/viewpdf.php?r=LG839637366",
+      "ts": "2026-10-20T02:34:23.532469+00:00",
+      "status": 403,
+      "ct": "text/plain",
+      "len": 48,
+      "sha256": "31b88ce2c6d2b525acbe426d5d737d2bb083ac4f035668017c00017793a495f7",
+      "path": "evidence/raw/igi_viewpdf_fail_6460a0.txt",
+      "magic": "b'Contact IGI - Bad UR'"
+    },
+    {
+      "download_error": "TimeoutError('Timeout 15000ms exceeded while waiting for event \"download\"\\n=========================== logs ===========================\\nwaiting for event \"download\"\\n============================================================')"
+    }
+  ],
+  "api": [
+    {
+      "url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366",
+      "status": 200,
+      "ct": "text/html; charset=UTF-8",
+      "len": 130322
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/bootstrap.min.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 155758
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/tabs-accordian.min.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 1719
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/logo_IGI.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 25093
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/new-timeline.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 5208
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/language-1.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 951
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/jquery.fancybox.min.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 12795
+    },
+    {
+      "url": "https://lookup.igi.org/assets/font-awesome/css/font-awesome.min.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 31000
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/jquery.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 92633
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/style.css?ver=9",
+      "status": 200,
+      "ct": "text/css",
+      "len": 109269
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/en-lang.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 2176
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/qr-code-b.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 3929
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Lato:400,700",
+      "status": 200,
+      "ct": "text/css; charset=utf-8",
+      "len": 1556
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/lab_banner.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 224012
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/datepicker-it.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 1334
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/datepicker-en-GB.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 1289
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/jqueryv3.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 86927
+    },
+    {
+      "url": "https://lookup.igi.org/assets/css/jquery-ui.min.css",
+      "status": 200,
+      "ct": "text/css",
+      "len": 32076
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/jquery.ui.datepicker-ch.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 1398
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/jquery.fancybox.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 68283
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/white-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 12378
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/jquery-ui.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 228077
+    },
+    {
+      "url": "https://lookup.igi.org/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "status": 200,
+      "ct": "application/font-woff2",
+      "len": 77160
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/datepicker-zh-TW.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 1398
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-D2B9V2K810&gtm=45Pe6aj0h2v9138295051za208zd9138295051xf1&_p=1792463666789&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=EAAAACAC&cid=1033643599.1792463667&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792463667&sct=1&seg=0&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3745",
+      "status": 204,
+      "ct": "text/plain"
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/logo-for-title.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 26354
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/4cs-shape-new-web-656.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 335737
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/4cs-color-new-web-656.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 29345
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/4cs-clarity-new-656.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 112634
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/4cs-carat-new-656.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 107781
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/pdf.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 368552
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/4cs-cut-new-web-656.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 81866
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/carat-weight-poster.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 69984
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/02-color-200920-poster.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 61478
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/03-clarity-200922.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 62528
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/04-cut-200926-poster.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 63512
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/Lab-Grown-diamond-poster.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 77877
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/06-IGI-explains-Confidence.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 76521
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/Forging-Your-Jewelry-new-image-web.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 71637
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/Conception.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 114746
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/forging-jewelry-creation-1.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 313965
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/forging-jewelry-creation-2.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 126299
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/forging-jewelry-casting.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 110899
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/cleaning.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 36126
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/culmination.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 81444
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/igi-report-loading.gif",
+      "status": 200,
+      "ct": "image/gif",
+      "len": 11495
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/report_smalli.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 161642
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/h-n-a-pavilion-crown-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 49304
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/h-n-a-technical-mastery-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 74906
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/hearts-n-arrows-symbolism-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 32567
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/volcano-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 77111
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/diamond-rocks-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 66531
+    },
+    {
+      "url": "https://tags.srv.stackadapt.com/saq_pxl?uid=rkeFBJ8NqqWwtzrjN58vfw&is_js=true&landing_url=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&t=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&tip=JcEOn5eMNKsZv1LEFwSMLU5_c3ST4TdiGlIdT41z6mk&host=https%3A%2F%2Flookup.igi.org&sa_conv_data_css_value=%27CiQwMWExNTcyOS0wM2E4LTcxNjgtYWE3Ni05YTViM2UzNDY0NWUQBBoCTkEgYg%27&sa_conv_data_image_value=ffd8ffe000104a46494600010101006000600000ffdb004300080606070605080707070909080a0c140d0c0b0b0c1912130f141d1a1f1e1d1a1c1c20242e2720222c231c1c2837292c30313434341f27393d38323c2e333432ffdb0043010909090c0b0c180d0d1832211c213232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232ffc00011080001000103012200021101031101ffc4001f0000010501010101010100000000000000000102030405060708090a0bffc400b5100002010303020403050504040000017d01020300041105122131410613516107227114328191a1082342b1c11552d1f02433627282090a161718191a25262728292a3435363738393a434445464748494a535455565758595a636465666768696a737475767778797a838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae1e2e3e4e5e6e7e8e9eaf1f2f3f4f5f6f7f8f9faffc4001f0100030101010101010101010000000000000102030405060708090a0bffc400b51100020102040403040705040400010277000102031104052131061241510761711322328108144291a1b1c109233352f0156272d10a162434e125f11718191a262728292a35363738393a434445464748494a535455565758595a636465666768696a737475767778797a82838485868788898a92939495969798999aa2a3a4a5a6a7a8a9aab2b3b4b5b6b7b8b9bac2c3c4c5c6c7c8c9cad2d3d4d5d6d7d8d9dae2e3e4e5e6e7e8e9eaf2f3f4f5f6f7f8f9faffda000c03010002110311003f00f7fa28a2803fffd9436951774d5745784e5463794f5330774d3249314c54646c5a446b744f5467314d6931684e5445304d4468694e4442684e6d4d5142426f43546b45675477&l_src=&l_src_d=&u_src=&u_src_d=&shop=false&sa-user-id-v4=s%253ACiQwMWExNTcyOS0wM2E4LTcxNjgtYWE3Ni05YTViM2UzNDY0NWUQBBoCTkEgYg.A577woPcvQvr6a69TGyIqSvVMjxPTv%252BBC4wVpwEhGAQ&sa-user-id-v3=s%253A.o6W7wkJsHSTU4%252BLlDruZ%252FwNjVcUZZMvakQpSatDoAgo&sa-user-id-v2=s%253AE4XoBa8sVohb1PaFe6Z7ODQCr1M.H6W%252BS1qmq7Qway3dyvgdebHcQ9tZjJqJ2dkWbx33QPk&sa-user-id=s%253A0-1385e805-af2c-5688-5bd4-f6857ba67b38.D%252F3JorrTGi1KEacpPOcw5%252FXTOfhJQDBtoUTmKiEFjK4",
+      "status": 200,
+      "ct": "text/plain; charset=utf-8",
+      "len": 94
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/121214163069370?v=2.9.425&r=stable&domain=lookup.igi.org&hme=766752a074f0cb0756dd3275a46fdecbcfe3de1ab8f573546734b619e44d384f&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C340%2C362%2C248%2C237%2C70%2C238%2C236%2C365%2C356%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+      "status": 200,
+      "ct": "application/x-javascript; charset=utf-8",
+      "len": 424887
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/rough-to-polished-1.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 44720
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/rough-to-polished-2.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 62116
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/rough-to-polished-3.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 61360
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/rough-to-polished-4.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 74669
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/rough-to-polished-5.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 57184
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-The-most-modern-technology-1.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 40813
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/diamond-in-hand-img.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 69318
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Diamond-Grading-1.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 48773
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1499606682&t=pageview&_s=1&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&ul=en-us&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&sr=1280x720&vp=1280x720&_u=YADAAAABAAAAAC~&jid=1408391170&gjid=62293405&cid=1033643599.1792463667&tid=UA-182941157-1&_gid=893111937.1792463668&_r=1&_slc=1&gtm=45He6ag1n81PRPPS8Dv834570205za200zd834570205xf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&z=1416582020",
+      "status": 200,
+      "ct": "text/plain",
+      "len": 15
+    },
+    {
+      "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=510821362.1792463668&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&en=page_view&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&scrsrc=www.googletagmanager.com&rnd=1399973683.1792463668&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ag1v834570205za200zd834570205xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792463668302&tfd=4679&fmt=8",
+      "status": 200,
+      "ct": ""
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-The-most-modern-technology-2.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 83390
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-1.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 32701
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-2.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 42397
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-3.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 39826
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-5.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 60013
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/white-logo.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 39241
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/360-degrees.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 6136
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/scrolltopcontrol.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 2113
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/popup-report.jpeg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 68722
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/logo-igi-360-login.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 19535
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-6.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 60519
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/loading-logo.png",
+      "status": 200,
+      "ct": "image/png",
+      "len": 55442
+    },
+    {
+      "url": "https://lookup.igi.org/assets/images/360/ydc-Rough-to-polish-4.jpg",
+      "status": 200,
+      "ct": "image/jpeg",
+      "len": 37943
+    },
+    {
+      "url": "https://lookup.igi.org/assets/video/learn-with-videos/06-IGI-explains-Confidence.mp4",
+      "status": 206,
+      "ct": "video/mp4"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RS8TSLQ9YN&gtm=45je6ag1v880127436za20ozb834570205zd834570205xf1&_p=1792463666789&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1033643599.1792463667&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792463668&sct=1&seg=0&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&en=page_view&_fv=1&_ss=1&tfd=4821",
+      "status": 204,
+      "ct": "text/plain"
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-PH7VZPE43G&gtm=45je6ag1v9125471672za20gxf1&_p=1792463666789&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&gdid=dZTNiMT&_eu=EBAIAGAC&cid=1033643599.1792463667&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&sid=1792463668&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=4889",
+      "status": 204,
+      "ct": "text/plain"
+    },
+    {
+      "url": "https://lookup.igi.org/assets/js/bootstrap.min.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 58072
+    },
+    {
+      "url": "https://www.igi.org/assets/images/up-button.svg",
+      "status": 200,
+      "ct": "image/svg+xml",
+      "len": 1109
+    },
+    {
+      "url": "https://igi-global-video.s3.ap-south-1.amazonaws.com/company/About_Aurora.mpeg",
+      "status": 206,
+      "ct": "video/mpeg"
+    },
+    {
+      "url": "https://igi-global-video.s3.ap-south-1.amazonaws.com/company/Shinnig-Star-REPORTING-hd.mpeg",
+      "status": 206,
+      "ct": "video/mpeg"
+    },
+    {
+      "url": "https://igi-global-video.s3.ap-south-1.amazonaws.com/company/About_Aurora.mpeg",
+      "status": 206,
+      "ct": "video/mpeg",
+      "len": 22839
+    },
+    {
+      "url": "https://api.airbud.io/widgets/widget.js?id=83b36672-f833-4891-884d-d108dd226ac7",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 8131
+    },
+    {
+      "url": "https://api.airbud.io/static/iframe-resizing-parent.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 18492
+    },
+    {
+      "url": "https://api.airbud.io/static/iframe-resizing-child.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 5860
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap",
+      "status": 200,
+      "ct": "text/css; charset=utf-8",
+      "len": 12355
+    },
+    {
+      "url": "https://api.airbud.io/static/index.efc068ca.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 661088
+    },
+    {
+      "url": "https://igi-global-video.s3.ap-south-1.amazonaws.com/company/About_Aurora.mpeg",
+      "status": 206,
+      "ct": "video/mpeg"
+    },
+    {
+      "url": "https://api.airbud.io/static/Widget.cb9cd6dc.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 856719
+    },
+    {
+      "url": "https://api.airbud.io/static/FullPageChat.34f20e8f.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 34442
+    },
+    {
+      "url": "https://api.airbud.io/static/FullPageOpenWidget.af391928.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 244677
+    },
+    {
+      "url": "https://api.airbud.io/static/Chat.b6aca1fc.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 22819
+    },
+    {
+      "url": "https://api.airbud.io/static/Chat.3d226e58.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 127505
+    },
+    {
+      "url": "https://api.airbud.io/static/FullPageOpenWidget.c9f8ae0e.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 563628
+    },
+    {
+      "url": "https://api.airbud.io/static/OpenWidget.971a7083.js",
+      "status": 200,
+      "ct": "application/javascript",
+      "len": 429157
+    },
+    {
+      "url": "https://lookup.igi.org/igi_new.php?r=LG839637366&_=1792463667199",
+      "status": 200,
+      "ct": "text/html; charset=UTF-8",
+      "len": 3311
+    },
+    {
+      "url": "https://tags.srv.stackadapt.com/js_tracking?url=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report&uid=rkeFBJ8NqqWwtzrjN58vfw&v=1&host=https%3A%2F%2Flookup.igi.org&l_src=&l_src_d=&u_src=&u_src_d=&shop=false",
+      "status": 204,
+      "ct": "",
+      "len": 0
+    },
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-RS8TSLQ9YN&gtm=45je6ag1v880127436za20gzb834570205zd834570205xf1&_p=1792463666789&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AEAAACQC&ae=a&cid=1033643599.1792463667&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.4%7CHeadlessChrome%3B156.0.8078.4&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=en-us&_s=2&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792463668&sct=1&seg=1&dl=https%3A%2F%2Flookup.igi.org%2Findex.php%2Freports%2Fverify_your_report%3Fr%3DLG839637366&dt=Verify%20Your%20Report%20%7C%20Verify%20Your%20Diamond%20Online%20%7C%20IGI&en=click&ep.link_id=downloadpdf&ep.link_classes=&ep.link_url=https%3A%2F%2Fapi.igi.org%2Fviewpdf.php%3Fr%3DLG839637366&ep.link_domain=api.igi.org&ep.outbound=true&_et=18459&tfd=28280",
+      "status": 204,
+      "ct": "text/plain"
+    }
+  ]
+}

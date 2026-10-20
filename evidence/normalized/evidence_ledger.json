@@ -1,0 +1,372 @@
+[
+  {
+    "evidence_id": "igi_LG839637366",
+    "source_url": "https://lookup.igi.org/igi_new.php?r=LG839637366",
+    "source_title": "IGI report LG839637366",
+    "collection_timestamp_utc": "2026-10-20T02:38:58.635265Z",
+    "publication_timestamp_utc": null,
+    "local_path": "/workspace/evidence/raw/igi_new_LG839637366.html",
+    "sha256": "9dd828494b4c4843a0d76cd369d810a5da189e81d4eaf1d05d1b01c3e399d7e1",
+    "source_category": "diamond_cert",
+    "reliability": "A",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "fields": {
+        "Report Number": "LG839637366",
+        "Report Date": "September 19, 2026",
+        "Description": "LABORATORY GROWN DIAMOND",
+        "Shape And Cut": "MARQUISE BRILLIANT",
+        "Carat Weight": "3.03 Carats",
+        "Color Grade": "F",
+        "Clarity Grade": "VS 1",
+        "Polish": "VERY GOOD",
+        "Symmetry": "EXCELLENT",
+        "Measurements": "14.39 x 7.67 x 4.78 mm",
+        "Table Size": "61%",
+        "Crown Height": "13.5% - 34.8\u00b0",
+        "Pavilion Depth": "44.5% - 40.5\u00b0",
+        "Girdle Thickness": "MEDIUM TO SLIGHTLY THICK (FACETED)",
+        "Culet": "POINTED",
+        "Total Depth": "62.3%",
+        "Fluorescence": "NONE",
+        "Comments": "This Laboratory Grown Diamond was created by Chemical Vapor Deposition (CVD) growth process Type IIa",
+        "Inscription(s)": "IGI LG839637366"
+      },
+      "polish_mismatch_vs_advertised": true
+    },
+    "notes": "Official IGI igi_new.php lookup; empty body indicates missing report."
+  },
+  {
+    "evidence_id": "tiktok_profile_royalediamondslive",
+    "source_url": "https://www.tiktok.com/@royalediamondslive",
+    "source_title": "TikTok - Make Your Day",
+    "collection_timestamp_utc": "2026-10-20T02:38:59.240568Z",
+    "publication_timestamp_utc": null,
+    "local_path": "/workspace/evidence/raw/tiktok_royalediamondslive_pipeline.html",
+    "sha256": "ab0d1469977caff96a763109322ff1a00b75a8a40071b99f10a53788075123d4",
+    "source_category": "tiktok",
+    "reliability": "B",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "page_title": "TikTok - Make Your Day"
+    },
+    "notes": "Public web profile only; video grid may fail without login."
+  },
+  {
+    "evidence_id": "username_correlation_graph",
+    "source_url": "local://username_correlation",
+    "source_title": "Username correlation graph",
+    "collection_timestamp_utc": "2026-10-20T02:39:00.094607Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "identity",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "node_count": 3,
+      "edge_count": 2
+    },
+    "notes": "Matching usernames are correlation candidates only. No private individuals were identified. No authenticated access attempted."
+  },
+  {
+    "evidence_id": "telegram_public_probe",
+    "source_url": "https://t.me/",
+    "source_title": "Telegram public page probes",
+    "collection_timestamp_utc": "2026-10-20T02:39:02.958851Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "telegram",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {
+      "pages_checked": 4
+    },
+    "notes": "No private groups joined; no deception used."
+  },
+  {
+    "evidence_id": "inventory_matrix",
+    "source_url": "local://diamond_inventory",
+    "source_title": "Diamond inventory correlation matrix",
+    "collection_timestamp_utc": "2026-10-20T02:39:04.975602Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "inventory",
+    "reliability": "B",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "rows": 6,
+      "blocked_marketplaces": 1
+    },
+    "notes": ""
+  },
+  {
+    "evidence_id": "corporate_identity",
+    "source_url": "local://corporate_research",
+    "source_title": "Corporate identity assessment",
+    "collection_timestamp_utc": "2026-10-20T02:39:13.167529Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "business",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {
+      "legal_entity": "UNKNOWN"
+    },
+    "notes": "Avoided attributing unrelated similarly named businesses."
+  },
+  {
+    "evidence_id": "igi_LG839637366",
+    "source_url": "https://lookup.igi.org/igi_new.php?r=LG839637366",
+    "source_title": "IGI report LG839637366",
+    "collection_timestamp_utc": "2026-10-20T02:39:16.788736Z",
+    "publication_timestamp_utc": null,
+    "local_path": "/workspace/evidence/raw/igi_new_LG839637366.html",
+    "sha256": "9dd828494b4c4843a0d76cd369d810a5da189e81d4eaf1d05d1b01c3e399d7e1",
+    "source_category": "diamond_cert",
+    "reliability": "A",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "fields": {
+        "Report Number": "LG839637366",
+        "Report Date": "September 19, 2026",
+        "Description": "LABORATORY GROWN DIAMOND",
+        "Shape And Cut": "MARQUISE BRILLIANT",
+        "Carat Weight": "3.03 Carats",
+        "Color Grade": "F",
+        "Clarity Grade": "VS 1",
+        "Polish": "VERY GOOD",
+        "Symmetry": "EXCELLENT",
+        "Measurements": "14.39 x 7.67 x 4.78 mm",
+        "Table Size": "61%",
+        "Crown Height": "13.5% - 34.8\u00b0",
+        "Pavilion Depth": "44.5% - 40.5\u00b0",
+        "Girdle Thickness": "MEDIUM TO SLIGHTLY THICK (FACETED)",
+        "Culet": "POINTED",
+        "Total Depth": "62.3%",
+        "Fluorescence": "NONE",
+        "Comments": "This Laboratory Grown Diamond was created by Chemical Vapor Deposition (CVD) growth process Type IIa",
+        "Inscription(s)": "IGI LG839637366"
+      },
+      "polish_mismatch_vs_advertised": true
+    },
+    "notes": "Official IGI igi_new.php lookup; empty body indicates missing report."
+  },
+  {
+    "evidence_id": "tiktok_profile_royalediamondslive",
+    "source_url": "https://www.tiktok.com/@royalediamondslive",
+    "source_title": "TikTok - Make Your Day",
+    "collection_timestamp_utc": "2026-10-20T02:39:16.991584Z",
+    "publication_timestamp_utc": null,
+    "local_path": "/workspace/evidence/raw/tiktok_royalediamondslive_pipeline.html",
+    "sha256": "ab0d1469977caff96a763109322ff1a00b75a8a40071b99f10a53788075123d4",
+    "source_category": "tiktok",
+    "reliability": "B",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "page_title": "TikTok - Make Your Day"
+    },
+    "notes": "Public web profile only; video grid may fail without login."
+  },
+  {
+    "evidence_id": "username_correlation_graph",
+    "source_url": "local://username_correlation",
+    "source_title": "Username correlation graph",
+    "collection_timestamp_utc": "2026-10-20T02:39:17.537568Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "identity",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "node_count": 3,
+      "edge_count": 2
+    },
+    "notes": "Matching usernames are correlation candidates only. No private individuals were identified. No authenticated access attempted."
+  },
+  {
+    "evidence_id": "telegram_public_probe",
+    "source_url": "https://t.me/",
+    "source_title": "Telegram public page probes",
+    "collection_timestamp_utc": "2026-10-20T02:39:17.544801Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "telegram",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {
+      "pages_checked": 4
+    },
+    "notes": "No private groups joined; no deception used."
+  },
+  {
+    "evidence_id": "inventory_matrix",
+    "source_url": "local://diamond_inventory",
+    "source_title": "Diamond inventory correlation matrix",
+    "collection_timestamp_utc": "2026-10-20T02:39:19.119254Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "inventory",
+    "reliability": "B",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "rows": 6,
+      "blocked_marketplaces": 1
+    },
+    "notes": ""
+  },
+  {
+    "evidence_id": "corporate_identity",
+    "source_url": "local://corporate_research",
+    "source_title": "Corporate identity assessment",
+    "collection_timestamp_utc": "2026-10-20T02:39:19.821829Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "business",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {
+      "legal_entity": "UNKNOWN"
+    },
+    "notes": "Avoided attributing unrelated similarly named businesses."
+  },
+  {
+    "evidence_id": "reputation_summary",
+    "source_url": "local://reputation_analysis",
+    "source_title": "Reputation and complaints synthesis",
+    "collection_timestamp_utc": "2026-10-20T02:39:19.822625Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "complaints",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNVERIFIED",
+    "extracted_facts": {
+      "verified_official_enforcement": 0,
+      "documented_customer_dispute": 0,
+      "independently_corroborated_complaint": 0,
+      "unverified_allegation": 1,
+      "positive_customer_experience": 1,
+      "irrelevant_name_collision": 2
+    },
+    "notes": ""
+  },
+  {
+    "evidence_id": "tracking_9200190390470924693050",
+    "source_url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
+    "source_title": "Shipment tracking probe",
+    "collection_timestamp_utc": "2026-10-20T02:39:20.911430Z",
+    "publication_timestamp_utc": null,
+    "local_path": null,
+    "sha256": null,
+    "source_category": "shipping",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {
+      "tracking_number": "9200190390470924693050",
+      "shipment_status": "NO_PUBLIC_SCAN_DATA \u2014 aggregator reports no information; USPS authoritative portal blocked from this environment. Do not infer transit progress."
+    },
+    "notes": "Never infer progress from unrelated tracking numbers."
+  },
+  {
+    "evidence_id": "tiktok_profile_royalediamondslive",
+    "source_url": "https://www.tiktok.com/@royalediamondslive",
+    "source_title": "TikTok - Make Your Day",
+    "collection_timestamp_utc": "2026-10-20T02:39:40.966912Z",
+    "publication_timestamp_utc": null,
+    "local_path": "/workspace/evidence/raw/tiktok_royalediamondslive_pipeline.html",
+    "sha256": "ab0d1469977caff96a763109322ff1a00b75a8a40071b99f10a53788075123d4",
+    "source_category": "tiktok",
+    "reliability": "B",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {
+      "page_title": "TikTok - Make Your Day"
+    },
+    "notes": "Public web profile only; video grid may fail without login."
+  },
+  {
+    "evidence_id": "screenshot_tiktok_profile",
+    "source_url": "https://www.tiktok.com/@royalediamondslive",
+    "source_title": "tiktok_royalediamondslive.png",
+    "collection_timestamp_utc": "2026-10-20T02:39:40.968018Z",
+    "publication_timestamp_utc": null,
+    "local_path": "evidence/screenshots/tiktok_royalediamondslive.png",
+    "sha256": "3bf37c87b9716138ea0a2f078bc56ff82f13883640d8d7620ce2787a1e5d15f6",
+    "source_category": "tiktok",
+    "reliability": "B",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {},
+    "notes": ""
+  },
+  {
+    "evidence_id": "igi_verify_page_screenshot",
+    "source_url": "https://lookup.igi.org/index.php/reports/verify_your_report?r=LG839637366",
+    "source_title": "igi_direct_0.png",
+    "collection_timestamp_utc": "2026-10-20T02:39:40.968684Z",
+    "publication_timestamp_utc": null,
+    "local_path": "evidence/screenshots/igi_direct_0.png",
+    "sha256": "b64ea597bf498e007791badf914ddac326c965535ed0113b894d98f32db8ae49",
+    "source_category": "diamond_cert",
+    "reliability": "A",
+    "evidence_tier": "primary",
+    "independently_corroborates": [],
+    "status": "CONFIRMED",
+    "extracted_facts": {},
+    "notes": ""
+  },
+  {
+    "evidence_id": "parcelsapp_tracking_archive",
+    "source_url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
+    "source_title": "parcelsapp_tracking.html",
+    "collection_timestamp_utc": "2026-10-20T02:39:40.969430Z",
+    "publication_timestamp_utc": null,
+    "local_path": "evidence/raw/parcelsapp_tracking.html",
+    "sha256": "fcace13606485237107c1ee6e18ce82c6bf719d742159dac5921343203f682ee",
+    "source_category": "shipping",
+    "reliability": "C",
+    "evidence_tier": "secondary",
+    "independently_corroborates": [],
+    "status": "UNKNOWN",
+    "extracted_facts": {},
+    "notes": ""
+  }
+]

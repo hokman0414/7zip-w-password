@@ -1,0 +1,38 @@
+{
+  "seller_name_query": "Royale Diamonds",
+  "confirmed_username": "royalediamondslive",
+  "confidence": "MEDIUM",
+  "profile": {
+    "url": "https://www.tiktok.com/@royalediamondslive",
+    "page_title": "TikTok - Make Your Day"
+  },
+  "media_corroboration": [],
+  "search_terms": [
+    "Royale Diamonds TikTok",
+    "RoyaleDiamonds lab grown",
+    "Royale Diamonds auction",
+    "Royale Diamonds scam",
+    "Royale Diamonds review",
+    "Royale Diamonds refund",
+    "Royale Diamonds IGI",
+    "Royale Diamonds shipping",
+    "Royale Diamonds complaints",
+    "Royale Diamonds Telegram"
+  ],
+  "blocked": [],
+  "name_collisions": [
+    {
+      "entity": "Royale Diamonds (Pune, India jewelry store)",
+      "domain": "royalediamonds.com",
+      "relation": "UNVERIFIED name collision \u2014 do not attribute to TikTok seller without proof",
+      "status": "UNVERIFIED"
+    },
+    {
+      "entity": "Royal Diamond USA LLC (Bellaire, TX consumer products)",
+      "domain": "royaldiamondusa.com",
+      "relation": "Different branding/products; not treated as same entity",
+      "status": "IRRELEVANT_NAME_COLLISION"
+    }
+  ],
+  "collected_at_utc": "2026-10-20T02:39:40.735657+00:00"
+}

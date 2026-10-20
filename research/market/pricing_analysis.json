@@ -1,0 +1,354 @@
+{
+  "target": {
+    "shape": "marquise",
+    "carat_range": [
+      2.8,
+      3.2
+    ],
+    "color": "F",
+    "clarity": "VS1",
+    "lab": "IGI",
+    "purchase_price_usd": 350,
+    "purchase_ppc": 115.51
+  },
+  "comparables_count": 10,
+  "comparables": [
+    {
+      "source": "Jewelry by Cleo",
+      "url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG726561176",
+      "price_usd": 624.0,
+      "price_type": "retail_ask",
+      "dims": "14.76x7.67x4.68",
+      "ppc": 205.94059405940595
+    },
+    {
+      "source": "Laura Milman",
+      "url": "https://www.lauramilman.com/products/lg-100759907944",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 675.0,
+      "price_type": "retail_ask",
+      "dims": "15.75x7.55x4.52",
+      "ppc": 222.77227722772278
+    },
+    {
+      "source": "Aur\u00e9linne",
+      "url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG747592527",
+      "price_usd": 736.0,
+      "price_type": "retail_ask_sold_out",
+      "dims": "15.11x7.57x4.68",
+      "ppc": 242.90429042904293
+    },
+    {
+      "source": "B2C Jewels",
+      "url": "https://www.b2cjewels.com/dd/31446716/marquise-diamond-F-color-VS1-Clarity",
+      "carat": 2.85,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG747565892",
+      "price_usd": 947.0,
+      "price_type": "retail_ask_oos",
+      "dims": "14.61x7.42x4.61",
+      "ppc": 332.280701754386
+    },
+    {
+      "source": "Hadar Diamonds",
+      "url": "https://hadardiamonds.com/products/3-03-ct-marquise-lab-grown-diamond-757bd528lg048",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1267.15,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 418.2013201320133
+    },
+    {
+      "source": "Von Diamonds",
+      "url": "https://vondiamonds.com/products/kd-100742809318",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1725.0,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 569.3069306930694
+    },
+    {
+      "source": "Laura Milman 2.8",
+      "url": "https://www.lauramilman.com/products/lg-100756993369",
+      "carat": 2.8,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1285.0,
+      "price_type": "retail_ask",
+      "dims": "15.49x7.38x4.46",
+      "ppc": 458.92857142857144
+    },
+    {
+      "source": "Friendly Diamonds 2.90",
+      "url": "https://friendlydiamonds.com/loose-diamonds/marquise-2.9-f-vs1-excellent-5439279",
+      "carat": 2.9,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1206.0,
+      "price_type": "retail_ask_oos",
+      "dims": "14.71x7.33x4.71",
+      "ppc": 415.86206896551727
+    },
+    {
+      "source": "The Diamond Lab 2.96",
+      "url": "https://www.thediamondlab.net/products/los-00388",
+      "carat": 2.96,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "677502632",
+      "price_usd": 1420.8,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 480.0
+    },
+    {
+      "source": "Jewelry Exchange 3.1",
+      "url": "https://jewelryexchange.com/product/lab-grown-3-1-carat-f-vs1-marquise-igi-diamond/",
+      "carat": 3.1,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG607300761",
+      "price_usd": 1856.9,
+      "price_type": "retail_ask",
+      "dims": "15.52x7.47x4.60",
+      "ppc": 599.0
+    }
+  ],
+  "all_rows_including_near_comps": [
+    {
+      "source": "Jewelry by Cleo",
+      "url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG726561176",
+      "price_usd": 624.0,
+      "price_type": "retail_ask",
+      "dims": "14.76x7.67x4.68",
+      "ppc": 205.94059405940595
+    },
+    {
+      "source": "Laura Milman",
+      "url": "https://www.lauramilman.com/products/lg-100759907944",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 675.0,
+      "price_type": "retail_ask",
+      "dims": "15.75x7.55x4.52",
+      "ppc": 222.77227722772278
+    },
+    {
+      "source": "Aur\u00e9linne",
+      "url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG747592527",
+      "price_usd": 736.0,
+      "price_type": "retail_ask_sold_out",
+      "dims": "15.11x7.57x4.68",
+      "ppc": 242.90429042904293
+    },
+    {
+      "source": "B2C Jewels",
+      "url": "https://www.b2cjewels.com/dd/31446716/marquise-diamond-F-color-VS1-Clarity",
+      "carat": 2.85,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG747565892",
+      "price_usd": 947.0,
+      "price_type": "retail_ask_oos",
+      "dims": "14.61x7.42x4.61",
+      "ppc": 332.280701754386
+    },
+    {
+      "source": "Hadar Diamonds",
+      "url": "https://hadardiamonds.com/products/3-03-ct-marquise-lab-grown-diamond-757bd528lg048",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1267.15,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 418.2013201320133
+    },
+    {
+      "source": "Von Diamonds",
+      "url": "https://vondiamonds.com/products/kd-100742809318",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1725.0,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 569.3069306930694
+    },
+    {
+      "source": "Laura Milman 2.8",
+      "url": "https://www.lauramilman.com/products/lg-100756993369",
+      "carat": 2.8,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1285.0,
+      "price_type": "retail_ask",
+      "dims": "15.49x7.38x4.46",
+      "ppc": 458.92857142857144
+    },
+    {
+      "source": "Friendly Diamonds 2.90",
+      "url": "https://friendlydiamonds.com/loose-diamonds/marquise-2.9-f-vs1-excellent-5439279",
+      "carat": 2.9,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "unknown",
+      "price_usd": 1206.0,
+      "price_type": "retail_ask_oos",
+      "dims": "14.71x7.33x4.71",
+      "ppc": 415.86206896551727
+    },
+    {
+      "source": "The Diamond Lab 2.96",
+      "url": "https://www.thediamondlab.net/products/los-00388",
+      "carat": 2.96,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "677502632",
+      "price_usd": 1420.8,
+      "price_type": "retail_ask",
+      "dims": "unknown",
+      "ppc": 480.0
+    },
+    {
+      "source": "Jewelry Exchange 3.1",
+      "url": "https://jewelryexchange.com/product/lab-grown-3-1-carat-f-vs1-marquise-igi-diamond/",
+      "carat": 3.1,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "LG607300761",
+      "price_usd": 1856.9,
+      "price_type": "retail_ask",
+      "dims": "15.52x7.47x4.60",
+      "ppc": 599.0
+    },
+    {
+      "source": "Ritani nearby 2.90 G/VS1",
+      "url": "https://www.ritani.com/products/2-90-carat-marquise-lab-diamond-very-good-cut-g-color-vs1-clarity-igi-lg841603382-sku-d-3s59oijfhy",
+      "carat": 2.9,
+      "color": "G",
+      "clarity": "VS1",
+      "cert": "LG841603382",
+      "price_usd": 680.0,
+      "price_type": "retail_ask_near_comp",
+      "dims": "14.39x7.63x4.66",
+      "ppc": 234.48275862068965
+    },
+    {
+      "source": "Ritani nearby 2.90 H/VS1",
+      "url": "https://www.ritani.com/products/2-90-carat-marquise-lab-diamond-very-good-cut-h-color-vs1-clarity-igi-lg841660876-sku-d-3s59oiknv0",
+      "carat": 2.9,
+      "color": "H",
+      "clarity": "VS1",
+      "cert": "LG841660876",
+      "price_usd": 616.0,
+      "price_type": "retail_ask_near_comp",
+      "dims": "14.39x7.66x4.7",
+      "ppc": 212.41379310344828
+    },
+    {
+      "source": "Shopify storefront F/VVS2 3.03",
+      "url": "https://azt0aw-u9.myshopify.com/products/3-03ct-marquise-f-vvs2-diamond-l7n8",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VVS2",
+      "cert": "LG739542088",
+      "price_usd": 1119.72,
+      "price_type": "retail_ask_near_comp",
+      "dims": "14.39x7.67x4.82",
+      "ppc": 369.54455445544556
+    },
+    {
+      "source": "Reddit community heuristic",
+      "url": "https://www.reddit.com/r/labdiamond/comments/1vwjjf6/7ct_emerald_cut_f_vvs2/",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "n/a",
+      "price_usd": 303.0,
+      "price_type": "community_rule_of_thumb_100_per_ct",
+      "dims": "n/a",
+      "ppc": 100.0
+    },
+    {
+      "source": "Mashable market commentary band mid",
+      "url": "https://mashable.com/life/tiktok-shop-lab-grown-diamond-live-auctions",
+      "carat": 3.03,
+      "color": "F",
+      "clarity": "VS1",
+      "cert": "n/a",
+      "price_usd": 454.5,
+      "price_type": "media_stated_band_150_per_ct",
+      "dims": "n/a",
+      "ppc": 150.0
+    }
+  ],
+  "stats_retail_asks_F_VS1": {
+    "n": 10,
+    "min": 624.0,
+    "max": 1856.9,
+    "median": 1236.58,
+    "iqr": [
+      720.75,
+      1496.85
+    ],
+    "outlier_adjusted_median": 1236.58,
+    "median_price_per_carat": 417.03,
+    "price_type_caveat": "These are asking prices, not verified transaction prices."
+  },
+  "auction_discount_vs_median_ask": 0.717,
+  "unverified_leads": {
+    "ritani_ask_usd": 945,
+    "ritani_wholesale_estimate_usd": 325.97,
+    "brilliance_ask_usd": 2020,
+    "status": "UNVERIFIED"
+  },
+  "assessment": {
+    "economically_plausible": true,
+    "unusually_favorable_vs_retail_asks": true,
+    "consistent_with_auction_liquidation": true,
+    "below_credible_acquisition_cost": "UNKNOWN",
+    "suspicious_vs_verified_wholesale": "UNKNOWN",
+    "rationale": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+  },
+  "limitations": [
+    "Retail asks \u2260 clearing prices",
+    "Cut quality / light performance not priced here",
+    "Some listings OOS or near-comps (G/H color, VVS2)",
+    "No verified wholesale invoice for this certificate"
+  ],
+  "collected_at_utc": "2026-10-20T02:39:44.041238+00:00"
+}

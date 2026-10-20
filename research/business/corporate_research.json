@@ -1,0 +1,70 @@
+{
+  "queried_name": "Royale Diamonds",
+  "tiktok_seller_legal_entity": {
+    "status": "UNKNOWN",
+    "notes": "No public SOS filing conclusively linked to TikTok @royalediamondslive was verified in this automated pass."
+  },
+  "candidate_entities": [
+    {
+      "name": "Royale Diamonds (Pune, India)",
+      "domain": "royalediamonds.com",
+      "relation_to_tiktok_seller": "UNVERIFIED name collision",
+      "do_not_attribute": true
+    },
+    {
+      "name": "Royal Diamond USA LLC",
+      "domain": "royaldiamondusa.com",
+      "relation_to_tiktok_seller": "IRRELEVANT_NAME_COLLISION",
+      "do_not_attribute": true
+    }
+  ],
+  "probes": [
+    {
+      "source": "opencorporates",
+      "url": "https://opencorporates.com/companies?q=Royale+Diamonds",
+      "http_status": 200,
+      "blocked": true,
+      "status": "BLOCKED"
+    },
+    {
+      "source": "royalediamonds_com",
+      "url": "https://www.royalediamonds.com/",
+      "http_status": 200,
+      "blocked": false,
+      "status": "ok"
+    },
+    {
+      "source": "uspto_tm_search",
+      "url": "https://tmsearch.uspto.gov/",
+      "http_status": 200,
+      "blocked": false,
+      "status": "ok"
+    },
+    {
+      "source": "bbb_search",
+      "url": "https://www.bbb.org/search?find_text=Royale%20Diamonds&find_country=US",
+      "http_status": null,
+      "blocked": false,
+      "status": "robots_disallowed"
+    },
+    {
+      "source": "urlscan",
+      "url": "https://urlscan.io/search/#royalediamondslive",
+      "http_status": 200,
+      "blocked": false,
+      "status": "ok"
+    }
+  ],
+  "manual_tasks": [
+    {
+      "task": "Obtain TikTok Shop seller business name / seller ID from order receipt",
+      "why": "Needed to query SOS / OpenCorporates without name-collision risk",
+      "status": "NEED_USER_INPUT"
+    },
+    {
+      "task": "Search USPTO / state trademark filings for exact stylized mark used on TikTok",
+      "status": "PENDING_MANUAL"
+    }
+  ],
+  "collected_at_utc": "2026-10-20T02:39:19.821571+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "case_id": "royale_diamonds",
+  "as_of_utc": "2026-10-20T02:39:43.509803+00:00",
+  "seller_legitimacy": {
+    "status": "CORROBORATED_PUBLIC_PRESENCE",
+    "username": "royalediamondslive",
+    "summary": "Public media and a live TikTok profile corroborate @royalediamondslive as the Royale Diamonds livestream auction seller. Legal business entity remains UNKNOWN."
+  },
+  "certificate_status": {
+    "status": "CONFIRMED",
+    "report": "LG839637366",
+    "summary": "Official IGI lookup confirms a laboratory-grown marquise 3.03ct F VS1 CVD diamond with matching measurements. Advertised polish Excellent is CONTRADICTED by IGI Very Good.",
+    "polish_mismatch": true
+  },
+  "economic_plausibility": {
+    "purchase_usd": 350,
+    "assessment": {
+      "economically_plausible": true,
+      "unusually_favorable_vs_retail_asks": true,
+      "consistent_with_auction_liquidation": true,
+      "below_credible_acquisition_cost": "UNKNOWN",
+      "suspicious_vs_verified_wholesale": "UNKNOWN",
+      "rationale": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+    },
+    "summary": "$350 (~$116/ct) sits below the observed retail-ask cluster for similar F/VS1 marquises, but community heuristics (~$100/ct) and media bands (~$100\u2013200/ct) make auction pricing plausible. Without a verified wholesale feed for LG839637366, 'below cost' cannot be confirmed."
+  },
+  "fraud_risk": {
+    "leading_hypotheses": [
+      "H2",
+      "H1"
+    ],
+    "subjective_posteriors": {
+      "H1": 0.227,
+      "H2": 0.487,
+      "H3": 0.097,
+      "H4": 0.032,
+      "H5": 0.107,
+      "H6": 0.049
+    },
+    "summary": "Current evidence most favors legitimate/fulfillable sale with possible value exaggeration (H2/H1). Fulfillment, substitution, and impersonation remain open until delivery + inscription check."
+  },
+  "recommended_actions": [
+    "Manually open USPS tracking for 9200190390470924693050 and archive screenshot (portal blocked here).",
+    "On receipt: verify girdle inscription 'IGI LG839637366' and compare measurements to IGI fields.",
+    "Note polish grade mismatch (Excellent advertised vs Very Good on IGI) for dispute leverage if needed.",
+    "Provide TikTok Shop order ID, seller legal name, and promised ship-by date to tighten corporate OSINT.",
+    "If no USPS acceptance scan by ship-by + 3 business days, open TikTok Shop dispute."
+  ]
+}

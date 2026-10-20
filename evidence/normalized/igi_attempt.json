@@ -1,0 +1,149 @@
+{
+  "nav_err": "TimeoutError('Locator.click: Timeout 30000ms exceeded.\\nCall log:\\n  - waiting for locator(\"a:has-text(\\\\\"VERIFY\\\\\")\").first\\n    - locator resolved to <a target=\"\" href=\"https://igi.org/verify-your-report\">Verify Your Report</a>\\n  - attempting click action\\n    2 \u00d7 waiting for element to be visible, enabled and stable\\n      - element is not visible\\n    - retrying click action\\n    - waiting 20ms\\n    2 \u00d7 waiting for element to be visible, enabled and stable\\n      - element is not visible\\n    - retrying click action\\n      - waiting 100ms\\n    58 \u00d7 waiting for element to be visible, enabled and stable\\n       - element is not visible\\n     - retrying click action\\n       - waiting 500ms\\n')",
+  "inputs": [
+    {
+      "id": "verifyReport_h",
+      "name": "r",
+      "type": "text",
+      "placeholder": "Enter Report No.",
+      "visible": false,
+      "class": "form-control"
+    },
+    {
+      "id": "person_name",
+      "name": "person_name",
+      "type": "text",
+      "placeholder": "Name",
+      "visible": false,
+      "class": "form-control"
+    },
+    {
+      "id": "person_email",
+      "name": "person_email",
+      "type": "email",
+      "placeholder": "Email",
+      "visible": false,
+      "class": "form-control"
+    },
+    {
+      "id": "verifyReport",
+      "name": "r",
+      "type": "text",
+      "placeholder": "Verify your Report",
+      "visible": false,
+      "class": "verify-form-inp"
+    },
+    {
+      "id": "",
+      "name": "",
+      "type": "submit",
+      "placeholder": "",
+      "visible": false,
+      "class": "theme_btn_o_w"
+    },
+    {
+      "id": "webinar_from_date",
+      "name": "webinar_from_date",
+      "type": "text",
+      "placeholder": "From",
+      "visible": false,
+      "class": "form-control"
+    },
+    {
+      "id": "webinar_to_date",
+      "name": "webinar_to_date",
+      "type": "text",
+      "placeholder": "To",
+      "visible": false,
+      "class": "form-control"
+    }
+  ],
+  "filled_via_js": true,
+  "selects": [
+    {
+      "id": "lang_switcher",
+      "name": "lang_switcher",
+      "visible": false,
+      "options": [
+        "English",
+        "\u7b80\u4f53\u4e2d\u6587",
+        "\u7e41\u9ad4\u4e2d\u6587",
+        "Italian",
+        "Arabic"
+      ]
+    },
+    {
+      "id": "webinar_location",
+      "name": "webinar_location[]",
+      "visible": false,
+      "options": []
+    },
+    {
+      "id": "webinar_language",
+      "name": "webinar_language[]",
+      "visible": false,
+      "options": []
+    },
+    {
+      "id": "webinar_order_by",
+      "name": "webinar_order_by",
+      "visible": false,
+      "options": [
+        "Select",
+        "High to Low",
+        "Low to High"
+      ]
+    }
+  ],
+  "submit_err": "Error('Locator.click: Element is not visible\\nCall log:\\n  - waiting for locator(\"button:has-text(\\\\\"Search\\\\\")\").first\\n    - locator resolved to <button type=\"button\" id=\"search_webinars\" class=\"btn btn-theme\">Search</button>\\n  - attempting click action\\n    - scrolling into view if needed\\n')",
+  "submit": "Enter",
+  "sha256": "896d1591e36e81513953cb33a42bb7b17525664aaec8e0237711a9b5c15cc61d",
+  "excerpt": "ABOUT US \nREPORTS \nEDUCATION \nGEMBLOG\nSHOWS\nCONSUMER SERVICES\nCONTACT \n \nVERIFY YOUR REPORT\nEnroll in IGI's school of gemology for the world\u2019s widest range of courses and diploma programs\nFIND OUT MORE\nIGI REPORTS\nIGI grades the widest variety of gemstones and jewelry in more corners of the world than any other gemological organization.\nAs the global leader for jewelry assessment our experience and reach are unrivaled. Renowned for diamonds and colored gemstones, we are equally trusted with the grading of pearls, exotic carvings, fine jewelry pieces and modern synthetics and simulants.\nDiamond Report\nJewelry Report\nColored Stone Report\nLab Grown Report\nCommitted to Excellence\nLEARN MORE\nIGI EDUCATION\nEnroll in IGI\u2019s School of Gemology to discover the breathtaking world of diamonds, gemstones and jewelry. With more courses covering more topics in more countries than any other organization, IGI is the perfect choice for invested jewelry professionals and consumer enthusiasts alike.\nPolished Diamond\nRough Diamond\nColored Stones\nPearl\nJewelry Design\nJewelry CAD\nRetail Workshops\nPolished Diamond\n\nThis course is fast-paced and will quickly bring you to a level where you can identify, grade and price diamonds according to international grading and trading practices. It will give you a thorough understanding of the grading standards followed worldwide and is ideally suited for individuals with tight time constraints.\n\nLEARN MORE\nRetail Support\nDISCOVER\n IGI BLOG & NEWS\nEnjoy a collection of information from the world of diamonds, colored gemstones and fine jewelry.\nSingle Stone Repurposes Vintage Diamonds For A New Life\n\nThere\u2019s been a lot of excitement around vintage these days. Celebrities are showing up on the red carpet in vintage designer creations and real people are shopping in thrift stores...\n\nLEARN MORE\n74 Ct Diamond Necklace Headlines HK's Magnificent Jewels Auction\n\nAn internally flawless fancy vivid yellow diamond set in a diamond studded necklace will headline Sotheby's Magnificent Jewels auction in LEARN MORE\n\nWhat A Gem - Get To Know Jewelry Designer Ray Griffiths\n\nBorn in Sydney and now based in New York City, designer Ray Griffiths is known for his bold, gem-forward pieces, which always give the stone or stones pride of...\n\nLEARN MORE\nSapphire, Ruby & Diamond Rings Lead Bonham's Auction\n\nA Ruser ring with a 21.15 carat sapphire and diamond side stones set in platinum surpassed its pre-sale estimate by four times, commanding $127,500 when the gavel fell at...\n\nLEARN MORE\nREAD ALL NEWS AND UPDATES\nContact your local IGI\nCONTACT\n GEMSTONE GUIDES\nDiamond 4Cs\nDiamond Shapes\nJewelry Care Tips\nWe Train the Best Gemologists in the World\nENROLL NOW\nIGI's supreme position in the gemological world is no coincidence. It is the result of continuous research, support and synergy with professionals and consumers alike.\nABOUT US\nAbout IGI\n\nPress Room\n\nTimeline\n\nAffiliations\n\nImportance of Certification\n\nREPORTS\nOur Expertise\n\nHow to Read a Report\n\nDiamond Reports\n\nJewelry Report\n\nColored Stone Report\n\nScreening Services\n\nSorting Services\n\nSecurity Seal\n\nLaserscribe\n\nVerify Your Report\n\nEDUCATION\nGemological Education\n\nSchool Courses\n\nCourse Schedules\n\nTuition Fees\n\nEnrollment Form\n\neLearning Courses\n\nEnquiry Form\n\nGemstone Articles\n\nRetail Support\n\nLearn with Videos\n\nVerify a Diploma\n\nOther\nGemblog\nShows\nConsumer Services\nContact Us\n\n2020 \u00a9 IGI Ltd. All rights reserved\n\nTerms & Conditions \u00a0|\u00a0 Privacy policy \u00a0|\u00a0 Terms of use\n\n\u6caa ICP \u5907 19000101 \u53f7 -1\n\nFOLLOW IGI  \nPowered by Minds!\nIP Geolocation by geoPlugin\n\u00a0",
+  "api_calls": [],
+  "final_url": "https://lookup.igi.org/",
+  "ts": "2026-10-20T02:32:45.305798+00:00",
+  "direct_urls": [
+    {
+      "url": "https://www.igi.org/verify-your-report/?r=LG839637366",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 5782,
+      "excerpt": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+    },
+    {
+      "url": "https://www.igi.org/reports/verify-your-report/?r=LG839637366",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 4543,
+      "excerpt": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta"
+    },
+    {
+      "url": "https://api.igi.org/report/LG839637366",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 5679,
+      "excerpt": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39"
+    },
+    {
+      "url": "https://www.igi.org/viewpdf.php?r=LG839637366",
+      "status": 403,
+      "ct": "text/plain",
+      "len": 48,
+      "excerpt": "Contact IGI - Bad URL  www.IGI.org - viewpdf.php"
+    },
+    {
+      "url": "https://www.igi.org/verify.php?r=LG839637366",
+      "status": 403,
+      "ct": "text/html; charset=UTF-8",
+      "len": 4543,
+      "excerpt": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n<title>Attention Required! | Cloudflare</title>\n<meta charset=\"UTF-8\" />\n<meta"
+    },
+    {
+      "url": "https://lookup.igi.org/verify/?r=LG839637366",
+      "status": 404,
+      "ct": "text/html",
+      "len": 1245,
+      "excerpt": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;"
+    }
+  ]
+}

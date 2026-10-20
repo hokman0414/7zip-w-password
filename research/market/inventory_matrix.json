@@ -1,0 +1,177 @@
+{
+  "report_number": "LG839637366",
+  "marketplace_probes": [
+    {
+      "retailer": "ritani",
+      "url": "https://www.ritani.com/search?q=LG839637366",
+      "http_status": null,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "brilliance",
+      "url": "https://www.brilliance.com/search?q=LG839637366",
+      "http_status": null,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "rarecarat",
+      "url": "https://www.rarecarat.com/",
+      "http_status": null,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "jamesallen",
+      "url": "https://www.jamesallen.com/",
+      "http_status": 200,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "bluenile",
+      "url": "https://www.bluenile.com/",
+      "http_status": 200,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "withclarity",
+      "url": "https://www.withclarity.com/",
+      "http_status": null,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "friendlydiamonds",
+      "url": "https://friendlydiamonds.com/",
+      "http_status": 403,
+      "exact_cert_in_html": false,
+      "blocked": true,
+      "status": "BLOCKED"
+    },
+    {
+      "retailer": "adiamor",
+      "url": "https://www.adiamor.com/",
+      "http_status": null,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "loosegrowndiamond",
+      "url": "https://www.loosegrowndiamond.com/",
+      "http_status": 307,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    },
+    {
+      "retailer": "stonealgo",
+      "url": "https://stonealgo.com/",
+      "http_status": 200,
+      "exact_cert_in_html": false,
+      "blocked": false,
+      "status": "NO_HIT_IN_HTML"
+    }
+  ],
+  "exact_match_matrix": [
+    {
+      "match_class": "A_same_report_number",
+      "report_number": "LG839637366",
+      "retailer": "IGI official database",
+      "listing_url": "https://lookup.igi.org/igi_new.php?r=LG839637366",
+      "price_usd": null,
+      "inventory_status": "certificate_exists",
+      "specs": {
+        "shape": "MARQUISE BRILLIANT",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "measurements": "14.39 x 7.67 x 4.78 mm",
+        "polish": "VERY GOOD",
+        "growth": "CVD"
+      },
+      "status": "CONFIRMED"
+    },
+    {
+      "match_class": "A_same_report_number",
+      "report_number": "LG839637366",
+      "retailer": "Ritani",
+      "listing_url": null,
+      "price_usd": 945.0,
+      "wholesale_estimate_usd": 325.97,
+      "inventory_status": "lead_not_reproduced",
+      "status": "UNVERIFIED",
+      "notes": "User-supplied lead; automated Ritani fetch blocked by Cloudflare; search indexes did not surface exact listing."
+    },
+    {
+      "match_class": "A_same_report_number",
+      "report_number": "LG839637366",
+      "retailer": "Brilliance",
+      "listing_url": null,
+      "price_usd": 2020.0,
+      "inventory_status": "lead_not_reproduced",
+      "status": "UNVERIFIED",
+      "notes": "User-supplied lead; public search did not return an exact Brilliance listing for this certificate."
+    },
+    {
+      "match_class": "C_similar_different_cert",
+      "report_number": "LG726561176",
+      "retailer": "Jewelry by Cleo",
+      "listing_url": "https://jewelrybycleo.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified",
+      "price_usd": 624.0,
+      "inventory_status": "listed",
+      "specs": {
+        "shape": "Marquise",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "measurements": "14.76x7.67x4.68mm"
+      },
+      "status": "CONFIRMED"
+    },
+    {
+      "match_class": "C_similar_different_cert",
+      "report_number": "LG747592527",
+      "retailer": "Aur\u00e9linne",
+      "listing_url": "https://aurelinne.com/products/3-03ct-marquise-lab-grown-diamond-colour-f-clarity-vs1-igi-certified-2",
+      "price_usd": 736.0,
+      "inventory_status": "sold_out",
+      "specs": {
+        "shape": "Marquise",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "measurements": "15.11x7.57x4.68mm"
+      },
+      "status": "CONFIRMED"
+    },
+    {
+      "match_class": "C_similar_different_cert",
+      "report_number": "unknown",
+      "retailer": "Laura Milman",
+      "listing_url": "https://www.lauramilman.com/products/lg-100759907944",
+      "price_usd": 675.0,
+      "inventory_status": "listed",
+      "specs": {
+        "shape": "Marquise",
+        "carat": 3.03,
+        "color": "F",
+        "clarity": "VS1",
+        "measurements": "15.75 X 7.55 X 4.52"
+      },
+      "status": "CONFIRMED"
+    }
+  ],
+  "shared_feed_hypothesis": "Multiple retailers list similar 3.03ct F/VS1 marquises with different IGI numbers, consistent with broad wholesale supply \u2014 not proof that LG839637366 is multi-listed.",
+  "economic_note": "If a ~$326 wholesale estimate were real, a $350 TikTok auction could be near-cost liquidation; that wholesale figure remains UNVERIFIED.",
+  "collected_at_utc": "2026-10-20T02:39:19.118948+00:00"
+}

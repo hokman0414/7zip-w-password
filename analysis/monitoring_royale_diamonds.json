@@ -1,0 +1,35 @@
+{
+  "case_id": "royale_diamonds",
+  "purchase_date": "2026-10-19",
+  "order_status": "PAID_VIA_TIKTOK_SHOP_USER_REPORTED",
+  "seller_promised_ship_by_date": null,
+  "tracking_number": "9200190390470924693050",
+  "carrier": "USPS",
+  "shipment_status": "NO_PUBLIC_SCAN_DATA \u2014 aggregator reports no information; USPS authoritative portal blocked from this environment. Do not infer transit progress.",
+  "delivery_status": "NOT_DELIVERED_UNVERIFIED",
+  "refund_eligibility": {
+    "note": "TikTok livestream auction purchases often final sale; disputes may still apply if not as described / non-delivery.",
+    "action": "Check TikTok Shop order detail for return window and open dispute deadlines"
+  },
+  "probes": [
+    {
+      "source": "usps",
+      "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9200190390470924693050",
+      "http_status": 200,
+      "status": "ok",
+      "blocked": false
+    },
+    {
+      "source": "parcelsapp",
+      "url": "https://parcelsapp.com/en/tracking/9200190390470924693050",
+      "http_status": 200,
+      "no_information": true
+    }
+  ],
+  "collected_at_utc": "2026-10-20T02:39:19.823149+00:00",
+  "tracking_format": {
+    "tracking_number": "9200190390470924693050",
+    "format_looks_like_usps": true,
+    "carrier_guess": "USPS"
+  }
+}
