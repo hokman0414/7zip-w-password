@@ -1,0 +1,2 @@
+[console_scripts]
+silent-stocks = silent_stocks.cli:main

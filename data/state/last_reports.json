@@ -1,0 +1,1311 @@
+{
+ "AGX": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "906dad1a9c6df571",
+   "b4e7f9a0e9e4c243"
+  ],
+  "iyes": 26,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "ALMR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "414d1b18e87b76fd",
+   "5e627c3b1a09fe01",
+   "666826368572fb8c",
+   "96e59727e7abb4be",
+   "9e4eeadd75aaea4a",
+   "a7b85d7010b9425a",
+   "b7fbca9a9d889b6e"
+  ],
+  "iyes": 10,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "AMBQ": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "31f3d75c59ea7eea",
+   "5ecc9f708ff9d015",
+   "5f88d1f1db1f2bc7"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MATERIAL_WEAKNESS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "AMD": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "49464153721d5072",
+   "e2918bee5c0d4be2"
+  ],
+  "iyes": 22,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "AMPX": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "06e4c651f5e82c77",
+   "0a75395b720ae27a",
+   "16cfec5142ee5b88",
+   "1a9d0a72b618a617",
+   "1af7388a0505dda8",
+   "1d33282b545fbd0a",
+   "314483416a282baf",
+   "405883278f3e3ae5",
+   "48e6a789fc95d686",
+   "4de299727b3cd57d",
+   "513e4ff366dd9764",
+   "5641bc00dad676ed",
+   "5a702b2d11cc62b0",
+   "61a8eefd394d5cf9",
+   "75e059df63cfa8c6",
+   "7aac4f49678e47a9",
+   "80ee30a03d44c08d",
+   "89a41349591206c6",
+   "9a350019ff0460ea",
+   "a84984886c47e002",
+   "ac9eab6ff79ac145",
+   "c01f65118bcfbb01",
+   "d2817f1e4ef24c46",
+   "d9fb6b4d36111fce",
+   "df3974b9da7a1fb1",
+   "e072da57b61661d9",
+   "f81e711657a50ba3",
+   "f92ad78ed23fb569",
+   "fd747eee0dab16d6"
+  ],
+  "iyes": 36,
+  "status": "DISQUALIFIED",
+  "vetoes": []
+ },
+ "AMZN": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0e72fac825afb049",
+   "2045d0bd46ebe29d",
+   "38d288788e650acb",
+   "39af3baca28945de",
+   "6241bf7d776ae110",
+   "66b7516e831b0b49",
+   "74fc79929e307a6a",
+   "94c4c94a467df4c2",
+   "9861cc8330d280fd",
+   "a5d7156900c0476a",
+   "bdee5389c5b2fbbf",
+   "cdd89e3ce1aa255f"
+  ],
+  "iyes": 21,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "ASPI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "48f4c8443bcf2c63",
+   "4df9fb21c1010ec4"
+  ],
+  "iyes": 17,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MATERIAL_WEAKNESS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "AVO": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "2e057b2abd28138d",
+   "ab9cbd230f67f442"
+  ],
+  "iyes": 13,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "AXTI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "04688dd467ac8009",
+   "1760fd04e625d3d1",
+   "1b3d99f24141d634",
+   "2cbf1469314ca629",
+   "34fad28d51928124",
+   "369e939278721625",
+   "36cebe49c1b96811",
+   "466c786ca46dd669",
+   "518d175a5c7190d1",
+   "526f0278669be1d4",
+   "536082a307251b92",
+   "5535e77999538f4a",
+   "56c333522e28494b",
+   "5a54d048ca25a256",
+   "68263a486593251a",
+   "6b07f13a0872e835",
+   "701f7416a9d52f7e",
+   "7421236af464ced6",
+   "7cf3a6a00ecfe487",
+   "83e3d6a110eac744",
+   "8a612cc4ca35239d",
+   "901beaba15a0e3fd",
+   "ae5f4c67e549799b",
+   "b1e4e0da7f42faef",
+   "b7164d0863cf0ab6",
+   "ca6434425e5fba10",
+   "fbef1cd7748e416a"
+  ],
+  "iyes": 26,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "ALREADY_MOVED",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "BE": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "7bcbb21091b5aded",
+   "f82209a696c724c8"
+  ],
+  "iyes": 25,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "BETA": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "52ccc335ef564815",
+   "568d2342bec51b5a"
+  ],
+  "iyes": 18,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "BN": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0971a8dc1ce37c0b",
+   "2397b126d55c7f44",
+   "bab7a146f67424c8",
+   "caf92ebaa1ff6d49"
+  ],
+  "iyes": 5,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS"
+  ]
+ },
+ "CIFR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "190f31c86ef057c3",
+   "7d894f0e17ad6ef7"
+  ],
+  "iyes": 9,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY"
+  ]
+ },
+ "CIRC": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "5c6bf1acd6dbb710",
+   "848612449c7ca8bd"
+  ],
+  "iyes": 14,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "LISTING_NONCOMPLIANT",
+   "NEGATIVE_EQUITY",
+   "SEVERE_DILUTION",
+   "SUB_DOLLAR"
+  ]
+ },
+ "CODA": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "171fa1bdecf9887c",
+   "1886eefa6dcc4a40",
+   "292e9c23b858256c",
+   "3391a94c782044db",
+   "597164d52a92a0a6",
+   "620c3a880e17f53f",
+   "7488470bc0090a1c",
+   "820d86e12dfe6c83",
+   "8879b70645006452",
+   "921322e8e1dbe5d8",
+   "9c7c33ceac419c96",
+   "a17c220937c169e0",
+   "a1890ca805adb301",
+   "a583a8f011454953",
+   "a9bafac8236641df",
+   "b5f10bac48841078",
+   "c1d163b7da0af923",
+   "ca367e0a5e033ddf",
+   "d63b28d1192ffd80",
+   "def7010851a0ec46",
+   "f5edcb3b4362652b",
+   "f6e29347b22a09bb",
+   "fce6f33821682a94"
+  ],
+  "iyes": 38,
+  "status": "DISQUALIFIED",
+  "vetoes": []
+ },
+ "COUR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "034d97d59c6c1d53",
+   "1a58ed7d09057487",
+   "2b71fe6f6fd2574a",
+   "8cebd9ac0d3ca8fb",
+   "95b7bb10f15a1d0e",
+   "bd83291d8531e050",
+   "c6ee76a56d8140d0",
+   "cd0d1c508dd117a0",
+   "d900e43392483e7b",
+   "fa8b6e7295f1fc32"
+  ],
+  "iyes": 22,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "CRON": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "1612884d98b72df7",
+   "5e2f46edfbb3de25",
+   "741d46c1ec6d3cd2",
+   "9cdc9d41a4a1dbe3",
+   "f590f4883eb06a7c"
+  ],
+  "iyes": 26,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "DUK": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "095286df073b7132",
+   "0c03fce88a95d502",
+   "0f89c40f0c28c30e",
+   "19d6e6808f0ac226",
+   "27ae2c090afe67db",
+   "3b20a70564340e0e",
+   "3d48cd35dfc2be1d",
+   "3dbb381cb47f8555",
+   "4ca13a6b9de78d6c",
+   "6108829fba07e6fa",
+   "7d560decf8cf7dc7",
+   "81bd6bf0e251b39c",
+   "8e9d0cc171a78138",
+   "985cdb1ad1fc9bd8",
+   "9f5a945861b2dffb",
+   "b1243a043618aade",
+   "b4950a33c2771632",
+   "bada17abffa3102e",
+   "bd7a96a60da78449",
+   "c151f9ab15cef7e8",
+   "d637b9a8b7b004de",
+   "de7ca3ab26bc31b8",
+   "e0bb90c16e318254",
+   "ef9a34d8a4abe45b",
+   "f167943a60293c17",
+   "f756e002436b793f"
+  ],
+  "iyes": 16,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "DVLT": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "b76c496de434d813",
+   "e03fc4c151ae2004"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "LISTING_NONCOMPLIANT",
+   "RESTATEMENT",
+   "SEVERE_DILUTION",
+   "SUB_DOLLAR"
+  ]
+ },
+ "ELV": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "712726f32f7fb683",
+   "ae9e516f41bdedd4"
+  ],
+  "iyes": 16,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "EOSE": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "00fbc4c6cac9316e",
+   "0d7497c0af0d2773",
+   "0edf0538930a3bfc",
+   "1aa8b84c0403c985",
+   "1c86ad3a4f1a1bca",
+   "1e41461c28425d4f",
+   "2c65be781798f01d",
+   "365477d72e405561",
+   "3afb9a60faf3010c",
+   "58d10b622a8107b4",
+   "68af14b13f7b1bdd",
+   "6d35f5970701bf01",
+   "6d7a8d46cc7a5c30",
+   "73cf80ed93ffde0a",
+   "7a460841881c62c8",
+   "7a7706cac6b21374",
+   "b833b274e7ac617f",
+   "bc804a7e78fbcb7e",
+   "bf424d2ac5589001",
+   "c55452b6f2d5a585",
+   "cf0b988521fe9668",
+   "db1232372b3cfa11",
+   "dbd02deff6d62b18",
+   "e683ae3b0a43473b",
+   "f8e0f24079ed1986",
+   "fbf2f7770fc92d41"
+  ],
+  "iyes": 23,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "GOING_CONCERN",
+   "NEGATIVE_EQUITY",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "FF": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "165a21bee2700e4a",
+   "5cc4220fc971cf26"
+  ],
+  "iyes": 16,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "MATERIAL_WEAKNESS"
+  ]
+ },
+ "GAME": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "00b1640a1ca0fc83",
+   "a878113aa4ab9228"
+  ],
+  "iyes": 20,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "GLD": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "2b1420f4a63865e6",
+   "83c8e20a0348561d"
+  ],
+  "iyes": 7,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS"
+  ]
+ },
+ "GOOGL": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0ecab9bf93070a82",
+   "1dfc11a7d11616e0",
+   "262c54c87d1dedbd",
+   "48625dcb1c19f65d",
+   "e969206b224a6a4e"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "HCTI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "1a4d08c3362abaef",
+   "e288e0e43c31b521"
+  ],
+  "iyes": 13,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "LISTING_NONCOMPLIANT",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "HLIT": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "6c377083240b520c",
+   "6d1f243d6ccbb611",
+   "6fad671015320179",
+   "8fa4834e3e8271df",
+   "ba1ad1167a4590ae"
+  ],
+  "iyes": 25,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "HNI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0ca66fbb571d76a2",
+   "1cfb5156d625ca41",
+   "1e3ae08a4c78aadf",
+   "2b412136ef7970a1",
+   "30253d93b3d5709c",
+   "329bf0b455ff2555",
+   "3d4eab0adf3ff134",
+   "3fb01d0b9a19e86d",
+   "4f6bf994c1d0fc8e",
+   "52795830a448f51e",
+   "62770e0eee01837b",
+   "766108627dab1a63",
+   "8171643a985bdfa1",
+   "91a20811339a46a7",
+   "92d2e55dc2c00eae",
+   "9dc488b6ee1909b6",
+   "a986304caeed120e",
+   "b1ce948b6ee9639a",
+   "b6a9d83cdea557bd",
+   "b8c0390048f19250",
+   "c153051d226aef44",
+   "c23c04bf83f60f40",
+   "d42e8247839a4a73",
+   "d808fd5dcf14d716",
+   "db592d9d33281a2a",
+   "dc680fdb0a2c26cd",
+   "f6655c8991d0cf5a"
+  ],
+  "iyes": 21,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "INFQ": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "13863d51f10060e2",
+   "2bcc4294289ad82e",
+   "2f3bfd74a131a6b9",
+   "6545127fd5f6e947",
+   "ac90e631ef4ae4af",
+   "b267a21434ffdc29",
+   "ebc6b575a4cf8ebe"
+  ],
+  "iyes": 14,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "IREN": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "718ca11f53ec641c",
+   "9798e1d9a5a32b48"
+  ],
+  "iyes": 15,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "KLIC": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "6e1b03bc67c7edb1",
+   "ca72ca56f76f3d4c",
+   "d93879c5ca4df52c",
+   "e40115f4c11746aa"
+  ],
+  "iyes": 24,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "KRMN": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0c6702907f8107c3",
+   "8e876f5fd3159e70"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "KSCP": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "17659555e787f8c9",
+   "2bf6d6b8641ed3ed",
+   "311196f93acaddc8",
+   "34611dcfc78ae787",
+   "4c820445bdeb5af3",
+   "54e5ceb58fe6d29c",
+   "dbeabe876ffa1661",
+   "df1d4181fc0cc076"
+  ],
+  "iyes": 18,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "GOING_CONCERN",
+   "SEVERE_DILUTION",
+   "SUB_DOLLAR"
+  ]
+ },
+ "KTOS": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "004d5795863e9537",
+   "0b6e890c3aaf58e5",
+   "10f25a2062749c47",
+   "16c26675d613306a",
+   "1bbc6f0f0aadf700",
+   "21296b2932d16833",
+   "2963231f19f721fa",
+   "2f53f1c1468927a1",
+   "358592565413fbfb",
+   "368fa773d081a6a2",
+   "383d02d8f5cf55ff",
+   "41e8ad26bc5a9307",
+   "48c52f0245f7b69c",
+   "5012f419ca77fb67",
+   "5f2e140b0d1698a3",
+   "6517b30716f7d23b",
+   "6ac48389a4533176",
+   "8dbcc4eecec74829",
+   "afc0476e9f48fc60",
+   "b3dc3647e146e61a",
+   "bcdd927641e6d322",
+   "bd0b966fc70ff311",
+   "cbd943f530f282ea",
+   "d6b6e830cf67f7b1",
+   "d905db05538e4304",
+   "e32e6c8fd98e9cbf",
+   "e6f15540f24dc0b3",
+   "f4c5e9c3aa39a36c",
+   "fcf378b5b496fb69"
+  ],
+  "iyes": 40,
+  "status": "DISQUALIFIED",
+  "vetoes": []
+ },
+ "LLY": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0afec2ad25a92f52",
+   "7caa1f75e6ec0ffe",
+   "aec7e8361ea88a4a",
+   "b8842744feeb2fc0"
+  ],
+  "iyes": 18,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "LSCC": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "01c63516d6dd89cc",
+   "e1c93a010e91af26"
+  ],
+  "iyes": 25,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "LSF": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "171fef593923a7f7",
+   "9b1a312b4e6cc5e1"
+  ],
+  "iyes": 19,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "META": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "6001d564e885c17f",
+   "d65ea76ab9114984"
+  ],
+  "iyes": 18,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "MOBI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "2035abfd9514d24b",
+   "7fcd1d8348409434",
+   "9aea75dff1899c88",
+   "d56a43ba72614bf8"
+  ],
+  "iyes": 7,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MATERIAL_WEAKNESS",
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "MPTI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "097733dcf1d1c30e",
+   "0c0d57371b533dc2",
+   "0e2c6308be28f08e",
+   "2236517feef17ad6",
+   "2fb6f45349b5a0c3",
+   "32205dca6b3abb48",
+   "36e2f6c5a6753425",
+   "37d86da5a102f2c7",
+   "3bb2def290031d34",
+   "4356ffd7417de275",
+   "4fd163e15658ec57",
+   "71675602432ce50b",
+   "95aee0411ce7a1ba",
+   "a7e759643a4a66ed",
+   "aef63b36167de1cb",
+   "b3bf22e334687a95",
+   "d60aa7ff1fd15761",
+   "d9df53faf38e2628",
+   "e0989336d13b67d5",
+   "e814f3618e63f2bc",
+   "f4120a75f49acd31",
+   "f8f0020fb810bfde",
+   "fb42416343713cf8",
+   "fc902088e435c21e",
+   "fd81ec5fbe602bbb"
+  ],
+  "iyes": 27,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "MPWR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "8d8ba3996b8ec6d3",
+   "e631609e6798b6b7"
+  ],
+  "iyes": 24,
+  "status": "DISCOVERY",
+  "vetoes": [
+   "MATERIAL_WEAKNESS"
+  ]
+ },
+ "MRAM": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "74815355e877786a",
+   "c4e96e0b2a3349bd"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "MXL": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "10a1f48f8de51eb9",
+   "f6bd17683198785a"
+  ],
+  "iyes": 22,
+  "status": "DISCOVERY",
+  "vetoes": [
+   "ALREADY_MOVED"
+  ]
+ },
+ "NBIS": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "42a7cb20ed5cd0a2",
+   "b0350b6652f69c9e"
+  ],
+  "iyes": 5,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS"
+  ]
+ },
+ "NEPH": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "3fefe1ee94a320a7",
+   "568a9ef10591aa10",
+   "663445f30d82e610",
+   "744bc6507aade9a0",
+   "9558bcf79cab5b93",
+   "c8084968eae747fa"
+  ],
+  "iyes": 17,
+  "status": "DISCOVERY",
+  "vetoes": [
+   "MATERIAL_WEAKNESS"
+  ]
+ },
+ "NESR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "3998d8f4d36d8147",
+   "6a20d6c45b8a0d8c"
+  ],
+  "iyes": 18,
+  "status": "DISCOVERY",
+  "vetoes": [
+   "MATERIAL_WEAKNESS"
+  ]
+ },
+ "NFLX": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "617c870389dbbbb9",
+   "c9d935aaaf73b265"
+  ],
+  "iyes": 20,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "NVDA": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "1da0189ae2a090e0",
+   "8778410f25a9bea3"
+  ],
+  "iyes": 24,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "NXB": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "89e894f5e11ebfef",
+   "a7d6cb3341c9bbf6"
+  ],
+  "iyes": 15,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY"
+  ]
+ },
+ "ONDS": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "14227aafbd5b0f57",
+   "1589c53e37ee4509",
+   "1dc0a38f1a519d12",
+   "2a677e2ef8cc1058",
+   "2f8b1d24a6ecf4fb",
+   "4c441cceed2da970",
+   "66dfa6ed8f8a6ed4",
+   "67e3d4c1b6e1a05c",
+   "72de084e7404cbcd",
+   "8235d2e5da5911a8",
+   "837e342239727fc8",
+   "8c47f660b714ac51",
+   "8f8767ef66295c1e",
+   "99ac176535d9d42b",
+   "a63ad49cc86bef39",
+   "a711e026e063c250",
+   "b0f5270334c6e6a8",
+   "b53aaac7e1294046",
+   "c110bff616e3a47c",
+   "c87a9e36d84be9f1",
+   "ca4ce07e81864f8e",
+   "d0352d0264831db8",
+   "d87dd98243396419"
+  ],
+  "iyes": 29,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "PLPC": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0590922747c31bce",
+   "0eab5fb53646e23f",
+   "0f042654a8f5bddd",
+   "269df99efa3107a4",
+   "2759846ead2199d5",
+   "32bae2b804372379",
+   "45f9189aaeb6473e",
+   "4671f8fc5d92d837",
+   "5659a8c2d4d76a68",
+   "59fe0ad2fe7e4fc2",
+   "71bd68240d4aa58e",
+   "8942dbe0eeb9d2b5",
+   "8d7de905492d7014",
+   "94733436e70bc9fd",
+   "a66f43c14f06b269",
+   "a7afbdd4e0177f61",
+   "c03e486c9eaac603",
+   "c77ecd3a024b26a3",
+   "d7392dfc67b0dd0b",
+   "f15e7f4c8d43b960"
+  ],
+  "iyes": 29,
+  "status": "DISQUALIFIED",
+  "vetoes": []
+ },
+ "PLTR": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "02428e241cf712c9",
+   "0885bf062752dace",
+   "1e66bd4f8fb0ab65",
+   "22e56a4b6a16387b",
+   "24aa04d131ee4f6a",
+   "26584bd85cbfb578",
+   "323909bf0741c5f6",
+   "4ce77693f3dcb3a3",
+   "58d4f0d05a2afbbe",
+   "5bfe8bbb3002c6e4",
+   "5eb3de59ce23d228",
+   "679d455c34c85df1",
+   "6936ad01cb7f65c5",
+   "6a8bf5e0c7acdfa0",
+   "72dbab24587b8dd5",
+   "731889effbfcb0cc",
+   "76d92418b8048a28",
+   "893792ed1c3b5fd5",
+   "afbddda69da6ffea",
+   "b346bae09914ed4b",
+   "b5366784e364bd84",
+   "c1db7f7fa506f34f",
+   "c6bf408e888619d3",
+   "c9128dc6ebef2d60",
+   "d88b6e49073a4016",
+   "db4f1c8d5d85e32b",
+   "e550b1b569bce8a7"
+  ],
+  "iyes": 28,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "QUIK": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "158f82103b28b473",
+   "2b249f8cf88263a8"
+  ],
+  "iyes": 14,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "RCAT": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "05c5df0fb28ede19",
+   "06a5805ee3d3449c",
+   "0f081af374f0a287",
+   "141c6d3559010708",
+   "195591a7ba419e11",
+   "286231ccbdbd45b8",
+   "2a433874920abd85",
+   "2ec919137664e096",
+   "3243e8e0f4fe2c7d",
+   "3a9912ace7854934",
+   "4bcd89d1fabb31ab",
+   "51173f2c97255bb6",
+   "5c1fe78d7c0b9c56",
+   "67818a72d759f052",
+   "80fa96010dec6716",
+   "881b3e2dad096eb9",
+   "8ce3279fecdc4db7",
+   "96d1264e638036e6",
+   "96eb7cdefb8b978c",
+   "b2b2c2b24dd913d3",
+   "be462e911f544b90",
+   "c00e086e7c60ebec",
+   "cd6c4a676a0d18f5",
+   "d768f9cde1b7fea6",
+   "f5e0f7f45f83f180"
+  ],
+  "iyes": 29,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MATERIAL_WEAKNESS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "RDW": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "0398a69f05d7c73f",
+   "13fa5d890030b14b",
+   "142f955ce4c330d1",
+   "1c9e39a1f8269494",
+   "3b0a9b7d0c8caebf",
+   "3c8ed218677bc751",
+   "4a4d34362f4cd853",
+   "550fd6afe6ae17f2",
+   "5ff3f5179180217f",
+   "6079760ba0cf201d",
+   "630f6e7aee0acf3c",
+   "634474692921dbd2",
+   "76a95ad63604d9b3",
+   "783931fca1c5d5f9",
+   "820f8b32e0244946",
+   "8b92094e573e8e64",
+   "aec5efe4421a6088",
+   "af9b6d5045019823",
+   "b28cd9e9bb160920",
+   "b3894536eee6186f",
+   "c72e6d16fa39e0f6",
+   "cbba24ff8809610b",
+   "fa024ca320409dc2"
+  ],
+  "iyes": 25,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
+ },
+ "SENS": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "3102b6fc22e33064",
+   "cf0814181aa0fc17",
+   "f7d211ed2efabbb3"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "GOING_CONCERN",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "SITM": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "a6bef92d71e81819",
+   "b636817e9c53320a",
+   "f1308a46423fd91c"
+  ],
+  "iyes": 26,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "SPCX": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "09af4eb1616fc4fd",
+   "0ca93766ccbcc503",
+   "16085945af1d189b",
+   "23e1bc3f12ebe727",
+   "277c38306969d18f",
+   "2aed06ff258e8a6a",
+   "38c18ac1a7c968a2",
+   "3e7ff7a277d4a764",
+   "40c35ddb19d23071",
+   "4f841f24018f2b69",
+   "50b02758d3315197",
+   "68a00fd21670628d",
+   "6eb70220f865bf56",
+   "7aa700943858e5f6",
+   "7cbffa390fe3e558",
+   "7d82afa11e5c50aa",
+   "818f53f05956d1a3",
+   "98bb0e30349c5401",
+   "bd277d4eccf03cb6",
+   "d1e6bd86f8b1d1c2",
+   "d976768f33ac9bca",
+   "dda23415e9a3caeb",
+   "eef2547b23cc0300",
+   "f6d16922da423be2",
+   "f73f66fdaab2d047",
+   "fbc9e2fc19282d84",
+   "fee116f203e678e6"
+  ],
+  "iyes": 8,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "STAA": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "483a339485e1141e",
+   "48c7b484e04c2b43",
+   "6afb2a26943078a3",
+   "781eb68d4fc22381",
+   "9f4a08c8085bad74",
+   "b84e8a8cf09a8fb2"
+  ],
+  "iyes": 25,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "STRL": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "3dfad4c00849601e",
+   "77da4b581a183680"
+  ],
+  "iyes": 28,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "STX": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "1b30a91384abaf97",
+   "589943a2e995d2d8"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "SVCO": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "7a50174e0177d268",
+   "97869f69774e5a2d",
+   "cbee940a35b86dda"
+  ],
+  "iyes": 15,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY"
+  ]
+ },
+ "TER": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "01dc480bc9a00e83",
+   "11072c7baf476b58",
+   "2c90e7b81d9a9d14",
+   "320260657e6e0f73",
+   "343bb5e4ad29570a",
+   "3ba0553ae4a90ce3",
+   "41b701941d0166e5",
+   "4586b72338e31a8b",
+   "466fa67439e3898a",
+   "4e4c855d4cf18f49",
+   "54e9d32c6d6eba4c",
+   "6122f241a0fd5599",
+   "67389a8495aafb73",
+   "72f3b61e4f8ed42f",
+   "81b2e6a63475ef0e",
+   "826a6c402a8d81a8",
+   "860dbb4895f23f35",
+   "8a1bfd31face6e3f",
+   "a265a7600ed3b92f",
+   "b168a72e72443eb1",
+   "b4c8335f4c9722d5",
+   "ba79cb6109db4779",
+   "c102870042013aa8",
+   "c95a8ebc03752bbe",
+   "ce8ae9f71292e7f3",
+   "e1d6bb0af3216f8c",
+   "e3c73894fc559bb0"
+  ],
+  "iyes": 28,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "TIC": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "007282a4aa93fe70",
+   "0ba0a03730cdbccb",
+   "116a77a30330c062",
+   "195388a68acbc37b",
+   "21ccb5533755e22f",
+   "2312f50ff25fe8f0",
+   "302bc322219185f3",
+   "3722a7034b7f0606",
+   "4f15b94d29e7a808",
+   "58e2032dae4479d2",
+   "5d5022e37c82f10f",
+   "65769acdf4207c2a",
+   "66c0c616ae157c89",
+   "87f2df46026c8eb9",
+   "8887f6a9019af309",
+   "8cb8a85f0ee0f954",
+   "906920aa013b0800",
+   "a54d6de741832174",
+   "a7b85019533ff632",
+   "ac5d4dcb3739a2b9",
+   "b6533331c91696e0",
+   "c3a3b019baf24278",
+   "c751be214f96c379",
+   "ca1c4f7cd0ae8d6a",
+   "dcf4fc7ea87e3902",
+   "e47c7d8649257fb9",
+   "ef091b53a39072e4"
+  ],
+  "iyes": 20,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "TSSI": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "04bb1946eb30d884",
+   "0942baaa53e41397",
+   "121f024c1b50e14c",
+   "15c5b8a777b685f4",
+   "2359810701a8f38d",
+   "2c36b97342197338",
+   "2d58dbd943027212",
+   "2e2090a2e8438f5c",
+   "2efefaedc47cc80d",
+   "3e7ba2446efd851b",
+   "462a7c5013d9ba8c",
+   "486dcff1c86dbf01",
+   "4bf3a4c8755a1da3",
+   "4ea3b273954055a5",
+   "4feb0e3c70704bd8",
+   "5a56653b30264d2b",
+   "6692491b18deb695",
+   "6a10e629a53f32c9",
+   "6f0b520dc38fff2f",
+   "730cac83e45afc5b",
+   "785b77e95cc6a05d",
+   "7d12a00d39863fb0",
+   "7f18d9cf301d84f3",
+   "8605ce5f05cb2fb7",
+   "8cbd04b87d3443c0",
+   "9f2eef639667170e",
+   "bd3ab27da6416388",
+   "c004dc2751e40a37",
+   "c05f3867451a760a",
+   "ca1b373c71c5e121",
+   "d066831a718fb5a3",
+   "e382d23e50432def",
+   "eb1c9ef23edbb2eb",
+   "ed94b0f51d21a453",
+   "fccb565c2246bc5e"
+  ],
+  "iyes": 24,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CRITICAL_RESEARCH_RISK",
+   "MATERIAL_WEAKNESS"
+  ]
+ },
+ "TWIN": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "00293a065c8e4bd4",
+   "06fed3552079e2c1",
+   "0762027e52f26a6a",
+   "0a022a9bbf2536be",
+   "0c124821f6c54f12",
+   "0e90995d7f906a76",
+   "0f0fdccb56e8dfa6",
+   "118bca44eb3eb001",
+   "1a77c0553ca8b0fb",
+   "1cea3c60d5340e2a",
+   "25313a468d696b09",
+   "35d8b27379e2109a",
+   "3a187db1b8d7b5ff",
+   "3b9482f6e9db899a",
+   "47b84d748cbf7524",
+   "48f6c835b1723f69",
+   "62a65fe38dd1f7ad",
+   "6854933697b9a349",
+   "6a8aad86d79d54a0",
+   "6ae37120387c009c",
+   "751763d27d577e1f",
+   "76c7c4bc8a5d7ac2",
+   "7b22d088f2622589",
+   "80168897fb4dd765",
+   "847775dfde1f9579",
+   "87c15b544de398cd",
+   "8ad8801b562fe1dc",
+   "91df8d72916fcbb6",
+   "92f9eea2b70b449e",
+   "98e6aa99b1e3990e",
+   "a173c6833319d3b8",
+   "a4158a67ccf8600d",
+   "b05700ce386c2c13",
+   "b2372b7018df255d",
+   "b5d1f07ebbd2d721",
+   "c33251e22a5de926",
+   "c9e737ac8389a21c",
+   "ca770f6d4c5d5d69",
+   "cb966cc5bcb87ede",
+   "cbc35cff801a80a3",
+   "d269dbbbcf108df2",
+   "d9cb6611093ed3b7",
+   "dc63823823a55cf1",
+   "dd933172185792de",
+   "df3e031ec80c61f8",
+   "e36d59bdf94e4ea1",
+   "e6cf90bf83a423cb",
+   "e7e653f4be5644c0",
+   "f904db57d4a6cf4e"
+  ],
+  "iyes": 39,
+  "status": "DISQUALIFIED",
+  "vetoes": []
+ },
+ "VATE": {
+  "as_of": "2026-11-06T22:33:19.569340+00:00",
+  "evidence": [
+   "05842134c11e75e2",
+   "38622f7b7a70e7c5",
+   "394863b23e9b8ec3",
+   "3cb0d5e4ebee036d",
+   "47933806ca6b4ea0",
+   "55cfc40775a6529d",
+   "5c9e82d787de7382",
+   "6e9fbdc2e138ef05",
+   "76073269333fad8a",
+   "953ccb2fae8e5ccd",
+   "967ec6048752f71b",
+   "974075b43c5354bb",
+   "9f00a2617ef6ebbe",
+   "c37d198c047625fa",
+   "c62f77f768713358",
+   "c6b15db05d98e4e8",
+   "d9e750b20a2b90ef",
+   "dc70821f3a0ce173",
+   "e8ed55719f204627",
+   "f5a56506973d3c98"
+  ],
+  "iyes": 21,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "GOING_CONCERN",
+   "NEGATIVE_EQUITY"
+  ]
+ }
+}

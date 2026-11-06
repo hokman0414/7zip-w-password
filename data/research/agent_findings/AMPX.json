@@ -1,0 +1,244 @@
+{
+  "ticker": "AMPX",
+  "company": "Amprius Technologies, Inc.",
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "research-agent-B",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 revenue was a record $34.0 million, up 126% year over year and 19% sequentially; GAAP gross margin was 27% (vs 20% in Q1 2026); net loss attributable to common stockholders was $5.1 million including a $1.9 million non-cash warrant modification charge.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-reports-second-quarter-200500604.html",
+      "source_title": "Amprius Technologies Reports Second Quarter 2026 Financial Results and Recent Business Highlights",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Amprius raised 2026 revenue guidance to at least $140 million (from at least $130 million) and gross margin to at least 28% (from 25%); it reiterated adjusted EBITDA of at least $4.0 million and capex under $10 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/amprius-technologies-reports-second-quarter-200500604.html",
+      "source_title": "Amprius Technologies Reports Second Quarter 2026 Financial Results and Recent Business Highlights",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Hitting the $140M floor requires ~$77.5M in H2 2026 (~$39M/quarter) vs Q3 consensus of ~$35.8M, and full-year consensus (~$133M per Finviz article) sits below the guidance floor; shares fell >32% since the Q2 report.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://finviz.com/news/414386/amprius-must-prove-its-second-half-ramp-as-stock-lags-its-raised-140-million-outlook",
+      "source_title": "Amprius Must Prove Its Second-Half Ramp As Stock Lags Its Raised $140 Million Outlook",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "customer",
+      "claim": "Amprius received a $24 million order from a new European drone manufacturer for SiCore cylindrical cells, with deliveries starting Q2 2026 and running through Q1 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/",
+      "source_title": "Amprius (AMPX) Q2 2026 Earnings Call Transcript",
+      "published_date": "2026-08-11"
+    },
+    {
+      "dimension": "military",
+      "topic": "customer",
+      "claim": "Management said about half of the 19 drone makers invited to the Drone Dominance Gauntlet II event used Amprius cells; Redwire (customer for Stalker Block 30) announced >$40M of U.S. Marine Corps purchase orders.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/",
+      "source_title": "Amprius (AMPX) Q2 2026 Earnings Call Transcript",
+      "published_date": "2026-08-11"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "The Defense Innovation Unit contract to develop and scale NDAA-compliant silicon anode cells was increased a third time to $18.1 million, funding a Fremont pilot line with production expected to begin December 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/",
+      "source_title": "Amprius (AMPX) Q2 2026 Earnings Call Transcript",
+      "published_date": "2026-08-11"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The FY2026 NDAA includes new battery sourcing restrictions for U.S. government suppliers; Amprius uses South Korean contract manufacturers (Libest, JR Energy, Top Material) for NDAA-compliant supply today and Nanotech Energy for U.S. capacity, and says it will be fully NDAA compliant in 2027-2028.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "source_title": "Amprius Technologies Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Amprius has historically relied on China-based contract manufacturing partners and formed a China sales subsidiary in January 2025; its 10-Q flags tariff and China regulatory risk. Transition costs to a U.S./allied supply chain could pressure margins.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "source_title": "Amprius Technologies Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Amprius completed its $100 million ATM program, issuing 25.5 million shares in aggregate for ~$97.5 million net; ~$19.6 million was sold in Q4 2025 at an average $11.17/share. The company stated it has no ATM program currently.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000003/ampx-20260112.htm",
+      "source_title": "Amprius Technologies, Inc. Form 8-K filed January 12, 2026",
+      "published_date": "2026-01-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "In Q2 2026 Amprius exchanged 7,128,458 public warrants ($11.50 strike) for 2,726,631 common shares, which management framed as cutting dilution vs. full warrant exercise; remaining warrants expire September 14, 2027.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "source_title": "Amprius Technologies Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Cash and equivalents were $74.5 million at June 30, 2026, which management believes is sufficient for 12 months; receivables rose to $40.7 million on back-end-loaded shipments.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "source_title": "Amprius Technologies Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "Insiders sold 123,311 shares worth about $1.27 million over the 90 days before Nov 3, 2026; shares traded ~$8.86 vs a 12-month high of $24.23.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.marketbeat.com/instant-alerts/upcoming-amprius-technologies-ampx-projected-to-announce-quarterly-earnings-on-tuesday-2026-11-03/",
+      "source_title": "Amprius Technologies (AMPX) Projected to Announce Quarterly Earnings on Tuesday",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Amprius states its silicon anode cells deliver up to twice the energy density of conventional graphite-based batteries, targeting aviation, drones and HAPS; customers include AeroVironment, BAE Systems, Teledyne FLIR and the U.S. Army.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "source_title": "Amprius Technologies Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q3 2026 results press release (after close Nov 10 per MarketBeat) and conference call Nov 11, 8:30 a.m. ET",
+      "expected_date": "2026-11-11",
+      "date_confidence": "confirmed",
+      "source_url": "https://ir.amprius.com/news-events/press-releases/detail/176/amprius-technologies-announces-date-for-third-quarter-2026-results-and-business-updates"
+    },
+    {
+      "event": "Start of production on DIU-funded NDAA-compliant pilot line in Fremont",
+      "expected_date": "2026-12-01",
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/"
+    },
+    {
+      "event": "Completion of $24M European drone customer deliveries",
+      "expected_date": "2027-03-31",
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/"
+    },
+    {
+      "event": "Expiry of remaining public/private warrants ($11.50 strike)",
+      "expected_date": "2027-09-14",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "FY2026 National Defense Authorization Act battery sourcing restrictions for U.S. government suppliers",
+      "stage": "enacted",
+      "industry": "lithium-ion batteries for defense/drones",
+      "bottleneck": "Non-Chinese (NDAA-compliant) cell and materials supply; U.S. cell production required from 2028 per management",
+      "revenue_mechanism": "Defense drone OEMs need compliant cells; Amprius supplies via Korean CMs and is building U.S. capacity",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "Defense Innovation Unit contract for NDAA-compliant silicon anode cells ($18.1M)",
+      "stage": "implementation",
+      "industry": "batteries",
+      "bottleneck": "Domestic high-energy-density cell manufacturing",
+      "revenue_mechanism": "Government funding of pilot line capex",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/",
+      "published_date": "2026-08-11"
+    },
+    {
+      "country": "United States",
+      "policy": "Department of War Drone Dominance Program (orders for ~60,000 drones from Gauntlet II vendors)",
+      "stage": "implementation",
+      "industry": "small drones",
+      "bottleneck": "Battery supply to selected drone OEMs",
+      "revenue_mechanism": "Indirect: cell sales to drone makers that win program orders",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://defensescoop.com/2026/09/18/drone-dominance-program-gauntlet-2-results/",
+      "published_date": "2026-09-18"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Steep second-half 2026 revenue ramp needed to meet ≥$140M guidance; consensus below guidance floor",
+      "severity": "medium",
+      "source_url": "https://finviz.com/news/414386/amprius-must-prove-its-second-half-ramp-as-stock-lags-its-raised-140-million-outlook",
+      "published_date": null
+    },
+    {
+      "risk": "Margin pressure from building a higher-cost U.S. supply chain for NDAA compliance",
+      "severity": "medium",
+      "source_url": "https://finviz.com/news/414386/amprius-must-prove-its-second-half-ramp-as-stock-lags-its-raised-140-million-outlook",
+      "published_date": null
+    },
+    {
+      "risk": "Tariffs, China regulatory changes and reliance on contract manufacturers",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Continued net losses (accumulated deficit $226.6M) may require future equity/debt financing",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000059/ampx-20260630.htm",
+      "published_date": null
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Final ATM sales in Q4 2025 (~$19.6M net at avg $11.17/share), concluding $100M ATM program (25.5M shares total)",
+      "date": "2026-01-12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1899287/000189928726000003/ampx-20260112.htm"
+    },
+    {
+      "description": "Cashless exchange of 7,128,458 public warrants for 2,726,631 common shares (closing expected May 18, 2026)",
+      "date": "2026-05-18",
+      "source_url": "https://ir.amprius.com/news-events/press-releases/detail/166/amprius-technologies-to-simplify-capital-structure-through-exchange-of-public-warrants-for-common-stock"
+    },
+    {
+      "description": "Q2 2026 financing inflows of $12.3M from warrant exercises and $4.5M from option exercises",
+      "date": null,
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/11/amprius-ampx-q2-2026-earnings-call-transcript/"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "Q2 2026 10-Q states cash is sufficient to fund obligations for twelve months; no going-concern language found. Q3 2026 results not yet released as of research date. Some 10-Q/press release publication dates not shown in sources and left null. Pilot line date is 'December 2026' per management; day set to first of month as estimate."
+}

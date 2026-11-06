@@ -1,0 +1,195 @@
+{
+  "ticker": "PLPC",
+  "company": "Preformed Line Products Company",
+  "researched_at": "2026-11-06T21:50:00Z",
+  "agent_id": "research-agent-A",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q3 2026 net sales were $209.5M, up 18% from $178.1M; gross margin was 33.4% (up 370 bps); net income was $18.0M or $3.56 per diluted share vs $0.53 (EPS up 70% excluding the Q3 2025 pension termination charges).",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000034/plpc-10qxexx991x2026q3.htm",
+      "source_title": "Preformed Line Products Announces Third Quarter 2026 Financial Results (Exhibit 99.1)",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "PLP-USA delivered over $100M of net sales for the second straight quarter; PLP-USA nine-month sales grew 28%, driven primarily by transmission and distribution energy markets.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000034/plpc-10qxexx991x2026q3.htm",
+      "source_title": "Preformed Line Products Announces Third Quarter 2026 Financial Results (Exhibit 99.1)",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q3 2026 revenue of $209.5M missed the roughly $215M consensus estimate, while EPS of $3.56 beat the $3.37 consensus.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-preformed-line-products-stock/",
+      "source_title": "Preformed Line Products Q3 2026 Earnings Results & Report | MarketBeat",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Communications revenue declined to $39.8M from $41.0M, reflecting orders that shifted into the first half of 2026; Special Industries revenue fell to $12.6M from $14.2M. Energy revenue rose 28% to $157.1M.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-declines-16-7-154000402.html",
+      "source_title": "PLPC Stock Declines 16.7% Despite Strong Y/Y Earnings Growth in Q3",
+      "published_date": null
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The 10-Q states that tariffs, especially Section 232 tariffs, continue to create headwinds on imported steel, aluminum and plastic resins, and that further increases may require price adjustments that could hurt demand. It also references a tariff refund process following a February 2026 Supreme Court ruling.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ebs.publicnow.com/view/AB1C2DA77B5DC026F8EBE77C85BD8161518C2570",
+      "source_title": "Preformed Line Products Form 10-Q for quarter ending September 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "On July 21, 2026, PLP Canada acquired a facility for approximately $16.7M to replace its existing operation and expand capacity (later refinanced with a $10.6M term loan); PLPC is also financing a new manufacturing plant in Poland through a loan facility of up to about $26.7M.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-surges-105-whats-132100564.html",
+      "source_title": "PLPC Stock Surges 105% in a Year: What's Driving the Rally?",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "contract",
+      "claim": "On May 5, 2026, PLP acquired Delta Star Conetores Eletricos Ltda., a Brazil-based maker of high-voltage and extra-high-voltage substation connectors, to expand its global substation platform and support its U.S. substation business.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.prnewswire.com/news-releases/plp-expands-global-substation-portfolio-with-acquisition-of-delta-star-conetores-eletricos-ltda-302762892.html",
+      "source_title": "PLP Expands Global Substation Portfolio With Acquisition of Delta Star Conetores Elétricos Ltda",
+      "published_date": "2026-05-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Bank debt to equity was 10.9% at September 30, 2026, and nine-month operating cash flow was $68.1M (Q3 operating cash flow up 95% year over year).",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ebs.publicnow.com/view/AB1C2DA77B5DC026F8EBE77C85BD8161518C2570",
+      "source_title": "Preformed Line Products Form 10-Q for quarter ending September 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Shares fell about 28.9% over 30 days, from $407.20 on September 30 to about $289 in late October, with an 8.3% drop on October 29 after Q3 results; the stock had peaked near $505 in mid-August.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://tickeron.com/blogs/preformed-line-products-plpc-stock-drops-28-9-in-30-days-after-q3-results-24567/",
+      "source_title": "Preformed Line Products (PLPC) Stock Drops -28.9% in 30 Days After Q3 Results",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "Insider activity in 2026 consisted of sales: a broad group of executives, including the CEO (7,887 shares) and the CFO, sold on March 10, 2026; further officer and director sales followed in June and August; and 10% owner Randall Ruhlman sold 5,142 shares (about $2.1M) on September 4–8, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.secform4.com/insider-trading/80035.htm",
+      "source_title": "Preformed Line Products Co (PLPC) - Insider Trading Form 4 Filings",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "Order backlog was $232.8M at the end of 2025, mostly expected to ship in 2026. No Q3 2026 backlog figure was found.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.valye.com/news/plpc-company-analysis-2026-10-29-587099",
+      "source_title": "Preformed Line Products: Infrastructure Demand, Margin Volatility, and the Sustainability Edge",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "political",
+      "topic": "competition",
+      "claim": "PLPC's large U.S. manufacturing footprint likely gives it a cost and lead-time advantage over importers facing U.S. duties on energy hardware, although tariffs on its own imported inputs partly offset that benefit.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/80035/000008003526000034/plpc-10qxexx991x2026q3.htm",
+      "source_title": "Preformed Line Products Announces Third Quarter 2026 Financial Results (Exhibit 99.1)",
+      "published_date": "2026-10-28"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q4 / full-year 2026 earnings release (date not yet announced; the company reports on a calendar-year basis)",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-10-28-preformed-line-products-stock/"
+    },
+    {
+      "event": "Construction and start-up of the new Poland manufacturing plant (financed by a loan facility of up to about $26.7M); no completion date found",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-surges-105-whats-132100564.html"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Section 232 tariffs on steel, aluminum and related imports",
+      "stage": "enforcement",
+      "industry": "Electric utility transmission and distribution hardware",
+      "bottleneck": "Imported raw materials (steel, aluminum, plastic resins) and competing imported hardware",
+      "revenue_mechanism": "Tariffs raise input costs (a headwind) but may favor domestic producers; PLPC raised prices in 2025 and early 2026",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://ebs.publicnow.com/view/AB1C2DA77B5DC026F8EBE77C85BD8161518C2570",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "Utility grid modernization and transmission/distribution investment (demand-driven; no specific statute was cited in the sources)",
+      "stage": "implementation",
+      "industry": "Power grid hardware",
+      "bottleneck": "Transmission, distribution and substation hardware capacity",
+      "revenue_mechanism": "Product sales to utilities and EPCs; PLP-USA energy sales rose 46% in Q3 2026",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-declines-16-7-154000402.html",
+      "published_date": null
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Tariff and commodity cost inflation (Section 232 steel, aluminum and resins) compressing margins or forcing demand-damaging price increases",
+      "severity": "medium",
+      "source_url": "https://ebs.publicnow.com/view/AB1C2DA77B5DC026F8EBE77C85BD8161518C2570",
+      "published_date": null
+    },
+    {
+      "risk": "Communications segment softness after orders were pulled into the first half of 2026, pointing to a possible slowdown in the second half",
+      "severity": "medium",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-declines-16-7-154000402.html",
+      "published_date": null
+    },
+    {
+      "risk": "Valuation and momentum risk after a large 2026 rally and a roughly 29% one-month drawdown",
+      "severity": "medium",
+      "source_url": "https://tickeron.com/blogs/preformed-line-products-plpc-stock-drops-28-9-in-30-days-after-q3-results-24567/",
+      "published_date": null
+    },
+    {
+      "risk": "Execution and integration risk from multiple acquisitions (Delta Star, JAP Telecom) and capacity projects in Canada and Poland",
+      "severity": "low",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/plpc-stock-surges-105-whats-132100564.html",
+      "published_date": null
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "No equity offerings or convertible notes were found in the last 12 months. New debt consists of a $10.6M term loan for the Canada facility and a Poland plant loan facility of up to about $26.7M. The company is profitable with a 10.9% bank debt-to-equity ratio, and no going-concern language was found. The Q4 2026 earnings date was not found. The latest backlog figure found ($232.8M) is as of year-end 2025 and comes from a secondary source."
+}

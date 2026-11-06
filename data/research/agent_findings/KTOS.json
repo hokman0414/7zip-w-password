@@ -1,0 +1,271 @@
+{
+  "ticker": "KTOS",
+  "company": "Kratos Defense & Security Solutions, Inc.",
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "research-agent-B",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q3 2026 revenue was $471.8 million, up 35.7% YoY (23.2% organic); Kratos Government Solutions revenue rose 52.5% to $397.2 million (35.8% organic). Adjusted EBITDA was $50.9 million, above the $40-$45 million guidance range.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "source_title": "Kratos Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "backlog",
+      "claim": "Q3 2026 bookings were $1.037 billion (book-to-bill 2.2x); consolidated backlog reached a record $2.650 billion (funded $2.067B, unfunded $582.9M), up from $2.084 billion at Q2; bid and proposal pipeline was $15.5 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "source_title": "Kratos Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "FY2026 guidance tightened to $1.78-$1.81 billion revenue with adjusted EBITDA raised to $176-$180 million; initial FY2027 forecast is $2.1-$2.2 billion revenue and $230-$240 million adjusted EBITDA.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://quartr.com/events/kratos-defense-security-solutions-inc-ktos-q3-2026_onUCVVB3",
+      "source_title": "Kratos Defense & Security Solutions (KTOS) Q3 2026 Summary | Quartr",
+      "published_date": null
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "A U.S. federal continuing resolution has been in place since Oct 1, 2026, expected through at least Dec 11, 2026; Kratos expects it to extend into Q1 2027 (its lightest quarter) and says it would need to reassess 2027 forecast if the CR extends beyond March 31, 2027. Guidance does not assume a government shutdown.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "source_title": "Kratos Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "CEO stated Kratos recently received a Valkyrie low-rate initial production (LRIP) contract award (details undisclosed) and that Valkyrie completed flight tests in Europe with partner Airbus.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "The U.S. Marine Corps awarded Northrop Grumman (prime) a $231.5 million OTA for MUX TACAIR collaborative combat aircraft built on Kratos' XQ-58 Valkyrie, covering development with an initial 24-month period of performance.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://breakingdefense.com/2026/01/northrop-kratos-team-picked-for-marine-corps-drone-wingmen/",
+      "source_title": "Northrop, Kratos team picked for Marine Corps drone wingmen",
+      "published_date": "2026-01-08"
+    },
+    {
+      "dimension": "military",
+      "topic": "product",
+      "claim": "Management expects ~$700 million of hypersonics revenue in 2027 (Nemesis 1, Nemesis 2, Kraken); rocket support and hypersonics grew 149% organically in Q3; Kratos is ordering supply chain components for 3,000 turbojet engines in 2027 and plans to triple Firejet capacity in Oklahoma City by end-2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Q3 2026 free cash flow was a use of $29.4 million, with receivables growing $69.5 million and DSO rising to 125 days from 114; capex was $30.2 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "military",
+      "topic": "other",
+      "claim": "Unmanned Systems revenue fell to $74.6 million from $87.2 million YoY due to a $16.1 million international Valkyrie shipment in the prior-year quarter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On Feb 26, 2026 Kratos sold 16,428,571 shares at $84.00 (including full underwriter option) for ~$1.38 billion gross / ~$1.348 billion net, to fund capex, product development and acquisitions including Nomad and Orbit.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000024/ktos-20260226.htm",
+      "source_title": "Kratos Form 8-K filed March 2, 2026",
+      "published_date": "2026-03-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Kratos entered a new five-year $300 million revolving credit facility in February 2026; as of Sept 27, 2026 nothing was drawn, and management believes cash plus the revolver is sufficient for at least 12 months.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000088/ktos-20260927.htm",
+      "source_title": "Kratos Form 10-Q for quarter ended September 27, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "CEO Eric DeMarco sold 300,000 shares (~$19.3 million) on Aug 14, 2026 under a 10b5-1 plan, following sales of 400,000 (Dec 1, 2025), 200,000 (Dec 22, 2025) and 200,000 (Jan 5, 2026) shares.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.secform4.com/insider-trading/1082440.htm",
+      "source_title": "DEMARCO ERIC M - Insider Trades & Share Buys/Sales",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "competition",
+      "claim": "Kratos was among Gauntlet I participants of the Drone Dominance Program but did not appear in Gauntlet II; CEO stated Drone Dominance (class 1 drones) is not a strategic priority for Kratos.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "political",
+      "topic": "customer",
+      "claim": "CEO said Taiwan press reports discuss hundreds of Mighty Hornet units; plan is initial U.S. production and, subject to State Department approval, licensed production in Taiwan with Kratos receiving a license fee.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Customer mix is 75% U.S. federal government, 17% foreign and 8% commercial; contract mix is 63% fixed price, which exposes margins to cost overruns on production programs.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "source_title": "Kratos Defense (KTOS) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-06"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Expiry of current U.S. federal continuing resolution (expected to be extended)",
+      "expected_date": "2026-12-11",
+      "date_confidence": "estimated",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm"
+    },
+    {
+      "event": "Q4 2026 results vs guidance of $480-$510M revenue and $48-$52M adjusted EBITDA",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://quartr.com/events/kratos-defense-security-solutions-inc-ktos-q3-2026_onUCVVB3"
+    },
+    {
+      "event": "CR deadline after which Kratos would reassess its 2027 forecast",
+      "expected_date": "2027-03-31",
+      "date_confidence": "estimated",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm"
+    },
+    {
+      "event": "First fire of energetics at Prometheus (Crane, Indiana), production targeted early 2028",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "FY2027 federal appropriations / continuing resolution (since Oct 1, 2026)",
+      "stage": "implementation",
+      "industry": "defense",
+      "bottleneck": "CR restricts new program starts and production rate increases",
+      "revenue_mechanism": "Timing of DoD contract funding and production transitions",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "Marine Corps MUX TACAIR collaborative combat aircraft program (OTA, $231.5M initial)",
+      "stage": "implementation",
+      "industry": "unmanned combat aircraft",
+      "bottleneck": "Affordable mass CCA production",
+      "revenue_mechanism": "Subcontract to Northrop Grumman for Valkyrie airframes",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://defensescoop.com/2026/01/08/marine-corps-cca-drones-northrop-grumman-kratos-team-contract/",
+      "published_date": "2026-01-08"
+    },
+    {
+      "country": "United States",
+      "policy": "DoD hypersonic test/weapons programs (MACH-TB funding modifications)",
+      "stage": "implementation",
+      "industry": "hypersonics",
+      "bottleneck": "Hypersonic test flight capacity and rocket systems",
+      "revenue_mechanism": "Contract funding modifications booked into KGS backlog",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "published_date": null
+    },
+    {
+      "country": "Taiwan",
+      "policy": "Potential Mighty Hornet procurement with licensed local production (requires U.S. State Department approval)",
+      "stage": "proposal",
+      "industry": "unmanned systems / defense exports",
+      "bottleneck": "Export approval and trade compliance",
+      "revenue_mechanism": "U.S.-built initial units plus license fees on Taiwan-built units",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-11-06"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Extended continuing resolution or shutdown could delay new starts and production ramps, pressuring 2027 forecast",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000085/ktos202609278kexhibit991.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Negative free cash flow and rising receivables/DSO as company scales capex",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-11-06"
+    },
+    {
+      "risk": "Repeated large equity offerings (June 2025 $575M, Feb 2026 $1.38B) dilute shareholders",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000088/ktos-20260927.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Sustained CEO share sales may weigh on sentiment",
+      "severity": "low",
+      "source_url": "https://www.investing.com/news/insider-trading-news/kratos-defense-ceo-eric-demarco-sells-193-million-in-stock-93CH-4861652",
+      "published_date": null
+    },
+    {
+      "risk": "High concentration on U.S. federal government (75% of revenue) and fixed-price contracts (63%)",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/06/kratos-defense-ktos-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-11-06"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Underwritten public offering of 16,428,571 shares at $84.00 (incl. 2,142,857 option shares); ~$1.38B gross",
+      "date": "2026-02-26",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000024/ktos-20260226.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "Q3 2026 10-Q states cash plus undrawn $300M revolver is sufficient for at least 12 months; no going-concern language. Q3 results appear to have been released Nov 5-6, 2026 (transcript dated 2026-11-06); exact 8-K date not shown so left null. Valkyrie LRIP customer and value undisclosed by management. Q4 2026 earnings date not yet announced."
+}

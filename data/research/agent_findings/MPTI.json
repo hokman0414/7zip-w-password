@@ -1,0 +1,232 @@
+{
+  "ticker": "MPTI",
+  "company": "M-tron Industries, Inc.",
+  "researched_at": "2026-11-06T21:50:00Z",
+  "agent_id": "research-agent-A",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 revenue rose 13.8% to $15.1M and net income rose 19.9% to $1.9M, but diluted EPS fell 18.9% to $0.43 (from $0.53) due to more shares outstanding after the April 2026 rights offering. Adjusted EBITDA was $3.4M vs $2.4M.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_title": "M-tron Industries, Inc. Reports Second Quarter 2026 Results",
+      "published_date": "2026-08-12"
+    },
+    {
+      "dimension": "military",
+      "topic": "backlog",
+      "claim": "Backlog increased 37.2% to $84.0M as of June 30, 2026, from $61.2M a year earlier; Q1 2026 backlog was $76.8M.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Reports-Second-Quarter-2026-Results/default.aspx",
+      "source_title": "M-tron Industries, Inc. Reports Second Quarter 2026 Results",
+      "published_date": "2026-08-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "M-tron completed a rights offering on April 27, 2026 that raised approximately $42.1M and issued 713,362 shares, bringing shares outstanding to about 4.3M.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ir.mtronpti.com/news/news-details/2026/M-tron-Industries-Inc--Announces-Completion-of-Rights-Offering/default.aspx",
+      "source_title": "M-tron Industries, Inc. Announces Completion of Rights Offering",
+      "published_date": "2026-04-27"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "In January 2026, holders exercised the warrants distributed as a dividend in April 2025: 470,205 shares were issued under basic subscription plus 112,028 shares via over-subscription, for approximately $27.7M in gross proceeds.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1902314/000143774926016657/mpti20260512_ars.pdf",
+      "source_title": "M-tron Industries 2025 Annual Report to Stockholders",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Cash and equivalents were $96.2M at June 30, 2026, with no borrowings under its $20.0M credit facilities.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.stocktitan.net/sec-filings/MPTI/10-q.html",
+      "source_title": "MPTI 10-Q Filings - M-tron Industries, Inc. SEC 10-Q",
+      "published_date": "2026-08-12"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "On June 9, 2026, M-tron received a $6.8M follow-on production order from a U.S. DoD contractor for several C-UAS (counter-drone) radar programs, mainly oven-controlled crystal oscillators, with work in Orlando through 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Awarded-6-8-Million-Production-Contract-for-Major-Counter-Drone-Radar-Programs/default.aspx",
+      "source_title": "M-tron Industries, Inc. Awarded $6.8 Million Production Contract for Major Counter Drone Radar Programs",
+      "published_date": "2026-06-09"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "On June 30, 2026, M-tron received $4M in production orders for a next-generation electronic warfare system (high-power spectrum control solutions), with work in Orlando through 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Awarded-4-Million-in-Production-Contracts-for-Advanced-Electronic-Warfare-System/default.aspx",
+      "source_title": "M-tron Industries, Inc. Awarded $4 Million in Production Contracts for Advanced Electronic Warfare System",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "M-tron previously won a $2.7M counter-drone radar order (April 2026), a $20M two-year U.S. air defense program contract (December 2025) and a $5.5M naval weapon system contract (September 2025).",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://thedefensepost.com/2026/04/17/mtron-counter-drone-radar-contract/",
+      "source_title": "M-tron Secures $2.7M Order for Counter-Drone Radar Technologies",
+      "published_date": "2026-04-17"
+    },
+    {
+      "dimension": "military",
+      "topic": "guidance",
+      "claim": "Management said defense primes signed seven-year framework agreements for missile systems and that it expects first purchase orders under the resulting increased volumes around Q1 2027, for 2028 production.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript",
+      "source_title": "M-Tron Industries Reports Q2 2026 Results: Full Earnings Call Transcript",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "Management said backlog for the next two quarters exceeds what it is currently producing and that it is focused on increasing manufacturing capacity; it is running a full first shift and only a skeleton second shift.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript",
+      "source_title": "M-Tron Industries Reports Q2 2026 Results: Full Earnings Call Transcript",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "The CEO guided second-half 2026 gross margin to roughly 41.5%–43.5% (possibly 44%), citing ramp-up of new programs and continuing tariffs.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript",
+      "source_title": "M-Tron Industries Reports Q2 2026 Results: Full Earnings Call Transcript",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Revenue and receivables remain concentrated in a small number of customers, according to the 10-Q summary.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.stocktitan.net/sec-filings/MPTI/10-q.html",
+      "source_title": "MPTI 10-Q Filings - M-tron Industries, Inc. SEC 10-Q",
+      "published_date": "2026-08-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 EPS of $0.43 missed the $0.53 consensus; Q3 2026 consensus is about $0.585 EPS on $15.3M revenue.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-11-11-m-tron-industries-inc-stock/",
+      "source_title": "M-tron Industries Q3 2026 Earnings Date & Estimates | MarketBeat",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "With about $96M in cash against a company producing roughly $15M of quarterly revenue, the rights offering and warrant capital appear sized for acquisitions; deal timing and accretion are the main swing factors for per-share value.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "neutral",
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Announces-Subscription-Rights-Offering-To-Address-Rapid-Changes-in-US-Defense-Sector/default.aspx",
+      "source_title": "M-tron Industries, Inc. Announces Subscription Rights Offering To Address Rapid Changes in US Defense Sector",
+      "published_date": "2026-03-18"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q3 2026 earnings release (before market open) and conference call",
+      "expected_date": "2026-11-12",
+      "date_confidence": "confirmed",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/m-tron-industries-inc-report-211000137.html"
+    },
+    {
+      "event": "First purchase orders expected under defense primes' seven-year missile framework agreements, for 2028 production",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript"
+    },
+    {
+      "event": "Potential acquisition; management said it hoped to complete a deal in 2026",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Department of War / DoD procurement reform to rapidly increase production of critical systems and support more nimble suppliers, as cited by the company",
+      "stage": "implementation",
+      "industry": "Defense RF components",
+      "bottleneck": "RF timing and filter components (oscillators, spectrum control) for counter-drone radar, electronic warfare and missiles",
+      "revenue_mechanism": "Production orders from defense contractors and primes; long-term supply agreements",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Announces-Subscription-Rights-Offering-To-Address-Rapid-Changes-in-US-Defense-Sector/default.aspx",
+      "published_date": "2026-03-18"
+    },
+    {
+      "country": "United States",
+      "policy": "Counter-UAS (counter-drone) radar deployment for military and border control applications",
+      "stage": "implementation",
+      "industry": "Defense radar",
+      "bottleneck": "High-stability oscillators for phased-array radar",
+      "revenue_mechanism": "Component orders ($2.7M in April 2026 and a $6.8M follow-on in June 2026)",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://ir.mtron.com/news/news-details/2026/M-tron-Industries-Inc--Awarded-6-8-Million-Production-Contract-for-Major-Counter-Drone-Radar-Programs/default.aspx",
+      "published_date": "2026-06-09"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Capacity constraints: backlog exceeds current production rates, and a full second shift requires hiring; risk of delayed backlog conversion",
+      "severity": "medium",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "Per-share dilution from roughly $70M of equity raised through the warrant exercise and rights offering, pending deployment of the capital",
+      "severity": "medium",
+      "source_url": "https://www.investing.com/news/transcripts/mtron-industries-at-17th-annual-midwest-ideas-conference-defense-growth-93CH-4880028",
+      "published_date": null
+    },
+    {
+      "risk": "Customer concentration in a small number of defense customers",
+      "severity": "medium",
+      "source_url": "https://www.stocktitan.net/sec-filings/MPTI/10-q.html",
+      "published_date": "2026-08-12"
+    },
+    {
+      "risk": "Gross margin pressure from tariffs and ramp-up of new programs",
+      "severity": "low",
+      "source_url": "https://www.benzinga.com/news/26/08/61179816/m-tron-industries-reports-q2-2026-results-full-earnings-call-transcript",
+      "published_date": "2026-08-13"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Warrant exercise (warrants distributed as a dividend in April 2025) completed; 582,233 total shares issued for about $27.7M gross proceeds",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1902314/000143774926016657/mpti20260512_ars.pdf"
+    },
+    {
+      "description": "Transferable subscription rights offering completed; 713,362 shares issued for about $42.1M gross proceeds, bringing shares outstanding to about 4.3M",
+      "date": "2026-04-27",
+      "source_url": "https://ir.mtronpti.com/news/news-details/2026/M-tron-Industries-Inc--Announces-Completion-of-Rights-Offering/default.aspx"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "Q3 2026 results had not been released as of 2026-11-06. The company press release confirms a November 12, 2026 pre-market release; MarketBeat's estimated November 11 date conflicts with it and was superseded. The warrant exercise was completed in January 2026, but its exact date was not shown in the source. No convertible notes or debt were found (no borrowings on $20M facilities). The annual report text contains no going-concern language. The Q2 call also mentioned a strategic investment in Skyline Instruments (GPS-denied timing)."
+}

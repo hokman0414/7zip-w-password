@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "account_last4": "0643",
+  "allowed_kinds": ["risk_trim", "hedge", "research_buy", "core_reinvest"],
+  "reinvest_symbol": "SPY",
+  "hedge_symbol": "SH",
+  "max_order_usd": 400,
+  "max_daily_turnover_pct": 0.20,
+  "max_orders_per_day": 6,
+  "min_order_usd": 5,
+  "cash_reserve_pct": 0.05,
+  "drawdown_halt_buys_pct": 0.15,
+  "drawdown_halt_all_pct": 0.30,
+  "symbol_cooldown_days": 3,
+  "max_snapshot_age_hours": 6,
+  "max_quote_drift_pct": 0.05,
+  "execution_window_et": ["09:45", "15:30"]
+}

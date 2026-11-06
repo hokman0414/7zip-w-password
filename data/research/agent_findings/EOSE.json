@@ -1,0 +1,249 @@
+{
+  "ticker": "EOSE",
+  "company": "Eos Energy Enterprises, Inc.",
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "research-agent-B",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q3 2026 revenue was a record $82.7 million, up 171% year over year and 20% sequentially, on a 216% YoY increase in cube shipments across 10 projects.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-third-quarter-2026-revenue-827/",
+      "source_title": "Eos Energy Enterprises Reports Third Quarter 2026 Revenue of $82.7 Million, Up 171% Year Over Year",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q3 2026 gross margin remained deeply negative at -53% (gross loss $44.2M) and adjusted EBITDA loss was $63.8M (-77% margin); reported net income of $125.0M was primarily non-cash mark-to-market gains on warrants and debt.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-third-quarter-2026-revenue-827/",
+      "source_title": "Eos Energy Enterprises Reports Third Quarter 2026 Revenue of $82.7 Million",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Eos expects full-year 2026 revenue in the lower half of its $300-$350 million range ($300-$325M), implying Q4 revenue of $92-$117M, and guides Q4 adjusted gross margin to -25% to -20%.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/",
+      "source_title": "Eos Energy (EOSE) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "Backlog was $765 million (3.2 GWh) at Sept 30, 2026, up 19% YoY but down 5% from $807M in Q2 as shipments exceeded bookings; commercial pipeline was $24.9 billion with 3.5 GWh of late-stage opportunities.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/",
+      "source_title": "Eos Energy (EOSE) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Related-party revenue represented 83% of Q3 2026 quarterly volume, including projects acquired by Frontier Power USA (FPUSA), a JV in which Eos holds ~36%; management expects this share to decline in Q4.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/",
+      "source_title": "Eos Energy (EOSE) Q3 2026 Earnings Call Transcript",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Heavy reliance on a JV that Eos itself funded ($112.6M contribution) for most quarterly volume raises questions about the independence and quality of demand until third-party mix normalizes.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://investors.eose.com/static-files/f61819ed-1b4a-479f-a8aa-389d74ac071d",
+      "source_title": "Form 8-K for EOS Energy Enterprises INC filed 08/06/2026",
+      "published_date": "2026-08-06"
+    },
+    {
+      "dimension": "technological",
+      "topic": "capacity",
+      "claim": "Line 2 reached first-pass yield parity with Line 1 within three months; Thorn Hill moved to 24-hour operations in October. Eos is consolidating manufacturing into Thorn Hill, temporarily reducing Q4 capacity, with Line 1 targeted to return to production near end of Q1 2027.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://quartr.com/companies/eos-energy-enterprises-inc_11169",
+      "source_title": "Eos Energy Enterprises (EOSE) Investor Relations, Earnings Summary & Outlook",
+      "published_date": null
+    },
+    {
+      "dimension": "environmental",
+      "topic": "customer",
+      "claim": "Eos announced a project with MN8 Energy to deliver 10 MW/100 MWh of Z3 zinc-based long-duration storage in West Virginia serving Google's data centers.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-third-quarter-2026-revenue-827/",
+      "source_title": "Eos Energy Enterprises Reports Third Quarter 2026 Revenue of $82.7 Million",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "political",
+      "topic": "debt",
+      "claim": "Eos received an $87 million first advance under the second tranche of its DOE Loan Programs Office loan; through Sept 30, 2026 it had drawn ~$178.0 million under the DOE facility.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "source_title": "Eos Energy Enterprises Form 10-Q for quarter ended September 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "In November 2025 Eos issued $600 million of 1.75% convertible senior notes due 2031 (initial conversion price ~$16.29/share); it also has May 2025 convertible notes with an initial conversion price of ~$5.10/share.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "source_title": "Eos Energy Enterprises Form 10-Q for quarter ended September 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "To fund its FPUSA contribution, Eos sold 13,683,634 shares plus 6,004,378 warrants ($5.481 strike) to Hudson Bay for ~$75M (June 30, 2026) and closed a rights offering of 6,885,218 shares and 3,019,242 warrants for ~$37.7M gross (Aug 3, 2026); these triggered anti-dilution adjustments increasing shares issuable on Series B preferred conversion by ~15.1 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "source_title": "Eos Energy Enterprises Form 10-Q for quarter ended September 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The One Big Beautiful Bill Act preserved Section 45X manufacturing credits for battery components through 2029 (then phasing down to 2032) and storage ITCs while adding prohibited-foreign-entity restrictions; Eos claims >90% domestic content and a FEOC-compliant supply chain.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026011961/eose-20251231.htm",
+      "source_title": "Eos Energy Enterprises Form 10-K for fiscal year 2025",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Total cash including restricted cash was $344.1 million ($271.1M unrestricted) at Sept 30, 2026; the company was in compliance with its $15M minimum-liquidity covenant.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "source_title": "Eos Energy Enterprises Form 10-Q for quarter ended September 30, 2026",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q4 2026 results vs. guidance of $92-$117M revenue and -25% to -20% adjusted gross margin",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://quartr.com/companies/eos-energy-enterprises-inc_11169"
+    },
+    {
+      "event": "Relocated/upgraded Line 1 returns to production at Thorn Hill",
+      "expected_date": "2027-03-31",
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/"
+    },
+    {
+      "event": "Conversion of 3.5 GWh late-stage pipeline (financing/contract negotiations) into backlog",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "IRC Section 45X advanced manufacturing production tax credit (preserved by OBBBA, $35/kWh cells + $10/kWh modules + 10% electrode active materials through 2029)",
+      "stage": "implementation",
+      "industry": "grid battery storage manufacturing",
+      "bottleneck": "Domestic, non-PFE battery manufacturing capacity",
+      "revenue_mechanism": "Transferable production tax credits monetized for cash",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026011961/eose-20251231.htm",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "OBBBA prohibited foreign entity (FEOC) restrictions on storage ITC (48E) and 45X credits",
+      "stage": "implementation",
+      "industry": "energy storage",
+      "bottleneck": "Chinese-dominated battery supply chain becomes ineligible for credits",
+      "revenue_mechanism": "Customers seeking ITC eligibility favor FEOC-compliant domestic suppliers like Eos",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.morganlewis.com/pubs/2026/03/how-feoc-rules-are-reshaping-energy-storage-tax-credit-eligibility",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "DOE Loan Programs Office loan facility (multi-tranche, ~$178M drawn through Q3 2026)",
+      "stage": "implementation",
+      "industry": "battery manufacturing",
+      "bottleneck": "Capital for automated production lines",
+      "revenue_mechanism": "Low-cost debt funding capacity expansion",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "published_date": null
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Persistently negative gross margins and large adjusted EBITDA losses ($63.8M in Q3 2026)",
+      "severity": "high",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-third-quarter-2026-revenue-827/",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Revenue concentration in related party (FPUSA JV): 83% of Q3 volume",
+      "severity": "high",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Manufacturing consolidation reduces Q4 capacity and may shift shipment timing; guidance already cut to lower half of range",
+      "severity": "medium",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-energy-enterprises-reports-third-quarter-2026-revenue-827/",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Significant convertible debt, warrants and preferred conversion shares create dilution overhang and fair-value earnings volatility",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Backlog declined sequentially (5%) as bookings lagged shipments; late-stage pipeline depends on project financing",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/05/eos-energy-eose-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "$600M 1.75% convertible senior notes due 2031 (initial conversion ~$16.29/share)",
+      "date": "2025-11-24",
+      "source_url": "https://investors.eose.com/static-files/3cb95526-03ba-453b-ad60-aff26f0871d6"
+    },
+    {
+      "description": "Registered direct offering to Hudson Bay: 13,683,634 shares + 6,004,378 warrants (exercise $5.481), ~$75M",
+      "date": "2026-06-30",
+      "source_url": "https://investors.eose.com/news-releases/news-release-details/eos-announces-pricing-registered-direct-offering-common-stock/"
+    },
+    {
+      "description": "Rights offering closed: 6,885,218 shares + 3,019,242 warrants ($5.481), ~$37.7M gross",
+      "date": "2026-08-03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm"
+    },
+    {
+      "description": "Anti-dilution adjustments increased common shares issuable on Series B-1 to B-4 preferred conversion by ~15.1M shares",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1805077/000162828026070529/eose-20260930.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "FY2025 10-K states management concluded there is no longer substantial doubt about going concern after 2025 capital raises; no going-concern language found in the Q3 2026 10-Q. The Nov 2025 convertible note 8-K date is from the investor-site filename ('filed 11/24/2025'). Q4 2026 earnings date not yet announced."
+}
