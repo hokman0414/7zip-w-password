@@ -1,0 +1,232 @@
+{
+  "ticker": "TWIN",
+  "company": "Twin Disc, Incorporated",
+  "researched_at": "2026-11-06T21:50:00Z",
+  "agent_id": "research-agent-A",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Fiscal Q1 2027 (ended September 25, 2026) sales rose 10.9% to $88.7M (organic +11.8%); net income attributable was $3.4M or $0.24 per diluted share vs a loss of $(0.04); EBITDA was $7.7M, up 62.6%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-first-quarter-results-2",
+      "source_title": "Twin Disc Announces First Quarter Results",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "Six-month backlog reached a record $190.6M, up 7% from $178.3M at fiscal year end and from $163.3M a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.twindisc.com/static-files/801560a1-0b5d-4bfb-92be-68b5be303adb",
+      "source_title": "Twin Disc Q1 FY2027 Earnings Presentation",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "military",
+      "topic": "backlog",
+      "claim": "Defense backlog was $45.7M, or about 24% of total backlog vs 17% at fiscal year end, and total defense backlog rose about 104% year over year.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "Orders tied to the U.S. Navy's initial 30-boat unmanned vessel program began reaching the order book in fiscal Q1 2027, with more expected in fiscal Q2. The Finnish subsidiary Katsa booked significant defense orders from NATO and Middle Eastern customers for military vehicle driveline components.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "Katsa is building a 54,000 sq ft assembly plant in Finland, expected to be fully operational in May 2027 and to double gearbox assembly capacity by 2028; fiscal 2027 capex is guided to about $25M.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "technological",
+      "topic": "customer",
+      "claim": "Katsa supplies components to major engine manufacturers building backup power systems for data centers; Industrial sales rose 35.3% to $14.0M, partly due to reclassification of $4.7M of Katsa sales from Land-Based Transmissions.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Net debt fell to $13.1M from $29.5M a year earlier (net leverage 0.4x trailing EBITDA of $32.9M); free cash flow was $5.6M vs negative $11M a year earlier; the quarterly dividend was raised 25% to $0.05.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Gross margin was flat at 28.7% year over year because faster-growing Katsa and Veth carry below-average margins; reported Land-Based Transmissions sales fell 14.7% (mostly due to reclassification).",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-first-quarter-results-2",
+      "source_title": "Twin Disc Announces First Quarter Results",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Fiscal 2026 (ended June 30, 2026) sales rose 11.9% to $381.3M and net income was $27.1M ($1.86/diluted share), which included a $14.0M tax benefit from reversing the domestic valuation allowance; EBITDA was $29.9M.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-full-year-and-fourth-quarter-2026-results",
+      "source_title": "Twin Disc Announces Full Year and Fourth Quarter 2026 Results",
+      "published_date": "2026-08-20"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Fiscal 2026 net income was boosted by a one-time $14.0M valuation-allowance reversal, so the reported $1.86 EPS overstates recurring earnings power.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "neutral",
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-full-year-and-fourth-quarter-2026-results",
+      "source_title": "Twin Disc Announces Full Year and Fourth Quarter 2026 Results",
+      "published_date": "2026-08-20"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q1 FY2027 EPS of $0.24 beat estimates (about $0.01 to $0.11 depending on source), but revenue of $88.75M was below the $91.39M estimate.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fxempire.com/stocks/twin/earnings",
+      "source_title": "Twin Disc, Incorporated (TWIN) Earnings Reports & Dates | FXEmpire",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Management projected fiscal 2027 free cash flow conversion of 20%–40%, dependent on capex execution, and maintained 2030 targets of $500M revenue and 30% gross margin.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "source_title": "Twin Disc (TWIN) Q1 2027 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "In fiscal Q1 2026, management flagged a temporary tariff impact of about 1–3% of COGS in fiscal Q2 2026, expected to normalize to about 1% in the second half of fiscal 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://fintool.com/app/research/companies/TWIN/documents/transcripts/q1-2026",
+      "source_title": "TWIN DISC (TWIN) Q1 2026 Earnings Call Transcript | Fintool",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "The top ten customers accounted for about 36% of fiscal 2026 net sales, and no single customer exceeded 10%; the 10-K notes that six-month backlog orders are subject to cancellation and rescheduling.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://ir.twindisc.com/static-files/87b00c8c-12cf-409b-9ed6-3f68e03f3fef",
+      "source_title": "Twin Disc Form 10-K for fiscal year ended June 30, 2026",
+      "published_date": "2026-09-04"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fiscal Q2 2027 earnings release (third-party calendars differ: Feb 2 vs Feb 10, 2027)",
+      "expected_date": "2027-02-02",
+      "date_confidence": "estimated",
+      "source_url": "https://www.fxempire.com/stocks/twin/earnings"
+    },
+    {
+      "event": "Additional U.S. Navy unmanned vessel program orders expected to arrive in fiscal Q2 2027 (quarter ending December 2026)",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/"
+    },
+    {
+      "event": "Katsa Finland 54,000 sq ft assembly plant expected to be fully operational",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "U.S. Navy unmanned / autonomous surface vessel programs (initial 30-boat program)",
+      "stage": "implementation",
+      "industry": "Naval shipbuilding / marine propulsion",
+      "bottleneck": "Marine transmissions and propulsion for unmanned vessels",
+      "revenue_mechanism": "Transmission orders from shipbuilders building the Navy vessels",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "published_date": "2026-11-04"
+    },
+    {
+      "country": "NATO / Europe",
+      "policy": "Elevated European defense budgets and NATO military vehicle programs",
+      "stage": "implementation",
+      "industry": "Military land vehicles",
+      "bottleneck": "Gearbox and driveline component assembly capacity",
+      "revenue_mechanism": "Katsa driveline component sales to NATO vehicle customers; capacity expansion in Finland",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-first-quarter-results-2",
+      "published_date": "2026-11-04"
+    },
+    {
+      "country": "United States",
+      "policy": "U.S. import tariffs",
+      "stage": "enforcement",
+      "industry": "Power transmission equipment",
+      "bottleneck": "Imported components and finished goods from European plants",
+      "revenue_mechanism": "Cost headwind to COGS (about 1–3% at peak per management)",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://fintool.com/app/research/companies/TWIN/documents/transcripts/q1-2026",
+      "published_date": null
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Margin dilution from growth in lower-margin acquired businesses (Katsa, Veth), with gross margin flat at 28.7%",
+      "severity": "medium",
+      "source_url": "https://ir.twindisc.com/news-releases/news-release-details/twin-disc-announces-first-quarter-results-2",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Execution risk on about $25M fiscal 2027 capex (Finland plant, Racine) affecting free cash flow conversion",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Lumpy timing of U.S. Navy unmanned vessel orders beyond the first 30 boats; management does not know when the next increase in orders will come",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Tariff exposure and FX translation given that about 46% of sales are in Europe",
+      "severity": "low",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/twin-disc-twin-q1-2027-earnings-call-transcript/",
+      "published_date": "2026-11-04"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "Twin Disc's fiscal year ends June 30. The most recent results are fiscal Q1 2027, reported November 4, 2026. No equity offerings or convertible notes were found in the last 12 months; total debt is about $29.8M at fiscal year end and net debt is $13.1M. No going-concern language appeared in the fiscal 2026 10-K text. Third-party calendars disagree on the next earnings date (Feb 2 vs Feb 10, 2027), and the company has not confirmed it. The Finland plant is expected to be operational in May 2027, but no exact day was given, so expected_date is null. Insider Form 4 activity was not researched."
+}

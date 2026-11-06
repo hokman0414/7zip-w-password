@@ -1,0 +1,182 @@
+{
+  "ticker": "TSSI",
+  "company": "TSS, Inc.",
+  "researched_at": "2026-11-06T21:50:00Z",
+  "agent_id": "research-agent-A",
+  "findings": [
+    {
+      "dimension": "technological",
+      "topic": "earnings",
+      "claim": "Q3 2026 revenue was $50.1M, up 20%; systems integration revenue hit a record $16.1M, up 75%, and was 32% of revenue. Net income was $1.1M ($0.04 diluted) vs a $1.5M loss, and adjusted EBITDA was $4.7M, up 225%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "source_title": "TSS Reports Third Quarter 2026 Financial Results",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "TSS raised its 2026 adjusted EBITDA outlook to $21M–$23M (previously the upper end of $20M–$22M) and anticipates further systems integration growth in Q4.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "source_title": "TSS Reports Third Quarter 2026 Financial Results",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Year-to-date 2026 revenue was $140.5M, down 24%, because procurement revenue fell 41% to $90.6M from a record 2025 comparison.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "source_title": "TSS Reports Third Quarter 2026 Financial Results",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "A single U.S.-based IT OEM accounted for 99% of revenues in the three and six months ended June 30, 2026 and 100% of accounts receivable at June 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495426007589/tssi_10q.htm",
+      "source_title": "TSS, Inc. Form 10-Q for the period ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "technological",
+      "topic": "capacity",
+      "claim": "TSS invested about $17M in power and cooling infrastructure at Georgetown, TX to support NVIDIA's Vera Rubin platform; the build-out was completed shortly after Q3 quarter-end.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/08/20/tss-tssi-q2-2026-earnings-call-transcript/",
+      "source_title": "TSS (TSSI) Q2 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-08-20"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "On October 6, 2026, TSS signed a seven-year lease for approximately 380,000 sq ft of warehouse space in Georgetown, Texas, less than a mile from its integration facility.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.tssiusa.com/tss-inc-leases-380000-square-feet-of-warehouse-space-to-support-growing-ai-and-high-performance-computing-demand/",
+      "source_title": "TSS, Inc. Leases 380,000 Square Feet of Warehouse Space to Support Growing AI and High-Performance Computing Demand",
+      "published_date": "2026-10-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Cash fell to $54.0M at September 30, 2026 from $85.5M at December 31, 2025, and deferred revenue (current) dropped to $2.1M from $13.9M; total long-term debt was about $15.1M.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "source_title": "TSS Reports Third Quarter 2026 Financial Results",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "TSS relies heavily on non-recourse factoring of receivables from its main customer ($100.7M factored in the first half of 2026), and first-half 2026 operating cash flow was a $7.3M outflow vs a $37.0M inflow a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.stocktitan.net/sec-filings/TSSI/10-q-tss-inc-quarterly-earnings-report-4cc2088caf74.html",
+      "source_title": "TSS, Inc. posts profit on lower 2026 revenue | TSSI Quarterly Report (10-Q)",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "Insiders were net sellers in 2026: the CEO sold 50,000 shares three times (April 14, April 22 and May 6) under a 10b5-1 plan, a director sold 300,000 shares at $15.87 on May 29, and the COO, CFO and an SVP also sold. The only recent open-market purchase found was a 5,000-share director buy in November 2025.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.secform4.com/insider-trading/1320760.htm",
+      "source_title": "TSS Inc. (TSSI) - Insider Trading Form 4 Filings",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "TSS has a $150M universal shelf registration (Form S-3 filed January 2025) covering common stock, preferred stock, debt, warrants and units; no 2026 takedown was found.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495425000153/tssi_s3.htm",
+      "source_title": "TSS, Inc. Form S-3 filed January 7, 2025",
+      "published_date": "2025-01-07"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "The 10-K states TSS has a long-term AI rack integration agreement with its OEM customer that includes minimum monthly payments.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495426002342/tssi_10k.htm",
+      "source_title": "TSS, Inc. Form 10-K for fiscal year 2025",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Facilities management revenue fell 30% to $1.1M in Q3 2026 due to decommissioned modular data centers and less discrete project work.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://finance.biggo.com/quote/TSSI/earnings-call/US_TSSI_2026-08-13",
+      "source_title": "TSSI Q3 FY2026 earnings call",
+      "published_date": null
+    },
+    {
+      "dimension": "technological",
+      "topic": "customer",
+      "claim": "Because nearly all revenue comes from one OEM tied to NVIDIA-based AI rack cycles, TSSI's results are effectively a leveraged bet on that customer's AI server volumes and its choice to keep integration outsourced to TSS.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495426002342/tssi_10k.htm",
+      "source_title": "TSS, Inc. Form 10-K for fiscal year 2025",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q4 / full-year 2026 earnings release (date not announced)",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367"
+    },
+    {
+      "event": "Revenue ramp from the completed Vera Rubin readiness build-out (systems integration for next-generation NVIDIA racks)",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367"
+    }
+  ],
+  "policy_links": [],
+  "key_risks": [
+    {
+      "risk": "Extreme customer concentration: one IT OEM is about 99% of revenue and 100% of receivables; loss or reduction of this customer would be severe",
+      "severity": "critical",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1320760/000165495426007589/tssi_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "Possible cancellation of customer contracts on short notice, and rapid technological change in AI infrastructure",
+      "severity": "high",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Cash burn from capex and lease obligations (new 380,000 sq ft, seven-year lease); cash fell from $85.5M to $54.0M in nine months; the company says it may need to issue debt or equity",
+      "severity": "medium",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Volatile, low-margin procurement revenue causes large swings in reported revenue",
+      "severity": "medium",
+      "source_url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/tss-reports-third-quarter-2026-financial-results-1246367",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "Q3 2026 results were released November 5, 2026. One third-party page (biggo) mislabels the August 13 Q2 call as 'Q3', so the Q3 figures here come from the November 5 company release. No equity offerings were found in the last 12 months, though a $150M shelf has been in place since 2025; dilution comes only from routine stock-based compensation (option awards in January 2026). No convertible notes were found. No going-concern language appeared in the Q2 2026 10-Q text. No direct government-policy link was found, and data-center demand here is commercial rather than policy-driven, so policy_links is empty."
+}

@@ -1,0 +1,234 @@
+{
+  "ticker": "ONDS",
+  "company": "Ondas Inc. (formerly Ondas Holdings Inc.)",
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "research-agent-B",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 revenue was a record $83.8 million vs $6.3 million in Q2 2025 (>13x YoY); pro forma organic revenue grew 85% YoY. GAAP gross margin was 43.1% and adjusted gross margin 50.4%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.ondas.com/press-releases/detail/326/ondas-posts-record-q2-2026-revenue-of-83-8-million-on",
+      "source_title": "Ondas Posts Record Q2 2026 Revenue of $83.8 Million on Strong Bookings and Backlog Growth; Raises Full-Year Outlook",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 operating loss was $162.9 million on $199.1 million of operating expenses (including $69.1M stock-based compensation); net loss was $89.7 million and adjusted EBITDA loss widened to $50.6 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ir.ondas.com/all-sec-filings/content/0001193125-26-347973/onds-ex99_2.htm",
+      "source_title": "Ondas Q2 2026 investor presentation (8-K Exhibit 99.2)",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Ondas raised 2026 revenue outlook to $525-$550 million and guided Q3 2026 revenue of $140-$155 million; it targets adjusted EBITDA profitability for the operating platform by Q4 2026 and company-wide by Q4 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-report-q3-earnings-orders-145600138.html",
+      "source_title": "Ondas to Report Q3 Earnings: Can Orders and Acquisitions Fuel Growth?",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "backlog",
+      "claim": "Reported backlog was ~$613 million at June 30, 2026, and $757 million pro forma including DZYNE and Cyberhawk, up from $68 million reported backlog at Q4 2025.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.ondas.com/press-releases/detail/326/ondas-posts-record-q2-2026-revenue-of-83-8-million-on",
+      "source_title": "Ondas Posts Record Q2 2026 Revenue of $83.8 Million",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "Ondas secured >$165 million of orders from late August through Oct 1, 2026, bringing orders since June 30 to >$270 million, including a $56 million Electronic Safe & Arm Devices award from a European neo-prime.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.ondas.com/press-releases/detail/333/ondas-secures-over-165-million-in-new-orders-since-last",
+      "source_title": "Ondas Secures Over $165 Million in New Orders Since Last Order Update",
+      "published_date": "2026-10-07"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "Mistral is preparing to deliver against >$240 million of aggregated orders tied to the U.S. Army's $982 million Lethal Unmanned Systems IDIQ, with deliveries ramping in Q3-Q4 2026 and into 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-raises-2026-revenue-view-121800375.html",
+      "source_title": "Ondas Raises 2026 Revenue View: Can It Deliver the Required H2 Ramp?",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "other",
+      "claim": "Ondas acquired DZYNE Technologies for $875.8 million ($200M cash plus ~85 million shares valued ~$675M); DZYNE holders own ~13.8% of Ondas, with 45 million shares subject to a six-month lock-up.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.ondas.com/post/ondas-announces-transformative-acquisition-of-dzyne-technologies-establishing-the-leading-autonomou",
+      "source_title": "Ondas Announces Transformative Acquisition of DZYNE Technologies",
+      "published_date": "2026-07-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Ondas closed a ~$1 billion registered direct offering (19.0M shares + 41.8M pre-funded warrants at $16.45) with 121.6 million accompanying common warrants exercisable at $28.00 for seven years; net proceeds ~$959 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ir.ondas.com/press-releases/detail/272/ondas-holdings-inc-announces-closing-of-1-billion-offering",
+      "source_title": "Ondas Holdings Inc. Announces Closing of $1 Billion Offering",
+      "published_date": "2026-01-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Shares outstanding rose from 380.8 million (Dec 31, 2025) to 469.1 million (Mar 31, 2026) before the ~85 million-share DZYNE issuance; Q2 2026 basic weighted shares were 500.7 million vs 150.7 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://ir.ondas.com/all-sec-filings/xbrl_doc_only/3314",
+      "source_title": "Ondas Inc. Quarterly report (Q1 2026 10-Q)",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Ondas ended Q2 2026 with ~$1.4 billion of cash, equivalents, restricted cash and short-term investments and only ~$6.4 million of total debt, though ~$325 million was used in Q3 to close the DZYNE and Cyberhawk acquisitions; liabilities include ~$1.0 billion of warrant liability.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.ondas.com/all-sec-filings/content/0001193125-26-347973/onds-ex99_2.htm",
+      "source_title": "Ondas Q2 2026 investor presentation (8-K Exhibit 99.2)",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "competition",
+      "claim": "No Ondas subsidiary flew in Drone Dominance Gauntlet II at Fort Carson, although DZYNE competed in Gauntlet I under prior ownership; Ondas remains eligible for future Gauntlets.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.benzinga.com/markets/tech/26/09/61873632/red-cat-ondas-miss-the-cut-in-pentagons-latest-drone-dominance-round",
+      "source_title": "Red Cat Misses the Cut in Pentagon's Latest Drone Dominance Round (CORRECTED)",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "competition",
+      "claim": "Rapid serial acquisitions plus a guided ~76% sequential revenue jump in Q3 create integration and execution risk; management also cautioned on H2 2026 gross-margin pressure from mix and excess capacity in acquired businesses.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-report-q3-earnings-orders-145600138.html",
+      "source_title": "Ondas to Report Q3 Earnings: Can Orders and Acquisitions Fuel Growth?",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q1 2026 net income of $361.2 million and Q2 'other income' items were driven largely by non-cash warrant fair-value changes, so GAAP net income is not a reliable indicator of operating profitability.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "neutral",
+      "source_url": "https://ir.ondas.com/income-statement",
+      "source_title": "Income Statement :: Ondas Inc. (ONDS)",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q3 2026 financial results and conference call (8:30 a.m. ET); guided revenue $140-$155M",
+      "expected_date": "2026-11-12",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.ondas.com/post/ondas-to-report-third-quarter-2026-financial-results-on-november-12-2026-at-8-30-am-et"
+    },
+    {
+      "event": "Targeted adjusted EBITDA profitability for operating platform (OAS + Ondas Sentinel)",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-report-q3-earnings-orders-145600138.html"
+    },
+    {
+      "event": "Expiry of six-month lock-up on 45 million DZYNE consideration shares (approx. six months after July 2026 close)",
+      "expected_date": "2027-01-06",
+      "date_confidence": "estimated",
+      "source_url": "https://www.ondas.com/post/ondas-announces-transformative-acquisition-of-dzyne-technologies-establishing-the-leading-autonomou"
+    },
+    {
+      "event": "INDO Earth deliveries begin against ~$140M potential-value combat engineering vehicles program (Q4 2026)",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-raises-2026-revenue-view-121800375.html"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "U.S. Army Lethal Unmanned Systems IDIQ ($982M ceiling)",
+      "stage": "implementation",
+      "industry": "loitering munitions / precision strike",
+      "bottleneck": "Production scaling and supply chain for loitering munitions",
+      "revenue_mechanism": "Task orders to Mistral (Ondas) under the IDIQ (>$240M aggregated orders)",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-raises-2026-revenue-view-121800375.html",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "Executive Order 14307 / DoW 'Unleashing U.S. Military Drone Dominance' memo prioritizing U.S.-made drones",
+      "stage": "implementation",
+      "industry": "drones and counter-UAS",
+      "bottleneck": "Domestic drone production and procurement speed",
+      "revenue_mechanism": "Expanded DoD procurement of U.S.-made autonomous systems",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://media.defense.gov/2025/Jul/10/2003752117/-1/-1/1/UNLEASHING-U.S.-MILITARY-DRONE-DOMINANCE.PDF",
+      "published_date": "2025-07-10"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Massive dilution and overhang: ~121.6M $28 warrants, pre-funded warrants, and DZYNE share issuance with lock-up expiry",
+      "severity": "high",
+      "source_url": "https://ir.ondas.com/press-releases/detail/272/ondas-holdings-inc-announces-closing-of-1-billion-offering",
+      "published_date": "2026-01-12"
+    },
+    {
+      "risk": "Integration and execution risk from multiple rapid acquisitions (DZYNE, Cyberhawk, others) and steep H2 revenue ramp",
+      "severity": "high",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-raises-2026-revenue-view-121800375.html",
+      "published_date": null
+    },
+    {
+      "risk": "Large operating losses and adjusted EBITDA burn ($50.6M in Q2 2026)",
+      "severity": "medium",
+      "source_url": "https://ir.ondas.com/all-sec-filings/content/0001193125-26-347973/onds-ex99_2.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Goodwill ($661M) and intangibles ($583M) at June 30, 2026 expose the balance sheet to impairment if acquired businesses underperform",
+      "severity": "medium",
+      "source_url": "https://ir.ondas.com/press-releases/detail/326/ondas-posts-record-q2-2026-revenue-of-83-8-million-on",
+      "published_date": null
+    },
+    {
+      "risk": "Competitive drone/counter-UAS market including AeroVironment, Kratos and Red Cat",
+      "severity": "medium",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/ondas-report-q3-earnings-orders-145600138.html",
+      "published_date": null
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "~$1B registered direct offering: 19.0M shares + 41.79M pre-funded warrants + 121.58M common warrants ($28.00 strike)",
+      "date": "2026-01-12",
+      "source_url": "https://ir.ondas.com/press-releases/detail/272/ondas-holdings-inc-announces-closing-of-1-billion-offering"
+    },
+    {
+      "description": "~85 million shares issued as DZYNE acquisition consideration (~13.8% of outstanding)",
+      "date": "2026-07-06",
+      "source_url": "https://www.ondas.com/post/ondas-announces-transformative-acquisition-of-dzyne-technologies-establishing-the-leading-autonomou"
+    }
+  ],
+  "going_concern_warning": null,
+  "notes": "Did not directly review going-concern language in the latest 10-Q; given ~$1.4B liquidity at June 30, 2026 a warning appears unlikely but is left null rather than asserted. Company renamed from Ondas Holdings to Ondas Inc. during 2026 per press releases. Q3 2026 results not yet reported as of research date. Cyberhawk acquisition share terms not verified and omitted from dilution list. Profitability target date is 'Q4 2026' per management; no specific day."
+}

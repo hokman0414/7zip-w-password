@@ -1,0 +1,902 @@
+{
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "policy-agent-C",
+  "events": [
+    {
+      "id": "nato-hague-5pct-commitment",
+      "country": "NATO (multilateral)",
+      "policy": "The Hague Summit Declaration: 5% of GDP defence investment commitment by 2035",
+      "stage": "enacted",
+      "event_date": "2025-06-25",
+      "expiration_date": null,
+      "industries": [
+        "defense",
+        "drones",
+        "counter_drone",
+        "shipbuilding",
+        "grid",
+        "utilities"
+      ],
+      "bottlenecks": [
+        "munitions production capacity",
+        "defence industrial base surge capacity",
+        "critical infrastructure protection"
+      ],
+      "direction": "tailwind",
+      "summary": "Allies committed to invest 5% of GDP annually by 2035: at least 3.5% on core defence requirements and NATO Capability Targets, plus up to 1.5% on critical infrastructure protection, network defence, civil resilience, innovation and the defence industrial base. Allies must submit annual plans showing an incremental path, with a review of trajectory in 2029.",
+      "source_url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration",
+      "source_title": "The Hague Summit Declaration | NATO Official text"
+    },
+    {
+      "id": "eu-safe-regulation-adopted",
+      "country": "European Union",
+      "policy": "Security Action for Europe (SAFE) - Council Regulation (EU) 2025/1106, EUR 150bn defence loan instrument",
+      "stage": "enacted",
+      "event_date": "2025-05-27",
+      "expiration_date": null,
+      "industries": [
+        "defense",
+        "drones",
+        "counter_drone",
+        "shipbuilding",
+        "sonar_subsea"
+      ],
+      "bottlenecks": [
+        "ammunition and missile capacity",
+        "air and missile defence",
+        "non-EU component content limit (35%)"
+      ],
+      "direction": "tailwind",
+      "summary": "Council adopted SAFE, providing up to EUR 150bn in long-maturity loans for common defence procurement (in principle at least two participating countries). Eligible categories include ammunition/missiles, air and missile defence, maritime surface and underwater capabilities, drones and anti-drone systems. Components originating outside EU/EEA-EFTA/Ukraine may not exceed 35% of end-product component cost. Entered into force 29 May 2025; first pillar of ReArm Europe/Readiness 2030.",
+      "source_url": "https://www.consilium.europa.eu/en/press/press-releases/2025/05/27/safe-council-adopts-150-billion-boost-for-joint-procurement-on-european-security-and-defence/",
+      "source_title": "SAFE: Council adopts EUR150 billion boost for joint procurement on European security and defence - Consilium"
+    },
+    {
+      "id": "us-obbba-prohibited-foreign-entity-rules",
+      "country": "United States",
+      "policy": "One Big Beautiful Bill Act (P.L. 119-21) prohibited foreign entity (FEOC) restrictions on 45X, 45Y and 48E credits",
+      "stage": "enacted",
+      "event_date": "2025-07-04",
+      "expiration_date": null,
+      "industries": [
+        "energy_storage",
+        "batteries",
+        "critical_minerals",
+        "utilities",
+        "electronic_components"
+      ],
+      "bottlenecks": [
+        "Chinese-origin battery cells and components",
+        "material assistance cost ratio compliance",
+        "supply-chain tracing"
+      ],
+      "direction": "mixed",
+      "summary": "OBBBA added prohibited foreign entity (PFE) rules: 48E qualified facilities and energy storage technology beginning construction after Dec 31, 2025 are ineligible if they include material assistance from a PFE; 45X eligible components sold in taxable years after enactment are similarly restricted. PFEs include specified foreign entities (e.g., entities controlled by China, Russia, Iran, North Korea; listed Chinese battery companies) and foreign-influenced entities. Tailwind for non-PFE domestic suppliers, headwind for storage developers reliant on Chinese supply.",
+      "source_url": "https://www.irs.gov/pub/irs-drop/n-26-15.pdf",
+      "source_title": "IRS Notice 2026-15: Guidance to Apply Interim Safe Harbors for Purposes of Determining a Taxpayer's Material Assistance from a Prohibited Foreign Entity"
+    },
+    {
+      "id": "us-irs-notice-2026-15-pfe-safe-harbors",
+      "country": "United States",
+      "policy": "Treasury/IRS Notice 2026-15 interim safe harbors for PFE material assistance (45X, 45Y, 48E)",
+      "stage": "implementation",
+      "event_date": "2026-02-12",
+      "expiration_date": null,
+      "industries": [
+        "energy_storage",
+        "batteries",
+        "critical_minerals",
+        "utilities"
+      ],
+      "bottlenecks": [
+        "material assistance cost ratio (MACR) calculation",
+        "supplier certifications",
+        "forthcoming safe harbor tables (due by Dec 31, 2026)"
+      ],
+      "direction": "mixed",
+      "summary": "Treasury and IRS issued interim guidance on determining material assistance from a prohibited foreign entity, allowing taxpayers to rely on domestic-content tables (identification and cost-percentage safe harbors) and a certification safe harbor until forthcoming safe harbor tables are published. Applies to 45Y/48E facilities and storage beginning construction after Dec 31, 2025 and to 45X components sold in taxable years beginning after July 4, 2025.",
+      "source_url": "https://www.irs.gov/newsroom/treasury-irs-provide-guidance-for-certain-energy-tax-credits-regarding-material-assistance-provided-by-prohibited-foreign-entities-under-the-one-big-beautiful-bill",
+      "source_title": "Treasury, IRS provide guidance for certain energy tax credits regarding material assistance provided by prohibited foreign entities (IR-2026-23)"
+    },
+    {
+      "id": "us-eo-14307-drone-dominance",
+      "country": "United States",
+      "policy": "Executive Order 14307 'Unleashing American Drone Dominance'",
+      "stage": "enacted",
+      "event_date": "2025-06-06",
+      "expiration_date": null,
+      "industries": [
+        "drones",
+        "defense"
+      ],
+      "bottlenecks": [
+        "BVLOS regulatory approval",
+        "domestic drone industrial base",
+        "foreign-sourced components"
+      ],
+      "direction": "tailwind",
+      "summary": "Directs the FAA to propose a rule enabling routine beyond-visual-line-of-sight (BVLOS) operations within 30 days and finalize within 240 days, establishes an eVTOL integration pilot program, and orders prioritisation of U.S.-manufactured UAS, export promotion, and strengthening of the domestic drone industrial base against undue foreign influence.",
+      "source_url": "https://www.federalregister.gov/documents/2025/06/11/2025-10814/unleashing-american-drone-dominance",
+      "source_title": "Federal Register :: Unleashing American Drone Dominance (EO 14307)"
+    },
+    {
+      "id": "us-fcc-covered-list-foreign-uas",
+      "country": "United States",
+      "policy": "FCC adds foreign-produced UAS and UAS critical components to the Covered List",
+      "stage": "enforcement",
+      "event_date": "2025-12-22",
+      "expiration_date": null,
+      "industries": [
+        "drones",
+        "counter_drone",
+        "batteries",
+        "electronic_components"
+      ],
+      "bottlenecks": [
+        "flight controllers, data links, navigation, batteries and motors produced abroad",
+        "FCC equipment authorization for new models"
+      ],
+      "direction": "mixed",
+      "summary": "Following a National Security Determination, the FCC Public Safety and Homeland Security Bureau added all UAS and UAS critical components produced in foreign countries (plus FY2025 NDAA Sec. 1709 equipment) to the Covered List, blocking new equipment authorizations for new foreign models unless DoW or DHS grants a specific exemption. Previously authorized models and existing drones are unaffected. Tailwind for U.S.-made drone/component suppliers; headwind for users reliant on imported platforms.",
+      "source_url": "https://docs.fcc.gov/public/attachments/DA-25-1086A1.pdf",
+      "source_title": "DA 25-1086: PSHSB Announces Addition of UAS and UAS Critical Components Produced Abroad to FCC Covered List"
+    },
+    {
+      "id": "us-232-steel-aluminum-50pct",
+      "country": "United States",
+      "policy": "Section 232 steel and aluminum tariffs raised from 25% to 50%",
+      "stage": "enacted",
+      "event_date": "2025-06-03",
+      "expiration_date": null,
+      "industries": [
+        "grid",
+        "transmission",
+        "shipbuilding",
+        "industrial_power_transmission",
+        "defense"
+      ],
+      "bottlenecks": [
+        "steel and aluminum input costs",
+        "derivative product content reporting"
+      ],
+      "direction": "mixed",
+      "summary": "Proclamation raised Section 232 tariffs on steel, aluminum and derivative articles from 25% to 50% effective June 4, 2025 (UK kept at 25%), applying to the steel/aluminum content of imports with strict content reporting. Supports domestic metal producers but raises input costs for transformer, tower, switchgear and ship fabricators that import metal-intensive goods.",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2025/06/adjusting-imports-of-aluminum-and-steel-into-the-united-states/",
+      "source_title": "Adjusting Imports of Aluminum and Steel into the United States - The White House"
+    },
+    {
+      "id": "us-232-semiconductors-advanced-chips",
+      "country": "United States",
+      "policy": "Section 232 proclamation on semiconductors, SME and derivatives: 25% tariff on certain advanced computing chips",
+      "stage": "enacted",
+      "event_date": "2026-01-14",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "ai_infrastructure",
+        "data_center_power"
+      ],
+      "bottlenecks": [
+        "advanced logic IC imports",
+        "domestic advanced packaging and fab capacity"
+      ],
+      "direction": "mixed",
+      "summary": "Following a Section 232 investigation, the President imposed a 25% duty (effective Jan 15, 2026) on a narrow set of advanced computing chips and derivatives meeting specific TPP/DRAM-bandwidth parameters, with exemptions for U.S. data centers, R&D, startups, repairs, consumer/industrial and public-sector uses. Directed Commerce/USTR to negotiate agreements and signalled possible broader semiconductor tariffs with an offset program later.",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-semiconductors-semiconductor-manufacturing-equipment-and-their-derivative-products-into-the-united-states/",
+      "source_title": "Adjusting Imports of Semiconductors, Semiconductor Manufacturing Equipment, and Their Derivative Products into the United States - The White House"
+    },
+    {
+      "id": "us-232-processed-critical-minerals",
+      "country": "United States",
+      "policy": "Section 232 proclamation on processed critical minerals and derivative products (negotiations, price floors)",
+      "stage": "enacted",
+      "event_date": "2026-01-14",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "batteries",
+        "defense",
+        "semiconductors"
+      ],
+      "bottlenecks": [
+        "processed critical mineral import reliance",
+        "price support for non-Chinese supply"
+      ],
+      "direction": "tailwind",
+      "summary": "President concurred with Commerce's Section 232 finding that imports of processed critical minerals and derivative products threaten national security and directed Commerce and USTR to negotiate agreements, considering price floors and other trade-restricting measures. No immediate tariff; further action (tariffs or minimum import prices) possible if agreements are not reached within 180 days.",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2026/01/adjusting-imports-of-processed-critical-minerals-and-their-derivative-products-into-the-united-states/",
+      "source_title": "Adjusting Imports of Processed Critical Minerals and Their Derivative Products into the United States - The White House"
+    },
+    {
+      "id": "us-scotus-ieepa-tariffs-struck",
+      "country": "United States",
+      "policy": "Supreme Court ruling in Learning Resources v. Trump: IEEPA does not authorize tariffs",
+      "stage": "reversed",
+      "event_date": "2026-02-20",
+      "expiration_date": null,
+      "industries": [
+        "electronic_components",
+        "batteries",
+        "energy_storage",
+        "grid",
+        "drones"
+      ],
+      "bottlenecks": [
+        "imported component costs",
+        "tariff refund uncertainty",
+        "shift to Section 232/301 authorities"
+      ],
+      "direction": "mixed",
+      "summary": "The Supreme Court held 6-3 that IEEPA does not authorize the President to impose tariffs, invalidating the drug-trafficking tariffs on Canada, Mexico and China and the 'reciprocal' tariffs. The ruling did not address Section 232 or 301 tariffs or refunds of IEEPA duties already collected. Reduces broad import costs but increases reliance on sector-specific 232/301 actions.",
+      "source_url": "https://www.congress.gov/crs-product/LSB11398",
+      "source_title": "Supreme Court Rules Against Tariffs Imposed Under IEEPA | Congress.gov CRS"
+    },
+    {
+      "id": "us-bis-sme-hbm-controls-dec2024",
+      "country": "United States",
+      "policy": "BIS export controls on semiconductor manufacturing equipment, HBM and 140 Entity List additions",
+      "stage": "enacted",
+      "event_date": "2024-12-02",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "ai_infrastructure"
+      ],
+      "bottlenecks": [
+        "SME exports to China",
+        "high-bandwidth memory",
+        "foreign direct product rule compliance"
+      ],
+      "direction": "headwind",
+      "summary": "BIS imposed new controls on 24 types of semiconductor manufacturing equipment and 3 software tools, new controls on high-bandwidth memory, two new foreign direct product rules, and added 140 entities (PRC fabs, tool makers, investment firms) to the Entity List. Effective Dec 2, 2024 with certain compliance dates Dec 31, 2024. Headwind for equipment/component exporters with China exposure.",
+      "source_url": "https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military",
+      "source_title": "Commerce Strengthens Export Controls to Restrict China's Capability to Produce Advanced Semiconductors for Military Applications - BIS"
+    },
+    {
+      "id": "us-bis-ai-diffusion-rule-rescinded",
+      "country": "United States",
+      "policy": "Rescission of the AI Diffusion Rule (Framework for Artificial Intelligence Diffusion)",
+      "stage": "reversed",
+      "event_date": "2025-05-13",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "ai_infrastructure",
+        "data_center_power"
+      ],
+      "bottlenecks": [
+        "advanced computing IC export licensing",
+        "diversion via Malaysia/Thailand"
+      ],
+      "direction": "mixed",
+      "summary": "BIS announced rescission of the Biden-era AI Diffusion Rule (issued January 2025, compliance due May 15, 2025) and instructed enforcement officials not to enforce it, while issuing guidance on Huawei Ascend chips, diversion red flags, and use of U.S. chips to train Chinese AI models. Pre-existing advanced computing controls remain; a replacement rule was promised.",
+      "source_url": "https://www.bis.gov/press-release/department-commerce-announces-rescission-biden-era-artificial-intelligence-diffusion-rule-strengthens",
+      "source_title": "Department of Commerce Announces Rescission of Biden-Era Artificial Intelligence Diffusion Rule, Strengthens Chip-Related Export Controls - BIS"
+    },
+    {
+      "id": "us-bis-affiliates-rule",
+      "country": "United States",
+      "policy": "BIS Affiliates Rule: Entity List/MEU restrictions extended to entities 50%+ owned by listed parties",
+      "stage": "enacted",
+      "event_date": "2025-09-29",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "batteries",
+        "critical_minerals"
+      ],
+      "bottlenecks": [
+        "ownership-chain screening of counterparties",
+        "export licensing for unlisted affiliates"
+      ],
+      "direction": "headwind",
+      "summary": "Interim final rule (90 FR 47201) automatically subjected any entity at least 50% owned by one or more Entity List or Military End-User List parties (and certain SDNs) to the same restrictions, effective Sept 29, 2025, with a temporary general license through Nov 28, 2025.",
+      "source_url": "https://www.federalregister.gov/documents/2025/09/30/2025-19001/expansion-of-end-user-controls-to-cover-affiliates-of-certain-listed-entities",
+      "source_title": "Federal Register :: Expansion of End-User Controls To Cover Affiliates of Certain Listed Entities"
+    },
+    {
+      "id": "us-bis-affiliates-rule-suspended",
+      "country": "United States",
+      "policy": "One-year suspension of the BIS Affiliates Rule under U.S.-China trade arrangement",
+      "stage": "reversed",
+      "event_date": "2025-11-10",
+      "expiration_date": "2026-11-09",
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "batteries",
+        "critical_minerals"
+      ],
+      "bottlenecks": [
+        "ownership-chain screening",
+        "compliance uncertainty"
+      ],
+      "direction": "tailwind",
+      "summary": "Following the Kuala Lumpur U.S.-China arrangement, BIS issued a final rule suspending the Affiliates Rule for one year effective Nov 10, 2025, through Nov 9, 2026, in exchange for China suspending its October 2025 rare-earth export control measures.",
+      "source_url": "https://www.jonesday.com/en/insights/2025/11/bis-suspends-affiliates-rule_china-pauses-rare-earth-export-controls",
+      "source_title": "BIS Suspends Affiliates Rule, China Pauses Rare Earth Export Controls | Jones Day"
+    },
+    {
+      "id": "us-bis-affiliates-suspension-extended",
+      "country": "United States",
+      "policy": "Extension of Affiliates Rule suspension through January 10, 2027",
+      "stage": "reversed",
+      "event_date": "2026-11-05",
+      "expiration_date": "2027-01-10",
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "batteries",
+        "critical_minerals"
+      ],
+      "bottlenecks": [
+        "ownership-chain screening",
+        "short-dated suspension creates compliance whiplash"
+      ],
+      "direction": "tailwind",
+      "summary": "BIS issued a final rule, effective Nov 9, 2026, extending the Affiliates Rule suspension (previously ending Nov 9, 2026) through Jan 10, 2027, aligned with the two-month extension of the U.S.-China trade arrangement.",
+      "source_url": "https://kpmg.com/us/en/taxnewsflash/news/2026/11/bis-affiliates-rule-suspension.html",
+      "source_title": "U.S. BIS extends suspension of affiliates end-user controls through January 10, 2027 | KPMG"
+    },
+    {
+      "id": "cn-mofcom-46-ga-ge-sb-ban-us",
+      "country": "China",
+      "policy": "MOFCOM Announcement No. 46 (2024): ban on gallium, germanium, antimony and superhard material exports to the U.S.",
+      "stage": "enacted",
+      "event_date": "2024-12-03",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "semiconductors",
+        "defense",
+        "batteries"
+      ],
+      "bottlenecks": [
+        "gallium",
+        "germanium",
+        "antimony",
+        "superhard materials",
+        "graphite end-use review"
+      ],
+      "direction": "headwind",
+      "summary": "Effective immediately, China prohibited dual-use exports to U.S. military users/uses, in principle denied licenses for gallium, germanium, antimony and superhard materials exports to the U.S., and imposed stricter end-user/end-use review on graphite exports to the U.S., with liability for third-country transshipment.",
+      "source_url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2024/art/2024/art_1f22e2926a1d49b88d6b329549afcbdc.html",
+      "source_title": "商务部公告2024年第46号 关于加强相关两用物项对美国出口管制的公告"
+    },
+    {
+      "id": "cn-mofcom-46-art2-suspended",
+      "country": "China",
+      "policy": "Suspension of Article 2 of MOFCOM Announcement No. 46 (Ga/Ge/Sb/superhard ban to U.S.)",
+      "stage": "reversed",
+      "event_date": "2025-11-09",
+      "expiration_date": "2026-11-27",
+      "industries": [
+        "critical_minerals",
+        "semiconductors",
+        "defense"
+      ],
+      "bottlenecks": [
+        "gallium",
+        "germanium",
+        "antimony"
+      ],
+      "direction": "tailwind",
+      "summary": "MOFCOM suspended Article 2 of Announcement No. 46 (the in-principle denial of gallium, germanium, antimony and superhard material exports to the U.S.) from Nov 9, 2025 until Nov 27, 2026, following the U.S.-China trade deal.",
+      "source_url": "https://www.pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html",
+      "source_title": "China Suspends Export Controls on Certain Critical Minerals and Related Items | Pillsbury"
+    },
+    {
+      "id": "cn-oct2025-rare-earth-battery-controls",
+      "country": "China",
+      "policy": "MOFCOM/GAC Announcements 55-58, 61, 62 (2025): rare earth, extraterritorial 0.1% rule, lithium battery and graphite anode export controls",
+      "stage": "enacted",
+      "event_date": "2025-10-09",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "batteries",
+        "energy_storage",
+        "defense",
+        "semiconductors"
+      ],
+      "bottlenecks": [
+        "medium/heavy rare earths (holmium, erbium, thulium, europium, ytterbium)",
+        "rare earth magnets",
+        "lithium battery and cathode equipment",
+        "synthetic graphite anode",
+        "superhard materials"
+      ],
+      "direction": "headwind",
+      "summary": "China announced export controls on rare earth production equipment, five medium/heavy rare earths and magnets containing them, rare-earth technologies, overseas-made items with Chinese rare-earth content (first extraterritorial rule, Announcement 61), lithium battery/cathode/graphite anode items and superhard materials.",
+      "source_url": "https://www.pillsburylaw.com/en/news-and-insights/china-suspends-export-controls-certain-critical-minerals-related-items.html",
+      "source_title": "China Suspends Export Controls on Certain Critical Minerals and Related Items | Pillsbury"
+    },
+    {
+      "id": "cn-oct2025-controls-suspended",
+      "country": "China",
+      "policy": "MOFCOM Announcement No. 70 (2025): suspension of Oct 9 export control announcements",
+      "stage": "reversed",
+      "event_date": "2025-11-07",
+      "expiration_date": "2026-11-10",
+      "industries": [
+        "critical_minerals",
+        "batteries",
+        "energy_storage",
+        "defense"
+      ],
+      "bottlenecks": [
+        "rare earth magnets",
+        "graphite anode",
+        "lithium battery equipment"
+      ],
+      "direction": "tailwind",
+      "summary": "MOFCOM and GAC suspended Announcements 55, 56, 57, 58, 61 and 62 of 2025 from Nov 7, 2025 until Nov 10, 2026. Although the U.S.-China arrangement was announced as extended to Jan 10, 2027, as of late October 2026 no amended Chinese notice extending Announcement 70 had been reported, so the legal suspension end date remains Nov 10, 2026.",
+      "source_url": "https://exportcontrol.mofcom.gov.cn/article/hgfw/lywxcx/gzqd/202511/1198.html",
+      "source_title": "商务部公告2025年第70号 (中国出口管制信息网)"
+    },
+    {
+      "id": "us-301-maritime-ship-fees",
+      "country": "United States",
+      "policy": "USTR Section 301 action on China's maritime, logistics and shipbuilding sectors: port fees on Chinese-operated/-built vessels",
+      "stage": "enacted",
+      "event_date": "2025-04-17",
+      "expiration_date": null,
+      "industries": [
+        "shipbuilding",
+        "marine"
+      ],
+      "bottlenecks": [
+        "U.S. shipyard capacity",
+        "ship-to-shore cranes and cargo handling equipment",
+        "U.S.-built vessel availability"
+      ],
+      "direction": "mixed",
+      "summary": "USTR imposed phased service fees on vessels of Chinese operators/owners and on Chinese-built vessels (fees $0 for first 180 days, then rising), fees on foreign-built vehicle carriers, and future LNG-carrier restrictions, plus proposed tariffs on ship-to-shore cranes; fee remission available for ordering U.S.-built vessels. Tailwind for U.S. shipbuilding, headwind for shipping costs.",
+      "source_url": "https://www.federalregister.gov/documents/2025/04/23/2025-06927/notice-of-action-and-proposed-action-in-section-301-investigation-of-chinas-targeting-the-maritime",
+      "source_title": "Federal Register :: Notice of Action and Proposed Action in Section 301 Investigation of China's Targeting the Maritime, Logistics, and Shipbuilding Sectors for Dominance"
+    },
+    {
+      "id": "us-301-maritime-suspended",
+      "country": "United States",
+      "policy": "One-year suspension of Section 301 maritime/shipbuilding actions",
+      "stage": "reversed",
+      "event_date": "2025-11-10",
+      "expiration_date": "2026-11-09",
+      "industries": [
+        "shipbuilding",
+        "marine"
+      ],
+      "bottlenecks": [
+        "port fee incentive for U.S.-built ships removed temporarily"
+      ],
+      "direction": "mixed",
+      "summary": "Following the Nov 1, 2025 Trump-Xi deal, USTR suspended all responsive actions (vessel service fees and ship-to-shore crane/cargo equipment duties) from Nov 10, 2025 through Nov 9, 2026; no fees accrue during suspension. USTR's docket subsequently lists a further two-month suspension notice dated Nov 6, 2026.",
+      "source_url": "https://www.federalregister.gov/documents/2025/11/13/2025-19873/notice-of-modification-of-section-301-action-chinas-targeting-of-the-maritime-logistics-and",
+      "source_title": "Federal Register :: Notice of Modification of Section 301 Action: China's Targeting of the Maritime, Logistics, and Shipbuilding Sectors for Dominance"
+    },
+    {
+      "id": "us-301-china-legacy-semis",
+      "country": "United States",
+      "policy": "USTR Section 301 action on China's semiconductor targeting: 0% tariff rising June 23, 2027",
+      "stage": "enacted",
+      "event_date": "2025-12-23",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "grid",
+        "defense"
+      ],
+      "bottlenecks": [
+        "Chinese legacy chips, diodes, transistors, thyristors in power/grid equipment"
+      ],
+      "direction": "mixed",
+      "summary": "USTR found China's semiconductor targeting actionable and imposed an additional tariff on listed Chinese semiconductor HTS lines (polysilicon, wafers, diodes, transistors, thyristors, ICs) at an initial 0%, increasing on June 23, 2027 to a rate to be announced at least 30 days prior, on top of the existing 50% Section 301 tariff.",
+      "source_url": "https://www.federalregister.gov/documents/2025/12/29/2025-23912/notice-of-action-chinas-acts-policies-and-practices-related-to-targeting-of-the-semiconductor",
+      "source_title": "Federal Register :: Notice of Action: China's Acts, Policies, and Practices Related to Targeting of the Semiconductor Industry for Dominance"
+    },
+    {
+      "id": "us-ndaa-fy2026",
+      "country": "United States",
+      "policy": "National Defense Authorization Act for FY2026 (P.L. 119-60)",
+      "stage": "enacted",
+      "event_date": "2025-12-18",
+      "expiration_date": null,
+      "industries": [
+        "defense",
+        "shipbuilding",
+        "drones",
+        "counter_drone",
+        "sonar_subsea"
+      ],
+      "bottlenecks": [
+        "maritime industrial base",
+        "shipyard automation",
+        "counter-small-UAS capability"
+      ],
+      "direction": "tailwind",
+      "summary": "S.1071 became law Dec 18, 2025. Shipbuilding provisions include a Navy maritime industrial base investment strategy (Sec. 1019), an exemption of unmanned surface/underwater vessels from certain technical authority requirements (Sec. 1020), an automated shipbuilding pilot program (Sec. 1021) and single-award IDIQ authority for destroyer maintenance (Sec. 1017).",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/1071/text",
+      "source_title": "Text - S.1071 - National Defense Authorization Act for Fiscal Year 2026 | Congress.gov"
+    },
+    {
+      "id": "us-eo-14318-data-center-permitting",
+      "country": "United States",
+      "policy": "Executive Order 14318 'Accelerating Federal Permitting of Data Center Infrastructure'",
+      "stage": "enacted",
+      "event_date": "2025-07-23",
+      "expiration_date": null,
+      "industries": [
+        "data_center_power",
+        "ai_infrastructure",
+        "transmission",
+        "grid",
+        "semiconductors"
+      ],
+      "bottlenecks": [
+        "NEPA/permitting timelines",
+        "transformers, switchgear and substations",
+        "dispatchable generation for >100 MW loads"
+      ],
+      "direction": "tailwind",
+      "summary": "Defines qualifying data center projects (>100 MW new load or >$500M capex) and covered components including transmission lines, substations, transformers, switchgear, gas turbines and semiconductors; directs NEPA categorical exclusions, FAST-41 coverage, EPA permitting streamlining, federal land use and a Commerce financial-support initiative (loans, grants, offtake).",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2025/07/accelerating-federal-permitting-of-data-center-infrastructure/",
+      "source_title": "Accelerating Federal Permitting of Data Center Infrastructure - The White House"
+    },
+    {
+      "id": "us-doe-large-load-interconnection-anopr",
+      "country": "United States",
+      "policy": "DOE Section 403 direction to FERC: large load (>20 MW) interconnection ANOPR (Docket RM26-4)",
+      "stage": "proposal",
+      "event_date": "2025-10-23",
+      "expiration_date": null,
+      "industries": [
+        "data_center_power",
+        "transmission",
+        "grid",
+        "utilities"
+      ],
+      "bottlenecks": [
+        "large load interconnection queues",
+        "network upgrade cost allocation",
+        "co-location rules"
+      ],
+      "direction": "tailwind",
+      "summary": "Energy Secretary Wright directed FERC to initiate rulemaking asserting jurisdiction over interconnection of large loads (generally >20 MW) to the interstate transmission system, proposing expedited studies for curtailable loads, standardized deposits and full upgrade cost responsibility, and requesting final action by April 30, 2026. FERC instead issued RTO-specific show-cause orders in June 2026 and RM26-4 remains open without a NOPR.",
+      "source_url": "https://ferc.gov/rm26-4",
+      "source_title": "Interconnection of Large Loads to the Interstate Transmission System (Docket No. RM26-4-000) | FERC"
+    },
+    {
+      "id": "us-ferc-pjm-colocation-order",
+      "country": "United States",
+      "policy": "FERC order on PJM co-located large loads (EL25-49): new transmission services and BTMG reform",
+      "stage": "implementation",
+      "event_date": "2025-12-18",
+      "expiration_date": null,
+      "industries": [
+        "data_center_power",
+        "transmission",
+        "grid",
+        "utilities"
+      ],
+      "bottlenecks": [
+        "PJM interconnection delays",
+        "co-location tariff clarity",
+        "behind-the-meter generation rules"
+      ],
+      "direction": "tailwind",
+      "summary": "FERC found PJM's tariff unjust and unreasonable for co-located load and directed PJM to create clear co-location procedures and three transmission service options (NITS, new Firm Contract Demand, new Non-Firm Contract Demand), clarify provisional and below-nameplate interconnection, and revise behind-the-meter generation rules; first compliance filings due Jan 20, 2026.",
+      "source_url": "https://www.ferc.gov/sites/default/files/2025-12/E-1%20EL25-49-000.pdf",
+      "source_title": "193 FERC 61,217: Order on Show Cause Proceeding - Large Loads Co-Located at Generating Facilities (PJM)"
+    },
+    {
+      "id": "eu-grids-package-proposal",
+      "country": "European Union",
+      "policy": "European Grids Package (COM(2025) 1005) incl. TEN-E revision and permitting acceleration",
+      "stage": "proposal",
+      "event_date": "2025-12-10",
+      "expiration_date": null,
+      "industries": [
+        "grid",
+        "transmission",
+        "energy_storage",
+        "utilities"
+      ],
+      "bottlenecks": [
+        "cross-border interconnection",
+        "grid permitting",
+        "cost-sharing for cross-border projects"
+      ],
+      "direction": "tailwind",
+      "summary": "Commission proposed revising the TEN-E Regulation and amending the Renewable Energy Directive, Electricity Market Design and Gas Directive to speed permitting for grids, renewables and storage, improve EU-level planning and cost-sharing, and enhance security of cross-border infrastructure; estimates EUR 1.2 trillion of grid investment needed by 2040. Proposals go to Parliament and Council.",
+      "source_url": "https://energy.ec.europa.eu/topics/infrastructure/european-grids_en",
+      "source_title": "European grids - European Commission"
+    },
+    {
+      "id": "eu-crma-strategic-projects",
+      "country": "European Union",
+      "policy": "Critical Raw Materials Act: first 47 Strategic Projects (Commission Decision (EU) 2025/840)",
+      "stage": "implementation",
+      "event_date": "2025-03-25",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "batteries",
+        "defense"
+      ],
+      "bottlenecks": [
+        "lithium, nickel, cobalt, manganese, graphite processing",
+        "rare earths for magnets",
+        "tungsten for defence"
+      ],
+      "direction": "tailwind",
+      "summary": "Commission selected 47 Strategic Projects in 13 member states (25 extraction, 24 processing, 10 recycling, 2 substitution) covering 14 strategic raw materials, granting accelerated permitting (27 months extraction, 15 months others) and financing support, toward CRMA 2030 benchmarks of 10% extraction, 40% processing and 25% recycling.",
+      "source_url": "https://single-market-economy.ec.europa.eu/sectors/raw-materials/areas-specific-interest/critical-raw-materials/strategic-projects-under-crma/selected-projects_en",
+      "source_title": "Selected strategic projects under CRMA - European Commission"
+    },
+    {
+      "id": "eu-battery-due-diligence-postponed",
+      "country": "European Union",
+      "policy": "Regulation (EU) 2025/1561 'stop-the-clock' postponing Battery Regulation due diligence obligations",
+      "stage": "reversed",
+      "event_date": "2025-07-18",
+      "expiration_date": "2027-08-18",
+      "industries": [
+        "batteries",
+        "energy_storage",
+        "critical_minerals"
+      ],
+      "bottlenecks": [
+        "cobalt, natural graphite, lithium, nickel sourcing due diligence",
+        "notified body availability"
+      ],
+      "direction": "mixed",
+      "summary": "As part of the Omnibus IV simplification package, the EU postponed the start of battery supply-chain due diligence obligations from Aug 18, 2025 to Aug 18, 2027 and extended the Commission's guideline deadline to July 26, 2026. Reduces near-term compliance burden but delays sourcing-transparency pressure on high-risk suppliers.",
+      "source_url": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng",
+      "source_title": "Regulation (EU) 2025/1561 amending Regulation (EU) 2023/1542 as regards battery due diligence - EUR-Lex"
+    },
+    {
+      "id": "jp-fy2026-defense-budget-request",
+      "country": "Japan",
+      "policy": "Ministry of Defense FY2026 budget request incl. SHIELD unmanned littoral defense",
+      "stage": "proposal",
+      "event_date": "2025-08-29",
+      "expiration_date": null,
+      "industries": [
+        "defense",
+        "drones",
+        "sonar_subsea",
+        "shipbuilding"
+      ],
+      "bottlenecks": [
+        "UAV/USV/UUV procurement scale",
+        "ammunition stocks",
+        "defense production base"
+      ],
+      "direction": "tailwind",
+      "summary": "MOD submitted its FY2026 budget request in the fourth year of the Defense Buildup Program, prioritizing the SHIELD (Synchronized, Hybrid, Integrated and Enhanced Littoral Defense) architecture of inexpensive, large-quantity UAVs, USVs and UUVs with approx. JPY 128.7 billion requested, alongside stand-off, integrated air and missile defense and defense production base reinforcement.",
+      "source_url": "https://www.mod.go.jp/en/d_act/d_budget/pdf/fy2026_20251210a.pdf",
+      "source_title": "Progress and Budget in Fundamental Reinforcement of Defense Capabilities (FY2026 Budget Request) - Japan MOD"
+    },
+    {
+      "id": "jp-rapidus-ipa-support-selection",
+      "country": "Japan",
+      "policy": "Act on Facilitation of Information Processing (amended 2025): METI selects Rapidus for next-generation semiconductor financial support",
+      "stage": "implementation",
+      "event_date": "2025-11-21",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "ai_infrastructure"
+      ],
+      "bottlenecks": [
+        "leading-edge logic manufacturing capacity in Japan"
+      ],
+      "direction": "tailwind",
+      "summary": "Under the 2025 amendment to the Act on Facilitation of Information Processing (enabling government equity and debt guarantees via IPA), METI selected Rapidus Corporation as the eligible next-generation semiconductor manufacturer and planned a JPY 100 billion investment through IPA from the FY2025 budget; IPA executed the JPY 100 billion investment on Feb 27, 2026.",
+      "source_url": "https://www.meti.go.jp/english/speeches/press_conferences/2025/1121001.html",
+      "source_title": "Press Conference by Minister Akazawa (Excerpt), November 21, 2025 - METI"
+    },
+    {
+      "id": "kr-us-masga-shipbuilding-investment",
+      "country": "South Korea",
+      "policy": "U.S.-ROK Joint Fact Sheet / Strategic Investment MOU: USD 150bn shipbuilding investment (MASGA) and tariff terms",
+      "stage": "enacted",
+      "event_date": "2025-11-13",
+      "expiration_date": null,
+      "industries": [
+        "shipbuilding",
+        "marine",
+        "defense",
+        "semiconductors",
+        "critical_minerals"
+      ],
+      "bottlenecks": [
+        "U.S. shipyard capacity and workforce",
+        "MRO capacity",
+        "shipbuilding supply chain"
+      ],
+      "direction": "tailwind",
+      "summary": "The U.S. and South Korea confirmed USD 150bn of Korean investment in the U.S. shipbuilding sector plus USD 200bn of additional strategic investment (shipbuilding, energy, semiconductors, critical minerals, AI), a shipbuilding working group on MRO, workforce, shipyard modernization and supply chain resilience, potential construction of U.S. vessels in Korea, a 15% reciprocal tariff ceiling and favorable Section 232 semiconductor terms.",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2025/11/joint-fact-sheet-on-president-donald-j-trumps-meeting-with-president-lee-jae-myung/",
+      "source_title": "Joint Fact Sheet on President Donald J. Trump's Meeting with President Lee Jae Myung - The White House"
+    },
+    {
+      "id": "kr-semiconductor-special-act",
+      "country": "South Korea",
+      "policy": "Special Act on Strengthening Competitiveness and Supporting the Semiconductor Industry",
+      "stage": "enacted",
+      "event_date": "2026-01-29",
+      "expiration_date": null,
+      "industries": [
+        "semiconductors",
+        "electronic_components",
+        "utilities",
+        "ai_infrastructure"
+      ],
+      "bottlenecks": [
+        "power and water infrastructure for fab clusters",
+        "materials/parts/equipment ecosystem",
+        "permitting and feasibility studies"
+      ],
+      "direction": "tailwind",
+      "summary": "National Assembly passed (199-0, 7 abstentions) the Semiconductor Special Act establishing a presidential competitiveness committee, a 10-year special account, five-year master plans, designated semiconductor clusters with government-funded power, water and road infrastructure, and permitting/feasibility study exemptions. The 52-hour workweek exemption was dropped. Enforcement decree reportedly took effect Aug 11, 2026.",
+      "source_url": "https://www.yna.co.kr/view/AKR20260129165451003",
+      "source_title": "반도체특별법 국회 본회의 통과…\"K-반도체 초격차 지원\"(종합) | 연합뉴스"
+    },
+    {
+      "id": "tw-special-defense-budget-proposal",
+      "country": "Taiwan",
+      "policy": "Executive Yuan draft special act: NT$1.25 trillion resilience and asymmetric capabilities procurement (2026-2033)",
+      "stage": "proposal",
+      "event_date": "2025-11-27",
+      "expiration_date": "2033-12-31",
+      "industries": [
+        "defense",
+        "drones",
+        "counter_drone",
+        "ai_infrastructure"
+      ],
+      "bottlenecks": [
+        "air and missile defense ('T-Dome')",
+        "uncrewed vehicles and anti-drone systems",
+        "'non-red' defense supply chain"
+      ],
+      "direction": "tailwind",
+      "summary": "Cabinet approved a NT$1.25 trillion special defense budget bill for 2026-2033 covering precision artillery, long-range strike missiles, uncrewed vehicles and anti-drone systems, air/anti-ballistic missile defense, AI-assisted systems and U.S.-cooperative systems, and building a 'non-red' supply chain; sent to the opposition-controlled Legislative Yuan.",
+      "source_url": "https://www.taipeitimes.com/News/front/archives/2025/11/28/2003847965",
+      "source_title": "Executive Yuan names CCP as threat in defense push - Taipei Times"
+    },
+    {
+      "id": "tw-special-defense-act-enacted-reduced",
+      "country": "Taiwan",
+      "policy": "Legislative Yuan passes reduced NT$780bn special arms procurement act",
+      "stage": "enacted",
+      "event_date": "2026-05-08",
+      "expiration_date": "2033-12-31",
+      "industries": [
+        "defense",
+        "drones",
+        "counter_drone"
+      ],
+      "bottlenecks": [
+        "U.S. Letters of Offer and Acceptance timing",
+        "annual legislative drawdown approval"
+      ],
+      "direction": "mixed",
+      "summary": "The legislature passed a NT$780bn special act, short of the NT$1.25 trillion requested: NT$300bn for already-approved U.S. arms (HIMARS, M109A7, Javelin, TOW 2B, Altius drones) and NT$480bn for a further package including soft/hard-kill counter-drone systems and air defense. Disbursement depends on U.S. LOAs and annual legislative approval; the domestic industry 'non-red' supply chain items in the original bill were not specified.",
+      "source_url": "https://www.taipeitimes.com/News/front/archives/2026/05/08/2003856996",
+      "source_title": "Legislature passes NT$780bn special arms procurement act - Taipei Times"
+    },
+    {
+      "id": "in-repm-scheme",
+      "country": "India",
+      "policy": "Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (Rs 7,280 crore)",
+      "stage": "enacted",
+      "event_date": "2025-11-26",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "defense",
+        "electronic_components"
+      ],
+      "bottlenecks": [
+        "rare earth oxide-to-magnet processing",
+        "import dependence for REPMs"
+      ],
+      "direction": "tailwind",
+      "summary": "Union Cabinet approved a Rs 7,280 crore scheme to build 6,000 MTPA of integrated sintered REPM capacity (oxide to metal to alloy to magnet), with Rs 6,450 crore of sales-linked incentives over five years and Rs 750 crore capital subsidy, allocated to up to five beneficiaries (max 1,200 MTPA each) via global competitive bidding; 7-year duration including 2-year gestation.",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2194687&lang=2&reg=3",
+      "source_title": "Cabinet Approves Rs.7,280 Crore Scheme to Promote Manufacturing of Sintered Rare Earth Permanent Magnets (REPM) - PIB"
+    },
+    {
+      "id": "ca-defence-industrial-strategy",
+      "country": "Canada",
+      "policy": "Canada's first Defence Industrial Strategy ('Security, Sovereignty and Prosperity') with Defence Investment Agency",
+      "stage": "implementation",
+      "event_date": "2026-02-17",
+      "expiration_date": null,
+      "industries": [
+        "defense",
+        "shipbuilding",
+        "drones"
+      ],
+      "bottlenecks": [
+        "fragmented defence procurement",
+        "domestic defence supplier scale"
+      ],
+      "direction": "tailwind",
+      "summary": "Prime Minister Carney launched a Build-Partner-Buy defence industrial strategy targeting $180bn of defence procurement and $290bn of defence-related capital investment opportunities over 10 years, raising the share of acquisitions awarded to Canadian firms to 70% and defence exports by 50%, with the Defence Investment Agency (created Oct 2025) at its centre and participation in EU SAFE joint procurement. Bill C-40 introduced Oct 6, 2026 to make the DIA a Crown corporation.",
+      "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/02/17/prime-minister-carney-launches-canadas-first-defence-industrial",
+      "source_title": "Prime Minister Carney launches Canada's first Defence Industrial Strategy | Prime Minister of Canada"
+    },
+    {
+      "id": "au-critical-minerals-strategic-reserve-act",
+      "country": "Australia",
+      "policy": "Export Finance and Insurance Corporation Amendment (Strategic Reserve) Act 2026 - Critical Minerals Strategic Reserve",
+      "stage": "enacted",
+      "event_date": "2026-04-01",
+      "expiration_date": null,
+      "industries": [
+        "critical_minerals",
+        "defense",
+        "semiconductors"
+      ],
+      "bottlenecks": [
+        "antimony",
+        "gallium",
+        "rare earth elements",
+        "offtake and price support"
+      ],
+      "direction": "tailwind",
+      "summary": "Act (assented 1 April 2026) gives Export Finance Australia a Strategic Reserve function to finance, contract, guarantee, stockpile and on-sell strategic materials. The A$1.2bn Critical Minerals Strategic Reserve draws A$1bn from the expanded Critical Minerals Facility plus A$150m for selective stockpiling, initially focused on antimony, gallium and rare earths.",
+      "source_url": "https://www.legislation.gov.au/C2026A00021/asmade/2026-04-01/text/original/pdf",
+      "source_title": "Export Finance and Insurance Corporation Amendment (Strategic Reserve) Act 2026"
+    },
+    {
+      "id": "cd-cobalt-export-suspension",
+      "country": "Democratic Republic of the Congo",
+      "policy": "ARECOMS Decision 001/2025 cobalt export suspension (later replaced by quotas)",
+      "stage": "enacted",
+      "event_date": "2025-02-22",
+      "expiration_date": "2025-10-15",
+      "industries": [
+        "critical_minerals",
+        "batteries",
+        "energy_storage",
+        "defense"
+      ],
+      "bottlenecks": [
+        "cobalt supply",
+        "cobalt hydroxide feed for refiners"
+      ],
+      "direction": "headwind",
+      "summary": "DRC's strategic minerals regulator suspended all cobalt exports from Feb 22, 2025 (initially to June 21, extended to Sept 21 and Oct 15, 2025). From Oct 16, 2025 the ban was replaced by an export quota system: 18,125 t for the rest of 2025 and 96,600 t annually in 2026-2027 (incl. a 9,600 t strategic quota).",
+      "source_url": "https://www.iea.org/policies/28969-temporary-suspension-of-cobalt-export-from-the-democratic-republic-of-congo",
+      "source_title": "Temporary suspension of cobalt export from the Democratic Republic of Congo - Policies - IEA"
+    },
+    {
+      "id": "mx-tariffs-non-fta-imports",
+      "country": "Mexico",
+      "policy": "Tariff increases of up to 50% on 1,463 tariff lines from non-FTA countries (incl. China)",
+      "stage": "enacted",
+      "event_date": "2025-12-10",
+      "expiration_date": null,
+      "industries": [
+        "electronic_components",
+        "industrial_power_transmission",
+        "batteries"
+      ],
+      "bottlenecks": [
+        "Chinese-origin steel, auto parts, plastics and appliances into Mexico",
+        "nearshoring input costs"
+      ],
+      "direction": "mixed",
+      "summary": "Mexico's Congress approved (Senate Dec 10, 2025) tariffs of 5-50% on 1,463 tariff lines from countries without FTAs with Mexico, including China, South Korea, India, Thailand and Indonesia; the decree was published in the DOF on Dec 29, 2025 and took effect Jan 1, 2026. Supports Plan Mexico reindustrialization and North American alignment but raises input costs for manufacturers using Asian components.",
+      "source_url": "https://comunicacionsocial.diputados.gob.mx/index.php/notilegis/dof-publica-decreto-por-el-que-se-reforman-diversas-fracciones-arancelarias-de-la-tarifa-de-la-ley-de-los-impuestos-generales-de-importacion-y-de-exportacion",
+      "source_title": "DOF publica decreto por el que se reforman diversas fracciones arancelarias de la Tarifa de la LIGIE - Cámara de Diputados"
+    }
+  ]
+}

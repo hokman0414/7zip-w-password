@@ -1,0 +1,199 @@
+{
+  "ticker": "CODA",
+  "company": "Coda Octopus Group, Inc.",
+  "researched_at": "2026-11-06T21:50:00Z",
+  "agent_id": "research-agent-A",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Fiscal Q3 2026 (quarter ended July 31, 2026) revenue was approximately $7.7M, up 9.2% year over year from $7.1M; operating income was $1.5M (19.9% margin) and diluted EPS was $0.12 vs $0.11.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "source_title": "Coda Octopus Group Reports Fiscal Third Quarter 2026 Financial Results",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Core Marine Technology revenue fell 15.2% year over year to $3.4M (hardware revenue down 17.8% to $2.3M), which management attributed to reduced procurement activity in the Middle East and Asia amid the conflict involving Iran.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "source_title": "Coda Octopus Group Reports Fiscal Third Quarter 2026 Financial Results",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "military",
+      "topic": "earnings",
+      "claim": "Defense Engineering Services revenue rose 68.3% year over year to $2.7M on higher activity and funding across long-standing defense programs; sustainment spares orders exceeded $2.4M year to date.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "Since the prior call, Coda received approximately $1.4M of U.S. Navy orders for DAVD tethered systems and peripherals, including four DAVD Flex systems and Echoscope sonars for training use.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "military",
+      "topic": "product",
+      "claim": "The U.S. Navy completed its Authorization for Navy Use (ANU) assessment of the DAVD untethered system with Gen 4 HUD; 24 untethered systems have been delivered to the Navy in total, including 16 earlier in 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "The U.S. defense engineering unit is supporting several prime contractors in developing rugged deployable RF electronic warfare systems for unmanned systems, helicopters, airborne pods and ground vehicles; the Nano compact 3D sonar is being integrated with subsea robotic OEMs.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Consolidated gross margin declined to 65.4% from 68.3% a year earlier due to revenue mix, geography and product mix; Acoustic Sensors and Defense Engineering segment margins also declined.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "source_title": "Coda Octopus Group Reports Fiscal Third Quarter 2026 Financial Results",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Cash was $31.7M at July 31, 2026, up $3.0M from October 31, 2025, and the company remains debt free.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "source_title": "Coda Octopus Group Reports Fiscal Third Quarter 2026 Financial Results",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Diluted weighted average shares were 11,298,951 for the quarter vs 11,304,549 a year earlier, indicating no material share dilution over the past year.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1334325/000149315226042475/form10-q.htm",
+      "source_title": "Coda Octopus Group Form 10-Q for quarter ended July 31, 2026",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Quarterly revenue of $7.72M topped the consensus estimate of $7.35M, and EPS of $0.12 was in line with the estimate.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.investing.com/news/earnings/coda-octopus-earnings-matched-revenue-topped-estimates-4899872",
+      "source_title": "Coda Octopus earnings matched, revenue topped estimates | Investing.com",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "In 2026, insider activity consisted of sales: a 10% owner (John Steven Emerson) sold 86,254 shares at about $14.95 on March 11, 2026, and the interim CFO sold 2,256 shares on March 19, 2026. No 2026 open-market purchases appeared in the listing.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.secform4.com/insider-trading/1334325.htm",
+      "source_title": "Coda Octopus Group Inc. (CODA) - Insider Trading Form 4 Filings",
+      "published_date": null
+    },
+    {
+      "dimension": "social",
+      "topic": "governance",
+      "claim": "A new CFO, Mark Kelly, joined the company and presented on the Q3 FY2026 call, after a period with an interim CFO.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Growth is increasingly driven by lower-margin defense services rather than the high-margin proprietary Marine Technology products, which could weigh on consolidated margins if the Middle East and Asia slowdown persists.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "source_title": "Coda Octopus (CODA) Q3 2026 Earnings Call Transcript | The Motley Fool",
+      "published_date": "2026-09-14"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fiscal Q4 / full-year FY2026 earnings release",
+      "expected_date": "2027-01-27",
+      "date_confidence": "estimated",
+      "source_url": "https://bullstory.io/en/stocks/coda/earnings/2026-q4"
+    },
+    {
+      "event": "Visibility into a European Navy's DAVD procurement roadmap, which management expected later in calendar 2026",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "U.S. defense spending on sustainment (spares and repairs) of established systems and on next-generation electronic warfare and unmanned/autonomous platforms",
+      "stage": "implementation",
+      "industry": "Defense electronics / subsea technology",
+      "bottleneck": "Sustainment of legacy defense systems and RF electronic warfare subsystems",
+      "revenue_mechanism": "Subcontract repair and spares work under prime contractors' government sustainment contracts; engineering services for electronic warfare development programs",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-09-14"
+    },
+    {
+      "country": "United States",
+      "policy": "U.S. Navy Authorization for Navy Use (ANU) approval of the DAVD untethered diving system",
+      "stage": "implementation",
+      "industry": "Military diving equipment",
+      "bottleneck": "Regulatory approval gate for operational deployment of diver augmented-vision systems",
+      "revenue_mechanism": "Direct product sales of DAVD systems and peripherals to U.S. Navy commands and training schools",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "published_date": "2026-09-14"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Geopolitical instability in the Middle East (conflict involving Iran) is depressing Marine Technology procurement in the Middle East and Asia",
+      "severity": "medium",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "published_date": "2026-09-14"
+    },
+    {
+      "risk": "Small revenue base (about $7.7M per quarter) makes results sensitive to the timing of individual defense orders and project deferrals",
+      "severity": "medium",
+      "source_url": "https://www.fool.com/earnings/call-transcripts/2026/09/14/coda-octopus-coda-q3-2026-earnings-call-transcript/",
+      "published_date": "2026-09-14"
+    },
+    {
+      "risk": "Gross margin compression from mix shift toward lower-margin defense engineering and acoustic businesses",
+      "severity": "low",
+      "source_url": "https://www.codaoctopusgroup.com/press-releases/detail/223/coda-octopus-group-reports-fiscal-third-quarter-2026",
+      "published_date": "2026-09-14"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "Most recent quarter is fiscal Q3 2026 (ended July 31, 2026). No equity offerings, convertible notes or debt were found; the company is debt free with $31.7M cash. A search of the fiscal Q3 2026 10-Q text found no going-concern language. Insider activity over the past year was limited to sales by a 10% owner and the interim CFO. The Q4 earnings date comes from a third-party calendar and the company has not confirmed it. No backlog figure was disclosed in the sources reviewed."
+}

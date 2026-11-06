@@ -1,0 +1,250 @@
+{
+  "ticker": "RCAT",
+  "company": "Red Cat Holdings, Inc.",
+  "researched_at": "2026-11-06T21:55:00Z",
+  "agent_id": "research-agent-B",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 revenue was $20.2 million, up 527% year over year, with gross profit of $3.3 million and gross margin of 16.1% (vs 12.7% in Q1 2026).",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.redcatholdings.com/news-events/press-releases/detail/237/red-cat-reports-q2-2026-revenue-growth-of-527-yy-q2-gross-margins-increase-39-vs-q2-2025-gross-margins-increased-27-sequentially-from-q1-2026",
+      "source_title": "Red Cat Reports Q2 2026 Revenue Growth of 527% Y/Y; Q2 Gross Margins Increase 39% vs Q2 2025",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Q2 2026 operating loss was $38.6 million and net loss $35.3 million; six-month net loss was $61.8 million and net cash used in operating activities was $78.7 million, driven partly by a $49.9 million inventory build.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "source_title": "Red Cat Holdings Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Management reiterated full-year 2026 revenue target of $150-$180 million, describing 2026 as fundamentally a second-half story, and expects gross margin to approach 30% by year end.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-q2-2026-estimates-as-stock-falls-54-93CH-4844472",
+      "source_title": "Earnings call transcript: Red Cat misses Q2 2026 estimates as stock falls 5.4%",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "With first-half 2026 revenue of ~$35.7 million against a $150-$180 million full-year target, the company would need roughly $114-$144 million in H2 2026, implying a steep ramp that carries execution risk.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "source_title": "Red Cat Holdings Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "Teal Drones (Red Cat subsidiary) competed in the Close Quarters Battle portion of the Drone Dominance Program Gauntlet II and did not place in the top five; the program plans to buy ~60,000 drones from leaderboard vendors.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://defensescoop.com/2026/09/18/drone-dominance-program-gauntlet-2-results/",
+      "source_title": "Pentagon unveils top performers in latest 'Gauntlet' for Drone Dominance Program",
+      "published_date": "2026-09-18"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Needham stated that Red Cat not receiving a Gauntlet II award may affect the company's full-year outlook; shares declined after the announcement. (Separately, Northland cut its target to $13 from $15 and trimmed FY26/FY27 estimates per TipRanks/The Fly.)",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://uk.investing.com/news/stock-market-news/needham-announces-drone-dominance-gauntlet-ii-winners-93CH-4873633",
+      "source_title": "Needham announces Drone Dominance Gauntlet II winners",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "customer",
+      "claim": "The U.S. Army accounted for about 50% of first-half 2026 revenue, down from 73% in 2025; Japan was the second-largest customer, followed by the NATO Support and Procurement Agency.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-q2-2026-estimates-as-stock-falls-54-93CH-4844472",
+      "source_title": "Earnings call transcript: Red Cat misses Q2 2026 estimates as stock falls 5.4%",
+      "published_date": null
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "In March 2026 a NATO ally selected the Black Widow sUAS via a competitive tender facilitated by NSPA, with an undisclosed number of systems scheduled for delivery during calendar 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.redcatholdings.com/news-events/press-releases/detail/217/red-cat-secures-new-orders-for-black-widow-drones-from-nato-ally",
+      "source_title": "Red Cat Secures New Orders for Black Widow Drones from NATO Ally",
+      "published_date": "2026-04-02"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "The U.S. Army SRR Tranche 2 limited-rate production contract signed July 2025 was expanded to approximately $35 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2025/11/13/3187855/0/en/Red-Cat-Holdings-Reports-Q3-2025-Revenue-Growth-of-646-Y-Y-Sequential-Quarterly-Revenue-Growth-of-200-Guides-Q4-Revenue-to-1455-Y-Y-FY-2025-Revenue-Guidance-to-124-Y-Y-Beating-Q3-R.html",
+      "source_title": "Red Cat Holdings Reports Q3 2025 Revenue Growth of 646% Y/Y",
+      "published_date": "2025-11-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "In May 2026 Red Cat sold 23,936,171 shares at $9.40 plus a fully exercised 3,590,425-share underwriter option, for gross proceeds of ~$258.75 million (underwritten by Evercore and BofA under an S-3ASR shelf).",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.stocktitan.net/sec-filings/RCAT/8-k-red-cat-holdings-inc-reports-material-event-c9e41c7cca62.html",
+      "source_title": "Red Cat sells 3.59M option shares in offering | RCAT 8-K Filing",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "Company reports ~260k total sq. ft. of facilities (~5x vs 2024), ~1,200 drones shipped in Q4 2025, $325.6 million cash as of Q2 2026 with minimal debt, and $72 million LTM revenue as of Q2 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://ir.redcatholdings.com/_assets/_3438c2d1ba4734a79ba21ab2023d0396/redcatholdings/db/1160/11608/pdf/RCAT+-+Investor+Presentation+-+September+2026+vF.pdf",
+      "source_title": "Red Cat Investor Presentation - September 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "legal",
+      "topic": "governance",
+      "claim": "The Q2 2026 10-Q discloses material weaknesses in internal control (insufficient resources, inadequate supervision/review and segregation of duties) and pending shareholder class action and derivative proceedings (e.g., Olsen v. Red Cat Holdings, D.N.J.).",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "source_title": "Red Cat Holdings Form 10-Q for quarter ended June 30, 2026",
+      "published_date": null
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Red Cat is expanding into maritime autonomy via its Blue Ops USV division (Variant 7) and launched Hellcat, an internationally configurable variant derived from Black Widow.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-q2-2026-estimates-as-stock-falls-54-93CH-4844472",
+      "source_title": "Earnings call transcript: Red Cat misses Q2 2026 estimates as stock falls 5.4%",
+      "published_date": null
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Executive Order 14307 directs DoD to prioritize procurement of NDAA Sec. 848-compliant, U.S.-made drones and expand the Blue UAS list; Red Cat's FANG FPV drone was added to the Blue UAS Cleared List.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2025/06/unleashing-american-drone-dominance/",
+      "source_title": "Unleashing American Drone Dominance – The White House",
+      "published_date": "2025-06-06"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Q3 2026 financial results and video webinar (after market close, 4:30 p.m. ET)",
+      "expected_date": "2026-11-16",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.nasdaq.com/press-release/red-cat-announces-third-quarter-2026-earnings-release-date-and-participation-upcoming"
+    },
+    {
+      "event": "Deutsche Bank Global Space and Defense Tech Summit participation (CEO/CFO)",
+      "expected_date": "2026-11-18",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.nasdaq.com/press-release/red-cat-announces-third-quarter-2026-earnings-release-date-and-participation-upcoming"
+    },
+    {
+      "event": "Bank of America Defense Technology Forum participation",
+      "expected_date": "2026-12-03",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.nasdaq.com/press-release/red-cat-announces-third-quarter-2026-earnings-release-date-and-participation-upcoming"
+    },
+    {
+      "event": "Completion of NATO-ally Black Widow deliveries scheduled during calendar 2026",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://ir.redcatholdings.com/news-events/press-releases/detail/217/red-cat-secures-new-orders-for-black-widow-drones-from-nato-ally"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Executive Order 14307 'Unleashing American Drone Dominance' (prioritize NDAA Sec. 848-compliant US-made drones; expand Blue UAS list)",
+      "stage": "implementation",
+      "industry": "small unmanned aircraft systems",
+      "bottleneck": "Domestic NDAA-compliant drone production capacity and Blue UAS clearance",
+      "revenue_mechanism": "DoD procurement preference for U.S.-made compliant sUAS (e.g., Army SRR program)",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.whitehouse.gov/presidential-actions/2025/06/unleashing-american-drone-dominance/",
+      "published_date": "2025-06-06"
+    },
+    {
+      "country": "United States",
+      "policy": "Department of War Drone Dominance Program ($1.1B over four Gauntlet phases)",
+      "stage": "implementation",
+      "industry": "one-way attack drones",
+      "bottleneck": "Competitive Gauntlet selection; Red Cat's Teal not on Gauntlet II leaderboard",
+      "revenue_mechanism": "Prototype/production delivery orders to top-ranked vendors",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.war.gov/News/Releases/Release/Article/4396462/war-department-announces-vendors-invited-to-compete-in-phase-i-of-the-drone-dom/",
+      "published_date": null
+    },
+    {
+      "country": "NATO",
+      "policy": "NSPA catalogue listing of Black Widow (3-year contract with 2 option years)",
+      "stage": "implementation",
+      "industry": "small unmanned aircraft systems",
+      "bottleneck": "Allied procurement tenders through NSPA",
+      "revenue_mechanism": "Catalogue ordering and sponsored tenders by NATO members",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://ir.redcatholdings.com/news-events/press-releases/detail/191/red-cats-teal-drones-black-widow-system-approved-for-nato-nspa-catalogue",
+      "published_date": "2025-09-11"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Exclusion from Drone Dominance Gauntlet II leaderboard may reduce near-term program revenue; analysts trimmed FY26/FY27 estimates",
+      "severity": "high",
+      "source_url": "https://www.benzinga.com/markets/tech/26/09/61873632/red-cat-ondas-miss-the-cut-in-pentagons-latest-drone-dominance-round",
+      "published_date": null
+    },
+    {
+      "risk": "Heavy second-half weighting of $150-$180M 2026 revenue target creates guidance-miss risk",
+      "severity": "high",
+      "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-red-cat-misses-q2-2026-estimates-as-stock-falls-54-93CH-4844472",
+      "published_date": null
+    },
+    {
+      "risk": "Ongoing operating losses and cash burn ($78.7M operating cash outflow in H1 2026) with large inventory build",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Material weaknesses in internal control and pending shareholder class action/derivative litigation",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Repeated equity raises (four offerings Apr 2025-May 2026) dilute shareholders",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/748268/000162828026054368/rcat-20260630.htm",
+      "published_date": null
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Underwritten offering of 23,936,171 shares at $9.40 plus full exercise of 3,590,425-share option; gross proceeds ~$258.75M",
+      "date": "2026-05-12",
+      "source_url": "https://ir.redcatholdings.com/news-events/press-releases/detail/224/red-cat-announces-pricing-of-public-offering-of-common-stock"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "Q2 2026 10-Q states management concluded the company has sufficient financial resources for at least the next twelve months; no going-concern language found. September 2025 offering (15.6M shares + 2.34M option at $9.60, ~$172.5M gross) falls just outside the 12-month window and is excluded from dilution list. Q3 2026 results not yet reported as of research date. Q2 press release/10-Q exact publication dates not shown in sources, so left null."
+}
