@@ -44,11 +44,11 @@ c4.metric("Disqualified / stale", int(df.status.isin(["DISQUALIFIED", "STALE DAT
 tab_over, tab_co, tab_policy, tab_port, tab_alerts = st.tabs(["Overview", "Company", "Policy graph", "Portfolio & proposals", "Alerts"])
 with tab_over:
     st.subheader("Watchlist")
-    st.dataframe(df[df.group == "watchlist"].drop(columns="group"), use_container_width=True, hide_index=True)
+    st.dataframe(df[df.group == "watchlist"].drop(columns="group"), width="stretch", hide_index=True)
     st.subheader("Top discoveries (by Silent Stock Discovery Score)")
     st.caption("Low attention is not evidence of undervaluation. Analyst coverage and 13F ownership are not configured and are excluded from the score.")
     st.dataframe(df[df.group == "discovery"].sort_values("discovery", ascending=False).head(20).drop(columns="group"),
-                 use_container_width=True, hide_index=True)
+                 width="stretch", hide_index=True)
 
 with tab_co:
     t = st.selectbox("Ticker", df.ticker.tolist())
@@ -64,7 +64,7 @@ with tab_co:
     for v in r.vetoes:
         (st.error if v.severity == "critical" else st.warning)(f"{v.code}: {v.description}")
     st.subheader("STEMPLE")
-    st.dataframe(pd.DataFrame([d.model_dump(exclude={"evidence_ids"}) for d in r.stemple]), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame([d.model_dump(exclude={"evidence_ids"}) for d in r.stemple]), hide_index=True, width="stretch")
     st.subheader("Valuation")
     v = r.valuation
     st.json({k: getattr(v, k) for k in ("enterprise_value", "revenue_ttm", "revenue_growth_yoy", "gross_margin", "ev_revenue",
@@ -89,11 +89,11 @@ with tab_co:
     st.dataframe(pd.DataFrame([{"id": x.assignment_id, "group": x.group, "dimension": x.dimension, "vote": x.vote.value,
                                 "conf": x.confidence, "question": x.question, "finding": x.finding, "dup_of": x.dependent_on,
                                 "executor": x.executor, "sources": len(x.source_urls)} for x in r.assignments]),
-                 hide_index=True, use_container_width=True, height=400)
+                 hide_index=True, width="stretch", height=400)
     st.subheader("Evidence")
     st.dataframe(pd.DataFrame([{"type": e.evidence_type.value, "sentiment": e.sentiment.value, "claim": e.claim,
                                 "source": e.source_url, "date": e.published_date, "provider": e.provider} for e in r.evidence]),
-                 hide_index=True, use_container_width=True, height=300)
+                 hide_index=True, width="stretch", height=300)
     st.subheader("Data gaps")
     st.write("\n".join(f"- {g}" for g in r.data_gaps))
     hist = store.history(r.ticker)
@@ -104,17 +104,17 @@ with tab_policy:
     chains = [c for r in reports for c in r.policy_chains]
     g = graph(chains, [])
     st.write(f"{len(g['nodes'])} nodes, {len(g['edges'])} edges. Company edges exist only for sourced company-specific links.")
-    st.dataframe(pd.DataFrame([c.model_dump(exclude={"evidence_ids"}) for c in chains]), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame([c.model_dump(exclude={"evidence_ids"}) for c in chains]), hide_index=True, width="stretch")
 
 with tab_port:
     props = store.proposals()
     st.warning("Every proposal requires your approval. Nothing here is submitted. To act, review each with Robinhood "
                "`review_equity_order` and approve manually.")
-    st.dataframe(pd.DataFrame([{k: v for k, v in p.items() if k != "review_equity_order"} for p in props]), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame([{k: v for k, v in p.items() if k != "review_equity_order"} for p in props]), hide_index=True, width="stretch")
     for p in props:
         if "review_equity_order" in p:
             with st.expander(f"{p['side'].upper()} {p['symbol']} — review_equity_order parameters"):
                 st.json(p["review_equity_order"])
 
 with tab_alerts:
-    st.dataframe(pd.DataFrame(store.alerts()), hide_index=True, use_container_width=True)
+    st.dataframe(pd.DataFrame(store.alerts()), hide_index=True, width="stretch")

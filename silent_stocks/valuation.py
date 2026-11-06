@@ -50,9 +50,12 @@ def scenario_assumptions(v: ValuationInputs, current_mult: float) -> dict[str, d
     base_g = _clamp(0.75 * g_hist, -0.15, 0.80)
     spread = max(0.15, 0.5 * abs(base_g))
     peer = v.peer_ev_revenue_median or current_mult
-    base_m = sqrt(current_mult * peer)
-    bear_m = min(current_mult, peer) * 0.7
-    bull_m = max(current_mult, peer) * 1.2
+    # Within 12 months a multiple rarely re-rates beyond 0.5x-2x of today's; sector peer sets are broad, and an
+    # unbounded re-rating on a levered balance sheet produces meaningless equity values.
+    lo, hi = 0.5 * current_mult, 2.0 * current_mult
+    base_m = _clamp(sqrt(current_mult * peer), lo, hi)
+    bear_m = _clamp(min(current_mult, peer) * 0.7, lo, hi)
+    bull_m = _clamp(max(current_mult, peer) * 1.2, lo, hi)
     dil = max(v.dilution_yoy or 0.0, 0.0)
     burning = (v.fcf_ttm or 0.0) < 0
     fcf = v.fcf_ttm or 0.0
@@ -104,6 +107,9 @@ def value(v: ValuationInputs, mc_sims: int = 10000, seed: int = 42) -> Valuation
                                bull_meets_double=None, sensitivity=[], monte_carlo=None, notes=notes)
 
     cash_v, debt_v = cash or 0.0, debt or 0.0
+    if debt_v - cash_v > mcap:
+        notes.append("net debt exceeds market cap: equity is a levered residual, so scenario prices swing far more "
+                     "than enterprise value; treat bull/bear outputs as leverage arithmetic, not targets")
     ev_target = 2 * mcap + debt_v - cash_v
     rev_req_cur = ev_target / ev_rev
     rev_req_peer = ev_target / v.peer_ev_revenue_median if v.peer_ev_revenue_median else None
