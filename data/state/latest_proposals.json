@@ -1,0 +1,118 @@
+{
+ "run_id": "daily-20261106T223319Z",
+ "created_at": "2026-11-06T22:33:19.569340+00:00",
+ "proposals": [
+  {
+   "symbol": "AMD",
+   "side": "sell",
+   "quantity": 0.657446,
+   "est_value": 295.21,
+   "order_type": "market",
+   "from_weight": 0.0856,
+   "to_weight": 0.04,
+   "rationale": "realized vol 82% at 8.6%; high-vol cap 4%",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "AMD",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "0.657446"
+   }
+  },
+  {
+   "symbol": "GLD",
+   "side": "sell",
+   "quantity": 2.073236,
+   "est_value": 772.39,
+   "order_type": "market",
+   "from_weight": 0.2994,
+   "to_weight": 0.18,
+   "rationale": "weight 29.9% above 20% fund limit",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "GLD",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "2.073236"
+   }
+  },
+  {
+   "symbol": "ONDS",
+   "side": "sell",
+   "quantity": 7.99503,
+   "est_value": 42.65,
+   "order_type": "market",
+   "from_weight": 0.0166,
+   "to_weight": 0.01,
+   "rationale": "research critical veto (SEVERE_DILUTION); cap 1%",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "ONDS",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "7.995030"
+   }
+  },
+  {
+   "symbol": "BITU",
+   "side": "sell",
+   "quantity": 4.341691,
+   "est_value": 52.69,
+   "order_type": "market",
+   "from_weight": 0.0381,
+   "to_weight": 0.03,
+   "rationale": "2x leveraged ETF at 3.8%; cap 3%",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "BITU",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "4.341691"
+   }
+  },
+  {
+   "symbol": "CIFR",
+   "side": "sell",
+   "quantity": 2.726317,
+   "est_value": 17.83,
+   "order_type": "market",
+   "from_weight": 0.0128,
+   "to_weight": 0.01,
+   "rationale": "research critical veto (CASH_RUNWAY); cap 1%",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "CIFR",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "2.726317"
+   }
+  },
+  {
+   "symbol": "-",
+   "side": "none",
+   "kind": "no_buy",
+   "rationale": "No candidate passed the 80/100 independent-evidence gate with bull case >= 2x and no critical veto; no research buys.",
+   "status": "INFORMATIONAL"
+  }
+ ]
+}

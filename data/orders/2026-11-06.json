@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-06",
+  "created_at": "2026-11-06T22:33:21.374205+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set",
+    "outside execution window 09:45-15:30 ET (now 17:33)"
+  ],
+  "drawdown_from_hwm": 0.0,
+  "high_water_mark": 6471.62,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 295.21,
+      "ref_price": 449.03,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "realized vol 82% at 8.6%; high-vol cap 4%",
+      "ref_id": "38093675-fd60-52ad-a3a0-63e5932295a6",
+      "params": {
+        "symbol": "AMD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.657446",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 400.0,
+      "ref_price": 372.555,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "weight 29.9% above 20% fund limit",
+      "ref_id": "d6f3dd4f-664a-5750-a390-9be1ef450791",
+      "params": {
+        "symbol": "GLD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "1.073667",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
+    },
+    {
+      "symbol": "ONDS",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 42.65,
+      "ref_price": 5.335,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "research critical veto (SEVERE_DILUTION); cap 1%",
+      "ref_id": "7be154f9-3139-5630-95e7-2d5aa3a9d9ab",
+      "params": {
+        "symbol": "ONDS",
+        "side": "sell",
+        "type": "market",
+        "quantity": "7.995030",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "BITU",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 52.69,
+      "ref_price": 12.135,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "2x leveraged ETF at 3.8%; cap 3%",
+      "ref_id": "3fc1289f-159c-5879-97f7-9834ee1f2d24",
+      "params": {
+        "symbol": "BITU",
+        "side": "sell",
+        "type": "market",
+        "quantity": "4.341691",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "CIFR",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 17.83,
+      "ref_price": 6.54,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "research critical veto (CASH_RUNWAY); cap 1%",
+      "ref_id": "16083d62-2064-5472-9fde-2b40ff79b6b1",
+      "params": {
+        "symbol": "CIFR",
+        "side": "sell",
+        "type": "market",
+        "quantity": "2.726317",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    }
+  ],
+  "rejected": [],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
+}
