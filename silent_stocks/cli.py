@@ -102,6 +102,73 @@ def cmd_propose(a, s):
     print(json.dumps(out, indent=2, default=str))
 
 
+def _holdings(s):
+    from .refresh import latest_portfolio_doc
+    doc, _ = latest_portfolio_doc(s)
+    return [h["symbol"] for h in doc["positions"]["holdings"]] if doc else []
+
+
+def cmd_refresh_plan(a, s):
+    from .refresh import refresh_plan
+    print(json.dumps(refresh_plan(s, _holdings(s), a.extra), indent=2))
+
+
+def cmd_validate_snapshot(a, s):
+    from .refresh import validate_day
+    now = datetime.now(timezone.utc)
+    res = validate_day(s, a.day or now.date().isoformat(), now)
+    print(json.dumps(res, indent=2))
+    sys.exit(0 if res["ok"] else 1)
+
+
+def cmd_research_tasks(a, s):
+    from .refresh import research_tasks
+    briefs = sorted((s.reports_dir / "briefs").glob("*.json"))
+    disc = []
+    if briefs:
+        doc = json.loads(briefs[-1].read_text())
+        disc = [d["ticker"] for d in doc.get("discoveries", [])
+                if not any(v["severity"] == "critical" for v in d.get("vetoes", []))]
+    tasks = research_tasks(s, _holdings(s), disc, datetime.now(timezone.utc), a.max_age_days, a.limit)
+    prompt = Path(__file__).with_name("prompts") / "research_agent.md"
+    print(json.dumps({"prompt_template": str(prompt), "tasks": tasks}, indent=2))
+
+
+def cmd_validate_research(a, s):
+    from .refresh import validate_findings_file
+    errs = [e for p in sorted(s.findings_dir.glob("*.json")) for e in validate_findings_file(p)]
+    print(json.dumps({"ok": not errs, "errors": errs}, indent=2))
+    sys.exit(0 if not errs else 1)
+
+
+def cmd_plan_orders(a, s):
+    from .execution import AutotradeConfig, load_state, plan_orders, save_state, write_plan
+    from .refresh import latest_portfolio_doc, validate_portfolio
+    now = datetime.now(timezone.utc)
+    doc, _ = latest_portfolio_doc(s)
+    if doc is None:
+        sys.exit("no portfolio snapshot")
+    errors, _ = validate_portfolio(doc, now)
+    props_path = s.data_dir / "state" / "latest_proposals.json"
+    if not props_path.exists():
+        sys.exit("no proposals; run `silent-stocks daily` first")
+    props = json.loads(props_path.read_text())
+    if props["created_at"][:10] != now.date().isoformat():
+        errors.append(f"proposals are from {props['created_at'][:10]}, not today")
+    state = load_state(s)
+    plan = plan_orders(AutotradeConfig.load(), s, props["proposals"], doc, errors, now, state)
+    state["high_water_mark"] = plan["high_water_mark"]
+    save_state(s, state)
+    path = write_plan(s, plan)
+    print(json.dumps(plan | {"path": str(path)}, indent=2, default=str))
+
+
+def cmd_record_executions(a, s):
+    from .execution import record_executions
+    results = json.loads(Path(a.results).read_text())
+    print(record_executions(s, results, datetime.now(timezone.utc), a.total_value))
+
+
 def cmd_schedule(a, s):
     from .scheduler import serve
     serve(s)
@@ -145,6 +212,24 @@ def main(argv=None):
     x.set_defaults(fn=cmd_daily)
     x = sub.add_parser("propose-trades", help="portfolio risk + human-approval trade proposals")
     x.set_defaults(fn=cmd_propose)
+    x = sub.add_parser("refresh-plan", help="symbols and MCP parameters for today's Robinhood snapshot refresh")
+    x.add_argument("--extra", nargs="*", default=[])
+    x.set_defaults(fn=cmd_refresh_plan)
+    x = sub.add_parser("validate-snapshot", help="validate today's snapshot files (exit 1 on errors)")
+    x.add_argument("--day")
+    x.set_defaults(fn=cmd_validate_snapshot)
+    x = sub.add_parser("research-tasks", help="tickers needing fresh deep research, prioritized")
+    x.add_argument("--limit", type=int, default=12)
+    x.add_argument("--max-age-days", type=int, default=7)
+    x.set_defaults(fn=cmd_research_tasks)
+    x = sub.add_parser("validate-research", help="validate research findings files (exit 1 on errors)")
+    x.set_defaults(fn=cmd_validate_research)
+    x = sub.add_parser("plan-orders", help="apply autotrade guardrails to today's proposals -> data/orders/<date>.json")
+    x.set_defaults(fn=cmd_plan_orders)
+    x = sub.add_parser("record-executions", help="store broker results for placed/skipped orders")
+    x.add_argument("results")
+    x.add_argument("--total-value", type=float)
+    x.set_defaults(fn=cmd_record_executions)
     x = sub.add_parser("schedule", help="run the 09:00 America/New_York weekday scheduler")
     x.set_defaults(fn=cmd_schedule)
     x = sub.add_parser("api")
