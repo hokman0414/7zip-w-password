@@ -4,9 +4,10 @@ Silent Stocks screens US-listed companies for under-followed fundamental improve
 assignments per company and applies an 80/100 independent-evidence gate plus mandatory risk vetoes. It values each
 company with bear/base/bull scenarios and a Monte Carlo, and it runs every weekday at 09:00 America/New_York.
 
-It also assesses the connected Robinhood portfolio's risk and writes **trade proposals** (trims, hedges, buys). **It never
-places orders.** Each proposal carries the exact `review_equity_order` parameters so a person can review and approve
-it in Robinhood. The package contains no call to `place_equity_order`, and a test enforces that.
+It also assesses the connected Robinhood portfolio's risk and writes **trade proposals** (trims, hedges, buys). The Python
+package never places orders; it contains no call to `place_equity_order`, and a test enforces that. Optional automated
+execution is done by the daily agent skill (`.cursor/skills/silent-stocks-daily/`), which places only the orders that
+`silent-stocks plan-orders` produced under hard guardrails. See [Automated daily execution](#automated-daily-execution).
 
 > A vote count of 80/100 is a research evidence threshold. It is **not** an 80% probability that a stock doubles.
 > UNKNOWN votes and abstentions never count as YES. Output is research, not investment advice.
@@ -55,7 +56,7 @@ research findings      USAspending, findings)                                   
 | LLM assignment reviewer | Needs `OPENAI_API_KEY` and `SILENT_LLM_MODEL`. Without them every assignment is labeled `executor=rule-based` |
 | Analyst coverage, 13F institutional ownership | Not configured. Listed as missing in the discovery score, never imputed |
 | Bayesian updating | Not applied until `data/calibration/base_rates.json` exists (point-in-time backtest base rates) |
-| Order execution | Not implemented, on purpose |
+| Automated order execution | Disarmed until the `ROBINHOOD_AGENTIC_ACCOUNT` secret is set (Cursor Dashboard → Cloud Agents → Secrets). Orders are placed by the agent through the Robinhood MCP, never by Python |
 
 ## Setup and commands
 
@@ -67,6 +68,12 @@ silent-stocks screen                     # SEC cross-sectional revenue-accelerat
 silent-stocks analyze KTOS TWIN --verbose  # full report incl. all 100 votes
 silent-stocks daily                      # one full daily run -> reports/briefs/<date>.md, DB, alerts, proposals
 silent-stocks propose-trades             # portfolio risk + proposals as JSON (nothing submitted)
+silent-stocks refresh-plan               # symbols, batches and date range the agent must snapshot today
+silent-stocks validate-snapshot          # reconcile today's snapshots; exit 1 on errors
+silent-stocks research-tasks             # tickers whose research is missing or older than 7 days
+silent-stocks validate-research          # schema/source checks on data/research/agent_findings
+silent-stocks plan-orders                # guarded order plan -> data/orders/<date>.json
+silent-stocks record-executions FILE     # log placed orders -> data/executions/<date>.json, cooldown state
 silent-stocks schedule                   # weekdays 09:00 America/New_York
 silent-stocks api                        # http://127.0.0.1:8000/companies, /alerts, /proposals
 silent-stocks dashboard                  # Streamlit on :8501
@@ -81,7 +88,41 @@ pytest
    writes them under `data/snapshots/robinhood/<date>/`. The research subagents refresh `data/research/`.
 2. `silent-stocks schedule` (or cron calling `silent-stocks daily`) runs the pipeline. Market data older than 96 hours
    marks a company `STALE DATA`, and research older than 30 days does too.
-3. Review the brief. To act on a proposal, run its `review_equity_order` parameters in Robinhood and approve it yourself.
+3. Review the brief. To act on a proposal manually, run its `review_equity_order` parameters in Robinhood and approve it
+   yourself, or let the automated daily skill below execute the guarded plan.
+
+## Automated daily execution
+
+The daily skill (`.cursor/skills/silent-stocks-daily/SKILL.md`) is the full checklist an agent follows each weekday:
+refresh snapshots through the Robinhood MCP, `validate-snapshot`, run deep-research subagents
+(`silent_stocks/prompts/research_agent.md`) on the tickers from `research-tasks`, `validate-research`, `daily`,
+`plan-orders`, then review and place exactly the planned orders (sells first, same `ref_id`), `record-executions`, and
+commit the day's brief and state.
+
+`plan-orders` only emits orders when every arming check passes; otherwise it lists `blocked_reasons` and shows
+`would_place_if_armed`. Limits are in `config/autotrade.json` and are never loosened during a run.
+
+| Guardrail | Setting |
+|---|---|
+| Arming | `enabled: true`, `ROBINHOOD_AGENTIC_ACCOUNT` set and ending in `account_last4`, no kill switch |
+| Kill switch | `SILENT_STOP=1` or a file at `data/STOP_TRADING` |
+| When | NYSE trading days only, 09:45–15:30 ET, snapshot at most 6 hours old and passing validation |
+| Order kinds | risk trims, the `SH` hedge, QUALIFIED research buys, and the `SPY` core reinvest (capped at the fund limit) |
+| Size | at most $400 per order, 20% of portfolio value per day, 6 orders per day, $5 minimum |
+| Funding | buys only from settled cash/buying power above the 5% reserve; sell proceeds are used on the next run |
+| Drawdown | buys halt at 15% below the high-water mark; everything halts at 30% |
+| Churn | 3-day cooldown per symbol; quote drift above 5% from the plan price skips the order |
+| Idempotency | deterministic `ref_id` per day/symbol/side/kind |
+
+Vetoes only drive automatic trims when they come from the company's own filings or research and the company has complete
+SEC fundamentals. Data-availability vetoes (ETFs, foreign filers) and vetoes on companies with incomplete history (recent
+IPOs) are flagged `veto_needs_review` instead. The account number is read only from the environment; the plan uses the
+placeholder `$ROBINHOOD_AGENTIC_ACCOUNT`, and `record-executions` refuses records that contain an account number.
+
+To run it every weekday, create a Cursor Automation with a scheduled trigger at 09:45 America/New_York on weekdays,
+select this repository and branch, enable the Robinhood MCP, and use the prompt
+`Follow .cursor/skills/silent-stocks-daily/SKILL.md`. Automated trading can lose money; the guardrails limit how fast,
+not whether.
 
 ## Statuses and gate
 
@@ -94,8 +135,8 @@ pytest
 YES votes whose supporting-evidence sets are identical are collapsed, so one fact cited by ten assignments counts once.
 Critical vetoes:
 - going-concern language
-- cash runway under 12 months
-- dilution over 30% YoY
+- cash runway under 12 months (only when operating cash flow is negative)
+- dilution over 30% YoY (weighted diluted shares vs the split-restated year-ago quarter)
 - negative equity
 - exchange noncompliance
 - price under $1
