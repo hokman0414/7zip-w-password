@@ -278,15 +278,29 @@ def compute_fundamentals(cik: int, facts: dict, as_of: date) -> Fundamentals:
         sh_pts, _ = _points(facts, ["CommonStockSharesOutstanding"], as_of)
         sh_pt = _latest_instant(sh_pts)
     ev("shares_outstanding", sh_pt.value if sh_pt else None, sh_pt, f"Shares outstanding {sh_pt.value if sh_pt else 0:,.0f}")
-    if sh_pt:
-        prior = _instant_near(sh_pts, sh_pt.end - timedelta(days=365), 60)
-        dil = sh_pt.value / prior.value - 1 if prior and prior.value > 0 else None
-        ev("dilution_yoy", dil, sh_pt, f"Share count changed {dil:+.1%} over ~12 months" if dil is not None else "",
-           Sentiment.NEGATIVE if (dil or 0) > 0.05 else Sentiment.NEUTRAL)
     dil_pts, _ = _points(facts, ["WeightedAverageNumberOfDilutedSharesOutstanding"], as_of, unit="shares")
-    dq = quarterize(dil_pts)
-    if dq:
-        ev("diluted_shares", dq[-1].value, dq[-1], f"Weighted diluted shares {dq[-1].value:,.0f} (latest quarter)")
+    # Weighted averages don't sum, so only directly reported ~quarter durations are comparable. The latest
+    # filing's prior-year comparative is split-restated and wins in _points (latest filed), so the ratio
+    # is split-safe; cover-page share counts are not restated and only serve as a fallback.
+    wq = sorted((p for p in dil_pts if p.start and 80 <= (p.end - p.start).days <= 100 and p.value > 0), key=lambda p: p.end)
+    dil, dil_pt, dil_text = None, None, ""
+    if wq:
+        ev("diluted_shares", wq[-1].value, wq[-1], f"Weighted diluted shares {wq[-1].value:,.0f} (latest quarter)")
+        yago = [p for p in wq if abs((p.end - (wq[-1].end - timedelta(days=365))).days) <= 45]
+        if yago:
+            dil, dil_pt = wq[-1].value / yago[-1].value - 1, wq[-1]
+            dil_text = f"Weighted diluted shares changed {dil:+.1%} vs the same quarter a year earlier (split-restated)"
+    if dil is None and sh_pt:
+        prior = _instant_near(sh_pts, sh_pt.end - timedelta(days=365), 60)
+        if prior and prior.value > 0:
+            r = sh_pt.value / prior.value
+            if r >= 1.9 and abs(r - round(r)) <= 0.03 * r:
+                fx.gaps.append(f"cover-page share count x{r:.2f} looks like a stock split; dilution not computed")
+            else:
+                dil, dil_pt = r - 1, sh_pt
+                dil_text = f"Share count changed {dil:+.1%} over ~12 months (cover page, not split-restated)"
+    if dil_pt is not None:
+        ev("dilution_yoy", dil, dil_pt, dil_text, Sentiment.NEGATIVE if dil > 0.05 else Sentiment.NEUTRAL)
 
     bl_pts, _ = _points(facts, BACKLOG, as_of)
     bl = _latest_instant(bl_pts)
@@ -303,9 +317,11 @@ def compute_fundamentals(cik: int, facts: dict, as_of: date) -> Fundamentals:
     else:
         fx.gaps.append("no XBRL backlog (RemainingPerformanceObligation) tag")
 
-    if cash is not None and fcf is not None and fcf < 0:
+    # Runway only applies when operations burn cash; capex-driven negative FCF at a cash-generative
+    # business (utilities, hyperscalers) is funded from operations and capital markets, not the cash pile.
+    if cash is not None and fcf is not None and fcf < 0 and cfo is not None and cfo < 0:
         runway = cash / (-fcf) * 12
-        ev("cash_runway_months", runway, cash_pt, f"Cash runway ~{runway:.0f} months at TTM free-cash-flow burn",
+        ev("cash_runway_months", runway, cash_pt, f"Cash runway ~{runway:.0f} months at TTM free-cash-flow burn (operating cash flow negative)",
            Sentiment.NEGATIVE if runway < 18 else Sentiment.NEUTRAL)
     elif fcf is not None:
         fx.metrics["cash_runway_months"] = None
