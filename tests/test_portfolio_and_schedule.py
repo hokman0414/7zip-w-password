@@ -41,6 +41,22 @@ def test_no_buys_without_qualified_research():
     assert any(p["kind"] == "no_buy" for p in props)
 
 
+def _report(vetoes: list[str]):
+    from types import SimpleNamespace
+    return SimpleNamespace(status=SimpleNamespace(value="DISQUALIFIED"),
+                           vetoes=[SimpleNamespace(code=c, severity="critical") for c in vetoes])
+
+
+def test_veto_trims_need_complete_fundamentals():
+    snap = snapshot()
+    snap["positions"]["holdings"][0]["quantity"] = 5
+    trimmed = {p["symbol"] for p in propose(assess(snap, reports={"BIG": _report(["SEVERE_DILUTION"])})) if p["side"] == "sell"}
+    assert "BIG" in trimmed
+    risk = assess(snap, reports={"BIG": _report(["MISSING_FUNDAMENTALS", "SEVERE_DILUTION"])})
+    assert "BIG" not in {p["symbol"] for p in propose(risk) if p["side"] == "sell"}
+    assert any(f["flag"] == "veto_needs_review" and f["symbol"] == "BIG" for f in risk["flags"])
+
+
 def test_package_never_places_orders():
     for f in PKG.rglob("*.py"):
         tree = ast.parse(f.read_text())

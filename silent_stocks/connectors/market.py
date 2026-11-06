@@ -139,6 +139,15 @@ class SnapshotMarketConnector:
                 if cur is None or (md.price_time and cur.price_time and md.price_time > cur.price_time) or cur.price_time is None:
                     self._data[md.ticker] = md
             self.benchmarks.update(doc.get("benchmarks") or {})
+        if self.positions:
+            when = _parse_time(self.positions.get("captured_at"))
+            src = f"{self.positions.get('source', self.name)}:positions@{self.positions.get('captured_at', '?')}"
+            for h in self.positions["positions"].get("holdings", []):
+                t = h["symbol"].upper()
+                if t not in self._data and h.get("price"):
+                    self._data[t] = MarketData(ticker=t, company=None, price=float(h["price"]), price_time=when,
+                                               source=src, monthly_closes=list(h.get("monthly_closes") or []),
+                                               snapshot_file=None, is_demo=self.is_demo or self.positions.get("demo", False))
 
     def get(self, ticker: str) -> MarketData | None:
         return self._data.get(ticker.upper())

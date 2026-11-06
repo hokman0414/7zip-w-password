@@ -42,12 +42,14 @@ class Holding:
     monthly_closes: list[float]
     asset_type: str | None = None
     leverage: float | None = None
+    available: float | None = None
     value: float = 0.0
     weight: float = 0.0
     vol: float | None = None
     beta: float | None = None
     report_status: str | None = None
     critical_vetoes: list[str] = field(default_factory=list)
+    review_vetoes: list[str] = field(default_factory=list)
 
 
 def _rets(closes: list[float], price: float) -> list[float]:
@@ -69,6 +71,10 @@ def _beta(r: list[float], m: list[float]) -> float | None:
 
 
 FUND_TYPES = {"commodity_etf", "country_etf", "index_etf"}
+# Only vetoes derived from the company's own filings/listing/research justify selling a holding. Data-availability
+# vetoes (missing fundamentals for ETFs or foreign filers, stale data) are not evidence about the security.
+ACTIONABLE_VETOES = {"GOING_CONCERN", "CASH_RUNWAY", "SEVERE_DILUTION", "NEGATIVE_EQUITY", "LISTING_NONCOMPLIANT",
+                     "SUB_DOLLAR", "RESTATEMENT", "CRITICAL_RESEARCH_RISK"}
 
 
 def _limit(h: "Holding", lim: "RiskLimits") -> tuple[float, float]:
@@ -87,7 +93,8 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
     holdings: list[Holding] = []
     for h in pos["holdings"]:
         x = Holding(h["symbol"], float(h["quantity"]), float(h["price"]), list(h.get("monthly_closes") or []),
-                    h.get("asset_type"), h.get("leverage"))
+                    h.get("asset_type"), h.get("leverage"),
+                    float(h["available"]) if h.get("available") is not None else None)
         x.value = x.quantity * x.price
         x.weight = x.value / total if total else 0.0
         r = _rets(x.monthly_closes, x.price)
@@ -96,7 +103,13 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
         rep = (reports or {}).get(x.symbol)
         if rep:
             x.report_status = rep.status.value
-            x.critical_vetoes = [v.code for v in rep.vetoes if v.severity == "critical"]
+            codes = [v.code for v in rep.vetoes if v.severity == "critical" and v.code in ACTIONABLE_VETOES]
+            # Without filed revenue/cash-flow history (recent IPOs, foreign filers) share-count and runway metrics
+            # can reflect preferred conversion or merger issuance, so they are surfaced for review, not traded on.
+            if any(v.code == "MISSING_FUNDAMENTALS" for v in rep.vetoes):
+                x.review_vetoes = codes
+            else:
+                x.critical_vetoes = codes
         holdings.append(x)
     live = [h for h in holdings if h.value >= lim.dust_usd]
     equity_w = sum(h.weight for h in live)
@@ -134,6 +147,9 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
             flags.append({"symbol": h.symbol, "flag": "high_volatility", "detail": f"realized vol {h.vol:.0%} (monthly, annualized)"})
         if h.critical_vetoes:
             flags.append({"symbol": h.symbol, "flag": "research_veto", "detail": ", ".join(h.critical_vetoes)})
+        if h.review_vetoes:
+            flags.append({"symbol": h.symbol, "flag": "veto_needs_review",
+                          "detail": f"{', '.join(h.review_vetoes)} with incomplete SEC fundamentals; not traded automatically"})
     for c in clusters:
         w = sum(h.weight for h in live if h.symbol in c)
         if w > 0.20:
@@ -142,7 +158,10 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
         flags.append({"symbol": "PORTFOLIO", "flag": "high_beta", "detail": f"beta {port_beta:.2f} vs target {lim.target_beta:.2f}"})
     if float(port.get("cash") or 0) / total < lim.cash_reserve if total else False:
         flags.append({"symbol": "PORTFOLIO", "flag": "no_cash_reserve", "detail": f"cash {float(port.get('cash') or 0):.2f} < {lim.cash_reserve:.0%} reserve"})
-    return {"total_value": total, "cash": float(port.get("cash") or 0), "crypto_value": float(port.get("crypto_value") or 0),
+    cash = float(port.get("cash") or 0)
+    bp = port.get("buying_power")
+    return {"total_value": total, "cash": cash, "cash_spendable": min(cash, float(bp)) if bp is not None else cash,
+            "crypto_value": float(port.get("crypto_value") or 0),
             "holdings": holdings, "portfolio_beta": port_beta, "portfolio_vol": port_vol, "hhi": hhi,
             "effective_positions": 1 / hhi if hhi else None, "clusters": clusters, "flags": flags,
             "account_type": pos.get("account_type"), "option_level": pos.get("option_level"),
@@ -161,7 +180,7 @@ def _order(symbol: str, side: str, *, quantity: float | None = None, dollar_amou
 
 
 def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits: RiskLimits | None = None,
-            hedge_symbol: str = "SH") -> list[dict]:
+            hedge_symbol: str = "SH", reinvest_symbol: str | None = None) -> list[dict]:
     lim = limits or RiskLimits()
     total = risk["total_value"]
     out: list[dict] = []
@@ -184,7 +203,9 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
         sell_usd = (h.weight - tw) * total
         if sell_usd < lim.min_trade_usd:
             continue
-        qty = min(round(sell_usd / h.price, 6), h.quantity)
+        qty = min(round(sell_usd / h.price, 6), h.available if h.available is not None else h.quantity)
+        if qty * h.price < lim.min_trade_usd:
+            continue
         target_w[h.symbol] = tw
         proceeds += qty * h.price
         out.append({"symbol": h.symbol, "side": "sell", "quantity": qty, "est_value": round(qty * h.price, 2),
@@ -198,11 +219,11 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
         for h in risk["holdings"]:
             if h.symbol in target_w and h.beta is not None:
                 beta_after -= (h.weight - target_w[h.symbol]) * h.beta
-    reserve = lim.cash_reserve * total - risk["cash"]
-    available = proceeds - max(reserve, 0.0)
+    # Buys are funded only from cash already spendable in the snapshot; today's sale proceeds fund the next run.
+    available = max(risk.get("cash_spendable", risk["cash"]) - lim.cash_reserve * total, 0.0)
     if beta_after is not None and beta_after > lim.target_beta + lim.beta_tolerance:
         need = (beta_after - lim.target_beta) * total
-        hedge = min(need, max(available, 0.0))
+        hedge = min(need, available)
         if risk.get("option_level"):
             note = "options enabled: protective SPY puts are an alternative; not sized here"
         else:
@@ -215,7 +236,7 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
                         "review_equity_order": _order(hedge_symbol, "buy", dollar_amount=hedge)})
             available -= hedge
         else:
-            out.append({"symbol": hedge_symbol, "side": "none", "rationale": f"beta {beta_after:.2f} above target but no free proceeds after cash reserve; trim high-beta names further or add cash",
+            out.append({"symbol": hedge_symbol, "side": "none", "rationale": f"beta {beta_after:.2f} above target but no spendable cash above the reserve yet; sale proceeds fund it next run",
                         "kind": "hedge_unfunded", "status": "INFORMATIONAL"})
 
     qualified = [r for r in (reports or {}).values() if r.status == Status.QUALIFIED and r.price]
@@ -223,9 +244,9 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
     if not qualified:
         out.append({"symbol": "-", "side": "none", "kind": "no_buy",
                     "rationale": "No candidate passed the 80/100 independent-evidence gate with bull case >= 2x and no critical veto; "
-                                 "no buy proposals. Proceeds stay as cash reserve.", "status": "INFORMATIONAL"})
+                                 "no research buys.", "status": "INFORMATIONAL"})
     else:
-        per = min(lim.max_new_position_weight * total, max(available, 0.0) / max(len(qualified), 1))
+        per = min(lim.max_new_position_weight * total, available / max(len(qualified), 1))
         for r in sorted(qualified, key=lambda r: r.tally.independent_yes, reverse=True):
             if r.ticker in held or per < lim.min_trade_usd:
                 continue
@@ -233,4 +254,15 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
                         "rationale": f"QUALIFIED ({r.tally.independent_yes}/100 independent YES); starter position capped at {lim.max_new_position_weight:.0%}",
                         "kind": "research_buy", "status": APPROVAL,
                         "review_equity_order": _order(r.ticker, "buy", dollar_amount=per)})
+            available -= per
+    if reinvest_symbol and available >= lim.min_trade_usd:
+        core = next((h for h in risk["holdings"] if h.symbol == reinvest_symbol), None)
+        room = lim.max_fund_weight * total - (core.value if core else 0.0)
+        amt = min(available, room)
+        if amt >= lim.min_trade_usd:
+            out.append({"symbol": reinvest_symbol, "side": "buy", "dollar_amount": round(amt, 2), "order_type": "market",
+                        "rationale": f"idle cash above the {lim.cash_reserve:.0%} reserve goes to the diversified core fund "
+                                     f"(beta ~1, capped at {lim.max_fund_weight:.0%} weight)",
+                        "kind": "core_reinvest", "status": APPROVAL,
+                        "review_equity_order": _order(reinvest_symbol, "buy", dollar_amount=amt)})
     return out
