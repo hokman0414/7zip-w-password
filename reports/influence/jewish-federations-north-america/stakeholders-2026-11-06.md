@@ -88,3 +88,44 @@ EDGAR full-text search for "Jewish Federations of North America" and for "Jewish
 The companies named as corporate partners by the Southern New Jersey federation, ResinTech, Freedom Mortgage, and Davis Enterprises, are not in the IPO table.
 
 JFNA's current policy agenda is health appropriations, homeland-security grants, the section 25F scholarship credit, and rebuilding Israel. Several new issuers are biotechnology companies, so they sit in the same broad health sector as one lobbying issue. That is not evidence of a partnership, a shared policy, or an investment. No sourced partnership between JFNA and any company in the table was found.
+
+## Member federations and public companies
+
+Member federations publish corporate sponsors. These are companies paying for local event visibility. The national office's own campaign page does not name corporate sponsors. People who belong to a federation are not listed here.
+
+| Public company | Ticker | Where it is named | What the page shows |
+|---|---|---|---|
+| Goldman Sachs | GS | Jewish Federation of Greater Dallas, 2025-2026 presenting sponsor of one event | [Corporate giving](https://www.jewishdallas.org/corporate-giving/) |
+| Marsh McLennan, through Marsh McLennan Agency | MMC | Same Dallas page, gold sponsor | Same page |
+| The Kroger Co. | KR | Jewish Federation of Cincinnati, presenting partner | [Corporate partnerships](https://www.jewishcincinnati.org/corporate-partnerships) |
+| First Commonwealth Financial | FCF | Same Cincinnati page, as First Commonwealth Bank, presenting partner | Same page |
+| Wintrust Financial, through Town Bank | WTFC | Milwaukee Jewish Federation, Economic Forum 2026 sponsor | [WisBusiness, 2026](https://www.wisbusiness.com/2026/milwaukee-jewish-federation-expert-financial-forecaster-to-keynote-at-local-economic-forum/) |
+| The Marcus Corporation | MCS | Milwaukee VALOR 2026, Marcus Hotels and Resorts named as a sponsor | [VALOR sponsors](https://milwaukeejewish.org/2026-valor) |
+
+Deloitte, Susser Bank, Victory Wholesale, Neyra Paving, Central Bank & Trust, ResinTech, Freedom Mortgage, and Davis Enterprises appear on the same pages and are not treated as public stocks here. A secondary compilation of IRS grant data also describes JFBP, LLC as a disregarded entity related to the national office, which matches the shared Broadway address on the SEC filing: [Plinth](https://data.useplinth.com/nonprofit/the-jewish-federations-of-north-america-inc-131624240).
+
+## Structured analytic technique
+
+Competing hypotheses for "which stock rises because of this network":
+
+| Hypothesis | Contradictions | Result |
+|---|---|---|
+| H1. A sponsor's stock rises because the federation relationship adds revenue or policy advantage | The pages show the company giving sponsorship money to the federation. They do not show the federation sending business, a contract, or a policy change back to the company. Sponsorship amounts on the Cincinnati page start at $5,000. That is immaterial to Kroger, Goldman Sachs, Marsh, Wintrust, First Commonwealth, or Marcus | Contradicted |
+| H2. The sponsorship is local civic advertising and does not change the company's results | Consistent with the dollar size, the local event setting, and the absence of any mention in SEC filings | Least contradicted |
+| H3. A company that went public in the last three months is the one to watch because it shares a policy theme | EDGAR found no federation mention in those prospectuses. Sharing the word "health" with a biotech IPO is not a relationship | Contradicted |
+| H4. This research identifies one stock that is likely to rise | H1 and H3 fail, and H2 says the relationship is not a stock catalyst | Contradicted |
+
+No confidence level is assigned to a future price increase. A vote count would not create one. One hundred reviewers using this same evidence would be repeating one evidence set, not one hundred independent findings, so they are not used.
+
+## Intelligence cycle and the next check
+
+Collection for this round was federation sponsor pages, Senate lobbying filings, the SEC municipal-advisor filing, and EDGAR full-text search for August 6 through November 6, 2026. Processing kept organizations and dropped private individuals. Analysis is the hypothesis table above. Dissemination is this log.
+
+The feedback check, the next time this question is asked, is a small set of signposts:
+
+- A sponsor names the federation in an earnings release, a 10-Q, or an 8-K.
+- A new S-1 or 424B4 names a federation or one of its programs.
+- A federation's published sponsor list adds or drops one of the six public companies.
+- The next LD-2 shows the national office leaving health, homeland security, or tax.
+
+Until one of those appears, the cycle stays at H2. There is no stock to single out from this evidence.
