@@ -1,0 +1,18 @@
+{
+  "slug": "catholic-charities-usa",
+  "name": "Catholic Charities USA",
+  "tradition": "Catholic",
+  "description": "Example profile: national membership federation of Catholic social-service agencies. Identifiers are public records found with `influence-intel find`; verify before relying on them.",
+  "home_country": "United States",
+  "news_query": "\"Catholic Charities USA\"",
+  "is_church_exempt_from_lda": false,
+  "affiliates": [
+    {
+      "name": "Catholic Charities USA",
+      "relation": "service",
+      "ein": 530196620,
+      "lda_client_names": ["CATHOLIC CHARITIES USA"],
+      "usaspending_names": ["Catholic Charities USA"]
+    }
+  ]
+}

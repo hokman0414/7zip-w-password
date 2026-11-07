@@ -1,0 +1,3348 @@
+{
+  "entity": {
+    "slug": "catholic-charities-usa",
+    "name": "Catholic Charities USA",
+    "tradition": "Catholic",
+    "description": "Example profile: national membership federation of Catholic social-service agencies. Identifiers are public records found with `influence-intel find`; verify before relying on them.",
+    "home_country": "United States",
+    "news_query": "\"Catholic Charities USA\"",
+    "affiliates": [
+      {
+        "name": "Catholic Charities USA",
+        "relation": "service",
+        "ein": 530196620,
+        "lda_client_names": [
+          "CATHOLIC CHARITIES USA"
+        ],
+        "lda_registrant_names": [],
+        "fec_committee_ids": [],
+        "usaspending_names": [
+          "Catholic Charities USA"
+        ]
+      }
+    ],
+    "is_church_exempt_from_lda": false
+  },
+  "as_of": "2026-11-06",
+  "generated_at": "2026-11-07T02:20:44Z",
+  "demo": false,
+  "executor": "rule-based checks over public records and sourced research (not independent agents)",
+  "coverage": {
+    "lda_filings": 14,
+    "form_990_years": 0,
+    "fec_disbursements": 0,
+    "federal_awards": 11,
+    "news": false,
+    "research_findings": 24,
+    "research_initiatives": 14
+  },
+  "stemple": [
+    {
+      "dimension": "social",
+      "assessment": "mixed",
+      "strengthening_sources": 1,
+      "weakening_sources": 0,
+      "pathway_strength_avg": 60.0,
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "summary": "In 2026, CCUSA launched a multi-phase national advertising campaign across TV, print, digital display, sponsored email, podcast and Spanish-; CCUSA's FY2025 annual report states the network's 169 member agencies served more than 16 million people through 4,230 service sites in all ; Network service scale reported for FY2025: more than 30 million meals, 3.2 million nights of emergency shelter, 201,000 people receiving eme",
+      "evidence_ids": [
+        "9d2776e2287b06b6",
+        "68cc8b7485eeb98d",
+        "bf44239f47249c62",
+        "48f75380f6d0bb87"
+      ]
+    },
+    {
+      "dimension": "technological",
+      "assessment": "mixed",
+      "strengthening_sources": 1,
+      "weakening_sources": 0,
+      "pathway_strength_avg": 100.0,
+      "regions": [
+        "United States"
+      ],
+      "summary": "CCUSA runs digital coordination infrastructure for the network: a Disaster Vulnerability Portal and Map giving agencies real-time disaster i",
+      "evidence_ids": [
+        "55dda4e936557c28"
+      ]
+    },
+    {
+      "dimension": "economic",
+      "assessment": "headwind",
+      "strengthening_sources": 1,
+      "weakening_sources": 2,
+      "pathway_strength_avg": 75.0,
+      "regions": [
+        "United States"
+      ],
+      "summary": "In July 2026, CCUSA published 'The Promise of Place', a white paper promoting conversion of surplus church property (closed parishes, conven; Audited FY2025 (year ending June 30, 2025) figures for the national office: total revenue $71.5M, of which contributions were $58.8M, federa; Rising food costs, USDA food-program cuts and a temporary loss of SNAP benefits drove a surge in pantry demand. CCUSA ran an emergency appea",
+      "evidence_ids": [
+        "386b694eadd817c7",
+        "8e4761e55cd6d746",
+        "8ac733c124210e5e",
+        "a1d8cf4bd4b6e64a",
+        "3f3e2614da391577",
+        "de3857b28dfccbee",
+        "73bd040e38d82402",
+        "19ea5bc23bbeb588",
+        "75a0b7c6af8c4c4a",
+        "ad44ed2a45f7a99b",
+        "27bf2cafe31c6fa3",
+        "3c11bcc794d57688",
+        "02c0db994a68b790",
+        "b54c520e406f883d",
+        "7a4e21e516be240f",
+        "532ce43d19beb473"
+      ]
+    },
+    {
+      "dimension": "military",
+      "assessment": "mixed",
+      "strengthening_sources": 0,
+      "weakening_sources": 1,
+      "pathway_strength_avg": 33.3,
+      "regions": [
+        "United States"
+      ],
+      "summary": "Staff at several Catholic Charities agencies (San Diego, Laredo, Southwestern Ohio) received threats after online videos and influencer camp",
+      "evidence_ids": [
+        "40d526f200112c84"
+      ]
+    },
+    {
+      "dimension": "political",
+      "assessment": "mixed",
+      "strengthening_sources": 4,
+      "weakening_sources": 3,
+      "pathway_strength_avg": 87.5,
+      "regions": [
+        "BUD",
+        "DIS",
+        "GOV",
+        "HOU",
+        "IMM",
+        "REL",
+        "United States",
+        "WEL"
+      ],
+      "summary": "Alliance with Caritas Internationalis (international_federation); Alliance with U.S. Conference of Catholic Bishops (commissioned CCUSA as official domestic disaster relief agency, 1990) (church_body); Alliance with Catholic Health Association of the United States (catholic_peer)",
+      "evidence_ids": [
+        "f514dd3b6bb783f3",
+        "0e2827925bd4bf7b",
+        "08f8ab707fa4c639",
+        "cbc1e9661a8f45af",
+        "c608191b579b46d3",
+        "8a7fc3d7fea038d9",
+        "349c4a8afdee57ed",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "ec6ab132d2167762",
+        "aee8be2b80c11fed",
+        "f1112599eace7cf5",
+        "3567630eca7cdf9b",
+        "36864aedefe23eae",
+        "baf680d3e899b682",
+        "9eca95f27e8151f2",
+        "08be75651542f793",
+        "1c41bd078b044424",
+        "26e7438e6551c618",
+        "4351bbc690cafc93",
+        "31476b1106db556d",
+        "3946e084dfb4b447",
+        "031270742227783e",
+        "fa32a8b3d6107b02",
+        "12f651fd94b61acb",
+        "3f761fde0662878e",
+        "de81c425bda4cd00",
+        "43bc0dd5b5b15e7a",
+        "1136874441e9735d",
+        "ea8939e315423d42"
+      ]
+    },
+    {
+      "dimension": "legal",
+      "assessment": "mixed",
+      "strengthening_sources": 1,
+      "weakening_sources": 1,
+      "pathway_strength_avg": 100.0,
+      "regions": [
+        "Texas, United States",
+        "United States"
+      ],
+      "summary": "In Catholic Charities Bureau, Inc. v. Wisconsin Labor & Industry Review Commission (No. 24-154), the U.S. Supreme Court ruled 9-0 that denyi; Catholic Charities of the Rio Grande Valley, a member agency, was reported in late 2025 to be suspended from federal funds and facing a six-",
+      "evidence_ids": [
+        "a92838435d4afc9c",
+        "f3f2fb81ef75b85c",
+        "68bbbf412e3a0766"
+      ]
+    },
+    {
+      "dimension": "environmental",
+      "assessment": "mixed",
+      "strengthening_sources": 1,
+      "weakening_sources": 0,
+      "pathway_strength_avg": 100.0,
+      "regions": [
+        "United States (Gulf Coast)"
+      ],
+      "summary": "USCCB commissioned CCUSA in 1990 as the Catholic Church's official domestic disaster relief agency. In FY2025, CCUSA worked with 30 agencies",
+      "evidence_ids": [
+        "7cca3be6909cb155"
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "membership_base",
+      "label": "Membership and adherent base",
+      "dimension": "social",
+      "strength": 100.0,
+      "coverage": 1.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "membership_base:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "9d2776e2287b06b6"
+          ]
+        },
+        {
+          "id": "membership_base:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "membership_base:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "9d2776e2287b06b6"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Young-adult, family and multilingual programs where affiliation data show growth",
+        "Track affiliation surveys (Pew, PRRI, ARDA) and attendance as leading signposts"
+      ]
+    },
+    {
+      "id": "institutional_trust",
+      "label": "Institutional trust and governance",
+      "dimension": "social",
+      "strength": 0.0,
+      "coverage": 1.0,
+      "trend": "weakening",
+      "pressures": [
+        "On June 11, 2025, the House Homeland Security Committee chair and its oversight subcommittee chair opened an investigation into more than 200 NGOs over taxpayer-funded services to migrants. Catholic C",
+        "Catholic Charities of the Rio Grande Valley, a member agency, was reported in late 2025 to be suspended from federal funds and facing a six-year debarment after a DHS review of FEMA migrant-shelter gr",
+        "Staff at several Catholic Charities agencies (San Diego, Laredo, Southwestern Ohio) received threats after online videos and influencer campaigns targeting their migrant services; Catholic Charities S"
+      ],
+      "checks": [
+        {
+          "id": "institutional_trust:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "institutional_trust:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": [
+            "55b4f98aa8849f6b"
+          ]
+        },
+        {
+          "id": "institutional_trust:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": false,
+          "detail": "0 vs 3 independent source domains",
+          "evidence_ids": [
+            "55b4f98aa8849f6b",
+            "68bbbf412e3a0766",
+            "40d526f200112c84"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Independent safeguarding audits and public accountability reporting",
+        "Financial transparency beyond legal minimums to rebuild donor and public trust"
+      ]
+    },
+    {
+      "id": "institutional_services",
+      "label": "Schools, health and social-service institutions",
+      "dimension": "social",
+      "strength": 40.0,
+      "coverage": 1.0,
+      "trend": "contested",
+      "pressures": [
+        "Rising food costs, USDA food-program cuts and a temporary loss of SNAP benefits drove a surge in pantry demand. CCUSA ran an emergency appeal in November 2025 that supplied 2.5 million pounds of food "
+      ],
+      "checks": [
+        {
+          "id": "svc:scale",
+          "question": "Operates a service institution with $10M+ annual expenses?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "svc:public_funding",
+          "question": "Receives federal grants or contracts for services?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "386b694eadd817c7",
+            "8e4761e55cd6d746",
+            "8ac733c124210e5e",
+            "a1d8cf4bd4b6e64a",
+            "3f3e2614da391577",
+            "de3857b28dfccbee",
+            "73bd040e38d82402",
+            "19ea5bc23bbeb588",
+            "75a0b7c6af8c4c4a",
+            "ad44ed2a45f7a99b"
+          ]
+        },
+        {
+          "id": "institutional_services:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "68cc8b7485eeb98d",
+            "7cca3be6909cb155"
+          ]
+        },
+        {
+          "id": "institutional_services:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": [
+            "7a4e21e516be240f"
+          ]
+        },
+        {
+          "id": "institutional_services:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": false,
+          "detail": "1 vs 1 independent source domains",
+          "evidence_ids": [
+            "68cc8b7485eeb98d",
+            "7cca3be6909cb155",
+            "7a4e21e516be240f"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Service partnerships (health, education, refugee, food) that create durable public reliance",
+        "Workforce and compliance capacity to keep public-funding eligibility"
+      ]
+    },
+    {
+      "id": "financial_resources",
+      "label": "Financial resources",
+      "dimension": "economic",
+      "strength": 100.0,
+      "coverage": 0.75,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "fin:data",
+          "question": "Form 990 financials available for any affiliate?",
+          "result": null,
+          "detail": "no EIN configured or no public 990 (churches are not required to file)",
+          "evidence_ids": []
+        },
+        {
+          "id": "financial_resources:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "3c11bcc794d57688"
+          ]
+        },
+        {
+          "id": "financial_resources:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "financial_resources:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "3c11bcc794d57688"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Diversify revenue: planned giving, endowment, donor-advised funds, online giving",
+        "Reserve policy sized to legal, demographic and policy shocks"
+      ]
+    },
+    {
+      "id": "federal_partnerships",
+      "label": "Government grants and contracts",
+      "dimension": "economic",
+      "strength": 50.0,
+      "coverage": 1.0,
+      "trend": "declining",
+      "pressures": [
+        "After the January 2025 federal freeze on refugee resettlement funding, at least a dozen Catholic Charities agencies from Florida to California laid off hundreds of employees, and some closed their ref",
+        "The State Department terminated the USCCB's refugee resettlement cooperative agreement in February 2025. USCCB, the Catholic partner in the U.S. Refugee Admissions Program whose local resettlement wor",
+        "CCUSA formally warned in July 2026 that OMB's proposed government-wide 'Regulation for Federal Financial Assistance' (91 FR 32198, May 29, 2026) could significantly increase the burden of administerin"
+      ],
+      "checks": [
+        {
+          "id": "fed:any",
+          "question": "Federal awards in the last 3 years?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "386b694eadd817c7",
+            "8e4761e55cd6d746",
+            "8ac733c124210e5e",
+            "a1d8cf4bd4b6e64a",
+            "3f3e2614da391577",
+            "de3857b28dfccbee",
+            "73bd040e38d82402",
+            "19ea5bc23bbeb588",
+            "75a0b7c6af8c4c4a",
+            "ad44ed2a45f7a99b"
+          ]
+        },
+        {
+          "id": "fed:agencies",
+          "question": "Awards from 2 or more agencies?",
+          "result": true,
+          "detail": "Corporation for National and Community Service, Department of Health and Human Services, Department of Housing and Urban Development, Department of Justice",
+          "evidence_ids": [
+            "386b694eadd817c7",
+            "8e4761e55cd6d746",
+            "8ac733c124210e5e",
+            "a1d8cf4bd4b6e64a",
+            "3f3e2614da391577",
+            "de3857b28dfccbee",
+            "73bd040e38d82402",
+            "19ea5bc23bbeb588",
+            "75a0b7c6af8c4c4a",
+            "ad44ed2a45f7a99b"
+          ]
+        },
+        {
+          "id": "fed:scale",
+          "question": "Grant total at least $1M?",
+          "result": true,
+          "detail": "$4,845,779",
+          "evidence_ids": [
+            "386b694eadd817c7",
+            "8e4761e55cd6d746",
+            "8ac733c124210e5e",
+            "a1d8cf4bd4b6e64a",
+            "3f3e2614da391577",
+            "de3857b28dfccbee",
+            "73bd040e38d82402",
+            "19ea5bc23bbeb588",
+            "75a0b7c6af8c4c4a",
+            "ad44ed2a45f7a99b"
+          ]
+        },
+        {
+          "id": "federal_partnerships:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "federal_partnerships:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": [
+            "2a874e99b580b57f",
+            "90dcb0a4df38a826"
+          ]
+        },
+        {
+          "id": "federal_partnerships:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": false,
+          "detail": "0 vs 3 independent source domains",
+          "evidence_ids": [
+            "02c0db994a68b790",
+            "2a874e99b580b57f",
+            "90dcb0a4df38a826"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Compete for program grants aligned with service mission; track rule changes on faith-based eligibility",
+        "Diversify funders so a single agency or program cut is survivable"
+      ]
+    },
+    {
+      "id": "legislative_lobbying",
+      "label": "Legislative and executive advocacy",
+      "dimension": "political",
+      "strength": 100.0,
+      "coverage": 1.0,
+      "trend": "rising",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "lobby:continuity",
+          "question": "Lobbying disclosed in at least 6 of the last 8 quarters?",
+          "result": true,
+          "detail": "8/8 quarters",
+          "evidence_ids": [
+            "cdbb833810507b68",
+            "eb052a8be7727d2b",
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "f1112599eace7cf5",
+            "3567630eca7cdf9b",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "lobby:spend_trend",
+          "question": "Disclosed spend in the last 4 quarters at or above the prior 4?",
+          "result": true,
+          "detail": "$180,000 vs $120,000",
+          "evidence_ids": [
+            "cdbb833810507b68",
+            "eb052a8be7727d2b",
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "f1112599eace7cf5",
+            "3567630eca7cdf9b",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "lobby:breadth",
+          "question": "Lobbies on 3 or more issue areas in the last 4 quarters?",
+          "result": true,
+          "detail": "BUD, HOU, IMM, LBR, REL, TAX",
+          "evidence_ids": [
+            "cdbb833810507b68",
+            "eb052a8be7727d2b",
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "f1112599eace7cf5",
+            "3567630eca7cdf9b",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "lobby:reach",
+          "question": "Contacts 3 or more government entities (chambers, agencies)?",
+          "result": true,
+          "detail": "HOUSE OF REPRESENTATIVES, Labor, Dept of (DOL), SENATE, White House Office",
+          "evidence_ids": [
+            "cdbb833810507b68",
+            "eb052a8be7727d2b",
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "f1112599eace7cf5",
+            "3567630eca7cdf9b",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "lobby:named_bills",
+          "question": "Names specific bills in the last 4 quarters?",
+          "result": true,
+          "detail": "H.R. 1 (119th), H.R. 3459 (119th), H.R. 4121 (119th), H.R. 4213 (119th), H.R. 4552 (119th), H.R. 5304 (119th), H.R. 5342 (119th), H.R. 6337 (119th), H.R. 6644 (119th), H.R. 7148 (119th)",
+          "evidence_ids": [
+            "cdbb833810507b68",
+            "eb052a8be7727d2b",
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "f1112599eace7cf5",
+            "3567630eca7cdf9b",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "legislative_lobbying:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "bbb704122bdadb00",
+            "28cd907941c01032"
+          ]
+        },
+        {
+          "id": "legislative_lobbying:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "legislative_lobbying:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "2 vs 0 independent source domains",
+          "evidence_ids": [
+            "bbb704122bdadb00",
+            "28cd907941c01032"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Register affiliates in-house for continuity and named-bill tracking",
+        "Shift effort to state legislatures and agency rulemaking when federal action stalls"
+      ]
+    },
+    {
+      "id": "electoral_engagement",
+      "label": "Electoral engagement (within legal limits)",
+      "dimension": "political",
+      "strength": null,
+      "coverage": 0.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "fec:data",
+          "question": "Affiliated FEC committee configured?",
+          "result": null,
+          "detail": "501(c)(3) religious bodies may not campaign; only separately registered committees appear",
+          "evidence_ids": []
+        }
+      ],
+      "modern_levers": [
+        "Nonpartisan voter education by 501(c)(3)s; partisan activity only through separately funded, registered entities",
+        "Candidate questionnaires and issue scorecards published transparently"
+      ]
+    },
+    {
+      "id": "coalitions_alliances",
+      "label": "Coalitions and alliances",
+      "dimension": "political",
+      "strength": 75.0,
+      "coverage": 1.0,
+      "trend": "strengthening",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "coal:lda_affiliates",
+          "question": "Lobbying filings list affiliated or co-funding organizations?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "coal:channels",
+          "question": "Lobbies through 2 or more registrants (in-house or firms)?",
+          "result": true,
+          "detail": "ARENTFOX SCHIFF LLP, MERCURY PUBLIC AFFAIRS, LLC",
+          "evidence_ids": []
+        },
+        {
+          "id": "coal:documented",
+          "question": "Research documents alliances from 3 or more independent sources?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "ddb2b379baac2635",
+            "7931b5518d613fbc",
+            "07208ff89f886c2e",
+            "13cc40547f39417c",
+            "070b84ef3cf7ff85",
+            "61cef8cb2546ea31",
+            "64f44a78adbfad08",
+            "88d3ecd65ac55f01",
+            "5b6ae025e0ce73f5",
+            "887a58fbd4becba6",
+            "de6a6c9fe437b55f"
+          ]
+        },
+        {
+          "id": "coalitions_alliances:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        }
+      ],
+      "modern_levers": [
+        "Interfaith and cross-ideological coalitions on shared issues widen legitimacy",
+        "Sign-on letters and joint amicus briefs to multiply voice without new spend"
+      ]
+    },
+    {
+      "id": "legal_advocacy",
+      "label": "Legal advocacy and litigation",
+      "dimension": "legal",
+      "strength": 100.0,
+      "coverage": 1.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "legal:liberty_advocacy",
+          "question": "Lobbies on religion, civil-liberties or constitutional issues?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "ec6ab132d2167762",
+            "aee8be2b80c11fed",
+            "36864aedefe23eae"
+          ]
+        },
+        {
+          "id": "legal_advocacy:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "a92838435d4afc9c"
+          ]
+        },
+        {
+          "id": "legal_advocacy:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "legal_advocacy:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "a92838435d4afc9c"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Strategic litigation and amicus participation on religious-liberty and conscience cases",
+        "Compliance programs that pre-empt adverse rulings and settlements"
+      ]
+    },
+    {
+      "id": "media_public_salience",
+      "label": "Media and public salience",
+      "dimension": "social",
+      "strength": 100.0,
+      "coverage": 0.6,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "media:volume",
+          "question": "News coverage in the last 90 days at or above the prior 90 days?",
+          "result": null,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "media:tone",
+          "question": "Average coverage tone non-negative (GDELT)?",
+          "result": null,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "media_public_salience:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "bf44239f47249c62"
+          ]
+        },
+        {
+          "id": "media_public_salience:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "media_public_salience:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "bf44239f47249c62"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Earned media built on service work rather than conflict coverage",
+        "Rapid, transparent response protocol for crises"
+      ]
+    },
+    {
+      "id": "digital_reach",
+      "label": "Digital and technological reach",
+      "dimension": "technological",
+      "strength": 100.0,
+      "coverage": 1.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "digital_reach:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "55dda4e936557c28"
+          ]
+        },
+        {
+          "id": "digital_reach:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "digital_reach:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "55dda4e936557c28"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Streaming, podcasts and social channels; measured with audience data, not follower counts",
+        "Data-protection and AI-use policies for congregant data"
+      ]
+    },
+    {
+      "id": "transnational_network",
+      "label": "Transnational network and diplomacy",
+      "dimension": "military",
+      "strength": 33.3,
+      "coverage": 1.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "intl:foreign_policy",
+          "question": "Lobbies on foreign relations or discloses foreign entities?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "transnational_network:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": false,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "transnational_network:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        }
+      ],
+      "modern_levers": [
+        "Diaspora and partner-church networks; humanitarian partnerships in conflict regions",
+        "Monitor security and sanctions regimes affecting cross-border activity"
+      ]
+    },
+    {
+      "id": "land_and_property",
+      "label": "Land, property and environmental stewardship",
+      "dimension": "environmental",
+      "strength": 100.0,
+      "coverage": 1.0,
+      "trend": "unknown",
+      "pressures": [],
+      "checks": [
+        {
+          "id": "land_and_property:verified_support",
+          "question": "At least one verified finding strengthens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": [
+            "b54c520e406f883d"
+          ]
+        },
+        {
+          "id": "land_and_property:no_verified_damage",
+          "question": "No verified finding weakens this pathway?",
+          "result": true,
+          "detail": "",
+          "evidence_ids": []
+        },
+        {
+          "id": "land_and_property:balance",
+          "question": "Strengthening evidence from more independent sources than weakening?",
+          "result": true,
+          "detail": "1 vs 0 independent source domains",
+          "evidence_ids": [
+            "b54c520e406f883d"
+          ]
+        }
+      ],
+      "modern_levers": [
+        "Mission-aligned property use: housing, schools, conservation easements",
+        "Climate and stewardship commitments that align with younger members"
+      ]
+    }
+  ],
+  "exposure": [
+    {
+      "pathway": "institutional_trust",
+      "label": "Institutional trust and governance",
+      "exposure": 135.0,
+      "strength": 0.0,
+      "trend": "weakening",
+      "pressures": [
+        "On June 11, 2025, the House Homeland Security Committee chair and its oversight subcommittee chair opened an investigation into more than 200 NGOs over taxpayer-funded services to migrants. Catholic C",
+        "Catholic Charities of the Rio Grande Valley, a member agency, was reported in late 2025 to be suspended from federal funds and facing a six-year debarment after a DHS review of FEMA migrant-shelter gr",
+        "Staff at several Catholic Charities agencies (San Diego, Laredo, Southwestern Ohio) received threats after online videos and influencer campaigns targeting their migrant services; Catholic Charities S"
+      ],
+      "levers": [
+        "Independent safeguarding audits and public accountability reporting",
+        "Financial transparency beyond legal minimums to rebuild donor and public trust"
+      ]
+    },
+    {
+      "pathway": "federal_partnerships",
+      "label": "Government grants and contracts",
+      "exposure": 85.0,
+      "strength": 50.0,
+      "trend": "declining",
+      "pressures": [
+        "After the January 2025 federal freeze on refugee resettlement funding, at least a dozen Catholic Charities agencies from Florida to California laid off hundreds of employees, and some closed their ref",
+        "The State Department terminated the USCCB's refugee resettlement cooperative agreement in February 2025. USCCB, the Catholic partner in the U.S. Refugee Admissions Program whose local resettlement wor",
+        "CCUSA formally warned in July 2026 that OMB's proposed government-wide 'Regulation for Federal Financial Assistance' (91 FR 32198, May 29, 2026) could significantly increase the burden of administerin"
+      ],
+      "levers": [
+        "Compete for program grants aligned with service mission; track rule changes on faith-based eligibility",
+        "Diversify funders so a single agency or program cut is survivable"
+      ]
+    },
+    {
+      "pathway": "transnational_network",
+      "label": "Transnational network and diplomacy",
+      "exposure": 66.7,
+      "strength": 33.3,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Diaspora and partner-church networks; humanitarian partnerships in conflict regions",
+        "Monitor security and sanctions regimes affecting cross-border activity"
+      ]
+    },
+    {
+      "pathway": "institutional_services",
+      "label": "Schools, health and social-service institutions",
+      "exposure": 65.0,
+      "strength": 40.0,
+      "trend": "contested",
+      "pressures": [
+        "Rising food costs, USDA food-program cuts and a temporary loss of SNAP benefits drove a surge in pantry demand. CCUSA ran an emergency appeal in November 2025 that supplied 2.5 million pounds of food "
+      ],
+      "levers": [
+        "Service partnerships (health, education, refugee, food) that create durable public reliance",
+        "Workforce and compliance capacity to keep public-funding eligibility"
+      ]
+    },
+    {
+      "pathway": "coalitions_alliances",
+      "label": "Coalitions and alliances",
+      "exposure": 25.0,
+      "strength": 75.0,
+      "trend": "strengthening",
+      "pressures": [],
+      "levers": [
+        "Interfaith and cross-ideological coalitions on shared issues widen legitimacy",
+        "Sign-on letters and joint amicus briefs to multiply voice without new spend"
+      ]
+    },
+    {
+      "pathway": "membership_base",
+      "label": "Membership and adherent base",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Young-adult, family and multilingual programs where affiliation data show growth",
+        "Track affiliation surveys (Pew, PRRI, ARDA) and attendance as leading signposts"
+      ]
+    },
+    {
+      "pathway": "financial_resources",
+      "label": "Financial resources",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Diversify revenue: planned giving, endowment, donor-advised funds, online giving",
+        "Reserve policy sized to legal, demographic and policy shocks"
+      ]
+    },
+    {
+      "pathway": "legislative_lobbying",
+      "label": "Legislative and executive advocacy",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "rising",
+      "pressures": [],
+      "levers": [
+        "Register affiliates in-house for continuity and named-bill tracking",
+        "Shift effort to state legislatures and agency rulemaking when federal action stalls"
+      ]
+    },
+    {
+      "pathway": "legal_advocacy",
+      "label": "Legal advocacy and litigation",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Strategic litigation and amicus participation on religious-liberty and conscience cases",
+        "Compliance programs that pre-empt adverse rulings and settlements"
+      ]
+    },
+    {
+      "pathway": "media_public_salience",
+      "label": "Media and public salience",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Earned media built on service work rather than conflict coverage",
+        "Rapid, transparent response protocol for crises"
+      ]
+    },
+    {
+      "pathway": "digital_reach",
+      "label": "Digital and technological reach",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Streaming, podcasts and social channels; measured with audience data, not follower counts",
+        "Data-protection and AI-use policies for congregant data"
+      ]
+    },
+    {
+      "pathway": "land_and_property",
+      "label": "Land, property and environmental stewardship",
+      "exposure": 0.0,
+      "strength": 100.0,
+      "trend": "unknown",
+      "pressures": [],
+      "levers": [
+        "Mission-aligned property use: housing, schools, conservation easements",
+        "Climate and stewardship commitments that align with younger members"
+      ]
+    }
+  ],
+  "sponsorship_outlook": [
+    {
+      "label": "Budget/Appropriations advocacy",
+      "kind": "issue_area",
+      "score": 90.0,
+      "components": {
+        "persistence": 1.0,
+        "recency": 1.0,
+        "momentum": 0.5,
+        "corroboration": 1.0
+      },
+      "basis": [
+        "lobbied in 8/8 recent quarters (latest 2026 Q3)",
+        "announced/planned: FY2027 appropriations advocacy (Labor-HHS H.R. 9260, THUD H.R. 9170, Agriculture H.R. 8646, DHS H.R. 9310 incl. Emergency Food and Shelter Program)",
+        "upcoming: FY2027 continuing resolution (P.L. 119-103) expires; full-year appropriations or new CR needed (US Congress, deadline, 2026-12-11)",
+        "upcoming: H.R. 9260 Labor-HHS-Education Appropriations Act, 2027 (Head Start, nonprofit funding) (US Congress, pending)",
+        "upcoming: H.R. 8646 Agriculture-FDA Appropriations Act, 2027 (nutrition programs) (US Congress, pending)"
+      ],
+      "providers": [
+        "senate-lda",
+        "research-initiative",
+        "policy-calendar"
+      ],
+      "evidence_ids": [
+        "08f8ab707fa4c639",
+        "0e2827925bd4bf7b",
+        "349c4a8afdee57ed",
+        "3567630eca7cdf9b",
+        "8a7fc3d7fea038d9",
+        "c608191b579b46d3",
+        "cbc1e9661a8f45af",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "f514dd3b6bb783f3",
+        "5c6db3f5ef0537ea"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists BUD",
+        "FY2027 continuing resolution (P.L. 119-103) expires; full-year appropriations or new CR needed reaches next stage",
+        "H.R. 9260 Labor-HHS-Education Appropriations Act, 2027 (Head Start, nonprofit funding) reaches next stage"
+      ]
+    },
+    {
+      "label": "Housing advocacy",
+      "kind": "issue_area",
+      "score": 82.5,
+      "components": {
+        "persistence": 0.5,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 1.0
+      },
+      "basis": [
+        "lobbied in 4/8 recent quarters (latest 2026 Q3)",
+        "announced/planned: Surplus church property to affordable housing conversion ('The Promise of Place', YIGBY policy push)",
+        "announced/planned: Endorsement of Reducing Homelessness Through Program Reform Act (S. 2234)",
+        "announced/planned: Lobbying on Empty Lots to Housing Act (H.R. 3459)",
+        "upcoming: H.R. 9170 Transportation-HUD Appropriations Act, 2027 (US Congress, pending)",
+        "upcoming: HUD final rule on optional work requirements and term limits in assisted housing (RIN 2501-AE15); agenda projected 09/2026, not yet published (US HUD, final_rule_pending)",
+        "upcoming: 21st Century ROAD to Housing Act institutional-investor restriction takes effect (180 days after July 11, 2026 enactment) (United States (federal), implementation, 2027-01-07)"
+      ],
+      "providers": [
+        "senate-lda",
+        "research-initiative",
+        "policy-calendar"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "445bf70dbba5fad5",
+        "acefae587acdf9a1",
+        "1be37c876e810deb"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists HOU",
+        "H.R. 9170 Transportation-HUD Appropriations Act, 2027 reaches next stage",
+        "HUD final rule on optional work requirements and term limits in assisted housing (RIN 2501-AE15); agenda projected 09/2026, not yet published reaches next stage"
+      ]
+    },
+    {
+      "label": "Immigration advocacy",
+      "kind": "issue_area",
+      "score": 80.0,
+      "components": {
+        "persistence": 1.0,
+        "recency": 1.0,
+        "momentum": 0.5,
+        "corroboration": 0.5
+      },
+      "basis": [
+        "lobbied in 8/8 recent quarters (latest 2026 Q3)",
+        "announced/planned: Call for bipartisan immigration reform creating legal pathways"
+      ],
+      "providers": [
+        "senate-lda",
+        "research-initiative"
+      ],
+      "evidence_ids": [
+        "08f8ab707fa4c639",
+        "0e2827925bd4bf7b",
+        "349c4a8afdee57ed",
+        "3567630eca7cdf9b",
+        "8a7fc3d7fea038d9",
+        "c608191b579b46d3",
+        "cbc1e9661a8f45af",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "f514dd3b6bb783f3",
+        "623830526207243f"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists IMM"
+      ]
+    },
+    {
+      "label": "Taxation/Internal Revenue Code advocacy",
+      "kind": "issue_area",
+      "score": 70.0,
+      "components": {
+        "persistence": 1.0,
+        "recency": 1.0,
+        "momentum": 0.5,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "lobbied in 8/8 recent quarters (latest 2026 Q3)"
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "08f8ab707fa4c639",
+        "0e2827925bd4bf7b",
+        "349c4a8afdee57ed",
+        "3567630eca7cdf9b",
+        "8a7fc3d7fea038d9",
+        "c608191b579b46d3",
+        "cbc1e9661a8f45af",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "f514dd3b6bb783f3"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists TAX"
+      ]
+    },
+    {
+      "label": "H.R. 3459 (119th) (Housing): Empty Lots to Housing Act",
+      "kind": "named_bill",
+      "score": 70.0,
+      "components": {
+        "persistence": 1.0,
+        "recency": 1.0,
+        "momentum": 0.5,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 4/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2025-05-15: Referred to the Subcommittee on Highways and Transit."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "9eca95f27e8151f2"
+      ],
+      "signposts": [
+        "H.R. 3459 (119th) committee markup, floor vote or companion bill",
+        "H.R. 3459 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "S. 2234 (119th) (Budget/Appropriations, Housing): Reducing Homelessness Through Program Reform Act",
+      "kind": "named_bill",
+      "score": 70.0,
+      "components": {
+        "persistence": 1.0,
+        "recency": 1.0,
+        "momentum": 0.5,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 4/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2025-07-09: Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "349c4a8afdee57ed",
+        "3567630eca7cdf9b",
+        "8a7fc3d7fea038d9",
+        "cdbb833810507b68",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5",
+        "08be75651542f793"
+      ],
+      "signposts": [
+        "S. 2234 (119th) committee markup, floor vote or companion bill",
+        "S. 2234 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "Religion advocacy",
+      "kind": "issue_area",
+      "score": 63.7,
+      "components": {
+        "persistence": 0.25,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.5
+      },
+      "basis": [
+        "lobbied in 2/8 recent quarters (latest 2026 Q3)",
+        "announced/planned: Religious-freedom lobbying engagement via Mercury Public Affairs (new 2026 registration)"
+      ],
+      "providers": [
+        "senate-lda",
+        "research-initiative"
+      ],
+      "evidence_ids": [
+        "36864aedefe23eae",
+        "aee8be2b80c11fed",
+        "ec6ab132d2167762",
+        "f45a4ae9ea29bcc8"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists REL"
+      ]
+    },
+    {
+      "label": "H.R. 8646 (119th) (Budget/Appropriations): Agriculture, Rural Development, Food and Drug Administration, and Rela",
+      "kind": "named_bill",
+      "score": 62.5,
+      "components": {
+        "persistence": 0.5,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 2/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2026-06-08: Received in the Senate."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "f1112599eace7cf5",
+        "2a74a4d88ff6740b"
+      ],
+      "signposts": [
+        "H.R. 8646 (119th) committee markup, floor vote or companion bill",
+        "H.R. 8646 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "H.R. 9170 (119th) (Budget/Appropriations): Transportation, Housing and Urban Development, and Related Agencies Ap",
+      "kind": "named_bill",
+      "score": 62.5,
+      "components": {
+        "persistence": 0.5,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 2/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2026-06-05: Placed on the Union Calendar, Calendar No. 598."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "f1112599eace7cf5",
+        "983ebf280846d46f"
+      ],
+      "signposts": [
+        "H.R. 9170 (119th) committee markup, floor vote or companion bill",
+        "H.R. 9170 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "H.R. 9260 (119th) (Budget/Appropriations): Departments of Labor, Health and Human Services, and Education, and Re",
+      "kind": "named_bill",
+      "score": 62.5,
+      "components": {
+        "persistence": 0.5,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 2/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2026-06-11: Placed on the Union Calendar, Calendar No. 604."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "f1112599eace7cf5",
+        "a3a5d3631be9bcf9"
+      ],
+      "signposts": [
+        "H.R. 9260 (119th) committee markup, floor vote or companion bill",
+        "H.R. 9260 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "H.R. 9310 (119th) (Budget/Appropriations): Department of Homeland Security Appropriations Act, 2027",
+      "kind": "named_bill",
+      "score": 62.5,
+      "components": {
+        "persistence": 0.5,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "named in 2/4 recent quarterly filings (latest 2026 Q3)",
+        "latest action 2026-06-12: Placed on the Union Calendar, Calendar No. 605."
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "f1112599eace7cf5",
+        "c3da05b4e73cefa9"
+      ],
+      "signposts": [
+        "H.R. 9310 (119th) committee markup, floor vote or companion bill",
+        "H.R. 9310 (119th) still named in next LD-2"
+      ]
+    },
+    {
+      "label": "Labor Issues/Antitrust/Workplace advocacy",
+      "kind": "issue_area",
+      "score": 58.1,
+      "components": {
+        "persistence": 0.375,
+        "recency": 1.0,
+        "momentum": 1.0,
+        "corroboration": 0.0
+      },
+      "basis": [
+        "lobbied in 3/8 recent quarters (latest 2026 Q3)"
+      ],
+      "providers": [
+        "senate-lda"
+      ],
+      "evidence_ids": [
+        "3567630eca7cdf9b",
+        "eb052a8be7727d2b",
+        "f1112599eace7cf5"
+      ],
+      "signposts": [
+        "Next LD-2 (quarter 2026 Q4) lists LBR"
+      ]
+    },
+    {
+      "label": "2026 national 'spread hope' advertising campaign (three phases: spring, summer, fall)",
+      "kind": "media",
+      "score": 47.5,
+      "components": {
+        "persistence": 0.0,
+        "recency": 0.7,
+        "momentum": 0.5,
+        "corroboration": 1.0
+      },
+      "basis": [
+        "ongoing (verified)"
+      ],
+      "providers": [
+        "research-initiative"
+      ],
+      "evidence_ids": [
+        "0cee0a21b6a1bb0a"
+      ],
+      "signposts": [
+        "Public launch, budget line or partner announcement for 2026 national 'spread hope' advertising campaign (three phases: spring, summer, fall)"
+      ]
+    },
+    {
+      "label": "Hub-and-spoke food and disaster-supply warehouse network",
+      "kind": "program",
+      "score": 47.5,
+      "components": {
+        "persistence": 0.0,
+        "recency": 0.7,
+        "momentum": 0.5,
+        "corroboration": 1.0
+      },
+      "basis": [
+        "ongoing (verified)"
+      ],
+      "providers": [
+        "research-initiative"
+      ],
+      "evidence_ids": [
+        "47497886130956c8"
+      ],
+      "signposts": [
+        "Public launch, budget line or partner announcement for Hub-and-spoke food and disaster-supply warehouse network"
+      ]
+    },
+    {
+      "label": "Hurricane Isaias disaster relief fund",
+      "kind": "program",
+      "score": 47.5,
+      "components": {
+        "persistence": 0.0,
+        "recency": 0.7,
+        "momentum": 0.5,
+        "corroboration": 1.0
+      },
+      "basis": [
+        "ongoing (verified)"
+      ],
+      "providers": [
+        "research-initiative"
+      ],
+      "evidence_ids": [
+        "e431bd2e66718ae2"
+      ],
+      "signposts": [
+        "Public launch, budget line or partner announcement for Hurricane Isaias disaster relief fund"
+      ]
+    }
+  ],
+  "lobbied_bills_enacted": [
+    {
+      "bill": "H.R. 1 (119th)",
+      "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+      "public_law": "119-21",
+      "date": "2025-07-04",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1",
+      "superseded_companions": []
+    },
+    {
+      "bill": "H.R. 6644 (119th)",
+      "title": "21st Century ROAD to Housing Act",
+      "public_law": "119-101",
+      "date": "2026-07-11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
+      "superseded_companions": [
+        "H.R. 6337 (119th)",
+        "S. 2651 (119th)"
+      ]
+    },
+    {
+      "bill": "H.R. 7148 (119th)",
+      "title": "Consolidated Appropriations Act, 2026",
+      "public_law": "119-75",
+      "date": "2026-02-03",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7148",
+      "superseded_companions": []
+    }
+  ],
+  "sat": {
+    "ach": {
+      "hypotheses": {
+        "H1": "Expansion: growing resources and widening public-policy engagement",
+        "H2": "Consolidation: stable resources, defending a core issue set",
+        "H3": "Retrenchment: shrinking resources or salience, narrowing engagement",
+        "H4": "Realignment: shifting issues or partners while resources hold"
+      },
+      "indicators": {
+        "lobby_spend_rising": true,
+        "issue_set_widening": true,
+        "issue_set_turnover": true,
+        "revenue_growing": null,
+        "media_rising": null,
+        "membership_weakening": null
+      },
+      "inconsistency": {
+        "H1": 0,
+        "H2": 2,
+        "H3": 2,
+        "H4": 0
+      },
+      "leading": null,
+      "tied": [
+        "H1",
+        "H4"
+      ],
+      "note": "ACH ranks hypotheses by how much evidence contradicts them; it is analyst judgment, not probability. Tie between H1, H4; collect the missing indicators before preferring one."
+    },
+    "key_assumptions": [
+      {
+        "assumption": "Past disclosed lobbying predicts the next sponsorship focus",
+        "status": "supported",
+        "basis": "8/8 quarters"
+      },
+      {
+        "assumption": "Disclosed activity represents the whole organization",
+        "status": "untested",
+        "basis": "church bodies are LDA-exempt; 501(c)(3)s cannot campaign; giving by individual members is not attributed"
+      },
+      {
+        "assumption": "Financial data are current",
+        "status": "untested",
+        "basis": "no Form 990 data"
+      },
+      {
+        "assumption": "The news query matches this organization and not namesakes",
+        "status": "untested",
+        "basis": "query: '\"Catholic Charities USA\"'; verify a sample of articles"
+      }
+    ],
+    "red_team": [
+      "No single posture survives: H1, H4 are equally consistent with the evidence."
+    ],
+    "premortem": [
+      "Undisclosed channels (church-exempt lobbying, member-level giving, dark-money vehicles) carry the real priorities",
+      "A leadership change or doctrinal decision re-sets priorities faster than quarterly filings reveal",
+      "A court ruling or regulation (tax exemption, funding eligibility) forces a defensive pivot",
+      "GDELT news timeline unavailable (rate limit or no coverage); media checks are UNKNOWN"
+    ],
+    "signposts": [
+      "Next LD-2 (quarter 2026 Q4) lists BUD",
+      "Next LD-2 (quarter 2026 Q4) lists HOU",
+      "Next LD-2 (quarter 2026 Q4) lists IMM",
+      "Next LD-2 (quarter 2026 Q4) lists TAX",
+      "H.R. 3459 (119th) committee markup, floor vote or companion bill",
+      "S. 2234 (119th) committee markup, floor vote or companion bill",
+      "Institutional trust and governance: watch for reversal of the weakening trend",
+      "Government grants and contracts: watch for reversal of the declining trend"
+    ]
+  },
+  "gaps": [
+    "no machine-readable Form 990 financials for Catholic Charities USA (EIN 530196620) on ProPublica",
+    "GDELT news timeline unavailable (rate limit or no coverage); media checks are UNKNOWN"
+  ],
+  "evidence": {
+    "f514dd3b6bb783f3": {
+      "id": "f514dd3b6bb783f3",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2024 Q1: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 2 (118th), H.R. 2882 (118th), H.R. 4664 (118th), H.R. 4820 (118th), H.R. 5894 (118th), S. 2309 (118th)",
+      "source_url": "https://lda.gov/filings/public/filing/e265900a-3e55-4ab7-a417-723997ea315a/print/",
+      "source_title": "LD-2 Q1 2024 Q1",
+      "published_date": "2024-04-17",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "0e2827925bd4bf7b": {
+      "id": "0e2827925bd4bf7b",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2024 Q2: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 2 (118th), H.R. 8752 (118th), H.R. 8773 (118th), H.R. 9027 (118th), H.R. 9028 (118th), H.R. 9029 (118th)",
+      "source_url": "https://lda.gov/filings/public/filing/5cd98887-356e-49e6-9e9a-0cc652c4be9b/print/",
+      "source_title": "LD-2 Q2 2024 Q2",
+      "published_date": "2024-07-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "08f8ab707fa4c639": {
+      "id": "08f8ab707fa4c639",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2024 Q3: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 2 (118th), H.R. 8752 (118th), H.R. 8773 (118th), H.R. 9027 (118th), H.R. 9028 (118th), H.R. 9029 (118th)",
+      "source_url": "https://lda.gov/filings/public/filing/4d6a0f20-9221-4e95-80e7-0b7d64d02ee8/print/",
+      "source_title": "LD-2 Q3 2024 Q3",
+      "published_date": "2024-10-17",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "cbc1e9661a8f45af": {
+      "id": "cbc1e9661a8f45af",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2024 Q4: Budget/Appropriations, Immigration, Law Enforcement/Crime/Criminal Justice, Taxation/Internal Revenue Code ($30,000); bills: H.R. 2 (118th), H.R. 5893 (118th), H.R. 8028 (118th), H.R. 8752 (118th), H.R. 8773 (118th), H.R. 9026 (118th)",
+      "source_url": "https://lda.gov/filings/public/filing/f780ce0e-56cb-4846-8d41-bb89faf45d04/print/",
+      "source_title": "LD-2 Q4 2024 Q4",
+      "published_date": "2025-01-21",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "LAW",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "c608191b579b46d3": {
+      "id": "c608191b579b46d3",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2025 Q1: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1968 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/6866fca2-a0e6-4b05-8103-cfe6a77e43a7/print/",
+      "source_title": "LD-2 Q1 2025 Q1",
+      "published_date": "2025-04-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "8a7fc3d7fea038d9": {
+      "id": "8a7fc3d7fea038d9",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2025 Q2: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), S. 2234 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/cee850db-adee-4cdd-8f57-a44cd542bedf/print/",
+      "source_title": "LD-2 Q2 2025 Q2",
+      "published_date": "2025-07-21",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "349c4a8afdee57ed": {
+      "id": "349c4a8afdee57ed",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2025 Q3: Budget/Appropriations, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), H.R. 4121 (119th), H.R. 4213 (119th), H.R. 4552 (119th), H.R. 5304 (119th), H.R. 5342 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/9c8bac79-2441-432e-a97f-3b78ca05d461/print/",
+      "source_title": "LD-2 Q3 2025 Q3",
+      "published_date": "2025-10-20",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "cdbb833810507b68": {
+      "id": "cdbb833810507b68",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2025 Q4: Budget/Appropriations, Housing, Immigration, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), H.R. 3459 (119th), H.R. 4121 (119th), H.R. 4213 (119th), H.R. 4552 (119th), H.R. 5304 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/8afe5c95-09f5-4a44-b757-7a4e2cba1554/print/",
+      "source_title": "LD-2 Q4 2025 Q4",
+      "published_date": "2026-01-20",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "HOU",
+        "IMM",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "eb052a8be7727d2b": {
+      "id": "eb052a8be7727d2b",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2026 Q1: Budget/Appropriations, Housing, Immigration, Labor Issues/Antitrust/Workplace, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), H.R. 3459 (119th), H.R. 4121 (119th), H.R. 4213 (119th), H.R. 4552 (119th), H.R. 5304 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/88b31ff6-441c-4a9b-a111-3e1f9cd64764/print/",
+      "source_title": "LD-2 Q1 2026 Q1",
+      "published_date": "2026-04-17",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "HOU",
+        "IMM",
+        "LBR",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "ec6ab132d2167762": {
+      "id": "ec6ab132d2167762",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via MERCURY PUBLIC AFFAIRS, LLC in 2026 Q2: Religion (amount not reported)",
+      "source_url": "https://lda.gov/filings/public/filing/47a6a874-b668-4c91-9fef-09eae1aeb0bd/print/",
+      "source_title": "LD-2 RR 2026 Q2",
+      "published_date": "2026-08-12",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "REL"
+      ],
+      "amount": null
+    },
+    "aee8be2b80c11fed": {
+      "id": "aee8be2b80c11fed",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via MERCURY PUBLIC AFFAIRS, LLC in 2026 Q2: Religion ($30,000)",
+      "source_url": "https://lda.gov/filings/public/filing/d6b6351c-7a71-47d7-8fd6-621f68379057/print/",
+      "source_title": "LD-2 Q2 2026 Q2",
+      "published_date": "2026-08-17",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "REL"
+      ],
+      "amount": 30000.0
+    },
+    "f1112599eace7cf5": {
+      "id": "f1112599eace7cf5",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2026 Q2: Budget/Appropriations, Housing, Immigration, Labor Issues/Antitrust/Workplace, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), H.R. 3459 (119th), H.R. 6337 (119th), H.R. 6644 (119th), H.R. 7148 (119th), H.R. 8646 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/de07aa1a-6c1f-4ebf-af5e-2341a213ee79/print/",
+      "source_title": "LD-2 Q2 2026 Q2",
+      "published_date": "2026-07-18",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "HOU",
+        "IMM",
+        "LBR",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "3567630eca7cdf9b": {
+      "id": "3567630eca7cdf9b",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via ARENTFOX SCHIFF LLP in 2026 Q3: Budget/Appropriations, Housing, Immigration, Labor Issues/Antitrust/Workplace, Taxation/Internal Revenue Code ($30,000); bills: H.R. 1 (119th), H.R. 3459 (119th), H.R. 6337 (119th), H.R. 7148 (119th), H.R. 8646 (119th), H.R. 9170 (119th)",
+      "source_url": "https://lda.gov/filings/public/filing/78974ee3-cea9-4694-ab1e-60a340fb55de/print/",
+      "source_title": "LD-2 Q3 2026 Q3",
+      "published_date": "2026-10-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "BUD",
+        "HOU",
+        "IMM",
+        "LBR",
+        "TAX"
+      ],
+      "amount": 30000.0
+    },
+    "36864aedefe23eae": {
+      "id": "36864aedefe23eae",
+      "provider": "senate-lda",
+      "claim": "CATHOLIC CHARITIES USA lobbying via MERCURY PUBLIC AFFAIRS, LLC in 2026 Q3: Religion ($30,000)",
+      "source_url": "https://lda.gov/filings/public/filing/e5e1481e-afa5-4c8f-b39e-319535e40447/print/",
+      "source_title": "LD-2 Q3 2026 Q3",
+      "published_date": "2026-10-18",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "REL"
+      ],
+      "amount": 30000.0
+    },
+    "386b694eadd817c7": {
+      "id": "386b694eadd817c7",
+      "provider": "usaspending",
+      "claim": "Federal grant $1,125,000 from Department of Justice to CATHOLIC CHARITIES USA (name-matched; verify recipient): CATHOLIC CHARITIES USA (CCUSA), THE MEMBERSHIP ASSOCIATION FOR LOCAL CATHOLIC CHARITIES AGENCIES, WILL PROVIDE EVIDENCE-",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_15PJDP24GG03836MENT_015",
+      "source_title": "USAspending 15PJDP24GG03836MENT",
+      "published_date": "2024-10-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 1125000.0
+    },
+    "8e4761e55cd6d746": {
+      "id": "8e4761e55cd6d746",
+      "provider": "usaspending",
+      "claim": "Federal grant $1,000,000 from Department of Justice to CATHOLIC CHARITIES USA (name-matched; verify recipient): CCUSA TRAUMA INFORMED YOUTH MENTORING PROGRAM",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_15PJDP21GG03594MENT_015",
+      "source_title": "USAspending 15PJDP21GG03594MENT",
+      "published_date": "2021-10-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 1000000.0
+    },
+    "8ac733c124210e5e": {
+      "id": "8ac733c124210e5e",
+      "provider": "usaspending",
+      "claim": "Federal grant $659,444 from Department of Housing and Urban Development to CATHOLIC CHARITIES USA (name-matched; verify recipient): PURPOSE: THE PURPOSE OF HUD\u2019S COMPREHENSIVE HOUSING COUNSELING (CHC) GRANT IS TO PROVIDE DIRECT FUNDING SUPPORT TO HUD\u2019S",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_HC240011019_086",
+      "source_title": "USAspending HC240011019",
+      "published_date": "2024-10-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 659444.0
+    },
+    "a1d8cf4bd4b6e64a": {
+      "id": "a1d8cf4bd4b6e64a",
+      "provider": "usaspending",
+      "claim": "Federal grant $550,306 from Corporation for National and Community Service to CATHOLIC CHARITIES USA (name-matched; verify recipient): THIS AWARD FUNDS THE APPROVED 2022?23 PUBLIC HEALTH AMERICORPS PROGRAM. NO MEMBER MAY ENROLL PRIOR TO THE APPROVED START",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_22NDBVA002_485",
+      "source_title": "USAspending 22NDBVA002",
+      "published_date": "2022-06-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 550306.0
+    },
+    "3f3e2614da391577": {
+      "id": "3f3e2614da391577",
+      "provider": "usaspending",
+      "claim": "Federal grant $533,551 from Department of Housing and Urban Development to CATHOLIC CHARITIES USA (name-matched; verify recipient): PURPOSE: THE PURPOSE OF HUD\u2019S COMPREHENSIVE HOUSING COUNSELING (CHC) GRANT IS TO PROVIDE DIRECT FUNDING SUPPORT TO HUD\u2019S",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_HC230011027_086",
+      "source_title": "USAspending HC230011027",
+      "published_date": "2023-10-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 533551.0
+    },
+    "de3857b28dfccbee": {
+      "id": "de3857b28dfccbee",
+      "provider": "usaspending",
+      "claim": "Federal grant $295,201 from Corporation for National and Community Service to CATHOLIC CHARITIES USA (name-matched; verify recipient): THE MISSION OF CATHOLIC CHARITIES IS TO PROVIDE SERVICE TO PEOPLE IN NEED, TO ADVOCATE FOR JUSTICE IN SOCIAL STRUCTURES,",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_15VSANJ007_485",
+      "source_title": "USAspending 15VSANJ007",
+      "published_date": "2016-10-30",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 295201.23
+    },
+    "73bd040e38d82402": {
+      "id": "73bd040e38d82402",
+      "provider": "usaspending",
+      "claim": "Federal grant $253,080 from Corporation for National and Community Service to CATHOLIC CHARITIES USA (name-matched; verify recipient): THE CATHOLIC CHARITIES USA PROPOSES TO HAVE NINE AMERICORPS MEMBERS WHO WILL TEACH NUTRITION EDUCATION IN OVERLAND PARK,",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_19NDHVA001_485",
+      "source_title": "USAspending 19NDHVA001",
+      "published_date": "2019-07-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 253079.98
+    },
+    "19ea5bc23bbeb588": {
+      "id": "19ea5bc23bbeb588",
+      "provider": "usaspending",
+      "claim": "Federal grant $220,748 from Corporation for National and Community Service to CATHOLIC CHARITIES USA (name-matched; verify recipient): CATHOLIC CHARITIES USA PROPOSES TO HAVE FOURTEEN AMERICORPS MEMBERS WHO WILL TEACH FINANCIAL EDUCATION PROGRAMS TO LOW-I",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_20NDHVA002_485",
+      "source_title": "USAspending 20NDHVA002",
+      "published_date": "2020-09-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 220747.76
+    },
+    "75a0b7c6af8c4c4a": {
+      "id": "75a0b7c6af8c4c4a",
+      "provider": "usaspending",
+      "claim": "Federal grant $208,449 from Corporation for National and Community Service to CATHOLIC CHARITIES USA (name-matched; verify recipient): CATHOLIC CHARITIES USA PROPOSES TO HAVE 21 AMERICORPS MEMBERS WHO WILL PROVIDE DISASTER CASE MANAGEMENT SUPPORTIVE SERVI",
+      "source_url": "https://www.usaspending.gov/award/ASST_NON_21NDBVA001_485",
+      "source_title": "USAspending 21NDBVA001",
+      "published_date": "2021-08-01",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 208449.42
+    },
+    "ad44ed2a45f7a99b": {
+      "id": "ad44ed2a45f7a99b",
+      "provider": "usaspending",
+      "claim": "Federal contract $2,947,434 from Department of Health and Human Services to CATHOLIC CHARITIES USA (name-matched; verify recipient): IGF::OT::IGF FOR OTHER FUNCTIONS",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP23337011T_7555_HHSP23320092901YI_7555",
+      "source_title": "USAspending HHSP23337011T",
+      "published_date": "2012-11-08",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 2947434.04
+    },
+    "27bf2cafe31c6fa3": {
+      "id": "27bf2cafe31c6fa3",
+      "provider": "usaspending",
+      "claim": "Federal contract $1,377,298 from Department of Health and Human Services to CATHOLIC CHARITIES USA (name-matched; verify recipient): OBLIGATION FOR TASK ORDER  3 ON CONTRACT HHSP233-2009-2901YI FOR CONTINUED SUPPORT FOR DCM  INFRASTRUCTURE  SCREENING  T",
+      "source_url": "https://www.usaspending.gov/award/CONT_AWD_HHSP23337004T_7555_HHSP23320092901YI_7555",
+      "source_title": "USAspending HHSP23337004T",
+      "published_date": "2011-09-30",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships",
+        "institutional_services"
+      ],
+      "tags": [],
+      "amount": 1377298.1
+    },
+    "baf680d3e899b682": {
+      "id": "baf680d3e899b682",
+      "provider": "congress-gov",
+      "claim": "H.R. 1 (119th) An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.: latest action 2025-07-04 - Became Public Law No: 119-21.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/1",
+      "source_title": "congress.gov H.R. 1 (119th)",
+      "published_date": "2025-07-04",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "9eca95f27e8151f2": {
+      "id": "9eca95f27e8151f2",
+      "provider": "congress-gov",
+      "claim": "H.R. 3459 (119th) Empty Lots to Housing Act: latest action 2025-05-15 - Referred to the Subcommittee on Highways and Transit.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/3459",
+      "source_title": "congress.gov H.R. 3459 (119th)",
+      "published_date": "2025-05-15",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "08be75651542f793": {
+      "id": "08be75651542f793",
+      "provider": "congress-gov",
+      "claim": "S. 2234 (119th) Reducing Homelessness Through Program Reform Act: latest action 2025-07-09 - Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2234",
+      "source_title": "congress.gov S. 2234 (119th)",
+      "published_date": "2025-07-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "1c41bd078b044424": {
+      "id": "1c41bd078b044424",
+      "provider": "congress-gov",
+      "claim": "S. 2651 (119th) ROAD to Housing Act of 2025: latest action 2025-08-01 - Placed on Senate Legislative Calendar under General Orders. Calendar No. 143.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2651",
+      "source_title": "congress.gov S. 2651 (119th)",
+      "published_date": "2025-08-01",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "26e7438e6551c618": {
+      "id": "26e7438e6551c618",
+      "provider": "congress-gov",
+      "claim": "H.R. 6337 (119th) ROAD to Housing Act of 2025: latest action 2026-05-20 - Referred to the Subcommittee on Commodity Markets, Digital Assets, and Rural Development.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/6337",
+      "source_title": "congress.gov H.R. 6337 (119th)",
+      "published_date": "2026-05-20",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "4351bbc690cafc93": {
+      "id": "4351bbc690cafc93",
+      "provider": "congress-gov",
+      "claim": "H.R. 7148 (119th) Consolidated Appropriations Act, 2026: latest action 2026-02-03 - Became Public Law No: 119-75.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/7148",
+      "source_title": "congress.gov H.R. 7148 (119th)",
+      "published_date": "2026-02-03",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "31476b1106db556d": {
+      "id": "31476b1106db556d",
+      "provider": "congress-gov",
+      "claim": "H.R. 4121 (119th) Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2026: latest action 2025-06-25 - Placed on the Union Calendar, Calendar No. 138.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/4121",
+      "source_title": "congress.gov H.R. 4121 (119th)",
+      "published_date": "2025-06-25",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "3946e084dfb4b447": {
+      "id": "3946e084dfb4b447",
+      "provider": "congress-gov",
+      "claim": "H.R. 4213 (119th) Department of Homeland Security Appropriations Act, 2026: latest action 2025-06-26 - Placed on the Union Calendar, Calendar No. 139.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/4213",
+      "source_title": "congress.gov H.R. 4213 (119th)",
+      "published_date": "2025-06-26",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "031270742227783e": {
+      "id": "031270742227783e",
+      "provider": "congress-gov",
+      "claim": "H.R. 4552 (119th) Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026: latest action 2025-07-21 - Placed on the Union Calendar, Calendar No. 172.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/4552",
+      "source_title": "congress.gov H.R. 4552 (119th)",
+      "published_date": "2025-07-21",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "fa32a8b3d6107b02": {
+      "id": "fa32a8b3d6107b02",
+      "provider": "congress-gov",
+      "claim": "H.R. 5304 (119th) Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026: latest action 2025-09-11 - Placed on the Union Calendar, Calendar No. 227.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/5304",
+      "source_title": "congress.gov H.R. 5304 (119th)",
+      "published_date": "2025-09-11",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "12f651fd94b61acb": {
+      "id": "12f651fd94b61acb",
+      "provider": "congress-gov",
+      "claim": "H.R. 5342 (119th) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026: latest action 2025-09-12 - Placed on the Union Calendar, Calendar No. 228.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/5342",
+      "source_title": "congress.gov H.R. 5342 (119th)",
+      "published_date": "2025-09-12",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "3f761fde0662878e": {
+      "id": "3f761fde0662878e",
+      "provider": "congress-gov",
+      "claim": "S. 2256 (119th) Agriculture, Rural Development, Food and Drug Administration, and Related Agencies Appropriations Act, 2026: latest action 2025-07-10 - Placed on Senate Legislative Calendar under General Orders. Calendar No. 112.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2256",
+      "source_title": "congress.gov S. 2256 (119th)",
+      "published_date": "2025-07-10",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "de81c425bda4cd00": {
+      "id": "de81c425bda4cd00",
+      "provider": "congress-gov",
+      "claim": "S. 2354 (119th) Commerce, Justice, Science, and Related Agencies Appropriations Act, 2026: latest action 2025-07-17 - Placed on Senate Legislative Calendar under General Orders. Calendar No. 122.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2354",
+      "source_title": "congress.gov S. 2354 (119th)",
+      "published_date": "2025-07-17",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "43bc0dd5b5b15e7a": {
+      "id": "43bc0dd5b5b15e7a",
+      "provider": "congress-gov",
+      "claim": "S. 2465 (119th) Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2026: latest action 2025-07-24 - Placed on Senate Legislative Calendar under General Orders. Calendar No. 125.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2465",
+      "source_title": "congress.gov S. 2465 (119th)",
+      "published_date": "2025-07-24",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "1136874441e9735d": {
+      "id": "1136874441e9735d",
+      "provider": "congress-gov",
+      "claim": "S. 2587 (119th) Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026: latest action 2025-07-31 - Placed on Senate Legislative Calendar under General Orders. Calendar No. 140.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/2587",
+      "source_title": "congress.gov S. 2587 (119th)",
+      "published_date": "2025-07-31",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "ea8939e315423d42": {
+      "id": "ea8939e315423d42",
+      "provider": "congress-gov",
+      "claim": "H.R. 6644 (119th) 21st Century ROAD to Housing Act: latest action 2026-07-11 - Became Public Law No: 119-101.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/6644",
+      "source_title": "congress.gov H.R. 6644 (119th)",
+      "published_date": "2026-07-11",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "2a74a4d88ff6740b": {
+      "id": "2a74a4d88ff6740b",
+      "provider": "congress-gov",
+      "claim": "H.R. 8646 (119th) Agriculture, Rural Development, Food and Drug Administration, and Related Agency Appropriations Act, 2027: latest action 2026-06-08 - Received in the Senate.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/8646",
+      "source_title": "congress.gov H.R. 8646 (119th)",
+      "published_date": "2026-06-08",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "983ebf280846d46f": {
+      "id": "983ebf280846d46f",
+      "provider": "congress-gov",
+      "claim": "H.R. 9170 (119th) Transportation, Housing and Urban Development, and Related Agencies Appropriations Act, 2027: latest action 2026-06-05 - Placed on the Union Calendar, Calendar No. 598.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9170",
+      "source_title": "congress.gov H.R. 9170 (119th)",
+      "published_date": "2026-06-05",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "a3a5d3631be9bcf9": {
+      "id": "a3a5d3631be9bcf9",
+      "provider": "congress-gov",
+      "claim": "H.R. 9260 (119th) Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2027: latest action 2026-06-11 - Placed on the Union Calendar, Calendar No. 604.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9260",
+      "source_title": "congress.gov H.R. 9260 (119th)",
+      "published_date": "2026-06-11",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "c3da05b4e73cefa9": {
+      "id": "c3da05b4e73cefa9",
+      "provider": "congress-gov",
+      "claim": "H.R. 9310 (119th) Department of Homeland Security Appropriations Act, 2027: latest action 2026-06-12 - Placed on the Union Calendar, Calendar No. 605.",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9310",
+      "source_title": "congress.gov H.R. 9310 (119th)",
+      "published_date": "2026-06-12",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "9d2776e2287b06b6": {
+      "id": "9d2776e2287b06b6",
+      "provider": "research-agent",
+      "claim": "CCUSA's FY2025 annual report states the network's 169 member agencies served more than 16 million people through 4,230 service sites in all 50 states, D.C. and five U.S. territories; later 2026 releases describe membership as 170 diocesan agencies.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "social",
+      "pathways": [
+        "membership_base"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "68cc8b7485eeb98d": {
+      "id": "68cc8b7485eeb98d",
+      "provider": "research-agent",
+      "claim": "Network service scale reported for FY2025: more than 30 million meals, 3.2 million nights of emergency shelter, 201,000 people receiving emergency housing services, 64,000 clients trained and placed in jobs, and 108 agencies providing pregnancy support.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "social",
+      "pathways": [
+        "institutional_services"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "3c11bcc794d57688": {
+      "id": "3c11bcc794d57688",
+      "provider": "research-agent",
+      "claim": "Audited FY2025 (year ending June 30, 2025) figures for the national office: total revenue $71.5M, of which contributions were $58.8M, federal grants only $3.0M (about 4%) and membership dues $1.7M; total expenses $56.0M; net assets rose $15.5M. In-kind donations of about $30M are excluded. Analyst note: the national office's low federal dependence insulates it from grant cuts, even though member agencies are more exposed.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report (financial summary)",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "economic",
+      "pathways": [
+        "financial_resources"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "02c0db994a68b790": {
+      "id": "02c0db994a68b790",
+      "provider": "research-agent",
+      "claim": "After the January 2025 federal freeze on refugee resettlement funding, at least a dozen Catholic Charities agencies from Florida to California laid off hundreds of employees, and some closed their refugee resettlement programs entirely.",
+      "source_url": "https://www.ncronline.org/news/catholic-charities-agencies-halt-refugee-programs-wake-us-aid-freeze",
+      "source_title": "Catholic Charities agencies halt refugee programs in wake of US aid freeze (National Catholic Reporter)",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "weakens",
+      "dimension": "economic",
+      "pathways": [
+        "federal_partnerships"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "2a874e99b580b57f": {
+      "id": "2a874e99b580b57f",
+      "provider": "research-agent",
+      "claim": "The State Department terminated the USCCB's refugee resettlement cooperative agreement in February 2025. USCCB, the Catholic partner in the U.S. Refugee Admissions Program whose local resettlement work was carried out largely by diocesan Catholic Charities agencies, agreed to wind down its participation, laid off about a third of its Migration and Refugee Services staff, and voluntarily dismissed its lawsuit in January 2026 after recovering funds it was owed (more than $24M as of April 2025).",
+      "source_url": "https://www.osvnews.com/us-bishops-end-lawsuit-against-trump-administration-over-refugee-resettlement/",
+      "source_title": "US bishops end lawsuit against Trump administration over refugee resettlement (OSV News)",
+      "published_date": "2026-02-25",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "dimension": "political",
+      "pathways": [
+        "federal_partnerships"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "a92838435d4afc9c": {
+      "id": "a92838435d4afc9c",
+      "provider": "research-agent",
+      "claim": "In Catholic Charities Bureau, Inc. v. Wisconsin Labor & Industry Review Commission (No. 24-154), the U.S. Supreme Court ruled 9-0 that denying a diocesan Catholic Charities entity a religious unemployment-tax exemption because it neither proselytizes nor serves only Catholics is an unconstitutional denominational preference. The ruling strengthens the legal footing of the network's nonsectarian service model.",
+      "source_url": "https://www.supremecourt.gov/opinions/24pdf/24-154_2b82.pdf",
+      "source_title": "Catholic Charities Bureau, Inc. v. Wisconsin Labor & Industry Review Comm'n, 605 U.S. ___ (2025)",
+      "published_date": "2025-06-05",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "legal",
+      "pathways": [
+        "legal_advocacy"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "f3f2fb81ef75b85c": {
+      "id": "f3f2fb81ef75b85c",
+      "provider": "research-agent",
+      "claim": "Catholic Charities of the Diocese of Fort Worth sued HHS in March 2025 (No. 1:25-cv-00605, D.D.C.) over frozen refugee-program funds. After HHS resumed payments (more than $47M was paid following a program-integrity review), the case was dismissed as moot on April 29, 2025. This shows member agencies can use litigation to restore federal payments.",
+      "source_url": "https://clearinghouse.net/case/46189/",
+      "source_title": "Catholic Charities Diocese of Fort Worth, Inc. v. DHHS (Civil Rights Litigation Clearinghouse)",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "legal",
+      "pathways": [
+        "legal_advocacy"
+      ],
+      "tags": [
+        "Texas, United States"
+      ],
+      "amount": null
+    },
+    "55b4f98aa8849f6b": {
+      "id": "55b4f98aa8849f6b",
+      "provider": "research-agent",
+      "claim": "On June 11, 2025, the House Homeland Security Committee chair and its oversight subcommittee chair opened an investigation into more than 200 NGOs over taxpayer-funded services to migrants. Catholic Charities USA and USCCB were named among the recipients of document requests.",
+      "source_url": "https://homeland.house.gov/2025/06/11/chairmen-green-brecheen-launch-probe-into-200-ngos-over-their-use-of-taxpayer-dollars-during-the-biden-harris-border-crisis/",
+      "source_title": "Chairmen Green, Brecheen Launch Probe into 200+ NGOs (House Committee on Homeland Security)",
+      "published_date": "2025-06-11",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "dimension": "political",
+      "pathways": [
+        "institutional_trust"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "68bbbf412e3a0766": {
+      "id": "68bbbf412e3a0766",
+      "provider": "research-agent",
+      "claim": "Catholic Charities of the Rio Grande Valley, a member agency, was reported in late 2025 to be suspended from federal funds and facing a six-year debarment after a DHS review of FEMA migrant-shelter grant records. The reports rest on DHS documents shared with Fox News. The agency said it is working to regain eligibility and comply with grant requirements.",
+      "source_url": "https://www.texastribune.org/2025/12/12/texas-catholic-charities-rio-grande-valley-federal-funding-freeze/",
+      "source_title": "Trump administration freezes federal funding for South Texas migrant shelter (Texas Tribune)",
+      "published_date": "2025-12-12",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "weakens",
+      "dimension": "legal",
+      "pathways": [
+        "institutional_trust"
+      ],
+      "tags": [
+        "Texas, United States"
+      ],
+      "amount": null
+    },
+    "4c9de8a893462e78": {
+      "id": "4c9de8a893462e78",
+      "provider": "research-agent",
+      "claim": "At a July 2025 House Homeland Security hearing on NGOs and the border, some Republicans accused Catholic Charities of facilitating illegal immigration, while Democrats and some Republicans defended its work. CCUSA responded by welcoming the 'bipartisan compliments'. Catholic Charities' public salience on immigration is therefore high and polarized.",
+      "source_url": "https://religionnews.com/2025/07/17/at-tense-hearing-gop-attacks-immigrant-aid-groups-and-fends-off-accusations-of-anti-catholicism/",
+      "source_title": "At tense hearing, GOP attacks immigrant aid groups and fends off accusations of anti-Catholicism (RNS)",
+      "published_date": "2025-07-17",
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "media_public_salience"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "40d526f200112c84": {
+      "id": "40d526f200112c84",
+      "provider": "research-agent",
+      "claim": "Staff at several Catholic Charities agencies (San Diego, Laredo, Southwestern Ohio) received threats after online videos and influencer campaigns targeting their migrant services; Catholic Charities San Diego hired armed guards. These security costs and risks strain local operations.",
+      "source_url": "https://www.ncronline.org/news/threats-catholic-charities-staffers-rise-amid-far-right-anti-migrant-campaign",
+      "source_title": "Threats to Catholic Charities staffers rise amid far-right anti-migrant campaign (National Catholic Reporter)",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "weakens",
+      "dimension": "military",
+      "pathways": [
+        "institutional_trust"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "bbb704122bdadb00": {
+      "id": "bbb704122bdadb00",
+      "provider": "research-agent",
+      "claim": "CCUSA endorsed and lobbied for the ROAD to Housing Act. The final vehicle, H.R. 6644 (21st Century ROAD to Housing Act), passed the House 358-32 on June 23, 2026 and became Public Law 119-101 on July 11, 2026 without the President's signature. CCUSA publicly praised its LIHTC, HOME, CDBG and homelessness-program provisions.",
+      "source_url": "https://www.congress.gov/119/plaws/publ101/PLAW-119publ101.htm",
+      "source_title": "Public Law 119-101 (21st Century ROAD to Housing Act)",
+      "published_date": "2026-07-11",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "28cd907941c01032": {
+      "id": "28cd907941c01032",
+      "provider": "research-agent",
+      "claim": "CCUSA has retained ArentFox Schiff LLP since at least 2024 ($30,000 reported per quarter), lobbying on BUD, HOU, IMM, TAX and LBR. In Q2 2026 it added a second outside firm, Mercury Public Affairs ($30,000 per quarter), lobbying on REL ('religious freedom'). LDA records show no in-house registration. The Q3 2026 report names the FY2027 Labor-HHS (H.R. 9260), THUD (H.R. 9170), Agriculture (H.R. 8646) and DHS (H.R. 9310) appropriations bills, the Empty Lots to Housing Act (H.R. 3459) and the Reducing Homelessness Through Program Reform Act (S. 2234).",
+      "source_url": "https://lda.gov/filings/public/filing/78974ee3-cea9-4694-ab1e-60a340fb55de/print/",
+      "source_title": "LDA LD-2 Q3 2026, ArentFox Schiff LLP for Catholic Charities USA",
+      "published_date": "2026-10-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "ddb2b379baac2635": {
+      "id": "ddb2b379baac2635",
+      "provider": "research-agent",
+      "claim": "CCUSA issues joint positions with peer Catholic institutions. Examples: a November 2026 joint statement with the Catholic Health Association welcoming a federal ruling that blocked CMS Medicaid eligibility guidance, and a May 2025 housing-funding letter to Congress co-signed with USCCB's domestic justice committee chair and the Society of St. Vincent de Paul.",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/11/02/cha-ccusa-welcome-ruling-protecting-medicaid-access/",
+      "source_title": "CHA, CCUSA welcome ruling protecting Medicaid access",
+      "published_date": "2026-11-02",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "7cca3be6909cb155": {
+      "id": "7cca3be6909cb155",
+      "provider": "research-agent",
+      "claim": "USCCB commissioned CCUSA in 1990 as the Catholic Church's official domestic disaster relief agency. In FY2025, CCUSA worked with 30 agencies on 42 disasters in 19 states, awarded $14.6M in disaster recovery assistance, and spent $22.7M on disaster response, its largest expense line. In October 2026 it opened a Hurricane Isaias relief fund.",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/10/09/catholic-charities-usa-launches-relief-fund-for-those-impacted-by-hurricane-isaias/",
+      "source_title": "Catholic Charities USA launches relief fund for those impacted by Hurricane Isaias",
+      "published_date": "2026-10-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "environmental",
+      "pathways": [
+        "institutional_services"
+      ],
+      "tags": [
+        "United States (Gulf Coast)"
+      ],
+      "amount": null
+    },
+    "bf44239f47249c62": {
+      "id": "bf44239f47249c62",
+      "provider": "research-agent",
+      "claim": "In 2026, CCUSA launched a multi-phase national advertising campaign across TV, print, digital display, sponsored email, podcast and Spanish-language media. It also began a three-year People of Hope traveling museum tour planned for more than 150 communities, funded by a nearly $5M Lilly Endowment grant.",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/04/21/ccusa-spreads-hope-with-national-advertising-campaign/",
+      "source_title": "CCUSA spreads hope with national advertising campaign",
+      "published_date": "2026-04-21",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "social",
+      "pathways": [
+        "media_public_salience"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "55dda4e936557c28": {
+      "id": "55dda4e936557c28",
+      "provider": "research-agent",
+      "claim": "CCUSA runs digital coordination infrastructure for the network: a Disaster Vulnerability Portal and Map giving agencies real-time disaster information, the CCConnect digital staff community, and a hub-and-spoke warehouse system for pre-staging food and disaster supplies.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "technological",
+      "pathways": [
+        "digital_reach"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "b54c520e406f883d": {
+      "id": "b54c520e406f883d",
+      "provider": "research-agent",
+      "claim": "In July 2026, CCUSA published 'The Promise of Place', a white paper promoting conversion of surplus church property (closed parishes, convents, schools) into affordable housing and recommending 'Yes in God's Backyard' zoning reforms. A federal Yes in God's Backyard Act was introduced in the House in January 2026.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/07/The-Promise-of-Place-white-paper-FINAL.pdf",
+      "source_title": "The Promise of Place (CCUSA white paper)",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "economic",
+      "pathways": [
+        "land_and_property"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "90dcb0a4df38a826": {
+      "id": "90dcb0a4df38a826",
+      "provider": "research-agent",
+      "claim": "CCUSA formally warned in July 2026 that OMB's proposed government-wide 'Regulation for Federal Financial Assistance' (91 FR 32198, May 29, 2026) could significantly increase the burden of administering federal grants and threaten agencies' planning, workforce stability and service continuity. Analyst note: if finalized as proposed, it is a structural risk to member agencies' federal partnerships.",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/07/13/ccusa-comments-on-federal-financial-assistance-proposal/",
+      "source_title": "CCUSA comments on federal financial assistance proposal",
+      "published_date": "2026-07-13",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "dimension": "political",
+      "pathways": [
+        "federal_partnerships"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "7a4e21e516be240f": {
+      "id": "7a4e21e516be240f",
+      "provider": "research-agent",
+      "claim": "Rising food costs, USDA food-program cuts and a temporary loss of SNAP benefits drove a surge in pantry demand. CCUSA ran an emergency appeal in November 2025 that supplied 2.5 million pounds of food to 125 agencies in 45 states. This shows strain on capacity and also a capacity to mobilize.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "dimension": "economic",
+      "pathways": [
+        "institutional_services"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "fbb071e55391aa7c": {
+      "id": "fbb071e55391aa7c",
+      "provider": "research-agent",
+      "claim": "Federal partnerships continue in narrower forms. Under an HHS Office of Refugee Resettlement Preferred Communities grant, 23 agencies provide intensive case management to especially vulnerable refugees and trafficking victims. CCUSA also hosts AmeriCorps VISTA members.",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "federal_partnerships"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "48f75380f6d0bb87": {
+      "id": "48f75380f6d0bb87",
+      "provider": "research-agent",
+      "claim": "CCUSA is a member of Caritas Internationalis, the worldwide federation of Catholic social-service organizations, which links it to the global Church's charitable network. Its operations are domestic, covering the 50 states, D.C. and five territories.",
+      "source_url": "https://www.catholiccharitiesusa.org/about-us/mission/",
+      "source_title": "Mission - Catholic Charities USA",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "social",
+      "pathways": [
+        "transnational_network"
+      ],
+      "tags": [
+        "Global"
+      ],
+      "amount": null
+    },
+    "532ce43d19beb473": {
+      "id": "532ce43d19beb473",
+      "provider": "research-agent",
+      "claim": "Analyst judgment: Charity Navigator lists CCUSA (EIN 53-0196620) as 'Not Rated' because it has not received the required electronically filed Form 990s, and ProPublica shows no recent extracted 990 data. CCUSA does publish audited summary financials and its federal single audits are public. Third-party financial transparency is therefore limited but not absent.",
+      "source_url": "https://www.charitynavigator.org/ein/530196620",
+      "source_title": "Catholic Charities USA | Charity Navigator Profile",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "analyst_judgment",
+      "direction": "neutral",
+      "dimension": "economic",
+      "pathways": [
+        "institutional_trust"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "0b6c8f53db4caa36": {
+      "id": "0b6c8f53db4caa36",
+      "provider": "research-agent",
+      "claim": "On June 25, 2026, after Supreme Court rulings on humanitarian protections and asylum, CCUSA called on Congress and the administration to create legal immigration pathways through bipartisan reform, while committing the network to continue humanitarian aid.",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/06/25/ccusa-calls-on-congress-to-reform-immigration-pathways/",
+      "source_title": "CCUSA calls on Congress to reform immigration pathways",
+      "published_date": "2026-06-25",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "legislative_lobbying"
+      ],
+      "tags": [
+        "United States"
+      ],
+      "amount": null
+    },
+    "7931b5518d613fbc": {
+      "id": "7931b5518d613fbc",
+      "provider": "research-agent",
+      "claim": "Alliance with Caritas Internationalis (international_federation)",
+      "source_url": "https://www.catholiccharitiesusa.org/about-us/mission/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "07208ff89f886c2e": {
+      "id": "07208ff89f886c2e",
+      "provider": "research-agent",
+      "claim": "Alliance with U.S. Conference of Catholic Bishops (commissioned CCUSA as official domestic disaster relief agency, 1990) (church_body)",
+      "source_url": "https://www.catholiccharitiesusa.org/about-us/mission/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "13cc40547f39417c": {
+      "id": "13cc40547f39417c",
+      "provider": "research-agent",
+      "claim": "Alliance with Catholic Health Association of the United States (catholic_peer)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/11/02/cha-ccusa-welcome-ruling-protecting-medicaid-access/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "070b84ef3cf7ff85": {
+      "id": "070b84ef3cf7ff85",
+      "provider": "research-agent",
+      "claim": "Alliance with Society of St. Vincent de Paul National Council of the United States (catholic_peer)",
+      "source_url": "https://www.osvnews.com/us-bishops-urge-action-as-housing-crunch-turns-to-crisis-for-families-across-the-country/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "reported",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "61cef8cb2546ea31": {
+      "id": "61cef8cb2546ea31",
+      "provider": "research-agent",
+      "claim": "Alliance with Lilly Endowment Inc. (People of Hope Museum grant) (funder)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/03/23/catholic-charities-usa-to-launch-national-tour-with-people-of-hope-museum/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "64f44a78adbfad08": {
+      "id": "64f44a78adbfad08",
+      "provider": "research-agent",
+      "claim": "Alliance with The Church of Jesus Christ of Latter-day Saints (food, goods and funding donations) (interfaith)",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2025/01/Catholic-Charities-USA-Annual-Report_2024.pdf",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "88d3ecd65ac55f01": {
+      "id": "88d3ecd65ac55f01",
+      "provider": "research-agent",
+      "claim": "Alliance with Corporate sponsors named by CCUSA: Airbnb, Walmart, Bank of America, Amazon, Home Depot (corporate)",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2025/01/Catholic-Charities-USA-Annual-Report_2024.pdf",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "5b6ae025e0ce73f5": {
+      "id": "5b6ae025e0ce73f5",
+      "provider": "research-agent",
+      "claim": "Alliance with ArentFox Schiff LLP (registered lobbying firm) (lobbying_firm)",
+      "source_url": "https://lda.gov/filings/public/filing/78974ee3-cea9-4694-ab1e-60a340fb55de/print/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "887a58fbd4becba6": {
+      "id": "887a58fbd4becba6",
+      "provider": "research-agent",
+      "claim": "Alliance with Mercury Public Affairs LLC (registered lobbying firm) (lobbying_firm)",
+      "source_url": "https://lda.gov/filings/public/filing/47a6a874-b668-4c91-9fef-09eae1aeb0bd/print/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "de6a6c9fe437b55f": {
+      "id": "de6a6c9fe437b55f",
+      "provider": "research-agent",
+      "claim": "Alliance with University of San Diego (Certificate in Nonprofit Executive Management) (academic)",
+      "source_url": "https://www.catholiccharitiesusa.org/about-us/mission/",
+      "source_title": "",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "dimension": "political",
+      "pathways": [
+        "coalitions_alliances"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "597d83936235c6bc": {
+      "id": "597d83936235c6bc",
+      "provider": "research-agent",
+      "claim": "Initiative: People of Hope traveling storytelling museum (three-year national tour, 150+ communities) (media, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/03/23/catholic-charities-usa-to-launch-national-tour-with-people-of-hope-museum/",
+      "source_title": "Catholic Charities USA to launch national tour with People of Hope Museum",
+      "published_date": "2026-03-23",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "WEL"
+      ],
+      "amount": null
+    },
+    "0cee0a21b6a1bb0a": {
+      "id": "0cee0a21b6a1bb0a",
+      "provider": "research-agent",
+      "claim": "Initiative: 2026 national 'spread hope' advertising campaign (three phases: spring, summer, fall) (media, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/04/21/ccusa-spreads-hope-with-national-advertising-campaign/",
+      "source_title": "CCUSA spreads hope with national advertising campaign",
+      "published_date": "2026-04-21",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "WEL"
+      ],
+      "amount": null
+    },
+    "ae6a196f80f0ea14": {
+      "id": "ae6a196f80f0ea14",
+      "provider": "research-agent",
+      "claim": "Initiative: Love Your Neighbor strategic framework 2026-2030 (program, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2025/12/CCUSA-Strategic-Framework-2026%E2%80%9330-1.pdf",
+      "source_title": "Love Your Neighbor: CCUSA Strategic Framework 2026-2030",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [],
+      "amount": null
+    },
+    "445bf70dbba5fad5": {
+      "id": "445bf70dbba5fad5",
+      "provider": "research-agent",
+      "claim": "Initiative: Surplus church property to affordable housing conversion ('The Promise of Place', YIGBY policy push) (program, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/07/The-Promise-of-Place-white-paper-FINAL.pdf",
+      "source_title": "The Promise of Place (CCUSA white paper)",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "HOU"
+      ],
+      "amount": null
+    },
+    "e431bd2e66718ae2": {
+      "id": "e431bd2e66718ae2",
+      "provider": "research-agent",
+      "claim": "Initiative: Hurricane Isaias disaster relief fund (program, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/10/09/catholic-charities-usa-launches-relief-fund-for-those-impacted-by-hurricane-isaias/",
+      "source_title": "Catholic Charities USA launches relief fund for those impacted by Hurricane Isaias",
+      "published_date": "2026-10-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "DIS"
+      ],
+      "amount": null
+    },
+    "47497886130956c8": {
+      "id": "47497886130956c8",
+      "provider": "research-agent",
+      "claim": "Initiative: Hub-and-spoke food and disaster-supply warehouse network (program, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/wp-content/uploads/2026/04/Annual-Report-2025-FINAL-Digital.pdf",
+      "source_title": "Called to Serve: Catholic Charities USA 2025 Annual Report",
+      "published_date": "2026-04-09",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "WEL"
+      ],
+      "amount": null
+    },
+    "8f8dac6734268a38": {
+      "id": "8f8dac6734268a38",
+      "provider": "research-agent",
+      "claim": "Initiative: Support for 21st Century ROAD to Housing Act (H.R. 6644 / S. 2651), enacted as P.L. 119-101 (legislation, completed)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/06/23/ccusa-urges-house-to-consider-bipartisan-housing-legislation/",
+      "source_title": "CCUSA urges House to consider bipartisan housing legislation",
+      "published_date": "2026-06-23",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "HOU"
+      ],
+      "amount": null
+    },
+    "acefae587acdf9a1": {
+      "id": "acefae587acdf9a1",
+      "provider": "research-agent",
+      "claim": "Initiative: Endorsement of Reducing Homelessness Through Program Reform Act (S. 2234) (legislation, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/03/13/ccusa-applauds-senate-passage-of-affordable-housing-legislation/",
+      "source_title": "CCUSA applauds Senate passage of affordable housing legislation",
+      "published_date": "2026-03-13",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "HOU"
+      ],
+      "amount": null
+    },
+    "1be37c876e810deb": {
+      "id": "1be37c876e810deb",
+      "provider": "research-agent",
+      "claim": "Initiative: Lobbying on Empty Lots to Housing Act (H.R. 3459) (legislation, ongoing)",
+      "source_url": "https://lda.gov/filings/public/filing/78974ee3-cea9-4694-ab1e-60a340fb55de/print/",
+      "source_title": "LDA LD-2 Q3 2026, ArentFox Schiff LLP for Catholic Charities USA",
+      "published_date": "2026-10-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "HOU"
+      ],
+      "amount": null
+    },
+    "5c6db3f5ef0537ea": {
+      "id": "5c6db3f5ef0537ea",
+      "provider": "research-agent",
+      "claim": "Initiative: FY2027 appropriations advocacy (Labor-HHS H.R. 9260, THUD H.R. 9170, Agriculture H.R. 8646, DHS H.R. 9310 incl. Emergency Food and Shelter Program) (legislation, ongoing)",
+      "source_url": "https://lda.gov/filings/public/filing/78974ee3-cea9-4694-ab1e-60a340fb55de/print/",
+      "source_title": "LDA LD-2 Q3 2026, ArentFox Schiff LLP for Catholic Charities USA",
+      "published_date": "2026-10-19",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "BUD"
+      ],
+      "amount": null
+    },
+    "623830526207243f": {
+      "id": "623830526207243f",
+      "provider": "research-agent",
+      "claim": "Initiative: Call for bipartisan immigration reform creating legal pathways (campaign_or_candidate, ongoing)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/06/25/ccusa-calls-on-congress-to-reform-immigration-pathways/",
+      "source_title": "CCUSA calls on Congress to reform immigration pathways",
+      "published_date": "2026-06-25",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "IMM"
+      ],
+      "amount": null
+    },
+    "f45a4ae9ea29bcc8": {
+      "id": "f45a4ae9ea29bcc8",
+      "provider": "research-agent",
+      "claim": "Initiative: Religious-freedom lobbying engagement via Mercury Public Affairs (new 2026 registration) (other, ongoing)",
+      "source_url": "https://lda.gov/filings/public/filing/47a6a874-b668-4c91-9fef-09eae1aeb0bd/print/",
+      "source_title": "LDA registration, Mercury Public Affairs LLC for Catholic Charities USA",
+      "published_date": null,
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "REL"
+      ],
+      "amount": null
+    },
+    "aca2c75eef311610": {
+      "id": "aca2c75eef311610",
+      "provider": "research-agent",
+      "claim": "Initiative: Comment opposing burdens in OMB 'Regulation for Federal Financial Assistance' NPRM (other, completed)",
+      "source_url": "https://www.catholiccharitiesusa.org/2026/07/13/ccusa-comments-on-federal-financial-assistance-proposal/",
+      "source_title": "CCUSA comments on federal financial assistance proposal",
+      "published_date": "2026-07-13",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "GOV"
+      ],
+      "amount": null
+    },
+    "89e48f3b758c25e5": {
+      "id": "89e48f3b758c25e5",
+      "provider": "research-agent",
+      "claim": "Initiative: Comment on HUD proposed rule on work requirements and term limits (FR-6520) (other, completed)",
+      "source_url": "https://www.catholiccharitiesusa.org/type/advocacy-letters-and-statements/",
+      "source_title": "Advocacy Letters and Statements Archives - Catholic Charities USA",
+      "published_date": "2026-04-30",
+      "retrieved_at": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "dimension": "political",
+      "pathways": [
+        "sponsorship"
+      ],
+      "tags": [
+        "HOU"
+      ],
+      "amount": null
+    }
+  }
+}
