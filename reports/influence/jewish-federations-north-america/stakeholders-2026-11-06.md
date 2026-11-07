@@ -129,3 +129,64 @@ The feedback check, the next time this question is asked, is a small set of sign
 - The next LD-2 shows the national office leaving health, homeland security, or tax.
 
 Until one of those appears, the cycle stays at H2. There is no stock to single out from this evidence.
+
+## The unresolved companies, from their own disclosures
+
+A second pass, same day, looked at the eight names that were left off the stock table. Each one is a private operating company. None has a disclosed plan to buy a public stock, and none names a public company as the place its next money will go. Personal donor lists on the federation pages were not copied into this log.
+
+| Company | What it is | Disclosed use of money | Public stock |
+|---|---|---|---|
+| ResinTech Inc. | Private ion-exchange and water-treatment manufacturer, Camden, N.J. Its site describes a completed Camden plant of about $139 million, with products sold in more than 100 countries | Operating business is water treatment. Its philanthropy page names local Camden organizations: Cathedral Kitchen, the Boys & Girls Club of Camden County, UrbanPromise, the Kroc Center, and Ablett Village. The Southern New Jersey federation lists it as a platinum community partner, a tier the federation describes as $100,000 or more a year | No |
+| Freedom Mortgage | Private residential lender and servicer, Boca Raton. Its March 16, 2026 release names Freedom Superior LLC as the indirect parent | That release says Freedom Superior agreed to buy Seneca Mortgage Servicing LLC and related entities from EJF Capital LP. Seneca manages mortgage servicing rights. Freedom says that, after closing, it intends to grow that servicing business and to let outside investors put money into mortgage loan assets on the Seneca platform. Closing still required regulatory approval in the release. No later closing announcement was found. Piper Sandler advised EJF, the seller. The outside investors are not named | No. Piper Sandler's advisory role is not a reason to treat its shares as the investment |
+| Davis Enterprises | Private developer and owner of rental and other property in Southern New Jersey since 1962. The company site says it creates, owns, and operates rental investment property | The disclosed "investment" is its own buildings, not a securities portfolio | No |
+| Susser Bank | Private Texas bank. Susser Banc Holdings Corporation said it redomiciled from Maryland to Texas effective February 19, 2026. A bank-data compilation reports $2.99 billion of consolidated assets as of June 30, 2026 | The $40.3 million equity raise closed in December 2023, not in 2026. The bank said then that the money was for growth, and 2024 comments described commercial and industrial lending as the expected growth area over the following few years. That is a dated plan, not a new 2026 decision | No |
+| Central Bank & Trust Co. | The Cincinnati sponsor name matches Central Bank & Trust Co., a subsidiary of privately held Central Bancshares, Inc. of Lexington, Ky., which operates branches in Northern Kentucky | A 2015 annual report says a subsidiary, Central Investment Center, sold mutual funds, annuities, and some securities to bank customers. That is a decade-old product description, not a 2026 investment plan, and it does not name the federation | No |
+| Victory Wholesale Group | Private grocery, health-and-beauty, and general-merchandise distributor, Springboro, Ohio | No capital-allocation or acquisition plan was found | No |
+| Neyra Paving | Private Cincinnati paving contractor | No capital-allocation plan was found | No |
+| Deloitte LLP | Private partnership, listed as a Cincinnati presenting partner | No filing was found in which Deloitte allocates capital because of the federation relationship | No |
+
+Sources: [ResinTech about](https://www.resintech.com/about), [ResinTech philanthropy](https://www.resintech.com/philanthropy), [Southern New Jersey partners](https://www.jewishsouthjersey.org/partners/), [Freedom release, 2026-03-16](https://www.freedommortgage.com/about/press-releases/details/Freedom-Mortgage-Affiliate-Signs-Deal), [Davis Enterprises](https://www.davisenterprises.com/), [Susser redomicile](https://www.susserbank.com/susser-banc-holdings-corporation-redomiciles-to-texas-reinforcing-long-term-commitment-to-state/), [Susser capital raise](https://www.susserbank.com/40m-capital-raise-funds-ci-growth/), [BankRegReports, Susser](https://www.bankregreports.com/holding-companies/3823291/susser-banc-holdings-corporation/), [Central Bancshares 2015 report](https://www.centralbank.com/assets/pdfs/2015-Annual-Report.pdf), [Victory Wholesale](https://linkedin.com/company/victory-wholesale), [Neyra Paving](https://neyrapaving.com/about-us/).
+
+## Where the organizations put the money
+
+The company sponsors are not the ones publishing an investment program. The Southern New Jersey federation does. Its October 2026 community impact report gives internally prepared figures for the twelve months ending September 30, 2026, and says those figures were not audited by a CPA. Total support in that table is $20.7 million.
+
+| Recipient organization or program | Amount in the report |
+|---|---|
+| Katz Jewish Community Center, including camping | $8.2 million |
+| Systemwide security | $3.2 million |
+| Gottlieb Center for Jewish Life | $2.0 million |
+| Internal infrastructure, including administration, fundraising, and the Center of Impact and Innovation | $2.4 million |
+| Other community, global interests, and reserves | $1.6 million |
+| Jewish Family and Children's Service | $1.3 million |
+| Jewish Senior and Healthcare Services | $0.6 million |
+| Aleph Home Care and Adult Day Center | $0.5 million |
+| Global Connections, the Israel and overseas line, including the Jewish Agency's Youth Futures | $0.5 million |
+| Jewish day schools | $0.4 million |
+| Jewish Community Properties | $0.4 million |
+| National organizations | $0.2 million |
+
+The letter in the same report names the programs the federation presents as the forward work: the Gottlieb Center, camp improvements, a center for Jewish security, JFed Behavioral Health Services, and Building Jewish Families, which the letter describes as help with fertility treatment or adoption. A separate Global Connections note, not dated in the search result, describes $233,000 for a mix of new and returning overseas projects through the Jewish Agency and the Joint Distribution Committee. That is a small slice next to the $16.7 million local line.
+
+Source: [Community Impact Report 2026](https://www.jewishsouthjersey.org/wp-content/uploads/2026/10/Community-Impact-Report-2026.pdf). The $233,000 project list is from [Jewish Community Voice](https://www.jewishvoicesnj.org/articles/global-connections-committee-announces-this-years-special-project-allocations/).
+
+Read from the companies' side, the only forward capital transaction with a named target is Freedom Superior's pending purchase of Seneca from EJF Capital. The target is a private mortgage-servicing business. Read from the federation's side, the money already tabulated goes to local agencies, led by the JCC and security, not into a public company.
+
+## Structured analytic technique, second pass
+
+| Hypothesis | Contradictions | Result |
+|---|---|---|
+| H5. The unresolved companies' next money goes into their own businesses | Freedom's release names a private servicing company and unnamed outside mortgage investors. Susser's growth comments are from 2024. ResinTech, Davis, Victory, Neyra, Central Bank, and Deloitte have no disclosed securities program tied to the federation | Least contradicted |
+| H6. The federation's own next spending stays with local agencies, especially the JCC, security, and the newer behavioral-health and family programs | The impact table puts $8.2 million with the JCC and $3.2 million with security, against $0.5 million for Global Connections and $0.2 million for national organizations. The figures are unaudited | Least contradicted for this federation |
+| H7. A public company such as Piper Sandler, or a mortgage investor, is the stock to watch because of the Seneca agreement | Piper Sandler advised the seller. The release does not name the outside investors. No closing was found. The federation is not a party to the agreement | Contradicted |
+
+H2 still stands for the six public sponsors. H5 and H6 are the findings of this pass. Neither one identifies a public stock.
+
+## Feedback added by this pass
+
+The next cycle adds four signposts to the four already listed:
+
+- A closing announcement for Freedom Superior's purchase of Seneca, and whether that announcement names the outside investors.
+- Susser's next call report, for whether commercial and industrial loans are still the growing book.
+- The next Southern New Jersey impact report, for whether the JCC and security lines still dominate the $20.7 million mix.
+- Any of the eight companies, or the federation, naming a public company as an investment rather than as a sponsor or a bank product from an old annual report.
