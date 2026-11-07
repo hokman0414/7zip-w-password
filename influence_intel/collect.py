@@ -37,6 +37,7 @@ class Dataset:
     research: ResearchDoc | None = None
     evidence: dict[str, Evidence] = field(default_factory=dict)
     initiative_ev: dict[int, str] = field(default_factory=dict)
+    subgroup_ev: dict[str, str] = field(default_factory=dict)
     gaps: list[str] = field(default_factory=list)
 
     def add(self, ev: Evidence) -> str:
@@ -145,6 +146,10 @@ def _register(ds: Dataset) -> None:
             ds.add(Evidence(provider="research-agent", claim=f"Alliance with {a.partner} ({a.kind})", source_url=a.source_url,
                             published_date=a.since, evidence_type=a.evidence_type, direction=Direction.STRENGTHENS,
                             dimension="political", pathways=["coalitions_alliances"]))
+        for sg in ds.research.subgroups:
+            ds.subgroup_ev[sg.name] = ds.add(Evidence(
+                provider="research-agent", claim=f"Subgroup {sg.name} ({sg.kind}): {sg.role}".rstrip(": "),
+                source_url=sg.source_url, evidence_type=sg.evidence_type, dimension="political", pathways=list(sg.pathways)))
         for n, i in enumerate(ds.research.initiatives):
             ds.initiative_ev[n] = ds.add(Evidence(
                 provider="research-agent", claim=f"Initiative: {i.name} ({i.kind}, {i.stage})", source_url=i.source_url,

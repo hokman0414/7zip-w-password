@@ -41,7 +41,7 @@ def _qlabel(k: int) -> str:
     return f"{k // 4} Q{k % 4 + 1}"
 
 
-def candidates(ds: Dataset, limit: int = 15, max_recipients: int = 3) -> list[SponsorshipCandidate]:
+def candidates(ds: Dataset, limit: int | None = 15, max_recipients: int = 3) -> list[SponsorshipCandidate]:
     q = lda_quarters(ds)
     L = latest_qkey(ds)
     research = ds.research
@@ -73,7 +73,8 @@ def candidates(ds: Dataset, limit: int = 15, max_recipients: int = 3) -> list[Sp
         out.append(SponsorshipCandidate(
             label=f"{LDA_ISSUES.get(code, code)} advocacy", kind="issue_area", score=_score(comp), components=comp, basis=basis,
             providers=providers, evidence_ids=sorted(set(issue_ev[code]))[:12] + [ds.initiative_ev[n] for n, _ in matched],
-            signposts=[f"Next LD-2 (quarter {_qlabel(L + 1)}) lists {code}", *(f"{w.title} reaches next stage" for w in wins[:2])]))
+            signposts=[f"Next LD-2 (quarter {_qlabel(L + 1)}) lists {code}", *(f"{w.title} reaches next stage" for w in wins[:2])],
+            issue_codes=[code]))
 
     bill_q: dict[str, set[int]] = defaultdict(set)
     bill_ev: dict[str, list[str]] = defaultdict(list)
@@ -108,7 +109,8 @@ def candidates(ds: Dataset, limit: int = 15, max_recipients: int = 3) -> list[Sp
                   + (f": {st['title'][:70]}" if st and st.get("title") else ""),
             kind="named_bill", score=_score(comp), components=comp, basis=basis,
             providers=["senate-lda"] + (["congress-gov"] if active else []), evidence_ids=ev,
-            signposts=[f"{bill} committee markup, floor vote or companion bill", f"{bill} still named in next LD-2"]))
+            signposts=[f"{bill} committee markup, floor vote or companion bill", f"{bill} still named in next LD-2"],
+            issue_codes=sorted(bill_codes[bill])))
 
     by_recipient: dict[str, list[dict]] = defaultdict(list)
     for r in ds.fec:
@@ -137,7 +139,8 @@ def candidates(ds: Dataset, limit: int = 15, max_recipients: int = 3) -> list[Sp
             label=i.name, kind=i.kind, score=_score(comp), components=comp,
             basis=[f"{i.stage} ({i.evidence_type.value})" + (f"; expected {i.expected_date} ({i.date_confidence})" if i.expected_date else "")],
             providers=["research-initiative"], evidence_ids=[ds.initiative_ev[n]],
-            signposts=[f"Public launch, budget line or partner announcement for {i.name}"]))
+            signposts=[f"Public launch, budget line or partner announcement for {i.name}"],
+            issue_codes=[i.issue_code] if i.issue_code else []))
     return sorted(out, key=lambda c: (-c.score, c.kind != "issue_area", c.label))[:limit]
 
 

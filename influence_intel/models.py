@@ -178,6 +178,48 @@ class PolicyWindow(BaseModel):
         return v
 
 
+PATHWAY_IDS = ["membership_base", "institutional_trust", "institutional_services", "financial_resources", "federal_partnerships",
+               "legislative_lobbying", "electoral_engagement", "coalitions_alliances", "legal_advocacy", "media_public_salience",
+               "digital_reach", "transnational_network", "land_and_property"]
+
+SUBGROUP_KINDS = ["national_office", "member_agency", "regional_body", "religious_order", "advocacy_arm", "service_institution",
+                  "foundation", "pac", "lobbying_firm", "coalition", "international_partner", "governing_body", "other"]
+
+
+class Subgroup(BaseModel):
+    """A unit inside or tied to the organization (agency, diocese, order, arm, partner). Institutions only."""
+    name: str
+    kind: str
+    role: str = ""
+    issue_codes: list[str] = Field(default_factory=list)
+    pathways: list[str] = Field(default_factory=list)
+    source_url: str
+    evidence_type: EvidenceType
+
+    @field_validator("kind")
+    @classmethod
+    def _kind(cls, v: str) -> str:
+        if v not in SUBGROUP_KINDS:
+            raise ValueError(f"kind must be one of {SUBGROUP_KINDS}")
+        return v
+
+    @field_validator("issue_codes")
+    @classmethod
+    def _codes(cls, v: list[str]) -> list[str]:
+        bad = [c for c in v if c not in LDA_ISSUES]
+        if bad:
+            raise ValueError(f"unknown LDA issue codes {bad}")
+        return v
+
+    @field_validator("pathways")
+    @classmethod
+    def _pathways(cls, v: list[str]) -> list[str]:
+        bad = [p for p in v if p not in PATHWAY_IDS]
+        if bad:
+            raise ValueError(f"unknown pathway ids {bad}")
+        return v
+
+
 class ResearchDoc(BaseModel):
     entity_slug: str
     researched_at: _dt.datetime
@@ -186,6 +228,7 @@ class ResearchDoc(BaseModel):
     initiatives: list[Initiative] = Field(default_factory=list)
     alliances: list[Alliance] = Field(default_factory=list)
     policy_windows: list[PolicyWindow] = Field(default_factory=list)
+    subgroups: list[Subgroup] = Field(default_factory=list)
 
 
 class Check(BaseModel):
@@ -217,3 +260,4 @@ class SponsorshipCandidate(BaseModel):
     providers: list[str]
     evidence_ids: list[str]
     signposts: list[str]
+    issue_codes: list[str] = Field(default_factory=list)

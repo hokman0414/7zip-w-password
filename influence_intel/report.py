@@ -5,7 +5,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from . import analysis, pathways, sponsorship
+from . import analysis, hypotheses, pathways, sponsorship
 from .collect import Dataset
 
 
@@ -28,6 +28,7 @@ def build(ds: Dataset, demo: bool = False) -> dict:
         "exposure": pathways.exposure(pw),
         "sponsorship_outlook": [c.model_dump(mode="json") for c in outlook],
         "lobbied_bills_enacted": sponsorship.recent_wins(ds),
+        "hypothesis_test": hypotheses.evaluate(ds, pw),
         "sat": {"ach": a, "key_assumptions": analysis.key_assumptions(ds, pw), "red_team": analysis.red_team(a),
                 "premortem": analysis.premortem(ds, outlook), "signposts": analysis.signposts(outlook, pw)},
         "gaps": ds.gaps,
@@ -75,7 +76,33 @@ def markdown(r: dict) -> str:
         L += [f"- [{b['bill']}]({b['url']}) {b['title'] or ''} - Public Law {b['public_law']} ({b['date']})"
               + (f"; superseded companions: {', '.join(b['superseded_companions'])}" if b["superseded_companions"] else "")
               for b in r["lobbied_bills_enacted"]]
-    L += ["", "## STEMPLE", "", "| Dimension | Assessment | +src | -src | Summary |", "|---|---|---|---|---|"]
+    h = r["hypothesis_test"]
+    L += ["", "## Subgroups", "", "| Subgroup | Kind | Source | Best-supported hypothesis | Support | Contradictions |", "|---|---|---|---|---|---|"]
+    for s in h["by_subgroup"]:
+        b = s["best"]
+        L.append(f"| {s['name']} | {s['kind']} | {s['source']} | {b['statement'] if b else 'none retained'} | "
+                 f"{_fmt(b['support']) if b else 'n/a'} | {b['inconsistency'] if b else 'n/a'} |")
+    L += ["", "## Sponsorship hypotheses", "", h["method"], ""]
+    if h["shortfall"]:
+        L += [h["shortfall"], ""]
+    top = h["most_supported"]
+    if not top:
+        L += ["No hypothesis is supported, because there is no evidenced target.", ""]
+    else:
+        L += [f"**Most supported ({top['tied_count']} tied):** {top['note']}", ""]
+        for item in top["hypotheses"]:
+            full = next(x for x in h["hypotheses"] if x["id"] == item["id"])
+            L += [f"- **{item['id']}** (support {item['support']}, contradictions {item['inconsistency']}): {item['statement']}",
+                  f"  - diagnostics: {full['diagnostics']}",
+                  f"  - assumptions: {'; '.join(full['assumptions']) or 'none'}",
+                  f"  - red team: {full['red_team']}",
+                  f"  - sensitivity: {'fragile to ' + ', '.join(full['fragile']) if full['fragile'] else 'no single diagnostic carries it'}"]
+        L += ["", "### Next 15", "", "| # | Hypothesis | Support | Contradictions | Horizon |", "|---|---|---|---|---|"]
+        shown = [item for item in h["hypotheses"] if item["id"] not in {t["id"] for t in top["hypotheses"]}][:15]
+        for item in shown:
+            L.append(f"| {item['id']} | {item['statement']} | {item['support']} | {item['inconsistency']} | {item['horizon']} |")
+        L += ["", "The full retained set, with every diagnostic, is in the JSON brief.", ""]
+    L += ["## STEMPLE", "", "| Dimension | Assessment | +src | -src | Summary |", "|---|---|---|---|---|"]
     for s in r["stemple"]:
         L.append(f"| {s['dimension']} | {s['assessment']} | {s['strengthening_sources']} | {s['weakening_sources']} | {s['summary'][:160]} |")
     sat = r["sat"]

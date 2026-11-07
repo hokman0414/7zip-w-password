@@ -37,7 +37,9 @@ def cmd_analyze(a) -> int:
     r = report.build(ds)
     md, js = report.write(r, Path(a.out))
     print(json.dumps({"markdown": str(md), "json": str(js), "coverage": r["coverage"], "leading_posture": r["sat"]["ach"]["leading"],
-                      "top_outlook": [(s["label"], s["score"]) for s in r["sponsorship_outlook"][:5]], "gaps": r["gaps"]}, indent=2))
+                      "top_outlook": [(s["label"], s["score"]) for s in r["sponsorship_outlook"][:5]],
+                      "hypotheses": {k: r["hypothesis_test"][k] for k in ("generated", "retained", "shortfall")},
+                      "most_supported": r["hypothesis_test"]["most_supported"], "gaps": r["gaps"]}, indent=2))
     return 0
 
 

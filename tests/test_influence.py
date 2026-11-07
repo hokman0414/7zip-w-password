@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from datetime import date, datetime, timezone
 
-from influence_intel import analysis, demo, pathways, report, sponsorship
+from influence_intel import analysis, demo, hypotheses, pathways, report, sponsorship
 from influence_intel.collect import Sources, collect
 from influence_intel.connectors import Fec, Lda, ProPublica, _bills, load_research
 from influence_intel.models import Affiliate, Direction, EntityProfile, Evidence
@@ -117,6 +117,34 @@ def test_pending_companion_of_enacted_bill_is_superseded():
                                   "latest_action_date": date(2026, 7, 1), "enacted": True, "public_law": "119-9", "url": "u"}
     assert sponsorship.superseded_by(ds, "H.R. 1234 (119th)") == "H.R. 9 (119th)"
     assert not [c for c in sponsorship.candidates(ds) if c.label.startswith("H.R. 1234")]
+
+
+def test_thousand_hypotheses_rank_the_evidenced_channel():
+    ds = demo.dataset(AS_OF)
+    result = hypotheses.evaluate(ds, pathways.assess(ds))
+    assert result["generated"] > hypotheses.COUNT and result["retained"] == hypotheses.COUNT
+    lead = result["hypotheses"][0]
+    assert lead["id"] == "H0001" and lead["pathway"] == "legislative_lobbying" and lead["inconsistency"] == 0
+    assert "Education advocacy" in lead["statement"] and lead["evidence_ids"]
+    assert result["most_supported"]["tied_count"] >= 2
+    assert {d for h in result["hypotheses"] for d in h["diagnostics"]} == set(hypotheses.DIAGNOSTICS)
+    labels = {c.label for c in sponsorship.candidates(ds, limit=None)}
+    assert {h["target"] for h in result["hypotheses"]} <= labels
+    pac = next(s for s in result["by_subgroup"] if s["kind"] == "pac")
+    assert pac["best"]["statement"].split("through ")[1].startswith("Electoral")
+    relief = next(s for s in result["by_subgroup"] if s["role"] == "Runs the relief arm")
+    assert relief["source"] == "research" and "HOU" in relief["issue_codes"]
+
+
+def test_no_hypotheses_are_invented_without_targets():
+    from influence_intel.collect import Sources, collect
+    result = hypotheses.evaluate(collect(_profile(), AS_OF, Sources()), pathways.assess(collect(_profile(), AS_OF, Sources())))
+    assert result["generated"] == 0 and result["most_supported"] is None and "No sponsorship targets" in result["shortfall"]
+
+
+def test_subgroup_names_do_not_collapse_into_each_other():
+    assert hypotheses._same("Catholic Charities USA", "Catholic Charities USA national office")
+    assert not hypotheses._same("Catholic Charities USA", "Catholic Charities of the Rio Grande Valley")
 
 
 def test_ach_tie_is_reported_not_broken():

@@ -98,6 +98,9 @@ def research(as_of: date) -> ResearchDoc:
              "source_url": u + "i.org/1", "evidence_type": "reported"},
         ],
         "alliances": [{"partner": "Synthetic Interfaith Council", "kind": "interfaith", "source_url": u + "j.org/1", "evidence_type": "verified"}],
+        "subgroups": [{"name": "Synthetic Relief Services (DEMO)", "kind": "service_institution", "role": "Runs the relief arm",
+                       "issue_codes": ["HOU"], "pathways": ["institutional_services", "federal_partnerships"],
+                       "source_url": u + "s.org/1", "evidence_type": "verified"}],
         "policy_windows": [{"title": "Synthetic education savings account bill", "jurisdiction": "US Congress", "stage": "committee",
                             "date": str(as_of + timedelta(days=45)), "issue_code": "EDU", "source_url": u + "k.org/1"}],
     })
