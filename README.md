@@ -170,3 +170,53 @@ is capped at 4% as a starter position.
 - Full-text search for "substantial doubt … going concern" can match risk-factor boilerplate. Hits link to the filing for review.
 - Peer medians come from the analyzed set, grouped by Robinhood sector. The sets are coarse, so the re-rating is capped at 0.5x–2x of the current multiple.
 - Scenario probabilities are not calibrated and are left unassigned. The Monte Carlo output is model-implied, not a probability of an outcome.
+
+# Influence Intel: institution-level influence and sponsorship analysis
+
+`influence_intel/` analyzes how a religious or civic organization sustains influence, using public records only, and
+ranks where its sponsorship and advocacy are likely to go next. It works at the institution level: it never profiles
+private individuals, members or individual donors (FEC disbursements to individuals are dropped at ingestion), and it
+never infers anyone's religion or politics.
+
+```
+profile (EINs, LDA names, FEC committees) ─┐
+Senate LDA lobbying filings ───────────────┤
+ProPublica Form 990 financials ────────────┤                         ┌─> 13 influence pathways (explicit checks)
+FEC committee disbursements (orgs only) ───┼─> cited evidence ───────┼─> STEMPLE (tailwind / headwind / mixed)
+USAspending grants and contracts ──────────┤   (point-in-time)       ├─> ACH posture, key assumptions, red team,
+congress.gov bill status ──────────────────┤                         │   premortem, signposts
+GDELT news volume and tone ────────────────┤                         └─> next-sponsorship outlook (ranking index)
+research subagent findings ────────────────┘
+```
+
+```bash
+influence-intel find "Catholic Charities USA"     # candidate EINs, LDA client/registrant names, FEC committees
+influence-intel analyze profiles/example_catholic_charities_usa.json   # -> reports/influence/<slug>/<date>.md/.json
+influence-intel validate-research data/influence/research/<slug>.json
+influence-intel demo                              # offline, synthetic, labeled DEMO
+```
+
+The agent skill `.cursor/skills/influence-intel/SKILL.md` runs the whole flow: build and verify the profile, launch
+research subagents with `influence_intel/prompts/research_agent.md`, analyze, spot-check, and commit the brief.
+
+How to read the output:
+
+- **Pathways** (membership, trust, services, finances, government partnerships, lobbying, electoral, coalitions,
+  legal, media, digital, transnational, property) are scored as the share of evaluated checks that pass. Checks
+  without data are UNKNOWN and excluded; a pathway with fewer than two evaluated checks has no score. Exposure ranks
+  weak or weakening pathways; the listed levers are lawful, transparent options to test, labeled as analyst judgment.
+- **Outlook** scores (0-100) combine persistence, recency, momentum and independent corroboration of revealed
+  behaviour. They rank continuity and are not probabilities. LDA filings do not say whether the organization supports
+  or opposes a bill. Enacted bills, and pending companions folded into an enacted law, move to "lobbied bills that
+  became law".
+- **ACH** reports a tie rather than breaking it, and research evidence from one source domain counts once.
+
+| Source | Needs |
+|---|---|
+| Senate LDA, ProPublica, USAspending, GDELT | Nothing (GDELT allows one request per 5 seconds and often rate-limits) |
+| FEC, congress.gov | Work on the public `DEMO_KEY`; set `FEC_API_KEY` / `CONGRESS_API_KEY` (free api.data.gov keys) for volume |
+| Research findings | An agent session with web access |
+
+Limitations: churches and conventions of churches are exempt from LDA registration and from filing Form 990, so the
+core body's activity can be invisible; only affiliates, hired firms and separately registered committees appear.
+USAspending matches recipients by name and is labeled for verification. Bill supersession is matched by title.
