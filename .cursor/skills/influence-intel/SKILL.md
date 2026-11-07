@@ -28,7 +28,9 @@ description: Institution-level influence brief for a named religious or civic or
    policy windows; media, digital and international). Merge their output into one `data/influence/research/<slug>.json`
    and run `.venv/bin/influence-intel validate-research data/influence/research/<slug>.json` until it passes.
 4. Analyze: `.venv/bin/influence-intel analyze profiles/<slug>.json`. If GDELT or congress.gov rate-limits, wait a
-   minute and run again; responses are cached.
+   minute and run again; responses are cached. The brief scores every pathway, every subgroup, and 1,000 hypotheses
+   of the form "this subgroup supports this target through this pathway". Each hypothesis carries ACH diagnostics, its
+   assumptions, a red-team note and a sensitivity check. The support index is a ranking, not a probability.
 5. Review the brief in `reports/influence/<slug>/<date>.md`:
    - Spot-check five outlook items and three pathway checks against their evidence ids in the JSON.
    - Confirm the news query is not matching namesakes.

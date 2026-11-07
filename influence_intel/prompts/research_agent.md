@@ -33,6 +33,10 @@ covers security, conflict and geopolitical context).
 - Trust and governance: audits, scandals, settlements, transparency reports.
 - Services: schools, hospitals, charities; scale and public funding.
 - Policy: stated legislative priorities, testimony, coalition letters, amicus briefs, litigation.
+- The organization's own units and closely tied bodies -> `subgroups`: national office, regional bodies, member agencies,
+  religious orders, advocacy arms, service institutions, PACs, hired lobbying firms, governing bodies and international
+  partners. External donors and corporate sponsors are not subgroups. Give each the LDA issue codes and pathway ids it
+  actually works on.
 - Announced or reported sponsorships, campaigns, programs, institutions or coalitions -> `initiatives`.
 - Upcoming decision points in its issue areas (bills, rulemakings, court dates, elections) -> `policy_windows`.
 - International presence and security context in regions where it operates.
@@ -54,7 +58,9 @@ covers security, conflict and geopolitical context).
                    "source_title": "...", "published_date": "2026-09-01", "evidence_type": "verified"}],
   "alliances": [{"partner": "...", "kind": "interfaith", "since": null, "source_url": "https://...", "evidence_type": "reported"}],
   "policy_windows": [{"title": "...", "jurisdiction": "US Congress", "stage": "committee", "date": "2026-12-01",
-                      "issue_code": "EDU", "source_url": "https://..."}]
+                      "issue_code": "EDU", "source_url": "https://..."}],
+  "subgroups": [{"name": "...", "kind": "member_agency", "role": "...", "issue_codes": ["HOU"],
+                 "pathways": ["institutional_services"], "source_url": "https://...", "evidence_type": "verified"}]
 }
 ```
 

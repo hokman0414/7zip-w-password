@@ -210,6 +210,12 @@ How to read the output:
   or opposes a bill. Enacted bills, and pending companions folded into an enacted law, move to "lobbied bills that
   became law".
 - **ACH** reports a tie rather than breaking it, and research evidence from one source domain counts once.
+- **Hypotheses.** The brief also builds 1,000 hypotheses of the form "this subgroup supports this target through this
+  pathway within this horizon", from the organization's own units (affiliates, lobbying registrants, researched
+  subgroups). Nine diagnostics validate each one. A pathway scores only when the source records that kind of activity,
+  so a lobbying filing supports a legislative hypothesis and not an unrelated one. The index ranks the hypotheses; it
+  is not a probability. If the sourced evidence cannot fill 1,000, the brief says how many are real and does not invent
+  the rest. The full set is in the JSON brief.
 
 | Source | Needs |
 |---|---|
