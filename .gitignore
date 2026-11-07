@@ -7,4 +7,6 @@ data/*.db
 data/*.db-journal
 reports/*
 !reports/briefs/
+!reports/influence/
 .env
+*.egg-info/
