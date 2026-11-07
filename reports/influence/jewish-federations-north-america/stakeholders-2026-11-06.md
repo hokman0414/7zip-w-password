@@ -212,3 +212,11 @@ The institutions' next spending is Frontline staffing, SCN-run security, and Reb
 ### What does not clear it
 
 No unrealized public stock clears the bar for a price increase. Bank Leumi is the only public company the next-step pages name, and that loan fund was announced on September 21, 2025. A capped subsidized loan book is not evidence the share price rises. Security-equipment, behavioral-health, and agriculture companies that merely sit in the same industry were not promoted, because no page names them.
+
+## Financial gate and the trading decision, 2026-11-07
+
+The financial framework is the 100-assignment gate: 80 independent YES votes, a bull case of at least 2x, no critical veto, and a completed research file. A vote count is not a probability. The Friday, November 6, 2026 brief had no QUALIFIED name. The highest independent YES on that watchlist was 40. Holdings sat in DISCOVERY or DISQUALIFIED. The org-linked names were not forced through the gate after the intelligence pass had already excluded them as price catalysts.
+
+The tradable account showed about $6,479 of value on Saturday morning, with $0 cash and $0 buying power. Friday's risk proposals were trims, not buys: sell portions of AMD, GLD, ONDS, BITU, and CIFR. The planner emits market orders only. It does not emit a stop-loss. A research buy requires a QUALIFIED name and spendable cash above the 5 percent reserve.
+
+No order was sent. Saturday, November 7, 2026, is outside the weekday 9:45 a.m. to 3:30 p.m. Eastern window, the account secret the executor requires was not set in this session, and there is no QUALIFIED research buy. The next armed session can place only the orders that `plan-orders` lists that day.
