@@ -190,3 +190,25 @@ The next cycle adds four signposts to the four already listed:
 - Susser's next call report, for whether commercial and industrial loans are still the growing book.
 - The next Southern New Jersey impact report, for whether the JCC and security lines still dominate the $20.7 million mix.
 - Any of the eight companies, or the federation, naming a public company as an investment rather than as a sponsor or a bank product from an old annual report.
+
+## High-confidence pass on the next step
+
+This pass kept a finding only when at least two public sources agreed, or when the organization's own page stated it and a second source corroborated it. Guesses that a sector will lift a stock were dropped. Private individuals were not profiled. "Next step" means the move the institutions have already published, not a private intention.
+
+The published next step is already underway, and it runs through nonprofits and staffing.
+
+| What comes next | Evidence | Public company named |
+|---|---|---|
+| Frontline. $35 million to place about 100 community-relations staff at local federations. The grant covers salary for two years if the federation keeps the role at least three years. Work described as school policy, local government, and community relations. Hiring has started | JFNA's October 2026 FedBeat item, and eJewishPhilanthropy, which reported that 35 of the new hires had already gathered | None |
+| Security operations stay with the Secure Community Network. JFNA describes LiveSecure's infrastructure as built across all 141 federations. On July 15, 2026, SCN said it was extending its regional threat desks, with LiveSecure as the earlier funder. SCN says its tools are its own, with a DHS SAFETY Act designation | [LiveSecure](https://www.jewishfederations.org/our-work/livesecure); [JFNA, security umbrella](https://www.jewishfederations.org/blog/all/jewish-federations-double-down-on-fight-against-antisemitism); [JEWISHcolorado, 2026-07-15](https://www.jewishcolorado.org/scn-partners-launch-further-expansion-of-regional-threat-capability-initiative-to-strengthen-national-virtual-shield/) | None. SCN is a nonprofit |
+| Rebuild Israel continues as the multi-year recovery frame: trauma programs, job training with JDC, infrastructure with the Jewish Agency, volunteers with Birthright Israel, agriculture with ReGrow | [Rebuild Israel](https://www.jewishfederations.org/rebuild-israel). ReGrow describes itself as a nonprofit initiative of Volcani International Partnerships | None of those partners is a public company |
+| One bank is named. A fund announced September 21, 2025, is used to offer up to $130 million (NIS 430 million) of reservist loans through Bank Leumi at a fixed 2 percent, capped at NIS 40,000 for four years, for reservists with more than 200 days of service since October 7, 2023 | [JFNA](https://www.jewishfederations.org/blog/all/jewish-federations-the-jewish-agency-partner-on-loan-fund-for-reservists); [Jerusalem Post, 2025-09-21](https://www.jpost.com/israel-news/culture/article-868269) | Bank Leumi, Tel Aviv symbol LUMI. The announcement is fourteen months old. It is a loan window, already public, not an unrealized catalyst |
+| Local care programs at the Southern New Jersey federation: behavioral health inside the federation, and Building Jewish Families for infertility support. The behavioral-health launch said it was looking for new financial partners and did not name one | Federation pages and the Philadelphia Jewish Exponent, March 31, 2026 | None |
+
+### What clears the high-confidence bar
+
+The institutions' next spending is Frontline staffing, SCN-run security, and Rebuild Israel through the Jewish Agency, JDC, Birthright, and ReGrow. That description is corroborated by the organizations' own pages plus independent reporting. Confidence is high that this is the published plan. Confidence is not high that Frontline will succeed: eJewishPhilanthropy reported experts who think the method is unproven, so success is left out.
+
+### What does not clear it
+
+No unrealized public stock clears the bar for a price increase. Bank Leumi is the only public company the next-step pages name, and that loan fund was announced on September 21, 2025. A capped subsidized loan book is not evidence the share price rises. Security-equipment, behavioral-health, and agriculture companies that merely sit in the same industry were not promoted, because no page names them.
