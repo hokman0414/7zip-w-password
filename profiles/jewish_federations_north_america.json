@@ -1,0 +1,19 @@
+{
+  "slug": "jewish-federations-north-america",
+  "name": "The Jewish Federations of North America",
+  "tradition": "Jewish",
+  "description": "National membership body of the Jewish federation system in the United States and Canada. Chosen as the main Jewish communal organization because it is the central federation for local Jewish federations, and it registers its own federal lobbying. It is not the only major Jewish organization: the Union for Reform Judaism is the largest denomination and does not appear in Senate lobbying filings, and the Anti-Defamation League, the American Jewish Committee and AIPAC are separate advocacy bodies.",
+  "home_country": "United States",
+  "news_query": "\"Jewish Federations of North America\"",
+  "is_church_exempt_from_lda": false,
+  "affiliates": [
+    {
+      "name": "The Jewish Federations of North America",
+      "relation": "service",
+      "ein": 131624240,
+      "lda_client_names": ["JEWISH FEDERATIONS OF NORTH AMERICA", "THE JEWISH FEDERATIONS OF NORTH AMERICA"],
+      "lda_registrant_names": ["THE JEWISH FEDERATIONS OF NORTH AMERICA"],
+      "usaspending_names": ["Jewish Federations of North America"]
+    }
+  ]
+}

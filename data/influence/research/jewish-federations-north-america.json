@@ -1,0 +1,587 @@
+{
+  "entity_slug": "jewish-federations-north-america",
+  "researched_at": "2026-11-06T21:00:00Z",
+  "agent_id": "research-subagent-jewish-federations-north-america",
+  "findings": [
+    {
+      "claim": "JFNA's own 'Who We Are' page describes the federation system as 141 federations in North America, 6,000+ professional leaders, $2.3 billion distributed annually to support Jewish life worldwide, and activity in 70+ countries. The same page says that in 2023 the system raised over $900 million after the October 7 attacks, and that the national body took its current name in 2009 after the 1999 merger that created United Jewish Communities.",
+      "dimension": "social",
+      "pathway": "membership_base",
+      "source_url": "https://www.jewishfederations.org/about-us/who-we-are",
+      "source_title": "Who We Are | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "North America"
+    },
+    {
+      "claim": "On June 9, 2025, JFNA announced that its Board of Trustees had elected a new chair, with the term to begin on July 1, and that the prior chair would continue as immediate past chair. The announcement named a new slate of officers and quoted the sitting president and CEO, who remained in the role.",
+      "dimension": "political",
+      "pathway": "institutional_trust",
+      "source_url": "https://www.jewishfederations.org/blog/all/gary-torgow-elected-jewish-federations-of-north-america-chair",
+      "source_title": "Gary Torgow elected Jewish Federations of North America Chair",
+      "published_date": "2025-06-09",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "On November 2, 2026, eJewishPhilanthropy reported that JFNA had launched Frontline, a $35 million initiative to place 100 new employees at local federations for antisemitism advocacy and community relations. The article reported that 73 of 141 federations already had staff on this work and 44 were designated Jewish Community Relations Councils, and that Frontline grants would cover a salary for two years if the federation sustained the role for at least three. Several experts told the outlet they worried the program repeats tactics that have not been shown to reduce antisemitism. This is one newsroom's account, including criticism of the strategy.",
+      "dimension": "political",
+      "pathway": "institutional_trust",
+      "source_url": "https://ejewishphilanthropy.com/as-jfna-pushes-35m-into-fighting-antisemitism-experts-worry-its-doubling-down-on-failing-tactics/",
+      "source_title": "As JFNA pushes $35M into fighting antisemitism, experts worry it's doubling down on failing tactics (eJewishPhilanthropy)",
+      "published_date": "2026-11-02",
+      "evidence_type": "reported",
+      "direction": "weakens",
+      "region": "United States"
+    },
+    {
+      "claim": "ProPublica's extract of the Form 990 filed May 15, 2026, for the fiscal year ending June 2025, shows revenue of $435,156,966, expenses of $511,075,455, net income of -$75,918,489, and net assets of $219,621,417. A year earlier the same source shows revenue of $702,409,132, net income of $86,156,008, and net assets of $288,155,760. FY2025 contributions were $418,779,753 (96.2% of revenue). Rental property income was $153,223, listed as 0.0% of revenue. The national office therefore spent more than it took in and ended the year with a smaller balance sheet than after the prior, much higher-revenue year.",
+      "dimension": "economic",
+      "pathway": "financial_resources",
+      "source_url": "https://projects.propublica.org/nonprofits/organizations/131624240",
+      "source_title": "The Jewish Federations Of North America Inc - Nonprofit Explorer - ProPublica",
+      "published_date": "2026-05-15",
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "region": "United States"
+    },
+    {
+      "claim": "Analyst judgment: the same ProPublica extract shows FY2025 contributions at 96.2% of revenue and program-service revenue at $8,678,472, or 2.0%. The national office's disclosed budget is overwhelmingly private contributions rather than program fees. That mix leaves it exposed to campaign cycles, which the drop from FY2024 to FY2025 already shows, and less exposed to a single government-grant stream.",
+      "dimension": "economic",
+      "pathway": "financial_resources",
+      "source_url": "https://projects.propublica.org/nonprofits/organizations/131624240",
+      "source_title": "The Jewish Federations Of North America Inc - Nonprofit Explorer - ProPublica",
+      "published_date": "2026-05-15",
+      "evidence_type": "analyst_judgment",
+      "direction": "neutral",
+      "region": "United States"
+    },
+    {
+      "claim": "On October 6, 2025, JFNA said it had received an $8.4 million grant from the HHS Administration for Community Living to expand person-centered, trauma-informed care. The announcement describes the Center on Aging, Trauma, and Holocaust Survivor Care as the nation's official resource center for aging and trauma, and names the Network of Jewish Human Service Agencies and the Claims Conference as partners. It reports that more than 25,000 professionals and volunteers had been trained and that more than 49,000 Holocaust survivors, 23,000 other older adults with a trauma history, and 9,000 family caregivers had received services.",
+      "dimension": "political",
+      "pathway": "federal_partnerships",
+      "source_url": "https://www.jewishfederations.org/blog/all/federal-grant-awarded-to-jewish-federations-to-expand-pcti-care-nationwide-502532",
+      "source_title": "Federal Grant Awarded to Jewish Federations to Expand PCTI Care Nationwide",
+      "published_date": "2025-10-06",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "On February 5, 2026, JFNA said a letter it organized, signed by more than 80 members of Congress, asked DHS to keep Nonprofit Security Grant Program terms from deterring applicants. The quoted letter to Secretary Kristi Noem said new requirements unrelated to security could impede the program. JFNA's president and CEO said the organization had heard that current terms had the unintended effect of deterring some organizations from applying, and still urged institutions to apply. The page gives no count of how many did not apply.",
+      "dimension": "political",
+      "pathway": "federal_partnerships",
+      "source_url": "https://www.jewishfederations.org/blog/all/Federation-backed-letter-urges-DHS-to-nix-extra-Security-Grant-requirements",
+      "source_title": "Federation-backed letter urges DHS to nix extra Security Grant requirements",
+      "published_date": "2026-02-05",
+      "evidence_type": "verified",
+      "direction": "weakens",
+      "region": "United States"
+    },
+    {
+      "claim": "The Jewish Telegraphic Agency reported on February 5, 2026 that Congress had allocated $274.5 million for the Nonprofit Security Grant Program in each of the prior two years and $300 million for 2026, and that in 2024 roughly 7,600 applicants sought nearly $1 billion, with 43% approved. JTA also reported that revised terms required certifications related to immigration enforcement and diversity practices, that JFNA organized the congressional letter asking those conditions be removed, and that some institutions did not apply, with no estimate of how many.",
+      "dimension": "economic",
+      "pathway": "federal_partnerships",
+      "source_url": "https://www.jta.org/2026/02/05/politics/jewish-leaders-escalate-concerns-about-unclear-political-conditions-on-federal-security-grants",
+      "source_title": "Jewish leaders escalate concerns about unclear political conditions on federal security grants (JTA)",
+      "published_date": "2026-02-05",
+      "evidence_type": "reported",
+      "direction": "weakens",
+      "region": "United States"
+    },
+    {
+      "claim": "On January 23, 2025, JFNA's Center on Aging, Trauma, and Holocaust Survivor Care announced $3.3 million in grants for services to Holocaust survivors, other older adults with a trauma history, and family caregivers. The page says the program began in 2015 and had supported approximately 47,207 Holocaust survivors, 16,346 other older adults, 23,018 professional caregivers, and 8,390 family caregivers. Named 2025 recipients include eight local federations sharing $1.75 million, the Network of Jewish Human Service Agencies ($633,000), and KAVOD ($1 million).",
+      "dimension": "social",
+      "pathway": "institutional_services",
+      "source_url": "https://www.jewishfederations.org/blog/all/jewish-federations-award-millions-to-holocaust-survivor-trauma-care",
+      "source_title": "Jewish Federations Award $3.3m supporting Holocaust Survivor, Trauma Care",
+      "published_date": "2025-01-23",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "JFNA's LiveSecure page describes a $130 million campaign to fund local security directors, training, and standardized security programs across all 141 federations, and to help communities obtain government security grants. It says the work is done in collaboration with the Secure Community Network, which the page calls the Jewish community's official liaison with federal agencies. The page states that religiously motivated hate crimes against the Jewish community are at an all-time high and cites ADL 2024 data for '10,000+ antisemitic incidents in the year following the October 7th attacks.'",
+      "dimension": "military",
+      "pathway": "institutional_services",
+      "source_url": "https://www.jewishfederations.org/our-work/livesecure",
+      "source_title": "LiveSecure | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "North America"
+    },
+    {
+      "claim": "The Senate LDA client search for 2026 returns six filings. JFNA's in-house reports show expenses of $190,733 for the first quarter (posted April 22, 2026), $121,376 for the second (posted July 14, 2026), and $485,265 for the third (posted October 19, 2026). Brownstein Hyatt Farber Schreck, LLP reported $90,000 in lobbying income for JFNA in each of those three quarters, posted April 14, July 16, and October 15, 2026.",
+      "dimension": "political",
+      "pathway": "legislative_lobbying",
+      "source_url": "https://lda.gov/api/v1/filings/?filing_year=2026&client_name=JEWISH%20FEDERATIONS%20OF%20NORTH%20AMERICA&page_size=50",
+      "source_title": "Senate LDA API, 2026 filings with client Jewish Federations of North America",
+      "published_date": "2026-10-19",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "JFNA's third-quarter 2026 in-house LD-2, posted October 19, 2026, reports $485,265 in expenses under method A and no foreign-entity interest. Its 12 general issue codes are CSP, DEF, WEL, MMM, EDU, REL, SCI, FOR, HOM, TAX, VET, and HCR. Named items include the Pray Safe Act (H.R. 5645 and S. 2947), the Jewish American Security Act (H.R. 9211 and S. 4576), the DHS appropriations bill (H.R. 9310), the Labor-HHS-Education appropriations bill (H.R. 9260), the Commerce-Justice-Science appropriations bill (H.R. 8845), implementation of Internal Revenue Code section 25F, the NDAA (H.R. 8800), the United States-Israel FUTURES Act (H.R. 7540 and S. 3855), and the SSI Saving Penalty Elimination Act (S. 1234 and H.R. 2540).",
+      "dimension": "political",
+      "pathway": "legislative_lobbying",
+      "source_url": "https://lda.gov/api/v1/filings/20308b46-f178-4029-b842-af74577c7fe5/",
+      "source_title": "Senate LDA API filing 20308b46, JFNA in-house third quarter 2026",
+      "published_date": "2026-10-19",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "JFNA's public-policy page states that its focus areas include support for Israel, combating antisemitism, and the safety of Jewish institutions. The page commits the organization to protecting and expanding the Nonprofit Security Grant Program, seeking an IHRA-consistent government definition of antisemitism, advocating U.S. military assistance to Israel, opposing sanctions on Israelis and the BDS movement, supporting the Abraham Accords and a two-state outcome with a demilitarized Palestinian state, and defending Medicaid, Medicare, Holocaust-survivor care, refugee and immigration relief, charitable tax rules, and education options that include religious schools.",
+      "dimension": "political",
+      "pathway": "legislative_lobbying",
+      "source_url": "https://www.jewishfederations.org/our-work/public-policy",
+      "source_title": "Public Policy | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "On May 19, 2026, JFNA said it brought more than 400 Jewish leaders from 82 communities to Capitol Hill for over 200 meetings and that they championed the Jewish American Security Act, introduced earlier that day. JFNA said the bill would raise Nonprofit Security Grant Program funding to $1 billion, create a grant for places of worship, require a Department of Education antisemitism coordinator, set rules for colleges that receive Education Department funding, and require disclosures about how online platforms respond to antisemitic content.",
+      "dimension": "political",
+      "pathway": "legislative_lobbying",
+      "source_url": "https://www.jewishfederations.org/blog/all/400-jewish-leaders-call-to-advance-new-bipartisan-jewish-american-security-act-517505",
+      "source_title": "400 Jewish Leaders Push to Advance New Bipartisan Jewish Security Act",
+      "published_date": "2026-05-19",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "On February 20, 2026, JFNA reported that in January 2026 federations in Florida, Missouri, and Washington State took members to their state capitols for advocacy days on state security grants and antisemitism. The page says the 141 federations are positioned for state-level advocacy, that JFNA has a state director of government relations, and that demand for security funding outpaces what exists at the federal level.",
+      "dimension": "political",
+      "pathway": "legislative_lobbying",
+      "source_url": "https://www.jewishfederations.org/blog/all/from-coast-to-coast-federations-advocate-for-state-wide-jewish-needs",
+      "source_title": "From coast to coast, Federations advocate for state-wide Jewish needs",
+      "published_date": "2026-02-20",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "On November 10, 2025, JFNA said the Israel Emergency Campaign had raised $908 million and made over 4,200 grants to 877 NGO partners, including support for 208 communities. The page says the campaign relied on decades-old core partnerships with the Jewish Agency for Israel, the American Jewish Joint Distribution Committee, and World ORT, and that the system was winding the campaign down and moving to a phase called Rebuild Israel.",
+      "dimension": "social",
+      "pathway": "coalitions_alliances",
+      "source_url": "https://www.jewishfederations.org/blog/all/with-908m-raised-in-israel-emergency-funds-federation-shifts-to-rebuild-israel",
+      "source_title": "Federations Shift to Rebuild Israel After Raising $908M in Emergency Funds",
+      "published_date": "2025-11-10",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "Israel"
+    },
+    {
+      "claim": "On October 23, 2026, JFNA said the system had raised $908 million for Israel since October 7, 2023, of which $252 million was allocated through the central fund of the Israel Emergency Response Committee and the rest directly by individual federations. Over two years the central fund allocated 800 grants to over 400 organizations. The emergency committee completed its work in fall 2025 and transitioned to Rebuild Israel. The page credits the Jewish Agency for Israel and JDC for the speed of the response, and describes the period as including rocket fire from Hezbollah, missiles and drones, and two rounds of direct conflict with Iran.",
+      "dimension": "military",
+      "pathway": "transnational_network",
+      "source_url": "https://www.jewishfederations.org/blog/all/three-years-of-impact-how-federations-supported-israel-after-october-7th",
+      "source_title": "Three years of Impact: How Federations supported Israel after October 7th",
+      "published_date": "2026-10-23",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "Israel"
+    },
+    {
+      "claim": "JFNA's connected-communities page, which does not show a publication date, states that local federations distribute $210+ million overseas annually, that the Israel emergency campaign supported 500+ NGOs, and that $1+ billion in emergency funds was raised to support Israel and Ukraine. It names the Jewish Agency for Israel, World ORT, and JDC as core partners. The $1+ billion figure on this page is broader than the $908 million Israel campaign total on the dated 2025 and 2026 posts.",
+      "dimension": "social",
+      "pathway": "transnational_network",
+      "source_url": "https://www.jewishfederations.org/our-work/connected-jewish-communities/",
+      "source_title": "Our Work - Connected Jewish Communities | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "Global"
+    },
+    {
+      "claim": "A February 3, 2025 amicus brief filed in the Supreme Court in Cassirer v. Thyssen-Bornemisza Collection Foundation, No. 24-652, lists Jewish Federations of North America among the amici supporting the petition. The brief describes JFNA as raising and distributing more than $2 billion annually for Jewish communities in North America, Israel, and about 70 countries. JFNA is an amicus on that brief, not a party.",
+      "dimension": "legal",
+      "pathway": "legal_advocacy",
+      "source_url": "https://www.supremecourt.gov/DocketPDF/24/24-652/341703/20250203113432380_24-652%20Amici%20Brief.pdf",
+      "source_title": "Amici Curiae Brief of The 1939 Society et al., Cassirer v. Thyssen-Bornemisza, No. 24-652",
+      "published_date": "2025-02-03",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "The Supreme Court docket in No. 24-652 records that the brief of The 1939 Society et al. was filed on February 3, 2025, and that on March 10, 2025 the Court granted the petition, vacated the Ninth Circuit judgment, and remanded for further consideration in light of California Assembly Bill 2867 (2023-2024). The docket entry for the brief names 'The 1939 Society, Bet Tzedek, et al.' and does not spell out every amicus.",
+      "dimension": "legal",
+      "pathway": "legal_advocacy",
+      "source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/24-652.html",
+      "source_title": "Docket for 24-652, Cassirer v. Thyssen-Bornemisza Collection Foundation",
+      "published_date": "2025-03-10",
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "United States"
+    },
+    {
+      "claim": "FedWeb, which says it was created by JFNA with the federations, is a content-management platform for Jewish organizations. The product page says it provides unlimited websites, shared JFNA content, donation and event tools through Webconnex (GivingFuel, RegFox, and TicketSpice), SSL and AWS hosting, and optional two-factor authentication. The page lists a JFNA mailing address at Wall Street Station, P.O. Box 157, New York, NY 10268.",
+      "dimension": "technological",
+      "pathway": "digital_reach",
+      "source_url": "https://www.fedweb.org/key-features",
+      "source_title": "Key Features | FedWeb",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "strengthens",
+      "region": "North America"
+    },
+    {
+      "claim": "JFNA's own site lists its contact address as 25 Broadway, 17th Floor, New York, NY 10004.",
+      "dimension": "economic",
+      "pathway": "land_and_property",
+      "source_url": "https://www.jewishfederations.org/about-us/who-we-are",
+      "source_title": "Who We Are | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "region": "New York, United States"
+    },
+    {
+      "claim": "JFNA's third-quarter 2026 in-house lobbying report lists the registrant address as 1275 Pennsylvania Ave NW, Washington, DC 20004.",
+      "dimension": "economic",
+      "pathway": "land_and_property",
+      "source_url": "https://lda.senate.gov/filings/public/filing/20308b46-f178-4029-b842-af74577c7fe5/print/",
+      "source_title": "LD-2, third quarter 2026, The Jewish Federations of North America (in-house)",
+      "published_date": "2026-10-19",
+      "evidence_type": "verified",
+      "direction": "neutral",
+      "region": "Washington, D.C."
+    },
+    {
+      "claim": "On February 5, 2026, the Jewish Telegraphic Agency published a national story identifying JFNA as the organizer of a congressional letter on Nonprofit Security Grant Program conditions and quoting JFNA's president and CEO. Analyst judgment: that placement keeps the institution visible in a dispute over federal security funding, rather than only in its own releases.",
+      "dimension": "political",
+      "pathway": "media_public_salience",
+      "source_url": "https://www.jta.org/2026/02/05/politics/jewish-leaders-escalate-concerns-about-unclear-political-conditions-on-federal-security-grants",
+      "source_title": "Jewish leaders escalate concerns about unclear political conditions on federal security grants (JTA)",
+      "published_date": "2026-02-05",
+      "evidence_type": "analyst_judgment",
+      "direction": "neutral",
+      "region": "United States"
+    }
+  ],
+  "initiatives": [
+    {
+      "name": "Israel Emergency Campaign",
+      "kind": "international",
+      "issue_code": "FOR",
+      "stage": "completed",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.jewishfederations.org/blog/all/three-years-of-impact-how-federations-supported-israel-after-october-7th",
+      "source_title": "Three years of Impact: How Federations supported Israel after October 7th",
+      "published_date": "2026-10-23",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Rebuild Israel",
+      "kind": "international",
+      "issue_code": "FOR",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.jewishfederations.org/blog/all/with-908m-raised-in-israel-emergency-funds-federation-shifts-to-rebuild-israel",
+      "source_title": "Federations Shift to Rebuild Israel After Raising $908M in Emergency Funds",
+      "published_date": "2025-11-10",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "LiveSecure community security campaign",
+      "kind": "program",
+      "issue_code": "HOM",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.jewishfederations.org/our-work/livesecure",
+      "source_title": "LiveSecure | The Jewish Federations of North America",
+      "published_date": null,
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Frontline antisemitism and community-relations staffing",
+      "kind": "program",
+      "issue_code": "CIV",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://ejewishphilanthropy.com/as-jfna-pushes-35m-into-fighting-antisemitism-experts-worry-its-doubling-down-on-failing-tactics/",
+      "source_title": "As JFNA pushes $35M into fighting antisemitism, experts worry it's doubling down on failing tactics (eJewishPhilanthropy)",
+      "published_date": "2026-11-02",
+      "evidence_type": "reported"
+    },
+    {
+      "name": "Center on Aging, Trauma, and Holocaust Survivor Care (PCTI)",
+      "kind": "program",
+      "issue_code": "HCR",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.jewishfederations.org/blog/all/federal-grant-awarded-to-jewish-federations-to-expand-pcti-care-nationwide-502532",
+      "source_title": "Federal Grant Awarded to Jewish Federations to Expand PCTI Care Nationwide",
+      "published_date": "2025-10-06",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Jewish American Security Act (S. 4576 and H.R. 9211)",
+      "kind": "legislation",
+      "issue_code": "HOM",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4576/text",
+      "source_title": "S.4576 Jewish American Security Act, 119th Congress",
+      "published_date": "2026-05-19",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "FY2027 Homeland Security appropriations advocacy (H.R. 9310), including the Nonprofit Security Grant Program and the Pray Safe Act",
+      "kind": "legislation",
+      "issue_code": "HOM",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://lda.senate.gov/filings/public/filing/20308b46-f178-4029-b842-af74577c7fe5/print/",
+      "source_title": "LD-2, third quarter 2026, The Jewish Federations of North America (in-house)",
+      "published_date": "2026-10-19",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "FY2027 Labor-HHS-Education and Commerce-Justice-Science appropriations advocacy (H.R. 9260 and H.R. 8845)",
+      "kind": "legislation",
+      "issue_code": "HCR",
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://lda.senate.gov/filings/public/filing/20308b46-f178-4029-b842-af74577c7fe5/print/",
+      "source_title": "LD-2, third quarter 2026, The Jewish Federations of North America (in-house)",
+      "published_date": "2026-10-19",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Implementation advocacy for Internal Revenue Code section 25F scholarship tax credit",
+      "kind": "other",
+      "issue_code": "TAX",
+      "stage": "ongoing",
+      "expected_date": "2027-01-01",
+      "date_confidence": "exact",
+      "source_url": "https://www.irs.gov/newsroom/the-trump-administration-advances-the-establishment-of-americas-first-nationwide-school-choice-program",
+      "source_title": "IRS IR-2026-117, proposed regulations for the section 25F Federal Scholarship Tax Credit",
+      "published_date": "2026-10-01",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "2026 General Assembly, Washington, D.C.",
+      "kind": "other",
+      "issue_code": null,
+      "stage": "planned",
+      "expected_date": "2026-11-08",
+      "date_confidence": "exact",
+      "source_url": "https://generalassembly.org/",
+      "source_title": "The 2026 General Assembly",
+      "published_date": null,
+      "evidence_type": "verified"
+    },
+    {
+      "name": "FedWeb digital platform for federations",
+      "kind": "institution",
+      "issue_code": null,
+      "stage": "ongoing",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.fedweb.org/key-features",
+      "source_title": "Key Features | FedWeb",
+      "published_date": null,
+      "evidence_type": "verified"
+    }
+  ],
+  "alliances": [
+    {
+      "partner": "The Jewish Agency for Israel",
+      "kind": "core_overseas_partner",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/blog/all/with-908m-raised-in-israel-emergency-funds-federation-shifts-to-rebuild-israel",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "American Jewish Joint Distribution Committee (JDC)",
+      "kind": "core_overseas_partner",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/blog/all/with-908m-raised-in-israel-emergency-funds-federation-shifts-to-rebuild-israel",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "World ORT",
+      "kind": "core_overseas_partner",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/blog/all/with-908m-raised-in-israel-emergency-funds-federation-shifts-to-rebuild-israel",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "Secure Community Network",
+      "kind": "security_collaborator",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/our-work/livesecure",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "Network of Jewish Human Service Agencies",
+      "kind": "service_partner",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/blog/all/federal-grant-awarded-to-jewish-federations-to-expand-pcti-care-nationwide-502532",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "Claims Conference",
+      "kind": "service_partner",
+      "since": null,
+      "source_url": "https://www.jewishfederations.org/blog/all/federal-grant-awarded-to-jewish-federations-to-expand-pcti-care-nationwide-502532",
+      "evidence_type": "verified"
+    },
+    {
+      "partner": "Brownstein Hyatt Farber Schreck, LLP",
+      "kind": "lobbying_firm",
+      "since": null,
+      "source_url": "https://lda.gov/api/v1/filings/9622e285-4a9b-40f5-963b-c85cce64fe3c/",
+      "evidence_type": "verified"
+    }
+  ],
+  "policy_windows": [
+    {
+      "title": "FY2027 continuing appropriations under P.L. 119-103 (H.R. 6500) expire",
+      "jurisdiction": "US Congress",
+      "stage": "deadline",
+      "date": "2026-12-11",
+      "issue_code": "BUD",
+      "source_url": "https://www.congress.gov/crs-appropriations-status-table"
+    },
+    {
+      "title": "H.R. 9310, Department of Homeland Security Appropriations Act, 2027: House committee approval recorded; CRS table updated November 6, 2026 shows no initial House or Senate passage",
+      "jurisdiction": "US Congress",
+      "stage": "committee",
+      "date": null,
+      "issue_code": "HOM",
+      "source_url": "https://www.congress.gov/crs-appropriations-status-table"
+    },
+    {
+      "title": "H.R. 9260, Labor-HHS-Education Appropriations Act, 2027: House committee approval recorded June 9, 2026; CRS table updated November 6, 2026 shows no initial passage",
+      "jurisdiction": "US Congress",
+      "stage": "committee",
+      "date": null,
+      "issue_code": "HCR",
+      "source_url": "https://www.congress.gov/crs-appropriations-status-table"
+    },
+    {
+      "title": "H.R. 8845, Commerce-Justice-Science Appropriations Act, 2027: House committee approval recorded May 13, 2026; CRS table updated November 6, 2026 shows no initial passage",
+      "jurisdiction": "US Congress",
+      "stage": "committee",
+      "date": null,
+      "issue_code": "HCR",
+      "source_url": "https://www.congress.gov/crs-appropriations-status-table"
+    },
+    {
+      "title": "S. 4576, Jewish American Security Act: introduced May 19, 2026 and referred to the Senate Homeland Security and Governmental Affairs Committee; Congress.gov lists that referral as the latest action",
+      "jurisdiction": "US Senate",
+      "stage": "committee",
+      "date": null,
+      "issue_code": "HOM",
+      "source_url": "https://www.congress.gov/bill/119th-congress/senate-bill/4576/text"
+    },
+    {
+      "title": "H.R. 9211, Jewish American Security Act: introduced June 9, 2026; latest action July 7, 2026, referral to the House Homeland Security Subcommittee on Counterterrorism and Intelligence",
+      "jurisdiction": "US House",
+      "stage": "committee",
+      "date": null,
+      "issue_code": "HOM",
+      "source_url": "https://www.congress.gov/bill/119th-congress/house-bill/9211/text"
+    },
+    {
+      "title": "Internal Revenue Code section 25F Federal Scholarship Tax Credit: temporary regulations effective December 1, 2026, and the credit applies to taxable years ending after December 31, 2026, with contributions beginning in 2027",
+      "jurisdiction": "US Treasury / IRS",
+      "stage": "implementation",
+      "date": "2027-01-01",
+      "issue_code": "TAX",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/02/2026-20264/federal-scholarship-tax-credit"
+    },
+    {
+      "title": "JFNA 2026 General Assembly, Washington, D.C., November 8-10, 2026, framed around rebuilding Israel, communal security, and Jewish engagement",
+      "jurisdiction": "Jewish Federations of North America",
+      "stage": "scheduled",
+      "date": "2026-11-08",
+      "issue_code": "FOR",
+      "source_url": "https://generalassembly.org/"
+    }
+  ],
+  "subgroups": [
+    {
+      "name": "The Jewish Federations of North America national office",
+      "kind": "national_office",
+      "role": "New York headquarters of the federation membership body, listed at 25 Broadway, 17th Floor, New York, NY 10004",
+      "issue_codes": ["HOM", "FOR", "HCR", "TAX", "WEL", "EDU", "IMM", "REL"],
+      "pathways": ["membership_base", "financial_resources", "legislative_lobbying", "institutional_services", "coalitions_alliances"],
+      "source_url": "https://www.jewishfederations.org/about-us/who-we-are",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "JFNA Washington lobbying office",
+      "kind": "advocacy_arm",
+      "role": "In-house LDA registrant. The third-quarter 2026 report lists the address as 1275 Pennsylvania Ave NW, Washington, DC 20004, and reports $485,265 in lobbying expenses",
+      "issue_codes": ["HOM", "HCR", "TAX", "DEF", "FOR", "EDU", "WEL", "MMM", "REL", "VET", "CSP", "SCI"],
+      "pathways": ["legislative_lobbying", "federal_partnerships"],
+      "source_url": "https://lda.senate.gov/filings/public/filing/20308b46-f178-4029-b842-af74577c7fe5/print/",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Member Jewish federations",
+      "kind": "member_agency",
+      "role": "The 141 local federations JFNA describes as its North American network, which raise funds, run local services, and conduct state advocacy",
+      "issue_codes": ["HOM", "WEL", "EDU", "HCR"],
+      "pathways": ["membership_base", "institutional_services", "legislative_lobbying"],
+      "source_url": "https://www.jewishfederations.org/about-us/who-we-are",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Brownstein Hyatt Farber Schreck, LLP",
+      "kind": "lobbying_firm",
+      "role": "Outside lobbying firm reporting $90,000 in income for JFNA in each of the first three quarters of 2026. The third-quarter filing covers nonprofit security grants, Holocaust-survivor assistance, the Jewish American Security Act, antisemitism online, health-care antisemitism, Medicare and Medicaid, and food assistance",
+      "issue_codes": ["REL", "HCR", "HOM"],
+      "pathways": ["legislative_lobbying"],
+      "source_url": "https://lda.gov/api/v1/filings/9622e285-4a9b-40f5-963b-c85cce64fe3c/",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Center on Aging, Trauma, and Holocaust Survivor Care",
+      "kind": "service_institution",
+      "role": "JFNA service arm that subgrants for person-centered, trauma-informed care and holds the Administration for Community Living award JFNA announced in October 2025",
+      "issue_codes": ["HCR", "WEL"],
+      "pathways": ["institutional_services", "federal_partnerships"],
+      "source_url": "https://www.jewishfederations.org/blog/all/jewish-federations-award-millions-to-holocaust-survivor-trauma-care",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "Jewish Federations Israel Office",
+      "kind": "other",
+      "role": "JFNA's public-policy page says advocacy for the U.S.-Israel relationship is done in partnership with Jewish Federations' Israel Office",
+      "issue_codes": ["FOR", "DEF"],
+      "pathways": ["transnational_network", "legislative_lobbying"],
+      "source_url": "https://www.jewishfederations.org/our-work/public-policy",
+      "evidence_type": "verified"
+    },
+    {
+      "name": "United Israel Appeal",
+      "kind": "other",
+      "role": "Described on JFNA's current leadership page as a subsidiary of Jewish Federations of North America. The page does not state UIA's budget or grant totals",
+      "issue_codes": ["FOR"],
+      "pathways": ["transnational_network", "financial_resources"],
+      "source_url": "https://www.jewishfederations.org/about-us/our-leadership",
+      "evidence_type": "verified"
+    }
+  ]
+}
