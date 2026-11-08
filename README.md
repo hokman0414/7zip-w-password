@@ -66,7 +66,7 @@ export SEC_USER_AGENT="Your Name you@example.com"
 
 silent-stocks screen                     # SEC cross-sectional revenue-acceleration screen
 silent-stocks analyze KTOS TWIN --verbose  # full report incl. all 100 votes
-silent-stocks daily                      # one full daily run -> reports/briefs/<date>.md, DB, alerts, proposals
+silent-stocks daily                      # one full daily run -> reports/briefs/<date>.md, DB, alerts, proposals, tracked-company trend
 silent-stocks propose-trades             # portfolio risk + proposals as JSON (nothing submitted)
 silent-stocks refresh-plan               # symbols, batches and date range the agent must snapshot today
 silent-stocks validate-snapshot          # reconcile today's snapshots; exit 1 on errors
@@ -86,8 +86,10 @@ pytest
 1. Before 09:00 ET, an MCP-capable agent session refreshes the Robinhood snapshots. It calls `get_equity_quotes`,
    `get_equity_fundamentals`, `get_equity_historicals(interval=month)` and `get_portfolio`/`get_equity_positions`, then
    writes them under `data/snapshots/robinhood/<date>/`. The research subagents refresh `data/research/`.
-2. `silent-stocks schedule` (or cron calling `silent-stocks daily`) runs the pipeline. Market data older than 96 hours
-   marks a company `STALE DATA`, and research older than 30 days does too.
+2. `silent-stocks schedule` (or cron calling `silent-stocks daily`) runs the pipeline each weekday at 09:00
+   America/New_York. That run appends a price print for the disclosed public companies and writes
+   `reports/trends/<date>.md`. A move of 5% or more from the prior print is an alert. It is not a research buy.
+   Market data older than 96 hours marks a company `STALE DATA`, and research older than 30 days does too.
 3. Review the brief. To act on a proposal manually, run its `review_equity_order` parameters in Robinhood and approve it
    yourself, or let the automated daily skill below execute the guarded plan.
 

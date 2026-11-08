@@ -8,5 +8,6 @@ data/*.db-journal
 reports/*
 !reports/briefs/
 !reports/influence/
+!reports/trends/
 .env
 *.egg-info/

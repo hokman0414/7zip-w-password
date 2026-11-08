@@ -7,6 +7,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from .config import DEFAULT_WATCHLIST, Settings
+from .price_trend import tracked_symbols
 from .connectors.research import AgentFindings, load_findings
 
 SECURITY_FIELDS = ["company", "price", "price_time", "market_cap", "shares_outstanding", "float", "avg_volume_30d",
@@ -25,7 +26,7 @@ def _latest_screen(settings: Settings) -> list[str]:
 def refresh_plan(settings: Settings, holdings: list[str], extra: list[str] | None = None, as_of: date | None = None) -> dict:
     as_of = as_of or datetime.now(timezone.utc).date()
     start = date(as_of.year - 1, as_of.month, 1)
-    syms = list(dict.fromkeys([s.upper() for s in DEFAULT_WATCHLIST + holdings + _latest_screen(settings) + (extra or [])] + ["SPY"]))
+    syms = list(dict.fromkeys([s.upper() for s in DEFAULT_WATCHLIST + tracked_symbols() + holdings + _latest_screen(settings) + (extra or [])] + ["SPY"]))
     return {"symbols": syms, "batches": [syms[i:i + 10] for i in range(0, len(syms), 10)],
             "historicals": {"interval": "month", "start_time": f"{start.isoformat()}T00:00:00Z",
                             "end_time": f"{date(as_of.year, as_of.month, 1).isoformat()}T00:00:00Z"},

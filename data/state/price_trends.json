@@ -1,0 +1,102 @@
+{
+  "threshold_pct": 0.05,
+  "symbols": {
+    "GS": {
+      "name": "Goldman Sachs",
+      "role": "Dallas federation event sponsor",
+      "observations": [
+        {
+          "date": "2026-11-05",
+          "price": 868.95,
+          "price_time": "2026-11-05T21:00:00Z"
+        },
+        {
+          "date": "2026-11-06",
+          "price": 868.5633,
+          "price_time": "2026-11-07T00:58:25Z"
+        }
+      ],
+      "alerted": []
+    },
+    "MMC": {
+      "name": "Marsh McLennan",
+      "role": "Dallas federation gold sponsor",
+      "observations": [],
+      "alerted": []
+    },
+    "KR": {
+      "name": "Kroger",
+      "role": "Cincinnati federation presenting partner",
+      "observations": [
+        {
+          "date": "2026-11-05",
+          "price": 69.43,
+          "price_time": "2026-11-05T21:00:00Z"
+        },
+        {
+          "date": "2026-11-06",
+          "price": 67.71,
+          "price_time": "2026-11-06T23:42:10Z"
+        }
+      ],
+      "alerted": []
+    },
+    "FCF": {
+      "name": "First Commonwealth",
+      "role": "Cincinnati federation presenting partner",
+      "observations": [
+        {
+          "date": "2026-11-05",
+          "price": 20.94,
+          "price_time": "2026-11-05T21:00:00Z"
+        },
+        {
+          "date": "2026-11-06",
+          "price": 20.91,
+          "price_time": "2026-11-06T21:00:04Z"
+        }
+      ],
+      "alerted": []
+    },
+    "WTFC": {
+      "name": "Wintrust",
+      "role": "Milwaukee Economic Forum sponsor",
+      "observations": [
+        {
+          "date": "2026-11-05",
+          "price": 151.72,
+          "price_time": "2026-11-05T21:00:00Z"
+        },
+        {
+          "date": "2026-11-06",
+          "price": 151.27,
+          "price_time": "2026-11-06T21:00:05Z"
+        }
+      ],
+      "alerted": []
+    },
+    "MCS": {
+      "name": "Marcus",
+      "role": "Milwaukee VALOR sponsor",
+      "observations": [
+        {
+          "date": "2026-11-05",
+          "price": 26.9,
+          "price_time": "2026-11-05T21:00:00Z"
+        },
+        {
+          "date": "2026-11-06",
+          "price": 26.76,
+          "price_time": "2026-11-06T21:00:03Z"
+        }
+      ],
+      "alerted": []
+    },
+    "LUMI": {
+      "name": "Bank Leumi",
+      "role": "Rebuild Israel reservist loan window, announced 2025-09-21",
+      "observations": [],
+      "alerted": []
+    }
+  }
+}

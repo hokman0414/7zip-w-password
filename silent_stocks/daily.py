@@ -19,6 +19,7 @@ from .http import CachedHttp
 from .models import CompanyReport, Status
 from .pipeline import Sources, analyze_universe, load_research
 from .portfolio_risk import assess, propose
+from .price_trend import render_trend, update_from_market
 
 log = logging.getLogger(__name__)
 
@@ -79,6 +80,7 @@ def run_daily(settings: Settings, watchlist: list[str] | None = None, discoverie
     http = CachedHttp(settings.cache_dir, settings.sec_user_agent, offline=offline)
     sec, usa = SecEdgar(http), UsaSpending(http)
     market = SnapshotMarketConnector(settings.snapshot_dir)
+    trend = update_from_market(settings, market, now)
     findings, events = load_research(settings, now)
     src = Sources(settings, sec, usa, market, findings, events)
 
@@ -117,6 +119,13 @@ def run_daily(settings: Settings, watchlist: list[str] | None = None, discoverie
                 keys.append(key)
                 alerts.append({"ticker": r.ticker, "kind": kind, "message": msg})
         last[r.ticker] = compact(r)
+    for alert in trend["alerts"]:
+        key = hashlib.sha1(alert["message"].encode()).hexdigest()
+        store.add_alert(key, run_id, alert["ticker"], now.isoformat(), alert["kind"], alert["message"])
+        if key not in seen:
+            seen.add(key)
+            keys.append(key)
+            alerts.append(alert)
     (sdir / "last_reports.json").write_text(json.dumps(last, indent=1, sort_keys=True))
     (sdir / "alert_keys.json").write_text(json.dumps(keys[-5000:]))
 
@@ -134,7 +143,8 @@ def run_daily(settings: Settings, watchlist: list[str] | None = None, discoverie
     store.finish_run(run_id, datetime.now(timezone.utc).isoformat(),
                      f"{len(reports)} analyzed; {len(need_snapshot)} discoveries need a market snapshot")
     brief = write_brief(settings, run_id, now, [by_t[t] for t in watchlist if t in by_t], disc, alerts, risk, proposals,
-                        need_snapshot, holdings_reports=[by_t[t] for t in held_equities if t in by_t])
+                        need_snapshot, holdings_reports=[by_t[t] for t in held_equities if t in by_t],
+                        trend_text=render_trend(trend["rows"], now))
     return {"run_id": run_id, "reports": reports, "watchlist": watchlist, "discoveries": disc, "alerts": alerts,
             "holdings": held_equities,
             "risk": risk, "proposals": proposals, "need_snapshot": need_snapshot, "brief": brief}
@@ -151,7 +161,7 @@ def _row(r: CompanyReport) -> str:
 
 def write_brief(settings: Settings, run_id: str, now: datetime, watch: list[CompanyReport], disc: list[CompanyReport],
                 alerts: list[dict], risk: dict | None, proposals: list[dict], need_snapshot: list[str],
-                holdings_reports: list[CompanyReport] | None = None) -> Path:
+                holdings_reports: list[CompanyReport] | None = None, trend_text: str | None = None) -> Path:
     et = now.astimezone(ZoneInfo(settings.timezone))
     out_dir = settings.reports_dir / "briefs"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -168,6 +178,9 @@ def write_brief(settings: Settings, run_id: str, now: datetime, watch: list[Comp
     lines += [f"## Top {len(disc)} discoveries", "", hdr] + [_row(r) for r in disc] + [""]
     if need_snapshot:
         lines += [f"Screened but no market snapshot (run the MCP refresh): {', '.join(need_snapshot)}", ""]
+    if trend_text:
+        body = "\n".join(trend_text.splitlines()[2:]).strip()
+        lines += ["## Tracked companies", "", body, ""]
     lines += ["## Alerts (new since last run)", ""] + ([f"- [{a['kind']}] {a['message']}" for a in alerts] or ["- None."]) + [""]
     if risk:
         lines += ["## Portfolio risk", "",

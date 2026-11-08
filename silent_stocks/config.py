@@ -8,6 +8,19 @@ ROOT = Path(__file__).resolve().parent.parent
 
 DEFAULT_WATCHLIST = ["CODA", "PLPC", "MPTI", "TWIN", "TSSI", "RCAT", "AMPX", "EOSE", "ONDS", "KTOS"]
 
+# Disclosed public companies from the federation record. Tracked for price trend only.
+# A move here is not a research buy. LUMI is the Tel Aviv listing and may have no US quote.
+TRACKED_COMPANIES = [
+    {"symbol": "GS", "name": "Goldman Sachs", "role": "Dallas federation event sponsor"},
+    {"symbol": "MMC", "name": "Marsh McLennan", "role": "Dallas federation gold sponsor"},
+    {"symbol": "KR", "name": "Kroger", "role": "Cincinnati federation presenting partner"},
+    {"symbol": "FCF", "name": "First Commonwealth", "role": "Cincinnati federation presenting partner"},
+    {"symbol": "WTFC", "name": "Wintrust", "role": "Milwaukee Economic Forum sponsor"},
+    {"symbol": "MCS", "name": "Marcus", "role": "Milwaukee VALOR sponsor"},
+    {"symbol": "LUMI", "name": "Bank Leumi", "role": "Rebuild Israel reservist loan window, announced 2025-09-21"},
+]
+DRASTIC_MOVE_PCT = 0.05
+
 
 def _env_float(name: str, default: float) -> float:
     raw = os.environ.get(name)
