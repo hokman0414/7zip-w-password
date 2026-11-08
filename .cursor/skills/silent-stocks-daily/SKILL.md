@@ -98,6 +98,9 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
 2. Reply with a short summary covering:
    - account value and portfolio beta;
    - orders placed, skipped and blocked, with reasons;
-   - new alerts;
+   - new alerts, including any tracked-company move of 5% or more;
+   - the tracked-company trend (price, change versus the prior print, rising/falling/flat);
    - anything QUALIFIED or UNDER REVIEW;
    - data problems.
+
+The refresh plan includes the disclosed public companies (GS, MMC, KR, FCF, WTFC, MCS, LUMI). Their prices are a trend log. A drastic move is not a research buy, and it is not added to the order plan.
