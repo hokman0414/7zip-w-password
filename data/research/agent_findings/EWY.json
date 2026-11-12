@@ -1,0 +1,246 @@
+{
+  "ticker": "EWY",
+  "company": "iShares MSCI South Korea ETF",
+  "researched_at": "2026-11-12T21:41:13Z",
+  "agent_id": "research-agent-a",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "As of November 11, 2026, EWY had net assets of $21,575,752,251, 145,100,000 shares outstanding, a NAV of $148.70 against a 52-week range of $88.01 to $218.02, a 0.59% expense ratio, and a closing market price of $147.81, a 0.60% discount to NAV.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "source_title": "iShares MSCI South Korea ETF product page",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "As of November 11, 2026, the fund held 75 securities, information technology was 49.44% of market value, industrials 18.10% and financials 12.37%, and the three-year equity beta was 2.05 with a three-year standard deviation of 44.03% as of October 31, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "source_title": "iShares MSCI South Korea ETF product page",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The September 30, 2026 fact sheet lists SK hynix at 23.72% and Samsung Electronics at 22.77% of the portfolio, with the top ten positions totaling 62.14% and information technology at 51.56%.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.ishares.com/us/literature/fact-sheet/ewy-ishares-msci-south-korea-etf-fund-fact-sheet-en-us.pdf",
+      "source_title": "iShares MSCI South Korea ETF fact sheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The August 31, 2026 N-PORT reports net assets of $27,722,783,459.80, with SK hynix at 20.96% of net assets and Samsung Electronics common stock at 22.13%.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/930667/000100472626010083/primary_doc.xml",
+      "source_title": "iShares MSCI South Korea ETF Form N-PORT for the month ended August 31, 2026",
+      "published_date": "2026-10-23"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The September 30, 2026 fact sheet shows a one-year NAV return of 133.99% versus 137.71% for the MSCI Korea 25/50 Index, and calendar-year NAV returns of 97.57% in 2025 and -20.79% in 2024.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.ishares.com/us/literature/fact-sheet/ewy-ishares-msci-south-korea-etf-fund-fact-sheet-en-us.pdf",
+      "source_title": "iShares MSCI South Korea ETF fact sheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The one-year NAV return of 133.99% lagged the 137.71% benchmark return by 3.72 percentage points over the year ended September 30, 2026, a gap wider than the 0.59% expense ratio.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.ishares.com/us/literature/fact-sheet/ewy-ishares-msci-south-korea-etf-fund-fact-sheet-en-us.pdf",
+      "source_title": "iShares MSCI South Korea ETF fact sheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The N-PORT for the month ended November 30, 2025 reports net assets of $7,017,244,491, before the fund's 2026 asset increase.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/930667/000141036826006936/0001410368-26-006936.txt",
+      "source_title": "iShares MSCI South Korea ETF Form N-PORT-P, period ended November 30, 2025",
+      "published_date": "2026-01-23"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "SK hynix, the fund's largest September holding, reported third-quarter 2026 revenue of 104.6155 trillion won, up 328% year over year, and operating profit of 83.3338 trillion won, an 80% operating margin.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "source_title": "SK hynix Announces 3Q26 Financial Results",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "SK hynix net income was 39.7756 trillion won in the third quarter, down 58% from 93.9226 trillion won in the second quarter, even though operating profit rose 38% quarter over quarter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "source_title": "SK hynix Announces 3Q26 Financial Results",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "contract",
+      "claim": "SK hynix said long-term agreements with 14 customers cover more than 50% of 2027 and 2028 production capacity, that it expects memory demand to exceed supply through 2030, and that it plans about 100 trillion won of shareholder returns in 2026, including a 14 trillion won third-quarter dividend.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "source_title": "SK hynix Announces 3Q26 Financial Results",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "SK hynix discontinued its review of a Solidigm IPO, which management had considered as a way to raise outside capital for Solidigm capacity and to lighten its own investment burden.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "source_title": "SK hynix Announces 3Q26 Financial Results",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Samsung Electronics, the fund's second-largest holding, reported third-quarter 2026 revenue of 195.3 trillion won and operating profit of 107.4 trillion won, of which the Device Solutions division contributed 147.1 trillion won of revenue and 106.5 trillion won of operating profit, while the MX and Networks businesses posted a 0.6 trillion won operating loss and the DX division a 0.8 trillion won operating loss.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "source_title": "Samsung Electronics Announces Third Quarter 2026 Results",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "Samsung's third-quarter capital expenditure was 29 trillion won, full-year 2026 capital expenditure is expected at about 84.4 trillion won with 76.8 trillion won in Device Solutions, and the foundry business expects its Taylor, Texas fab to begin operations in 2027.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "source_title": "Samsung Electronics Announces Third Quarter 2026 Results",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Samsung's third-quarter dividend is 4,601 won per common share, or 30 trillion won in total, and the company said estimated 2026 shareholder returns are 90 to 110 trillion won, with the remaining plan to be set at a board meeting in late January 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results",
+      "source_title": "Samsung Electronics Announces Third Quarter 2026 Results",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "After the United States ended the validated end-user waiver in 2025, Samsung and SK hynix must renew licenses annually to import controlled U.S. chip equipment into China, and both told the Korea JoongAng Daily they do not plan significant further investment in their China plants.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.koreajoongangdaily.com/business/korean-manufacturers-redraw-china-playbook-as-us-pressure-escalates/12924062",
+      "source_title": "Korean manufacturers redraw China playbook as U.S. pressure escalates",
+      "published_date": "2026-10-19"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The 30-day SEC yield was 0.96% and the 12-month trailing yield was 1.34% as of October 31, 2026, and the only distribution shown for the latest year was $2.037071 per share paid on December 19, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "source_title": "iShares MSCI South Korea ETF product page",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Trailing valuation is not extreme relative to the profit boom: the iShares page shows a P/E of 16.75 and a P/B of 1.81 as of November 11, 2026, but the NAV of $148.70 was 31.8% below the $218.02 52-week high listed on the same page.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "source_title": "iShares MSCI South Korea ETF product page",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Samsung board meeting to set the final 2026 shareholder-return amount and the next return policy",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+    },
+    {
+      "event": "SK hynix expects HBM4 to exceed HBM3E in both shipment volume and revenue in the fourth quarter of 2026, with long-term agreements already covering more than half of 2027-2028 capacity",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/"
+    },
+    {
+      "event": "Samsung expects its Taylor, Texas foundry fab to begin operations in 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-third-quarter-2026-results"
+    },
+    {
+      "event": "EWY pays distributions annually; the last reported payment was December 19, 2025, and no 2026 distribution was listed on the iShares schedule",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "End of the validated end-user waiver, so Samsung Electronics and SK hynix must renew licenses each year to bring controlled U.S. semiconductor equipment into their China plants",
+      "stage": "implementation",
+      "industry": "semiconductors",
+      "bottleneck": "U.S. export licenses for equipment used in China memory fabs",
+      "revenue_mechanism": "The license regime caps further capacity additions at the China plants of EWY's two largest holdings. Both companies said they will maintain existing China lines but will not expand them significantly, and they are shifting new capacity to Korea, the United States and Vietnam. The article does not state a lost order or a revenue dollar amount.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.koreajoongangdaily.com/business/korean-manufacturers-redraw-china-playbook-as-us-pressure-escalates/12924062",
+      "published_date": "2026-10-19"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "At September 30, 2026, SK hynix and Samsung Electronics were 23.72% and 22.77% of the portfolio, and Samsung's third-quarter operating profit was almost entirely from semiconductors, so a memory-price reversal would hit the bulk of the fund.",
+      "severity": "high",
+      "source_url": "https://www.ishares.com/us/literature/fact-sheet/ewy-ishares-msci-south-korea-etf-fund-fact-sheet-en-us.pdf",
+      "published_date": "2026-09-30"
+    },
+    {
+      "risk": "The fund's three-year standard deviation was 44.03% and its equity beta was 2.05 as of October 31, 2026, and NAV on November 11, 2026 was $148.70 against a 52-week high of $218.02.",
+      "severity": "high",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "published_date": null
+    },
+    {
+      "risk": "U.S. equipment-license limits stop Samsung and SK hynix from meaningfully expanding their China fabs, which still matter to supply while the memory shortage lasts.",
+      "severity": "medium",
+      "source_url": "https://www.koreajoongangdaily.com/business/korean-manufacturers-redraw-china-playbook-as-us-pressure-escalates/12924062",
+      "published_date": "2026-10-19"
+    },
+    {
+      "risk": "iShares discloses that single-country international investing brings currency, liquidity, political and regulatory risk, and that those risks are heightened for emerging markets and single-country concentrations.",
+      "severity": "medium",
+      "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
+      "published_date": null
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "EWY is a fund, not an operating company. Share creations change shares outstanding but are not corporate dilution, so dilution_events_last_12m is empty. August 31, 2026 net assets are total assets of $29,253,894,064.63 minus liabilities of $1,531,110,604.83 on the N-PORT XML. The November 11 AUM figure is from the iShares product page and is not in the same filing as the August net assets, so the roughly $6.1 billion decline mixes market moves and any creations or redemptions; share-level flow for that window was not verified. The product page shows a year-to-date NAV figure of 51.39% in the header and 86.11% in a performance table, so no year-to-date return is used above. The 31.8% drawdown from the 52-week high is (218.02-148.70)/218.02. The 3.72 point tracking gap is 137.71 minus 133.99. No 2026 distribution had been declared on the iShares schedule. North Korea security risk and the won were not tied to a fund-specific primary source in this pass and are omitted."
+}
