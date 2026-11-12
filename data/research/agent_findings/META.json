@@ -1,0 +1,306 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms, Inc.",
+  "researched_at": "2026-11-12T21:41:13Z",
+  "agent_id": "research-agent-a",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter 2026 revenue was $64.601 billion, up 26% from $51.242 billion, and advertising revenue was $63.061 billion, also up 26%, with ad impressions up 10% and average price per ad up 14%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "social",
+      "topic": "customer",
+      "claim": "Family daily active people averaged 3.64 billion in September 2026, up 3% year over year, a much slower rate than the 26% revenue increase.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Income from operations fell 37% to $12.988 billion and the operating margin fell to 20% from 40%, because costs rose 68% to $51.613 billion, including a $9.89 billion charge for the August 2026 attorneys general agreement; excluding that charge, operating income would have been $22.88 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Meta guided fourth-quarter 2026 revenue to $73 billion to $76 billion, raised the 2026 expense outlook to $175 billion to $179 billion to include the legal charge, and narrowed 2026 capital expenditures, including finance-lease principal, to $135 billion to $145 billion from $130 billion to $145 billion.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Third-quarter operating cash flow was $32.79 billion and free cash flow was negative $2.12 billion, against capital expenditures, including finance-lease principal, of $34.91 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026, long-term debt was $80.922 billion versus $58.744 billion at December 31, 2025, with $2.747 billion of long-term debt classified as current, cash was $11.222 billion, marketable securities were $71.227 billion, and property and equipment, net, was $253.222 billion versus $176.400 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "On November 5, 2026, Meta completed $15 billion of senior notes: $3.25 billion of 5.850% notes due 2031, $3.25 billion of 6.250% notes due 2033, $4.00 billion of 6.550% notes due 2036, $1.75 billion of 7.350% notes due 2046, and $2.75 billion of 7.500% notes due 2056.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "source_title": "Meta Platforms Form 8-K filed November 5, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On October 29, 2026, Meta closed the sale of 250 million depositary shares at a $50 public offering price, each representing 1/20th of a share of 6.50% Series A mandatory convertible preferred stock with a $1,000 liquidation preference, which converts on or about August 15, 2029 into between 1.3620 and 1.6000 Class A shares per preferred share.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/0001193125-26-438017.txt",
+      "source_title": "Meta Platforms Form 8-K reporting the October 26, 2026 offerings",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "The October 29, 2026 8-K describes forward sale agreements initially covering 40 million Class A shares at an initial forward price of $622.91875, settleable at Meta's option on or before November 19, 2027, with no proceeds to the company until settlement.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/0001193125-26-438017.txt",
+      "source_title": "Meta Platforms Form 8-K reporting the October 26, 2026 offerings",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On November 4, 2026, the underwriters exercised in full their option to purchase 6 million additional Class A shares, and Meta entered additional forward sale agreements on terms essentially similar to the 40 million-share forwards.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
+      "source_title": "Meta Platforms Form 8-K filed November 5, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Meta did not repurchase any Class A shares in the nine months ended September 30, 2026, and $25.03 billion remained authorized, while Class A shares outstanding rose from 2,187 million at December 31, 2025 to 2,214 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "political",
+      "topic": "governance",
+      "claim": "The board approved a non-voting Class C common stock effective January 19, 2027, and a one-for-one stock dividend of Class C for each Class A and Class B share, which does not change current voting power but is intended to fund growth while keeping Mark Zuckerberg's voting control.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Reality Labs third-quarter revenue was $443 million versus $470 million a year earlier and the operating loss was $4.129 billion; Meta expects 2026 Reality Labs losses of $18 billion to $19 billion and about $15 billion in 2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "On November 18, 2025, the U.S. District Court for the District of Columbia granted judgment for Meta in FTC v. Meta Platforms, the case seeking divestiture of Instagram and WhatsApp, and on January 20, 2026 the FTC filed a notice of appeal.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "The August 2026 agreement with 52 attorneys general provides for payments of up to about $18.59 billion related to teen mental health and social media; about $12.7 billion is payable over ten years, about $5.3 billion is contingent and was not accrued, and cases by Florida, New Mexico and the U.S. Virgin Islands are excluded.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "A Spanish court on November 19, 2025 awarded news publishers about EUR 542 million against Meta on an unfair-competition claim, which Meta has appealed, and in April 2025 the European Commission fined Meta EUR 200 million under the Digital Markets Act for the subscription-for-no-ads model, an appeal Meta filed on July 4, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "legal",
+      "topic": "policy",
+      "claim": "In June 2026 the European Commission imposed an interim measure requiring WhatsApp to offer its business API for free to general-purpose AI chatbot providers, and Meta said it intends to appeal.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "economic",
+      "topic": "competition",
+      "claim": "The 10-Q says Reels is growing but monetizes at a lower rate than Feed and Stories and is expected to keep monetizing at a lower rate, and that regulatory and platform limits on ad targeting are expected to keep pressuring advertising revenue.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
+    },
+    {
+      "dimension": "social",
+      "topic": "other",
+      "claim": "Headcount was 66,775 at September 30, 2026, down 15% year over year, while capital spending and infrastructure assets were still rising.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "source_title": "Meta Reports Third Quarter 2026 Results",
+      "published_date": "2026-10-21"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fourth-quarter 2026 total revenue guided to $73-76 billion",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "event": "Non-voting Class C common stock becomes effective, followed by a one-for-one Class C stock dividend",
+      "expected_date": "2027-01-19",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    {
+      "event": "First quarterly dividend date on the 6.50% mandatory convertible preferred stock",
+      "expected_date": "2027-02-15",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/0001193125-26-438017.txt"
+    },
+    {
+      "event": "Next personal-injury bellwether trials in the social-media addiction docket scheduled to begin",
+      "expected_date": "2027-03-16",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    {
+      "event": "Copyright cases including Kadrey and related actions set for trial",
+      "expected_date": "2027-05-24",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    {
+      "event": "Contractual deadline to settle the Class A forward sale agreements, after which Meta must have issued the shares or settled earlier at its option",
+      "expected_date": "2027-11-19",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm"
+    },
+    {
+      "event": "Reality Labs operating losses expected to narrow to around $15 billion for 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "European Union",
+      "policy": "Digital Markets Act Article 5(2) decision on Meta's subscription-for-no-ads consent model, including a EUR 200 million fine",
+      "stage": "implementation",
+      "industry": "digital advertising",
+      "bottleneck": "User consent for combining personal data across services",
+      "revenue_mechanism": "Meta launched less-personalized ads and said further changes required during the appeal could materially worsen the European user experience and have a significant impact on European business and revenue.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "published_date": "2026-10-22"
+    },
+    {
+      "country": "European Union",
+      "policy": "European Commission interim measure requiring WhatsApp to give general-purpose AI providers free access to the WhatsApp Business API",
+      "stage": "implementation",
+      "industry": "messaging and AI distribution",
+      "bottleneck": "Access terms for the WhatsApp Business API",
+      "revenue_mechanism": "The interim measure requires Meta to offer that API access for free while the antitrust investigation continues, so Meta cannot charge those providers for the access the Commission ordered.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "published_date": "2026-10-22"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "2026 capital expenditure is guided to $135-145 billion and third-quarter free cash flow was negative $2.12 billion. Meta is funding the build with debt and new equity, including $15 billion of notes in November and the October convertible and forward sales. Cash and securities were still $82.45 billion at September 30, so this is a capital-intensity risk, not a stated solvency risk.",
+      "severity": "high",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "published_date": "2026-10-21"
+    },
+    {
+      "risk": "The 52-state teen-safety agreement allows payments of up to about $18.59 billion, about $5.3 billion of that is still contingent, New Mexico has a separate stayed judgment, and further user bellwether trials are set for March 16, 2027. The 10-Q also says some plaintiffs have indicated claims that at times exceeded a trillion dollars.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "published_date": "2026-10-22"
+    },
+    {
+      "risk": "The mandatory convertible, the 46 million-share forward, and the new Class C stock commit Meta to issue a large amount of common equity by 2027-2029, and unpaid preferred dividends would block common dividends and buybacks.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/0001193125-26-438017.txt",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "The 10-Q says DMA compliance changes could have a significant impact on European revenue, and the FTC has appealed the November 2025 judgment that rejected the Instagram and WhatsApp divestiture case.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "published_date": "2026-10-22"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Closed sale of 250,000,000 Series A depositary shares at $50 each ($12.5 billion public offering amount before the underwriting discount), each a 1/20th interest in 6.50% mandatory convertible preferred stock. Each preferred share converts on or about August 15, 2029 into 1.3620 to 1.6000 Class A shares, and dividends may be paid in cash or Class A stock. Underwriters held a 30-day option for 37,500,000 additional depositary shares; exercise of that option was not found.",
+      "date": "2026-10-29",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/0001193125-26-438017.txt"
+    },
+    {
+      "description": "Forward sale of 40,000,000 Class A shares at an initial forward price of $622.91875 per share. The company receives no proceeds until settlement, which must occur on or before November 19, 2027, and may be settled in Class C shares after that class is issued. On November 4, 2026 the underwriters exercised in full a 6,000,000-share option and Meta entered additional forward agreements on similar terms.",
+      "date": "2026-11-04",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "The 10-Q balance sheet is as of September 30, 2026, before the October 29 equity closing and the November 5 note issuance, so quarter-end debt and share count understate the funding that followed. Cash of $11.222 billion plus marketable securities of $71.227 billion equals the $82.45 billion cited in the earnings release. The $12.5 billion preferred proceeds equal 250 million depositary shares times the $50 public offering price stated in the underwriting agreement; net proceeds after the discount were not used. Nine-month 2026 proceeds from long-term debt issuance were $24.910 billion before the November notes. A euro note offering was described in a prospectus supplement around the same dates but a completed closing 8-K was not used here, so only the completed $15 billion dollar notes are included. Reality Labs third-quarter revenue and loss are from the earnings release segment table. No going-concern language was found. The Class C dividend is a stock split of the economic interest and is not listed as a cash dilution event; it does create a non-voting currency for later issuance."
+}

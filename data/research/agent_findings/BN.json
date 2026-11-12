@@ -1,0 +1,246 @@
+{
+  "ticker": "BN",
+  "company": "Brookfield Corporation",
+  "researched_at": "2026-11-12T21:41:13Z",
+  "agent_id": "research-agent-a",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, Brookfield reported consolidated net income of $1.914 billion versus $284 million a year earlier, net income attributable to shareholders of $1.305 billion versus $219 million, and distributable earnings of $1.718 billion, or $0.73 per share, up 16% per share from $0.63.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Distributable earnings before realizations were a record $5.815 billion, or $2.47 per share, over the twelve months ended September 30, 2026, and fee-related earnings rose 15% from the prior-year quarter as fee-bearing capital increased 13% to $682 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "contract",
+      "claim": "Fundraising through the third quarter of 2026 totaled $123 billion, including $25 billion in the quarter, and after quarter-end Brookfield received $13 billion of additional commitments for its infrastructure flagship, taking capital committed to $26 billion, with a first close expected in the coming weeks.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Wealth Solutions distributable earnings rose 22% from the prior-year quarter to $511 million, insurance assets were nearly $200 billion after the Just Group acquisition, and the P&C combined ratio was 99.6% in the quarter.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Closing of the Just Group acquisition added $45 billion of insurance assets and took Wealth Solutions insurance assets to $191 billion as of June 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000021/bn-20260630.htm",
+      "source_title": "Brookfield Corporation interim report for the quarter ended June 30, 2026",
+      "published_date": "2026-08-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Brookfield ended the quarter with $207 billion of deployable capital, including $5.4 billion of liquidity at the Corporation, and said corporate debt had a 14-year weighted-average term with no remaining maturities in 2026; it also issued $600 million of five-year senior notes at 82 basis points over the benchmark.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Brookfield repurchased over $300 million of Class A shares since the prior report and $889 million year to date, and the weighted-average share count for the quarter was 2,230.9 million versus 2,244.0 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026, corporate borrowings were $16.056 billion, up from $14.301 billion at December 31, 2025, and non-recourse borrowings of managed entities were $266.013 billion, up from $245.311 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Interest expense on same-store non-recourse borrowings was $4.199 billion in the third quarter of 2026, and interest on corporate borrowings was $198 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Distributable earnings from Brookfield Property Group were $727 million over the twelve months ended September 30, 2026, down from $853 million in the prior twelve-month period, and the corporate-costs-and-other drag widened to $237 million in the quarter from $140 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Real Estate common equity rose to $26.7 billion at June 30, 2026 from $25.1 billion at year-end 2025, but the increase was partly offset by lower valuations on certain U.S. office properties in the value-add portfolio.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000021/bn-20260630.htm",
+      "source_title": "Brookfield Corporation interim report for the quarter ended June 30, 2026",
+      "published_date": "2026-08-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "governance",
+      "claim": "Common equity was $42.991 billion at September 30, 2026, against $128.415 billion of non-controlling interests and $4.086 billion of preferred equity, so public common shareholders are a minority of the consolidated equity stack.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Diluted earnings per share for the quarter were $0.54 on 2,346.9 million shares and equivalents, including a 116.0 million dilutive effect from options, escrowed shares and exchangeable shares of an affiliate.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "political",
+      "topic": "governance",
+      "claim": "Brookfield expects to complete the combination with Brookfield Wealth Solutions on December 1, 2026, with Class A shares of Brookfield Corporation Ltd. expected to trade as BN on December 3; the dividend reinvestment plan terminates on November 17, and eligible Canadian and UK holders must elect tax deferral by November 25.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "In July 2026 Brookfield completed the acquisition of the remaining interest in Oaktree, and the Q2 shareholder letter said shareholders had approved the corporate simplification.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000021/bn-20260630.htm",
+      "source_title": "Brookfield Corporation interim report for the quarter ended June 30, 2026",
+      "published_date": "2026-08-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "During the third quarter Brookfield leased 5.3 million square feet of office and retail space, with net rents on the balance-sheet office portfolio 16% above expiring leases, and it advanced $20 billion of asset sales in the quarter and $53 billion year to date.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Brookfield said its energy business is advancing nuclear work through Westinghouse, including a recently announced framework agreement among Westinghouse, the U.S. federal government and Korea to accelerate U.S. nuclear development.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
+      "published_date": "2026-11-12"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Expected closing of the Brookfield Corporation and Brookfield Wealth Solutions combination into Brookfield Corporation Ltd.",
+      "expected_date": "2026-12-01",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html"
+    },
+    {
+      "event": "Class A shares of Brookfield Corporation Ltd. expected to begin trading on the NYSE and TSX under BN",
+      "expected_date": "2026-12-03",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html"
+    },
+    {
+      "event": "Cash distribution of $0.07 per share payable to holders of record on December 16, 2026",
+      "expected_date": "2026-12-31",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html"
+    },
+    {
+      "event": "First close of the infrastructure flagship, which Brookfield said it expects in the coming weeks after commitments reached $26 billion",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Framework agreement among Westinghouse, the U.S. federal government and Korea to accelerate nuclear development in the United States",
+      "stage": "enacted",
+      "industry": "nuclear energy services",
+      "bottleneck": "U.S. nuclear project development",
+      "revenue_mechanism": "Brookfield said the agreement strengthens the outlook for its Westinghouse energy business, but the release did not disclose a contract value or booked revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "published_date": "2026-11-12"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Non-recourse borrowings of managed entities were $266.0 billion at September 30, 2026, and same-store interest on that debt was $4.2 billion in the quarter. The debt is largely non-recourse and corporate maturities are clear through 2026, but asset-level leverage can still reduce cash available to the parent if rates stay high or asset values fall.",
+      "severity": "high",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "published_date": "2026-11-12"
+    },
+    {
+      "risk": "The December 1, 2026 combination folds the investment parent together with a wealth and insurance platform that already holds nearly $200 billion of insurance assets and earned a 99.6% P&C combined ratio in the third quarter, so insurance results will sit closer to the public share.",
+      "severity": "medium",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "published_date": "2026-11-12"
+    },
+    {
+      "risk": "Property-group distributable earnings fell over the last twelve months, and the Q2 report cited lower valuations on certain U.S. office properties in the value-add portfolio.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1001085/000100108526000021/bn-20260630.htm",
+      "published_date": "2026-08-17"
+    },
+    {
+      "risk": "Options, escrowed shares and affiliate exchangeable shares added 116.0 million shares to the diluted count, about 5% of the 2,230.9 million weighted-average shares, even while the company was repurchasing stock.",
+      "severity": "low",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
+      "published_date": "2026-11-12"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "Brookfield is a Canadian foreign private issuer and reports under IFRS on Form 6-K and Form 40-F, not a 10-Q. The Q3 2026 figures are from the November 12, 2026 earnings release; the corresponding 6-K was not yet on EDGAR at the time of this write-up, and the release says the figures are unaudited. No equity offering, ATM or new convertible issuance was found in the last twelve months; the share count fell with buybacks, while 116 million existing options and exchangeable shares remain dilutive. Per-share figures in the release are adjusted for the three-for-two split completed on October 9, 2025, which is just outside the twelve-month window. The Westinghouse framework is described only in Brookfield's release, with no contract value, so evidence_of_company_revenue is false. Gross accumulated unrealized carried interest was $13.0 billion at quarter end; that balance is not included above as realized earnings."
+}

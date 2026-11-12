@@ -1,0 +1,1957 @@
+{
+  "run_id": "daily-20261112T215125Z",
+  "alerts": [
+    {
+      "ticker": "CODA",
+      "kind": "evidence",
+      "message": "CODA 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "PLPC",
+      "kind": "evidence",
+      "message": "PLPC 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "MPTI",
+      "kind": "evidence",
+      "message": "MPTI 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "TWIN",
+      "kind": "evidence",
+      "message": "TWIN 5 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "TSSI",
+      "kind": "evidence",
+      "message": "TSSI 3 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "RCAT",
+      "kind": "evidence",
+      "message": "RCAT 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "AMPX",
+      "kind": "veto",
+      "message": "AMPX new risk flags: CASH_RUNWAY"
+    },
+    {
+      "ticker": "AMPX",
+      "kind": "evidence",
+      "message": "AMPX 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "EOSE",
+      "kind": "evidence",
+      "message": "EOSE 1 new sourced items, e.g. SEC full-text search: no 'material weakness' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "ONDS",
+      "kind": "evidence",
+      "message": "ONDS 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "KTOS",
+      "kind": "evidence",
+      "message": "KTOS 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "BN",
+      "kind": "score",
+      "message": "BN independent YES 5 -> 11"
+    },
+    {
+      "ticker": "BN",
+      "kind": "evidence",
+      "message": "BN 22 new sourced items, e.g. For the quarter ended September 30, 2026, Brookfield reported consolidated net income of $1.914 billion versus $284 mill"
+    },
+    {
+      "ticker": "META",
+      "kind": "status",
+      "message": "META status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "META",
+      "kind": "score",
+      "message": "META independent YES 18 -> 27"
+    },
+    {
+      "ticker": "META",
+      "kind": "evidence",
+      "message": "META 32 new sourced items, e.g. Third-quarter 2026 revenue was $64.601 billion, up 26% from $51.242 billion, and advertising revenue was $63.061 billion"
+    },
+    {
+      "ticker": "AMZN",
+      "kind": "status",
+      "message": "AMZN status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "AMZN",
+      "kind": "evidence",
+      "message": "AMZN 23 new sourced items, e.g. Third-quarter 2026 net sales rose 12% to $201.9 billion (13% excluding a $0.9 billion foreign-exchange headwind), operat"
+    },
+    {
+      "ticker": "AVO",
+      "kind": "status",
+      "message": "AVO status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "AVO",
+      "kind": "score",
+      "message": "AVO independent YES 13 -> 18"
+    },
+    {
+      "ticker": "AVO",
+      "kind": "evidence",
+      "message": "AVO 26 new sourced items, e.g. Fiscal third-quarter 2026 net sales rose 26% to $450.0 million, driven by a 38% increase in avocado volume sold, partly "
+    },
+    {
+      "ticker": "ELV",
+      "kind": "status",
+      "message": "ELV status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "ELV",
+      "kind": "score",
+      "message": "ELV independent YES 16 -> 27"
+    },
+    {
+      "ticker": "ELV",
+      "kind": "evidence",
+      "message": "ELV 28 new sourced items, e.g. For the quarter ended September 30, 2026, Elevance reported operating revenue of $50.4 billion, up 0.7% year over year, "
+    },
+    {
+      "ticker": "IREN",
+      "kind": "status",
+      "message": "IREN status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "IREN",
+      "kind": "score",
+      "message": "IREN independent YES 15 -> 24"
+    },
+    {
+      "ticker": "IREN",
+      "kind": "evidence",
+      "message": "IREN 32 new sourced items, e.g. For the quarter ended September 30, 2026, IREN reported total revenue of $228 million, up 66% sequentially, including AI"
+    },
+    {
+      "ticker": "AMD",
+      "kind": "status",
+      "message": "AMD status DISCOVERY -> DISQUALIFIED"
+    },
+    {
+      "ticker": "AMD",
+      "kind": "score",
+      "message": "AMD independent YES 22 -> 30"
+    },
+    {
+      "ticker": "AMD",
+      "kind": "evidence",
+      "message": "AMD 27 new sourced items, e.g. For the quarter ended September 26, 2026, AMD reported revenue of $13.377 billion, up 45% year over year, GAAP gross mar"
+    },
+    {
+      "ticker": "GLD",
+      "kind": "evidence",
+      "message": "GLD 20 new sourced items, e.g. SPDR Gold Trust is a New York investment trust, sponsored by World Gold Trust Services, LLC, with The Bank of New York M"
+    },
+    {
+      "ticker": "SPCX",
+      "kind": "score",
+      "message": "SPCX independent YES 8 -> 14"
+    },
+    {
+      "ticker": "SPCX",
+      "kind": "evidence",
+      "message": "SPCX 26 new sourced items, e.g. On April 7, 2026, Tuttle Capital Management changed the ticker of The SPAC and New Issue ETF from SPCX to SPCK, stating "
+    },
+    {
+      "ticker": "GOOGL",
+      "kind": "evidence",
+      "message": "GOOGL 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NVDA",
+      "kind": "evidence",
+      "message": "NVDA 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "LLY",
+      "kind": "evidence",
+      "message": "LLY 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "STX",
+      "kind": "evidence",
+      "message": "STX 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "PLTR",
+      "kind": "evidence",
+      "message": "PLTR 4 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NBIS",
+      "kind": "evidence",
+      "message": "NBIS 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "CIFR",
+      "kind": "evidence",
+      "message": "CIFR 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "DUK",
+      "kind": "evidence",
+      "message": "DUK 3 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NFLX",
+      "kind": "evidence",
+      "message": "NFLX 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "AXTI",
+      "kind": "status",
+      "message": "AXTI status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "AXTI",
+      "kind": "veto",
+      "message": "AXTI new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "AXTI",
+      "kind": "evidence",
+      "message": "AXTI 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "KSCP",
+      "kind": "veto",
+      "message": "KSCP new risk flags: LISTING_NONCOMPLIANT"
+    },
+    {
+      "ticker": "KSCP",
+      "kind": "evidence",
+      "message": "KSCP 2 new sourced items, e.g. 'substantial doubt' language in 10-Q filed 2026-11-12 (verify context)"
+    },
+    {
+      "ticker": "INFQ",
+      "kind": "evidence",
+      "message": "INFQ 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "BE",
+      "kind": "status",
+      "message": "BE status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "BE",
+      "kind": "veto",
+      "message": "BE new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "BE",
+      "kind": "evidence",
+      "message": "BE 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "GAME",
+      "kind": "evidence",
+      "message": "GAME 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "KLIC",
+      "kind": "evidence",
+      "message": "KLIC 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "SITM",
+      "kind": "evidence",
+      "message": "SITM 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "FF",
+      "kind": "status",
+      "message": "FF status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "FF",
+      "kind": "veto",
+      "message": "FF new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "FF",
+      "kind": "evidence",
+      "message": "FF 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "SENS",
+      "kind": "evidence",
+      "message": "SENS 1 new sourced items, e.g. SEC full-text search: no 'material weakness' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "HCTI",
+      "kind": "status",
+      "message": "HCTI status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "HCTI",
+      "kind": "veto",
+      "message": "HCTI new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "HCTI",
+      "kind": "evidence",
+      "message": "HCTI 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "CIRC",
+      "kind": "evidence",
+      "message": "CIRC 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "LSF",
+      "kind": "evidence",
+      "message": "LSF 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "ASPI",
+      "kind": "evidence",
+      "message": "ASPI 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NXB",
+      "kind": "evidence",
+      "message": "NXB 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "BETA",
+      "kind": "status",
+      "message": "BETA status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "BETA",
+      "kind": "veto",
+      "message": "BETA new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "BETA",
+      "kind": "evidence",
+      "message": "BETA 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "TER",
+      "kind": "status",
+      "message": "TER status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "TER",
+      "kind": "veto",
+      "message": "TER new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "TER",
+      "kind": "evidence",
+      "message": "TER 4 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "RDW",
+      "kind": "evidence",
+      "message": "RDW 4 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "HNI",
+      "kind": "evidence",
+      "message": "HNI 6 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "AMBQ",
+      "kind": "status",
+      "message": "AMBQ status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "AMBQ",
+      "kind": "veto",
+      "message": "AMBQ new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "AMBQ",
+      "kind": "evidence",
+      "message": "AMBQ 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "VATE",
+      "kind": "evidence",
+      "message": "VATE 3 new sourced items, e.g. 'substantial doubt' language in 10-Q filed 2026-11-12 (verify context)"
+    },
+    {
+      "ticker": "DVLT",
+      "kind": "evidence",
+      "message": "DVLT 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "COUR",
+      "kind": "evidence",
+      "message": "COUR 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "STAA",
+      "kind": "status",
+      "message": "STAA status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "STAA",
+      "kind": "veto",
+      "message": "STAA new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "STAA",
+      "kind": "evidence",
+      "message": "STAA 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "MOBI",
+      "kind": "status",
+      "message": "MOBI status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "MOBI",
+      "kind": "veto",
+      "message": "MOBI new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "MOBI",
+      "kind": "evidence",
+      "message": "MOBI 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "STRL",
+      "kind": "evidence",
+      "message": "STRL 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NESR",
+      "kind": "status",
+      "message": "NESR status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "NESR",
+      "kind": "veto",
+      "message": "NESR new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "NESR",
+      "kind": "evidence",
+      "message": "NESR 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "LSCC",
+      "kind": "status",
+      "message": "LSCC status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "LSCC",
+      "kind": "veto",
+      "message": "LSCC new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "LSCC",
+      "kind": "evidence",
+      "message": "LSCC 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "QUIK",
+      "kind": "status",
+      "message": "QUIK status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "QUIK",
+      "kind": "veto",
+      "message": "QUIK new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "QUIK",
+      "kind": "score",
+      "message": "QUIK independent YES 14 -> 22"
+    },
+    {
+      "ticker": "QUIK",
+      "kind": "evidence",
+      "message": "QUIK 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "CRON",
+      "kind": "evidence",
+      "message": "CRON 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "AGX",
+      "kind": "status",
+      "message": "AGX status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "AGX",
+      "kind": "veto",
+      "message": "AGX new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "AGX",
+      "kind": "evidence",
+      "message": "AGX 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "MRAM",
+      "kind": "status",
+      "message": "MRAM status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "MRAM",
+      "kind": "veto",
+      "message": "MRAM new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "MRAM",
+      "kind": "evidence",
+      "message": "MRAM 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "SVCO",
+      "kind": "status",
+      "message": "SVCO status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "SVCO",
+      "kind": "veto",
+      "message": "SVCO new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "SVCO",
+      "kind": "evidence",
+      "message": "SVCO 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "ALMR",
+      "kind": "status",
+      "message": "ALMR status DISQUALIFIED -> STALE DATA"
+    },
+    {
+      "ticker": "ALMR",
+      "kind": "veto",
+      "message": "ALMR new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "ALMR",
+      "kind": "evidence",
+      "message": "ALMR 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "MPWR",
+      "kind": "status",
+      "message": "MPWR status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "MPWR",
+      "kind": "veto",
+      "message": "MPWR new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "MPWR",
+      "kind": "evidence",
+      "message": "MPWR 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "TIC",
+      "kind": "evidence",
+      "message": "TIC 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "MXL",
+      "kind": "status",
+      "message": "MXL status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "MXL",
+      "kind": "veto",
+      "message": "MXL new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "MXL",
+      "kind": "evidence",
+      "message": "MXL 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "KRMN",
+      "kind": "evidence",
+      "message": "KRMN 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "HLIT",
+      "kind": "evidence",
+      "message": "HLIT 2 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "NEPH",
+      "kind": "status",
+      "message": "NEPH status DISCOVERY -> STALE DATA"
+    },
+    {
+      "ticker": "NEPH",
+      "kind": "veto",
+      "message": "NEPH new risk flags: STALE_MARKET_DATA"
+    },
+    {
+      "ticker": "NEPH",
+      "kind": "evidence",
+      "message": "NEPH 1 new sourced items, e.g. SEC full-text search: no 'substantial doubt' disclosure in 10-K/10-Q filed 2025-11-12..2026-11-12"
+    },
+    {
+      "ticker": "GS",
+      "kind": "price_move",
+      "message": "GS up +5.2% from 868.56 (2026-11-06) to 913.60 (2026-11-12). Tracked company; not a research buy."
+    }
+  ],
+  "proposals": [
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "quantity": 0.092273,
+      "est_value": 54.0,
+      "order_type": "market",
+      "from_weight": 0.0483,
+      "to_weight": 0.04,
+      "rationale": "realized vol 80% at 4.8%; high-vol cap 4%",
+      "kind": "risk_trim",
+      "status": "PROPOSED \u2014 requires human approval; not submitted",
+      "review_equity_order": {
+        "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+        "symbol": "AMD",
+        "side": "sell",
+        "type": "market",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours",
+        "quantity": "0.092273"
+      }
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "quantity": 0.788846,
+      "est_value": 279.96,
+      "order_type": "market",
+      "from_weight": 0.2232,
+      "to_weight": 0.18,
+      "rationale": "weight 22.3% above 20% fund limit",
+      "kind": "risk_trim",
+      "status": "PROPOSED \u2014 requires human approval; not submitted",
+      "review_equity_order": {
+        "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+        "symbol": "GLD",
+        "side": "sell",
+        "type": "market",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours",
+        "quantity": "0.788846"
+      }
+    },
+    {
+      "symbol": "-",
+      "side": "none",
+      "kind": "no_buy",
+      "rationale": "No candidate passed the 80/100 independent-evidence gate with bull case >= 2x and no critical veto; no research buys.",
+      "status": "INFORMATIONAL"
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "dollar_amount": 568.86,
+      "order_type": "market",
+      "rationale": "idle cash above the 5% reserve goes to the diversified core fund (beta ~1, capped at 20% weight)",
+      "kind": "core_reinvest",
+      "status": "PROPOSED \u2014 requires human approval; not submitted",
+      "review_equity_order": {
+        "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+        "symbol": "SPY",
+        "side": "buy",
+        "type": "market",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours",
+        "dollar_amount": "568.86"
+      }
+    }
+  ],
+  "need_snapshot": [],
+  "holdings": [
+    {
+      "ticker": "BN",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 16,
+        "no": 21,
+        "unknown": 63,
+        "completed": 100,
+        "independent_yes": 11,
+        "dependent_yes": 5,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "11 independent YES < 80 (16 raw YES, 5 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "MISSING_FUNDAMENTALS",
+          "description": "No point-in-time SEC revenue; thesis cannot be evaluated",
+          "severity": "critical",
+          "evidence_ids": []
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 43,
+        "no": 38,
+        "unknown": 19,
+        "completed": 100,
+        "independent_yes": 27,
+        "dependent_yes": 16,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "27 independent YES < 80 (43 raw YES, 16 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "AMZN",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 35,
+        "no": 49,
+        "unknown": 16,
+        "completed": 100,
+        "independent_yes": 25,
+        "dependent_yes": 10,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "25 independent YES < 80 (35 raw YES, 10 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "AVO",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 26,
+        "no": 53,
+        "unknown": 21,
+        "completed": 100,
+        "independent_yes": 18,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "18 independent YES < 80 (26 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "ELV",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 40,
+        "no": 34,
+        "unknown": 26,
+        "completed": 100,
+        "independent_yes": 27,
+        "dependent_yes": 13,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "27 independent YES < 80 (40 raw YES, 13 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "IREN",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 32,
+        "no": 48,
+        "unknown": 20,
+        "completed": 100,
+        "independent_yes": 24,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "24 independent YES < 80 (32 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "AMD",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 44,
+        "no": 42,
+        "unknown": 14,
+        "completed": 100,
+        "independent_yes": 30,
+        "dependent_yes": 14,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "30 independent YES < 80 (44 raw YES, 14 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "GLD",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 13,
+        "no": 32,
+        "unknown": 55,
+        "completed": 100,
+        "independent_yes": 9,
+        "dependent_yes": 4,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "9 independent YES < 80 (13 raw YES, 4 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "MISSING_FUNDAMENTALS",
+          "description": "No point-in-time SEC revenue; thesis cannot be evaluated",
+          "severity": "critical",
+          "evidence_ids": []
+        }
+      ]
+    },
+    {
+      "ticker": "SPCX",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 23,
+        "no": 32,
+        "unknown": 45,
+        "completed": 100,
+        "independent_yes": 14,
+        "dependent_yes": 9,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "14 independent YES < 80 (23 raw YES, 9 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "MISSING_FUNDAMENTALS",
+          "description": "No point-in-time SEC revenue; thesis cannot be evaluated",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 324% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "ca88961e2b99036e"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 36,
+        "no": 14,
+        "unknown": 50,
+        "completed": 100,
+        "independent_yes": 25,
+        "dependent_yes": 11,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "25 independent YES < 80 (36 raw YES, 11 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "NVDA",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 39,
+        "no": 14,
+        "unknown": 47,
+        "completed": 100,
+        "independent_yes": 27,
+        "dependent_yes": 12,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "27 independent YES < 80 (39 raw YES, 12 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "LLY",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 27,
+        "no": 17,
+        "unknown": 56,
+        "completed": 100,
+        "independent_yes": 19,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "19 independent YES < 80 (27 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "STX",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 32,
+        "no": 16,
+        "unknown": 52,
+        "completed": 100,
+        "independent_yes": 24,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "24 independent YES < 80 (32 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "PLTR",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 39,
+        "no": 13,
+        "unknown": 48,
+        "completed": 100,
+        "independent_yes": 30,
+        "dependent_yes": 9,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "30 independent YES < 80 (39 raw YES, 9 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "NBIS",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 9,
+        "no": 9,
+        "unknown": 82,
+        "completed": 100,
+        "independent_yes": 5,
+        "dependent_yes": 4,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "5 independent YES < 80 (9 raw YES, 4 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "MISSING_FUNDAMENTALS",
+          "description": "No point-in-time SEC revenue; thesis cannot be evaluated",
+          "severity": "critical",
+          "evidence_ids": []
+        }
+      ]
+    },
+    {
+      "ticker": "CIFR",
+      "status": "DISQUALIFIED",
+      "tally": {
+        "yes": 18,
+        "no": 26,
+        "unknown": 56,
+        "completed": 100,
+        "independent_yes": 11,
+        "dependent_yes": 7,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "11 independent YES < 80 (18 raw YES, 7 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~3 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "09463fd52944e9d7"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "DUK",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 24,
+        "no": 18,
+        "unknown": 58,
+        "completed": 100,
+        "independent_yes": 17,
+        "dependent_yes": 7,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "17 independent YES < 80 (24 raw YES, 7 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "NFLX",
+      "status": "DISCOVERY",
+      "tally": {
+        "yes": 32,
+        "no": 17,
+        "unknown": 51,
+        "completed": 100,
+        "independent_yes": 22,
+        "dependent_yes": 10,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "22 independent YES < 80 (32 raw YES, 10 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "CODA",
+      "status": "DISQUALIFIED",
+      "discovery_score": 57.1,
+      "tally": {
+        "yes": 66,
+        "no": 21,
+        "unknown": 13,
+        "completed": 100,
+        "independent_yes": 38,
+        "dependent_yes": 28,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "38 independent YES < 80 (66 raw YES, 28 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "PLPC",
+      "status": "DISQUALIFIED",
+      "discovery_score": 34.9,
+      "tally": {
+        "yes": 49,
+        "no": 35,
+        "unknown": 16,
+        "completed": 100,
+        "independent_yes": 29,
+        "dependent_yes": 20,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "29 independent YES < 80 (49 raw YES, 20 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "MPTI",
+      "status": "DISQUALIFIED",
+      "discovery_score": 40.6,
+      "tally": {
+        "yes": 46,
+        "no": 36,
+        "unknown": 18,
+        "completed": 100,
+        "independent_yes": 27,
+        "dependent_yes": 19,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "27 independent YES < 80 (46 raw YES, 19 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 42% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "fe37f98a4de8eb19"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "TWIN",
+      "status": "DISQUALIFIED",
+      "discovery_score": 47.2,
+      "tally": {
+        "yes": 67,
+        "no": 23,
+        "unknown": 10,
+        "completed": 100,
+        "independent_yes": 38,
+        "dependent_yes": 29,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "38 independent YES < 80 (67 raw YES, 29 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "TSSI",
+      "status": "DISQUALIFIED",
+      "discovery_score": 51.7,
+      "tally": {
+        "yes": 38,
+        "no": 29,
+        "unknown": 33,
+        "completed": 100,
+        "independent_yes": 24,
+        "dependent_yes": 14,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "24 independent YES < 80 (38 raw YES, 14 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "MATERIAL_WEAKNESS",
+          "description": "Material weakness disclosed in last 12 months",
+          "severity": "warning",
+          "evidence_ids": [
+            "04bb1946eb30d884",
+            "7f18d9cf301d84f3",
+            "c004dc2751e40a37",
+            "2359810701a8f38d",
+            "730cac83e45afc5b"
+          ]
+        },
+        {
+          "code": "CRITICAL_RESEARCH_RISK",
+          "description": "Extreme customer concentration: one IT OEM is about 99% of revenue and 100% of receivables; loss or reduction of this cu",
+          "severity": "critical",
+          "evidence_ids": []
+        }
+      ]
+    },
+    {
+      "ticker": "RCAT",
+      "status": "DISQUALIFIED",
+      "discovery_score": 56.9,
+      "tally": {
+        "yes": 48,
+        "no": 38,
+        "unknown": 14,
+        "completed": 100,
+        "independent_yes": 29,
+        "dependent_yes": 19,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "29 independent YES < 80 (48 raw YES, 19 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 50% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "4f3531dd19f12e31"
+          ]
+        },
+        {
+          "code": "MATERIAL_WEAKNESS",
+          "description": "Material weakness disclosed in last 12 months",
+          "severity": "warning",
+          "evidence_ids": [
+            "3a9912ace7854934"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "AMPX",
+      "status": "DISQUALIFIED",
+      "discovery_score": 59.7,
+      "tally": {
+        "yes": 57,
+        "no": 32,
+        "unknown": 11,
+        "completed": 100,
+        "independent_yes": 36,
+        "dependent_yes": 21,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "36 independent YES < 80 (57 raw YES, 21 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~12 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "72a89feceaeec7e9"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "EOSE",
+      "status": "DISQUALIFIED",
+      "discovery_score": 57.1,
+      "tally": {
+        "yes": 38,
+        "no": 46,
+        "unknown": 16,
+        "completed": 100,
+        "independent_yes": 23,
+        "dependent_yes": 15,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "23 independent YES < 80 (38 raw YES, 15 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "GOING_CONCERN",
+          "description": "Going-concern doubt in filings or research",
+          "severity": "critical",
+          "evidence_ids": [
+            "db1232372b3cfa11"
+          ]
+        },
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~7 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "180f21543aadd952"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 103% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "692245ee9b76d1f1"
+          ]
+        },
+        {
+          "code": "NEGATIVE_EQUITY",
+          "description": "Stockholders' equity is negative",
+          "severity": "critical",
+          "evidence_ids": [
+            "a0cd0488741c3269"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "ONDS",
+      "status": "DISQUALIFIED",
+      "discovery_score": 57.7,
+      "tally": {
+        "yes": 48,
+        "no": 35,
+        "unknown": 17,
+        "completed": 100,
+        "independent_yes": 29,
+        "dependent_yes": 19,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "29 independent YES < 80 (48 raw YES, 19 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 138% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "0ed32a4c112bd7cb"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "KTOS",
+      "status": "DISQUALIFIED",
+      "discovery_score": 50.3,
+      "tally": {
+        "yes": 59,
+        "no": 32,
+        "unknown": 9,
+        "completed": 100,
+        "independent_yes": 40,
+        "dependent_yes": 19,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "40 independent YES < 80 (59 raw YES, 19 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    }
+  ],
+  "discoveries": [
+    {
+      "ticker": "GAME",
+      "status": "DISQUALIFIED",
+      "discovery_score": 83.3,
+      "tally": {
+        "yes": 28,
+        "no": 18,
+        "unknown": 54,
+        "completed": 100,
+        "independent_yes": 20,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "20 independent YES < 80 (28 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~1 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "0ab61ba8d549da7a"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 144% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "cd7afaae53655558"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "LSF",
+      "status": "DISCOVERY",
+      "discovery_score": 80.8,
+      "tally": {
+        "yes": 28,
+        "no": 17,
+        "unknown": 55,
+        "completed": 100,
+        "independent_yes": 19,
+        "dependent_yes": 9,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "19 independent YES < 80 (28 raw YES, 9 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "NXB",
+      "status": "DISQUALIFIED",
+      "discovery_score": 78.8,
+      "tally": {
+        "yes": 23,
+        "no": 19,
+        "unknown": 58,
+        "completed": 100,
+        "independent_yes": 15,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "15 independent YES < 80 (23 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~4 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "4218cf56cd0cdbc4"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "CIRC",
+      "status": "DISQUALIFIED",
+      "discovery_score": 75.9,
+      "tally": {
+        "yes": 22,
+        "no": 25,
+        "unknown": 53,
+        "completed": 100,
+        "independent_yes": 14,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "14 independent YES < 80 (22 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "LISTING_NONCOMPLIANT",
+          "description": "Exchange listing noncompliance reported by broker data",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "SUB_DOLLAR",
+          "description": "Share price $0.2106 below $1 (delisting/reverse-split risk)",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~10 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "13d588f11f7c6b4d"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 48% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "aaa6a54b4aae5789"
+          ]
+        },
+        {
+          "code": "NEGATIVE_EQUITY",
+          "description": "Stockholders' equity is negative",
+          "severity": "critical",
+          "evidence_ids": [
+            "f5965ae3ca545aeb"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "HNI",
+      "status": "DISQUALIFIED",
+      "discovery_score": 69.7,
+      "tally": {
+        "yes": 38,
+        "no": 13,
+        "unknown": 49,
+        "completed": 100,
+        "independent_yes": 21,
+        "dependent_yes": 17,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "21 independent YES < 80 (38 raw YES, 17 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 55% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "d638ee9d8394284f"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "CRON",
+      "status": "DISCOVERY",
+      "discovery_score": 69.7,
+      "tally": {
+        "yes": 39,
+        "no": 12,
+        "unknown": 49,
+        "completed": 100,
+        "independent_yes": 26,
+        "dependent_yes": 13,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "26 independent YES < 80 (39 raw YES, 13 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "HLIT",
+      "status": "DISCOVERY",
+      "discovery_score": 68.6,
+      "tally": {
+        "yes": 40,
+        "no": 12,
+        "unknown": 48,
+        "completed": 100,
+        "independent_yes": 25,
+        "dependent_yes": 15,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "25 independent YES < 80 (40 raw YES, 15 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "FF",
+      "status": "STALE DATA",
+      "discovery_score": 68.4,
+      "tally": {
+        "yes": 26,
+        "no": 20,
+        "unknown": 54,
+        "completed": 100,
+        "independent_yes": 17,
+        "dependent_yes": 9,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "17 independent YES < 80 (26 raw YES, 9 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "STALE_MARKET_DATA",
+          "description": "Market data age 145h exceeds 96h",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~4 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "8cc7093880b65bb9"
+          ]
+        },
+        {
+          "code": "MATERIAL_WEAKNESS",
+          "description": "Material weakness disclosed in last 12 months",
+          "severity": "warning",
+          "evidence_ids": [
+            "165a21bee2700e4a"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "VATE",
+      "status": "DISQUALIFIED",
+      "discovery_score": 68.0,
+      "tally": {
+        "yes": 39,
+        "no": 13,
+        "unknown": 48,
+        "completed": 100,
+        "independent_yes": 22,
+        "dependent_yes": 17,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "22 independent YES < 80 (39 raw YES, 17 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "GOING_CONCERN",
+          "description": "Going-concern doubt in filings or research",
+          "severity": "critical",
+          "evidence_ids": [
+            "b0c1bd52f09d197a",
+            "967ec6048752f71b",
+            "c6b15db05d98e4e8",
+            "9f00a2617ef6ebbe",
+            "d9e750b20a2b90ef"
+          ]
+        },
+        {
+          "code": "NEGATIVE_EQUITY",
+          "description": "Stockholders' equity is negative",
+          "severity": "critical",
+          "evidence_ids": [
+            "d185336488f9031e"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "STRL",
+      "status": "DISCOVERY",
+      "discovery_score": 67.9,
+      "tally": {
+        "yes": 42,
+        "no": 10,
+        "unknown": 48,
+        "completed": 100,
+        "independent_yes": 28,
+        "dependent_yes": 14,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "28 independent YES < 80 (42 raw YES, 14 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "AMBQ",
+      "status": "STALE DATA",
+      "discovery_score": 66.6,
+      "tally": {
+        "yes": 30,
+        "no": 19,
+        "unknown": 51,
+        "completed": 100,
+        "independent_yes": 19,
+        "dependent_yes": 11,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "19 independent YES < 80 (30 raw YES, 11 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "STALE_MARKET_DATA",
+          "description": "Market data age 145h exceeds 96h",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 95% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "2a2de295b91cbd08"
+          ]
+        },
+        {
+          "code": "MATERIAL_WEAKNESS",
+          "description": "Material weakness disclosed in last 12 months",
+          "severity": "warning",
+          "evidence_ids": [
+            "5f88d1f1db1f2bc7"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "KSCP",
+      "status": "DISQUALIFIED",
+      "discovery_score": 65.0,
+      "tally": {
+        "yes": 25,
+        "no": 24,
+        "unknown": 51,
+        "completed": 100,
+        "independent_yes": 18,
+        "dependent_yes": 7,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "18 independent YES < 80 (25 raw YES, 7 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "LISTING_NONCOMPLIANT",
+          "description": "Exchange listing noncompliance reported by broker data",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "SUB_DOLLAR",
+          "description": "Share price $0.4536 below $1 (delisting/reverse-split risk)",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "GOING_CONCERN",
+          "description": "Going-concern doubt in filings or research",
+          "severity": "critical",
+          "evidence_ids": [
+            "4c820445bdeb5af3",
+            "34611dcfc78ae787",
+            "54e5ceb58fe6d29c",
+            "c6339f4ffba84d03",
+            "17659555e787f8c9"
+          ]
+        },
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~2 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "500382002164eb92"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 141% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "73bc644a77f69278"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "INFQ",
+      "status": "DISQUALIFIED",
+      "discovery_score": 64.8,
+      "tally": {
+        "yes": 19,
+        "no": 19,
+        "unknown": 62,
+        "completed": 100,
+        "independent_yes": 14,
+        "dependent_yes": 5,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "14 independent YES < 80 (19 raw YES, 5 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 1310% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "006c0430ff5323ab"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "SENS",
+      "status": "DISQUALIFIED",
+      "discovery_score": 64.4,
+      "tally": {
+        "yes": 27,
+        "no": 23,
+        "unknown": 50,
+        "completed": 100,
+        "independent_yes": 19,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "19 independent YES < 80 (27 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "GOING_CONCERN",
+          "description": "Going-concern doubt in filings or research",
+          "severity": "critical",
+          "evidence_ids": [
+            "f7d211ed2efabbb3",
+            "cf0814181aa0fc17"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 46% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "9898febd115acb5f"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "COUR",
+      "status": "DISQUALIFIED",
+      "discovery_score": 64.3,
+      "tally": {
+        "yes": 32,
+        "no": 15,
+        "unknown": 53,
+        "completed": 100,
+        "independent_yes": 22,
+        "dependent_yes": 10,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "22 independent YES < 80 (32 raw YES, 10 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 61% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "9878915c831ac957"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "ASPI",
+      "status": "DISQUALIFIED",
+      "discovery_score": 63.9,
+      "tally": {
+        "yes": 25,
+        "no": 25,
+        "unknown": 50,
+        "completed": 100,
+        "independent_yes": 17,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "17 independent YES < 80 (25 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 68% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "dccca6a95addc2af"
+          ]
+        },
+        {
+          "code": "MATERIAL_WEAKNESS",
+          "description": "Material weakness disclosed in last 12 months",
+          "severity": "warning",
+          "evidence_ids": [
+            "48f4c8443bcf2c63"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "DVLT",
+      "status": "DISQUALIFIED",
+      "discovery_score": 63.8,
+      "tally": {
+        "yes": 28,
+        "no": 22,
+        "unknown": 50,
+        "completed": 100,
+        "independent_yes": 19,
+        "dependent_yes": 9,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "19 independent YES < 80 (28 raw YES, 9 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "LISTING_NONCOMPLIANT",
+          "description": "Exchange listing noncompliance reported by broker data",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "SUB_DOLLAR",
+          "description": "Share price $0.0564 below $1 (delisting/reverse-split risk)",
+          "severity": "critical",
+          "evidence_ids": []
+        },
+        {
+          "code": "CASH_RUNWAY",
+          "description": "Cash runway ~0 months (<12) at TTM burn",
+          "severity": "critical",
+          "evidence_ids": [
+            "d5f1a1254dc59d63"
+          ]
+        },
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 967% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "ab62085be0399fee"
+          ]
+        },
+        {
+          "code": "RESTATEMENT",
+          "description": "Non-reliance / restatement notice in last 12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "c6d52502477f37c6"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "TIC",
+      "status": "DISCOVERY",
+      "discovery_score": 63.2,
+      "tally": {
+        "yes": 33,
+        "no": 13,
+        "unknown": 54,
+        "completed": 100,
+        "independent_yes": 20,
+        "dependent_yes": 13,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "20 independent YES < 80 (33 raw YES, 13 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    },
+    {
+      "ticker": "RDW",
+      "status": "DISQUALIFIED",
+      "discovery_score": 60.4,
+      "tally": {
+        "yes": 35,
+        "no": 18,
+        "unknown": 47,
+        "completed": 100,
+        "independent_yes": 25,
+        "dependent_yes": 10,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "25 independent YES < 80 (35 raw YES, 10 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": [
+        {
+          "code": "SEVERE_DILUTION",
+          "description": "Share count up 72% in ~12 months",
+          "severity": "critical",
+          "evidence_ids": [
+            "6d688e31c63cfd32"
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "KRMN",
+      "status": "DISCOVERY",
+      "discovery_score": 60.4,
+      "tally": {
+        "yes": 31,
+        "no": 20,
+        "unknown": 49,
+        "completed": 100,
+        "independent_yes": 23,
+        "dependent_yes": 8,
+        "threshold": 80,
+        "passes_gate": false,
+        "gate_reason": "23 independent YES < 80 (31 raw YES, 8 collapsed as duplicate evidence)",
+        "disclaimer": "The vote count is a research evidence threshold. 80/100 is NOT an 80% probability of the stock doubling."
+      },
+      "vetoes": []
+    }
+  ]
+}
