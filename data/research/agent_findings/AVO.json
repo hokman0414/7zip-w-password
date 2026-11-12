@@ -1,0 +1,279 @@
+{
+  "ticker": "AVO",
+  "company": "Mission Produce, Inc.",
+  "researched_at": "2026-11-12T21:43:08Z",
+  "agent_id": "research-agent-b",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Fiscal third-quarter 2026 net sales rose 26% to $450.0 million, driven by a 38% increase in avocado volume sold, partly offset by a 9% decline in per-unit avocado prices, with volume lifted by the Calavo acquisition and higher Mexican yields.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Mission Produce reported a fiscal third-quarter net loss attributable to the company of $6.5 million, or $0.08 per diluted share, versus net income of $14.7 million, or $0.21, a year earlier, including $25.4 million of pre-tax Calavo acquisition-related costs, while adjusted EBITDA was $32.4 million versus $32.6 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Gross profit was $44.7 million in the quarter ended July 31, 2026, versus $45.1 million a year earlier, and gross margin fell 270 basis points to 9.9% of revenue because lower avocado prices reduced International Farming profit and purchase-accounting adjustments reduced Marketing and Distribution profit.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the nine months ended July 31, 2026, net sales fell to $1,019.5 million from $1,072.2 million, avocado sales fell to $865.8 million from $938.8 million, and the company swung to an operating loss of $4.0 million and a net loss attributable to Mission Produce of $14.4 million, from operating income of $37.2 million and net income of $21.7 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On May 28, 2026 Mission Produce acquired Calavo Growers for preliminary consideration of about $466 million, consisting of 17,530,762 shares and about $269 million of cash, adding a Prepared Foods segment that contributed $15.5 million of sales in the fiscal third quarter.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Shares outstanding rose from 70,569,517 at October 31, 2025 to 87,678,404 at July 31, 2026, including 17,530,762 shares issued for Calavo that were recorded at $197.2 million of additional paid-in capital.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Total long-term debt rose to $402.1 million at July 31, 2026 from $96.0 million at October 31, 2025, at variable rates of 5.48% to 5.73%, while the only interest-rate swap had a $10 million notional at a fixed SOFR rate of 4.47%; quarterly interest expense rose 113% to $5.1 million, and the company was in compliance with its leverage and fixed-charge covenants.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Cash and cash equivalents fell to $47.1 million at July 31, 2026 from $64.8 million at October 31, 2025, operating activities used $25.9 million in the nine-month period versus providing $21.4 million a year earlier, and cash paid to acquire Calavo was $247.0 million net of cash acquired.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "For fiscal fourth-quarter 2026 the company expects industry avocado volumes up about 10%, owned-farm exportable production in Peru of 120 million to 130 million pounds versus 105 million pounds in the fiscal 2025 harvest, of which about 53 million pounds had been sold by July 31, and pricing about 10% below the $1.39 per pound average of the year-ago quarter.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Mission reaffirmed second-half fiscal 2026 adjusted EBITDA of $84 million to $88 million, implied fourth-quarter adjusted EBITDA of about $52 million to $55 million, and full-year capital expenditures of about $45 million, and raised the estimated annualized Calavo synergy opportunity to more than $30 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "supply",
+      "claim": "International Farming segment sales fell to $45.8 million from $49.0 million and segment operating income fell to $1.1 million from $6.7 million in the quarter ended July 31, 2026, which the company attributed to lower average prices from a higher global avocado supply.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Blueberries segment operating income was $2.4 million in the fiscal third quarter versus a $0.2 million loss a year earlier, driven primarily by IEEPA tariff refunds, while segment adjusted EBITDA was negative $0.1 million versus $0.5 million because of lower volume from harvest timing and lower per-unit prices.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "source_title": "Mission Produce Announces Fiscal 2026 Third Quarter Financial Results",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "After the U.S. Supreme Court on February 20, 2026 struck down certain IEEPA tariffs, Mission submitted or planned about $12.5 million of refund claims in the fiscal third quarter, recognized a portion as allowances against revenue and cost of sales, and said the administration had announced replacement tariffs whose duration and level remain uncertain.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "In the year ended October 31, 2025, the top 10 customers accounted for about 67% of net sales, one customer for 19% and another for 12%, and substantially all Blueberries segment sales were to a single customer that is a noncontrolling-interest holder under an exclusive marketing agreement.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000048/avo-20251031.htm",
+      "source_title": "Mission Produce, Inc. Form 10-K for the year ended October 31, 2025",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Goodwill rose to $268.3 million at July 31, 2026 from $39.4 million at October 31, 2025, carrying accumulated impairment losses of $49.5 million in International Farming, and post-Calavo reporting units had not been finalized ahead of the annual fourth-quarter impairment test.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "A D.C. sustainable-sourcing suit was dismissed on July 24, 2026 and appealed to the Ninth Circuit on August 21, 2026, a California grower class action was dismissed without leave to amend on June 3, 2026 and appealed on July 2, 2026, and a January 29, 2026 wage-and-hour class action was still pending with an October 1, 2026 hearing on a motion to compel arbitration.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "Mexican subsidiary CDM had about $25.7 million of challenged VAT receivables at July 31, 2026 whose recovery timing is uncertain, and the company had accrued $46.0 million for uncertain income-tax positions, including $10.4 million of interest and penalties.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "source_title": "Mission Produce, Inc. Form 10-Q for the quarter ended July 31, 2026",
+      "published_date": "2026-09-08"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "supply",
+      "claim": "At October 31, 2025, $324.2 million of $542.2 million of net property, plant and equipment was in Peru, and the company procures avocados principally from California, Mexico and Peru, with a significant share of growing and harvesting costs denominated in Peruvian soles and purchases in Mexican pesos.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000048/avo-20251031.htm",
+      "source_title": "Mission Produce, Inc. Form 10-K for the year ended October 31, 2025",
+      "published_date": null
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fiscal fourth-quarter 2026 results, with company-guided adjusted EBITDA of about $52 million to $55 million and industry pricing about 10% lower year over year",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/"
+    },
+    {
+      "event": "Annual goodwill impairment test for the fiscal fourth quarter, with post-Calavo reporting units not yet finalized as of July 31, 2026",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm"
+    },
+    {
+      "event": "Mexican avocado harvest, which the company says typically peaks from December through March",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000048/avo-20251031.htm"
+    },
+    {
+      "event": "Next Peruvian avocado harvest season, which the company says typically runs from April through September, against a raised annualized Calavo synergy target of more than $30 million",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Supreme Court invalidation of certain IEEPA tariffs on February 20, 2026, CBP CAPE refunds, and administration announcement of replacement tariffs",
+      "stage": "implementation",
+      "industry": "fresh produce imports",
+      "bottleneck": "Duty cost on imported fruit, especially blueberries, and uncertainty over replacement tariffs",
+      "revenue_mechanism": "IEEPA refunds of about $12.5 million were recognized as allowances against revenue and cost of sales and lifted reported Blueberries operating income",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "published_date": "2026-09-08"
+    },
+    {
+      "country": "United States",
+      "policy": "USMCA exemption of compliant goods from the tariff charges that applied to Mexican imports for March 4-6, 2025",
+      "stage": "enacted",
+      "industry": "fresh avocado imports",
+      "bottleneck": "Duty treatment of Mexican fruit, which the company could not pass through during the three-day charge",
+      "revenue_mechanism": "The 10-Q states USMCA-compliant goods have subsequently been exempted from those U.S. import tariff charges, after the company absorbed a short-lived charge in the prior-year period",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "published_date": "2026-09-08"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Debt rose to $402.1 million of mostly floating-rate borrowings to fund Calavo, interest expense more than doubled in the quarter, and a covenant breach could accelerate the debt",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "published_date": "2026-09-08"
+    },
+    {
+      "risk": "The business is concentrated in avocados, and higher industry supply cut per-unit prices 9% and gross margin by 270 basis points in the fiscal third quarter even as volume rose",
+      "severity": "high",
+      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/",
+      "published_date": "2026-09-08"
+    },
+    {
+      "risk": "Fiscal 2025 sales were concentrated, with the top 10 customers at about 67% of net sales and one customer at 19%",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000048/avo-20251031.htm",
+      "published_date": null
+    },
+    {
+      "risk": "Calavo added $17.5 million shares and goodwill of $268.3 million, integration costs are still running, and the annual impairment test was still ahead as of the 10-Q",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "published_date": "2026-09-08"
+    },
+    {
+      "risk": "Replacement tariffs after the IEEPA decision, unresolved Ninth Circuit appeals over sustainability advertising, and wage-and-hour claims remain open",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm",
+      "published_date": "2026-09-08"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Issued 17,530,762 common shares, recorded at $197.2 million, plus about $269 million cash (preliminary total consideration about $466 million) to acquire Calavo Growers; shares outstanding rose from 70,569,517 to 87,678,404",
+      "date": "2026-05-28",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297426000043/avo-20260731.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "No going-concern language was found in the July 31, 2026 10-Q, and the company reported compliance with credit-facility covenants. The September 8, 2026 press release's $25.4 million of third-quarter Calavo acquisition-related costs is broader than the $12.6 million transaction-advisory-and-integration line on the income statement; the acquisition note says $47.3 million of acquisition-related costs were incurred in the nine months. The press release says cash paid for Calavo was about $267 million and the 10-Q says about $269 million; the 10-Q figure is used above. A fiscal fourth-quarter 2026 earnings release (quarter ended October 31, 2026) was not found, so the September 8 outlook is the latest company guidance. The October 1, 2026 arbitration hearing in the January 2026 wage case had not been updated in a filing reviewed here. Customer-concentration percentages are from the fiscal 2025 10-K; that HTML copy does not print the filing date, so published_date is null. The 10-Q states the 10-K was filed December 18, 2025."
+}
