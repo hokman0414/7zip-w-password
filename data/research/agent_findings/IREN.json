@@ -1,0 +1,298 @@
+{
+  "ticker": "IREN",
+  "company": "IREN Limited",
+  "researched_at": "2026-11-12T21:45:00Z",
+  "agent_id": "research-agent-c",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, IREN reported total revenue of $228 million, up 66% sequentially, including AI Cloud revenue of $200 million (AI Cloud Services $135 million and AI Cloud Lease $65 million), up 182% sequentially, and an AI Cloud segment gross margin of 86%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "source_title": "IREN Reports Q1 FY27 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "The same quarter produced a net loss of $263 million, versus net income of $385 million a year earlier, and Bitcoin mining revenue fell to $28 million from $233 million; adjusted EBITDA was $66 million versus $92 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "IREN said revenue backlog rose 22% sequentially to $20.3 billion, with about two-thirds of that backlog at investment-grade counterparties, and that a more than $4 billion annualized-run-rate target is fully contracted and fully funded for the 0.3 GW IT program, subject to financing conditions.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "source_title": "IREN Reports Q1 FY27 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "The more than $4 billion ARR target, previously set for year-end 2026, is now targeted for January 31, 2027 and may extend to the end of February 2027 after a customer-requested design change and supplier timing; the company warns ARR is not GAAP revenue and recognized revenue may be materially lower.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "source_title": "IREN Reports Q1 FY27 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "technological",
+      "topic": "contract",
+      "claim": "Horizon 1 was delivered to and accepted by Microsoft in August 2026 and remained in service, and AI Cloud lease revenue of $65 million in the quarter included revenue under the Microsoft Agreement after that acceptance; a Microsoft-requested network design change extended Horizon delivery dates without delay credits while fees, credits and cost reimbursements were still being discussed.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "technological",
+      "topic": "capacity",
+      "claim": "As of September 30, 2026, IREN had executed grid-connection agreements or equivalents for about 5 GW of power in the United States, Canada, Spain and Australia, operating AI Cloud capacity of about 93 MW, and installed Bitcoin mining capacity of about 7.9 EH/s, or about 180 MW, which it aims to substantially retire from mining by December 31, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "contract",
+      "claim": "After quarter-end IREN said it signed a five-year contract at about $22 million of revenue per IT megawatt with the customer prepaying 90% of the associated GPU capex, and a short-term contract at $40 million per IT megawatt.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "source_title": "IREN Reports Q1 FY27 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On December 4, 2025, IREN priced a registered direct offering of 39,699,102 ordinary shares at $41.12 per share, for aggregate proceeds of $1,632,427,074.24 before expenses.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044381/ny20060080x3_424b5.htm",
+      "source_title": "IREN Limited Prospectus Supplement for 39,699,102 ordinary shares (424B5)",
+      "published_date": "2025-12-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Under the March 4, 2026 ATM prospectus supplement for up to $6.0 billion, IREN had issued 59,431,312 ordinary shares for about $3.0 billion of gross proceeds by September 30, 2026, including 12,265,474 shares for $541 million net in that quarter, and by October 30, 2026 the cumulative total was 76,806,302 shares and about $3.7 billion gross, with 424,357,381 ordinary shares outstanding.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026, six series of convertible notes had $6.746 billion of outstanding principal, maturing from December 2029 to December 2033 with coupons from 0% to 3.50%, and 127,225,107 shares issuable on those notes were excluded from diluted EPS because the quarter was a loss; the conversion-price trigger for the 2029 and 2030 notes was met, and no new convertible notes were issued in the quarter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "GPU Financing 1.0 commitments of $3.645 billion support the Microsoft Agreement at Horizons 1-4. GPU Financing 2.0 provides up to $2.447 billion at a fixed 9.0% rate, with $947 million funded and $1.500 billion available through December 31, 2026, and GPU Financing 3.0 was fully drawn at $363 million and 9.51%. Current debt was $950 million and long-term debt was $8.947 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "Capital commitments were $18.947 billion at September 30, 2026, compared with unrestricted cash of $3.522 billion and restricted cash of $2.256 billion. Investing cash outflow in the quarter was $5.146 billion. Management said existing cash, expected operating cash flow and financing in the normal course should be sufficient for obligations due for at least the next 12 months.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "IREN said remaining planned fiscal 2027 capex from September 30, 2026 was $15 billion, of which $9 billion was covered by cash and committed GPU financing and prepayments and $6 billion was target GPU financing, prepayments, data-center financing and other corporate sources subject to market conditions.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "source_title": "IREN Reports Q1 FY27 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "For the quarter ended September 30, 2026, IREN's three largest customers accounted for about 28%, 24% and 18% of total revenue, and the company said loss of or default by any of them could materially affect revenue and the ability to service debt financing the related infrastructure.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "technological",
+      "topic": "supply",
+      "claim": "On September 28, 2026, two IREN subsidiaries placed Dell purchase orders for GPUs and ancillary products totaling about $6.7 billion, with deliveries scheduled in tranches starting in the second half of calendar 2027, and IREN unconditionally guaranteed the purchasers' obligations.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "In October 2026, U.S. Customs and Border Protection approved IREN's protests and accepted the declared country of origin of mining hardware, so no additional tariff, fee or interest is payable on a previously disclosed assessment of about $100 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "The Canada Revenue Agency GST dispute over intercompany services was about $28 million at September 30, 2026. IREN recorded no loss contingency because an outflow was reasonably possible but not probable, and a Tax Court of Canada appeal is pending.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "IREN completed the Mirantis acquisition on August 3, 2026 and issued 12,632,234 ordinary shares recorded at $502 million for that acquisition, while stock-based compensation in the September quarter was $106 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Target to substantially complete the shift of Bitcoin mining capacity to AI Cloud, with only immaterial mining expected through calendar 2027",
+      "expected_date": "2026-12-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "event": "Draw period for up to $1.5 billion still available under GPU Financing 2.0 ends, subject to conditions",
+      "expected_date": "2026-12-31",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "event": "More than $4 billion contracted ARR targeted to be operational by January 31, 2027, and the company said the date may extend to the end of February 2027",
+      "expected_date": "2027-01-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm"
+    },
+    {
+      "event": "Dell GPU purchase orders of about $6.7 billion begin tranche deliveries in the second half of calendar 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "ERCOT large-load interconnection, including Batch Zero for the Sweetwater Hub",
+      "stage": "implementation",
+      "industry": "data centers",
+      "bottleneck": "Grid interconnection studies, ERCOT large-load approval changes, and conditional Batch Zero inclusion before power can be energized",
+      "revenue_mechanism": "Secured grid power is what IREN sells as AI Cloud capacity. The company said the 2 GW Sweetwater Hub had conditional inclusion in ERCOT Batch Zero as base load, which is not yet operating revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "country": "United States",
+      "policy": "U.S. Customs country-of-origin tariff assessment on imported mining hardware",
+      "stage": "expired",
+      "industry": "bitcoin mining hardware",
+      "bottleneck": "A 25% China-origin tariff assessment of about $100 million was protested",
+      "revenue_mechanism": "The assessment would have been a cash cost, not revenue. CBP closed it in IREN's favor in October 2026, so it does not reduce current liquidity.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Equity issuance remains large: under the March 4, 2026 ATM, about $3.7 billion of gross proceeds and 76.8 million shares had been sold by October 30, 2026; the Mirantis deal issued 12.6 million shares; and $6.746 billion of convertible notes represent 127.2 million potentially issuable shares, with the 2029 and 2030 conversion-price triggers already met.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Capital commitments of $18.947 billion compare with $3.522 billion of unrestricted cash and $2.256 billion of restricted cash, and management's 12-month liquidity conclusion depends on operating cash flow plus financing in the normal course. The 10-Q does not contain a going-concern warning.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Three customers were 28%, 24% and 18% of quarterly revenue, and contracted AI capacity that had been targeted for December 31, 2026 slipped into the following quarter.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Bitcoin mining revenue fell to $28 million from $233 million a year earlier as capacity is converted to AI Cloud, so the legacy mining business no longer covers the company's capital plan.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Registered direct offering of 39,699,102 ordinary shares at $41.12 per share for $1,632,427,074.24 of proceeds before expenses.",
+      "date": "2025-12-04",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036125044381/ny20060080x3_424b5.htm"
+    },
+    {
+      "description": "ATM under the March 4, 2026 prospectus supplement for up to $6.0 billion: 59,431,312 ordinary shares and about $3.0 billion gross proceeds through September 30, 2026, including 12,265,474 shares for $541 million net in the September quarter.",
+      "date": "2026-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "description": "Further ATM sales after September 30, 2026 of 17,374,990 ordinary shares for about $630 million gross. As of October 30, 2026, cumulative ATM issuance under the March 4, 2026 supplement was 76,806,302 shares and about $3.7 billion gross.",
+      "date": "2026-10-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "description": "Mirantis acquisition completed August 3, 2026, issued 12,632,234 ordinary shares recorded at $502 million.",
+      "date": "2026-08-03",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "description": "Six series of convertible notes had $6.746 billion of combined principal outstanding at September 30, 2026, equal to 127,225,107 potentially issuable ordinary shares. No additional convertible notes were issued in the quarter ended September 30, 2026. Capped calls are intended to reduce conversion dilution up to a cap.",
+      "date": "2026-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm"
+    },
+    {
+      "description": "The Q1 FY27 earnings release cash-flow statement shows $3.000 billion of proceeds from convertible notes in the quarter ended June 30, 2026, and no convertible-note proceeds in the quarter ended September 30, 2026.",
+      "date": "2026-06-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000065/irenreportsq1-fy27result.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "The 10-Q states that cash, expected operating cash flow and normal-course financing should be sufficient for at least 12 months, and it does not contain going-concern language. ARR is a company operating metric, not GAAP revenue, and the earnings release says recognized revenue may be materially lower. The historical headline dollar value of the Microsoft contract was not restated in the current 10-Q, so it is omitted; the filing does confirm Horizon 1 acceptance in August 2026 and $3.645 billion of GPU Financing 1.0 supporting Horizons 1-4. The December 4, 2025 prospectus describes a concurrent confidential convertible offering of $1.0 billion 0.25% notes due 2032 and $1.0 billion 1.00% notes due 2033, plus $150 million greenshoes, and tells readers not to assume that concurrent offering closed. Outstanding convertible principal of $6.746 billion is from the September 30, 2026 10-Q. The $3.0 billion of convertible-note proceeds in the June 2026 quarter is from the November 5, 2026 earnings-release cash-flow statement. GPU Financing 3.0 is described in the notes as $363 million at 9.51%; a debt-maturity table also shows a $355 million carrying amount. The claim uses the note narrative."
+}

@@ -1,0 +1,286 @@
+{
+  "ticker": "ELV",
+  "company": "Elevance Health, Inc.",
+  "researched_at": "2026-11-12T21:45:00Z",
+  "agent_id": "research-agent-c",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, Elevance reported operating revenue of $50.4 billion, up 0.7% year over year, diluted EPS of $6.27 and adjusted diluted EPS of $6.99; the benefit expense ratio was 90.6%, 70 basis points lower than 91.3% a year earlier, which the company attributed to better Medicare Advantage and Individual ACA performance.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "On October 21, 2026, Elevance raised full-year 2026 diluted EPS guidance to at least $22.00 and adjusted diluted EPS guidance to at least $29.00, raised operating cash flow guidance to at least $6.5 billion, and said it was confident in at least 12% growth in adjusted diluted EPS in 2027 from a baseline of at least $26.75.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "On November 10, 2026, Elevance reaffirmed full-year 2026 shareholders' earnings of at least $22.00 per diluted share, including about $7.00 per share of net unfavorable items, adjusted earnings of at least $29.00 per diluted share, and a benefit expense ratio of 90.2% plus or minus 50 basis points.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000074/elv-20261110.htm",
+      "source_title": "Elevance Health, Inc. Form 8-K dated November 10, 2026",
+      "published_date": "2026-11-10"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Health Benefits third-quarter operating gain fell 27.5% to $436 million from $601 million, and the segment margin fell to 1.0% from 1.4%; nine-month reportable-segment operating gain was $5.118 billion, down 25.7%, and included a $935 million accrual for the February 27, 2026 CMS Medicare Advantage risk-adjustment notice.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Medical membership was 44.882 million at September 30, 2026, down 487,000, or 1.1%, from a year earlier, including Medicare Advantage membership of 1.898 million, down 15.5%, Medicaid membership of 8.220 million, down 4.9%, and Employer Group risk-based membership of 3.366 million, down 6.9%.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "product",
+      "claim": "Carelon third-quarter operating revenue was $19.3 billion, up 5% year over year, and operating gain was $0.9 billion, up 17%, with the operating margin rising to 4.7% from 4.2%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "In the third quarter of 2026 Elevance repurchased 0.8 million shares for $330 million at a weighted average price of $398.75, leaving about $5.0 billion of repurchase authorization, and the board declared a $1.72 quarterly dividend payable December 18, 2026 to holders of record on December 4, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm",
+      "source_title": "Elevance Health Reports Third Quarter 2026 Results (8-K Exhibit 99.1)",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026, cash and cash equivalents were $10.348 billion and the carrying value of long-term debt was $30.757 billion, of which $375 million was current; the company said it was in compliance with its debt covenants, and quarterly interest expense was $358 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "Elevance accrued about $935 million at March 31, 2026 for resubmission of certain Medicare Advantage risk-adjustment data tied to a February 2026 CMS notice, paid CMS $342 million on May 27, 2026, and still carried a $593 million accrual at September 30, 2026; management said the liability could be about $320 million lower or $320 million higher than the original accrual.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "On July 13, 2026, CMS told Elevance it had completed the steps required by the February 2026 Medicare Advantage risk-adjustment notice, that sanctions would not be imposed, and that the enforcement process for that matter was closed.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "The DOJ False Claims Act case United States v. Anthem, Inc., alleging inaccurate Medicare Part C diagnosis data, remains pending, with fact discovery scheduled to finish on November 20, 2026 and expert discovery on August 2, 2027; Elevance said the ultimate outcome cannot presently be determined.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "CMS 2027 Medicare Advantage Star Ratings, released in October 2026 and used for 2028 payments, put about 49% of Elevance's current Medicare Advantage members in plans rated 4.0 Stars or higher, down from about 55% under the 2026 ratings that apply to 2027 payments; plans need 4.0 Stars or higher to qualify for bonus payments.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Elevance said enhanced Advance Premium Tax Credits expired on December 31, 2025, raising Public Exchange premiums for people who had received them and impacting the company's Individual market enrollment, after those credits had helped drive exchange enrollment and, with lower effectuation, higher morbidity.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The One Big Beautiful Bill Act, signed July 4, 2025, requires more frequent Medicaid reverification and work or community-engagement requirements for certain ACA Medicaid expansion adults, and changes Medicaid state-directed payments and provider taxes; Elevance said many Medicaid-related provisions are effective in 2027 and 2028, and states may implement some as early as 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "In September 2026 a federal court denied in part Elevance's motion to dismiss the securities class action Miller v. Elevance Health, Inc., allowing portions of allegations about 2024 earnings guidance to proceed, and three related derivative suits against directors and officers remain pending.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "legal",
+      "topic": "contract",
+      "claim": "After the May 2026 federal Independent Dispute Resolution final rule, Elevance recorded $669 million of IDR liabilities, of which $625 million relates to administrative-service arrangements, and said other pending IDR matters could add about $324 million of potential liabilities for which no loss was recorded because it was not considered probable.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Third-quarter benefit expense decreased in part because of the partial termination and modification of a Carelon Services care-delivery contract with an unaffiliated customer, and Carelon Services consumers served fell 6.8% year over year to 91.0 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-21"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fact-discovery deadline in United States v. Anthem, Inc. (DOJ Medicare risk-adjustment False Claims Act case)",
+      "expected_date": "2026-11-20",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    },
+    {
+      "event": "Quarterly dividend of $1.72 per share payable to shareholders of record on December 4, 2026",
+      "expected_date": "2026-12-18",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000068/a3q2026elvearningsrelease.htm"
+    },
+    {
+      "event": "New five-year CarelonRx agreement with CaremarkPCS Health, L.L.C. begins and runs through December 31, 2031",
+      "expected_date": "2027-01-01",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    },
+    {
+      "event": "Trial in VHS Liquidating Trust v. Blue Cross of California antitrust opt-out case, scheduled for March 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    },
+    {
+      "event": "Expert-discovery completion deadline in United States v. Anthem, Inc.",
+      "expected_date": "2027-08-02",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    },
+    {
+      "event": "2027 Medicare Advantage Star Ratings, already released, determine 2028 CMS payments; about 49% of current MA members are in 4.0-Star or higher plans",
+      "expected_date": "2028-01-01",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "CMS Medicare Advantage Star Ratings quality bonus payments",
+      "stage": "enacted",
+      "industry": "Medicare Advantage",
+      "bottleneck": "Plans must be rated 4.0 Stars or higher to qualify for bonus payments",
+      "revenue_mechanism": "CMS uses Star Ratings to set Medicare Advantage quality bonus payments; Elevance's 2026 ratings apply to 2027 payments and its 2027 ratings apply to 2028 payments.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "country": "United States",
+      "policy": "Enhanced Advance Premium Tax Credits under the Inflation Reduction Act, expired December 31, 2025",
+      "stage": "expired",
+      "industry": "Individual ACA health insurance",
+      "bottleneck": "Higher net premiums for previously subsidized Public Exchange members after the credits expired",
+      "revenue_mechanism": "Exchange premium subsidies had supported Individual enrollment; Elevance said the expiration raised premiums and impacted its Individual market enrollment, which is reported inside Commercial operating revenue.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "country": "United States",
+      "policy": "One Big Beautiful Bill Act Medicaid eligibility, work requirements, state-directed payments and provider taxes",
+      "stage": "implementation",
+      "industry": "Medicaid managed care",
+      "bottleneck": "More frequent eligibility reverification and work or community-engagement requirements for certain expansion adults, plus changes to state-directed payments and provider taxes",
+      "revenue_mechanism": "Medicaid premium revenue depends on eligible membership and state rates; Elevance said many of these provisions take effect in 2027 and 2028 and could affect its Medicaid business.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "A $593 million remaining accrual for historical Medicare Advantage risk-adjustment resubmission, with a reasonably possible range about $320 million above or below the original $935 million estimate, plus an unresolved DOJ False Claims Act case on Medicare Part C diagnosis data.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "risk": "Medicare Advantage membership fell 15.5% year over year to 1.898 million, and the share of members in 4.0-Star or higher plans fell to about 49% for 2028 payments from about 55% for 2027 payments, which can reduce future CMS quality bonus revenue.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "risk": "Medicaid membership fell 4.9% and the OBBBA adds eligibility reverification and work requirements, with many Medicaid provisions effective in 2027 and 2028, while the nine-month benefit expense ratio was already pressured by elevated Medicaid medical cost trend.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "risk": "Long-term debt carrying value was $30.757 billion at September 30, 2026. The company was in compliance with covenants and held $10.348 billion of cash, so this is leverage rather than a solvency threat.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    },
+    {
+      "risk": "Securities class action allegations about 2024 guidance survived a motion to dismiss in part in September 2026, and Blue Cross antitrust opt-out cases, including a March 2027 VHS trial, remain pending with outcomes the company says cannot presently be determined.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
+      "published_date": "2026-10-21"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "No equity offering or ATM was identified in the last 12 months. The latest 424B filing on EDGAR before this review was a 424B3 on 2025-09-09, outside the 12-month window. On 2026-10-28 the company filed an automatic shelf (S-3ASR, https://www.sec.gov/Archives/edgar/data/1156039/000119312526436231/d165308ds3asr.htm) registering senior and subordinated debt, preferred stock, common stock, depositary shares, warrants, rights, and stock-purchase contracts or units for sale from time to time; no prospectus supplement under that shelf was found in the filing list reviewed through 2026-11-12. The company reduced share count through buybacks (diluted shares 217.6 million in the quarter versus 223.7 million a year earlier). The Carelon Services consumer decline is from the October 21, 2026 earnings exhibit; the partial contract termination is from the 10-Q. No going-concern language was found. Parent-company cash and investments were about $2.4 billion, separate from consolidated cash of $10.348 billion."
+}
