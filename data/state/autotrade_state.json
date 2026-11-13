@@ -1,5 +1,16 @@
 {
-  "executions": 0,
+  "executions": 2,
   "high_water_mark": 6480.816119325991,
-  "last_trades": {}
+  "last_trades": {
+    "GLD": {
+      "at": "2026-11-13T21:51:45.825057+00:00",
+      "ref_id": "e2c07266-dbbe-527b-a0bd-7d047ffbc948",
+      "side": "sell"
+    },
+    "SPY": {
+      "at": "2026-11-13T21:51:45.825057+00:00",
+      "ref_id": "4020b73b-744e-57df-9018-94dd385f7e9b",
+      "side": "buy"
+    }
+  }
 }
