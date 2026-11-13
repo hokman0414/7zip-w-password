@@ -1,0 +1,257 @@
+{
+  "ticker": "DRAM",
+  "company": "Roundhill Memory ETF (a series of Roundhill ETF Trust)",
+  "researched_at": "2026-11-12T21:43:08Z",
+  "agent_id": "research-agent-b",
+  "findings": [
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "DRAM is the Roundhill Memory ETF, a series of Roundhill ETF Trust advised by Roundhill Financial Inc., listed on Cboe BZX, and it seeks capital appreciation by investing in memory companies rather than by manufacturing chips.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf",
+      "source_title": "Roundhill Memory ETF prospectus dated April 1, 2026",
+      "published_date": "2026-04-01"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The prospectus states a 0.65% management fee under a unitary fee arrangement, no 12b-1 fee, and total annual fund operating expenses of 0.65%, with other expenses estimated because the fund had not yet commenced operations at the prospectus date.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1976517/000139834426005952/fp0098200-2_497k.htm",
+      "source_title": "Roundhill Memory ETF summary prospectus (Rule 497)",
+      "published_date": "2026-04-01"
+    },
+    {
+      "dimension": "technological",
+      "topic": "other",
+      "claim": "Under normal circumstances the fund invests at least 80% of net assets plus borrowings in memory companies, defined as firms with at least 50% of revenue or profit from HBM, DRAM, NAND or SSDs, NOR flash, hard-disk drives, or specialty and embedded memory, rebalances at least quarterly with a general 25% single-company cap, and will not buy names below a $10 billion market capitalization or $5 million average daily trading volume.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf",
+      "source_title": "Roundhill Memory ETF prospectus dated April 1, 2026",
+      "published_date": "2026-04-01"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The fund is classified as non-diversified and states that it will concentrate, meaning invest more than 25% of total assets, in the information-technology industries, and the prospectus says swap and forward contracts ordinarily have leverage inherent in their terms.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf",
+      "source_title": "Roundhill Memory ETF prospectus dated April 1, 2026",
+      "published_date": "2026-04-01"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Roundhill says DRAM uses total return swaps to stay within regulated-investment-company diversification tests, and that the separate Roundhill T-REX 2X Long DRAM Daily Target ETF (ticker RAM) is the fund that targets twice DRAM's daily move.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/etf/dram/",
+      "source_title": "Roundhill Memory ETF fund page",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "From inception on April 1, 2026 through June 30, 2026, DRAM's NAV rose from $28.24 to $72.38, a 156.29% total return that is not annualized, net assets were $26.120 billion, the annualized expense ratio was 0.65%, portfolio turnover was 13%, and the fund paid no shareholder distribution.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf",
+      "source_title": "Roundhill ETF Trust semi-annual financial statements, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The June 30, 2026 shareholder report lists look-through issuer weights of Micron 25.8%, Samsung Electronics 25.0% and SK hynix 24.0%, alongside 21.2% in Treasury bills and 14.1% in a government money-market fund held for cash and collateral, with the sector split shown as 57.4% technology and 42.6% cash and other.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_semi-annual_tsr.pdf",
+      "source_title": "Roundhill Memory ETF semi-annual shareholder report, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At June 30, 2026 the fund had four total-return swaps: Micron notionals of $2.443 billion with Goldman Sachs maturing May 24, 2027 and $3.775 billion with Nomura maturing May 4, 2027, a Samsung notional of $2.763 billion and an SK hynix notional of $2.099 billion, both with Goldman Sachs and maturing May 24, 2027, and $4.294 billion of assets were pledged as swap collateral.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf",
+      "source_title": "Roundhill ETF Trust semi-annual financial statements, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On June 30, 2026 the Samsung and SK hynix swaps carried a financing rate of the overnight bank funding rate plus 3.50%, the Nomura Micron swap carried that overnight rate plus 0.90%, and the overnight rate was 3.63%; the Samsung swap had an unrealized loss of $79.9 million while net unrealized appreciation on all four swaps was $1.951 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf",
+      "source_title": "Roundhill ETF Trust semi-annual financial statements, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "For the period ended June 30, 2026 the fund recorded $21.709 billion of share creations, $1.538 billion of redemptions and a realized loss of $112.2 million on swap contracts, while net assets increased by $5.919 billion from operations.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf",
+      "source_title": "Roundhill ETF Trust semi-annual financial statements, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "As of September 30, 2026 the issuer factsheet reported $25,942.4 million of assets, 426,470,000 shares outstanding, 21 holdings, a since-inception NAV return of 115.41% that is not annualized, and look-through weights of Micron 26.45%, Samsung 24.80%, SK hynix 22.50%, CXMT 5.06%, Seagate 4.76% and Sandisk 4.72%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "political",
+      "topic": "other",
+      "claim": "The September 30, 2026 factsheet puts 47.30% of the fund in South Korea, 39.56% in the United States, 6.00% in China, 3.63% in Taiwan and 3.24% in Japan, and warns that hostilities involving North Korea could have a severe adverse effect on the South Korean economy.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Micron's 26.45% look-through weight on the September 30, 2026 factsheet sits above the prospectus's general 25% single-company cap, which applies when the portfolio is rebalanced, and the prospectus says the fund does not actively trade between rebalances.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "A June 5, 2026 supplement added China, including China A-shares, to the fund's principal risks and allowed investments in other Roundhill ETFs, while capping the management fee plus acquired-fund fees and expenses at 0.66% until May 8, 2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf",
+      "source_title": "Roundhill Memory ETF prospectus supplement dated June 5, 2026",
+      "published_date": "2026-06-05"
+    },
+    {
+      "dimension": "technological",
+      "topic": "competition",
+      "claim": "The September 30, 2026 basket is not limited to DRAM manufacturers: Seagate, Western Digital, Sandisk and Kioxia were 4.76%, 3.63%, 4.72% and 3.24% of look-through weight, consistent with the prospectus definition that includes NAND, SSDs and hard-disk drives.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The shareholder report shows costs of $28 per $10,000 invested from inception through June 30, 2026, equal to a 0.63% annualized rate for that stub period, and the adviser has agreed through May 8, 2027 to keep the management fee plus acquired-fund fees and expenses from exceeding 0.66%.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_semi-annual_tsr.pdf",
+      "source_title": "Roundhill Memory ETF semi-annual shareholder report, June 30, 2026",
+      "published_date": "2026-06-30"
+    },
+    {
+      "dimension": "technological",
+      "topic": "supply",
+      "claim": "The factsheet warns that memory companies face pricing volatility, rapid obsolescence, yield and integration problems, and regulatory developments including export controls, and that those securities tend to be more volatile than companies less dependent on technology.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
+      "published_date": "2026-09-30"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Nomura Micron total-return swap matures and must be rolled, replaced or closed",
+      "expected_date": "2027-05-04",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf"
+    },
+    {
+      "event": "Goldman Sachs total-return swaps on Micron, Samsung Electronics and SK hynix mature",
+      "expected_date": "2027-05-24",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf"
+    },
+    {
+      "event": "Contractual cap that keeps the management fee plus acquired-fund fees from exceeding 0.66% runs until May 8, 2027, after which Roundhill may end it on 60 days' notice",
+      "expected_date": "2027-05-08",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_semi-annual_tsr.pdf"
+    },
+    {
+      "event": "Next quarterly rebalance under the adviser's modified-market-cap method, including the general 25% single-company cap",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Regulated investment company diversification tests under the U.S. tax code",
+      "stage": "enacted",
+      "industry": "exchange-traded funds",
+      "bottleneck": "Direct ownership limits that the adviser says it meets by holding part of the memory exposure in total-return swaps",
+      "revenue_mechanism": "The rule does not create operating revenue; it determines whether the fund can keep pass-through tax treatment while holding concentrated memory exposure",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.roundhillinvestments.com/etf/dram/",
+      "published_date": null
+    },
+    {
+      "country": "United States",
+      "policy": "Semiconductor export controls, cited by the fund as a regulatory risk to memory companies",
+      "stage": "implementation",
+      "industry": "semiconductor memory",
+      "bottleneck": "Licensing and end-market limits on advanced memory sold by the fund's holdings",
+      "revenue_mechanism": "Export rules can change revenue and margins of portfolio companies and therefore the ETF's NAV; the factsheet does not tie a control action to a measured change in fund assets",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "published_date": "2026-09-30"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Three issuers dominate the book: at September 30, 2026 Micron, Samsung and SK hynix were 26.45%, 24.80% and 22.50% on a look-through basis, and South Korea was 47.30%",
+      "severity": "high",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "published_date": "2026-09-30"
+    },
+    {
+      "risk": "A large share of the economic exposure is in over-the-counter total-return swaps with Goldman Sachs and Nomura, financed at spreads up to overnight bank funding rate plus 3.50% and backed by pledged collateral",
+      "severity": "high",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/roundhill_trust_semi-annual_financial_statements_other_information.pdf",
+      "published_date": "2026-06-30"
+    },
+    {
+      "risk": "The September 30, 2026 factsheet already shows a since-inception NAV return of 115.41%, not annualized, and warns that memory securities are exposed to pricing volatility and tend to be more volatile than less technology-dependent stocks",
+      "severity": "high",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
+      "published_date": "2026-09-30"
+    },
+    {
+      "risk": "China exposure, including a 5.06% CXMT weight at September 30, 2026, adds emerging-market and export-control risk that the June 5, 2026 supplement specifically added to the prospectus",
+      "severity": "medium",
+      "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_prospectus.pdf",
+      "published_date": "2026-06-05"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "DRAM is an ETF, not a memory-chip manufacturer. It is not the 2x daily fund; that is the separate Roundhill ticker RAM. The shareholder report covers April 1, 2026 through June 30, 2026 and gives inception as April 1, 2026, while the factsheet and fund page say shares began trading April 2, 2026. Factsheet weights combine stock with total-return swaps, so they are not additive with the Treasury-bill and money-market collateral shown in the June 30 report. Issuer weights at June 30 also sum above 100% for that reason. The reported Micron weight of 26.45% is compared with the general 25% single-company rebalance cap in the April 1, 2026 prospectus. The shareholder report's stub-period cost ratio is 0.63% annualized versus a 0.65% expense ratio in the financial highlights. Since-inception NAV return was 156.29% through June 30, 2026 and 115.41% at September 30, 2026; those figures are in different issuer documents and are not combined in a single sourced claim. Daily holdings after September 30, 2026 were not used: the issuer webpage holdings table did not render, and third-party snapshots were not treated as primary sources. Share creations of $21.709 billion in the initial period are ETF primary-market creations, not a corporate equity offering, so they are not listed as dilution. No going-concern or liquidation notice was found; the flag is false because that concept does not apply to this fund on the evidence reviewed."
+}

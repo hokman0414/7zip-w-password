@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-12",
+  "created_at": "2026-11-12T21:53:57.209059+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set",
+    "outside execution window 09:45-15:30 ET (now 16:53)"
+  ],
+  "drawdown_from_hwm": 0.0,
+  "high_water_mark": 6480.816119325991,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 54.0,
+      "ref_price": 585.2,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "realized vol 80% at 4.8%; high-vol cap 4%",
+      "ref_id": "16e6b2ac-21c2-50d1-bea6-415400dd8fa9",
+      "params": {
+        "symbol": "AMD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.092273",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 279.96,
+      "ref_price": 354.9,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "weight 22.3% above 20% fund limit",
+      "ref_id": "663ace83-8b2e-5aea-94e3-3526eee7c1ba",
+      "params": {
+        "symbol": "GLD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.788846",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "kind": "core_reinvest",
+      "est_usd": 400.0,
+      "ref_price": null,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "idle cash above the 5% reserve goes to the diversified core fund (beta ~1, capped at 20% weight)",
+      "ref_id": "9c417c9a-9ef5-5547-9997-1a98bf2fea84",
+      "params": {
+        "symbol": "SPY",
+        "side": "buy",
+        "type": "market",
+        "dollar_amount": "400.00",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    }
+  ],
+  "rejected": [],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
+}

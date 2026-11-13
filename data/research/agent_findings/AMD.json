@@ -1,0 +1,279 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices, Inc.",
+  "researched_at": "2026-11-12T21:45:00Z",
+  "agent_id": "research-agent-c",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 26, 2026, AMD reported revenue of $13.377 billion, up 45% year over year, GAAP gross margin of 54%, operating income of $2.832 billion, net income of $2.428 billion and diluted EPS of $1.46; non-GAAP diluted EPS was $2.09, up 74%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Data Center revenue was a record $8.546 billion, up 97% year over year, with segment operating income of $2.882 billion. Client revenue was $2.949 billion, up 7%, Gaming revenue was $773 million, down 40%, and Embedded revenue was $1.109 billion, up 29%, led by aerospace and defense, automotive, communications and industrial markets.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "AMD guided fourth-quarter 2026 revenue to about $17 billion, plus or minus 3%, with the midpoint implying about 66% year-over-year growth and about 27% sequential growth, and non-GAAP gross margin of about 55%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "In November 3, 2026 prepared remarks, AMD said it expects 2027 revenue to grow more than 80%, Data Center to be more than 80% of 2027 revenue, server revenue to double year over year in 2027, and data-center AI revenue to grow faster than it had projected 90 days earlier.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf",
+      "source_title": "AMD Third Quarter 2026 Financial Results Prepared Remarks",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "AMD said Anthropic, Meta, Microsoft, OpenAI and Oracle Cloud Infrastructure are running models and workloads on the first Helios rack-scale systems, powered by Instinct MI450 Series GPUs and 6th Gen EPYC CPUs.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "political",
+      "topic": "contract",
+      "claim": "The EuroHPC Joint Undertaking selected AMD Instinct MI430X GPUs and 6th Gen EPYC processors to power the LUMI-AI supercomputer.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Gaming revenue was $773 million, down 40% year over year because of lower semi-custom and graphics revenue, and Client and Gaming segment operating income was $573 million versus $867 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Management said fourth-quarter Client and Gaming revenue should decline more than 20% sequentially, and that it is planning for 2027 PC market unit shipments to fall by a double-digit percentage as higher memory and component costs weigh on demand.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf",
+      "source_title": "AMD Third Quarter 2026 Financial Results Prepared Remarks",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "AMD issued warrants in October 2025 and February 2026 to two customers, each for up to 160 million shares at an exercise price of $0.01. At September 26, 2026 none had vested or been exercised, the warrant liability was $1.2 billion, the quarter included a $1.2 billion non-cash remeasurement charge, and $4.5 billion of unrecognized grant-date fair value remains to be recorded as a reduction of revenue as qualifying sales occur.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On September 26, 2026 AMD agreed to acquire World Labs Technologies, Inc. for about $8.2 billion in common stock, with the share count set off a 10-day VWAP before closing, and in August 2026 agreed to acquire Taalas Inc. for about $2.9 billion in cash and stock, including up to about $1.4 billion of contingent consideration. Both deals are expected to close by the end of 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "On August 17, 2026, AMD issued $4.75 billion aggregate principal of senior notes. At September 26, 2026, total debt principal was $7.125 billion after repayment of the $875 million 4.212% notes that matured in September 2026. The $5.0 billion revolving credit facility had no outstanding balance, and no commercial paper was outstanding under the $5.5 billion program.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 26, 2026, AMD held $7.404 billion of cash and cash equivalents and $8.372 billion of short-term investments, or $15.776 billion combined, against total debt of $7.079 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Inventories were $11.463 billion at September 26, 2026, up from $7.920 billion at December 27, 2025, and unconditional purchase commitments related to operations were $48.761 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "contract",
+      "claim": "AMD's maximum potential payments under guarantees of commercial partners' data-center lease and debt obligations were $8.5 billion at September 26, 2026, including $7.7 billion of lease guarantees with terms up to 15 years and $750 million of debt guarantees with terms up to 6 months. Data-center leases not yet commenced, expected to be assigned or subleased, had $13.3 billion of future payments. No partner was in default and no amounts had been paid.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "U.S. export rules imposed in April 2025 require licenses for certain Instinct MI308 shipments to D5 countries including China. AMD received some licenses and began shipping MI308 products at the end of fiscal 2025 after taking 2025 inventory charges. In the first half of 2026 it received some licenses to ship MI325 products to certain China customers, and those shipments must be inspected in the United States and are subject to a 25% tariff on importation for that inspection.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "technological",
+      "topic": "supply",
+      "claim": "AMD said it develops and licenses Helios racks but does not manufacture or sell the completed racks, and that networking, memory, power, cooling and mechanical components are sourced by customers and their manufacturers. Customers may generally cancel orders for standard products more than 30 days before shipment without a significant fee.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 10-Q for the quarter ended September 26, 2026",
+      "published_date": "2026-11-04"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Nine-month 2026 revenue was $35.166 billion versus $24.369 billion a year earlier, and free cash flow for the nine months was $4.678 billion, even though third-quarter free cash flow fell to $554 million as inventory and receivables absorbed cash.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
+      "published_date": "2026-11-03"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Expected closings of the World Labs all-stock acquisition (about $8.2 billion) and the Taalas cash-and-stock acquisition (about $2.9 billion including contingent consideration)",
+      "expected_date": "2026-12-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+    },
+    {
+      "event": "Fourth-quarter 2026 revenue guided to about $17 billion, plus or minus 3%, with Data Center up about 50% sequentially and Client and Gaming down more than 20% sequentially",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf"
+    },
+    {
+      "event": "LUMI-AI supercomputer using Instinct MI430X GPUs and 6th Gen EPYC processors planned to come online",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf"
+    },
+    {
+      "event": "Management outlook for 2027 revenue growth of more than 80%, with Data Center above 80% of revenue and server revenue doubling year over year",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "BIS export controls and license requirements for AMD Instinct MI308 and MI325 shipments to China and other D5 countries",
+      "stage": "implementation",
+      "industry": "semiconductors",
+      "bottleneck": "Export licenses, a required U.S. inspection, and a 25% importation tariff on licensed MI325 shipments to China",
+      "revenue_mechanism": "Licensed MI308 and MI325 shipments are the path for China data-center GPU sales. AMD said it received some licenses, began MI308 shipments at the end of fiscal 2025, and received some MI325 licenses in the first half of 2026.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "published_date": "2026-11-04"
+    },
+    {
+      "country": "European Union",
+      "policy": "EuroHPC Joint Undertaking selection of AMD for the LUMI-AI supercomputer",
+      "stage": "funded",
+      "industry": "high-performance computing",
+      "bottleneck": "Deployment of the selected GPUs and CPUs into the LUMI-AI system",
+      "revenue_mechanism": "EuroHPC selected AMD Instinct MI430X GPUs and 6th Gen EPYC processors to power LUMI-AI, which is a government supercomputer award rather than a figure in the current-quarter revenue line.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
+      "published_date": "2026-11-03"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Customer warrants cover up to 320 million shares at $0.01. None had vested, but $4.5 billion of grant-date value is still to be booked against future revenue and the quarter already took a $1.2 billion non-cash warrant-liability charge.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "China Instinct shipments remain license-bound. MI325 units shipped under the 2026 licenses incur a 25% U.S. importation tariff for the required inspection, and 2025 MI308 restrictions already produced inventory charges.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Purchase commitments were $48.761 billion and inventories were $11.463 billion, while customers can generally cancel standard-product orders more than 30 days before shipment. Helios rack shipments also depend on third-party memory and other components AMD does not supply.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Guarantees of partner data-center leases and debt had $8.5 billion of maximum potential payments, and data-center leases not yet commenced had $13.3 billion of future payments. No amounts had been paid and fair value was not material, so this is contingent exposure rather than a current solvency problem. Cash and short-term investments were $15.776 billion.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "published_date": "2026-11-04"
+    },
+    {
+      "risk": "Management said fourth-quarter Client and Gaming revenue should decline more than 20% sequentially and that it is planning for 2027 PC unit shipments to decline by a double-digit percentage because higher memory and component costs weighed on demand.",
+      "severity": "medium",
+      "source_url": "https://newsroom.amd.com/documents/2026/11/84f4476b-f064-4f0f-957c-fe484853e178.pdf",
+      "published_date": "2026-11-03"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Warrants issued to two customers, one in October 2025 and one in February 2026, each for up to 160 million shares at $0.01 per share. Vesting depends on purchase milestones, stock-price targets and technical conditions. No shares had vested or been exercised as of September 26, 2026. Unrecognized grant-date fair value was $4.5 billion.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+    },
+    {
+      "description": "September 26, 2026 merger agreement to acquire World Labs Technologies, Inc. for about $8.2 billion of AMD common stock. The number of shares is not yet known and will be based on the 10-trading-day volume-weighted average price ending on the second trading day before closing.",
+      "date": "2026-09-26",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+    },
+    {
+      "description": "August 2026 agreement to acquire Taalas Inc. for about $2.9 billion in cash and stock, including up to about $1.4 billion of contingent consideration. The stock portion is not separately stated. Expected to close by the end of 2026.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "No going-concern language was found. Cash, cash equivalents and short-term investments were $15.8 billion in the 10-Q MD&A, above $7.125 billion of debt principal. The August 13 and August 14, 2026 424B5 filings relate to the senior-note offering, not an equity sale. Customer warrants are contingently issuable and were excluded from diluted shares; none had vested as of September 26, 2026. The 2027 revenue, Data Center mix, server, PC-unit and sequential segment outlooks, and the LUMI-AI second-half 2027 timing, are from the November 3, 2026 prepared remarks. The EuroHPC selection itself is in the earnings release. World Labs share count is not yet determined. The Taalas stock-versus-cash split is not separately disclosed."
+}
