@@ -1,0 +1,214 @@
+{
+  "ticker": "PLTR",
+  "company": "Palantir Technologies Inc.",
+  "researched_at": "2026-11-13T17:08:00Z",
+  "agent_id": "research-agent-g",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, Palantir reported revenue of $2.313 billion, up 96% year over year and 20% sequentially, GAAP income from operations of $1.085 billion (a 47% margin), GAAP net income attributable to common stockholders of $1.128 billion ($0.44 diluted EPS), and cash from operations of $1.205 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "U.S. commercial revenue of $984 million in the quarter grew 148% year over year and 29% sequentially and exceeded U.S. government revenue of $953 million, which grew 96% year over year; aggregate U.S. revenue was $1.937 billion, up 119% year over year.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Palantir raised full-year 2026 revenue guidance to $8.530–$8.534 billion and U.S. commercial revenue guidance to in excess of $3.559 billion (at least 143% growth), and guided fourth-quarter 2026 revenue to $2.649–$2.653 billion and adjusted free cash flow for 2026 to $4.8–$5.0 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "Palantir closed total contract value of $2.918 billion in the third quarter, up 6% year over year, including $1.463 billion of U.S. commercial TCV, up 11% year over year, while U.S. commercial remaining deal value was $6.517 billion, up 79% year over year but only 4% sequentially.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "Remaining performance obligations were $4.9 billion at September 30, 2026, of which Palantir expects to recognize about 44% over the next 12 months; the company allows many customers to terminate contracts for convenience with less than twelve months' notice, and cancelable contracted revenue is excluded from remaining performance obligations.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Palantir had 1,090 customers in the trailing twelve months ended September 30, 2026, versus 911 a year earlier, and average trailing-twelve-month revenue from the top twenty customers was $146 million, up 76% from $83 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "No customer accounted for more than 10% of revenue in the three or nine months ended September 30, 2026, but the top three customers accounted for 16% of revenue in that nine-month period, and one customer represented 27% of accounts receivable at September 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "U.S. revenue was $1.937 billion, or 84% of third-quarter 2026 revenue, up from 75% a year earlier, while rest-of-world revenue was $376.2 million, or 16% of the quarter, down from 25% a year earlier; no other country was 10% or more of revenue.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Palantir reported net dollar retention of 165% in the third quarter of 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf",
+      "source_title": "Palantir Q3 2026 Business Update",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "The third-quarter balance sheet reported cash and cash equivalents of $3.619 billion and marketable securities of $6.942 billion, and the earnings release reported $10.4 billion of cash, cash equivalents, and U.S. Treasury securities; the cash-flow statement shows no new borrowings.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Stock-based compensation was $318.9 million in the third quarter of 2026 and $785.7 million for the nine months, and 146.8 million stock options remained outstanding at September 30, 2026 at a weighted-average exercise price of $10.16, with an aggregate intrinsic value of $25.974 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "For the nine months ended September 30, 2026, financing activities provided $20.1 million of cash, including $22.6 million of proceeds from common-stock option exercises, and the cash-flow statement does not report an equity offering, at-the-market program, or convertible issuance.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "source_title": "Palantir Q3 2026 earnings press release (Form 8-K Exhibit 99.1)",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "military",
+      "topic": "contract",
+      "claim": "On September 1, 2026, Palantir said Army Contracting Command awarded Palantir USG, Inc. a prime agreement to produce and deliver eight Tactical Intelligence Targeting Access Node (TITAN) systems, four Advanced and four Basic, and to field them to the operational Army; the release does not state the contract dollar value.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army",
+      "source_title": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+      "published_date": "2026-09-01"
+    },
+    {
+      "dimension": "political",
+      "topic": "governance",
+      "claim": "Class F common stock held in a voting trust of Stephen Cohen, Alexander Karp, and Peter Thiel generally gives the founders the ability to control up to 49.999999% of total voting power so long as the founders and certain affiliates hold at least 100 million equity securities, the threshold in effect at September 30, 2026; Class B stock carries 10 votes per share.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "The Tenth Circuit heard oral argument on March 16, 2026 in the appeal of Cupat v. Palantir, a securities class action the district court had dismissed with prejudice on April 4, 2025; Palantir said that as of September 30, 2026 it was not aware of any pending legal matter expected to have a material adverse impact on its financial statements.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "source_title": "Palantir Technologies Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-03"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Fourth-quarter 2026 revenue, guided at $2.649–$2.653 billion, and full-year 2026 revenue, guided at $8.530–$8.534 billion.",
+      "expected_date": "2026-12-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
+    },
+    {
+      "event": "Production and fielding of eight TITAN ground-station systems under the Army prime agreement announced September 1, 2026; no delivery date was stated.",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "U.S. Army Tactical Intelligence Targeting Access Node (TITAN) production award",
+      "stage": "funded",
+      "industry": "defense software and ground-station systems",
+      "bottleneck": "sensor fusion and AI-enabled targeting ground stations",
+      "revenue_mechanism": "Palantir USG, Inc. is prime contractor to produce, integrate, and field eight TITAN systems and the software that runs them for the Army.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army",
+      "published_date": "2026-09-01"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Most customer contracts can be terminated for convenience, and total contract value and remaining deal value assume options are exercised and contracts are not canceled, so booked value can exceed revenue that is actually recognized.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
+      "published_date": "2026-11-02"
+    },
+    {
+      "risk": "Third-quarter revenue was 84% from the United States, and large government customers remain exposed to budget, timing, and policy changes; government customers were 51% of revenue for the nine months ended September 30, 2026.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "published_date": "2026-11-03"
+    },
+    {
+      "risk": "Stock-based compensation was $785.7 million over nine months and 146.8 million options remain outstanding, so future share issuance can dilute holders even without a public offering.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "published_date": "2026-11-03"
+    },
+    {
+      "risk": "Founders can control up to 49.999999% of voting power through Class F stock while the ownership threshold is met, limiting minority holders' voting power.",
+      "severity": "low",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
+      "published_date": "2026-11-03"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "No equity offering, ATM, convertible, or going-concern language was found in the Q3 2026 8-K or 10-Q. The September 1, 2026 TITAN release does not disclose a dollar value. Net dollar retention is taken from the Q3 2026 business-update PDF, which does not print its own publication date. The securities appeal remains pending, and the company said it does not expect a material financial impact. Option and share counts in the 10-Q tables are in thousands."
+}

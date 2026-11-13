@@ -1,0 +1,26 @@
+[
+  {
+    "ref_id": "e2c07266-dbbe-527b-a0bd-7d047ffbc948",
+    "symbol": "GLD",
+    "side": "sell",
+    "kind": "risk_trim",
+    "status": "placed",
+    "reason": "queued for the next regular-hours open; user confirmed the planned trim",
+    "order_id": "6af78663-3ef1-4ee4-b337-691b8cbb9c23",
+    "broker_state": "queued",
+    "usd": 303.22,
+    "recorded_at": "2026-11-13T21:51:45.825057+00:00"
+  },
+  {
+    "ref_id": "4020b73b-744e-57df-9018-94dd385f7e9b",
+    "symbol": "SPY",
+    "side": "buy",
+    "kind": "core_reinvest",
+    "status": "placed",
+    "reason": "queued for the next regular-hours open; user confirmed the planned core buy",
+    "order_id": "6af78664-0991-4900-b15f-82c2c0c22bc1",
+    "broker_state": "queued",
+    "usd": 400.0,
+    "recorded_at": "2026-11-13T21:51:45.825057+00:00"
+  }
+]

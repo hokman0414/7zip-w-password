@@ -1,0 +1,256 @@
+{
+  "ticker": "STX",
+  "company": "Seagate Technology Holdings plc",
+  "researched_at": "2026-11-13T17:16:45Z",
+  "agent_id": "research-agent-f",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended October 2, 2026, Seagate reported revenue of $4.233 billion, compared with $2.629 billion a year earlier, GAAP gross margin of 57.3%, net income of $1.761 billion, and diluted EPS of $7.59 versus $2.43.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Seagate guided fiscal second-quarter 2027 revenue of $4.8 billion, plus or minus $100 million, and non-GAAP diluted EPS of $9.20, plus or minus $0.20, excluding estimated share-based compensation of $0.30 per share.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm",
+      "source_title": "Seagate fiscal first-quarter 2027 earnings press release filed with the SEC",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "In the quarter ended October 2, 2026 Seagate shipped 220 exabytes of HDD capacity, including 198 nearline exabytes, versus 182 total and 160 nearline exabytes a year earlier, and data-center end markets were 81% of revenue; management said demand was supported by traditional data-intensive workloads and AI-related applications.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "GAAP gross margin rose 18 percentage points from the year-earlier quarter to 57%, which Seagate attributed primarily to pricing actions and a mix shift toward higher-capacity products.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Long-term debt, less current portion, was $2.351 billion at October 2, 2026, down from $3.380 billion at July 3, 2026; cash was $1.258 billion, the $1.3 billion revolving credit facility had no borrowings, and on October 15, 2026 Seagate redeemed $750 million of 2032 notes and said it expects to record an approximately $81 million net loss on that redemption in fiscal second-quarter 2027.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "In fiscal first-quarter 2027 Seagate returned $568 million to shareholders through dividends and share repurchases, including $400 million of ordinary-share repurchases, and the board declared a quarterly cash dividend of $0.76 per share, about 3% higher, payable on January 7, 2027 to shareholders of record on December 23, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm",
+      "source_title": "Seagate fiscal first-quarter 2027 earnings press release filed with the SEC",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Ordinary shares outstanding rose from 227 million on July 3, 2026 to 230 million on October 2, 2026. In the quarter, holders of $35 million of 2028 exchangeable notes received about 0.4 million shares, and on September 8, 2026 the remaining notes were exchanged for about $151 million in cash and about 1.6 million shares, after which no 2028 notes remained outstanding. $4.4 billion remained available under the repurchase authorization.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "In fiscal 2026 Seagate exchanged $600 million principal of the 2028 notes on February 19, 2026 for $600 million cash and about 6 million shares, and $186 million principal on May 27, 2026 for $186 million cash and about 2 million shares, and recognized a $131 million non-cash induced-conversion expense on the fiscal 2026 induced exchanges.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-K for the fiscal year ended July 3, 2026",
+      "published_date": "2026-08-04"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "Seagate agreed on April 3, 2026 to settle the consolidated securities class action for $175 million, of which about $70 million is to be paid by insurers; the company recorded a $105 million charge in fiscal 2026, transferred $105 million to escrow in the quarter ended October 2, 2026, and a final approval hearing is set for November 17, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The April 18, 2023 BIS settlement requires Seagate to pay $300 million in $15 million quarterly installments over five years beginning October 31, 2023 for hard-drive sales to Huawei from August 17, 2020 to September 29, 2021; at October 2, 2026, $45 million was in accrued expenses and $60 million in other non-current liabilities, and $15 million was paid in the quarter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Seagate disclosed that its Mozaic hard-drive launch is a transition to HAMR areal-density technology, and that if HAMR development, qualification, or production takes longer than expected, or the transition fails, the company may lose sales and market share.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "In fiscal 2026 one customer accounted for about 14% of consolidated revenue, up from about 10% in fiscal 2025, and at July 3, 2026 three customers accounted for 18%, 16%, and 10% of accounts receivable.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-K for the fiscal year ended July 3, 2026",
+      "published_date": "2026-08-04"
+    },
+    {
+      "dimension": "technological",
+      "topic": "competition",
+      "claim": "Seagate said solid-state storage continues to displace lower-capacity HDDs in edge IoT and client applications, and that nearline HDDs and enterprise SSDs can compete for certain high-performance data-center workloads.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "supply",
+      "claim": "Seagate said many rare earth elements used in its products are sourced from China, which accounts for a majority of global supply and processing, and that Chinese export restrictions or U.S. import restrictions on those minerals could materially hurt supply continuity and operating results.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "On September 17, 2025 the Federal Circuit vacated a judgment that had favored Seagate in Lambeth Magnetic Structures LLC v. Seagate and remanded for a new trial; the district court later stayed the case pending ex parte reexamination of U.S. Patent No. 7,128,988.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Sequential gross margin in the September 2026 quarter rose 5 percentage points on pricing, but Seagate said that gain was partly offset by higher external component costs.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Final approval hearing for the $175 million securities class-action settlement",
+      "expected_date": "2026-11-17",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+    },
+    {
+      "event": "Quarterly cash dividend of $0.76 per share to shareholders of record on December 23, 2026",
+      "expected_date": "2027-01-07",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm"
+    },
+    {
+      "event": "Fiscal second-quarter 2027 results against company guidance of $4.8 billion revenue, plus or minus $100 million, and non-GAAP diluted EPS of $9.20, plus or minus $0.20",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000300/stxq12027pressreleasefinan.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Bureau of Industry and Security settlement and Export Administration Regulations license requirements",
+      "stage": "enacted",
+      "industry": "data storage",
+      "bottleneck": "export licensing for sales to restricted end users",
+      "revenue_mechanism": "The settlement penalizes 2020-2021 HDD sales to Huawei with a $300 million installment payment and compliance audits; the filing does not identify current-period revenue from those sales.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "One customer was about 14% of fiscal 2026 revenue, three customers were 18%, 16%, and 10% of receivables at July 3, 2026, and data-center customers were 81% of fiscal first-quarter 2027 revenue.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
+      "published_date": "2026-08-04"
+    },
+    {
+      "risk": "The Mozaic platform depends on a successful HAMR qualification and production ramp; Seagate says a delayed or failed transition could cause lost sales and market share.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "Exchange of the 2028 notes in fiscal 2026 and the September 2026 quarter issued roughly 6 million, 2 million, 0.4 million, and 1.6 million shares, lifting the share count from 227 million to 230 million in the latest quarter. The notes themselves are now extinguished.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "About $105 million of the BIS Huawei penalty remained accrued at October 2, 2026, and export rules can still block sales to restricted customers.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "Induced exchange of $600 million principal of 3.50% exchangeable senior notes due 2028 for $600 million cash and approximately 6 million ordinary shares.",
+      "date": "2026-02-19",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm"
+    },
+    {
+      "description": "Induced exchange of $186 million principal of the 2028 notes for $186 million cash and approximately 2 million ordinary shares. Fiscal 2026 induced-conversion expense on the November 2025, February 2026, and May 2026 exchanges was $131 million.",
+      "date": "2026-05-27",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm"
+    },
+    {
+      "description": "Holder exercise of $28 million principal of the 2028 notes, settled in cash for principal plus approximately 0.3 million ordinary shares. The 10-K dates this only as May 2026.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm"
+    },
+    {
+      "description": "Holder exercise of $35 million principal of the 2028 notes, settled in the quarter ended October 2, 2026 with approximately 0.4 million ordinary shares.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+    },
+    {
+      "description": "Exchange of the remaining 2028 notes for approximately $151 million cash and approximately 1.6 million ordinary shares. No 2028 notes remained outstanding afterward.",
+      "date": "2026-09-08",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "No going-concern language was found in the fiscal 2026 Form 10-K or the October 2, 2026 Form 10-Q. A separate November 12, 2025 exchange of $500 million principal for $500 million cash and about 4.3 million shares is in the fiscal 2026 10-K but falls just outside a strict one-year window ending November 13, 2026, so it is not listed as a last-12-month dilution event. The $400 million buyback and $4.4 billion remaining authorization are in the 10-Q; the press release is cited for the $568 million combined return and the dividend increase to $0.76. The capped-call cap price is $107.741 in the October 2, 2026 10-Q and $107.746 in the July 3, 2026 10-K. The earnings-release date on the SEC exhibit is October 28, 2026, and the 10-Q is signed October 29, 2026. The date of the fiscal second-quarter earnings announcement was not published in these sources."
+}

@@ -1,0 +1,252 @@
+{
+  "ticker": "LLY",
+  "company": "Eli Lilly and Company",
+  "researched_at": "2026-11-13T17:16:45Z",
+  "agent_id": "research-agent-f",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, Eli Lilly reported revenue of $24.397 billion, up 39% from $17.601 billion, net income of $6.451 billion, and diluted earnings per share of $7.22, versus $5.583 billion and $6.21 a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "On October 29, 2026 Lilly raised full-year 2026 revenue guidance to $91.0 billion to $92.0 billion from $85 billion to $87 billion, and set non-GAAP EPS guidance at $35.00 to $36.00 after a $4.07 midpoint increase from underlying performance was more than offset by $4.57 of third-quarter acquired IPR&D charges.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+      "source_title": "Lilly third-quarter 2026 sales and earnings press release, Exhibit 99.1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "product",
+      "claim": "Third-quarter 2026 Mounjaro revenue was $10.723 billion, up 65% from $6.515 billion, and Zepbound revenue was $5.352 billion, up 49% from $3.588 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "product",
+      "claim": "Foundayo revenue was $184 million in the third quarter of 2026 and $281 million for the first nine months of 2026, versus none in the comparable 2025 periods.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+      "source_title": "Lilly third-quarter 2026 sales and earnings press release, Exhibit 99.1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Since the 2025 Form 10-K, the FDA approved orforglipron (Foundayo) for obesity, the CHMP issued a positive opinion recommending orforglipron for obesity and for type 2 diabetes in the EU, and Lilly submitted orforglipron for type 2 diabetes in the United States and Japan.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "Lilly reported that Phase 3 trials of retatrutide for obesity met their primary endpoints and that Phase 3 trials of retatrutide for type 2 diabetes met their primary endpoints.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "capacity",
+      "claim": "On May 6, 2026 Lilly announced an additional $4.5 billion across two Lebanon, Indiana sites, taking Indiana capital-expansion commitments since 2020 above $21 billion, and said the Lebanon API site is planned to open in 2027 and to produce Foundayo and, if developed, retatrutide.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-commits-additional-45-billion-across-indiana-manufacturing",
+      "source_title": "Lilly commits additional $4.5 billion across Indiana manufacturing sites",
+      "published_date": "2026-05-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter 2026 revenue growth was a 53% increase in volume, partly offset by a 15% decrease in realized prices; revenue outside the United States rose 47% on 76% volume growth and a 29% decline in realized prices, which Lilly attributed primarily to Mounjaro's inclusion on China's National Reimbursement Drug List.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+      "source_title": "Lilly third-quarter 2026 sales and earnings press release, Exhibit 99.1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter 2026 revenue included about $900 million of benefits, primarily $410 million of Jardiance sales-based milestones, and Lilly said no further Jardiance milestones remain.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+      "source_title": "Lilly third-quarter 2026 sales and earnings press release, Exhibit 99.1",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Mounjaro, Zepbound, and Foundayo accounted for 66% of total revenue for the nine months ended September 30, 2026, and Lilly said cardiometabolic products are expected to remain a significant and growing share of the business.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "In May 2026 Lilly issued $9.0 billion of long-term debt due 2028-2066 at stated rates of 4.150% to 5.700%; long-term debt including the current portion was $49.503 billion at September 30, 2026 versus $42.503 billion at December 31, 2025, while cash and cash equivalents fell to $4.885 billion from $7.268 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Lilly recognized acquired in-process R&D charges of $4.2 billion in the quarter and $7.5 billion in the nine months ended September 30, 2026, including a $2.610 billion September 2026 charge for AtaiBeckley's BPL-003, and recorded $303 million of asset impairment, restructuring, and other special charges in the quarter, related to a partial impairment of an intangible asset for a molecule in development.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "In July 2026 Lilly received notice that multiple generic companies had filed ANDAs seeking approval to market generic Mounjaro and/or Zepbound before Orange Book patent expiry, and in August 2026 Lilly sued those companies in the U.S. District Court for the District of Delaware; separately, incretin product-liability cases involving Mounjaro, Trulicity, and Zepbound are consolidated in two federal MDLs in the Eastern District of Pennsylvania.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "HHS selected Jardiance for Medicare price negotiation effective in 2026 and selected Trulicity and Verzenio in January 2026 with prices to take effect in 2028; under a voluntary U.S. government agreement, Medicare beneficiaries obtained access to discounted Lilly obesity medicines from July 1, 2026 through December 31, 2027, and Lilly said the arrangements could reduce revenue in certain markets.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Lilly repurchased $4.334 billion of common stock in the nine months ended September 30, 2026, had $6.6 billion remaining under the $15.0 billion repurchase program authorized in December 2024, and had 940,745,031 common shares outstanding on October 26, 2026; the 10-Q describes the 2026 acquisitions of Centessa, Kelonia, and Ventyx as cash transactions rather than share issuances.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "legal",
+      "topic": "competition",
+      "claim": "Lilly said it continues to see production, marketing, and sale of counterfeit, misbranded, adulterated, and mass-compounded incretins, and that it cannot guarantee adequate regulation or compliance even though the FDA has said compounding pharmacies must cease mass production.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "source_title": "Eli Lilly and Company Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "European Commission decision following the CHMP positive opinion recommending orforglipron for obesity and for type 2 diabetes",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm"
+    },
+    {
+      "event": "Opening of the Lebanon, Indiana API site, which Lilly said is planned for 2027 and is intended to produce Foundayo and retatrutide",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-commits-additional-45-billion-across-indiana-manufacturing"
+    },
+    {
+      "event": "Fourth-quarter 2026 dividend of $1.73 per share, about $1.5 billion, payable to shareholders of record on November 13, 2026",
+      "expected_date": "2026-12-10",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Inflation Reduction Act Medicare drug price negotiation",
+      "stage": "enacted",
+      "industry": "pharmaceuticals",
+      "bottleneck": "government-set Medicare prices for selected single-source drugs",
+      "revenue_mechanism": "HHS-set Medicare prices apply to Jardiance beginning in 2026 and to Trulicity and Verzenio beginning in 2028, and Lilly expects other significant products to be selected later.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "country": "United States",
+      "policy": "Medicare GLP-1 Bridge program and related voluntary pricing agreement",
+      "stage": "implementation",
+      "industry": "obesity medicines",
+      "bottleneck": "discounted Medicare access and lower realized prices",
+      "revenue_mechanism": "Medicare beneficiaries obtained access to discounted Lilly obesity medicines from July 1, 2026 through December 31, 2027, which can add volume at lower prices and, Lilly said, may reduce revenue in certain markets.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "country": "China",
+      "policy": "National Reimbursement Drug List inclusion of Mounjaro",
+      "stage": "implementation",
+      "industry": "pharmaceuticals",
+      "bottleneck": "national reimbursement price",
+      "revenue_mechanism": "Mounjaro's NRDL listing in the first quarter of 2026 drove ex-U.S. volume growth in the third quarter and was the primary reason realized prices outside the United States fell 29%.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Mounjaro, Zepbound, and Foundayo were 66% of revenue for the first nine months of 2026, so pricing, competitive, or demand shocks in incretins would hit most of the company.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "Medicare negotiation and the GLP-1 Bridge discounts lower realized prices on named Lilly products, and third-quarter realized prices already fell 15% worldwide.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "Generic ANDA challenges to Mounjaro and Zepbound, plus two federal incretin product-liability MDLs, could affect the core franchise even though Lilly said resolution of disclosed matters should not be material to its consolidated financial position.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    },
+    {
+      "risk": "Long-term debt rose to $49.503 billion after a $9.0 billion May 2026 issuance, while nine-month business-development cash payments were $18.2 billion and quarterly acquired IPR&D was $4.2 billion.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000108/lly-20260930.htm",
+      "published_date": "2026-10-29"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "No going-concern language, material weakness, or equity offering was found in the September 30, 2026 Form 10-Q. Share count fell through buybacks rather than rising through an ATM or convert. The October 2026 Merida acquisition is described as up to $2.9 billion including milestones, and purchase accounting was not finished. Retatrutide Phase 3 endpoint success is disclosed without the numerical efficacy results in the 10-Q, so those magnitudes are omitted. The European Commission decision date after the CHMP opinion was not stated."
+}

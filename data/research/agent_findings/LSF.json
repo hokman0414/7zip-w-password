@@ -1,0 +1,253 @@
+{
+  "ticker": "LSF",
+  "company": "Laird Superfood, Inc.",
+  "researched_at": "2026-11-13T17:14:02Z",
+  "agent_id": "research-agent-h",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended June 30, 2026, Laird Superfood reported net sales of $41,294,184, compared with $11,990,842 a year earlier, and net sales for the six months were $55,235,736 versus $23,645,001.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Second-quarter Adjusted EBITDA was $2,991,819 versus $148,475 a year earlier, and cash, cash equivalents and restricted cash were $23,201,214 at June 30, 2026 versus $5,320,600 at December 31, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "product",
+      "claim": "Navitas closed on March 12, 2026 for $40.9 million in cash and contributed about $15.9 million of net sales and about $2.6 million of net income through June 30, 2026; Terrasoul closed on April 21, 2026 for $50.4 million in cash plus contingent consideration with an acquisition-date fair value of $4.1 million and contributed about $15.2 million of net sales and about $1.2 million of net income.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Second-quarter gross profit rose to $12.5 million from $4.8 million, but gross margin fell to 30.3% of net sales from 39.9%, which the company attributed to unfavorable channel and product mix, inflationary commodity costs, and lower margins on the Terrasoul brand.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Second-quarter operating loss widened to $1,863,805 from $399,477, net loss was $1,805,081 versus $362,178, and net loss attributable to common stockholders was $2,779,400, or $0.25 per share, versus $362,178, or $0.03, after $974,319 of Series A paid-in-kind dividend accretion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Of second-quarter net sales of $41.3 million, up from $12.0 million, Navitas and Terrasoul contributed $29.4 million, so the reported growth was driven by the acquisitions.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Laird issued 110,000 shares of Series A preferred stock for $110.0 million of gross proceeds, convertible at an initial price of $3.57; 26,749,161 as-converted preferred shares were excluded from second-quarter diluted EPS as anti-dilutive, the subsequent 60,000-share issuance is convertible into 16,806,722 common shares, and Nexus affiliates' 73.8% fully diluted ownership makes the company a controlled company under the NYSE American Company Guide.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "governance",
+      "claim": "Management concluded disclosure controls were not effective at June 30, 2026 because of a material weakness in journal-entry segregation of duties, and it identified two additional material weaknesses at acquired Terrasoul covering manual journal entries and inventory cycle counts; a review of parent-company journal entries found no resulting misstatements, and Terrasoul controls had not been remediated as of June 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "In the second quarter of 2026, Customer D accounted for 25% of gross sales and customers individually above 10% accounted for 54% of gross sales; at June 30, 2026, Customer B was 23% and Customer A was 20% of trade accounts receivable.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "The company had no borrowings outstanding at June 30, 2026, none of a $1.0 million factoring facility was drawn, net working capital was $43.9 million, and management said existing cash and anticipated operating cash flow should fund operations for at least the next twelve months; the 10-Q does not contain going-concern language.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Cash used in operating activities was $2,381,286 for the six months ended June 30, 2026, the accumulated deficit was $111.4 million, and management said it may incur additional operating losses and that higher coffee and cacao prices over the last twelve months have already pressured working capital and margins.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On June 25, 2026 shareholders approved increasing shares available under the 2020 Equity Incentive Plan by 3,876,836 shares, to 6,000,000 shares, and extended the plan through May 22, 2036.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The six-month income-tax benefit of $4,727,289 came from releasing part of the valuation allowance against $4.7 million of deferred tax liabilities acquired with Navitas, while the company continues to keep a full valuation allowance on its remaining net deferred tax assets because of its history of cumulative losses.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Preliminary purchase accounting recorded about $31.8 million of goodwill and $43.1 million of identifiable intangible assets, both still subject to measurement-period adjustments, and non-cancelable raw-material purchase commitments were about $3.6 million at June 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "The company stated that, to its knowledge, there are no material pending legal proceedings, and there were no defaults upon senior securities.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "source_title": "Laird Superfood, Inc. Form 10-Q for the quarter ended June 30, 2026",
+      "published_date": "2026-08-13"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Terrasoul earn-out of up to $5,000,000 based on 2026 Contribution Profit through December 31, 2026; nothing is payable if Contribution Profit is below $11,300,000.",
+      "expected_date": "2026-12-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    },
+    {
+      "event": "End of the Navitas purchase-accounting measurement period.",
+      "expected_date": "2027-03-12",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    },
+    {
+      "event": "End of the Terrasoul purchase-accounting measurement period.",
+      "expected_date": "2027-04-21",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "USDA Organic and Non-GMO certification requirements for organic superfood ingredients",
+      "stage": "enacted",
+      "industry": "organic packaged food",
+      "bottleneck": "certified organic ingredient supply and maintenance of product certifications",
+      "revenue_mechanism": "Navitas and Terrasoul sales depend on sourcing certified organic ingredients and keeping USDA Organic and Non-GMO certifications; the 10-Q says loss of qualifying supply or certifications could prevent the company from meeting demand.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "country": "United States",
+      "policy": "U.S. import tariffs on food commodities",
+      "stage": "enacted",
+      "industry": "packaged food",
+      "bottleneck": "imported coffee, cacao and other ingredient costs",
+      "revenue_mechanism": "Tariffs raise input costs rather than create revenue. The company said 2025 inventory builds were made to avoid anticipated tariff costs, and that higher coffee and cacao prices have already reduced margins.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Series A preferred stock convertible at $3.57 gives Nexus affiliates about 73.8% ownership on a fully diluted basis and left 26,749,161 as-converted shares out of the second-quarter diluted share count only because the company reported a loss.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "Disclosure controls were not effective at June 30, 2026 because of an unremediated material weakness in journal-entry controls, plus two material weaknesses at Terrasoul in journal entries and inventory cycle counts.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "Gross margin compressed to 30.3% from 39.9% while the company remained loss-making, and management said continued coffee and cacao inflation could pressure margins further.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "One customer accounted for 25% of second-quarter gross sales, and customers above a 10% share together accounted for 54%.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    },
+    {
+      "risk": "The company still used $2.4 million of cash in operations in the first half, has an accumulated deficit of $111.4 million, and said it may raise dilutive equity or debt if growth requires more capital, although management said current liquidity covers at least twelve months.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm",
+      "published_date": "2026-08-13"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "March 12, 2026 private placement of 50,000 Series A preferred shares at $1,000 per share for $50.0 million gross, about $49.2 million net, convertible into common stock at an initial price of $3.57.",
+      "date": "2026-03-12",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    },
+    {
+      "description": "April 21, 2026 private placement of 60,000 Series A preferred shares at $1,000 per share for $60.0 million gross, about $59.9 million net. The company stated that 16,806,722 common shares may be issued on conversion of this issuance. All 110,000 Series A shares were outstanding at June 30, 2026.",
+      "date": "2026-04-21",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    },
+    {
+      "description": "June 25, 2026 shareholder approval increased the 2020 Equity Incentive Plan share reserve by 3,876,836 shares, to 6,000,000 shares, and extended the plan term to May 22, 2036.",
+      "date": "2026-06-25",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1650696/000143774926027697/lsf20260630_10q.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "The latest periodic report found is the June 30, 2026 Form 10-Q filed August 13, 2026; a third-quarter 2026 report was not available at the time of this research. Customers and suppliers in the concentration tables are anonymized. No delisting notice and no going-concern paragraph were found. Management explicitly said cash and expected operating cash flow cover at least twelve months, so the accumulated deficit and operating losses are not treated as a solvency warning. Goodwill and intangible values are preliminary. The common share count was 11,106,796 outstanding at June 30, 2026 versus 10,694,765 at December 31, 2025, separate from the preferred conversion overhang. The company press release of August 13, 2026 repeats the $41.3 million sales, $1.8 million net loss, $3.0 million Adjusted EBITDA and $23.2 million cash figures already taken from the 10-Q."
+}
