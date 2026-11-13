@@ -1,0 +1,229 @@
+{
+  "ticker": "BRK.B",
+  "company": "Berkshire Hathaway Inc.",
+  "researched_at": "2026-11-13T17:06:00Z",
+  "agent_id": "research-agent-e",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter 2026 net earnings attributable to Berkshire shareholders were $22.112 billion, or $10.33 per average equivalent Class B share, down from $30.796 billion and $14.28 a year earlier, including investment gains of $9.407 billion versus $17.311 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "After-tax insurance underwriting earnings fell 42.9% to $1.352 billion from $2.369 billion, and each of GEICO, Berkshire Hathaway Primary Group, and Berkshire Hathaway Reinsurance Group earned less in the third quarter than a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "GEICO pre-tax underwriting earnings fell to $982 million from $1.773 billion, the third-quarter loss ratio rose to 76.6% from 71.5%, and the company attributed the increase to higher claims frequencies, higher average severities, and lower average earned premiums per policy.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "other",
+      "claim": "Berkshire recorded no losses from significant catastrophe events, defined as consolidated pre-tax losses above $150 million from one current-year event, in the first nine months of 2026, compared with about $850 million of after-tax losses from significant events in the first nine months of 2025.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "After-tax insurance investment income fell $447 million, or 14.1%, to $2.734 billion in the third quarter because of lower interest income from lower interest rates.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "BNSF after-tax earnings rose 19.3% to $1.729 billion on higher shipping volumes and operating efficiency, and Berkshire Hathaway Energy after-tax earnings rose 8.3% to $1.612 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Manufacturing, service, and retailing after-tax earnings rose 11.8% to $4.042 billion, while consumer-products pre-tax earnings fell to $412 million from $582 million.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "At September 30, 2026, insurance and other cash and cash equivalents were $36.034 billion and short-term U.S. Treasury bills were $336.735 billion, including $20.489 billion of unsettled Treasury-bill purchases that were also recorded as a liability and paid shortly after the balance-sheet date.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Equity securities had a fair value of $335.515 billion, and the five largest holdings—Alphabet, American Express, Apple, Bank of America, and Coca-Cola—were 65% of that fair value at both September 30, 2026 and December 31, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Berkshire spent $13.757 billion acquiring treasury stock in the first nine months of 2026, equivalent Class A shares outstanding fell to 1,418,900 from 1,438,223 at year-end 2025, and the repurchase program will not reduce consolidated cash, cash equivalents, and Treasury bills below $30 billion.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "PacifiCorp had recorded cumulative estimated probable wildfire losses of about $2.85 billion through September 30, 2026, had paid about $2.3 billion including $595 million in the first nine months of 2026, and still carried $566 million of unpaid wildfire liabilities, down from about $1.2 billion at December 31, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "James wildfire jury verdicts had awarded about $1.25 billion of net damages to 201 plaintiffs; the Oregon Court of Appeals reversed the Phase I verdict in April 2026, the Oregon Supreme Court heard argument on November 3, 2026, and a trial for 27 plaintiffs is scheduled to begin in September 2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Berkshire does not guarantee any debt, borrowings, or lines of credit of Berkshire Hathaway Energy, BNSF, or their subsidiaries, and the 10-Q says additional wildfire losses beyond the accrual are reasonably possible and could materially hurt PacifiCorp's liquidity and financial condition, with no specific range estimated.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter total revenues were $105.647 billion versus $94.972 billion, and shareholders' equity was $763.628 billion at September 30, 2026 versus $719.703 billion at December 31, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Berkshire said developing international trade policies and tariffs, along with wars and other geopolitical events, could adversely affect operating businesses and equity-security investments, and that it cannot reliably predict the impact.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The 2026 earnings disaggregation shows no other-than-temporary impairment of the Kraft Heinz investment, compared with a $3.760 billion impairment in the first nine months of 2025, and Berkshire owned 27.5% of Kraft Heinz common stock and 26.5% of Occidental common stock at September 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "source_title": "Berkshire Hathaway Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-09"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Oregon Supreme Court decision after the November 3, 2026 oral argument on review of the April 2026 Oregon Court of Appeals opinion reversing the James Phase I wildfire verdict",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
+    },
+    {
+      "event": "James wildfire damages trial for 27 plaintiffs scheduled to begin in September 2027",
+      "expected_date": null,
+      "date_confidence": "estimated",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Production tax credits for U.S. wind-powered electricity generation",
+      "stage": "enacted",
+      "industry": "electric utilities",
+      "bottleneck": "wind generation placed in service",
+      "revenue_mechanism": "Berkshire says its effective tax rate normally reflects production tax credits on U.S. wind generation; the credit reduces tax expense rather than being disclosed as utility revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "published_date": "2026-11-09"
+    },
+    {
+      "country": "United States",
+      "policy": "OECD Pillar Two 15% global minimum tax, including the January 2026 safe harbor for certain U.S.-parented groups",
+      "stage": "implementation",
+      "industry": "insurance and diversified holding companies",
+      "bottleneck": "cross-border minimum tax compliance",
+      "revenue_mechanism": "Various countries have enacted Pillar Two while the United States has not; Berkshire says it does not currently expect a material effect on consolidated income taxes, so the rule is not tied to orders or revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "published_date": "2026-11-09"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "GEICO's third-quarter loss ratio rose 5.1 percentage points to 76.6% and pre-tax underwriting earnings fell to $982 million from $1.773 billion on higher claim frequency and severity.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "published_date": "2026-11-09"
+    },
+    {
+      "risk": "PacifiCorp may incur material wildfire losses beyond the $2.85 billion already accrued, and Berkshire says those additional losses could materially affect PacifiCorp's liquidity even though Berkshire does not guarantee BHE debt.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "published_date": "2026-11-09"
+    },
+    {
+      "risk": "Five equity holdings were 65% of the $335.515 billion equity portfolio, and quarterly net earnings moved with $9.407 billion of investment gains versus $17.311 billion a year earlier.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm",
+      "published_date": "2026-11-09"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "No common-stock offering, ATM, convertible, going-concern paragraph, or delisting notice was found. Share count fell because of repurchases; Class A to Class B conversions do not increase economic shares. Cash is reported as separate lines: insurance cash of $36.034 billion, short-term Treasury bills of $336.735 billion, and a $20.489 billion payable for unsettled bills. The company does not publish one net cash figure in the sections used. Railroad, utilities, and energy cash of $4.666 billion is separate from the insurance cash line. The September 2027 James trial date has no day of the month. No date for a fourth-quarter earnings release or the annual shareholder meeting was found in the 10-Q."
+}

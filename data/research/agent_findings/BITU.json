@@ -1,0 +1,225 @@
+{
+  "ticker": "BITU",
+  "company": "ProShares Ultra Bitcoin ETF",
+  "researched_at": "2026-11-13T17:16:45Z",
+  "agent_id": "research-agent-f",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "ProShares Ultra Bitcoin ETF seeks daily investment results, before fees and expenses, that correspond to two times the daily performance of the Bloomberg Bitcoin Index, and the fund does not invest directly in bitcoin.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The September 28, 2026 summary prospectus states a management fee of 0.95%, other expenses of 0.00%, and total annual fund operating expenses of 0.95%; transaction and financing costs of derivatives are not included in that ratio, and a $10,000 investment at a hypothetical 5% annual return would cost about $97 in one year on the stated expenses alone.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The fund does not seek 2x index performance for any period other than a day. Its prospectus illustrates that, with no expenses and zero borrowing cost, a one-year index return of -20% at 50% volatility would be expected to produce a fund return of -50.2% rather than -40%, and the Index's annualized volatility for the five years ended May 31, 2026 was 54.13%.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the year ended December 31, 2025, BITU's average annual total return before taxes was -36.81%, versus -6.46% for the Bloomberg Bitcoin Index and 17.88% for the S&P 500; since the April 1, 2024 inception, the fund's before-tax return was -13.08% versus 13.92% for the Index.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "The prospectus reports a best quarter of 57.57% ended June 30, 2025, a worst quarter of -46.24% ended December 31, 2025, and a year-to-date return of -63.02% through June 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "The prospectus states that if the Index approaches a 50% loss at any point in a day, an investor could lose the entire investment, and that the cost of obtaining leverage lowers returns.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "When the fund uses bitcoin futures, it must roll contracts as they near expiration. The prospectus says bitcoin futures have historically had extended periods of contango, and that contango can cause the futures and the fund to underperform spot bitcoin.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "At August 31, 2026, Ultra Bitcoin ETF net assets were $514,333,447. Repurchase agreements were $19,682,786, or 3.8% of net assets, and other assets less liabilities were $494,650,661, or 96.2%.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm",
+      "source_title": "ProShares Trust Form N-PORT-P schedule of portfolio investments as of August 31, 2026",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "At August 31, 2026 the fund had open long CME bitcoin futures expiring September 25, 2026 with notional amount $139,074,975 and unrealized appreciation of $518,997, plus open total-return swaps with aggregate notional $892,257,541 and unrealized appreciation of $141,816,642.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm",
+      "source_title": "ProShares Trust Form N-PORT-P schedule of portfolio investments as of August 31, 2026",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Adding the August 31, 2026 CME bitcoin futures notional of $139,074,975 to the swap notional of $892,257,541 gives $1,031,332,516, which is 2.005 times that day's net assets of $514,333,447, in line with the fund's 2x daily objective on that date.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm",
+      "source_title": "ProShares Trust Form N-PORT-P schedule of portfolio investments as of August 31, 2026",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "The August 31, 2026 swap schedule shows floating financing rates of 7.88% with Barclays Bank PLC on $207,932,328 notional, 12.13% with Cantor Fitzgerald on $87,884,676, 6.63% with Citibank N.A. on $165,783,098, 6.63% with Goldman Sachs International on $124,498,461, 7.63% with J.P. Morgan Securities, LLC on $154,865,574, 8.63% with Marex on $83,466,878, and 11.13% on a further $67,826,526 notional, referencing iShares Bitcoin Trust or Fidelity Wise Origin Bitcoin.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm",
+      "source_title": "ProShares Trust Form N-PORT-P schedule of portfolio investments as of August 31, 2026",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "Swap agreements may be terminated at will by either party, including intraday, and the prospectus says the fund may have significant exposure to a single spot-bitcoin ETF used as a swap reference asset, which can raise correlation and concentration risk.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "To qualify as a regulated investment company, the fund intends to invest no more than 25% of total assets in its wholly owned Cayman subsidiary at each tax quarter-end, and the prospectus says that tax limit can constrain leveraged futures exposure.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Reported portfolio turnover for the most recent fiscal year was 0% because the calculation excludes cash instruments and derivatives; the prospectus says turnover would be significantly higher if those transactions were included.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Only authorized participants can create or redeem shares directly with the fund. If they exit or cannot process orders, the prospectus says the trading market can shrink and shares can trade at a discount to NAV, and shares can already trade at a premium or discount to NAV in the secondary market.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "source_title": "ProShares Ultra Bitcoin ETF summary prospectus dated September 28, 2026",
+      "published_date": "2026-09-28"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Maturity of the Goldman Sachs International total-return swap with notional $124,498,461 referencing iShares Bitcoin Trust, which the fund must replace to keep its daily leverage",
+      "expected_date": "2026-12-07",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm"
+    },
+    {
+      "event": "Maturity of the Cantor Fitzgerald swap (notional $87,884,676, Fidelity Wise Origin Bitcoin) and the J.P. Morgan Securities swap (notional $154,865,574, iShares Bitcoin Trust)",
+      "expected_date": "2027-02-08",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Internal Revenue Code Subchapter M limit on a regulated investment company's investment in a foreign subsidiary",
+      "stage": "enacted",
+      "industry": "leveraged bitcoin ETFs",
+      "bottleneck": "25% of assets cap on the Cayman subsidiary that holds futures exposure",
+      "revenue_mechanism": "The cap can prevent the fund from obtaining the futures exposure it wants and can produce tax consequences if exceeded. It is not a government payment to the fund.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "published_date": "2026-09-28"
+    },
+    {
+      "country": "United States",
+      "policy": "CFTC and exchange position limits, accountability levels, and margin rules for bitcoin futures",
+      "stage": "enacted",
+      "industry": "bitcoin futures",
+      "bottleneck": "futures market capacity and regulatory position limits",
+      "revenue_mechanism": "If margin, position limits, or futures-commission-merchant constraints stop the fund from maintaining leveraged exposure, the prospectus says the fund may miss its objective. This is a constraint, not a revenue grant.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "published_date": "2026-09-28"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Daily reset and compounding mean multi-day returns can diverge sharply from 2x the Index, including losses when the Index is flat or up. Calendar 2025 fund return was -36.81% against an Index return of -6.46%, and the year-to-date return through June 30, 2026 was -63.02%.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "published_date": "2026-09-28"
+    },
+    {
+      "risk": "A roughly 50% Index decline at any point in a single day could wipe out the investment because the fund targets 2x daily exposure. That is a disclosed product feature, not a current listing or solvency failure.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "published_date": "2026-09-28"
+    },
+    {
+      "risk": "Swap financing rates on August 31, 2026 ranged from 6.63% to 12.13%, on top of the 0.95% expense ratio, and those financing costs are outside the expense table.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126025249/cls-primary-document.htm",
+      "published_date": "2026-10-28"
+    },
+    {
+      "risk": "Leverage is obtained through a handful of swap counterparties and spot-bitcoin ETF reference assets, and counterparties can close swaps intraday.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1174610/000117461026000975/f46032d1.htm",
+      "published_date": "2026-09-28"
+    }
+  ],
+  "dilution_events_last_12m": [],
+  "going_concern_warning": false,
+  "notes": "BITU is a series of ProShares Trust, not an operating company. No going-concern language, corporate ATM, or convertible issuance was found. Share creation and redemption with authorized participants is the ETF mechanism and is not listed as dilution. The August 31, 2026 N-PORT schedule names six swap counterparties in full and a seventh notional of $67,826,526 at 11.13% whose counterparty name was split across lines in the filing extract, so that name is omitted rather than guessed. The September 25, 2026 CME bitcoin future listed on that schedule had expired by the November 13, 2026 research date. The most recent performance figures in the September 28, 2026 prospectus stop at June 30, 2026 for year-to-date and December 31, 2025 for annual returns. No newer net-asset figure than August 31, 2026 was used."
+}

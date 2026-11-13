@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "created_at": "2026-11-13T17:19:20.327156+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set"
+  ],
+  "drawdown_from_hwm": 0.0185,
+  "high_water_mark": 6480.816119325991,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 303.22,
+      "ref_price": 355.3,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "weight 22.8% above 20% fund limit",
+      "ref_id": "e2c07266-dbbe-527b-a0bd-7d047ffbc948",
+      "params": {
+        "symbol": "GLD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.853410",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "kind": "core_reinvest",
+      "est_usd": 400.0,
+      "ref_price": null,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "idle cash above the 5% reserve goes to the diversified core fund (beta ~1, capped at 20% weight)",
+      "ref_id": "4020b73b-744e-57df-9018-94dd385f7e9b",
+      "params": {
+        "symbol": "SPY",
+        "side": "buy",
+        "type": "market",
+        "dollar_amount": "400.00",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    }
+  ],
+  "rejected": [],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
+}

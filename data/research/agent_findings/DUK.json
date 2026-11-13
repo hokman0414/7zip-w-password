@@ -1,0 +1,260 @@
+{
+  "ticker": "DUK",
+  "company": "Duke Energy Corporation",
+  "researched_at": "2026-11-13T17:14:02Z",
+  "agent_id": "research-agent-h",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "For the quarter ended September 30, 2026, Duke Energy reported operating revenue of $9.104 billion, compared with $8.542 billion a year earlier, net income available to common stockholders of $1.551 billion, and basic and diluted EPS of $1.99, compared with $1.81.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "On November 5, 2026, Duke Energy narrowed 2026 adjusted EPS guidance to $6.70 to $6.80 and reaffirmed a long-term adjusted EPS growth rate of 5% to 7% through 2030 off the 2025 guidance midpoint of $6.30, with confidence to earn in the top half of that range beginning in 2028.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm",
+      "source_title": "Duke Energy third-quarter 2026 earnings release, Exhibit 99.1",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Nine-month 2026 reported EPS was $5.34 and adjusted EPS was $5.35, compared with reported and adjusted EPS of $4.81 a year earlier, and Electric Utilities and Infrastructure third-quarter segment income was $1,817 million, compared with $1,658 million.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm",
+      "source_title": "Duke Energy third-quarter 2026 earnings release, Exhibit 99.1",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "technological",
+      "topic": "capacity",
+      "claim": "Duke Energy said it is executing a generation build to add 16 gigawatts of capacity by 2031.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm",
+      "source_title": "Duke Energy third-quarter 2026 earnings release, Exhibit 99.1",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Management said data-center development remains a significant contributor to projected load growth and that Duke is expanding data-center electric service agreements that include financial protections so the customers driving the investment bear the related costs.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On October 1, 2026, Duke Energy declared a quarterly common dividend of $1.085 per share payable December 16, 2026 to holders of record on November 13, 2026, and said it has paid a cash dividend on its common stock for 100 consecutive years.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://news.duke-energy.com/releases/duke-energy-announces-dividend-payments-to-shareholders-6928288",
+      "source_title": "Duke Energy announces dividend payments to shareholders, October 1, 2026",
+      "published_date": "2026-10-01"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026, long-term debt was $84.332 billion and current maturities of long-term debt were $6.116 billion, compared with $80.108 billion and $7.104 billion at December 31, 2025, and third-quarter interest expense was $967 million versus $902 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "In March 2026 Duke Energy filed a prospectus supplement and equity distribution agreement under which it may sell up to $6 billion of common stock through September 2028, and during the nine months ended September 30, 2026 it priced equity forwards on 6,561,683 shares that are not recorded until settlement, expected by December 31, 2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "A July 17, 2026 comprehensive settlement in Duke Energy Carolinas' North Carolina rate case sets an ROE of 9.8% and a cumulative retail revenue increase of $496 million, or 7.4%, versus the November 20, 2025 application for a $1.0 billion, or 15.0%, increase and a 10.95% ROE; the company recorded a $29 million impairment and said the settlements still require NCUC approval, with an order expected in November 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "For the nine months ended September 30, 2026, Duke Energy Carolinas and Duke Energy Progress recorded $248 million pretax, $189 million after a $59 million tax benefit, for legal settlements, North Carolina rate-case regulatory settlements, and an energy-efficiency regulatory liability.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000048/er-20260930xearningsreleas.htm",
+      "source_title": "Duke Energy third-quarter 2026 earnings release, Exhibit 99.1",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "other",
+      "claim": "Duke Energy accepted cancellation of its Carolina Long Bay offshore wind development rights effective September 23, 2026 under a Department of the Interior settlement and received the $129 million settlement proceeds in October 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Piedmont's average number of natural gas customers in the third quarter of 2026 was 996,464, down 17.0% from 1,200,097 a year earlier, after Piedmont closed the sale of its Tennessee business on March 31, 2026 for approximately $2.5 billion in cash.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Operating cash flow for the nine months ended September 30, 2026 was $7.889 billion, down from $8.672 billion, while capital, investment and acquisition expenditures were $12.566 billion, up from $9.881 billion, with the operating-cash decline attributed primarily to higher deferred fuel, purchased power and storm restoration costs.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On March 3, 2026, an affiliate of Brookfield Super-Core Infrastructure Partners acquired a 9.19% interest in Florida Progress for approximately $2.8 billion, and the affiliate has indicated an intent to raise its December 2026 investment from $200 million to $1.2 billion and to fund the remaining $2 billion in 2027; third-quarter net income attributable to noncontrolling interests was $85 million versus $33 million a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026 Duke Energy had $451 million of cash and $8.0 billion available under its $10 billion Master Credit Facility, whose termination date was extended in March 2026 to March 2031, and management said it expects sufficient liquidity; the 10-Q does not contain going-concern language.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "source_title": "Duke Energy Corporation Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "North Carolina Utilities Commission order on the Duke Energy Carolinas and Duke Energy Progress 2025 rate-case settlements, which the company said is expected in November 2026, with a request to implement Duke Energy Carolinas Year 1 rates no later than January 1, 2027.",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+    },
+    {
+      "event": "Targeted effective date of the combination of Duke Energy Carolinas and Duke Energy Progress.",
+      "expected_date": "2027-01-01",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+    },
+    {
+      "event": "Duke Energy Indiana must file its first multi-year rate plan under Indiana House Enrolled Act 1002 between November 15 and December 15, 2026.",
+      "expected_date": "2026-12-15",
+      "date_confidence": "confirmed",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+    },
+    {
+      "event": "Quarterly common dividend of $1.085 per share payable to holders of record on November 13, 2026.",
+      "expected_date": "2026-12-16",
+      "date_confidence": "confirmed",
+      "source_url": "https://news.duke-energy.com/releases/duke-energy-announces-dividend-payments-to-shareholders-6928288"
+    }
+  ],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "Inflation Reduction Act transferable nuclear production tax credits and other energy tax credits",
+      "stage": "enacted",
+      "industry": "regulated electric utilities",
+      "bottleneck": "monetizing tax credits and returning their net value to customers",
+      "revenue_mechanism": "In April 2026 Duke Energy Carolinas, Duke Energy Progress and Duke Energy Florida executed an agreement to sell up to $3.1 billion of net tax credits, with proceeds expected through 2029, and are working with commissions to pass the net realizable value back to customers rather than retain it as revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "country": "United States",
+      "policy": "North Carolina performance-based regulation rate case for Duke Energy Carolinas",
+      "stage": "proposed",
+      "industry": "regulated electric utilities",
+      "bottleneck": "commission approval of rate recovery for transmission, distribution, storage and solar investment",
+      "revenue_mechanism": "The July 17, 2026 settlement, still subject to NCUC approval, would raise North Carolina retail revenue by $286 million in Year 1 and $210 million in Year 2, a cumulative $496 million or 7.4%.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "country": "United States",
+      "policy": "EPA Partial Repeal Rule of Clean Air Act section 111 greenhouse-gas standards for power plants",
+      "stage": "enacted",
+      "industry": "electric generation",
+      "bottleneck": "carbon-capture requirements on new and reconstructed gas turbines",
+      "revenue_mechanism": "The September 17, 2026 final rule repeals carbon-capture requirements and retains efficiency-based standards for certain new units; Duke said the rule is generally consistent with the pace of its existing capital plan, which is recovered through regulated rates.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Long-term debt of $84.332 billion plus $6.116 billion of current maturities, with third-quarter interest expense up to $967 million, while nine-month capital spending of $12.566 billion exceeded operating cash flow of $7.889 billion.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "An at-the-market program allows issuance of up to $6 billion of common stock through September 2028, and forwards on 6,561,683 shares were already priced in the first nine months of 2026.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "The North Carolina rate settlement cuts the requested cumulative revenue increase from $1.0 billion to $496 million and the requested ROE from 10.95% to 9.8%, and it is not yet approved.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "The company warns that results could suffer if electricity use by data centers is lower than currently projected.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Coal-ash compliance remains uncertain: Duke is challenging the 2024 CCR rule, the EPA has proposed rescinding or modifying parts of it, and the company said the impact could be material.",
+      "severity": "medium",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm",
+      "published_date": "2026-11-05"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "March 2026 at-the-market equity distribution agreement for up to $6 billion of common stock through September 2028. During the nine months ended September 30, 2026, equity forwards were priced on 6,561,683 shares at initial forward prices from $119.71 to $131.82; settlement is expected by December 31, 2027 and no proceeds are recorded until then.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "Third-quarter 2026 reported EPS equaled adjusted EPS because the quarter had no special items; the $189 million after-tax legal and regulatory charge and the Piedmont Tennessee sale gain are nine-month items. The 17% drop in Piedmont gas customers follows the March 31, 2026 Tennessee sale, not an organic customer loss. Contracted data-center megawatts were not quantified in the sections reviewed. Brookfield's larger December 2026 funding is described as an indicated intent. No going-concern language was found. The October 1, 2026 release is the source for the $1.085 declaration, the December 16, 2026 payment date and the 100-year record. The 10-Q separately shows dividends declared of $1.085 per common share for the third quarter of 2026 versus $1.065 a year earlier, and dividends paid of $2.555 billion for the nine months versus $2.455 billion. The press release also says the electric utilities serve 8.7 million customers and own 55,700 megawatts, and the gas utilities serve 1.6 million customers."
+}

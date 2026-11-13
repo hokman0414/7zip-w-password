@@ -1,0 +1,223 @@
+{
+  "ticker": "CIFR",
+  "company": "Cipher Digital Inc.",
+  "researched_at": "2026-11-13T17:08:00Z",
+  "agent_id": "research-agent-g",
+  "findings": [
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "At September 30, 2026 Cipher Digital had $656.0 million of cash and cash equivalents, $1,719.4 million of current restricted cash, and $477.2 million of non-current restricted cash; restricted cash is proceeds of senior secured notes that cannot be used for general corporate purposes outside the specified site developments.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Operating activities used $283.2 million of cash in the nine months ended September 30, 2026, and the company paid about $2,517.2 million for property and equipment, while management said existing resources, project-level financing, bitcoin inflows and sales, and at-the-market share sales should be sufficient for operating and capital requirements for at least 12 months from issuance of the financial statements.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Third-quarter 2026 revenue was $26.7 million, down from $71.7 million a year earlier; bitcoin-mining revenue was $20.8 million versus $71.7 million, and HPC leasing revenue was $5.9 million versus none a year earlier.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "earnings",
+      "claim": "Net loss for the nine months ended September 30, 2026 was $350.2 million. Third-quarter net income was $31.6 million and included a $127.2 million gain on the change in fair value of the Google warrant liability; diluted earnings per share for the quarter were a loss of $0.22.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Bitcoin holdings fell to about 310 bitcoin worth $25.9 million at September 30, 2026 from 1,433 bitcoin worth $125.4 million at December 31, 2025; during the nine months the company sold bitcoin for $168.9 million of proceeds and recorded $47.3 million of realized losses on those sales.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "technological",
+      "topic": "capacity",
+      "claim": "Cipher Digital says its portfolio is about 4.3 GW of grid capacity across 11 sites, it is developing 700 MW of HPC data centers across three sites, it operates about 207 MW of bitcoin mining in Texas, and it has a further grid pipeline of about 3.4 GW.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "technological",
+      "topic": "contract",
+      "claim": "In October 2025 Cipher Black Pearl LLC signed a 15-year lease with an unnamed investment-grade hyperscaler for about 300 MW at the Black Pearl facility in Wink, Texas, with three five-year extension options; the initial phase was delivered in August 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "technological",
+      "topic": "contract",
+      "claim": "A September 2026 amendment to the Fluidstack lease at the 300 MW Barber Lake facility sets data-hall deliveries from the fourth quarter of 2026 through the first quarter of 2027, removes two five-year extension options, and adds a binding 10-year follow-on lease with an unnamed leading AI lab; Cipher bears the first $359.3 million of costs above the initial budget, and Google has agreed to support certain Fluidstack payment obligations.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Long-term borrowings, net, were $5.447 billion at September 30, 2026 against stockholders' equity of $600.3 million. Project notes outstanding were $1.733 billion of 7.125% Cipher Compute notes due November 2030, $2.000 billion of 6.125% Black Pearl notes due February 2031, and $810 million of 6.000% Stingray notes due June 2031. The $200 million revolving credit facility had no cash borrowings and $40.6 million of letters of credit outstanding.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "The revolving credit facility requires minimum liquidity of $100 million before all phases of the first of Barber Lake or Black Pearl commence, rising to $150 million after the first facility and $200 million after both, and a shortfall can be cured by issuing equity.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "During the nine months ended September 30, 2026 Cipher received $129.2 million, net of issuance costs, from the sale of 5,496,993 shares under its at-the-market program at an average net price of $23.50; the program allows aggregate gross proceeds of up to $725.7 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On October 16, 2026 Cipher exchanged about $165.9 million principal of its 1.75% convertible notes due 2030, which had an initial conversion price of about $4.45, for about 40.7 million shares, leaving about $6.6 million principal outstanding.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On October 16, 2026 Cipher issued $850.0 million of 0.00% convertible senior notes due November 1, 2032 at an initial conversion price of about $15.31 (65.3211 shares per $1,000). Capped calls costing about $89.7 million are intended to offset dilution up to a cap, and a $150 million greenshoe expired unexercised. Remaining proceeds are for the Barber Lake equity investment, site development, and general corporate purposes.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "Google holds a warrant, issued as consideration for backstopping Fluidstack lease payments, to buy 24,178,576 shares at $0.01, and the October 16, 2026 note exchange increased the underlying shares by about 2.0 million. The warrant liability was $504.9 million at September 30, 2026, and the agreement requires additional shares or cash if the warrant shares are worth less than $435 million on the day before the exercise period begins.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On February 20, 2026 the company changed its name from Cipher Mining Inc. to Cipher Digital Inc. to reflect the shift from bitcoin mining toward HPC data-center development; 415,092,825 common shares were outstanding at September 30, 2026, up from 404,963,061 at December 31, 2025.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "source_title": "Cipher Digital Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-11-02"
+    }
+  ],
+  "upcoming_catalysts": [
+    {
+      "event": "Phased delivery of Barber Lake data halls to Fluidstack, expected between the fourth quarter of 2026 and the first quarter of 2027, followed by a 10-year lease to an unnamed AI lab.",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    },
+    {
+      "event": "The 100 MW Stingray HPC data center is expected to commence in 2027.",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    }
+  ],
+  "policy_links": [],
+  "key_risks": [
+    {
+      "risk": "Unrestricted cash was $656 million and nine-month operating cash use was $283 million, but the 12-month liquidity statement depends on project financing, bitcoin sales, and further ATM issuance, and the $2.2 billion of restricted cash cannot fund general corporate costs. Construction spending of about $2.5 billion in nine months is not covered by unrestricted cash.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "published_date": "2026-11-02"
+    },
+    {
+      "risk": "Cipher bears the first $359.3 million of Barber Lake costs above the original budget, data-hall delivery runs into the first quarter of 2027, and HPC leasing revenue was only $5.9 million in the third quarter while bitcoin-mining revenue fell to $20.8 million.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "published_date": "2026-11-02"
+    },
+    {
+      "risk": "Equity dilution is already large: 5.5 million ATM shares, about 40.7 million shares issued on October 16, 2026 to retire most of the 2030 converts, Google warrants on about 26 million shares at $0.01, and a new $850 million convert at about $15.31.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "published_date": "2026-11-02"
+    },
+    {
+      "risk": "Project-level secured notes of $1.733 billion, $2.000 billion, and $810 million, plus parent converts, left long-term borrowings, net, of $5.447 billion against $600 million of equity before the October 16, 2026 $850 million note issue.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm",
+      "published_date": "2026-11-02"
+    }
+  ],
+  "dilution_events_last_12m": [
+    {
+      "description": "At-the-market sales of 5,496,993 common shares during the nine months ended September 30, 2026 for $129.2 million net proceeds at an average net price of $23.50, under a program sized for up to $725.7 million of gross proceeds.",
+      "date": null,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    },
+    {
+      "description": "October 16, 2026 exchange of about $165.9 million principal of 1.75% convertible notes due 2030 for about 40.7 million common shares; about $6.6 million principal remained outstanding.",
+      "date": "2026-10-16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    },
+    {
+      "description": "October 16, 2026 issuance of $850.0 million of 0.00% convertible senior notes due November 1, 2032, initial conversion price about $15.31, with capped calls costing about $89.7 million. The $150 million greenshoe expired unexercised.",
+      "date": "2026-10-16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    },
+    {
+      "description": "Google warrant to purchase 24,178,576 shares at $0.01, increased by about 2.0 million shares on October 16, 2026 when shares were delivered to settle part of the 2030 notes, with a $435 million value floor.",
+      "date": "2026-10-16",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000050/cifr-20260930.htm"
+    }
+  ],
+  "going_concern_warning": false,
+  "notes": "The 10-Q does not contain a going-concern explanatory paragraph. Management's 12-month sufficiency statement explicitly relies on project financing, bitcoin sales, and ATM issuance. Unrestricted cash of $656 million compared with $283 million of operating cash used over nine months does not fund the $2.5 billion of construction spending; that spending is paired with restricted note proceeds. The 10-Q does not give pro forma unrestricted cash after the October 16, 2026 offering, so no post-deal cash-runway figure is stated here. The Black Pearl tenant and the follow-on Barber Lake AI-lab tenant are not named. The September 30, 2025 $1.3 billion 0% notes due 2031 remain outstanding but were issued outside the trailing twelve months and are omitted from the dilution list. No government policy was tied to Cipher revenue in the filing."
+}
