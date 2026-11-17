@@ -1,7 +1,12 @@
 {
-  "executions": 2,
+  "executions": 3,
   "high_water_mark": 6480.816119325991,
   "last_trades": {
+    "AMD": {
+      "at": "2026-11-17T14:38:35.895294+00:00",
+      "ref_id": "f2ac7e2a-43c3-5b80-bffd-53339c22af4e",
+      "side": "sell"
+    },
     "GLD": {
       "at": "2026-11-13T21:51:45.825057+00:00",
       "ref_id": "e2c07266-dbbe-527b-a0bd-7d047ffbc948",

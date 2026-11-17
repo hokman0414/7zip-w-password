@@ -1,0 +1,14 @@
+[
+  {
+    "ref_id": "f2ac7e2a-43c3-5b80-bffd-53339c22af4e",
+    "symbol": "AMD",
+    "side": "sell",
+    "kind": "risk_trim",
+    "status": "placed",
+    "reason": "filled at 507.5443; user confirmed the high-volatility trim",
+    "order_id": "6afc66d9-1d98-4d91-b8cb-7efc08e0c242",
+    "broker_state": "filled",
+    "usd": 22.91,
+    "recorded_at": "2026-11-17T14:38:35.895294+00:00"
+  }
+]
