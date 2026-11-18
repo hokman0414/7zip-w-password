@@ -140,11 +140,13 @@ def run_daily(settings: Settings, watchlist: list[str] | None = None, discoverie
         store.save_proposals(run_id, now.isoformat(), proposals)
         (sdir / "latest_proposals.json").write_text(json.dumps({"run_id": run_id, "created_at": now.isoformat(),
                                                                 "proposals": proposals}, indent=1, default=str))
+    from .feedback import update_feedback
+    feedback = update_feedback(settings, reports, risk, now) if risk else None
     store.finish_run(run_id, datetime.now(timezone.utc).isoformat(),
                      f"{len(reports)} analyzed; {len(need_snapshot)} discoveries need a market snapshot")
     brief = write_brief(settings, run_id, now, [by_t[t] for t in watchlist if t in by_t], disc, alerts, risk, proposals,
                         need_snapshot, holdings_reports=[by_t[t] for t in held_equities if t in by_t],
-                        trend_text=render_trend(trend["rows"], now))
+                        trend_text=render_trend(trend["rows"], now), feedback=feedback)
     return {"run_id": run_id, "reports": reports, "watchlist": watchlist, "discoveries": disc, "alerts": alerts,
             "holdings": held_equities,
             "risk": risk, "proposals": proposals, "need_snapshot": need_snapshot, "brief": brief}
@@ -161,7 +163,8 @@ def _row(r: CompanyReport) -> str:
 
 def write_brief(settings: Settings, run_id: str, now: datetime, watch: list[CompanyReport], disc: list[CompanyReport],
                 alerts: list[dict], risk: dict | None, proposals: list[dict], need_snapshot: list[str],
-                holdings_reports: list[CompanyReport] | None = None, trend_text: str | None = None) -> Path:
+                holdings_reports: list[CompanyReport] | None = None, trend_text: str | None = None,
+                feedback: dict | None = None) -> Path:
     et = now.astimezone(ZoneInfo(settings.timezone))
     out_dir = settings.reports_dir / "briefs"
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -187,6 +190,14 @@ def write_brief(settings: Settings, run_id: str, now: datetime, watch: list[Comp
                   f"- Total ${risk['total_value']:,.2f}; cash ${risk['cash']:,.2f}; beta {risk['portfolio_beta']:.2f}; "
                   f"vol {risk['portfolio_vol']:.0%}; effective positions {risk['effective_positions']:.1f}",
                   f"- Method: {risk['method']}", ""] + [f"- **{f['symbol']}** {f['flag']}: {f['detail']}" for f in risk["flags"]] + [""]
+        if feedback:
+            lines += ["## SAT feedback loop", ""]
+            lines += [f"- {n}" for n in feedback.get("notes") or []]
+            top = [p for p in (risk.get("correlation_pairs") or []) if abs(p["corr"]) >= 0.5][:8]
+            if top:
+                lines.append("- Strongest monthly correlations: " + ", ".join(
+                    f"{p['a']}-{p['b']} {p['corr']:+.2f}" for p in top))
+            lines.append("")
         lines += ["## Proposed actions (executed only if the guarded executor is armed)", ""]
         for p in proposals:
             amt = f"{p['quantity']} sh (~${p['est_value']:,.2f})" if "quantity" in p else (f"${p['dollar_amount']:,.2f}" if "dollar_amount" in p else "")

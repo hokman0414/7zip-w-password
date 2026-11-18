@@ -24,7 +24,9 @@ def snapshot():
 
 
 def test_concentration_and_leverage_trims_are_proposals_only():
-    props = propose(assess(snapshot()))
+    risk = assess(snapshot())
+    assert risk["correlation_pairs"] == sorted(risk["correlation_pairs"], key=lambda p: abs(p["corr"]), reverse=True)
+    props = propose(risk)
     by = {p["symbol"]: p for p in props}
     assert by["BIG"]["side"] == "sell" and by["BIG"]["to_weight"] == 0.08
     assert by["LEV"]["to_weight"] == 0.03

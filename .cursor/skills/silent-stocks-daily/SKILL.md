@@ -74,12 +74,15 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
 
 ## 4. Analysis
 1. Run `silent-stocks daily`. It writes `reports/briefs/<date>.md` and `.json`, `data/state/*`, and today's proposals.
-2. Read the brief.
+   The run also writes `data/state/sat_feedback.json`: today's ACH leading hypothesis and red-team result for each
+   holding, compared with the previous run, plus monthly-return correlations. A pair above 0.75 is research for the
+   next run. It does not create an order by itself.
+2. Read the brief, including the SAT feedback loop and the correlation pairs.
 
 ## 5. Guarded execution
 1. Run `silent-stocks plan-orders`, which writes `data/orders/<date>.json`.
    - If `armed` is false, skip to step 6.
-2. For each entry in `orders`, sells first (the order they're listed in):
+2. Sells are included. A `risk_trim` is a sell, and sells are placed before buys. For each entry in `orders`:
    1. Call `review_equity_order`. Use the entry's `params`, but replace `account_number` with `ROBINHOOD_AGENTIC_ACCOUNT`.
    2. Skip the order and record `skipped` with a reason when any of these happens:
       - the review returns any `order_checks` or alerts;
@@ -101,6 +104,7 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
    - new alerts, including any tracked-company move of 5% or more;
    - the tracked-company trend (price, change versus the prior print, rising/falling/flat);
    - anything QUALIFIED or UNDER REVIEW;
+   - SAT feedback: hypothesis changes, red-team flips, and correlation pairs that crossed 0.75;
    - data problems.
 
 The refresh plan includes the disclosed public companies (GS, MMC, KR, FCF, WTFC, MCS, LUMI). Their prices are a trend log. A drastic move is not a research buy, and it is not added to the order plan.
