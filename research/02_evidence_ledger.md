@@ -204,3 +204,5 @@ E101–E117 cover the following, with full sources in doc 19:
 - Our detector benchmark.
 
 New inference **I28:** the only idea in Cycle 8 without a specialist competitor is AD. That rests on absence of evidence, so confidence is low.
+
+- **E118 (founder, real):** a self-described "solid mid-level" reverse engineer. The re-scoring is in doc 19 §10.

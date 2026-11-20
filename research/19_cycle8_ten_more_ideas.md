@@ -212,3 +212,26 @@ The vote is on the combination **AB + AD**: fund the founder through expert-supp
   - **X23 (buyer test):** five conversations with AI-triage vendors (E105, E108) offering a fixed-price robustness sprint. The stop signal is zero paid or LOI by the end of X23.
 - **Fallbacks:** AE (public comparative tests) if X22 shows large flips and vendors will not pay privately; then M; then STOP.
 - **Goal drift:** AD's buyers are mostly security vendors. The frontier-lab angle (models as analysts, E104) survives only as an evaluation add-on, where it competes with Irregular and General Analysis.
+
+## 10. Addendum: founder skill level (E118)
+
+**E118 (founder, real evidence):** "I'm not that good at RE, I'm a solid mid level." This is the second real input after E96. It changes the "founder fit" scores, which had assumed senior RE.
+
+| ID | Founder fit change | Other change | Weighted (before → after) |
+|---|---|---|---|
+| AB | 5 → 3: the $200–250/hr Mercor tier asks for CTF, CVE or bounty track records (E109) | Access 5 → 4 and WTP 3 → 2: mid-level listings run about $65–150/hr | 3.70 → **3.20** |
+| AD | 5 → 4: payloads are text in benign carriers; the work is harness design, LLM pipeline testing and statistics, not deep unpacking | — | 3.45 → **3.35** |
+| AH | 3 → 2: testimony needs senior standing | — | 3.29 → 3.14 |
+| AI | 4 → 2: teaching RE needs senior credibility | — | 3.35 → 3.12 |
+
+**AD is still the best idea that is a company.** What it needs is mid-level RE plus prompt-injection and evaluation skill; the ALIBI authors are an academic team, not elite reverse engineers. Two weaknesses grow:
+- Sales credibility with security vendors. Mitigation: publish the X22 results first.
+- Judging hard cases where a real sample's verdict is disputed. Mitigation: one senior RE contractor reviews disputed cases; G-solo allows ≤ 2 contractors.
+
+**Re-vote on AD.** Only the Malware RE persona changes, from 5 to 4: it no longer counts on deep RE as an edge, but sees the work as within mid-level reach. AD stays at **7/12**. No consensus; no other votes adjusted.
+
+**What follows for the doc 18 ideas:** Z, N and Q relied on expert-authored hard task tiers and adjudicating working malware. Those need senior RE and are now further out of reach, which confirms dropping them.
+
+**Revised plan:**
+- AB becomes mid-level contract work (Handshake, Outlier and similar roles, which list malware analysis or pentesting) rather than the elite tier.
+- Run X22 first: it needs no vendor and builds public credibility.

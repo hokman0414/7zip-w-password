@@ -19,6 +19,8 @@ Ten more ideas were screened against live competitor searches (doc 19 §3).
 
 ### Cycle 8 in brief
 
+- **Founder update (E118): the founder is a solid mid-level reverse engineer.** AD drops to 3.35 and AB to 3.20, but AD remains the best idea that is a company, because its core work is pipeline testing and evaluation rather than deep RE. A senior RE contractor reviews disputed cases. Ideas needing senior RE (Z, N, Q, AH, AI) move further out of reach (doc 19 §10).
+
 - **Need (facts):**
   - Malware already embeds text aimed at AI triage: Talos A3 (84 samples in 4 families), SentinelOne's Gaslight, and ESET's GuardBreaker (E101–E103).
   - ALIBI's cover stories flip 30/35 malicious verdicts on Gemini 2.5 Pro and cause large downgrades on GPT-5.5 Pro and Claude Opus 4.7. Deployed products were never tested (E104).
