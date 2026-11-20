@@ -1,0 +1,147 @@
+{
+  "seed": 7,
+  "negatives_system": {
+    "files_scanned": 5000,
+    "roots": [
+      "/usr/bin",
+      "/usr/sbin",
+      "/usr/lib/x86_64-linux-gnu",
+      "/usr/lib/python3.12",
+      "/usr/lib/python3"
+    ],
+    "tier_counts": {
+      "none": 5000
+    },
+    "fp_rate_T1": 0.0,
+    "fp_rate_T2": 0.0,
+    "fp_rate_T3": 0.0,
+    "examples": {
+      "T1": [],
+      "T2": [],
+      "T3": []
+    }
+  },
+  "negatives_benign_llm_software": {
+    "files_scanned": 12174,
+    "roots": [
+      "/tmp/llmsdk/src"
+    ],
+    "tier_counts": {
+      "none": 11432,
+      "T3": 672,
+      "T2": 69,
+      "T1": 1
+    },
+    "fp_rate_T1": 8.21422704123542e-05,
+    "fp_rate_T2": 0.005667816658452439,
+    "fp_rate_T3": 0.05519960571710202,
+    "examples": {
+      "T1": [
+        "{'file': '/tmp/llmsdk/src/mistralai-3.8.0-py3-none-any/mistralai/extra/tests/test_redaction_policies.py', 'providers': ['anthropic', 'google', 'huggingface'], 'models': ['mistral-large'], 'credentials': ['AIza...5678', 'hf_a...6789', 'sk-ant-...2345'], 'prompt_prefix': ''}"
+      ],
+      "T2": [
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/batches/test_create_with_inlined_requests.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/caches/test_create.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/caches/test_create_custom_url.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/chats/test_send_message.py', 'providers': ['google'], 'models': ['gemini-2.0-flash-exp', 'gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/interactions/test_automatic_continuation.py', 'providers': ['google'], 'models': ['gemini-2.5-pro'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/interactions/test_live_interactions.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/models/test_generate_content_media_resolution.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/models/test_generate_content_part.py', 'providers': ['google'], 'models': ['gemini-2.5-flash'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/tests/types/test_types.py', 'providers': ['google'], 'models': ['gemini-1.5-flash-002'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/google_genai-3.6.1-py3-none-any/google/genai/types.py', 'providers': ['google'], 'models': ['gemini-3-pro-preview', 'gemini-3.8-flash'], 'credentials': [], 'prompt_prefix': '      description=\"\"\"Output only. Statistics for distillation prompt dataset. Th'}"
+      ],
+      "T3": [
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic-2.11.0.dist-info/METADATA', 'providers': [], 'models': ['claude-opus-5-5'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/_client.py', 'providers': ['anthropic'], 'models': [], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/_constants.py', 'providers': [], 'models': ['claude-4-opus-20250514', 'claude-opus-4', 'claude-opus-4-0', 'claude-opus-4-1', 'claude-opus-4-1-20250805-v1'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/_data/deprecated_models.py', 'providers': [], 'models': ['claude-mythos-preview', 'claude-sonnet-4-5', 'claude-sonnet-4-5-20250929'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/_data/models_to_warn_with_thinking_enabled.py', 'providers': [], 'models': ['claude-mythos-preview', 'claude-opus-4-6'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/lib/credentials/_chain.py', 'providers': ['anthropic'], 'models': [], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/lib/credentials/_constants.py', 'providers': ['anthropic'], 'models': [], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/lib/foundry.md', 'providers': [], 'models': ['claude-sonnet-5-5'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/lib/google_cloud/README.md', 'providers': [], 'models': ['claude-haiku-5-5'], 'credentials': [], 'prompt_prefix': ''}",
+        "{'file': '/tmp/llmsdk/src/anthropic-2.11.0-py3-none-any/anthropic/lib/google_cloud/_client.py', 'providers': ['anthropic'], 'models': [], 'credentials': [], 'prompt_prefix': ''}"
+      ]
+    }
+  },
+  "positives": {
+    "c_ascii": {
+      "n": 30,
+      "credential_recall": 1.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T1": 30
+      }
+    },
+    "c_utf16": {
+      "n": 30,
+      "credential_recall": 1.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T1": 30
+      }
+    },
+    "py": {
+      "n": 30,
+      "credential_recall": 1.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T1": 30
+      }
+    },
+    "vbs": {
+      "n": 30,
+      "credential_recall": 1.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T1": 30
+      }
+    },
+    "c_split": {
+      "n": 30,
+      "credential_recall": 0.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T2": 30
+      }
+    },
+    "c_xor": {
+      "n": 30,
+      "credential_recall": 0.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T2": 30
+      }
+    },
+    "js_b64": {
+      "n": 30,
+      "credential_recall": 0.0,
+      "endpoint_recall": 1.0,
+      "model_recall": 1.0,
+      "prompt_recall": 1.0,
+      "tier": {
+        "T2": 30
+      }
+    }
+  },
+  "key_group_clustering": {
+    "samples_with_credentials": 120,
+    "distinct_keys": 15,
+    "predicted_groups": 15,
+    "pairwise_precision": 1.0,
+    "pairwise_recall": 1.0
+  }
+}
