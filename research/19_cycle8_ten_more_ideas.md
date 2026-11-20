@@ -235,3 +235,20 @@ The vote is on the combination **AB + AD**: fund the founder through expert-supp
 **Revised plan:**
 - AB becomes mid-level contract work (Handshake, Outlier and similar roles, which list malware analysis or pentesting) rather than the elite tier.
 - Run X22 first: it needs no vendor and builds public credibility.
+
+## 11. Addendum: founder hypothesis "labs may flag misuse using just domains" (H31)
+
+**H31 (founder):** AI companies may flag malicious use mainly by domains, which would leave room for a richer provenance product.
+
+| ID | Evidence | Source | Grade |
+|---|---|---|---|
+| E119 | OpenAI flags activity with "classifiers, reasoning models, hash-matching technologies, blocklists, and other monitoring systems". Trained reviewers then assess the conversation and "patterns of behavior over time", and OpenAI acts against ban evasion. | [OpenAI](https://openai.com/index/our-commitment-to-community-safety/) | B |
+| E120 | Anthropic uses real-time classifiers (including malware-specific steering), hierarchical summarization for account-level patterns in cyber misuse, comparison of activity spikes against typical usage, cross-referencing of external threat data, and monitoring of forums. | [Anthropic safeguards](https://www.anthropic.com/news/building-safeguards-for-claude); [summarization](https://alignment.anthropic.com/2025/summarization-for-monitoring/) | B |
+| E121 | Anthropic publishes malware hashes from its cases; ReversingLabs used two of them to map a wider campaign. Anthropic previously found malware on VirusTotal within 2 hours of generation (E55). | [ReversingLabs](https://www.reversinglabs.com/blog/how-rl-mapped-a-midnight-blizzard-linked-campaign-from-two-hashes) | B/C |
+
+**ACH result:**
+- **H31 as stated is refuted for the large labs** (inconsistent with E119–E121, E55).
+- **A narrower version holds.** Labs see prompts, outputs and accounts, but not what happens to the code after it leaves the platform. OpenAI says it cannot verify off-platform activity (E57).
+- **That off-platform gap is exactly what Cycles 1–2 tried to fill.** Recall collapsed once code was edited, compiled or obfuscated, and closing the gap needs the provider's own logs, which outsiders cannot get.
+- **H31 is untested for smaller providers** (API resellers, open-weight hosts, regional labs). They may have thinner detection, but they also have little budget.
+- **Decision:** the provenance track stays closed (RESEARCH FIRST at most). The off-platform gap is better served by `llm_indicators` (keys, endpoints, prompts in samples), which Cycle 4 measured and Talos CAIRN now does for free (E110).
