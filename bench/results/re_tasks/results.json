@@ -1,0 +1,87 @@
+{
+  "seed": 11,
+  "instances": 360,
+  "levels": [
+    0,
+    1,
+    2
+  ],
+  "opts": [
+    "-O0",
+    "-O2",
+    "-Os"
+  ],
+  "fields": [
+    "c2_host",
+    "campaign_id",
+    "mutex",
+    "llm_endpoint",
+    "llm_model",
+    "credential_provider",
+    "credential_last4"
+  ],
+  "unique_binaries": 360,
+  "unique_c2_hosts": 360,
+  "by_level": {
+    "L0": {
+      "strings": {
+        "n": 120,
+        "solve_rate": 0.19166666666666668,
+        "mean_field_score": 0.7571,
+        "fell_for_decoy_c2": 0.6666666666666666
+      },
+      "xor_bruteforce": {
+        "n": 120,
+        "solve_rate": 1.0,
+        "mean_field_score": 1.0,
+        "fell_for_decoy_c2": 0.0
+      },
+      "family_extractor": {
+        "n": 120,
+        "solve_rate": 1.0,
+        "mean_field_score": 1.0,
+        "fell_for_decoy_c2": 0.0
+      }
+    },
+    "L1": {
+      "strings": {
+        "n": 120,
+        "solve_rate": 0.0,
+        "mean_field_score": 0.0,
+        "fell_for_decoy_c2": 1.0
+      },
+      "xor_bruteforce": {
+        "n": 120,
+        "solve_rate": 0.7833333333333333,
+        "mean_field_score": 0.969,
+        "fell_for_decoy_c2": 0.0
+      },
+      "family_extractor": {
+        "n": 120,
+        "solve_rate": 1.0,
+        "mean_field_score": 1.0,
+        "fell_for_decoy_c2": 0.0
+      }
+    },
+    "L2": {
+      "strings": {
+        "n": 120,
+        "solve_rate": 0.0,
+        "mean_field_score": 0.0,
+        "fell_for_decoy_c2": 1.0
+      },
+      "xor_bruteforce": {
+        "n": 120,
+        "solve_rate": 0.0,
+        "mean_field_score": 0.0,
+        "fell_for_decoy_c2": 0.0
+      },
+      "family_extractor": {
+        "n": 120,
+        "solve_rate": 1.0,
+        "mean_field_score": 1.0,
+        "fell_for_decoy_c2": 0.0
+      }
+    }
+  }
+}
