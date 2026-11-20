@@ -175,3 +175,14 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | I25 | The financial-influence test also binds the evaluator: no single-lab dependence, no training-data sales to evaluated labs | E90 | Moderate |
 | I26 | Judging *working* malware beyond public tools is RE work; public safeguard tests mostly score text | E92, E93 | Low–moderate |
 | I27 | Per-customer private banks need expert task families with generated instances for usable CIs | E95 | Moderate |
+
+## Cycle 7 addendum: competitor check (doc 18 §15)
+
+| ID | Evidence | Source | Grade | Type |
+|---|---|---|---|---|
+| E97 | General Analysis MalwareBench: private malware-RE evaluation on real, zero-detection malware variants; best model 7.6% | [MalwareBench](https://generalanalysis.com/malwarebench) | B | F |
+| E98 | Irregular's evaluation taxonomy includes malware development and EDR evasion; deployed with multiple frontier labs | [Irregular](https://www.irregular.com/research/ai-evaluation-platform-cyber-use-case) | B | F |
+| E99 | Dreadnode DreadIndex (includes reversing), Booz Allen Cyber Weapon Index, UK AISI/CAISI pre-deployment cyber evaluations | [DreadIndex](https://dreadnode.io/research/introducing-dreadindex-offensive-security-benchmark-for-language-models/); [CWI](https://www.boozallen.com/insights/cyber/cyber-weapon-index.html) | B | F |
+| E100 | Uplift adjudication is standardised (Anthropic CJS scale; FMF Jailbreak Rating Framework) and HackerOne independently assesses Anthropic's cyber-jailbreak submissions | [Anthropic](https://www.anthropic.com/news/fable-safeguards-jailbreak-framework); [FMF](https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/) | A/B | F |
+
+I23 and I26 are **refuted** by E97–E100.
