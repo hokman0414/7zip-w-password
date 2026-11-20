@@ -1,0 +1,317 @@
+{
+  "seeds": 2,
+  "by_family": {
+    "benign_claim": {
+      "detected": 16,
+      "n": 30,
+      "recall": 0.533
+    },
+    "chat_template": {
+      "detected": 20,
+      "n": 30,
+      "recall": 0.667
+    },
+    "external_talos": {
+      "detected": 12,
+      "n": 16,
+      "recall": 0.75
+    },
+    "fake_system": {
+      "detected": 14,
+      "n": 30,
+      "recall": 0.467
+    },
+    "instruction": {
+      "detected": 18,
+      "n": 30,
+      "recall": 0.6
+    },
+    "legal": {
+      "detected": 16,
+      "n": 30,
+      "recall": 0.533
+    },
+    "legitimacy": {
+      "detected": 0,
+      "n": 30,
+      "recall": 0.0
+    },
+    "non_english_es": {
+      "detected": 4,
+      "n": 4,
+      "recall": 1.0
+    },
+    "non_english_ru": {
+      "detected": 4,
+      "n": 4,
+      "recall": 1.0
+    },
+    "refusal_bait": {
+      "detected": 8,
+      "n": 30,
+      "recall": 0.267
+    }
+  },
+  "by_encoding": {
+    "ascii": {
+      "detected": 48,
+      "n": 58,
+      "recall": 0.828
+    },
+    "homoglyph": {
+      "detected": 2,
+      "n": 42,
+      "recall": 0.048
+    },
+    "spaced": {
+      "detected": 0,
+      "n": 42,
+      "recall": 0.0
+    },
+    "split": {
+      "detected": 22,
+      "n": 42,
+      "recall": 0.524
+    },
+    "utf16": {
+      "detected": 40,
+      "n": 50,
+      "recall": 0.8
+    }
+  },
+  "cells": {
+    "benign_claim/ascii": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "benign_claim/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "benign_claim/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "benign_claim/split": {
+      "detected": 4,
+      "n": 6,
+      "recall": 0.667
+    },
+    "benign_claim/utf16": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "chat_template/ascii": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "chat_template/homoglyph": {
+      "detected": 2,
+      "n": 6,
+      "recall": 0.333
+    },
+    "chat_template/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "chat_template/split": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "chat_template/utf16": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "external_talos/ascii": {
+      "detected": 6,
+      "n": 8,
+      "recall": 0.75
+    },
+    "external_talos/utf16": {
+      "detected": 6,
+      "n": 8,
+      "recall": 0.75
+    },
+    "fake_system/ascii": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "fake_system/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "fake_system/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "fake_system/split": {
+      "detected": 2,
+      "n": 6,
+      "recall": 0.333
+    },
+    "fake_system/utf16": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "instruction/ascii": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "instruction/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "instruction/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "instruction/split": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "instruction/utf16": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "legal/ascii": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "legal/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legal/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legal/split": {
+      "detected": 4,
+      "n": 6,
+      "recall": 0.667
+    },
+    "legal/utf16": {
+      "detected": 6,
+      "n": 6,
+      "recall": 1.0
+    },
+    "legitimacy/ascii": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legitimacy/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legitimacy/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legitimacy/split": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "legitimacy/utf16": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "non_english_es/ascii": {
+      "detected": 4,
+      "n": 4,
+      "recall": 1.0
+    },
+    "non_english_ru/ascii": {
+      "detected": 4,
+      "n": 4,
+      "recall": 1.0
+    },
+    "refusal_bait/ascii": {
+      "detected": 4,
+      "n": 6,
+      "recall": 0.667
+    },
+    "refusal_bait/homoglyph": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "refusal_bait/spaced": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "refusal_bait/split": {
+      "detected": 0,
+      "n": 6,
+      "recall": 0.0
+    },
+    "refusal_bait/utf16": {
+      "detected": 4,
+      "n": 6,
+      "recall": 0.667
+    }
+  },
+  "clean_task_false_positives": {
+    "flagged": 0,
+    "n": 2
+  },
+  "benign_system_files": {
+    "flagged": 2,
+    "n": 5000,
+    "examples": [
+      {
+        "file": "/usr/lib/python3.12/unittest/loader.py",
+        "hits": [
+          {
+            "text": "                return self.suiteClass([inst])",
+            "categories": [
+              "chat_template"
+            ]
+          }
+        ]
+      },
+      {
+        "file": "/usr/bin/rg",
+        "hits": [
+          {
+            "text": "called `Option::unwrap()` on a `None` valueASCIIAnyageASCII_Hex_DigitalphaAlphabeticalphabeticasciihexdigitbcBidi_ClassbidicBidi_ControlbidiclassbidicontrolbidimBidi_Mirroredbidimirroredbidimirroringg",
+            "categories": [
+              "addressee",
+              "directive"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "caveats": [
+    "Payloads and detector were written by the same author; recall on own payloads is an upper bound.",
+    "External Talos strings were read before the detector was written; not a blind test.",
+    "No LLM analyzer was evaluated; flip rates need a model and are not reported here."
+  ]
+}
