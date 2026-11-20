@@ -83,3 +83,23 @@ Likelihood (L) and severity (S) are rated 1–5. Detectability (D) is rated 1–
 | Regulation | Courts/agencies cite binary-forensics evidence; EU AI Act transparency obligations increase demand for provenance | Courts reject similarity evidence; privacy rulings treat fingerprints as personal data |
 | Infrastructure integration | Providers expose provenance hooks/APIs | Providers lock outputs behind ZDR by default |
 | Founder assets | Classifier passes temporal-holdout validation; datasets have clear licences | Validation fails or licensing is unclear |
+
+## Cycle 3 assumption updates (literature; see doc 14 §5)
+
+| ID | Assumption | Status after Cycle 3 |
+|---|---|---|
+| A16 | Lawful acquisition and analysis of third-party binaries | **Doubtful in the EU** for static decompilation (Art. 6 is interoperability-only); fact-specific in the US (E50). Still critical. |
+| A19 | Incumbents will not add compiled-artifact matching | **Fails** (E33, E36, E37) |
+| A20 | Method novelty | **Fails more strongly** (B2SFinder, E32) |
+| A25 | Synthetic results transfer to real binaries | **Fails as stated** (E35–E37) |
+| A26 | Proprietary code is more distinctive than OSS after suppression (I08) | **Untested.** Gating. |
+| A27 | Verification can run locally without external AI services | **Plausible** (E36 open-weight results) |
+| A28 | Stylometry can support provenance claims | **Rejected as evidence** (E45) |
+
+New premortem causes:
+
+| # | Cause | L | S | D | RPN | Early warning |
+|---|---|---|---|---|---|---|
+| P18 | Real binaries yield about 20–60% recall; the product misses most reuse (E35, E36) | 4 | 5 | 3 | 60 | Revised X1 recall < 0.6 |
+| P19 | A deployed binary SCA vendor (BinaryAI- or BLADE-class) adds "index your own code" | 4 | 4 | 2 | 64 | Vendor announcement |
+| P20 | EU clients cannot lawfully decompile suspect products for this purpose | 3 | 4 | 3 | 36 | Counsel opinion (X3) |

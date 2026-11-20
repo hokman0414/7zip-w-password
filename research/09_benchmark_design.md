@@ -140,6 +140,6 @@ These are engineering targets on synthetic data. They do **not** establish custo
 
 | ID | Experiment | Kill / continue criterion |
 |---|---|---|
-| X1 | Replace the synthetic corpus with **real proprietary-like code**: e.g., 200 permissively licensed C/C++ libraries treated as "private". Compile into host programs and firmware-style images at -O2/-Os, stripped, gcc and clang, x86-64 and ARM | Continue F if stripped R@10 ≥ 0.80 and FER ≤ 1% with real OSS negatives; stop F's binary path if R@10 < 0.6 |
+| X1 (**superseded by doc 14 §8**: FSE 2026 public benchmark + B2SFinder/BAT baselines + local verification stage) | Replace the synthetic corpus with **real proprietary-like code**: e.g., 200 permissively licensed C/C++ libraries treated as "private". Compile into host programs and firmware-style images at -O2/-Os, stripped, gcc and clang, x86-64 and ARM | Continue F if stripped R@10 ≥ 0.80 and FER ≤ 1% with real OSS negatives; stop F's binary path if R@10 < 0.6 |
 | X2 | Real negatives: index OSS project A; query binaries of *unrelated* projects sharing libraries | FER ≤ 1% after library-feature suppression |
 | X3 | Real LLM outputs (authorized, benign prompts, ≥ 2 models), then compile | Tests the original premise. If R@10 < 0.7 on stripped -O2, close Architecture B for AI provenance permanently |

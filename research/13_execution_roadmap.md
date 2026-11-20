@@ -10,9 +10,11 @@ Work is sequenced by **evidence gates**, not by calendar. Each gate has a pass c
 
 ## Gate 1 — Run three experiments in parallel
 
+*F status: **RESEARCH FIRST** (Cycle 3). X1 gates any pilot. X2 and X3 run in parallel because they are cheap and independent.*
+
 | Experiment | Pass | Kill / revise |
 |---|---|---|
-| **X1 Real-code benchmark.** Use OSS projects as stand-ins for proprietary code. Embed 1–3 real functions or files into other real OSS hosts. Build with the hosts' real build systems (gcc/clang, -O2/-Os, stripped, ARM cross-compile). Index ≥ 10k real files. Measure R@10, escalation recall, and FER on ≥ 1,000 out-of-index real binaries. Exclude shared libraries (zlib, OpenSSL) by df/library suppression. | R@10 ≥ 0.80 on transplanted function-level reuse **and** FER ≤ 1% | R@10 < 0.6, or FER > 1% at any useful threshold → F becomes a services-only offering. Revisit features: decompiler or CFG-based, plus BinDiff-class matching. |
+| **X1 Real-binary benchmark (revised in Cycle 3; doc 14 §8).** (a) FSE 2026 public binary TPL benchmark (E35) for comparability. (b) A proprietary-like split: real OSS functions transplanted into unrelated real hosts; stripped; x86_64 and ARM; known-OSS feature suppression. Baselines: B2SFinder, BAT/BANG, our scoring-only slice. Candidate system: slice plus a **local** evidence-verification stage (no external AI service). | Recall ≥ 0.80 **and** precision ≥ 0.95 on the proprietary-like split; false-escalation rate ≤ 1% on out-of-index binaries | Precision < 0.90 after verification, or recall < 0.60 → F becomes services-only or STOP |
 | **X2 Buyer discovery.** Run 12 interviews (doc 10 segment F) with the 20 non-leading questions. Log verbatim notes; record only real responses. | ≥ 4 of 12 recount a binary/firmware case in the last 24 months, **and** ≥ 3 offer test data or a pilot | < 4 of 12, or no data offers → **STOP** F |
 | **X3 Counsel opinion on A16.** Cover lawful acquisition and analysis of third-party binaries for infringement detection (US DMCA §1201(f) and interoperability scope, EU Software Directive Art. 6, EULA anti-RE terms, evidentiary chain of custody). | A written opinion that identifies a lawful operating mode, for example customer-acquired artifacts with customer-directed analysis | No lawful mode in the primary market → **STOP** F |
 | **Parallel: founder asset validation** (doc 08 protocols) | Assets pass the license, provenance, and leakage checks | Assets fail → C and E stay closed |
@@ -30,6 +32,8 @@ Work is sequenced by **evidence gates**, not by calendar. Each gate has a pass c
 - **Only then:** BUILD (doc 12 next increments: PE/Mach-O/ARM, firmware unpacking, location-level exhibits, OIDC/WORM audit).
 
 ## Engineering work allowed before Gate 3
+
+0. A **local verification stage** after retrieval: identity markers, known-OSS feature suppression for AFC-style filtration, and cross-feature consistency. The design follows the retrieve-then-verify result in E36 and must use local models only.
 
 These items reduce uncertainty and do not amount to a platform build:
 1. X1 harness: real-repo ingestion and an ARM cross-compile path.

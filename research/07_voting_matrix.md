@@ -130,3 +130,35 @@ Each cell is the persona's Ovr score with the same evidence discipline. `U` = UN
 D scores 2 because the category is crowded and well-funded (E27), and the founder's assets do not apply. C and E score 2 because the market is crowded (E17, E18) and the founder's assets are unvalidated (E01).
 
 **No configuration achieves consensus. No positive votes were manufactured to meet the threshold.**
+
+---
+
+## Round 3 — Candidate F after the peer-reviewed literature review (doc 14)
+
+Votes are re-cast only where the new evidence (E32–E50) changes a persona's judgment. Unchanged rows are re-confirmed, not copied blindly. Each was checked against E35/E36 (real-world performance) and E50 (legal).
+
+| # | Persona | Imp | Tech | Dem | Def | Priv | Fdr | Adopt | **Ovr** | Change driver |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Abuse Investigator | 3 | 3 | 3 | 2 | 3 | 4 | 3 | **3** | E35 (Tech), E32/E33 (Def) |
+| 2 | T&S Eng Lead | 3 | 3 | 3 | 2 | 3 | 3 | 3 | **3** | E36 (precision needs verification) |
+| 3 | Infra Architect | 3 | 4 | 3 | 2 | 4 | 3 | 3 | **3** | E36 (local open-weight verification feasible) |
+| 4 | Malware RE | 4 | 3 | 3 | 2 | 3 | 5 | 3 | **3** (↓ from 4) | E32 near-identical prior art; B2SFinder 19.9% recall (E36) |
+| 5 | ML Scientist | 3 | 3 | 3 | 2 | 4 | 3 | 3 | **3** | A25 fails (E35–E37) |
+| 6 | Supply-Chain Researcher | 4 | 3 | 3 | 2 | 3 | 4 | 3 | **3** | E37 domain-specific < 45% |
+| 7 | Detection Eng Lead | 3 | 3 | 3 | 2 | 3 | 4 | 3 | **3** | E35 (Tech), E32/E33 (Def) |
+| 8 | Forensics Investigator | 4 | 3 | 3 | 3 | 3 | 4 | 3 | **4** | E36 verification + E50a filtration fit an expert workflow |
+| 9 | Privacy Counsel | 3 | 3 | 3 | 2 | **2** | 3 | 2 | **2** (↓ from 3) | E50d: EU decompilation is interoperability-only |
+| 10 | AI Security CISO | 3 | 3 | 2 | 2 | 3 | 3 | 2 | **3** | Budget still Legal's |
+| 11 | Procurement/GTM | 4 | 3 | 3 | 2 | 3 | 3 | 3 | **3** | Competing binary SCA vendors (E33, E37) |
+| 12 | Skeptical VC | 3 | 3 | 3 | **1** | 3 | 4 | 2 | **2** (↓ from 3) | A19 fails (E33, E36) |
+| | **Median** | 3 | 3 | 3 | 2 | 3 | 3.5 | 3 | **3** | |
+
+**Round 3 gates:**
+- Overall ≥ 4: **1/12 (fail).**
+- Critical legal blocker (A16): **unresolved and more severe (fail).**
+- ML + RE agree the benchmark is valid: **fail.** The synthetic results are contradicted by real-world studies; the revised X1 is the valid path.
+
+**Outcome: no consensus. No votes were raised to meet the threshold.**
+
+Candidate G (training-data provenance audit) was assessed once (doc 14 §7): **median Ovr 2, 0/12 at ≥ 4.**
+

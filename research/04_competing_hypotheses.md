@@ -79,3 +79,9 @@ The most diagnostic *technical* evidence is the **E30a vs E30b contrast**. Retri
 - If E10 were wrong (providers do not build such indexes), H1's inconsistency would fall to about −7.6. That is still the worst, so the conclusion is robust.
 - If our synthetic corpus overstates distinctiveness (likely; see doc 09 boilerplate-heavy run), H6 gains support for all hypotheses that depend on retrieval (H1, H5, H8). That is the main technical risk to H8.
 - If a real buyer commits to a paid pilot for H1, the matrix must be rerun. No such evidence exists today.
+
+## Cycle 3 update (peer-reviewed literature, doc 14)
+
+- **H6** gains major support for *scoring-only* designs. Real-world binary SCA tools reach < 60% recall and ≈ 75% precision (E35); B2SFinder reaches 19.9% / 47.9% (E36). Retrieve-then-verify designs weaken H6 (93.7% / 97.6%, E36).
+- **H8** remains the most promising direction, but its differentiation is lower: near-identical prior art exists (E32), and commercial binary→source products exist (E33, E36, E37). The legal envelope is narrower (E50).
+- **H1 and H3:** AI-code detectors are fragile (E46), and robust AI provenance is provider-side and generation-time (E47). This further supports H3 and disconfirms H1.
