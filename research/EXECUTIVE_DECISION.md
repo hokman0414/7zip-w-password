@@ -1,10 +1,52 @@
 # EXECUTIVE DECISION
 
-## Decision: **PIVOT**
+## Decision: **PIVOT** — to SME-led AI-misuse malware services for frontier labs (**PILOT FIRST**)
+
+**Cycle 4 (doc 15) fixed the customer to frontier AI labs.** The result:
+
+| Option | Status |
+|---|---|
+| Original concept: an attribution *platform/tool* sold to AI providers | **STOP.** Labs already do artifact↔generation checks in-house (E55, E57). No buyer signal for a tool. |
+| **M: SME-led AI-misuse malware intelligence and enforcement support for labs** | **PILOT FIRST.** Weighted 3.45 (range 3.30–3.60), the highest in four cycles but below the 3.5 BUILD line. Persona median 3, 3/12 at ≥ 4. **No consensus.** |
+| F: IP code-reuse investigation | **RESEARCH FIRST**, now the fallback track (sections 1–12 below, unchanged from Cycle 3) |
+
+### Cycle 4 in brief
+
+- **Problem labs have:** malware now calls LLM APIs at runtime and often embeds provider keys. Google GTIG reports PROMPTFLUX and PROMPTSTEAL/LAMEHUG (E51, E52), and SentinelOne's retrohunt found almost 8,000 key-bearing samples in a year (E54). Labs must answer "was this ours, and which account?", and published reports are criticized for missing verifiable indicators (E56).
+- **Who does it today:** the labs, in-house. Anthropic saw malware on VirusTotal "within 2 hours of Claude generating the code" (E55). OpenAI checked whether the Trellix-reported binaries came from its models (E57).
+- **What labs buy from outside:** expert capacity, not attribution tools.
+  - Anthropic's cyber-harms enforcement team includes "contractors" (E58).
+  - OpenAI uses SME probing (E59).
+  - Irregular (E60) and Mercor (E61) earn revenue from labs.
+  - Evidence of WTP for *this* work is indirect.
+- **The offer (hypotheses):**
+  1. Free door-opener: provider-verifiable disclosure packets for key-bearing malware found in public sources. The packet holds sha256 + offset + redacted key and is never tested.
+  2. Paid core: surge malware-RE and enforcement-investigation capacity under the lab's data custody.
+  3. Later: generation↔artifact tooling deployed inside the lab.
+- **Built and measured this cycle:** `provenance/llm_indicators.py`.
+  - Credential recall 1.0 on plain, UTF-16, Python and VBScript samples.
+  - Recall 0.0 on split, XOR and base64 keys (these need RE).
+  - 0/5,000 benign system files flagged.
+  - Endpoint, model and prompt strings fire on 11/11 benign LLM SDKs, so they are triage hints, never evidence of malice (E66, E67).
+- **Biggest risks:**
+  - Labs cover it in-house plus FMF sharing (P21, RPN 60).
+  - Vendors give the intel away free (P22).
+  - The work is commoditized as hourly labour (P23).
+  - Malware shifts to local models or stolen keys (P26). A stolen key points to a **victim**.
+- **Next:**
+  - X5: 60-day public-data hunting pilot with human RE and responsible disclosure.
+  - X6: 10 lab Safeguards/Threat Intel conversations (doc 15 §14).
+  - X7: model-attribution lead benchmark.
+  - Counsel review of the disclosure protocol.
+  - **If X5 and X6 both fail, labs are not viable for this offer.** F stays at RESEARCH FIRST and the default is STOP.
+
+---
+
+## Fallback track: IP code-reuse investigation (F) — Cycle 2–3 analysis
 
 The original concept, an AI Code Provenance and Malware-to-Generation Attribution platform sold to AI providers, is **not** a viable standalone business on current evidence.
 
-The pivot target is **IP code-reuse investigation**: detecting a company's proprietary code inside third-parties' compiled products. This target is at **RESEARCH FIRST** status (downgraded from PILOT FIRST after the Cycle 3 peer-reviewed literature review, doc 14). **No platform build is authorized** until the three experiments below pass their gates.
+The earlier pivot target is **IP code-reuse investigation**: detecting a company's proprietary code inside third-parties' compiled products. This target is at **RESEARCH FIRST** status (downgraded from PILOT FIRST after the Cycle 3 peer-reviewed literature review, doc 14). **No platform build is authorized** until the three experiments below pass their gates.
 
 > **Cycle 3 update (real research papers, doc 14).** The literature confirms the direction but sharpens three problems:
 > - **Our matching method is prior art.** B2SFinder (ASE 2019) is near-identical.
@@ -32,7 +74,7 @@ Hypotheses, to be tested in X2:
 - **Primary:** IP litigation counsel and software-forensics expert firms, buying per matter.
 - **Secondary:** in-house IP counsel at embedded/OEM, gaming, security-software, and semiconductor companies; M&A technical-diligence providers.
 
-AI providers are **not** the target. Buyers are few, they build in-house, and session data cannot leave them (doc 11, iteration 1).
+AI providers are **not** the target *for F or for a tool*. Buyers are few, they build in-house, and session data cannot leave them (doc 11, iteration 1). Cycle 4 sells *services* to them instead (M, top of this document).
 
 ### 3. Exact problem
 An IP owner suspects that its code (via a departing employee, a contractor, a leak, or AI-memorized snippets) is shipping inside a competitor's or supplier's compiled product. Today, finding out requires:
@@ -118,8 +160,10 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | F IP code reuse (Round 2) | 3 | 2 / 12 (RE, Forensics) |
 | **F after literature review (Round 3)** | **3** | **1 / 12** (Forensics) |
 | G Training-data provenance audit | 2 | 0 / 12 |
+| **M Lab SME services (Round 4, Cycle 4)** | **3** | **3 / 12** (Abuse Investigator, RE, Detection Eng) |
+| H / I / J / K / L (Cycle 4 components) | 3 / 3 / 3 / 2 / 2 | 2 / 2 / 1 / 0 / 0 |
 
-- **No configuration reached consensus** (gate: ≥ 10/12 at ≥ 4).
+- **No configuration reached consensus** (gate: ≥ 10/12 at ≥ 4). M is the first to pass the importance gate and the no-critical-legal-blocker gate.
 - Unresolved critical blocker for F: A16 (legal).
 - No votes were adjusted to meet thresholds.
 
@@ -129,6 +173,7 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 |---|---|
 | Rejecting the original concept as a company | **Moderate–High** (convergent public evidence E02–E10 + E30b) |
 | F as the best pivot direction | **Low** (Cycle 3: prior art, real-world performance gap, and EU legal limits. On the decision matrix F now scores 2.65 vs C's 2.85 on known criteria, within noise.) |
+| M (lab SME services) as the best path to selling to frontier labs | **Low–moderate.** Need and buying channel are evidenced (E55–E61); WTP for this specific work, novelty of findings, and founder credibility are untested (A30–A33). |
 | Any revenue forecast | **None made.** Insufficient evidence. |
 
 ### 11. Decision
@@ -136,7 +181,8 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | Option | Status |
 |---|---|
 | Original concept | **STOP** |
-| **Overall** | **PIVOT** to F at **RESEARCH FIRST**. If F fails X1 or X2, the default is STOP. |
+| **M Lab SME services (Cycle 4)** | **PILOT FIRST**: X5 + X6 (doc 13 lab track) |
+| **Overall** | **PIVOT** to M at PILOT FIRST, with F at **RESEARCH FIRST** as the fallback. If F fails X1 or X2, the default is STOP. |
 | G | **Not pursued** (membership-inference FPR 0.10; E48) |
 | C / E | **BLOCKED** pending founder asset validation |
 | D | **STOP** |
@@ -167,7 +213,7 @@ Build investment is locked behind Gates 1–3 (doc 13).
 | Doc | Content |
 |---|---|
 | 01 | Intelligence requirements (PIR-1…12) |
-| 02 | Evidence ledger (E01–E50, I01–I09) |
+| 02 | Evidence ledger (E01–E67, I01–I14) |
 | 03 | Competitive landscape |
 | 04 | Analysis of Competing Hypotheses (H1–H8) |
 | 05 | Key assumptions, premortem, red team, signposts |
@@ -181,4 +227,6 @@ Build investment is locked behind Gates 1–3 (doc 13).
 | 13 | Gated roadmap |
 | 14 | Peer-reviewed literature review (Cycle 3): binary→source SCA, binary similarity, birthmarks/plagiarism, watermarking, authorship, AI-code detection, training-data provenance, legal frameworks |
 
-Code: `provenance/` (vertical slice), `bench/` (benchmark harness and results), `tests/`.
+| 15 | Cycle 4: malware attribution sold to frontier labs. PIR-13–16, E51–E67, ACH H9–H13, KAC A29–A36, premortem P21–P27, red team, persona Round 4, iterations 9–13, matrix H–M, offer, discovery questions, X5–X7 |
+
+Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators), `bench/` (benchmark harnesses and results), `tests/`.

@@ -154,3 +154,14 @@ Summary (full list in docs 05 and 08):
 | Implication | A16 is more severe for the EU. Products need filtration-ready reports and a lawful acquisition and analysis mode chosen by counsel. |
 | Confidence | Moderate (primary sources read; no counsel opinion) |
 | Collection requirements | X3 counsel opinion |
+
+## Cycle-4 PIRs (customer fixed to frontier AI labs; doc 15)
+
+| PIR | Question | Answer after Cycle 4 | Confidence | Collection |
+|---|---|---|---|---|
+| PIR-13 | How do frontier labs buy outside cyber/misuse expertise? | Contractors in enforcement teams (E58), external red-teaming and evaluation organizations including SME probing (E59, E60), and expert marketplaces (E61). No evidence of buying attribution *tools*. | Moderate | X6 |
+| PIR-14 | Does LLM-enabled malware create an artifact-first attribution need? | Yes. Malware calls LLM APIs at runtime with embedded keys (E51–E54). Labs check in-the-wild binaries against their own generations, in-house (E55, E57). | Moderate–high (need); low (outsourcing) | X5, X6 |
+| PIR-15 | What can an outside SME sell without seeing private conversations? | Verifiable findings from public artifacts, analyst capacity under lab custody, and independent verification of public reports | Moderate | X6, counsel (A35) |
+| PIR-16 | Can model-level code attribution support enforcement? | As a lead only. Strong closed-world results (E64, E65); fragile under adversarial transformation (E45, E46). | Moderate | X7 |
+
+PIR-1 and PIR-5 are re-answered for a *services* offer in doc 15. The original no-buyer finding for a *tool* stands.

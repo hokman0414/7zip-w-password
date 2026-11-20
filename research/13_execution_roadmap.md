@@ -41,6 +41,18 @@ These items reduce uncertainty and do not amount to a platform build:
 3. Containment-first scoring for partial reuse.
 4. A sample evidence-packet template for expert review (synthetic case only).
 
+## Cycle 4 track — frontier-lab SME services (candidate M, PILOT FIRST; doc 15)
+
+This track runs ahead of F because the founder's stated customer is frontier AI labs. It needs no further platform build.
+
+| Gate | Work | Pass | Kill |
+|---|---|---|---|
+| L0 (done) | `provenance/llm_indicators.py`, tests, X4 benchmark (E66, E67) | — | — |
+| L1 | Counsel review of the disclosure-only credential protocol (A35); founder conflict check (P27) | Written protocol; no conflicts | Protocol requires holding full keys |
+| L2 | **X5** public-data hunting pilot (60 days; no VirusTotal licence; human RE confirms behaviour). **X6** 10 lab conversations (doc 15 §14). **X7** model-attribution lead benchmark on locally generated benign scripts. | X5: ≥ 10 novel T1 samples and ≥ 2 providers act. X6: ≥ 3 describe a capacity gap and ≥ 1 offers a trial case. X7: open-set AUROC ≥ 0.80 after transformations. | X5 and X6 both fail → labs are not viable; return to F / STOP. X7 fail → drop the T3 tier only. |
+| L3 | One trial case or retainer with one lab, under its custody | Deliverable used in an enforcement decision; a second engagement requested | No follow-on |
+| L4 | Only then: provider-hosted tooling (L) and, optionally, J/K expansions | — | — |
+
 ## Signposts to watch (doc 05)
 - Incumbents add compiled-artifact matching: Cycode, BigID, GitGuardian, or SAFE BitMatch updates. This erodes differentiation (A19).
 - Court decisions on early trade-secret identification and on RE-derived evidence admissibility.

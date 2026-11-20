@@ -79,3 +79,33 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | I07 | Detection of proprietary code compiled into third-party **binaries/firmware** (as opposed to public source repos) appears under-served by scalable products. It is served today by expert-witness services and desktop forensic suites. | E21, E22, E26, E15 (OSS-only KB) | Low–moderate (absence of evidence is not evidence; needs collection). **Cycle 3:** weakened. Binary→source products exist for OSS (E33, E36, E37). The unserved part is narrowed to *proprietary-code infringement evidence workflows*. |
 | I08 | After suppressing known-OSS features, a single owner's proprietary code may overlap with other indexed code less than OSS libraries overlap with each other. If so, binary→source precision would be higher for F than for OSS SCA. It may instead be lower if the proprietary code embeds OSS. | E35 (overlap root cause), E37 (domain-specific harder) | **Untested hypothesis**; gating for revised X1 |
 | I09 | Evidence-grade output requires a verification stage after retrieval. Similarity scores alone are insufficient on real binaries. | E35, E36, E50a (filtration) | Moderate–high |
+
+## Cycle 4 entries: frontier-lab malware attribution (doc 15 §3 has full citations)
+
+| ID | Evidence (short) | Source | Grade | Type |
+|---|---|---|---|---|
+| E51 | GTIG: just-in-time AI malware (PROMPTFLUX, PROMPTSTEAL/LAMEHUG, QUIETVAULT, FRUITSHELL) | [GTIG](https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools) | B | F |
+| E52 | LAMEHUG: APT28 (moderate confidence); about 270 HF tokens (Cato) | [CERT-UA](https://cert.gov.ua/article/6284730); [Cato](https://www.catonetworks.com/blog/cato-ctrl-threat-research-analyzing-lamehug/) | B/C | F |
+| E53 | PromptLock PoC using a local Ollama gpt-oss:20b | [ESET](https://www.eset.com/us/about/newsroom/research/eset-discovers-promptlock-the-first-ai-powered-ransomware/) | B | F |
+| E54 | Key-format hunting; about 8,000 key-bearing samples in a one-year VirusTotal retrohunt (spoken figure) | [SentinelOne](https://www.sentinelone.com/labs/prompts-as-code-embedded-keys-the-hunt-for-llm-enabled-malware/) | B/C | F |
+| E55 | Anthropic: malware on VirusTotal "within 2 hours of Claude generating the code"; indicators shared with partners | [Anthropic PDF](https://www-cdn.anthropic.com/b2a76c6f6992465c09a6f2fce282f6c0cea8c200.pdf) | B | F |
+| E56 | GTG-1002 AI-orchestrated espionage; criticized for lacking verifiable indicators | [Anthropic](https://www.anthropic.com/news/disrupting-AI-espionage); [BBC](https://www.bbc.com/news/articles/cx2lzmygr84o) | B/C | F |
+| E57 | OpenAI: no evidence the Trellix binaries were generated with its models; cannot verify off-platform activity | [OpenAI PDF](https://cdn.openai.com/threat-intelligence-reports/7d662b68-952f-4dfd-a2f2-fe55b041cc4a/disrupting-malicious-uses-of-ai-october-2025.pdf) | B | F |
+| E58 | Anthropic cyber-harms enforcement lead manages analysts "and contractors" | [Greenhouse](https://job-boards.greenhouse.io/anthropic/jobs/5403775008) | B | F |
+| E59 | OpenAI external testing includes SME probing; works with expert red-teaming organizations | [OpenAI](https://openai.com/index/strengthening-safety-with-external-testing/) | B | F |
+| E60 | Irregular: $80M raise; labs as customers; "several million" first-year revenue (self-reported) | [TechCrunch](https://techcrunch.com/2025/09/17/irregular-raises-80-million-to-secure-frontier-ai-models/); [Forbes](https://www.forbes.com/sites/thomasbrewster/2025/09/16/openai-pays-a-450-million-startup-to-test-chatgpt-capacity-for-evil/) | C | F |
+| E61 | Mercor: about $500M gross annualized revenue, mostly from a few labs; experts paid over $85/h on average | [TechCrunch](https://techcrunch.com/2025/10/27/mercor-quintuples-valuation-to-10b-with-350m-series-c/) | C | F |
+| E62 | FMF information-sharing agreement covers cyber-threat indicators among 6 member labs | [FMF](https://www.frontiermodelforum.org/updates/fmf-announces-first-of-its-kind-information-sharing-agreement/) | A/B | F |
+| E63 | GitHub partner secret scanning covers public repos and npm, not malware repositories | [GitHub docs](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning-for-partners) | B | F |
+| E64 | Malla: backend-LLM attribution of malicious LLM services, P/R 0.87 | [arXiv 2401.03315](https://arxiv.org/abs/2401.03315) | A | F |
+| E65 | LLM code model attribution 88–97% closed-world, source-level (preprints) | [2506.17323](https://arxiv.org/abs/2506.17323); [2510.10493](https://arxiv.org/abs/2510.10493); [2506.20197](https://arxiv.org/abs/2506.20197) | B | F |
+| E66 | **Measured:** `llm_indicators` credential recall 1.0 on plain, UTF-16, Python and VBScript; 0.0 on split, XOR and base64; 0/5,000 benign system files flagged | `bench/results/llm_indicators/` | Measured | F |
+| E67 | **Measured:** benign LLM SDKs (12,174 files): T1 1, T2 69, T3 672; 11/11 packages fire T3+ | same | Measured | F |
+
+| ID | Inference | Basis | Confidence |
+|---|---|---|---|
+| I10 | Labs already link artifacts and generations in-house. The gap is capacity, RE depth, and off-platform verification, not a tool. | E55, E57, E56 | Moderate–high |
+| I11 | A buying channel for outside cyber SME work exists. WTP for malware attribution and enforcement support specifically is unobserved. | E58–E61 | Moderate / unknown |
+| I12 | An embedded credential is a provider-verifiable link from sample to account; the holder may be a victim. | E54, E63, E66 | Moderate |
+| I13 | Endpoint, model and prompt strings do not indicate malice. | E67 | High (measured) |
+| I14 | Small buyer set (about 4–8 realistic labs plus inference platforms); services scale. | E62, E61 | Moderate |

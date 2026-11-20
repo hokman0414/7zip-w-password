@@ -162,3 +162,31 @@ Votes are re-cast only where the new evidence (E32–E50) changes a persona's ju
 
 Candidate G (training-data provenance audit) was assessed once (doc 14 §7): **median Ovr 2, 0/12 at ≥ 4.**
 
+## Round 4 — Candidate M: SME-led AI-misuse malware intelligence and enforcement support for frontier labs (doc 15 §10)
+
+| # | Persona | Imp | Tech | Dem | Def | Priv | Fdr | Adopt | **Ovr** | Main evidence |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | Abuse Investigator | 4 | 4 | 3 | 3 | 3 | 4 | 4 | **4** | I12 keys → accounts; E58 contractors |
+| 2 | T&S Eng Lead | 3 | 4 | 3 | 2 | 3 | 3 | 3 | **3** | E67 endpoint indicators are noisy |
+| 3 | Infra Architect | 3 | 4 | 3 | 2 | 4 | 3 | 3 | **3** | I10 in-house build |
+| 4 | Malware RE | 4 | 4 | 3 | 3 | 3 | 5 | 4 | **4** | E66 obfuscated keys need RE |
+| 5 | ML Scientist | 3 | 3 | 3 | 2 | 3 | 3 | 3 | **3** | E45 vs E65 |
+| 6 | Supply-Chain Researcher | 3 | 4 | 3 | 2 | 3 | 3 | 3 | **3** | Adjacent |
+| 7 | Detection Eng Lead | 4 | 4 | 3 | 3 | 3 | 3 | 4 | **4** | E66/E67 measured FP profile |
+| 8 | Forensics Investigator | 3 | 4 | 3 | 3 | 3 | 4 | 3 | **3** | A32 sample custody |
+| 9 | Privacy Counsel | 3 | 4 | 3 | 3 | 3 | 3 | 3 | **3** | No session data leaves the lab; A35 |
+| 10 | AI Security CISO | 4 | 3 | 3 | 2 | 3 | 3 | 3 | **3** | E56 board-level; headcount budget |
+| 11 | Procurement/GTM | 3 | 3 | 3 | 2 | 3 | 3 | 3 | **3** | E58, E61 channels; no named buyer |
+| 12 | Skeptical VC | 3 | 3 | 2 | 1 | 3 | 3 | 2 | **2** | I14 small buyer set |
+| | **Median** | 3 | 4 | 3 | 2.5 | 3 | 3 | 3 | **3** | |
+
+**Round 4 gates:**
+- Overall ≥ 4: **3/12 (fail).**
+- Critical legal blocker: **none (pass; first time).**
+- CISO and Abuse Investigator importance ≥ 4: **pass (first time).**
+- Buyer and process: partial.
+
+**Outcome: no consensus. No votes were adjusted.**
+
+Other Cycle 4 candidates (median, number ≥ 4): H feed 3 (2), I enforcement/RE capacity 3 (2), J evaluations 3 (1), K expert data 2 (0), L hosted tooling 2 (0).
+

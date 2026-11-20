@@ -103,3 +103,30 @@ New premortem causes:
 | P18 | Real binaries yield about 20–60% recall; the product misses most reuse (E35, E36) | 4 | 5 | 3 | 60 | Revised X1 recall < 0.6 |
 | P19 | A deployed binary SCA vendor (BinaryAI- or BLADE-class) adds "index your own code" | 4 | 4 | 2 | 64 | Vendor announcement |
 | P20 | EU clients cannot lawfully decompile suspect products for this purpose | 3 | 4 | 3 | 36 | Counsel opinion (X3) |
+
+## Cycle 4 update (frontier-lab SME services, doc 15 §7–§9)
+
+| ID | Assumption | Status |
+|---|---|---|
+| A29 | Lab misuse-investigation workload exceeds in-house capacity | Plausible (E58 contractors) |
+| A30 | Labs will contract a small firm, not only marketplace individuals | **Untested** |
+| A31 | Keys found in malware are not already systematically reported and revoked | **Untested** (E54, E63 scope gap) |
+| A32 | Public sample sources without VirusTotal contain enough LLM-enabled samples | **Untested** |
+| A33 | Lab Safeguards teams recognize the founder's credibility | **Untested** |
+| A34 | Model-level code attribution is usable as a lead | Plausible as a lead; doubtful under adversaries (E45, E65) |
+| A35 | Disclosure-only handling of found credentials has no critical legal blocker | Plausible; counsel needed |
+| A36 | Google and Microsoft are not realistic buyers | Plausible (in-house threat intelligence) |
+
+| # | Cause | L | S | D | RPN | Early warning |
+|---|---|---|---|---|---|---|
+| P21 | Labs cover everything in-house plus FMF sharing | 4 | 5 | 3 | **60** | X6: < 2 of 10 describe a gap |
+| P22 | Vendors give labs this intel free | 4 | 4 | 3 | 48 | X5 novelty low |
+| P23 | Work is bought as commodity hourly labour | 3 | 3 | 2 | 36 | Only marketplace-rate offers |
+| P26 | Malware moves to local models, proxies or stolen keys (T1 signal decays) | 3 | 4 | 3 | 36 | Vendor reports |
+| P25 | Public overclaim of model attribution | 2 | 5 | 3 | 30 | Any "authorship" wording in a deliverable |
+| P24 | Credential or sample mishandling incident | 2 | 5 | 4 | 20 | Any full key stored or tested |
+| P27 | Founder conflicts block contracting | 2 | 4 | 4 | 16 | Pre-outreach check |
+
+Red team (doc 15 §9): an embedded key can belong to a **victim** whose key was stolen. A key → account link is a lead for the provider to review, never attribution of the author.
+
+Signpost triggered: "Providers publish artifact-first attribution cases" (doc 13). Anthropic (E55) and OpenAI (E57) now describe artifact↔generation checks. These are handled in-house, so the signpost re-opens the need as **services**, not as a tool.
