@@ -216,3 +216,29 @@ Other Cycle 4 candidates (median, number ≥ 4): H feed 3 (2), I enforcement/RE 
 
 **No consensus. No votes were adjusted.** The doc 16 consensus-ceiling table lists the real-world evidence each holdout requires. O (agent/MCP supply chain): median 2.5, 1/12. P (model scanning): median 2, 0/12.
 
+
+## Round 6 — W: independent cyber-misuse assurance for labs (V post-deployment + R pre-deployment) (doc 17 §9)
+
+| # | Persona | V Ovr (before) | W Ovr (after it. 19–23) | Main evidence |
+|---|---|---|---|---|
+| 1 | Abuse Investigator | **4** | **4** | Sees behind LLMjacking and victim networks (E84, E85) |
+| 2 | T&S Eng Lead | **4** | **4** | Maps to Measure 9.2 fields (E81); volume unproven |
+| 3 | Infra Architect | 3 | **4** | Only with edge mode (no raw custody) |
+| 4 | Malware RE | **4** | **4** | Core skill on both sides |
+| 5 | ML Scientist | 3 | **4** | Eval bank verifiable (X8); no authorship claims |
+| 6 | Supply-Chain Researcher | 3 | 3 | Different market |
+| 7 | Detection Eng Lead | **4** | **4** | Off-platform indicators feed detections |
+| 8 | Forensics Investigator | **4** | **4** | Consent, custody, audit, limitations built in |
+| 9 | Privacy Counsel | 2 | 3 | Pseudonymised = personal data (E88); name leaks (E89) |
+| 10 | AI Security CISO | **4** | **4** | Regulatory pull + not self-suppliable (E79, E83) |
+| 11 | Procurement/GTM | **4** | **4** | App. 3.5 criteria and public calls as process; no named buyer |
+| 12 | Skeptical VC | 3 | 3 | Defensible vs labs, not vs Google/Unit 42; small buyer set |
+| | **Median / ≥ 4** | **4 / 7** | **4 / 9** | |
+
+**Gates (W):**
+- ≥ 10/12: **fail (9/12).**
+- Critical legal blocker: open, not critical (X16).
+- Importance gate: pass (CISO 5, Abuse Investigator 5).
+- Buyer/process: pass on paper; no named buyer.
+
+**No consensus. No votes were adjusted.** Holdouts and the evidence each needs: Privacy Counsel (written DPIA/lawful-basis opinion, X16), Skeptical VC (paid pilot or LOI from a non-Google signatory, X15), Supply-Chain Researcher (structurally different market). Other Cycle 6 candidates: R alone 6/12, S alone 5/12, T 2/12, U 1/12.

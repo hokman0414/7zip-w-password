@@ -65,7 +65,21 @@ This is now the lead track. The Cycle 4 lab track (X5/X6) runs alongside it as Q
 | R3 | First paid task batch delivered and accepted by QA | Repeat order | Rejected batch (P31) |
 | R4 | Only then: scale the generator, expert network, and Safeguards add-on (Q) | — | — |
 
-Re-vote (Round 6) after R2 with X9–X11 evidence. Doc 16's consensus-ceiling table lists what each holdout needs.
+Doc 16's consensus-ceiling table lists what each holdout needs. Since Cycle 6 this track is the fallback (Q) and supplies W's pre-deployment task bank (X9).
+
+## Cycle 6 track — independent cyber-misuse assurance for labs (W; PILOT FIRST; doc 17)
+
+This is now the lead track. X5 (public-data hunting) becomes W's post-deployment monitoring feed; X9 (hard RE tier) becomes its private evaluation bank.
+
+| Gate | Work | Pass | Kill |
+|---|---|---|---|
+| W0 (done) | `provenance/incident_packet.py`: consent-gated, provider-neutral Measure 9.2-shaped packets; X12 benchmark (E89) | — | — |
+| W1 | **X16** counsel: DPIA and lawful basis for edge mode, US transfer, independence definition (A46), SB 53 public-report route | Written opinion and template | Controls make edge mode infeasible |
+| W2 | **X13** evaluator route (App. 3.5 criteria / public calls). **X14** 5 IR firms, MSSPs or insurers. **X15** 8 non-Google signatory conversations. | X13: criteria admit a specialist or a call is open. X14: ≥ 2 pilot on a past consented case. X15: ≥ 2 sample-packet requests and ≥ 1 pilot. | X15 fails → fall back to Q; X14 fails → drop S, keep R + monitoring (V without victim packets) |
+| W3 | One pilot: a packet set or evaluation used by a lab in a report or decision | Second engagement | No follow-on |
+| W4 | Only then: edge-mode packaging for IR firms, monitoring feed at scale, hard-tier bank | — | — |
+
+Re-vote (Round 7) after W2 with X13–X16 evidence. Doc 17's consensus-ceiling table lists what each holdout needs.
 
 ## Signposts to watch (doc 05)
 - Incumbents add compiled-artifact matching: Cycode, BigID, GitGuardian, or SAFE BitMatch updates. This erodes differentiation (A19).

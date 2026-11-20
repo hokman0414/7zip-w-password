@@ -143,3 +143,18 @@ Key assumptions: A37 labs want binary-first RE training tasks (plausible), A38 a
 | P32 | A novel anti-analysis primitive leaks | 2 | 5 | 4 | 20 |
 
 Signpost triggered: "Providers publish artifact-first attribution cases" (doc 13). Anthropic (E55) and OpenAI (E57) now describe artifact↔generation checks. These are handled in-house, so the signpost re-opens the need as **services**, not as a tool.
+
+## Cycle 6 update (non-replicable moats, doc 17 §7)
+
+Key assumptions: A45 labs accept post-deployment evidence from a small specialist (**untested; critical**), A46 a lab-paid vendor counts as "independent" (unclear; counsel), A47 IR firms or victims share consented packets (**untested; critical**), A48 providers want victim-originated packets despite liability (untested), A49 pseudonymised packets avoid personal-data duties (**false**, E88), A50 Google/Mandiant will not dominate (H), A51 non-Google labs pay for neutrality (H), A52 Code/SB 53 duties become budget (untested).
+
+| # | Cause | L | S | D | RPN |
+|---|---|---|---|---|---|
+| P34 | Labs meet App. 3.5 with AISIs/Irregular and monitor in-house | 3 | 5 | 3 | 45 |
+| P35 | No IR firm shares; supply side never starts | 3 | 5 | 3 | 45 |
+| P36 | A packet leaks victim personal data | 2 | 5 | 4 | 20 |
+| P37 | Google offers the same via Mandiant + VirusTotal | 2 | 4 | 4 | 16 |
+| P39 | Forum monitoring drifts into undercover activity | 2 | 4 | 4 | 16 |
+| P38 | A lab acquires the company; independence ends | 2 | 3 | 5 | 6 |
+
+New signposts: signatories publish Appendix 3.5 evaluator criteria or public calls (supports W); Google packages Mandiant/VirusTotal evidence for other labs (erodes W); first Cal OES or AI Office anonymized incident summaries (show what evidence labs report).

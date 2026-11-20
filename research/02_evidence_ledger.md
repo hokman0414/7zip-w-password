@@ -132,3 +132,27 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | I16 | Binary-first malware-RE training supply looks thin | E70, E72, E73 | Low–moderate |
 | I17 | Fast saturation means recurring demand for fresh tasks, with decaying per-task value | E72, E69 | Moderate |
 | I18 | Agent/MCP security and model scanning are absorbed by platforms | E77 | Moderate–high |
+
+## Cycle 6 entries: what labs cannot replicate (doc 17 §3 has full detail)
+
+| ID | Evidence | Source | Grade | Type |
+|---|---|---|---|---|
+| E79 | EU GPAI Code of Practice App. 3.5: independent external evaluators; no training on their test runs without permission; no retaliation | [Code text](https://docref.org/eu/eu-cop-gpai-safety-and-security/2025/en/) | A | F |
+| E80 | Measure 3.5 post-deployment monitoring methods include monitoring known malware and public forums and provenance techniques; independent evaluators get access | As E79 | A | F |
+| E81 | Measure 9.2 incident reports need "the model involved" and material "setting out the model's involvement" | As E79 | A | F |
+| E82 | Signatories include OpenAI, Anthropic, Google, Microsoft, Amazon, Mistral; xAI Safety & Security chapter only; Meta refused | [Commission](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai); [Reuters](https://www.reuters.com/technology/musks-xai-sign-chapter-safety-security-eus-ai-code-practice-2025-07-31/) | A/B | F |
+| E83 | California SB 53: frameworks describe third-party assessment; critical incidents to Cal OES in 15 days (24 h if imminent); public can report | [Bill](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260SB53) | A | F |
+| E84 | Unit 42 AI-assisted intrusion: victim-side view; provider link only from the attacker's claim | [Unit 42](https://unit42.paloaltonetworks.com/ai-assisted-cyber-attack-inside-a-unit-42-investigation/) | B | F |
+| E85 | LLMjacking and LLM mixers resell stolen access across 30+ providers | [Sysdig](https://www.sysdig.com/blog/llmjacking-from-emerging-threat-to-black-market-reality); [Pillar](https://www.pillar.security/blog/operation-bizarre-bazaar-first-attributed-llmjacking-campaign-with-commercial-marketplace-monetization); [GTIG](https://cloud.google.com/blog/topics/threat-intelligence/llmjacking-monetizing-compromised-cloud-models) | B | F |
+| E86 | Underground AI-abuse markets covered by KELA and Flashpoint | [KELA](https://www.kelacyber.com/press/kela-cyber-finds-200-surge-in-cybercriminals-seeking-ai-to-launch-attacks/); [Flashpoint](https://flashpoint.io/blog/ai-threat-report-monthly/) | B/C | F |
+| E87 | Irregular's lab evaluations are pre-deployment and offensive; cited in system cards | [Irregular](https://www.irregular.com/research/evaluating-gpt-5) | B | F |
+| E88 | GDPR Recital 26: pseudonymised data remains personal data | [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) | A | F |
+| E89 | **Measured:** `incident_packet` on 200 synthetic incidents. 0 neutrality violations; routing recall 1.0; 0 leaks of credentials, IPs, emails, hosts, accounts, paths. Leaks: unlisted person names 400/400, external cloud hosts 200/200. First run leaked IPv6 200/200 (fixed). | `bench/results/incident_packet/` | Measured (synthetic) | F |
+
+| ID | Inference | Basis | Confidence |
+|---|---|---|---|
+| I19 | Labs can replicate whatever money, hiring or acquisition buys; not independence, victim-side presence, cross-competitor neutrality or avoided activities | E55, E57, E69, E72, E79, E83–E86 | Moderate–high |
+| I20 | Regulation creates a slot for third-party post-deployment evidence | E80, E81, E83 | Moderate–high |
+| I21 | LLMjacking makes single-provider visibility structurally partial | E85, E84 | Moderate |
+| I22 | Google is the exception (lab + Mandiant + VirusTotal); other labs' preference for a neutral supplier is untested | E82, E85 | Low–moderate |
+| I23 | No vendor found offering post-deployment cyber-misuse evidence shaped for Measure 9.2 (absence of evidence) | E87, E60 | Low |

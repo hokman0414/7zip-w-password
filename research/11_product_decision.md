@@ -2,7 +2,7 @@
 
 ## Phase 9 feedback loop log
 
-Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; N used all five (Cycle 5).
+Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; N (Cycle 5) and W (Cycle 6) each used all five.
 
 | # | Candidate | Highest-impact objection | Type | Falsifiable test | Evidence collected | Result | What changed |
 |---|---|---|---|---|---|---|---|
@@ -24,6 +24,11 @@ Each iteration records the objection, its type, the falsifiable test, the eviden
 | 16 | N | "Dual-use: teaches evasion" | Ethical / legal | Do labs sanction RE and malware analysis? | E75 | Mitigated, not closed | Benign-payload, analysis-only, private delivery; counsel (X11) |
 | 17 | N | "Labs in-house it" | Business | Do vendors still win? | E69, E70 | Yes, for expert supply | Sell expert supply and QA |
 | 18 | N | "Can tasks be verifiable and non-shortcuttable?" | Technical | X8 | E78 | Passed at toy difficulty | Hard tier must be expert-authored; transfer untested |
+| 19 | W (Cycle 6, independent cyber-misuse assurance) | "Labs can do it themselves" | Business | Replicability test (doc 17 §4) | E55, E57, E69, E79, E84, E85 | Refuted for labs except Google (I22) | Target non-Google signatories first |
+| 20 | W | "Incumbents already do it" | Competitive | Does Unit 42, KELA or Irregular sell provider-neutral, Measure 9.2-shaped evidence to labs? | E84, E86, E87 | Partly refuted (absence of evidence, I23) | IR firms as supply partners; underground depth licensed |
+| 21 | W | "Victim data custody and leaks" | Technical / legal | X12 leak measurement | E89, E88 | Structured identifiers 0 leaks; names and external hosts leak | Edge mode by default, victim term list, human review |
+| 22 | W | "Indicators are not model involvement" | Analytic | Does the packet overclaim? | X12 schema | Accepted | Limitations in every packet; the provider completes the root cause |
+| 23 | W | "Is a lab-paid vendor independent?" | Legal | Appendix 3.5 text | E79, E80 | Unresolved (A46) | Counsel and AI Office guidance (X16) |
 
 ## Decision matrix
 
@@ -119,3 +124,24 @@ Other candidates:
 - Persona Round 5: Q 7/12 at ≥ 4 (N 6/12). **No consensus.**
 - BUILD is withheld until X9–X11 (doc 13) pass.
 - M becomes Q's Safeguards add-on. F stays the RESEARCH FIRST fallback.
+
+## Cycle 6 update — must be hard for a lab to replicate (doc 17)
+
+The matrix adds a **lab replication difficulty** criterion (15%, taken from need, technical feasibility and differentiation, 5 points each). Both weightings are shown so the effect of the change is visible.
+
+| Candidate | Lab replication (1–5) | Weighted (old) | Weighted (new) |
+|---|---|---|---|
+| M Safeguards SME services | 2 | 3.45 | 3.20 |
+| N/Q RE environments (+ M) | 2 | 3.70 | 3.45 |
+| R Independent malware-RE evaluator | 5 | 3.55 | 3.80 |
+| S Victim-to-provider incident bridge | 5 | 3.24 (WTP UNKNOWN; 2.90–3.50) | 3.47 (3.10–3.70) |
+| T Underground AI-abuse HUMINT | 5 | 2.90 | 3.20 |
+| V Independent post-deployment cyber-misuse monitor | 5 | 3.60 | 3.75 |
+| **W V + R** | 5 | **3.85** | **4.00** |
+
+**Cycle 6 decision: PIVOT to W at PILOT FIRST.**
+- W scores highest under both weightings and rests on structural moats: mandated independence (E79, E83), victim-side and cross-provider evidence (E84, E85).
+- Persona Round 6: W 9/12 at ≥ 4. **No consensus.**
+- BUILD is withheld until X13–X16 (doc 13) pass.
+- Fallbacks in order: Q (Cycle 5), F (RESEARCH FIRST), STOP.
+- Not replicable by labs does not mean not replicable by incumbents: Google/Mandiant and Unit 42 remain the main threat (P34, P37).

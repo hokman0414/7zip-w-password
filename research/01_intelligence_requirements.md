@@ -173,3 +173,6 @@ PIR-1 and PIR-5 are re-answered for a *services* offer in doc 15. The original n
 | PIR-17 | Which lab budget can a malware-RE founder access at scale? | Post-training data / RL environments (E68–E70) | Moderate |
 | PIR-18 | Is binary-first malware RE under-supplied as training material? | Existing sets are small evaluations (E72, E73); vendors focus on source/web vulnerabilities (E70) | Low–moderate |
 | PIR-19 | Are agent/MCP security or model scanning better entries? | No; consolidated into large platforms (E77) | Moderate–high |
+| PIR-20 | What can a frontier lab not get by hiring, spending or acquiring? (Cycle 6, doc 17) | Independence from itself, victim-side presence, neutrality across competitors, activities it avoids (I19) | Moderate |
+| PIR-21 | Is there a mandated slot for an outside party in labs' cyber-risk process? | Yes: EU Code Appendix 3.5, Measures 3.5 and 9.2; SB 53 (E79–E83) | Moderate–high |
+| PIR-22 | Who else can replicate it? | Google (lab + Mandiant + VirusTotal), IR firms, TI vendors each cover part; no provider-neutral offer found (I22, I23) | Low–moderate |
