@@ -176,3 +176,5 @@ PIR-1 and PIR-5 are re-answered for a *services* offer in doc 15. The original n
 | PIR-20 | What can a frontier lab not get by hiring, spending or acquiring? (Cycle 6, doc 17) | Independence from itself, victim-side presence, neutrality across competitors, activities it avoids (I19) | Moderate |
 | PIR-21 | Is there a mandated slot for an outside party in labs' cyber-risk process? | Yes: EU Code Appendix 3.5, Measures 3.5 and 9.2; SB 53 (E79–E83) | Moderate–high |
 | PIR-22 | Who else can replicate it? | Google (lab + Mandiant + VirusTotal), IR firms, TI vendors each cover part; no provider-neutral offer found (I22, I23) | Low–moderate |
+| PIR-23 | Which non-replicable moat can one founder deliver without a collection or supply network? (Cycle 7, doc 18) | Independence as an evaluator (E90, E91) | Moderate |
+| PIR-24 | Where do labs need malware-RE judgement they would rather not grade themselves? | Whether an output is functional malware beyond public tools (E92, E93) | Low–moderate |

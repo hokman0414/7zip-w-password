@@ -158,3 +158,15 @@ Key assumptions: A45 labs accept post-deployment evidence from a small specialis
 | P38 | A lab acquires the company; independence ends | 2 | 3 | 5 | 6 |
 
 New signposts: signatories publish Appendix 3.5 evaluator criteria or public calls (supports W); Google packages Mandiant/VirusTotal evidence for other labs (erodes W); first Cal OES or AI Office anonymized incident summaries (show what evidence labs report).
+
+## Cycle 7 update (solo-feasible evaluator Z, doc 18 §7)
+
+Founder feedback (E96) falsifies the feasibility assumptions behind W's post-deployment half (A47 supply side; DDW collection). Z's key assumptions: A53 selection criteria admit a small specialist (untested), A54 a track record can be built on released and open-weight models (plausible), A55 someone pays for outside uplift adjudication (**untested; critical**), A56 task families give enough instances (partly supported, E95), A57 sandboxed grading of functional malware is legally manageable (untested), A58 financial independence is achievable early (policy, hard).
+
+| # | Cause | L | S | D | RPN |
+|---|---|---|---|---|---|
+| P40 | No evaluator seat for a malware specialist | 3 | 5 | 3 | 45 |
+| P41 | Single-lab revenue fails the independence test | 3 | 4 | 3 | 36 |
+| P44 | Bank trained on; canary misses it | 2 | 4 | 2 | 32 |
+| P43 | Adjudication becomes low-paid piecework | 3 | 3 | 3 | 27 |
+| P42 | A lab ends access after an unfavourable result | 2 | 4 | 4 | 16 |

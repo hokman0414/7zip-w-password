@@ -156,3 +156,22 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | I21 | LLMjacking makes single-provider visibility structurally partial | E85, E84 | Moderate |
 | I22 | Google is the exception (lab + Mandiant + VirusTotal); other labs' preference for a neutral supplier is untested | E82, E85 | Low–moderate |
 | I23 | No vendor found offering post-deployment cyber-misuse evidence shaped for Measure 9.2 (absence of evidence) | E87, E60 | Low |
+
+## Cycle 7 entries: a moat the founder can deliver (doc 18 §3 has full detail)
+
+| ID | Evidence | Source | Grade | Type |
+|---|---|---|---|---|
+| E90 | AI Office (21 Oct 2026): evaluators need domain expertise and must be "free from the provider's managerial, financial or operational influence" | [Commission](https://digital-strategy.ec.europa.eu/pl/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models) | A/B | F |
+| E91 | AI Office public call and Network of Evaluators; selection on evaluation track record (red teaming, uplift studies) | [Commission call](https://digital-strategy.ec.europa.eu/en/events/call-participants-workshop-qualification-requirements-external-evaluators-gpai-models-systemic-risk) | A | F |
+| E92 | Anthropic cyber-jailbreak programme: uplift "beyond … publicly available tools", e.g. "working malware"; internal grading rubric | [HackerOne](https://hackerone.com/anthropic-cyber-jailbreak/) | B | F |
+| E93 | Gray Swan: lab- and AISI-sponsored arenas; Shade cyber scoring on "usable operational details"; paid red-team network | [Reflection AI](https://reflection.ai/blog/advancing-open-model-safety-gray-swan) | B/C | F |
+| E94 | Critique: evaluator access is voluntary, revocable and often thin | [The AI Realist](https://www.airealist.ai/p/independent-or-current) | C/D | F (claim made) |
+| E95 | **Measured:** evaluator controls on 180 instances; canary 180/180 stamped, 0/540 outputs; partitions disjoint; lab-c L1 100% vs 90% p = 0.15 (no claim); 17/17 → CI 0.82–1.00 | `bench/results/re_eval_report/results.json` | Measured (synthetic) | F |
+| E96 | **Founder feedback:** DDW-style monitoring and the incident bridge are not realistic for this founder | User, Cycle 7 | Primary | F |
+
+| ID | Inference | Basis | Confidence |
+|---|---|---|---|
+| I24 | Of doc 17's lab-proof moats, only independence needs no network | E96, E86, A47 | Moderate–high |
+| I25 | The financial-influence test also binds the evaluator: no single-lab dependence, no training-data sales to evaluated labs | E90 | Moderate |
+| I26 | Judging *working* malware beyond public tools is RE work; public safeguard tests mostly score text | E92, E93 | Low–moderate |
+| I27 | Per-customer private banks need expert task families with generated instances for usable CIs | E95 | Moderate |

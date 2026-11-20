@@ -67,9 +67,9 @@ This is now the lead track. The Cycle 4 lab track (X5/X6) runs alongside it as Q
 
 Doc 16's consensus-ceiling table lists what each holdout needs. Since Cycle 6 this track is the fallback (Q) and supplies W's pre-deployment task bank (X9).
 
-## Cycle 6 track — independent cyber-misuse assurance for labs (W; PILOT FIRST; doc 17)
+## Cycle 6 track — independent cyber-misuse assurance for labs (W; withdrawn in Cycle 7; doc 17)
 
-This is now the lead track. X5 (public-data hunting) becomes W's post-deployment monitoring feed; X9 (hard RE tier) becomes its private evaluation bank.
+This was the lead track in Cycle 6. X5 (public-data hunting) becomes W's post-deployment monitoring feed; X9 (hard RE tier) becomes its private evaluation bank.
 
 | Gate | Work | Pass | Kill |
 |---|---|---|---|
@@ -79,9 +79,23 @@ This is now the lead track. X5 (public-data hunting) becomes W's post-deployment
 | W3 | One pilot: a packet set or evaluation used by a lab in a report or decision | Second engagement | No follow-on |
 | W4 | Only then: edge-mode packaging for IR firms, monitoring feed at scale, hard-tier bank | — | — |
 
-Re-vote (Round 7) after W2 with X13–X16 evidence. Doc 17's consensus-ceiling table lists what each holdout needs.
+Superseded in Cycle 7: the founder reports W's post-deployment half is not deliverable (E96). Round 7 voted on Z instead.
 
 ## Signposts to watch (doc 05)
 - Incumbents add compiled-artifact matching: Cycode, BigID, GitGuardian, or SAFE BitMatch updates. This erodes differentiation (A19).
 - Court decisions on early trade-secret identification and on RE-derived evidence admissibility.
 - Providers publish artifact-first attribution cases. If they become frequent, re-open the original concept.
+
+## Cycle 7 track — independent malware-capability evaluator (Z; PILOT FIRST; doc 18)
+
+This replaces the Cycle 6 track. W is withdrawn on founder feedback (E96); W0 (`incident_packet`) is kept as a reference implementation only.
+
+| Gate | Work | Pass | Kill |
+|---|---|---|---|
+| Z0 (done) | `re_tasks/evaluate.py`: Wilson CIs, significance gate, bank canaries, disjoint per-customer partitions; X20 (E95) | — | — |
+| Z1 | **X11** counsel: dual-use and export control for sandboxed grading of model-generated malware | Written opinion | Infeasible controls |
+| Z2 | **X17** 3 expert task families; ≥ 3 local open-weight models; publish methods (not the bank) | ≥ 40 verified instances per family; models distinguishable at p < 0.05; write-up accepted | Shortcuttable or indistinguishable |
+| Z3 | **X18** AI Office call / Network of Evaluators, one lab's evaluator criteria, UK AISI. **X19** adjudication pilot with a lab Safeguards team, bounty platform or arena operator. | X18 admitted or shortlisted; X19 ≥ 1 paid batch with inter-rater agreement measured | X19 no interest from 8 contacts → fall back to M |
+| Z4 | Only then: contracted pre-release evaluations; second customer before any customer exceeds ~50% of revenue | — | — |
+
+Re-vote (Round 8) after Z3.

@@ -2,7 +2,7 @@
 
 ## Phase 9 feedback loop log
 
-Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; N (Cycle 5) and W (Cycle 6) each used all five.
+Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; N (Cycle 5), W (Cycle 6) and Z (Cycle 7) each used all five.
 
 | # | Candidate | Highest-impact objection | Type | Falsifiable test | Evidence collected | Result | What changed |
 |---|---|---|---|---|---|---|---|
@@ -29,6 +29,12 @@ Each iteration records the objection, its type, the falsifiable test, the eviden
 | 21 | W | "Victim data custody and leaks" | Technical / legal | X12 leak measurement | E89, E88 | Structured identifiers 0 leaks; names and external hosts leak | Edge mode by default, victim term list, human review |
 | 22 | W | "Indicators are not model involvement" | Analytic | Does the packet overclaim? | X12 schema | Accepted | Limitations in every packet; the provider completes the root cause |
 | 23 | W | "Is a lab-paid vendor independent?" | Legal | Appendix 3.5 text | E79, E80 | Unresolved (A46) | Counsel and AI Office guidance (X16) |
+| — | W | Founder: "DDW collections … realistically not possible" | **Founder capacity (real evidence)** | Can the founder run collection or supply networks? | E96 | No; W already used five iterations | **W withdrawn**; G-solo knockout gate added |
+| 24 | Z (Cycle 7, independent malware-capability evaluator) | "Crowded" | Competitive | Does an incumbent specialise in functional malware verification? | E87, E93 | Partly refuted (absence of evidence) | Malware niche; incumbents as subcontract channel |
+| 25 | Z | "Access is revocable" | Business | Route without lab permission? | E94, E91 | Supported | Track record on released and open-weight models first |
+| 26 | Z | "Small banks can't support claims" | Technical | X20 power check | E95 | Supported | Expert task families, ≥ 40 instances each per customer; CIs; refuse unsupported claims |
+| 27 | Z | "Conflicted if you sell training data" | Ethical / legal | AI Office criterion | E90 | Supported | No N sales to evaluated labs; revenue cap |
+| 28 | Z | "Grading working malware is dual-use" | Legal | Safe handling mode? | X11 pending | Open | Isolated sandbox, benign targets, no output release |
 
 ## Decision matrix
 
@@ -145,3 +151,20 @@ The matrix adds a **lab replication difficulty** criterion (15%, taken from need
 - BUILD is withheld until X13–X16 (doc 13) pass.
 - Fallbacks in order: Q (Cycle 5), F (RESEARCH FIRST), STOP.
 - Not replicable by labs does not mean not replicable by incumbents: Google/Mandiant and Unit 42 remain the main threat (P34, P37).
+
+## Cycle 7 update — the founder must be able to deliver it (doc 18)
+
+Founder feedback (E96): W's post-deployment half is DDW collection plus a victim-supply network, which is not realistic for this founder. New **G-solo knockout gate**: deliverable by the founder plus ≤ 2 contractors, using only customer-granted access and founder-built assets. S, T, U, V and W fail.
+
+| Candidate (passes G-solo) | Lab replication | Weighted (old) | Weighted (new) |
+|---|---|---|---|
+| M Safeguards SME services | 2 | 3.45 | 3.20 |
+| N/Q RE environments (+ M) | 2 | 3.70 | 3.45 |
+| R Independent malware-RE evaluator | 5 | 3.55 | 3.80 |
+| Y2 Uplift adjudication | 3 | 3.55 | 3.45 |
+| **Z = R + Y2** | 5 | **3.70** | **3.90** |
+
+**Cycle 7 decision: PIVOT to Z at PILOT FIRST.**
+- Persona Round 7: Z 8/12. **No consensus.** BUILD withheld until X17–X19 and X11 pass.
+- Conflict rule: no N sales to labs Z evaluates (E90).
+- Fallbacks: M, then F, then STOP.

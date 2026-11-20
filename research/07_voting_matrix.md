@@ -242,3 +242,25 @@ Other Cycle 4 candidates (median, number ≥ 4): H feed 3 (2), I enforcement/RE 
 - Buyer/process: pass on paper; no named buyer.
 
 **No consensus. No votes were adjusted.** Holdouts and the evidence each needs: Privacy Counsel (written DPIA/lawful-basis opinion, X16), Skeptical VC (paid pilot or LOI from a non-Google signatory, X15), Supply-Chain Researcher (structurally different market). Other Cycle 6 candidates: R alone 6/12, S alone 5/12, T 2/12, U 1/12.
+
+## Round 7 — Z: independent malware-capability evaluator (capability evals + uplift adjudication) (doc 18 §9)
+
+W (Round 6, 9/12) is withdrawn: the founder reports its post-deployment half is not deliverable (E96). Its votes are kept for the record.
+
+| # | Persona | Z Ovr | Main evidence |
+|---|---|---|---|
+| 1 | Abuse Investigator | 3 | No longer touches enforcement |
+| 2 | T&S Eng Lead | **4** | "Beyond public tools" is the policy problem (E92) |
+| 3 | Infra Architect | **4** | No victim data |
+| 4 | Malware RE | **4** | Functional verification is RE work |
+| 5 | ML Scientist | **4** | CIs, significance gate, canaries (E95) |
+| 6 | Supply-Chain Researcher | 3 | Different market |
+| 7 | Detection Eng Lead | **4** | Grades evasion of existing detection |
+| 8 | Forensics Investigator | **4** | Reproducible, audited grading |
+| 9 | Privacy Counsel | 3 | Dual-use handling of outputs; X11 open |
+| 10 | AI Security CISO | **4** | Mandated independence (E90); crowded |
+| 11 | Procurement/GTM | **4** | Network of Evaluators, criteria, bounty and arena platforms |
+| 12 | Skeptical VC | 3 | Services; incumbents could add the niche |
+| | **Median / ≥ 4** | **4 / 8** | |
+
+**Gates (Z):** ≥ 10/12 **fail (8/12)**; legal blocker open, not critical (X11); importance gate pass (CISO 4, Abuse Investigator 4); buyer/process pass on paper. **No consensus. No votes were adjusted.** Others: R alone 6/12, Y2 alone 6/12.
