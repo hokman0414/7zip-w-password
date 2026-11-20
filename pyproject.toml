@@ -1,0 +1,9 @@
+[project]
+name = "provenance-slice"
+version = "0.1.0"
+description = "Research vertical slice: source/binary provenance retrieval with open-set rejection and audited access"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+packages = ["provenance", "bench"]
