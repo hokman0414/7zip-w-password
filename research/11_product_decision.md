@@ -2,7 +2,7 @@
 
 ## Phase 9 feedback loop log
 
-Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; M used the most, four (Cycle 4).
+Each iteration records the objection, its type, the falsifiable test, the evidence collected, and what changed. The limit was five iterations per candidate; N used all five (Cycle 5).
 
 | # | Candidate | Highest-impact objection | Type | Falsifiable test | Evidence collected | Result | What changed |
 |---|---|---|---|---|---|---|---|
@@ -19,6 +19,11 @@ Each iteration records the objection, its type, the falsifiable test, the eviden
 | 11 | H / M | "Handling found keys is legal risk" | Legal | Is there a disclosure path that avoids use? | E63 | Mitigated, not closed | Code-enforced redaction; packets carry sha256 + offset only; counsel review (A35). |
 | 12 | M | "Too few buyers" | Business | Count realistic buyers and comparable revenue | E60–E62, I14 | About 4–8 labs plus inference platforms; multi-million first-year revenue is possible (self-reported, E60) | Services-scale claim only; no forecast. |
 | 13 | H | "Do endpoint/model indicators flag malware?" | Technical | Measure on benign LLM software | E67 | **Failed**: 11/11 SDKs fire T3+ | T2/T3 are triage hints; human RE establishes maliciousness. |
+| 14 | N (Cycle 5, RE environments) | "Crowded cyber-environment market" | Competitive | Do vendors cover binary-first malware RE at training scale? | E70–E73 | Partly refuted: vendors focus on source/web; malware-RE sets are small evaluations | Binary-first malware RE + threat-intel tasks; subcontract via data vendors |
+| 15 | N | "Saturates fast" | Technical / business | Saturation speed | E72 | Supported (99.2% pass@4 unconstrained) | Refresh model: generator + expert hard tier, recalibrated per release |
+| 16 | N | "Dual-use: teaches evasion" | Ethical / legal | Do labs sanction RE and malware analysis? | E75 | Mitigated, not closed | Benign-payload, analysis-only, private delivery; counsel (X11) |
+| 17 | N | "Labs in-house it" | Business | Do vendors still win? | E69, E70 | Yes, for expert supply | Sell expert supply and QA |
+| 18 | N | "Can tasks be verifiable and non-shortcuttable?" | Technical | X8 | E78 | Passed at toy difficulty | Hard tier must be expert-authored; transfer untested |
 
 ## Decision matrix
 
@@ -95,3 +100,22 @@ Other candidates:
 - The pilot is X5 + X6 (doc 13, lab track). No platform build is authorized.
 - Iteration 1 is **not** reversed. A *tool* for labs still has no buyer signal; M sells capacity and expertise.
 - **Stop rule:** if X5 and X6 both fail, labs are not viable for this founder's offer. F remains at RESEARCH FIRST and the default is STOP.
+
+## Cycle 5 update — keep pivoting (doc 16)
+
+| Criterion (weight) | **N** RE environments | O Agent/MCP supply chain | P Model scanning | **Q** N + M |
+|---|---|---|---|---|
+| Unmet need (20%) | 4 | 4 | 3 | 4 |
+| Technical feasibility (15%) | 4 | 3 | 4 | 4 |
+| Differentiation (15%) | 3 | 1 | 1 | 3 |
+| Founder advantage (10%) | 5 | 4 | 3 | 5 |
+| Customer accessibility (15%) | 3 | 2 | 2 | 3 |
+| Willingness to pay (15%) | 4 | 3 | 3 | 4 |
+| Regulatory/privacy (10%) | 3 | 4 | 4 | 3 |
+| **Weighted** | **3.70** (3.55–3.85) | 2.95 | 2.80 | **3.70** |
+
+**Cycle 5 decision: PIVOT to N, sold as Q, at PILOT FIRST.**
+- This is the first configuration above the 3.5 score line.
+- Persona Round 5: Q 7/12 at ≥ 4 (N 6/12). **No consensus.**
+- BUILD is withheld until X9–X11 (doc 13) pass.
+- M becomes Q's Safeguards add-on. F stays the RESEARCH FIRST fallback.

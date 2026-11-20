@@ -53,6 +53,20 @@ This track runs ahead of F because the founder's stated customer is frontier AI 
 | L3 | One trial case or retainer with one lab, under its custody | Deliverable used in an enforcement decision; a second engagement requested | No follow-on |
 | L4 | Only then: provider-hosted tooling (L) and, optionally, J/K expansions | — | — |
 
+## Cycle 5 track — malware-RE environments for labs (N, sold as Q; PILOT FIRST; doc 16)
+
+This is now the lead track. The Cycle 4 lab track (X5/X6) runs alongside it as Q's Safeguards component.
+
+| Gate | Work | Pass | Kill |
+|---|---|---|---|
+| R0 (done) | `re_tasks/` generator, grader, baselines; X8 calibration (E78) | — | — |
+| R1 | **X11** counsel: dual-use / export-control and benign-payload policy; task IP terms | Written policy | Infeasible controls |
+| R2 | **X9** hard-tier pilot: 5 expert tasks, local open-weight baseline, human solve times, shortcut audit. **X10** 10 lab conversations plus 3 data vendors. | X9: ≥ 3/5 resist the baseline, are human-solvable, and show no shortcut. X10: ≥ 2 NDA sample requests and ≥ 1 paid batch or subcontract. | X10 < 1 sample request and vendors decline → fall back to M, else F, else STOP |
+| R3 | First paid task batch delivered and accepted by QA | Repeat order | Rejected batch (P31) |
+| R4 | Only then: scale the generator, expert network, and Safeguards add-on (Q) | — | — |
+
+Re-vote (Round 6) after R2 with X9–X11 evidence. Doc 16's consensus-ceiling table lists what each holdout needs.
+
 ## Signposts to watch (doc 05)
 - Incumbents add compiled-artifact matching: Cycode, BigID, GitGuardian, or SAFE BitMatch updates. This erodes differentiation (A19).
 - Court decisions on early trade-secret identification and on RE-derived evidence admissibility.

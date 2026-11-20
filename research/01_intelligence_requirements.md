@@ -165,3 +165,11 @@ Summary (full list in docs 05 and 08):
 | PIR-16 | Can model-level code attribution support enforcement? | As a lead only. Strong closed-world results (E64, E65); fragile under adversarial transformation (E45, E46). | Moderate | X7 |
 
 PIR-1 and PIR-5 are re-answered for a *services* offer in doc 15. The original no-buyer finding for a *tool* stands.
+
+## Cycle-5 PIRs (doc 16)
+
+| PIR | Question | Answer | Confidence |
+|---|---|---|---|
+| PIR-17 | Which lab budget can a malware-RE founder access at scale? | Post-training data / RL environments (E68–E70) | Moderate |
+| PIR-18 | Is binary-first malware RE under-supplied as training material? | Existing sets are small evaluations (E72, E73); vendors focus on source/web vulnerabilities (E70) | Low–moderate |
+| PIR-19 | Are agent/MCP security or model scanning better entries? | No; consolidated into large platforms (E77) | Moderate–high |

@@ -109,3 +109,26 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | I12 | An embedded credential is a provider-verifiable link from sample to account; the holder may be a victim. | E54, E63, E66 | Moderate |
 | I13 | Endpoint, model and prompt strings do not indicate malice. | E67 | High (measured) |
 | I14 | Small buyer set (about 4–8 realistic labs plus inference platforms); services scale. | E62, E61 | Moderate |
+
+## Cycle 5 entries: RE environments and adjacent pivots (doc 16 §3 has full detail)
+
+| ID | Evidence (short) | Source | Grade | Type |
+|---|---|---|---|---|
+| E68 | Labs demand RL environments; Anthropic reportedly discussed > $1B over a year | [TechCrunch](https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/) | C | F |
+| E69 | Contracts often six to seven figures per quarter; $200–$2,000 per task; in-housing rising | [Epoch AI](https://epoch.ai/gradient-updates/state-of-rl-envs) | C | F |
+| E70 | Cyber RL-environment vendors (Bugcrowd, Symbiotic, TarantuLabs, Starker) sell to labs; focus on source/web vulnerabilities | [Bugcrowd](https://www.bugcrowd.com/press-release/bugcrowd-launches-reinforcement-learning-environments-to-help-ai-models-learn-real-world-security-skills/) et al. | B | F |
+| E71 | Alice Labs benchmark includes a malware-analysis gym with decoys | [Alice](https://alice.io/blog/cyber-rl-benchmark-v1-0-measuring-frontier-cybersecurity-capability) | C | F |
+| E72 | SRE-Bench: 5,000 expert hours; public settings fully solve 27–32%; unconstrained 99.2% pass@4 | [arXiv 2608.11469](https://arxiv.org/abs/2608.11469) | B | F |
+| E73 | MalwareBench: 12 obfuscated cases; held-out-variant extractor checks; humans > 90% at a median of 12 h | [MalwareBench](https://malwarebench.com/blog/introducing-malwarebench) | B/C | F |
+| E74 | CyberSOCEval: malware-analysis accuracy 23–34%; models not trained for cyber analysis | [arXiv 2509.20166](https://arxiv.org/abs/2509.20166) | B | F |
+| E75 | OpenAI Daybreak lists malware analysis and RE as authorized workflows; cyber models | [OpenAI Help](https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview) | B | F |
+| E76 | Aardvark → Codex Security | [OpenAI](https://openai.com/index/introducing-aardvark/) | B | F |
+| E77 | Snyk–Invariant, PANW–Protect AI, SentinelOne–Prompt Security acquisitions | [Snyk](https://snyk.io/news/snyk-acquires-invariant-labs-to-accelerate-agentic-ai-security-innovation/) et al. | B | F |
+| E78 | **Measured:** `re_tasks` on 360 unique instances. L0: strings 19% (decoy trap 67%). L1: XOR brute force 78%. L2: only the family extractor solves (100%). | `bench/results/re_tasks/` | Measured | F |
+
+| ID | Inference | Basis | Confidence |
+|---|---|---|---|
+| I15 | The largest outside lab spend is on data and environments; cyber is active | E68–E70, E75 | Moderate |
+| I16 | Binary-first malware-RE training supply looks thin | E70, E72, E73 | Low–moderate |
+| I17 | Fast saturation means recurring demand for fresh tasks, with decaying per-task value | E72, E69 | Moderate |
+| I18 | Agent/MCP security and model scanning are absorbed by platforms | E77 | Moderate–high |

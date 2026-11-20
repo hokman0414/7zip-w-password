@@ -129,4 +129,17 @@ New premortem causes:
 
 Red team (doc 15 §9): an embedded key can belong to a **victim** whose key was stolen. A key → account link is a lead for the provider to review, never attribution of the author.
 
+## Cycle 5 update (malware-RE environments, doc 16 §7)
+
+Key assumptions: A37 labs want binary-first RE training tasks (plausible), A38 a small specialist meets lab QA (untested), A39 expert cost below price (H), A40 benign tasks transfer to real skill (untested), A41 dual-use / export-control posture acceptable (untested; counsel), A42 procedural diversity (partly supported, X8), A43 expert network scales (untested), A44 labs buy direct from small specialists (plausible).
+
+| # | Cause | L | S | D | RPN |
+|---|---|---|---|---|---|
+| P28 | Data-vendor giants or Bugcrowd add malware-RE environments | 4 | 4 | 3 | 48 |
+| P31 | Shortcut / reward-hacking flaw found by a lab | 3 | 4 | 2 | 48 |
+| P29 | Labs build in-house | 3 | 5 | 3 | 45 |
+| P30 | Saturation treadmill | 4 | 3 | 3 | 36 |
+| P33 | RE expert recruitment does not scale | 3 | 4 | 3 | 36 |
+| P32 | A novel anti-analysis primitive leaks | 2 | 5 | 4 | 20 |
+
 Signpost triggered: "Providers publish artifact-first attribution cases" (doc 13). Anthropic (E55) and OpenAI (E57) now describe artifact↔generation checks. These are handled in-house, so the signpost re-opens the need as **services**, not as a tool.

@@ -190,3 +190,29 @@ Candidate G (training-data provenance audit) was assessed once (doc 14 §7): **m
 
 Other Cycle 4 candidates (median, number ≥ 4): H feed 3 (2), I enforcement/RE capacity 3 (2), J evaluations 3 (1), K expert data 2 (0), L hosted tooling 2 (0).
 
+## Round 5 — N: malware-RE environments and evaluations for labs; Q: N + M (doc 16 §9)
+
+| # | Persona | N Ovr | Q Ovr | Main evidence |
+|---|---|---|---|---|
+| 1 | Abuse Investigator | 3 | **4** | Q adds enforcement capacity (I12) |
+| 2 | T&S Eng Lead | 3 | 3 | Dual-use review outstanding (A41) |
+| 3 | Infra Architect | **4** | **4** | Sandbox + verifier deliverable; no data custody |
+| 4 | Malware RE | **4** | **4** | Scarce expert tasks (E72) |
+| 5 | ML Scientist | **4** | **4** | X8 gradient and decoys; transfer untested (A40) |
+| 6 | Supply-Chain Researcher | 3 | 3 | Different market |
+| 7 | Detection Eng Lead | **4** | **4** | Extractor tasks equal detection skill |
+| 8 | Forensics Investigator | **4** | **4** | Deterministic grading |
+| 9 | Privacy Counsel | 3 | 3 | Export-control opinion needed |
+| 10 | AI Security CISO | 3 | 3 | Crowded vendor field (E70) |
+| 11 | Procurement/GTM | **4** | **4** | Known budget and channels (E68–E70) |
+| 12 | Skeptical VC | 3 | 3 | Services margins, saturation (P30) |
+| | **Median / ≥ 4** | **3.5 / 6** | **4 / 7** | |
+
+**Gates (Q):**
+- ≥ 10/12: **fail (7/12).**
+- Critical legal blocker: none.
+- Importance gate: pass.
+- Buyer/process: pass on paper; no named buyer.
+
+**No consensus. No votes were adjusted.** The doc 16 consensus-ceiling table lists the real-world evidence each holdout requires. O (agent/MCP supply chain): median 2.5, 1/12. P (model scanning): median 2, 0/12.
+

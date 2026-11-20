@@ -1,14 +1,44 @@
 # EXECUTIVE DECISION
 
-## Decision: **PIVOT** — to SME-led AI-misuse malware services for frontier labs (**PILOT FIRST**)
+## Decision: **PIVOT** — to malware-RE training environments and evaluations for frontier labs, with Safeguards SME services (**PILOT FIRST**)
 
-**Cycle 4 (doc 15) fixed the customer to frontier AI labs.** The result:
+**Cycle 5 (doc 16) kept pivoting toward persona consensus.** The result:
 
 | Option | Status |
 |---|---|
 | Original concept: an attribution *platform/tool* sold to AI providers | **STOP.** Labs already do artifact↔generation checks in-house (E55, E57). No buyer signal for a tool. |
-| **M: SME-led AI-misuse malware intelligence and enforcement support for labs** | **PILOT FIRST.** Weighted 3.45 (range 3.30–3.60), the highest in four cycles but below the 3.5 BUILD line. Persona median 3, 3/12 at ≥ 4. **No consensus.** |
-| F: IP code-reuse investigation | **RESEARCH FIRST**, now the fallback track (sections 1–12 below, unchanged from Cycle 3) |
+| **Q = N + M: the malware-RE partner for frontier labs.** N: binary-first malware-RE and threat-intel RL environments and contamination-free evaluations (lab post-training budget). M: Safeguards SME services. | **PILOT FIRST.** Weighted **3.70** (range 3.55–3.85), the first candidate above the 3.5 line. Persona Round 5: **7/12** at ≥ 4 (N alone 6/12). **No consensus**; BUILD withheld. |
+| M alone (Cycle 4) | Folded into Q as its Safeguards add-on (3.45; 3/12) |
+| F: IP code-reuse investigation | **RESEARCH FIRST** fallback (sections 1–12 below, unchanged from Cycle 3) |
+| O agent/MCP supply-chain security; P model scanning | **Not pursued.** Consolidated into large platforms (E77); 2.95 and 2.80 |
+
+### Cycle 5 in brief
+
+- **Why N:**
+  - Labs' biggest outside spend is training data and RL environments. Anthropic reportedly discussed more than $1B over a year, and contracts are often six to seven figures per quarter (E68, E69). Cyber environment vendors already sell to labs (E70).
+  - Those vendors focus on source/web vulnerabilities. Binary-first malware RE exists mainly as small evaluations (E72, E73).
+  - Frontier agents fully solve only 27–32% of realistic RE instances in public settings (E72). Malware-analysis benchmarks show models are untrained for it (E74).
+  - Labs sanction malware analysis as a defensive workflow (E75).
+- **Built and measured:** `re_tasks/` generates unique, benign malware-like binaries with hidden configurations and decoys, plus a deterministic grader. Across 360 instances (E78):
+  - strings-only solves 19% at L0, where it falls for the decoy 67% of the time;
+  - single-byte XOR brute force solves 78% at L1;
+  - only an analyst-style family extractor solves L2 (100%).
+  
+  This is toy difficulty; the real value is an expert-authored hard tier.
+- **Why no consensus:** the five holdouts (T&S, Supply-Chain, Privacy Counsel, CISO, VC) need real-world evidence:
+  - a lab dual-use review;
+  - an export-control opinion;
+  - confirmation that a lab buys rather than builds;
+  - a paid pilot.
+  
+  Desk research cannot supply these. Unanimity may never be reachable, because the Supply-Chain persona represents a different market; the agreed bar is ≥ 10/12.
+- **Next:** X9 hard-tier pilot, X10 buyer discovery with lab teams and data vendors, X11 counsel (doc 13, Cycle 5 track). Then persona Round 6.
+
+### Cycle 4 result (now folded into Q)
+
+| Option | Status |
+|---|---|
+| **M: SME-led AI-misuse malware intelligence and enforcement support for labs** | PILOT FIRST in Cycle 4. Weighted 3.45 (range 3.30–3.60), below the 3.5 BUILD line. Persona median 3, 3/12 at ≥ 4. **No consensus.** |
 
 ### Cycle 4 in brief
 
@@ -161,6 +191,9 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | **F after literature review (Round 3)** | **3** | **1 / 12** (Forensics) |
 | G Training-data provenance audit | 2 | 0 / 12 |
 | **M Lab SME services (Round 4, Cycle 4)** | **3** | **3 / 12** (Abuse Investigator, RE, Detection Eng) |
+| **N RE environments for labs (Round 5)** | **3.5** | **6 / 12** |
+| **Q = N + M (Round 5)** | **4** | **7 / 12** (Abuse Investigator, Infra, RE, ML, Detection, Forensics, GTM) |
+| O agent/MCP supply chain; P model scanning | 2.5; 2 | 1 / 12; 0 / 12 |
 | H / I / J / K / L (Cycle 4 components) | 3 / 3 / 3 / 2 / 2 | 2 / 2 / 1 / 0 / 0 |
 
 - **No configuration reached consensus** (gate: ≥ 10/12 at ≥ 4). M is the first to pass the importance gate and the no-critical-legal-blocker gate.
@@ -173,7 +206,8 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 |---|---|
 | Rejecting the original concept as a company | **Moderate–High** (convergent public evidence E02–E10 + E30b) |
 | F as the best pivot direction | **Low** (Cycle 3: prior art, real-world performance gap, and EU legal limits. On the decision matrix F now scores 2.65 vs C's 2.85 on known criteria, within noise.) |
-| M (lab SME services) as the best path to selling to frontier labs | **Low–moderate.** Need and buying channel are evidenced (E55–E61); WTP for this specific work, novelty of findings, and founder credibility are untested (A30–A33). |
+| Q (RE environments + Safeguards services) as the best path to selling to frontier labs | **Moderate** for the budget and capability gap (E68–E75); **low** for this founder winning it (A38, A43, A44 untested; no buyer contact). |
+| M (lab SME services) alone | **Low–moderate.** Need and buying channel are evidenced (E55–E61); WTP for this specific work, novelty of findings, and founder credibility are untested (A30–A33). |
 | Any revenue forecast | **None made.** Insufficient evidence. |
 
 ### 11. Decision
@@ -181,8 +215,8 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | Option | Status |
 |---|---|
 | Original concept | **STOP** |
-| **M Lab SME services (Cycle 4)** | **PILOT FIRST**: X5 + X6 (doc 13 lab track) |
-| **Overall** | **PIVOT** to M at PILOT FIRST, with F at **RESEARCH FIRST** as the fallback. If F fails X1 or X2, the default is STOP. |
+| **Q = N + M (Cycle 5)** | **PILOT FIRST**: X9–X11 (doc 13, Cycle 5 track) plus X5/X6 for the M component |
+| **Overall** | **PIVOT** to Q at PILOT FIRST, with F at **RESEARCH FIRST** as the fallback. If X10 fails, fall back to M (if X5/X6 pass), then F, then STOP. |
 | G | **Not pursued** (membership-inference FPR 0.10; E48) |
 | C / E | **BLOCKED** pending founder asset validation |
 | D | **STOP** |
@@ -213,7 +247,7 @@ Build investment is locked behind Gates 1–3 (doc 13).
 | Doc | Content |
 |---|---|
 | 01 | Intelligence requirements (PIR-1…12) |
-| 02 | Evidence ledger (E01–E67, I01–I14) |
+| 02 | Evidence ledger (E01–E78, I01–I18) |
 | 03 | Competitive landscape |
 | 04 | Analysis of Competing Hypotheses (H1–H8) |
 | 05 | Key assumptions, premortem, red team, signposts |
@@ -229,4 +263,6 @@ Build investment is locked behind Gates 1–3 (doc 13).
 
 | 15 | Cycle 4: malware attribution sold to frontier labs. PIR-13–16, E51–E67, ACH H9–H13, KAC A29–A36, premortem P21–P27, red team, persona Round 4, iterations 9–13, matrix H–M, offer, discovery questions, X5–X7 |
 
-Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators), `bench/` (benchmark harnesses and results), `tests/`.
+| 16 | Cycle 5: pivot loop toward consensus. PIR-17–19, E68–E78, ACH H14–H17, KAC A37–A44, premortem P28–P33, red team, persona Round 5 with a consensus-ceiling table, iterations 14–18, matrix N–Q, X9–X11 |
+
+Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators), `re_tasks/` (verifiable malware-RE task generator, grader and baselines), `bench/` (benchmark harnesses and results), `tests/`.
