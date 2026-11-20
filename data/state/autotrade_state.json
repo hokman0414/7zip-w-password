@@ -1,5 +1,5 @@
 {
-  "executions": 4,
+  "executions": 9,
   "high_water_mark": 6480.816119325991,
   "last_trades": {
     "AMD": {
@@ -7,9 +7,34 @@
       "ref_id": "f2ac7e2a-43c3-5b80-bffd-53339c22af4e",
       "side": "sell"
     },
+    "BITU": {
+      "at": "2026-11-20T17:30:18.760037+00:00",
+      "ref_id": "0058f9db-5f27-54e6-b29f-77c47468e2f7",
+      "side": "sell"
+    },
+    "CIFR": {
+      "at": "2026-11-20T17:30:18.760037+00:00",
+      "ref_id": "53ff0204-aa8d-54d4-ac67-f7a184e3835b",
+      "side": "sell"
+    },
+    "DRAM": {
+      "at": "2026-11-20T17:30:18.760037+00:00",
+      "ref_id": "1afa2eb3-463b-59bf-b71d-389034bbf8af",
+      "side": "sell"
+    },
     "GLD": {
       "at": "2026-11-13T21:51:45.825057+00:00",
       "ref_id": "e2c07266-dbbe-527b-a0bd-7d047ffbc948",
+      "side": "sell"
+    },
+    "IREN": {
+      "at": "2026-11-20T17:30:18.760037+00:00",
+      "ref_id": "86da871a-5605-5df0-b981-575562b334f4",
+      "side": "sell"
+    },
+    "NBIS": {
+      "at": "2026-11-20T17:30:18.760037+00:00",
+      "ref_id": "f8d47bf1-59aa-53be-8b1f-2498ed2f27bf",
       "side": "sell"
     },
     "SPY": {
