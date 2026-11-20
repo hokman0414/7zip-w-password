@@ -1,0 +1,458 @@
+{
+  "note": "systems under test are baseline solvers, not AI models",
+  "instances": 180,
+  "canary_stamped": 180,
+  "canary_found_in_solver_outputs": 0,
+  "partition_sizes": {
+    "lab-a": 65,
+    "lab-b": 58,
+    "lab-c": 57
+  },
+  "cross_customer_overlap_before_scoring": {
+    "lab-a": 0,
+    "lab-b": 0,
+    "lab-c": 0
+  },
+  "reports": {
+    "lab-a": {
+      "strings": {
+        "customer": "lab-a",
+        "system": "strings",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 26,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1287
+            ],
+            "mean_field_score": 0.6758,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L1": {
+            "n": 22,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1487
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L2": {
+            "n": 17,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          }
+        }
+      },
+      "xor_bruteforce": {
+        "customer": "lab-a",
+        "system": "xor_bruteforce",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 26,
+            "solved": 26,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8713,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 22,
+            "solved": 16,
+            "solve_rate": 0.7273,
+            "ci95": [
+              0.5185,
+              0.8685
+            ],
+            "mean_field_score": 0.961,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 17,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      },
+      "family_extractor": {
+        "customer": "lab-a",
+        "system": "family_extractor",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 26,
+            "solved": 26,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8713,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 22,
+            "solved": 22,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8513,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 17,
+            "solved": 17,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8157,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      }
+    },
+    "lab-b": {
+      "strings": {
+        "customer": "lab-b",
+        "system": "strings",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843
+            ],
+            "mean_field_score": 0.6807,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L1": {
+            "n": 18,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1759
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L2": {
+            "n": 23,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1431
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          }
+        }
+      },
+      "xor_bruteforce": {
+        "customer": "lab-b",
+        "system": "xor_bruteforce",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 17,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8157,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 18,
+            "solved": 13,
+            "solve_rate": 0.7222,
+            "ci95": [
+              0.4913,
+              0.875
+            ],
+            "mean_field_score": 0.9603,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 23,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1431
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      },
+      "family_extractor": {
+        "customer": "lab-b",
+        "system": "family_extractor",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 17,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8157,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 18,
+            "solved": 18,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8241,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 23,
+            "solved": 23,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8569,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      }
+    },
+    "lab-c": {
+      "strings": {
+        "customer": "lab-c",
+        "system": "strings",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843
+            ],
+            "mean_field_score": 0.6723,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L1": {
+            "n": 20,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1611
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          },
+          "L2": {
+            "n": 20,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1611
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 1.0
+          }
+        }
+      },
+      "xor_bruteforce": {
+        "customer": "lab-c",
+        "system": "xor_bruteforce",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 17,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8157,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 20,
+            "solved": 18,
+            "solve_rate": 0.9,
+            "ci95": [
+              0.699,
+              0.9721
+            ],
+            "mean_field_score": 0.9857,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 20,
+            "solved": 0,
+            "solve_rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1611
+            ],
+            "mean_field_score": 0.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      },
+      "family_extractor": {
+        "customer": "lab-c",
+        "system": "family_extractor",
+        "bank_id": "demo-bank-7",
+        "by_level": {
+          "L0": {
+            "n": 17,
+            "solved": 17,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8157,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L1": {
+            "n": 20,
+            "solved": 20,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8389,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          },
+          "L2": {
+            "n": 20,
+            "solved": 20,
+            "solve_rate": 1.0,
+            "ci95": [
+              0.8389,
+              1.0
+            ],
+            "mean_field_score": 1.0,
+            "fell_for_decoy_c2": 0.0
+          }
+        }
+      }
+    }
+  },
+  "family_extractor_vs_xor_bruteforce": [
+    {
+      "customer": "lab-a",
+      "level": "L0",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 1.0,
+      "p_value": 1.0,
+      "claim_allowed": false
+    },
+    {
+      "customer": "lab-a",
+      "level": "L1",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.7273,
+      "p_value": 0.008394,
+      "claim_allowed": true
+    },
+    {
+      "customer": "lab-a",
+      "level": "L2",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.0,
+      "p_value": 0.0,
+      "claim_allowed": true
+    },
+    {
+      "customer": "lab-b",
+      "level": "L0",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 1.0,
+      "p_value": 1.0,
+      "claim_allowed": false
+    },
+    {
+      "customer": "lab-b",
+      "level": "L1",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.7222,
+      "p_value": 0.015967,
+      "claim_allowed": true
+    },
+    {
+      "customer": "lab-b",
+      "level": "L2",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.0,
+      "p_value": 0.0,
+      "claim_allowed": true
+    },
+    {
+      "customer": "lab-c",
+      "level": "L0",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 1.0,
+      "p_value": 1.0,
+      "claim_allowed": false
+    },
+    {
+      "customer": "lab-c",
+      "level": "L1",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.9,
+      "p_value": 0.146793,
+      "claim_allowed": false
+    },
+    {
+      "customer": "lab-c",
+      "level": "L2",
+      "family_extractor": 1.0,
+      "xor_bruteforce": 0.0,
+      "p_value": 0.0,
+      "claim_allowed": true
+    }
+  ]
+}

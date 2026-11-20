@@ -1,0 +1,817 @@
+{
+  "retrieval": {
+    "exact-strings": {
+      "in-index/gcc-O0": {
+        "n": 500,
+        "recall@1": 0.598,
+        "recall@10": 0.72,
+        "mrr": 0.6523,
+        "lineage@1": 0.678
+      },
+      "in-index/gcc-O2": {
+        "n": 500,
+        "recall@1": 0.588,
+        "recall@10": 0.712,
+        "mrr": 0.6433,
+        "lineage@1": 0.67
+      },
+      "in-index/gcc-O3-stripped": {
+        "n": 500,
+        "recall@1": 0.59,
+        "recall@10": 0.712,
+        "mrr": 0.6443,
+        "lineage@1": 0.67
+      },
+      "in-index/clang-O2": {
+        "n": 500,
+        "recall@1": 0.57,
+        "recall@10": 0.692,
+        "mrr": 0.6246,
+        "lineage@1": 0.65
+      },
+      "in-index/clang-Os-stripped": {
+        "n": 500,
+        "recall@1": 0.572,
+        "recall@10": 0.692,
+        "mrr": 0.6256,
+        "lineage@1": 0.65
+      },
+      "in-index/modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.586,
+        "recall@10": 0.712,
+        "mrr": 0.6426,
+        "lineage@1": 0.67
+      },
+      "in-index/obfuscated-strings-stripped": {
+        "n": 500,
+        "recall@1": 0.082,
+        "recall@10": 0.12,
+        "mrr": 0.0978,
+        "lineage@1": 0.104
+      },
+      "in-index/obfuscated-strings+modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.086,
+        "recall@10": 0.124,
+        "mrr": 0.1018,
+        "lineage@1": 0.108
+      },
+      "ip-transplant/gcc-O2-stripped": {
+        "n": 200,
+        "recall@1": 0.305,
+        "recall@10": 0.385,
+        "mrr": 0.3355,
+        "lineage@1": 0.335
+      }
+    },
+    "constants-only": {
+      "in-index/gcc-O0": {
+        "n": 500,
+        "recall@1": 0.696,
+        "recall@10": 0.862,
+        "mrr": 0.7708,
+        "lineage@1": 0.852
+      },
+      "in-index/gcc-O2": {
+        "n": 500,
+        "recall@1": 0.628,
+        "recall@10": 0.79,
+        "mrr": 0.7003,
+        "lineage@1": 0.774
+      },
+      "in-index/gcc-O3-stripped": {
+        "n": 500,
+        "recall@1": 0.626,
+        "recall@10": 0.79,
+        "mrr": 0.6993,
+        "lineage@1": 0.772
+      },
+      "in-index/clang-O2": {
+        "n": 500,
+        "recall@1": 0.58,
+        "recall@10": 0.746,
+        "mrr": 0.6532,
+        "lineage@1": 0.706
+      },
+      "in-index/clang-Os-stripped": {
+        "n": 500,
+        "recall@1": 0.582,
+        "recall@10": 0.742,
+        "mrr": 0.654,
+        "lineage@1": 0.72
+      },
+      "in-index/modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.424,
+        "recall@10": 0.548,
+        "mrr": 0.479,
+        "lineage@1": 0.51
+      },
+      "in-index/obfuscated-strings-stripped": {
+        "n": 500,
+        "recall@1": 0.626,
+        "recall@10": 0.79,
+        "mrr": 0.6997,
+        "lineage@1": 0.772
+      },
+      "in-index/obfuscated-strings+modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.154,
+        "recall@10": 0.252,
+        "mrr": 0.1971,
+        "lineage@1": 0.196
+      },
+      "ip-transplant/gcc-O2-stripped": {
+        "n": 200,
+        "recall@1": 0.355,
+        "recall@10": 0.5,
+        "mrr": 0.4208,
+        "lineage@1": 0.465
+      }
+    },
+    "symbols-only": {
+      "in-index/gcc-O0": {
+        "n": 500,
+        "recall@1": 0.806,
+        "recall@10": 1.0,
+        "mrr": 0.894,
+        "lineage@1": 1.0
+      },
+      "in-index/gcc-O2": {
+        "n": 500,
+        "recall@1": 0.806,
+        "recall@10": 1.0,
+        "mrr": 0.894,
+        "lineage@1": 1.0
+      },
+      "in-index/gcc-O3-stripped": {
+        "n": 500,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      },
+      "in-index/clang-O2": {
+        "n": 500,
+        "recall@1": 0.806,
+        "recall@10": 1.0,
+        "mrr": 0.894,
+        "lineage@1": 1.0
+      },
+      "in-index/clang-Os-stripped": {
+        "n": 500,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      },
+      "in-index/modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      },
+      "in-index/obfuscated-strings-stripped": {
+        "n": 500,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      },
+      "in-index/obfuscated-strings+modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      },
+      "ip-transplant/gcc-O2-stripped": {
+        "n": 200,
+        "recall@1": 0.0,
+        "recall@10": 0.0,
+        "mrr": 0.0,
+        "lineage@1": 0.0
+      }
+    },
+    "hybrid-structural": {
+      "in-index/gcc-O0": {
+        "n": 500,
+        "recall@1": 0.85,
+        "recall@10": 1.0,
+        "mrr": 0.918,
+        "lineage@1": 1.0
+      },
+      "in-index/gcc-O2": {
+        "n": 500,
+        "recall@1": 0.848,
+        "recall@10": 1.0,
+        "mrr": 0.917,
+        "lineage@1": 1.0
+      },
+      "in-index/gcc-O3-stripped": {
+        "n": 500,
+        "recall@1": 0.776,
+        "recall@10": 0.912,
+        "mrr": 0.8375,
+        "lineage@1": 0.904
+      },
+      "in-index/clang-O2": {
+        "n": 500,
+        "recall@1": 0.848,
+        "recall@10": 1.0,
+        "mrr": 0.917,
+        "lineage@1": 1.0
+      },
+      "in-index/clang-Os-stripped": {
+        "n": 500,
+        "recall@1": 0.758,
+        "recall@10": 0.894,
+        "mrr": 0.8192,
+        "lineage@1": 0.884
+      },
+      "in-index/modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.728,
+        "recall@10": 0.858,
+        "mrr": 0.7872,
+        "lineage@1": 0.836
+      },
+      "in-index/obfuscated-strings-stripped": {
+        "n": 500,
+        "recall@1": 0.648,
+        "recall@10": 0.812,
+        "mrr": 0.7212,
+        "lineage@1": 0.79
+      },
+      "in-index/obfuscated-strings+modified-constants-stripped": {
+        "n": 500,
+        "recall@1": 0.234,
+        "recall@10": 0.348,
+        "mrr": 0.2828,
+        "lineage@1": 0.292
+      },
+      "ip-transplant/gcc-O2-stripped": {
+        "n": 200,
+        "recall@1": 0.48,
+        "recall@10": 0.66,
+        "mrr": 0.5582,
+        "lineage@1": 0.575
+      }
+    }
+  },
+  "baseline_binary_similarity": {
+    "in-index/gcc-O0": {
+      "n": 500,
+      "recall@1": 0.55,
+      "recall@10": 0.764,
+      "mrr": 0.6153,
+      "lineage@1": 0.55
+    },
+    "in-index/gcc-O2": {
+      "n": 500,
+      "recall@1": 0.008,
+      "recall@10": 0.046,
+      "mrr": 0.016,
+      "lineage@1": 0.008
+    },
+    "in-index/gcc-O3-stripped": {
+      "n": 500,
+      "recall@1": 0.006,
+      "recall@10": 0.042,
+      "mrr": 0.0142,
+      "lineage@1": 0.006
+    },
+    "in-index/clang-O2": {
+      "n": 500,
+      "recall@1": 0.002,
+      "recall@10": 0.01,
+      "mrr": 0.0041,
+      "lineage@1": 0.002
+    },
+    "in-index/clang-Os-stripped": {
+      "n": 500,
+      "recall@1": 0.004,
+      "recall@10": 0.026,
+      "mrr": 0.0087,
+      "lineage@1": 0.004
+    },
+    "in-index/modified-constants-stripped": {
+      "n": 500,
+      "recall@1": 0.008,
+      "recall@10": 0.038,
+      "mrr": 0.0146,
+      "lineage@1": 0.008
+    },
+    "in-index/obfuscated-strings-stripped": {
+      "n": 500,
+      "recall@1": 0.006,
+      "recall@10": 0.054,
+      "mrr": 0.0169,
+      "lineage@1": 0.006
+    },
+    "in-index/obfuscated-strings+modified-constants-stripped": {
+      "n": 500,
+      "recall@1": 0.004,
+      "recall@10": 0.028,
+      "mrr": 0.0084,
+      "lineage@1": 0.004
+    },
+    "ip-transplant/gcc-O2-stripped": {
+      "n": 200,
+      "recall@1": 0.0,
+      "recall@10": 0.025,
+      "mrr": 0.0062,
+      "lineage@1": 0.0
+    }
+  },
+  "sparse_cosine": {
+    "in-index/gcc-O0": {
+      "n": 500,
+      "recall@1": 0.962,
+      "recall@10": 1.0,
+      "mrr": 0.9797,
+      "lineage@1": 1.0
+    },
+    "in-index/gcc-O2": {
+      "n": 500,
+      "recall@1": 0.96,
+      "recall@10": 1.0,
+      "mrr": 0.9787,
+      "lineage@1": 1.0
+    },
+    "in-index/gcc-O3-stripped": {
+      "n": 500,
+      "recall@1": 0.884,
+      "recall@10": 0.92,
+      "mrr": 0.9001,
+      "lineage@1": 0.916
+    },
+    "in-index/clang-O2": {
+      "n": 500,
+      "recall@1": 0.96,
+      "recall@10": 1.0,
+      "mrr": 0.9787,
+      "lineage@1": 1.0
+    },
+    "in-index/clang-Os-stripped": {
+      "n": 500,
+      "recall@1": 0.864,
+      "recall@10": 0.904,
+      "mrr": 0.8813,
+      "lineage@1": 0.896
+    },
+    "in-index/modified-constants-stripped": {
+      "n": 500,
+      "recall@1": 0.81,
+      "recall@10": 0.868,
+      "mrr": 0.8356,
+      "lineage@1": 0.842
+    },
+    "in-index/obfuscated-strings-stripped": {
+      "n": 500,
+      "recall@1": 0.746,
+      "recall@10": 0.814,
+      "mrr": 0.778,
+      "lineage@1": 0.804
+    },
+    "in-index/obfuscated-strings+modified-constants-stripped": {
+      "n": 500,
+      "recall@1": 0.278,
+      "recall@10": 0.348,
+      "mrr": 0.3097,
+      "lineage@1": 0.294
+    },
+    "ip-transplant/gcc-O2-stripped": {
+      "n": 200,
+      "recall@1": 0.575,
+      "recall@10": 0.66,
+      "mrr": 0.611,
+      "lineage@1": 0.61
+    }
+  },
+  "open_set": {
+    "exact-strings": {
+      "threshold": {
+        "min_score": 8.5173,
+        "min_margin": 0.0,
+        "min_distinct": 3
+      },
+      "calibration_queries": 400,
+      "heldout_queries": 400,
+      "heldout_false_escalation_rate": 0.0,
+      "in_index": {
+        "in-index/gcc-O0": {
+          "n": 500,
+          "escalated": 106,
+          "correct": 106,
+          "wrong": 0,
+          "escalation_recall": 0.212,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O2": {
+          "n": 500,
+          "escalated": 100,
+          "correct": 100,
+          "wrong": 0,
+          "escalation_recall": 0.2,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O3-stripped": {
+          "n": 500,
+          "escalated": 100,
+          "correct": 100,
+          "wrong": 0,
+          "escalation_recall": 0.2,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-O2": {
+          "n": 500,
+          "escalated": 90,
+          "correct": 90,
+          "wrong": 0,
+          "escalation_recall": 0.18,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-Os-stripped": {
+          "n": 500,
+          "escalated": 90,
+          "correct": 90,
+          "wrong": 0,
+          "escalation_recall": 0.18,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/modified-constants-stripped": {
+          "n": 500,
+          "escalated": 101,
+          "correct": 101,
+          "wrong": 0,
+          "escalation_recall": 0.202,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/obfuscated-strings-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "in-index/obfuscated-strings+modified-constants-stripped": {
+          "n": 500,
+          "escalated": 1,
+          "correct": 1,
+          "wrong": 0,
+          "escalation_recall": 0.002,
+          "precision_at_threshold": 1.0
+        },
+        "ip-transplant/gcc-O2-stripped": {
+          "n": 200,
+          "escalated": 4,
+          "correct": 4,
+          "wrong": 0,
+          "escalation_recall": 0.02,
+          "precision_at_threshold": 1.0
+        }
+      }
+    },
+    "constants-only": {
+      "threshold": {
+        "min_score": 5.1104,
+        "min_margin": 0.0,
+        "min_distinct": 3
+      },
+      "calibration_queries": 400,
+      "heldout_queries": 400,
+      "heldout_false_escalation_rate": 0.0,
+      "in_index": {
+        "in-index/gcc-O0": {
+          "n": 500,
+          "escalated": 163,
+          "correct": 163,
+          "wrong": 0,
+          "escalation_recall": 0.326,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O2": {
+          "n": 500,
+          "escalated": 113,
+          "correct": 113,
+          "wrong": 0,
+          "escalation_recall": 0.226,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O3-stripped": {
+          "n": 500,
+          "escalated": 113,
+          "correct": 113,
+          "wrong": 0,
+          "escalation_recall": 0.226,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-O2": {
+          "n": 500,
+          "escalated": 95,
+          "correct": 95,
+          "wrong": 0,
+          "escalation_recall": 0.19,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-Os-stripped": {
+          "n": 500,
+          "escalated": 94,
+          "correct": 94,
+          "wrong": 0,
+          "escalation_recall": 0.188,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/modified-constants-stripped": {
+          "n": 500,
+          "escalated": 24,
+          "correct": 24,
+          "wrong": 0,
+          "escalation_recall": 0.048,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/obfuscated-strings-stripped": {
+          "n": 500,
+          "escalated": 113,
+          "correct": 113,
+          "wrong": 0,
+          "escalation_recall": 0.226,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/obfuscated-strings+modified-constants-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "ip-transplant/gcc-O2-stripped": {
+          "n": 200,
+          "escalated": 4,
+          "correct": 4,
+          "wrong": 0,
+          "escalation_recall": 0.02,
+          "precision_at_threshold": 1.0
+        }
+      }
+    },
+    "symbols-only": {
+      "threshold": {
+        "min_score": 6.8138,
+        "min_margin": 0.0,
+        "min_distinct": 3
+      },
+      "calibration_queries": 400,
+      "heldout_queries": 400,
+      "heldout_false_escalation_rate": 0.0,
+      "in_index": {
+        "in-index/gcc-O0": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O2": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O3-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "in-index/clang-O2": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-Os-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "in-index/modified-constants-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "in-index/obfuscated-strings-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "in-index/obfuscated-strings+modified-constants-stripped": {
+          "n": 500,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        },
+        "ip-transplant/gcc-O2-stripped": {
+          "n": 200,
+          "escalated": 0,
+          "correct": 0,
+          "wrong": 0,
+          "escalation_recall": 0.0,
+          "precision_at_threshold": null
+        }
+      }
+    },
+    "hybrid-structural": {
+      "threshold": {
+        "min_score": 8.5173,
+        "min_margin": 0.0,
+        "min_distinct": 3
+      },
+      "calibration_queries": 400,
+      "heldout_queries": 400,
+      "heldout_false_escalation_rate": 0.0,
+      "in_index": {
+        "in-index/gcc-O0": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O2": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/gcc-O3-stripped": {
+          "n": 500,
+          "escalated": 291,
+          "correct": 291,
+          "wrong": 0,
+          "escalation_recall": 0.582,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-O2": {
+          "n": 500,
+          "escalated": 500,
+          "correct": 500,
+          "wrong": 0,
+          "escalation_recall": 1.0,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/clang-Os-stripped": {
+          "n": 500,
+          "escalated": 263,
+          "correct": 263,
+          "wrong": 0,
+          "escalation_recall": 0.526,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/modified-constants-stripped": {
+          "n": 500,
+          "escalated": 204,
+          "correct": 204,
+          "wrong": 0,
+          "escalation_recall": 0.408,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/obfuscated-strings-stripped": {
+          "n": 500,
+          "escalated": 136,
+          "correct": 136,
+          "wrong": 0,
+          "escalation_recall": 0.272,
+          "precision_at_threshold": 1.0
+        },
+        "in-index/obfuscated-strings+modified-constants-stripped": {
+          "n": 500,
+          "escalated": 5,
+          "correct": 5,
+          "wrong": 0,
+          "escalation_recall": 0.01,
+          "precision_at_threshold": 1.0
+        },
+        "ip-transplant/gcc-O2-stripped": {
+          "n": 200,
+          "escalated": 27,
+          "correct": 27,
+          "wrong": 0,
+          "escalation_recall": 0.135,
+          "precision_at_threshold": 1.0
+        }
+      }
+    }
+  },
+  "cost": {
+    "index_records": 10000,
+    "index_build_seconds": 9.87,
+    "mean_features_per_record": 113.1,
+    "keyed_index_storage_bytes": 14926813,
+    "storage_bytes_per_record": 1492.7,
+    "binary_feature_extraction_median_ms": 4.5,
+    "binary_feature_extraction_p95_ms": 5.4,
+    "search_latency": {
+      "exact-strings": {
+        "median_ms": 0.139,
+        "p95_ms": 0.376
+      },
+      "constants-only": {
+        "median_ms": 0.06,
+        "p95_ms": 0.118
+      },
+      "symbols-only": {
+        "median_ms": 0.011,
+        "p95_ms": 0.052
+      },
+      "hybrid-structural": {
+        "median_ms": 0.183,
+        "p95_ms": 0.395
+      },
+      "binary-similarity": {
+        "median_ms": 2.378,
+        "p95_ms": 3.153
+      }
+    },
+    "compile_and_extract_wall_seconds": 63.5,
+    "failed_compiles": 0,
+    "binary_baseline_reference_binaries": 600
+  },
+  "source_refactored": {
+    "normalized-source-hash": {
+      "n": 500,
+      "recall@1": 0.068,
+      "recall@10": 0.068,
+      "mrr": 0.068,
+      "lineage@1": 0.082
+    },
+    "winnowing-only": {
+      "n": 500,
+      "recall@1": 0.048,
+      "recall@10": 0.162,
+      "mrr": 0.0772,
+      "lineage@1": 0.064
+    },
+    "exact-strings": {
+      "n": 500,
+      "recall@1": 0.616,
+      "recall@10": 0.744,
+      "mrr": 0.6736,
+      "lineage@1": 0.702
+    },
+    "hybrid-structural+winnow": {
+      "n": 500,
+      "recall@1": 0.82,
+      "recall@10": 0.962,
+      "mrr": 0.882,
+      "lineage@1": 0.956
+    }
+  },
+  "config": {
+    "n_targets": 500,
+    "index_size": 10000,
+    "n_ood": 400,
+    "n_ip": 200,
+    "lineage_frac": 0.3,
+    "binary_baseline_refs": 600,
+    "common_frac": 0.8,
+    "seed": 11,
+    "workers": 4,
+    "out": "bench/results/boilerplate_heavy",
+    "workdir": "/tmp/provbench-deql_euj"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.12.113+-x86_64-with-glibc2.39",
+    "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+    "clang": "Ubuntu clang version 18.1.3 (1ubuntu1)",
+    "cpus": 4,
+    "wall_seconds": 94.1
+  }
+}
