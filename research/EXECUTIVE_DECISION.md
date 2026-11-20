@@ -1,6 +1,45 @@
 # EXECUTIVE DECISION
 
-## Decision: **PIVOT** — to malware-RE training environments and evaluations for frontier labs, with Safeguards SME services (**PILOT FIRST**)
+## Decision: **PIVOT** — to independent cyber-misuse assurance for frontier labs (**PILOT FIRST**)
+
+**Cycle 6 (doc 17) added the criterion "a frontier lab must have trouble replicating it."** Everything offered to labs in Cycles 1–5 failed that test. Tools, data, RE talent and evaluation content can all be hired, built or bought. Labs already do provenance in-house (E55, E57), in-house environments (E69), and co-author RE benchmarks (E72).
+
+| Option | Status |
+|---|---|
+| **W: independent cyber-misuse assurance for frontier labs.** After deployment (V): monitor malware, stolen keys and LLM mixers across providers, and turn victim-consented incident evidence into provider-neutral packets shaped for EU Code Measure 9.2. Before deployment (R): independent malware-RE evaluations from a private task bank. | **PILOT FIRST.** Weighted **3.85** (old weights) / **4.00** (with a 15% lab-replication criterion), the highest in six cycles. Persona Round 6: **9/12** at ≥ 4. **No consensus**; BUILD withheld. |
+| Q = N + M (Cycle 5) | **Fallback.** Lab replication difficulty 2, so it drops to 3.45 under the new weights. N's task bank becomes W's pre-deployment component. |
+| F: IP code-reuse investigation | RESEARCH FIRST, second fallback |
+
+### Cycle 6 in brief
+
+- **What a lab cannot replicate** (I19):
+  - **Independence from itself.** EU GPAI Code Appendix 3.5 requires independent external evaluators and bars training on their test runs (E79). SB 53 requires disclosing third-party assessment (E83).
+  - **Victim-side presence.** Responders see the victim network; the lab sees only its platform (E84, E57).
+  - **Neutrality across competitors.** Stolen keys are resold across 30+ providers through "LLM mixers" (E85).
+  - **Activities labs avoid**, such as handling victim incident evidence.
+- **The regulatory slot is written down.**
+  - Measure 3.5 lists "monitoring … known malware, public forums" and "provenance techniques" as post-deployment monitoring methods, and grants independent evaluators access for that monitoring (E80).
+  - Measure 9.2 incident reports need "material … setting out the model's involvement" (E81).
+  - OpenAI, Anthropic, Google, Microsoft, Amazon and Mistral signed the full Code; xAI signed the Safety and Security chapter (E82).
+- **Built and measured:** `provenance/incident_packet.py` builds consent-gated, provider-neutral packets. On 200 synthetic incidents (E89):
+  - 0 cross-provider leaks and 100% routing of indicators to the right provider;
+  - 0 leaks of credentials, IPs, emails, internal hosts, accounts and user paths;
+  - **unlisted personal names leak 400/400 and victim-owned external hosts leak 200/200**. These require a victim-supplied term list and human review;
+  - the first run leaked IPv6 200/200, which is now fixed.
+- **Honest limit:** W is hard for labs to replicate, not for incumbents. Google (lab + Mandiant + VirusTotal), Unit 42 and TI vendors each hold part of it (P34, P37). Pseudonymised packets are still personal data (E88).
+- **Why no consensus (9/12):**
+  - Privacy Counsel needs a written DPIA and lawful-basis opinion (X16).
+  - Skeptical VC needs a paid pilot or LOI from a non-Google signatory (X15).
+  - Supply-Chain Researcher represents a different market.
+- **Next:**
+  - X13: the evaluator route via signatories' Appendix 3.5 criteria and public calls.
+  - X14: 5 IR firms or insurers for edge-mode packet building on consented cases.
+  - X15: 8 non-Google signatory conversations.
+  - X16: counsel.
+  
+  Then persona Round 7 (doc 13, Cycle 6 track).
+
+### Cycle 5 result (now the fallback, and W's task-bank component)
 
 **Cycle 5 (doc 16) kept pivoting toward persona consensus.** The result:
 
@@ -194,6 +233,9 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | **N RE environments for labs (Round 5)** | **3.5** | **6 / 12** |
 | **Q = N + M (Round 5)** | **4** | **7 / 12** (Abuse Investigator, Infra, RE, ML, Detection, Forensics, GTM) |
 | O agent/MCP supply chain; P model scanning | 2.5; 2 | 1 / 12; 0 / 12 |
+| V independent post-deployment cyber-misuse monitor (Round 6) | 4 | 7 / 12 |
+| **W = V + R, after iterations 19–23 (Round 6)** | **4** | **9 / 12** (all except Privacy Counsel, Supply-Chain, VC) |
+| R alone / S alone / T / U (Cycle 6) | — | 6 / 5 / 2 / 1 of 12 |
 | H / I / J / K / L (Cycle 4 components) | 3 / 3 / 3 / 2 / 2 | 2 / 2 / 1 / 0 / 0 |
 
 - **No configuration reached consensus** (gate: ≥ 10/12 at ≥ 4). M is the first to pass the importance gate and the no-critical-legal-blocker gate.
@@ -206,6 +248,9 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 |---|---|
 | Rejecting the original concept as a company | **Moderate–High** (convergent public evidence E02–E10 + E30b) |
 | F as the best pivot direction | **Low** (Cycle 3: prior art, real-world performance gap, and EU legal limits. On the decision matrix F now scores 2.65 vs C's 2.85 on known criteria, within noise.) |
+| W's moat against **labs** (independence, victim-side and cross-provider evidence) | **Moderate–high** (primary texts E79–E83; E84, E85) |
+| W's moat against **incumbents** (Google/Mandiant, Unit 42, TI vendors) | **Low** (H22; absence-of-evidence only, I23) |
+| Labs buying W from a small specialist | **Low** (A45, A47, A51 untested; no buyer contact) |
 | Q (RE environments + Safeguards services) as the best path to selling to frontier labs | **Moderate** for the budget and capability gap (E68–E75); **low** for this founder winning it (A38, A43, A44 untested; no buyer contact). |
 | M (lab SME services) alone | **Low–moderate.** Need and buying channel are evidenced (E55–E61); WTP for this specific work, novelty of findings, and founder credibility are untested (A30–A33). |
 | Any revenue forecast | **None made.** Insufficient evidence. |
@@ -215,8 +260,9 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | Option | Status |
 |---|---|
 | Original concept | **STOP** |
-| **Q = N + M (Cycle 5)** | **PILOT FIRST**: X9–X11 (doc 13, Cycle 5 track) plus X5/X6 for the M component |
-| **Overall** | **PIVOT** to Q at PILOT FIRST, with F at **RESEARCH FIRST** as the fallback. If X10 fails, fall back to M (if X5/X6 pass), then F, then STOP. |
+| **W (Cycle 6)** | **PILOT FIRST**: X13–X16 (doc 13, Cycle 6 track); X5 feeds monitoring, X9 feeds the evaluation bank |
+| Q = N + M (Cycle 5) | Fallback: X9–X11 (doc 13, Cycle 5 track) |
+| **Overall** | **PIVOT** to W at PILOT FIRST. If X15 fails, fall back to Q, then F (RESEARCH FIRST), then STOP. |
 | G | **Not pursued** (membership-inference FPR 0.10; E48) |
 | C / E | **BLOCKED** pending founder asset validation |
 | D | **STOP** |
@@ -247,7 +293,7 @@ Build investment is locked behind Gates 1–3 (doc 13).
 | Doc | Content |
 |---|---|
 | 01 | Intelligence requirements (PIR-1…12) |
-| 02 | Evidence ledger (E01–E78, I01–I18) |
+| 02 | Evidence ledger (E01–E89, I01–I23) |
 | 03 | Competitive landscape |
 | 04 | Analysis of Competing Hypotheses (H1–H8) |
 | 05 | Key assumptions, premortem, red team, signposts |
@@ -265,4 +311,6 @@ Build investment is locked behind Gates 1–3 (doc 13).
 
 | 16 | Cycle 5: pivot loop toward consensus. PIR-17–19, E68–E78, ACH H14–H17, KAC A37–A44, premortem P28–P33, red team, persona Round 5 with a consensus-ceiling table, iterations 14–18, matrix N–Q, X9–X11 |
 
-Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators), `re_tasks/` (verifiable malware-RE task generator, grader and baselines), `bench/` (benchmark harnesses and results), `tests/`.
+| 17 | Cycle 6: what labs cannot replicate. PIR-20–22, E79–E89, replicability test across all candidates, ACH H18–H22, KAC A45–A52, premortem P34–P39, red team, persona Round 6, iterations 19–23, matrix under two weightings, X12 measured, X13–X16 |
+
+Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators; `incident_packet.py` for consent-gated, provider-neutral incident evidence packets), `re_tasks/` (verifiable malware-RE task generator, grader and baselines), `bench/` (benchmark harnesses and results), `tests/`.
