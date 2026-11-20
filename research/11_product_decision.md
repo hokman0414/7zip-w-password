@@ -35,6 +35,9 @@ Each iteration records the objection, its type, the falsifiable test, the eviden
 | 26 | Z | "Small banks can't support claims" | Technical | X20 power check | E95 | Supported | Expert task families, ≥ 40 instances each per customer; CIs; refuse unsupported claims |
 | 27 | Z | "Conflicted if you sell training data" | Ethical / legal | AI Office criterion | E90 | Supported | No N sales to evaluated labs; revenue cap |
 | 28 | Z | "Grading working malware is dual-use" | Legal | Safe handling mode? | X11 pending | Open | Isolated sandbox, benign targets, no output release |
+| 29 | Z | "Already done" (competitor check) | Competitive | Who sells malware-RE evaluations and uplift adjudication? | E97–E100 | Supported: General Analysis, Irregular, HackerOne/FMF | Z differentiation 3 → 1 (3.70 new weights); vote no longer supported |
+| 30 | Ten new ideas AB–AK (doc 19) | "Someone already does it" | Competitive | Live search per idea | E101–E116 | AJ fails G-solo; AC, AF, AG, AI, AK crowded or free | Only AD (robustness testing of AI malware analysis) has no specialist |
+| 31 | AD | "Static detection is enough" | Technical | Detector benchmark | E117 | Refuted for cover stories (0/30) and spacing (0/42) | Verdict-level testing with model runs (X22) |
 
 ## Decision matrix
 
@@ -168,3 +171,11 @@ Founder feedback (E96): W's post-deployment half is DDW collection plus a victim
 - Persona Round 7: Z 8/12. **No consensus.** BUILD withheld until X17–X19 and X11 pass.
 - Conflict rule: no N sales to labs Z evaluates (E90).
 - Fallbacks: M, then F, then STOP.
+
+## Cycle 8 update — Z is crowded; ten more ideas (doc 19)
+
+Competitors already sell both halves of Z (doc 18 §15). Ten new ideas were screened (doc 19 §3). The best company-shaped one is **AD, adversarial-robustness testing of AI malware-analysis pipelines**, at 3.45. AB (expert-marketplace work) scores 3.70 but is an income path, not a company.
+
+**Persona Round 8:** AB + AD 7/12, AD 7/12, AB 4/12. No consensus.
+
+**Decision: do AB now as income, and take AD to PILOT FIRST** (X22 model runs, X23 vendor sprint offers). Fallbacks: AE, then M, then STOP.

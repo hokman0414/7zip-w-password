@@ -186,3 +186,21 @@ Living ledger. Every claim in the other documents cites an `E-` identifier from 
 | E100 | Uplift adjudication is standardised (Anthropic CJS scale; FMF Jailbreak Rating Framework) and HackerOne independently assesses Anthropic's cyber-jailbreak submissions | [Anthropic](https://www.anthropic.com/news/fable-safeguards-jailbreak-framework); [FMF](https://www.frontiermodelforum.org/specifications/jailbreak-rating-framework-for-frontier-cyber-threats/) | A/B | F |
 
 I23 and I26 are **refuted** by E97–E100.
+
+## Cycle 8 (doc 19 §2)
+
+E101–E117 cover the following, with full sources in doc 19:
+- AI-analysis-evasion malware in the wild: Talos A3, Gaslight, GuardBreaker.
+- ALIBI's verdict flips on frontier models.
+- Project Ire's metrics.
+- AMTSO's agentic testing scope.
+- Generic AI red-team services.
+- The AI SOC vendor count.
+- Expert-marketplace rates.
+- Free detection content, training, MCP tooling and safeguard datasets.
+- Expert-witness firms.
+- The uncensored-model ecosystem.
+- AI incident-response firms.
+- Our detector benchmark.
+
+New inference **I28:** the only idea in Cycle 8 without a specialist competitor is AD. That rests on absence of evidence, so confidence is low.

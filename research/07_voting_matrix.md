@@ -264,3 +264,23 @@ W (Round 6, 9/12) is withdrawn: the founder reports its post-deployment half is 
 | | **Median / ≥ 4** | **4 / 8** | |
 
 **Gates (Z):** ≥ 10/12 **fail (8/12)**; legal blocker open, not critical (X11); importance gate pass (CISO 4, Abuse Investigator 4); buyer/process pass on paper. **No consensus. No votes were adjusted.** Others: R alone 6/12, Y2 alone 6/12.
+
+## Round 8 — AB + AD: expert supply as income, plus AI-analysis-evasion robustness testing (doc 19 §7)
+
+| # | Persona | AB+AD | AB | AD |
+|---|---|---|---|---|
+| 1 | Abuse Investigator | **4** | 3 | **4** |
+| 2 | T&S Eng Lead | 3 | 3 | 3 |
+| 3 | Infra Architect | **4** | **4** | **4** |
+| 4 | Malware RE | **5** | **4** | **5** |
+| 5 | ML Scientist | 3 | 3 | 3 |
+| 6 | Supply-Chain Researcher | 3 | 2 | 3 |
+| 7 | Detection Eng Lead | **4** | 3 | **4** |
+| 8 | Forensics Investigator | **4** | 3 | **4** |
+| 9 | Privacy Counsel | **4** | **4** | **4** |
+| 10 | AI Security CISO | **4** | 3 | **4** |
+| 11 | Procurement/GTM | 3 | **4** | 3 |
+| 12 | Skeptical VC | 2 | 1 | 2 |
+| | **Median / count ≥ 4** | **4 / 7** | **3 / 4** | **4 / 7** |
+
+**Gates:** ≥ 10/12 fail (7/12); ML and RE agreement on validation fails (no model runs yet); importance gate pass; buyer and process partial. **No consensus. No votes were adjusted.** Z's Round 7 result (8/12) is superseded by the competitor evidence (E97–E100).

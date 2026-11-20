@@ -99,3 +99,16 @@ This replaces the Cycle 6 track. W is withdrawn on founder feedback (E96); W0 (`
 | Z4 | Only then: contracted pre-release evaluations; second customer before any customer exceeds ~50% of revenue | — | — |
 
 Re-vote (Round 8) after Z3.
+
+## Cycle 8 track — AB now, AD at PILOT FIRST (doc 19)
+
+Z0–Z4 are paused: Z is crowded (doc 18 §15).
+
+| Step | What | Pass signal |
+|---|---|---|
+| AB1 | Apply to malware-RE expert pools and to the evaluators in doc 18 §15 | Paid work |
+| AD0 | `re_tasks/injection.py` generator, detector and harness (done) | Detector weaknesses measured (E117) |
+| AD1 (X22) | `flip_report` on 3 local open-weight models; strict and soft flips by family and encoding | Material flips, including on detector-evading encodings |
+| AD2 (X23) | Five AI-triage vendor conversations offering a fixed-price robustness sprint | ≥ 1 paid or LOI; otherwise fall back to AE, then M, then STOP |
+
+Re-vote (Round 9) after AD2.

@@ -178,3 +178,7 @@ PIR-1 and PIR-5 are re-answered for a *services* offer in doc 15. The original n
 | PIR-22 | Who else can replicate it? | Google (lab + Mandiant + VirusTotal), IR firms, TI vendors each cover part; no provider-neutral offer found (I22, I23) | Low–moderate |
 | PIR-23 | Which non-replicable moat can one founder deliver without a collection or supply network? (Cycle 7, doc 18) | Independence as an evaluator (E90, E91) | Moderate |
 | PIR-24 | Where do labs need malware-RE judgement they would rather not grade themselves? | Whether an output is functional malware beyond public tools (E92, E93) | Low–moderate |
+
+## Cycle 8
+
+- **PIR-25:** which offer that a solo malware-RE founder can deliver has a documented, growing need and no specialist already selling it? See doc 19.

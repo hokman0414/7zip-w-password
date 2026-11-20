@@ -1,6 +1,43 @@
 # EXECUTIVE DECISION
 
-## Decision: **PIVOT** — to an independent malware-capability evaluator for frontier labs (**PILOT FIRST**)
+## Decision: **PIVOT**. Do malware-RE expert work now as income (AB), and take adversarial-robustness testing of AI malware-analysis pipelines (AD) to **PILOT FIRST**
+
+**Cycle 8 (doc 19): Z is already offered by others** (doc 18 §15):
+- malware-RE capability evaluations: General Analysis MalwareBench, Irregular, Dreadnode, the AISIs;
+- uplift adjudication: Anthropic's CJS scale with HackerOne, and the FMF framework.
+
+Ten more ideas were screened against live competitor searches (doc 19 §3).
+
+| Option | Status |
+|---|---|
+| **AD: adversarial-robustness testing of AI malware-analysis pipelines.** A corpus of AI-analysis-evasion text plus a verdict-flip harness, sold as fixed-price test sprints and regression suites to vendors whose triage uses LLMs. Labs come in only as a secondary buyer, because their models act as the analysts. | **PILOT FIRST.** Weighted 3.45, the best idea that is a company. Round 8: 7/12. **No consensus.** |
+| **AB: malware-RE expert work through AI-training marketplaces and evaluators** | **Do now as income** (3.70, but a job, not a company) |
+| Z (Cycle 7) | Downgraded: differentiation 3 → 1 (3.70 new weights); its vote is superseded |
+| AE public comparative tests | First fallback; then M; then STOP |
+| AC, AF, AG, AH, AI, AK | Crowded, free, or credential-gated (doc 19 §3) |
+| AJ | Knocked out by G-solo (24/7 incident response) |
+
+### Cycle 8 in brief
+
+- **Need (facts):**
+  - Malware already embeds text aimed at AI triage: Talos A3 (84 samples in 4 families), SentinelOne's Gaslight, and ESET's GuardBreaker (E101–E103).
+  - ALIBI's cover stories flip 30/35 malicious verdicts on Gemini 2.5 Pro and cause large downgrades on GPT-5.5 Pro and Claude Opus 4.7. Deployed products were never tested (E104).
+- **Competition:**
+  - Generic AI red-teamers (HackerOne, IronSOC, Arcanum) test prompt injection in general (E107).
+  - No specialist in robustness testing of AI malware analysis was found. That is absence of evidence, so low confidence (I28).
+  - AV-Comparatives or SE Labs could enter quickly (P45).
+- **Built and measured (`re_tasks/injection.py`, E117):** a static detector for evasion text, the defence Talos recommends.
+  - It catches 83% of plain ASCII payloads.
+  - It catches **0/30 cover stories, 0/42 spaced-letter payloads and 2/42 homoglyph payloads**.
+  - False positives: 2/5,000 real benign files (10 before a line-splitting fix).
+  - No LLM was run, so flip rates are not reported.
+- **Next:**
+  - X22: run flip rates on 3 local open-weight models.
+  - X23: five vendor sprint offers; zero paid or LOI means fall back.
+- **Goal drift:** AD sells mainly to security vendors. The frontier-lab angle survives only as an evaluation add-on.
+
+### Cycle 7 result (Z, now downgraded)
+
 
 **Cycle 7 (doc 18): the founder rejected W's post-deployment half as unrealistic.** Monitoring stolen keys and access markets is deep- and dark-web (DDW) collection (KELA's and Flashpoint's business), and the incident bridge needs incident-response firms to supply cases (E96). A new knockout gate requires that the founder plus at most two contractors can deliver the offer without a collection or supply network. What survives is the one lab-proof moat that needs no network: **independence**.
 
@@ -350,4 +387,6 @@ Build investment is locked behind Gates 1–3 (doc 13).
 
 | 18 | Cycle 7: founder-feasibility gate (W withdrawn), PIR-23–24, E90–E96, ACH H23–H26, KAC A53–A58, premortem P40–P44, red team, persona Round 7, iterations 24–28, matrix, X20 measured, X17–X19 |
 
-Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators; `incident_packet.py` for consent-gated, provider-neutral incident evidence packets), `re_tasks/` (verifiable malware-RE task generator, grader and baselines; `evaluate.py` for evaluator controls: confidence intervals, canaries, per-customer partitions), `bench/` (benchmark harnesses and results), `tests/`.
+Cycle 8 document: `research/19_cycle8_ten_more_ideas.md`.
+
+Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators; `incident_packet.py` for consent-gated, provider-neutral incident evidence packets), `re_tasks/` (verifiable malware-RE task generator, grader and baselines; `evaluate.py` for evaluator controls: confidence intervals, canaries, per-customer partitions; `injection.py` for AI-analysis-evasion carriers, a detector and a verdict-flip harness), `bench/` (benchmark harnesses and results), `tests/`.
