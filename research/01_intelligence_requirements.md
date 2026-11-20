@@ -8,6 +8,7 @@ Two collection cycles were run:
 
 - **Cycle 1** covered the original proposal: AI-provider binary-to-generation-session attribution.
 - **Cycle 2** was triggered by Cycle 1 gate failures and the tasking addendum on IP investigation. It covered proprietary-code reuse in other products. It added PIR-9 and PIR-10.
+- **Cycle 3** was triggered by the tasking to use real research papers on IP tracking. It added PIR-11 (what peer-reviewed research shows about detecting proprietary code in other products, on real data) and PIR-12 (which legal frameworks govern that evidence). See doc 14.
 
 **Collection limits.** No interviews were held, and no provider or customer was contacted. There was no access to private conversations, real malware, the founder's model, or the founder's datasets (E01). All market-demand evidence is therefore indirect.
 
@@ -135,3 +136,21 @@ Summary (full list in docs 05 and 08):
 | Contradicting evidence | Matching is only as good as the surviving features; obfuscation still defeats it (E30). Evidence admissibility requires expert explanation and exclusion of alternative explanations (E21). Acquiring third-party binaries for scanning raises licensing and anti-reverse-engineering questions (EULAs; jurisdiction-specific). |
 | Confidence | **Moderate** technical. **Low–moderate** legal (needs counsel). |
 | Collection requirements | Counsel opinion on lawful acquisition and analysis of third-party binaries. Expert-witness feedback on whether output would support a complaint. |
+
+## PIR-11 — What does peer-reviewed research show about detecting proprietary code in other products, on real data?
+
+| Field | Content |
+|---|---|
+| Supporting evidence | A mature field (E38, E39). A retrieve-then-verify architecture reaches 93.7% recall / 97.6% precision on real stripped C/C++ binaries, and 91.0% / 91.9% with a local open-weight model (E36). |
+| Contradicting evidence | Similarity-scoring tools average < 60% recall and ≈ 75% precision on real binaries (E35). B2SFinder, the design closest to ours, reaches 19.9% / 47.9% (E36). Domain-specific code scores < 45% (E37). |
+| Confidence | **High** that scoring alone is insufficient. **Moderate** that verification closes the gap for proprietary code (I08 untested). |
+| Collection requirements | Revised X1 (doc 14 §8) |
+
+## PIR-12 — Which legal frameworks govern collecting and presenting such evidence?
+
+| Field | Content |
+|---|---|
+| Findings (context, not advice) | US: abstraction–filtration–comparison filters out unprotectable elements (E50 Altai). Disassembly is fair use only when fact-specific (Sega). §1201(f) covers interoperability only. EU: decompilation is permitted only for interoperability (Dir. 2009/24/EC Art. 6). Observe/study/test while running is protected (Art. 5(3); C-406/10). |
+| Implication | A16 is more severe for the EU. Products need filtration-ready reports and a lawful acquisition and analysis mode chosen by counsel. |
+| Confidence | Moderate (primary sources read; no counsel opinion) |
+| Collection requirements | X3 counsel opinion |
