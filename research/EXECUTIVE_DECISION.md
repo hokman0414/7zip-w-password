@@ -1,6 +1,36 @@
 # EXECUTIVE DECISION
 
-## Decision: **PIVOT** — to independent cyber-misuse assurance for frontier labs (**PILOT FIRST**)
+## Decision: **PIVOT** — to an independent malware-capability evaluator for frontier labs (**PILOT FIRST**)
+
+**Cycle 7 (doc 18): the founder rejected W's post-deployment half as unrealistic.** Monitoring stolen keys and access markets is deep- and dark-web (DDW) collection (KELA's and Flashpoint's business), and the incident bridge needs incident-response firms to supply cases (E96). A new knockout gate requires that the founder plus at most two contractors can deliver the offer without a collection or supply network. What survives is the one lab-proof moat that needs no network: **independence**.
+
+| Option | Status |
+|---|---|
+| **Z: independent malware-capability evaluator.** (1) Capability evaluations: can a model analyse and build malware-grade components, scored on a private, canary-stamped, deterministically graded task bank. (2) Uplift adjudication: expert RE judgement of whether red-team or bounty outputs are *working* malware "beyond … publicly available tools" (E92). Sold to labs under EU Code App. 3.5, the AI Office's Network of Evaluators, AISIs, and bounty or arena platforms. | **PILOT FIRST.** Weighted **3.70** (old) / **3.90** (new), the best among feasible candidates. Persona Round 7: **8/12** at ≥ 4. **No consensus**; BUILD withheld. |
+| W (Cycle 6) | **Withdrawn** (E96). Its 3.85 / 4.00 and 9/12 assumed networks the founder lacks. `incident_packet` is kept as reference code. |
+| N/Q (Cycle 5) | Not sold to any lab Z evaluates (financial-influence conflict, E90) |
+| M (Cycle 4) | First fallback; F second; then STOP |
+
+### Cycle 7 in brief
+
+- **Why labs can't do it themselves:** the AI Office (Oct 2026) requires evaluators to be "free from the provider's managerial, financial or operational influence" (E90). That rules out in-house work and captive spin-outs.
+- **Why the founder can do it alone:** it needs RE skill, a task bank (`re_tasks`, built) and conflict-free revenue. It does not need sources, personas or victim data. There is an entry route: the AI Office recruits evaluators through public calls into a Network of Evaluators, selecting on evaluation track record (E91).
+- **Niche against incumbents:** public safeguard tests mostly score text for "usable operational details" (E93), while the bounty bar is *working* malware beyond public tools (E92). Irregular covers network and exploitation evaluations (E87). Whether anyone pays for outside adjudication is untested (A55, X19).
+- **Built and measured (X20):** `re_tasks/evaluate.py` adds Wilson 95% intervals, a significance gate, per-bank canaries and disjoint per-customer partitions.
+  - 180/180 tasks were canary-stamped and none of 540 solver outputs contained the canary; partitions were disjoint.
+  - **Per-customer privacy costs power:** with about 20 tasks per level per lab, 100% vs 90% is not distinguishable (p = 0.15), and a perfect 17/17 only supports ≥ 82%. Expert time must go into task families, with generated instances.
+- **Why no consensus (8/12):**
+  - Abuse Investigator: Z no longer touches enforcement.
+  - Privacy Counsel: needs a dual-use and export-control opinion (X11).
+  - Skeptical VC: needs a paid pilot (X19).
+  - Supply-Chain Researcher: represents a different market.
+- **Next:**
+  - X17: three expert task families, evaluated on local open-weight models, with the methods published.
+  - X18: apply to the AI Office's evaluator network, one lab's published criteria, and UK AISI.
+  - X19: an uplift-adjudication pilot.
+  - X11: counsel.
+
+### Cycle 6 result (W, now withdrawn)
 
 **Cycle 6 (doc 17) added the criterion "a frontier lab must have trouble replicating it."** Everything offered to labs in Cycles 1–5 failed that test. Tools, data, RE talent and evaluation content can all be hired, built or bought. Labs already do provenance in-house (E55, E57), in-house environments (E69), and co-author RE benchmarks (E72).
 
@@ -234,7 +264,8 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | **Q = N + M (Round 5)** | **4** | **7 / 12** (Abuse Investigator, Infra, RE, ML, Detection, Forensics, GTM) |
 | O agent/MCP supply chain; P model scanning | 2.5; 2 | 1 / 12; 0 / 12 |
 | V independent post-deployment cyber-misuse monitor (Round 6) | 4 | 7 / 12 |
-| **W = V + R, after iterations 19–23 (Round 6)** | **4** | **9 / 12** (all except Privacy Counsel, Supply-Chain, VC) |
+| W = V + R, after iterations 19–23 (Round 6; withdrawn in Cycle 7, E96) | 4 | 9 / 12 |
+| **Z independent malware-capability evaluator (Round 7)** | **4** | **8 / 12** (all except Abuse Investigator, Supply-Chain, Privacy Counsel, VC) |
 | R alone / S alone / T / U (Cycle 6) | — | 6 / 5 / 2 / 1 of 12 |
 | H / I / J / K / L (Cycle 4 components) | 3 / 3 / 3 / 2 / 2 | 2 / 2 / 1 / 0 / 0 |
 
@@ -248,6 +279,9 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 |---|---|
 | Rejecting the original concept as a company | **Moderate–High** (convergent public evidence E02–E10 + E30b) |
 | F as the best pivot direction | **Low** (Cycle 3: prior art, real-world performance gap, and EU legal limits. On the decision matrix F now scores 2.65 vs C's 2.85 on known criteria, within noise.) |
+| Z's moat against labs (mandated independence, E90) | **Moderate–high** |
+| Founder can deliver Z alone | **Moderate** (no network needed; track record must be built, X17) |
+| Anyone pays for outside uplift adjudication | **Low** (A55 untested) |
 | W's moat against **labs** (independence, victim-side and cross-provider evidence) | **Moderate–high** (primary texts E79–E83; E84, E85) |
 | W's moat against **incumbents** (Google/Mandiant, Unit 42, TI vendors) | **Low** (H22; absence-of-evidence only, I23) |
 | Labs buying W from a small specialist | **Low** (A45, A47, A51 untested; no buyer contact) |
@@ -260,9 +294,10 @@ Overall attractiveness is scored 1–5 by 12 personas (doc 07). Medians of the o
 | Option | Status |
 |---|---|
 | Original concept | **STOP** |
-| **W (Cycle 6)** | **PILOT FIRST**: X13–X16 (doc 13, Cycle 6 track); X5 feeds monitoring, X9 feeds the evaluation bank |
+| **Z (Cycle 7)** | **PILOT FIRST**: X17–X19 and X11 (doc 13, Cycle 7 track) |
+| W (Cycle 6) | **Withdrawn**: the founder cannot run its collection and supply networks (E96) |
 | Q = N + M (Cycle 5) | Fallback: X9–X11 (doc 13, Cycle 5 track) |
-| **Overall** | **PIVOT** to W at PILOT FIRST. If X15 fails, fall back to Q, then F (RESEARCH FIRST), then STOP. |
+| **Overall** | **PIVOT** to Z at PILOT FIRST. If X19 fails, fall back to M, then F (RESEARCH FIRST), then STOP. No N sales to labs Z evaluates. |
 | G | **Not pursued** (membership-inference FPR 0.10; E48) |
 | C / E | **BLOCKED** pending founder asset validation |
 | D | **STOP** |
@@ -293,7 +328,7 @@ Build investment is locked behind Gates 1–3 (doc 13).
 | Doc | Content |
 |---|---|
 | 01 | Intelligence requirements (PIR-1…12) |
-| 02 | Evidence ledger (E01–E89, I01–I23) |
+| 02 | Evidence ledger (E01–E96, I01–I27) |
 | 03 | Competitive landscape |
 | 04 | Analysis of Competing Hypotheses (H1–H8) |
 | 05 | Key assumptions, premortem, red team, signposts |
@@ -313,4 +348,6 @@ Build investment is locked behind Gates 1–3 (doc 13).
 
 | 17 | Cycle 6: what labs cannot replicate. PIR-20–22, E79–E89, replicability test across all candidates, ACH H18–H22, KAC A45–A52, premortem P34–P39, red team, persona Round 6, iterations 19–23, matrix under two weightings, X12 measured, X13–X16 |
 
-Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators; `incident_packet.py` for consent-gated, provider-neutral incident evidence packets), `re_tasks/` (verifiable malware-RE task generator, grader and baselines), `bench/` (benchmark harnesses and results), `tests/`.
+| 18 | Cycle 7: founder-feasibility gate (W withdrawn), PIR-23–24, E90–E96, ACH H23–H26, KAC A53–A58, premortem P40–P44, red team, persona Round 7, iterations 24–28, matrix, X20 measured, X17–X19 |
+
+Code: `provenance/` (vertical slice; `llm_indicators.py` for LLM-enabled malware indicators; `incident_packet.py` for consent-gated, provider-neutral incident evidence packets), `re_tasks/` (verifiable malware-RE task generator, grader and baselines; `evaluate.py` for evaluator controls: confidence intervals, canaries, per-customer partitions), `bench/` (benchmark harnesses and results), `tests/`.
