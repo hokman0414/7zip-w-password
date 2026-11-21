@@ -163,6 +163,29 @@ def cmd_plan_orders(a, s):
     print(json.dumps(plan | {"path": str(path)}, indent=2, default=str))
 
 
+def cmd_parse_request(a, s):
+    from .playbook import load_rules, parse_request, sat_index, save_rules, size_request
+    text = Path(a.file).read_text() if a.file else a.text
+    intents = parse_request(text or "")
+    holdings = []
+    if a.portfolio:
+        doc = json.loads(Path(a.portfolio).read_text())
+        holdings = doc["positions"]["holdings"]
+    sat = {}
+    if s.db_path.exists():
+        from .db import Store
+        sat = sat_index(Store(s.db_path).latest_reports())
+    rules = load_rules(s)
+    sized = size_request(intents, holdings, sat, rules)
+    out = {"intents": intents, **sized, "fractions": rules["fractions"]}
+    path = s.data_dir / "state" / "playbook_latest.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(out, indent=2))
+    if a.write_rules:
+        save_rules(s, rules)
+    print(json.dumps(out, indent=2))
+
+
 def cmd_record_executions(a, s):
     from .execution import record_executions
     results = json.loads(Path(a.results).read_text())
@@ -226,6 +249,12 @@ def main(argv=None):
     x.set_defaults(fn=cmd_validate_research)
     x = sub.add_parser("plan-orders", help="apply autotrade guardrails to today's proposals -> data/orders/<date>.json")
     x.set_defaults(fn=cmd_plan_orders)
+    x = sub.add_parser("parse-request", help="parse a trading prompt into SAT-sized orders; writes nothing to a broker")
+    x.add_argument("text", nargs="?", default="")
+    x.add_argument("--file")
+    x.add_argument("--portfolio", help="portfolio snapshot JSON; without it, every name is not held")
+    x.add_argument("--write-rules", action="store_true")
+    x.set_defaults(fn=cmd_parse_request)
     x = sub.add_parser("record-executions", help="store broker results for placed/skipped orders")
     x.add_argument("results")
     x.add_argument("--total-value", type=float)

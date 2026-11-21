@@ -1,0 +1,17 @@
+{
+  "fractions": {
+    "exit": 1.0,
+    "trim_thesis_fails": 0.5,
+    "trim_thesis_holds": 0.25,
+    "review": 0.0
+  },
+  "step": 0.25,
+  "move_threshold": 0.05,
+  "gaps": [
+    {
+      "as_of": "2026-11-21",
+      "source": "2026-11-20 fills",
+      "gap": "The BITU exit sold the whole position, which matches fraction 1.0. NBIS, CIFR and IREN were red-team failures and were cut in half, so a failed thesis now trims 0.5. DRAM had no company report and was also cut in half, so a named trim with no ACH or red-team result is unconfirmed and uses 0.5. A thesis that still stands trims 0.25. WDC, SNDK and WULF were not held. A later price move of 5% raises or cuts the failed-thesis fraction by 0.25."
+    }
+  ]
+}
