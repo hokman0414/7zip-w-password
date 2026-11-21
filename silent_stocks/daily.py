@@ -190,6 +190,12 @@ def write_brief(settings: Settings, run_id: str, now: datetime, watch: list[Comp
                   f"- Total ${risk['total_value']:,.2f}; cash ${risk['cash']:,.2f}; beta {risk['portfolio_beta']:.2f}; "
                   f"vol {risk['portfolio_vol']:.0%}; effective positions {risk['effective_positions']:.1f}",
                   f"- Method: {risk['method']}", ""] + [f"- **{f['symbol']}** {f['flag']}: {f['detail']}" for f in risk["flags"]] + [""]
+        rules_path = settings.data_dir / "state" / "playbook_rules.json"
+        if rules_path.exists():
+            rules = json.loads(rules_path.read_text())
+            gaps = rules.get("gaps") or []
+            if gaps:
+                lines += ["## Playbook gaps", ""] + [f"- {g['gap']}" for g in gaps[-3:]] + [""]
         if feedback:
             lines += ["## SAT feedback loop", ""]
             lines += [f"- {n}" for n in feedback.get("notes") or []]

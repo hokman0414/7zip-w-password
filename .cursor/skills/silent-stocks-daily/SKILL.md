@@ -1,9 +1,11 @@
 ---
 name: silent-stocks-daily
-description: Daily Silent Stocks run. Refreshes Robinhood market and portfolio snapshots through the Robinhood MCP, runs deep-research subagents, runs the 100-assignment pipeline and portfolio risk checks, then executes only guardrail-approved risk-reducing trades on the agentic Robinhood account. Use for the scheduled weekday run or when asked to "run the daily stock checks".
+description: Daily Silent Stocks run. Refreshes Robinhood market and portfolio snapshots through the Robinhood MCP, runs deep-research subagents, runs the 100-assignment pipeline and portfolio risk checks, then executes only guardrail-approved risk-reducing trades on the agentic Robinhood account. A named trading request uses the poteto-mode playbook first. Use for the scheduled weekday run or when asked to "run the daily stock checks".
 ---
 
 # Silent Stocks daily run
+
+A message that names a trade, a trim, an exit, a review, or fill feedback follows `.cursor/skills/poteto-mode/SKILL.md` and `silent-stocks parse-request` before this checklist. The steps below are the unattended weekday run.
 
 Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks` if a venv exists; otherwise run
 `python3 -m venv .venv && .venv/bin/pip install -q -e .` first. Times are America/New_York, and the schedule targets 09:45 ET on weekdays.
