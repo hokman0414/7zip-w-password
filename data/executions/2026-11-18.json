@@ -1,0 +1,14 @@
+[
+  {
+    "ref_id": "1695e7b8-ec14-5bca-bebd-721c6d68ca6d",
+    "symbol": "SPY",
+    "side": "buy",
+    "kind": "core_reinvest",
+    "status": "placed",
+    "reason": "filled at 732.28; idle cash above the reserve",
+    "order_id": "6afdbf7f-dbce-454b-95cf-283ad0ea1598",
+    "broker_state": "filled",
+    "usd": 400.0,
+    "recorded_at": "2026-11-18T15:09:03.884592+00:00"
+  }
+]

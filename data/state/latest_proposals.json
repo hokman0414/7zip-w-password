@@ -1,28 +1,7 @@
 {
- "run_id": "daily-20261116T155623Z",
- "created_at": "2026-11-16T15:56:23.923825+00:00",
+ "run_id": "daily-20261118T150505Z",
+ "created_at": "2026-11-18T15:05:05.544960+00:00",
  "proposals": [
-  {
-   "symbol": "AMD",
-   "side": "sell",
-   "quantity": 0.045136,
-   "est_value": 23.02,
-   "order_type": "market",
-   "from_weight": 0.0437,
-   "to_weight": 0.04,
-   "rationale": "realized vol 80% at 4.4%; high-vol cap 4%",
-   "kind": "risk_trim",
-   "status": "PROPOSED \u2014 requires human approval; not submitted",
-   "review_equity_order": {
-    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
-    "symbol": "AMD",
-    "side": "sell",
-    "type": "market",
-    "time_in_force": "gfd",
-    "market_hours": "regular_hours",
-    "quantity": "0.045136"
-   }
-  },
   {
    "symbol": "-",
    "side": "none",
@@ -33,7 +12,7 @@
   {
    "symbol": "SPY",
    "side": "buy",
-   "dollar_amount": 482.6,
+   "dollar_amount": 511.27,
    "order_type": "market",
    "rationale": "idle cash above the 5% reserve goes to the diversified core fund (beta ~1, capped at 20% weight)",
    "kind": "core_reinvest",
@@ -45,7 +24,7 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "dollar_amount": "482.60"
+    "dollar_amount": "511.27"
    }
   }
  ]
