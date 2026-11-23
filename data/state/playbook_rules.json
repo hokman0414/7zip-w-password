@@ -1,0 +1,27 @@
+{
+  "fractions": {
+    "exit": 1.0,
+    "trim_thesis_fails": 0.5,
+    "trim_thesis_holds": 0.25,
+    "review": 0.0
+  },
+  "step": 0.25,
+  "move_threshold": 0.05,
+  "gaps": [
+    {
+      "as_of": "2026-11-21",
+      "source": "2026-11-20 fills",
+      "gap": "The BITU exit sold the whole position, which matches fraction 1.0. NBIS, CIFR and IREN were red-team failures and were cut in half, so a failed thesis now trims 0.5. DRAM had no company report and was also cut in half, so a named trim with no ACH or red-team result is unconfirmed and uses 0.5. A thesis that still stands trims 0.25. WDC, SNDK and WULF were not held. The shared fraction moves by 0.25 only when the median move of that setup is 5% or more."
+    },
+    {
+      "as_of": "2026-11-22",
+      "source": "trim_thesis_fails",
+      "gap": "trim_thesis_fails median move -3.2% (NBIS -3.5%, CIFR -1.3%, IREN -4.7%, DRAM -2.9%). That is inside 5%, so the fraction stays 0.50."
+    },
+    {
+      "as_of": "2026-11-22",
+      "source": "sunday-overnight",
+      "gap": "Sunday 8:09 PM ET overnight prints were NBIS +3.4%, CIFR +6.1%, IREN +1.2%, DRAM +2.9% versus the Friday fills. CIFR alone crossed 5%. The shared fraction uses the Friday regular close, whose median was about -3%, so it stays 0.50. BITU's overnight print was 7.68 versus the 7.285 exit. The exit fraction stays 1.0. No position was over a cap. No order was sent because the market was closed."
+    }
+  ]
+}
