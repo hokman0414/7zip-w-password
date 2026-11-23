@@ -55,6 +55,20 @@ def test_a_trim_with_no_report_is_unconfirmed_and_uses_half():
     assert "unconfirmed" in order["rationale"]
 
 
+def test_one_name_does_not_move_the_shared_fraction():
+    rules = json_copy(DEFAULT_RULES)
+    fills = [
+        {"symbol": "CIFR", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 5.505},
+        {"symbol": "NBIS", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 84.2158},
+        {"symbol": "IREN", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 12.405},
+        {"symbol": "DRAM", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 34.3618},
+    ]
+    prices = {"CIFR": 5.84, "NBIS": 87.11, "IREN": 12.55, "DRAM": 35.36}
+    updated = learn_from_fills(rules, fills, prices, datetime(2026, 11, 22, tzinfo=timezone.utc))
+    assert updated["fractions"]["trim_thesis_fails"] == 0.5
+    assert "stays 0.50" in updated["gaps"][-1]["gap"]
+
+
 def test_a_drop_after_the_trim_raises_the_next_fraction():
     rules = json_copy(DEFAULT_RULES)
     updated = learn_from_fills(rules, [{

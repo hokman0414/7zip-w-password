@@ -21,7 +21,7 @@ The method is the day-trader skill at https://github.com/jakeschincariol/day-tra
 4. A name that is not held is a note, not an order. A review with no verb stronger than review is a note, not an order.
 5. Risk gate, same idea as trader-risk. An order that only reduces shares already held can go through. An entry still has to be in `data/orders` for today with `armed` true. Do not edit `config/autotrade.json`, `silent_stocks/execution.py`, or `silent_stocks/portfolio_risk.py` to make an order fit.
 6. Show each order on its own: symbol, side, shares, estimated dollars, the rule that set the fraction, and the quote disclosure. One yes covers one order. "Do trade" plus the named list is the yes for those orders and no others.
-7. After a fill, record it with `silent-stocks record-executions`. On the next request, compare the fill price with the new price. A move of 5% or more updates the fraction by 0.25 and appends a gap. Exit stays at 1.0.
+7. After a fill, record it with `silent-stocks record-executions`. On the next request, compare each fill with the last regular-session close. The shared fraction moves by 0.25 only when the median move of that setup is 5% or more. One name does not swing the rule. A closed-market overnight print is a note. Exit stays at 1.0.
 
 ## What changed after 2026-11-20
 

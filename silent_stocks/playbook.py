@@ -160,11 +160,20 @@ def size_request(intents: list[dict], holdings: list[dict], sat: dict[str, dict]
     return {"orders": orders, "notes": notes}
 
 
+def _median(values: list[float]) -> float:
+    ordered = sorted(values)
+    mid = len(ordered) // 2
+    if len(ordered) % 2:
+        return ordered[mid]
+    return (ordered[mid - 1] + ordered[mid]) / 2
+
+
 def learn_from_fills(rules: dict, fills: list[dict], prices_now: dict[str, float], now: datetime) -> dict:
-    """Move the trim fraction after a fill. A 5% drop raises it. A 5% rise cuts it. Exit stays 1."""
+    """Move one trim fraction from the median move of that setup. One name cannot swing the shared rule. Exit stays 1."""
     updated = json.loads(json.dumps(rules))
     step = float(updated.get("step", 0.25))
     threshold = float(updated.get("move_threshold", 0.05))
+    grouped: dict[str, list[tuple[str, float]]] = {}
     for fill in fills:
         if fill.get("side") != "sell" or fill.get("verb") == "exit":
             continue
@@ -175,23 +184,34 @@ def learn_from_fills(rules: dict, fills: list[dict], prices_now: dict[str, float
         entry = float(fill.get("fill_price") or 0)
         if not price or entry <= 0:
             continue
-        move = (price - entry) / entry
+        grouped.setdefault(rule, []).append((fill["symbol"], (price - entry) / entry))
+    for rule, rows in grouped.items():
+        median = _median([move for _, move in rows])
         before = updated["fractions"][rule]
-        if move <= -threshold:
+        detail = ", ".join(f"{symbol} {move:+.1%}" for symbol, move in rows)
+        if median <= -threshold:
             updated["fractions"][rule] = min(1.0, round(before + step, 2))
             direction = "fell"
-        elif move >= threshold:
+        elif median >= threshold:
             updated["fractions"][rule] = max(step, round(before - step, 2))
             direction = "rose"
         else:
+            updated.setdefault("gaps", []).append({
+                "as_of": now.date().isoformat(),
+                "source": rule,
+                "gap": (
+                    f"{rule} median move {median:+.1%} ({detail}). "
+                    f"That is inside 5%, so the fraction stays {before:.2f}."
+                ),
+            })
             continue
         after = updated["fractions"][rule]
         updated.setdefault("gaps", []).append({
             "as_of": now.date().isoformat(),
-            "source": fill["symbol"],
+            "source": rule,
             "gap": (
-                f"{fill['symbol']} {direction} {move:.0%} after the {fill.get('verb')} at {entry:.4f}. "
-                f"{rule} fraction {before:.2f} -> {after:.2f}."
+                f"{rule} median {direction} {median:+.1%} ({detail}). "
+                f"Fraction {before:.2f} -> {after:.2f}."
             ),
         })
     return updated
