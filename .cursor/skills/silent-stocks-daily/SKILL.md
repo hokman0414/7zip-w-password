@@ -16,7 +16,8 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
   or symbols outside the plan.
 - Never edit `config/autotrade.json`, `silent_stocks/execution.py` or `silent_stocks/portfolio_risk.py` during a run
   to loosen limits.
-- If `plan-orders` reports `armed: false`, place nothing. Report the `blocked_reasons`.
+- The words "do trade" are the yes for that run. Place every buy and every sell in `orders`. If `armed` is false only because `ROBINHOOD_AGENTIC_ACCOUNT` is unset, place `would_place_if_armed` with those params and `ref_id`s. Any other blocked reason means place nothing and report it. Do not ask for a second yes.
+- If `plan-orders` reports `armed: false` and the user did not say "do trade", place nothing. Report the `blocked_reasons`.
 - If any step fails or the data looks wrong, stop trading for the day and report what happened. Research and reports may still finish.
 - The account number comes only from the `ROBINHOOD_AGENTIC_ACCOUNT` env var. Never write it to a file, commit or message.
 - Mask account numbers as ••••last4 in any text.
@@ -83,8 +84,8 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
 
 ## 5. Guarded execution
 1. Run `silent-stocks plan-orders`, which writes `data/orders/<date>.json`.
-   - If `armed` is false, skip to step 6.
-2. Sells are included. A `risk_trim` is a sell, and sells are placed before buys. For each entry in `orders`:
+   - If the user said "do trade" and the only blocked reason is the unset account variable, use `would_place_if_armed`. Otherwise, if `armed` is false, skip to step 6.
+2. Sells are included. A `risk_trim` is a sell, and sells are placed before buys. For each entry in `orders`, or in `would_place_if_armed` when the sentence above says to use it:
    1. Call `review_equity_order`. Use the entry's `params`, but replace `account_number` with `ROBINHOOD_AGENTIC_ACCOUNT`.
    2. Skip the order and record `skipped` with a reason when any of these happens:
       - the review returns any `order_checks` or alerts;

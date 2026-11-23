@@ -1,0 +1,17 @@
+[
+  {
+    "ref_id": "ce842aa4-909c-5044-af55-2b6c9f2bef6e",
+    "symbol": "SPY",
+    "side": "buy",
+    "kind": "core_reinvest",
+    "status": "placed",
+    "reason": "core reinvest of idle cash, filled 0.552114 at 724.4875",
+    "order_id": "6b04a167-08a5-4391-be6f-01138c861ddf",
+    "broker_state": "filled",
+    "usd": 400.0,
+    "fill_price": 724.4875,
+    "fill_quantity": 0.552114,
+    "filled_at": "2026-11-23T20:26:15.845Z",
+    "recorded_at": "2026-11-23T20:26:44.435717+00:00"
+  }
+]
