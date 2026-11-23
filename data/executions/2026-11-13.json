@@ -7,8 +7,11 @@
     "status": "placed",
     "reason": "queued for the next regular-hours open; user confirmed the planned trim",
     "order_id": "6af78663-3ef1-4ee4-b337-691b8cbb9c23",
-    "broker_state": "queued",
-    "usd": 303.22,
+    "broker_state": "filled",
+    "fill_price": 354.13,
+    "fill_quantity": 0.85341,
+    "filled_at": "2026-11-16T14:30:00.378Z",
+    "usd": 302.22,
     "recorded_at": "2026-11-13T21:51:45.825057+00:00"
   },
   {
@@ -19,7 +22,10 @@
     "status": "placed",
     "reason": "queued for the next regular-hours open; user confirmed the planned core buy",
     "order_id": "6af78664-0991-4900-b15f-82c2c0c22bc1",
-    "broker_state": "queued",
+    "broker_state": "filled",
+    "fill_price": 749.64,
+    "fill_quantity": 0.533589,
+    "filled_at": "2026-11-16T14:30:01.328Z",
     "usd": 400.0,
     "recorded_at": "2026-11-13T21:51:45.825057+00:00"
   }
