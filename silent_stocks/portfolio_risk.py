@@ -120,6 +120,7 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
     full = [h for h in live if len(_rets(h.monthly_closes, h.price)) >= 11]
     port_vol = None
     clusters: list[list[str]] = []
+    correlation_pairs: list[dict] = []
     if len(full) >= 2:
         n = min(len(_rets(h.monthly_closes, h.price)) for h in full)
         R = np.array([_rets(h.monthly_closes, h.price)[-n:] for h in full])
@@ -127,6 +128,13 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
         cov = np.cov(R, ddof=1) * 12
         port_vol = float(sqrt(max(w @ cov @ w, 0.0)) / w.sum() * equity_w)
         corr = np.corrcoef(R)
+        for i in range(len(full)):
+            for j in range(i + 1, len(full)):
+                c = float(corr[i, j])
+                if not np.isfinite(c):
+                    continue
+                correlation_pairs.append({"a": full[i].symbol, "b": full[j].symbol, "corr": round(c, 3)})
+        correlation_pairs.sort(key=lambda p: abs(p["corr"]), reverse=True)
         seen: set[int] = set()
         for i in range(len(full)):
             if i in seen:
@@ -163,7 +171,8 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
     return {"total_value": total, "cash": cash, "cash_spendable": min(cash, float(bp)) if bp is not None else cash,
             "crypto_value": float(port.get("crypto_value") or 0),
             "holdings": holdings, "portfolio_beta": port_beta, "portfolio_vol": port_vol, "hhi": hhi,
-            "effective_positions": 1 / hhi if hhi else None, "clusters": clusters, "flags": flags,
+            "effective_positions": 1 / hhi if hhi else None, "clusters": clusters,
+            "correlation_pairs": correlation_pairs, "flags": flags,
             "account_type": pos.get("account_type"), "option_level": pos.get("option_level"),
             "method": ("monthly log returns, last 12 months vs SPY; betas Blume-adjusted (0.67*raw+0.33); "
                        "directly held crypto has no beta estimate and is excluded from beta; historical estimates, not forecasts")}
