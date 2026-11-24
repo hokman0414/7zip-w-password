@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-24",
+  "created_at": "2026-11-24T14:46:21.597266+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set"
+  ],
+  "drawdown_from_hwm": 0.0585,
+  "high_water_mark": 6480.816119325991,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [],
+  "rejected": [
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "kind": "core_reinvest",
+      "reason": "cooldown: traded buy on 2026-11-23"
+    }
+  ],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
+}
