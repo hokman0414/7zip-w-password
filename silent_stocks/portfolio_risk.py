@@ -32,6 +32,7 @@ class RiskLimits:
     max_new_position_weight: float = 0.04
     min_trade_usd: float = 5.0
     dust_usd: float = 1.0
+    trend_months: int = 10
 
 
 @dataclass
@@ -166,9 +167,19 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
         flags.append({"symbol": "PORTFOLIO", "flag": "high_beta", "detail": f"beta {port_beta:.2f} vs target {lim.target_beta:.2f}"})
     if float(port.get("cash") or 0) / total < lim.cash_reserve if total else False:
         flags.append({"symbol": "PORTFOLIO", "flag": "no_cash_reserve", "detail": f"cash {float(port.get('cash') or 0):.2f} < {lim.cash_reserve:.0%} reserve"})
+    closes = [float(c) for c in bench.get("monthly_closes") or []][-lim.trend_months:]
+    trend = None
+    if len(closes) == lim.trend_months:
+        avg = sum(closes) / len(closes)
+        trend = {"symbol": bench.get("symbol", "SPY"), "price": float(bench["price"]), "average": round(avg, 2),
+                 "months": lim.trend_months, "below_trend": float(bench["price"]) < avg}
+        if trend["below_trend"]:
+            flags.append({"symbol": trend["symbol"], "flag": "below_trend",
+                          "detail": f"{trend['price']:.2f} < {lim.trend_months}-month average {avg:.2f}; core reinvest paused"})
     cash = float(port.get("cash") or 0)
     bp = port.get("buying_power")
     return {"total_value": total, "cash": cash, "cash_spendable": min(cash, float(bp)) if bp is not None else cash,
+            "benchmark_trend": trend,
             "crypto_value": float(port.get("crypto_value") or 0),
             "holdings": holdings, "portfolio_beta": port_beta, "portfolio_vol": port_vol, "hhi": hhi,
             "effective_positions": 1 / hhi if hhi else None, "clusters": clusters,
@@ -189,7 +200,8 @@ def _order(symbol: str, side: str, *, quantity: float | None = None, dollar_amou
 
 
 def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits: RiskLimits | None = None,
-            hedge_symbol: str = "SH", reinvest_symbol: str | None = None) -> list[dict]:
+            hedge_symbol: str = "SH", reinvest_symbol: str | None = None,
+            allocation: dict | None = None) -> list[dict]:
     lim = limits or RiskLimits()
     total = risk["total_value"]
     out: list[dict] = []
@@ -264,7 +276,21 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
                         "kind": "research_buy", "status": APPROVAL,
                         "review_equity_order": _order(r.ticker, "buy", dollar_amount=per)})
             available -= per
-    if reinvest_symbol and available >= lim.min_trade_usd:
+    from .allocation import load_allocation, propose_allocation
+
+    # `allocation` lets tests pin a profile; `None` loads config/allocation.json.
+    alloc = load_allocation() if allocation is None else allocation
+    if alloc and alloc.get("profile") == "growth":
+        # Growth profile owns idle cash. Do not also buy SPY as core_reinvest.
+        out.extend(propose_allocation(risk, alloc, limits=lim))
+        return out
+
+    trend = risk.get("benchmark_trend")
+    if reinvest_symbol and available >= lim.min_trade_usd and trend and trend["below_trend"]:
+        out.append({"symbol": reinvest_symbol, "side": "none", "kind": "core_reinvest_paused", "status": "INFORMATIONAL",
+                    "rationale": f"{trend['symbol']} {trend['price']:.2f} is below its {trend['months']}-month average "
+                                 f"{trend['average']:.2f}; idle cash stays in cash until the trend recovers"})
+    elif reinvest_symbol and available >= lim.min_trade_usd:
         core = next((h for h in risk["holdings"] if h.symbol == reinvest_symbol), None)
         room = lim.max_fund_weight * total - (core.value if core else 0.0)
         amt = min(available, room)

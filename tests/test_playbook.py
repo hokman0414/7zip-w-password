@@ -55,28 +55,48 @@ def test_a_trim_with_no_report_is_unconfirmed_and_uses_half():
     assert "unconfirmed" in order["rationale"]
 
 
+FILLED = "2026-11-20T17:29:35Z"
+FRIDAY_TRIMS = [
+    {"symbol": "CIFR", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 5.505, "filled_at": FILLED},
+    {"symbol": "NBIS", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 84.2158, "filled_at": FILLED},
+    {"symbol": "IREN", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 12.405, "filled_at": FILLED},
+    {"symbol": "DRAM", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 34.3618, "filled_at": FILLED},
+]
+WEDNESDAY = datetime(2026, 11, 25, 17, tzinfo=timezone.utc)
+
+
 def test_one_name_does_not_move_the_shared_fraction():
     rules = json_copy(DEFAULT_RULES)
-    fills = [
-        {"symbol": "CIFR", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 5.505},
-        {"symbol": "NBIS", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 84.2158},
-        {"symbol": "IREN", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 12.405},
-        {"symbol": "DRAM", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 34.3618},
-    ]
     prices = {"CIFR": 5.84, "NBIS": 87.11, "IREN": 12.55, "DRAM": 35.36}
-    updated = learn_from_fills(rules, fills, prices, datetime(2026, 11, 22, tzinfo=timezone.utc))
+    updated = learn_from_fills(rules, FRIDAY_TRIMS, prices, WEDNESDAY)
     assert updated["fractions"]["trim_thesis_fails"] == 0.5
     assert "stays 0.50" in updated["gaps"][-1]["gap"]
 
 
 def test_a_drop_after_the_trim_raises_the_next_fraction():
     rules = json_copy(DEFAULT_RULES)
-    updated = learn_from_fills(rules, [{
-        "symbol": "NBIS", "side": "sell", "verb": "trim", "rule": "trim_thesis_fails", "fill_price": 84.2158,
-    }], {"NBIS": 70.0}, datetime(2026, 11, 23, tzinfo=timezone.utc))
+    updated = learn_from_fills(rules, FRIDAY_TRIMS[1:2], {"NBIS": 70.0}, WEDNESDAY)
     assert updated["fractions"]["trim_thesis_fails"] == 0.75
     assert "NBIS" in updated["gaps"][-1]["gap"]
     assert rules["fractions"]["trim_thesis_fails"] == 0.5
+
+
+def test_a_one_session_bounce_does_not_move_the_fraction():
+    rules = json_copy(DEFAULT_RULES)
+    monday_prices = {"CIFR": 6.22, "NBIS": 97.11, "IREN": 14.55, "DRAM": 39.48}
+    updated = learn_from_fills(rules, FRIDAY_TRIMS, monday_prices, datetime(2026, 11, 23, 20, tzinfo=timezone.utc))
+    assert updated["fractions"]["trim_thesis_fails"] == 0.5
+    assert updated["learned"] == []
+
+
+def test_a_batch_is_scored_once():
+    rules = json_copy(DEFAULT_RULES)
+    falling = {"CIFR": 4.9, "NBIS": 75.0, "IREN": 11.0, "DRAM": 30.0}
+    once = learn_from_fills(rules, FRIDAY_TRIMS, falling, WEDNESDAY)
+    twice = learn_from_fills(once, FRIDAY_TRIMS, falling, datetime(2026, 11, 30, 17, tzinfo=timezone.utc))
+    assert once["fractions"]["trim_thesis_fails"] == 0.75
+    assert twice["fractions"]["trim_thesis_fails"] == 0.75
+    assert once["learned"] == ["trim_thesis_fails:2026-11-20"]
 
 
 def json_copy(value):

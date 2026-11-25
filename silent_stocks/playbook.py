@@ -13,7 +13,7 @@ import re
 from datetime import datetime
 
 from .config import Settings
-from .execution import AutotradeConfig
+from .execution import ET, HOLIDAYS, AutotradeConfig
 
 STOPWORDS = {
     "AI", "ALL", "AN", "AND", "AS", "AT", "BE", "BY", "DO", "ET", "FOR", "FROM", "HEAVY",
@@ -27,6 +27,8 @@ DEFAULT_RULES = {
     "fractions": {"exit": 1.0, "trim_thesis_fails": 0.5, "trim_thesis_holds": 0.25, "review": 0.0},
     "step": 0.25,
     "move_threshold": 0.05,
+    "min_sessions": 3,
+    "learned": [],
     "gaps": [{
         "as_of": "2026-11-21",
         "source": "2026-11-20 fills",
@@ -168,24 +170,48 @@ def _median(values: list[float]) -> float:
     return (ordered[mid - 1] + ordered[mid]) / 2
 
 
+def sessions_between(start: datetime, end: datetime) -> int:
+    """NYSE sessions after the start day, through the end day."""
+    day, last = start.astimezone(ET).date(), end.astimezone(ET).date()
+    count = 0
+    while day < last:
+        day = day.fromordinal(day.toordinal() + 1)
+        if day.weekday() < 5 and day.isoformat() not in HOLIDAYS:
+            count += 1
+    return count
+
+
 def learn_from_fills(rules: dict, fills: list[dict], prices_now: dict[str, float], now: datetime) -> dict:
-    """Move one trim fraction from the median move of that setup. One name cannot swing the shared rule. Exit stays 1."""
+    """Move one trim fraction from the median move of that setup. One name cannot swing the shared rule. Exit stays 1.
+
+    A batch (rule and fill day) is scored once, and only after `min_sessions` sessions, so a one-session bounce
+    cannot move the rule and a persistent move cannot step it again every day.
+    """
     updated = json.loads(json.dumps(rules))
     step = float(updated.get("step", 0.25))
     threshold = float(updated.get("move_threshold", 0.05))
+    min_sessions = int(updated.get("min_sessions", 3))
+    learned = set(updated.setdefault("learned", []))
     grouped: dict[str, list[tuple[str, float]]] = {}
+    batches: dict[str, set[str]] = {}
     for fill in fills:
         if fill.get("side") != "sell" or fill.get("verb") == "exit":
             continue
         rule = fill.get("rule")
-        if rule not in updated["fractions"] or rule == "exit":
+        if rule not in updated["fractions"] or rule == "exit" or not fill.get("filled_at"):
+            continue
+        filled_at = datetime.fromisoformat(fill["filled_at"].replace("Z", "+00:00"))
+        key = f"{rule}:{filled_at.astimezone(ET).date().isoformat()}"
+        if key in learned or sessions_between(filled_at, now) < min_sessions:
             continue
         price = prices_now.get(fill["symbol"])
         entry = float(fill.get("fill_price") or 0)
         if not price or entry <= 0:
             continue
         grouped.setdefault(rule, []).append((fill["symbol"], (price - entry) / entry))
+        batches.setdefault(rule, set()).add(key)
     for rule, rows in grouped.items():
+        updated["learned"] = sorted(set(updated["learned"]) | batches[rule])
         median = _median([move for _, move in rows])
         before = updated["fractions"][rule]
         detail = ", ".join(f"{symbol} {move:+.1%}" for symbol, move in rows)

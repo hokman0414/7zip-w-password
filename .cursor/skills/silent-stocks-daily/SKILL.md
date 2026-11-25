@@ -26,7 +26,7 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
 `git pull --ff-only`. If `data/STOP_TRADING` exists, still do steps 2–4 but skip step 5.
 
 ## 2. Refresh Robinhood snapshots (read-only MCP calls)
-1. Run `silent-stocks refresh-plan`. It prints the symbols in batches of 10 and the historicals parameters.
+1. Call `get_equity_positions` on the account first. Run `silent-stocks refresh-plan --extra <every held symbol>`. The plan is built from the last snapshot, so a position that arrived by transfer is missing unless you pass it. The plan prints the symbols in batches of 10 and the historicals parameters.
 2. For each batch, call these Robinhood tools:
    - `get_equity_quotes(symbols)`
    - `get_equity_fundamentals(symbols)`
@@ -60,7 +60,8 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
    How to fill the fields:
    - `available` is `shares_available_for_sells`.
    - `price` is the quote from step 3.
-   - Copy `asset_type` and `leverage` tags for each symbol from the previous portfolio snapshot. Known tags: BITU is `leveraged_etf` with leverage 2.0, GLD is `commodity_etf`, EWY is `country_etf`. Add tags for new funds only when certain.
+   - Copy `asset_type` and `leverage` tags for each symbol from the previous portfolio snapshot. Known tags: BITU is `leveraged_etf` with leverage 2.0, GLD and SIL are `commodity_etf`, EWY is `country_etf`, and SPY, VOO, VTI, QQQ, SCHD and SGOV are `index_etf`. Add tags for new funds only when certain. An untagged fund is sized as a single stock at the 10% cap, so `validate-snapshot` fails on any fund in `KNOWN_FUNDS` (`silent_stocks/refresh.py`) that is missing its tag.
+   - If positions arrived without orders or a cash change, say so in `notes`. That is a transfer in, and the high-water mark jumps with it.
 6. Run `silent-stocks validate-snapshot`. Fix every **error** by re-checking the MCP output; errors block trading.
    Read the warnings and fix any transcription mistakes they reveal.
 
@@ -81,6 +82,8 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
    holding, compared with the previous run, plus monthly-return correlations. A pair above 0.75 is research for the
    next run. It does not create an order by itself.
 2. Read the brief, including the SAT feedback loop and the correlation pairs.
+3. When SPY is below its 10-month average of monthly closes, the brief flags `below_trend` and the SPY core reinvest becomes `core_reinvest_paused`. Idle cash stays in cash. Do not buy the core fund by hand to get around it.
+4. When `config/allocation.json` has `"profile": "growth"`, the standing target is 80% in the selected growth ETF sleeves (QQQM 40%, SCHG 25%, VGT 15%, with QQQ counting toward QQQM). Proposals of kind `growth_rebalance` sell non-sleeve funds (SCHD, VTI, VOO, SPY, SGOV, GLD, SIL, EWY, …) toward zero and buy underweight sleeves from cash above the reserve. Growth buys are not blocked by the SPY trend pause. The migration is multi-day because of the $400 order cap, 6 orders/day and the rule that sale proceeds fund the next run. Place `growth_rebalance` orders the same way as other kinds in the plan.
 
 ## 5. Guarded execution
 1. Run `silent-stocks plan-orders`, which writes `data/orders/<date>.json`.

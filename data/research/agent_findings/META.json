@@ -1,7 +1,7 @@
 {
   "ticker": "META",
   "company": "Meta Platforms, Inc.",
-  "researched_at": "2026-11-12T21:41:13Z",
+  "researched_at": "2026-11-25T17:18:14Z",
   "agent_id": "research-agent-a",
   "findings": [
     {
@@ -13,16 +13,6 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
       "source_title": "Meta Platforms Form 10-Q for the quarter ended September 30, 2026",
       "published_date": "2026-10-22"
-    },
-    {
-      "dimension": "social",
-      "topic": "customer",
-      "claim": "Family daily active people averaged 3.64 billion in September 2026, up 3% year over year, a much slower rate than the 26% revenue increase.",
-      "evidence_type": "verified",
-      "sentiment": "neutral",
-      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "source_title": "Meta Reports Third Quarter 2026 Results",
-      "published_date": "2026-10-21"
     },
     {
       "dimension": "economic",
@@ -185,14 +175,34 @@
       "published_date": "2026-10-22"
     },
     {
-      "dimension": "social",
-      "topic": "other",
-      "claim": "Headcount was 66,775 at September 30, 2026, down 15% year over year, while capital spending and infrastructure assets were still rising.",
+      "dimension": "legal",
+      "topic": "policy",
+      "claim": "On November 13, 2026 Italy's data protection authority fined Meta Platforms Ireland EUR 805 million, about 0.47% of group worldwide turnover, for Facebook's Android gallery-suggestions feature accessing photos without specific consent, and ordered the feature disabled by default within 60 days; Meta said it will appeal.",
       "evidence_type": "verified",
-      "sentiment": "neutral",
-      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "source_title": "Meta Reports Third Quarter 2026 Results",
-      "published_date": "2026-10-21"
+      "sentiment": "negative",
+      "source_url": "https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en",
+      "source_title": "Italian DPA fines Meta EUR 805 million for unlawful access to Facebook users' photo galleries",
+      "published_date": "2026-11-13"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "On November 12, 2026 Meta completed EUR 9.0 billion of senior notes in six tranches maturing 2031 to 2065 with coupons from 4.300% to 6.400%, adding to the $15 billion of dollar notes completed on November 5.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "source_title": "Meta Platforms Form 8-K filed November 12, 2026",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "On November 24, 2026 Meta began rolling out its Muse AI agent inside Instagram DMs in the U.S., Canada, Mexico, Japan and Singapore, after launching Muse in Australia on November 17 and the UK on November 23, where retailers including Sainsbury's, Marks & Spencer and Currys have signed deals with Meta.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "source_title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+      "published_date": "2026-11-24"
     }
   ],
   "upcoming_catalysts": [
@@ -261,6 +271,17 @@
       "evidence_of_company_revenue": true,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
       "published_date": "2026-10-22"
+    },
+    {
+      "country": "Italy",
+      "policy": "Italian Data Protection Code Article 122 (ePrivacy) enforcement requiring specific consent for device-storage access, with a EUR 805 million fine and a 60-day compliance order",
+      "stage": "implementation",
+      "industry": "social media",
+      "bottleneck": "User consent for accessing on-device photo galleries",
+      "revenue_mechanism": "The fine is a direct cash cost if upheld on appeal, and the order forces the gallery-suggestions feature off by default for about 20 million Italian Android users; no ad-revenue effect was quantified.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en",
+      "published_date": "2026-11-13"
     }
   ],
   "key_risks": [
@@ -302,5 +323,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "The 10-Q balance sheet is as of September 30, 2026, before the October 29 equity closing and the November 5 note issuance, so quarter-end debt and share count understate the funding that followed. Cash of $11.222 billion plus marketable securities of $71.227 billion equals the $82.45 billion cited in the earnings release. The $12.5 billion preferred proceeds equal 250 million depositary shares times the $50 public offering price stated in the underwriting agreement; net proceeds after the discount were not used. Nine-month 2026 proceeds from long-term debt issuance were $24.910 billion before the November notes. A euro note offering was described in a prospectus supplement around the same dates but a completed closing 8-K was not used here, so only the completed $15 billion dollar notes are included. Reality Labs third-quarter revenue and loss are from the earnings release segment table. No going-concern language was found. The Class C dividend is a stock split of the economic interest and is not listed as a cash dilution event; it does create a non-voting currency for later issuance."
+  "notes": "The 10-Q balance sheet is as of September 30, 2026, before the October 29 equity closing and the November 5 note issuance, so quarter-end debt and share count understate the funding that followed. Cash of $11.222 billion plus marketable securities of $71.227 billion equals the $82.45 billion cited in the earnings release. The $12.5 billion preferred proceeds equal 250 million depositary shares times the $50 public offering price stated in the underwriting agreement; net proceeds after the discount were not used. Nine-month 2026 proceeds from long-term debt issuance were $24.910 billion before the November notes. The euro note offering has since closed: the November 12, 2026 8-K confirms EUR 9.0 billion across six tranches, now included. November 25, 2026 refresh also added the Italian EUR 805 million privacy fine (EDPB summary of the Garante decision; Meta's appeal intent is from BBC and Reuters) and the Muse rollout into Instagram DMs (TechCrunch). The Verge, citing Reuters, reported on November 18 that employees testing Muse saw it pull in chats from other apps and send out-of-context messages, which Meta called isolated incidents; that was not verified against a primary source and is not a finding. The headcount finding (66,775 at September 30, down 15%) and the family daily active people finding (3.64 billion in September, up 3%) from the prior run were dropped to stay within 20 findings and are still valid per the Q3 release. Reality Labs third-quarter revenue and loss are from the earnings release segment table. No going-concern language was found. The Class C dividend is a stock split of the economic interest and is not listed as a cash dilution event; it does create a non-voting currency for later issuance."
 }

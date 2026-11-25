@@ -6,7 +6,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from silent_stocks.config import Settings
-from silent_stocks.portfolio_risk import APPROVAL, assess, propose
+from silent_stocks.portfolio_risk import APPROVAL, RiskLimits, assess, propose
 from silent_stocks.scheduler import build_trigger
 
 PKG = Path(__file__).resolve().parent.parent / "silent_stocks"
@@ -26,7 +26,7 @@ def snapshot():
 def test_concentration_and_leverage_trims_are_proposals_only():
     risk = assess(snapshot())
     assert risk["correlation_pairs"] == sorted(risk["correlation_pairs"], key=lambda p: abs(p["corr"]), reverse=True)
-    props = propose(risk)
+    props = propose(risk, allocation={})
     by = {p["symbol"]: p for p in props}
     assert by["BIG"]["side"] == "sell" and by["BIG"]["to_weight"] == 0.08
     assert by["LEV"]["to_weight"] == 0.03
@@ -37,8 +37,60 @@ def test_concentration_and_leverage_trims_are_proposals_only():
             assert p["review_equity_order"]["type"] == "market"
 
 
+def test_growth_profile_sells_non_sleeve_funds_and_skips_spy_core():
+    from silent_stocks.allocation import propose_allocation
+
+    alloc = {
+        "profile": "growth", "etf_target_weight": 0.80,
+        "sleeves": [{"symbol": "QQQM", "target_weight": 0.40, "aliases": ["QQQ"], "role": "nasdaq100_growth",
+                     "rationale": "test"},
+                    {"symbol": "SCHG", "target_weight": 0.25, "aliases": [], "role": "large_cap_growth",
+                     "rationale": "test"},
+                    {"symbol": "VGT", "target_weight": 0.15, "aliases": [], "role": "information_technology",
+                     "rationale": "test"}],
+        "do_not_buy": ["SMH"],
+    }
+    snap = snapshot()
+    snap["positions"]["portfolio"]["cash"] = 300.0
+    snap["positions"]["holdings"] = [
+        {"symbol": "SCHD", "quantity": 50, "price": 10.0, "asset_type": "index_etf",
+         "monthly_closes": [10] * 12, "available": 50},
+        {"symbol": "QQQ", "quantity": 5, "price": 20.0, "asset_type": "index_etf",
+         "monthly_closes": [20] * 12, "available": 5},
+        {"symbol": "BIG", "quantity": 20, "price": 10.0, "monthly_closes": [8 + 0.2 * i for i in range(12)],
+         "available": 20},
+    ]
+    risk = assess(snap)
+    props = propose(risk, limits=RiskLimits(beta_tolerance=10.0), reinvest_symbol="SPY")
+    assert not [p for p in props if p["kind"] == "core_reinvest"]
+    sells = [p for p in props if p.get("kind") == "growth_rebalance" and p["side"] == "sell"]
+    assert {p["symbol"] for p in sells} == {"SCHD"}
+    assert not [p for p in sells if p["symbol"] == "QQQ"]
+    status = next(p for p in props if p["kind"] == "growth_allocation_status")
+    assert status["sleeve_weights"]["QQQM"] == 0.1
+    # With cash above the reserve, QQQM/SCHG/VGT buys appear for the underweight sleeves.
+    buys = [p for p in props if p.get("kind") == "growth_rebalance" and p["side"] == "buy"]
+    assert {p["symbol"] for p in buys} >= {"QQQM", "SCHG"}
+    assert propose_allocation(risk, alloc)
+
+
+def test_core_reinvest_pauses_below_the_benchmark_trend():
+    snap = snapshot()
+    snap["positions"]["portfolio"]["cash"] = 300.0
+    no_hedge = RiskLimits(beta_tolerance=10.0)
+    # Pin an empty allocation so this test still covers the SPY trend pause, not the growth profile.
+    up = propose(assess(snap), limits=no_hedge, reinvest_symbol="SPY", allocation={})
+    assert any(p["kind"] == "core_reinvest" for p in up)
+    snap["positions"]["benchmark"]["price"] = 100.0
+    risk = assess(snap)
+    assert risk["benchmark_trend"]["below_trend"]
+    down = propose(risk, limits=no_hedge, reinvest_symbol="SPY", allocation={})
+    assert not [p for p in down if p["kind"] == "core_reinvest"]
+    assert any(p["kind"] == "core_reinvest_paused" for p in down)
+
+
 def test_no_buys_without_qualified_research():
-    props = propose(assess(snapshot()), reports={})
+    props = propose(assess(snapshot()), reports={}, allocation={})
     assert not [p for p in props if p["side"] == "buy" and p["kind"] == "research_buy"]
     assert any(p["kind"] == "no_buy" for p in props)
 
@@ -52,10 +104,10 @@ def _report(vetoes: list[str]):
 def test_veto_trims_need_complete_fundamentals():
     snap = snapshot()
     snap["positions"]["holdings"][0]["quantity"] = 5
-    trimmed = {p["symbol"] for p in propose(assess(snap, reports={"BIG": _report(["SEVERE_DILUTION"])})) if p["side"] == "sell"}
+    trimmed = {p["symbol"] for p in propose(assess(snap, reports={"BIG": _report(["SEVERE_DILUTION"])}), allocation={}) if p["side"] == "sell"}
     assert "BIG" in trimmed
     risk = assess(snap, reports={"BIG": _report(["MISSING_FUNDAMENTALS", "SEVERE_DILUTION"])})
-    assert "BIG" not in {p["symbol"] for p in propose(risk) if p["side"] == "sell"}
+    assert "BIG" not in {p["symbol"] for p in propose(risk, allocation={}) if p["side"] == "sell"}
     assert any(f["flag"] == "veto_needs_review" and f["symbol"] == "BIG" for f in risk["flags"])
 
 

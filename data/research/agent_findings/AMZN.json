@@ -1,7 +1,7 @@
 {
   "ticker": "AMZN",
   "company": "Amazon.com, Inc.",
-  "researched_at": "2026-11-12T21:43:08Z",
+  "researched_at": "2026-11-25T17:19:17Z",
   "agent_id": "research-agent-b",
   "findings": [
     {
@@ -183,9 +183,41 @@
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
       "source_title": "Amazon.com Announces Third Quarter Results",
       "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "political",
+      "topic": "capacity",
+      "claim": "Oregon Governor Tina Kotek paused state-land approvals (September 8, 2026) and DEQ air and water permits (around October 9, 2026) for new or expanding data centers until July 1, 2027, and the Hermiston city manager told OPB that Amazon canceled several planned data center developments there after the permit pause; Amazon has not published its own list of affected projects.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://9to5amazon.com/amazon-oregon-data-center-pause-kotek-permits-2027-explained/",
+      "source_title": "Oregon's data center pause explained: what it means for Amazon, and what AWS wants next",
+      "published_date": "2026-11-21"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "On November 23, 2026 Amazon signed an agreement to buy the proprietary technology behind the Decart Optimization Stack and hire Decart's co-founders and team to optimize AI inference and Trainium custom-silicon performance, subject to customary closing conditions including regulatory clearance; no price was disclosed.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+      "source_title": "Amazon to purchase Decart's AI optimization technology",
+      "published_date": "2026-11-23"
     }
   ],
   "upcoming_catalysts": [
+    {
+      "event": "AWS re:Invent 2026 conference in Las Vegas, the main annual venue for AWS product and AI announcements",
+      "expected_date": "2026-11-30",
+      "date_confidence": "confirmed",
+      "source_url": "https://aws.amazon.com/events/reinvent/"
+    },
+    {
+      "event": "Oregon 2027 legislative session takes up data center rules; both Oregon data center pauses end July 1, 2027 unless changed sooner",
+      "expected_date": "2027-07-01",
+      "date_confidence": "confirmed",
+      "source_url": "https://9to5amazon.com/amazon-oregon-data-center-pause-kotek-permits-2027-explained/"
+    },
     {
       "event": "Fourth-quarter 2026 results versus guided net sales of $240.0-$247.0 billion and operating income of $28.5-$33.5 billion",
       "expected_date": null,
@@ -222,9 +254,26 @@
       "evidence_of_company_revenue": false,
       "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
       "published_date": "2026-10-29"
+    },
+    {
+      "country": "United States (Oregon)",
+      "policy": "Governor's pause on state-land approvals and DEQ air and water permits for new or expanding data centers through July 1, 2027, with data center legislation expected in the 2027 session",
+      "stage": "implementation",
+      "industry": "cloud data centers",
+      "bottleneck": "Backup-generator air permits and cooling-water discharge permits needed for new hyperscale campuses",
+      "revenue_mechanism": "Restricts where AWS can add new capacity; existing Oregon facilities are not covered, so the effect is on build timing and location rather than current revenue",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://press.aboutamazon.com/2026/11/oregon-has-an-opportunity-to-lead-on-data-center-policy",
+      "published_date": "2026-11-20"
     }
   ],
   "key_risks": [
+    {
+      "risk": "State-level data center restrictions, including Oregon's de facto permit pause through July 1, 2027, can slow or relocate AWS capacity additions",
+      "severity": "medium",
+      "source_url": "https://9to5amazon.com/amazon-oregon-data-center-pause-kotek-permits-2027-explained/",
+      "published_date": "2026-11-21"
+    },
     {
       "risk": "AI infrastructure spending has turned free cash flow negative and been funded with a large increase in long-term debt, with cash capex guided to about $220 billion in 2026 and expected to rise again in 2027",
       "severity": "high",
@@ -258,5 +307,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "No going-concern language was found in the September 30, 2026 10-Q. No public equity offering, ATM or convertible issuance by Amazon was found for the last 12 months; the share-count increase is from restricted stock units, and the Globalstar deal may issue Amazon shares only if it closes in 2027. The 10-Q filing date of October 30, 2026 is taken from the EDGAR index for accession 0001018724-26-000040. A November 2026 FTC press-release URL about the advertising case returned a 404, so that case is cited only from the 10-Q. The fourth-quarter 2026 earnings date was not announced in the sources reviewed. Anthropic fair-value amounts are Level 3 management estimates. Cash of $55.8 billion, marketable securities of $58.4 billion and undrawn revolvers mean the debt increase is not treated as a solvency threat."
+  "notes": "November 25, 2026 refresh: no new SEC periodic filing since the 10-Q; new items are the Oregon data center permit pause (cited from 9to5Amazon's summary of OPB/KLCC and the Governor's Office, plus Amazon's own November 20 policy post), the Decart technology purchase (price undisclosed), and confirmed re:Invent dates. The Hermiston cancellations come from the city manager via OPB, not from Amazon. No new equity offering found. No going-concern language was found in the September 30, 2026 10-Q. No public equity offering, ATM or convertible issuance by Amazon was found for the last 12 months; the share-count increase is from restricted stock units, and the Globalstar deal may issue Amazon shares only if it closes in 2027. The 10-Q filing date of October 30, 2026 is taken from the EDGAR index for accession 0001018724-26-000040. A November 2026 FTC press-release URL about the advertising case returned a 404, so that case is cited only from the 10-Q. The fourth-quarter 2026 earnings date was not announced in the sources reviewed. Anthropic fair-value amounts are Level 3 management estimates. Cash of $55.8 billion, marketable securities of $58.4 billion and undrawn revolvers mean the debt increase is not treated as a solvency threat."
 }
