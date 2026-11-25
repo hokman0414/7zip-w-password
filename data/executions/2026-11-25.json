@@ -1,0 +1,17 @@
+[
+  {
+    "ref_id": "609c4660-6770-50dc-b458-7c9b5a27ac9c",
+    "symbol": "MPTI",
+    "side": "sell",
+    "kind": "risk_trim",
+    "status": "placed",
+    "reason": "research critical veto (SEVERE_DILUTION, share count +42% in ~12 months); trimmed to the 1% cap; filled 1.762506 at 60.08",
+    "order_id": "6b071a0b-39a9-48f0-98f2-f1261c3c039c",
+    "broker_state": "filled",
+    "usd": 105.89,
+    "fill_price": 60.08,
+    "fill_quantity": 1.762506,
+    "filled_at": "2026-11-25T17:25:31.452Z",
+    "recorded_at": "2026-11-25T17:25:41.191373+00:00"
+  }
+]

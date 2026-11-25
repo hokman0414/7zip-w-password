@@ -1,7 +1,7 @@
 {
   "ticker": "ELV",
   "company": "Elevance Health, Inc.",
-  "researched_at": "2026-11-12T21:45:00Z",
+  "researched_at": "2026-11-25T17:19:00Z",
   "agent_id": "research-agent-c",
   "findings": [
     {
@@ -173,14 +173,34 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm",
       "source_title": "Elevance Health, Inc. Form 10-Q for the quarter ended September 30, 2026",
       "published_date": "2026-10-21"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "At the UBS Global Healthcare Conference on November 13, 2026, Elevance called 2026 the Medicaid margin trough, said January 2027 renewal rates incorporate 2025-2026 cost experience, noted community-engagement effects are concentrated in expansion members (about 20% of Medicaid membership), and said its 2027 Medicare Advantage bids assume medical cost trend similar to 2026.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://quartr.com/events/elevance-health-inc-elv-ubs-global-healthcare-conference_3e3sM7Vn",
+      "source_title": "Elevance Health (ELV) UBS Global Healthcare Conference Summary (Quartr)",
+      "published_date": "2026-11-13"
+    },
+    {
+      "dimension": "legal",
+      "topic": "legal",
+      "claim": "On November 4, 2026, Elevance sued autism therapy provider Perfect Child in New York state court, alleging it routed members to more than 100 out-of-network shell entities that billed about $800 million since 2021 and received more than $160 million from Elevance; Elevance is seeking damages and punitive damages, and the WSJ reported an FBI investigation of the provider.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.beckerspayer.com/legal/elevance-sues-autism-therapy-group-alleging-160m-in-payments-to-shell-companies/",
+      "source_title": "Elevance sues autism therapy group, alleging $160M in payments to shell companies (Becker's Payer Issues)",
+      "published_date": "2026-11-06"
     }
   ],
   "upcoming_catalysts": [
     {
-      "event": "Fact-discovery deadline in United States v. Anthem, Inc. (DOJ Medicare risk-adjustment False Claims Act case)",
-      "expected_date": "2026-11-20",
-      "date_confidence": "confirmed",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1156039/000115603926000071/elv-20260930.htm"
+      "event": "Fourth-quarter 2026 earnings call in January 2027, where management said it will give further Medicaid community-engagement assumptions",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://quartr.com/events/elevance-health-inc-elv-ubs-global-healthcare-conference_3e3sM7Vn"
     },
     {
       "event": "Quarterly dividend of $1.72 per share payable to shareholders of record on December 4, 2026",
@@ -282,5 +302,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "No equity offering or ATM was identified in the last 12 months. The latest 424B filing on EDGAR before this review was a 424B3 on 2025-09-09, outside the 12-month window. On 2026-10-28 the company filed an automatic shelf (S-3ASR, https://www.sec.gov/Archives/edgar/data/1156039/000119312526436231/d165308ds3asr.htm) registering senior and subordinated debt, preferred stock, common stock, depositary shares, warrants, rights, and stock-purchase contracts or units for sale from time to time; no prospectus supplement under that shelf was found in the filing list reviewed through 2026-11-12. The company reduced share count through buybacks (diluted shares 217.6 million in the quarter versus 223.7 million a year earlier). The Carelon Services consumer decline is from the October 21, 2026 earnings exhibit; the partial contract termination is from the 10-Q. No going-concern language was found. Parent-company cash and investments were about $2.4 billion, separate from consolidated cash of $10.348 billion."
+  "notes": "No equity offering or ATM was identified in the last 12 months. The latest 424B filing on EDGAR before this review was a 424B3 on 2025-09-09, outside the 12-month window. On 2026-10-28 the company filed an automatic shelf (S-3ASR, https://www.sec.gov/Archives/edgar/data/1156039/000119312526436231/d165308ds3asr.htm) registering senior and subordinated debt, preferred stock, common stock, depositary shares, warrants, rights, and stock-purchase contracts or units for sale from time to time; no prospectus supplement under that shelf was found in the filing list reviewed through 2026-11-12. The company reduced share count through buybacks (diluted shares 217.6 million in the quarter versus 223.7 million a year earlier). The Carelon Services consumer decline is from the October 21, 2026 earnings exhibit; the partial contract termination is from the 10-Q. No going-concern language was found. Parent-company cash and investments were about $2.4 billion, separate from consolidated cash of $10.348 billion. Refresh 2026-11-25: EDGAR shows no new 8-K or offering after the 2026-11-10 8-K (only Form 4s on 2026-11-06 and 2026-11-20). The United States v. Anthem fact-discovery deadline of 2026-11-20 has passed; no public update on its outcome was found, so it was removed from catalysts. The UBS conference commentary is from a Quartr summary, not a transcript filed by the company."
 }

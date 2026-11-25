@@ -1,7 +1,7 @@
 {
   "ticker": "IREN",
   "company": "IREN Limited",
-  "researched_at": "2026-11-12T21:45:00Z",
+  "researched_at": "2026-11-25T17:19:00Z",
   "agent_id": "research-agent-c",
   "findings": [
     {
@@ -183,6 +183,26 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
       "source_title": "IREN Limited Form 10-Q for the quarter ended September 30, 2026",
       "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Reuters reported on November 5, 2026, citing Bloomberg News, that Microsoft is tightening oversight of some data-center projects run by neocloud providers including IREN, Nebius and Nscale amid delays and rising costs, and is weighing whether to sign new deals with such providers as it focuses more on its own data centers.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.investing.com/news/stock-market-news/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push-5006291",
+      "source_title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push (Reuters via Investing.com)",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "IREN executives said on the November 5, 2026 earnings call that the company exited September with about $1 billion of annualized run-rate revenue and expects roughly one-quarter of that amount to be recognized in the December 2026 quarter.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.investing.com/news/stock-market-news/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push-5006291",
+      "source_title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push (Reuters via Investing.com)",
+      "published_date": "2026-11-05"
     }
   ],
   "upcoming_catalysts": [
@@ -259,6 +279,12 @@
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm",
       "published_date": "2026-11-05"
+    },
+    {
+      "risk": "Microsoft, IREN's anchor investment-grade customer, was reported to be tightening oversight of neocloud data-center projects and weighing whether to sign new deals with such providers, which could limit future contracts beyond the existing Horizon 1-4 agreement.",
+      "severity": "medium",
+      "source_url": "https://www.investing.com/news/stock-market-news/ai-data-center-firm-iren-delays-microsoft-ai-deliveries-plans-15-billion-spending-push-5006291",
+      "published_date": "2026-11-05"
     }
   ],
   "dilution_events_last_12m": [
@@ -294,5 +320,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "The 10-Q states that cash, expected operating cash flow and normal-course financing should be sufficient for at least 12 months, and it does not contain going-concern language. ARR is a company operating metric, not GAAP revenue, and the earnings release says recognized revenue may be materially lower. The historical headline dollar value of the Microsoft contract was not restated in the current 10-Q, so it is omitted; the filing does confirm Horizon 1 acceptance in August 2026 and $3.645 billion of GPU Financing 1.0 supporting Horizons 1-4. The December 4, 2025 prospectus describes a concurrent confidential convertible offering of $1.0 billion 0.25% notes due 2032 and $1.0 billion 1.00% notes due 2033, plus $150 million greenshoes, and tells readers not to assume that concurrent offering closed. Outstanding convertible principal of $6.746 billion is from the September 30, 2026 10-Q. The $3.0 billion of convertible-note proceeds in the June 2026 quarter is from the November 5, 2026 earnings-release cash-flow statement. GPU Financing 3.0 is described in the notes as $363 million at 9.51%; a debt-maturity table also shows a $355 million carrying amount. The claim uses the note narrative."
+  "notes": "The 10-Q states that cash, expected operating cash flow and normal-course financing should be sufficient for at least 12 months, and it does not contain going-concern language. ARR is a company operating metric, not GAAP revenue, and the earnings release says recognized revenue may be materially lower. The historical headline dollar value of the Microsoft contract was not restated in the current 10-Q, so it is omitted; the filing does confirm Horizon 1 acceptance in August 2026 and $3.645 billion of GPU Financing 1.0 supporting Horizons 1-4. The December 4, 2025 prospectus describes a concurrent confidential convertible offering of $1.0 billion 0.25% notes due 2032 and $1.0 billion 1.00% notes due 2033, plus $150 million greenshoes, and tells readers not to assume that concurrent offering closed. Outstanding convertible principal of $6.746 billion is from the September 30, 2026 10-Q. The $3.0 billion of convertible-note proceeds in the June 2026 quarter is from the November 5, 2026 earnings-release cash-flow statement. GPU Financing 3.0 is described in the notes as $363 million at 9.51%; a debt-maturity table also shows a $355 million carrying amount. The claim uses the note narrative. Refresh 2026-11-25: EDGAR shows no new 8-K, 10-Q or prospectus supplement after 2026-11-05; filings since then are Schedule 13G filings by market makers Jane Street (6.5%, filed 2026-11-18, https://www.sec.gov/Archives/edgar/data/1878848/000159588826000170/xslSCHEDULE_13G_X02/primary_doc.xml), Citadel Securities (5.9%, filed 2026-11-19) and SIG/G1 Execution (5.0%, filed 2026-11-16). CNBC reported the stock fell about 55% in the month before the November 5 report amid a broader AI selloff. No new financing announcement for the $6 billion unfunded capex was found. The Microsoft oversight report is secondhand (Reuters citing Bloomberg) and was not confirmed by the company."
 }

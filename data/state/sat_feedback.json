@@ -1,17 +1,21 @@
 {
-  "as_of": "2026-11-24T14:42:06.890774+00:00",
-  "prior_as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-25T17:21:56.113909+00:00",
+  "prior_as_of": "2026-11-24T14:42:06.890774+00:00",
   "hypotheses": {
+    "CODA": "H1",
+    "PLPC": "H1",
+    "MPTI": "H3",
     "ONDS": "H3",
     "BN": "H1",
-    "META": "H2",
+    "META": "H1",
     "AMZN": "H3",
     "AVO": "H4",
     "ELV": "H2",
     "IREN": "H4",
-    "AMD": "H1",
+    "AMD": "H2",
     "GLD": "H3",
     "SPCX": "H2",
+    "MU": "H2",
     "GOOGL": "H2",
     "NVDA": "H2",
     "LLY": "H1",
@@ -21,9 +25,16 @@
     "CIFR": "H3",
     "DUK": "H3",
     "NFLX": "H1",
-    "SPY": "H1"
+    "SPY": "H1",
+    "SNDK": "H1",
+    "MSFT": "H1",
+    "WULF": "H3",
+    "WDC": "H1"
   },
   "red_team_survives": {
+    "CODA": true,
+    "PLPC": true,
+    "MPTI": false,
     "ONDS": false,
     "BN": false,
     "META": false,
@@ -34,6 +45,7 @@
     "AMD": false,
     "GLD": false,
     "SPCX": false,
+    "MU": false,
     "GOOGL": false,
     "NVDA": false,
     "LLY": false,
@@ -43,63 +55,307 @@
     "CIFR": false,
     "DUK": false,
     "NFLX": true,
-    "SPY": false
+    "SPY": false,
+    "SNDK": true,
+    "MSFT": true,
+    "WULF": false,
+    "WDC": true
   },
   "pairs": [
     {
-      "a": "IREN",
-      "b": "STX",
-      "corr": 0.887
+      "a": "SPY",
+      "b": "VOO",
+      "corr": 1.0
     },
     {
-      "a": "ELV",
-      "b": "SPY",
-      "corr": 0.871
+      "a": "VTI",
+      "b": "VOO",
+      "corr": 0.998
+    },
+    {
+      "a": "SPY",
+      "b": "VTI",
+      "corr": 0.997
+    },
+    {
+      "a": "STX",
+      "b": "WDC",
+      "corr": 0.943
+    },
+    {
+      "a": "AMD",
+      "b": "QQQ",
+      "corr": 0.927
+    },
+    {
+      "a": "GLD",
+      "b": "SIL",
+      "corr": 0.924
+    },
+    {
+      "a": "SPY",
+      "b": "QQQ",
+      "corr": 0.899
+    },
+    {
+      "a": "VTI",
+      "b": "QQQ",
+      "corr": 0.899
+    },
+    {
+      "a": "QQQ",
+      "b": "VOO",
+      "corr": 0.899
+    },
+    {
+      "a": "IREN",
+      "b": "STX",
+      "corr": 0.897
+    },
+    {
+      "a": "MU",
+      "b": "QQQ",
+      "corr": 0.897
+    },
+    {
+      "a": "MU",
+      "b": "SNDK",
+      "corr": 0.891
+    },
+    {
+      "a": "STX",
+      "b": "SNDK",
+      "corr": 0.884
+    },
+    {
+      "a": "EWY",
+      "b": "MU",
+      "corr": 0.878
     },
     {
       "a": "AMD",
       "b": "STX",
-      "corr": 0.863
+      "corr": 0.871
+    },
+    {
+      "a": "SNDK",
+      "b": "PLPC",
+      "corr": 0.868
+    },
+    {
+      "a": "STX",
+      "b": "PLPC",
+      "corr": 0.866
+    },
+    {
+      "a": "STX",
+      "b": "QQQ",
+      "corr": 0.865
+    },
+    {
+      "a": "SNDK",
+      "b": "WDC",
+      "corr": 0.864
+    },
+    {
+      "a": "MU",
+      "b": "STX",
+      "corr": 0.849
+    },
+    {
+      "a": "EWY",
+      "b": "SNDK",
+      "corr": 0.845
     },
     {
       "a": "STX",
       "b": "CIFR",
-      "corr": 0.843
+      "corr": 0.845
+    },
+    {
+      "a": "IREN",
+      "b": "QQQ",
+      "corr": 0.842
+    },
+    {
+      "a": "ELV",
+      "b": "VTI",
+      "corr": 0.841
+    },
+    {
+      "a": "ELV",
+      "b": "VOO",
+      "corr": 0.84
+    },
+    {
+      "a": "ELV",
+      "b": "SPY",
+      "corr": 0.839
+    },
+    {
+      "a": "MU",
+      "b": "NBIS",
+      "corr": 0.834
+    },
+    {
+      "a": "NBIS",
+      "b": "QQQ",
+      "corr": 0.832
+    },
+    {
+      "a": "IREN",
+      "b": "MU",
+      "corr": 0.831
+    },
+    {
+      "a": "IREN",
+      "b": "SNDK",
+      "corr": 0.827
+    },
+    {
+      "a": "AMD",
+      "b": "MU",
+      "corr": 0.825
     },
     {
       "a": "AMD",
       "b": "NBIS",
-      "corr": 0.809
+      "corr": 0.819
+    },
+    {
+      "a": "EWY",
+      "b": "QQQ",
+      "corr": 0.817
+    },
+    {
+      "a": "WULF",
+      "b": "WDC",
+      "corr": 0.816
+    },
+    {
+      "a": "MU",
+      "b": "WDC",
+      "corr": 0.81
+    },
+    {
+      "a": "STX",
+      "b": "WULF",
+      "corr": 0.808
     },
     {
       "a": "GOOGL",
       "b": "STX",
-      "corr": 0.804
+      "corr": 0.807
     },
     {
       "a": "IREN",
       "b": "AMD",
-      "corr": 0.794
+      "corr": 0.806
+    },
+    {
+      "a": "NBIS",
+      "b": "SNDK",
+      "corr": 0.806
     },
     {
       "a": "IREN",
       "b": "NVDA",
+      "corr": 0.8
+    },
+    {
+      "a": "GLD",
+      "b": "CODA",
+      "corr": 0.8
+    },
+    {
+      "a": "MU",
+      "b": "VTI",
       "corr": 0.79
     },
     {
-      "a": "EWY",
-      "b": "STX",
-      "corr": 0.775
+      "a": "NBIS",
+      "b": "PLPC",
+      "corr": 0.79
     },
     {
       "a": "STX",
       "b": "NBIS",
-      "corr": 0.766
+      "corr": 0.788
+    },
+    {
+      "a": "EWY",
+      "b": "STX",
+      "corr": 0.787
+    },
+    {
+      "a": "EWY",
+      "b": "WULF",
+      "corr": 0.785
+    },
+    {
+      "a": "MU",
+      "b": "VOO",
+      "corr": 0.779
+    },
+    {
+      "a": "MU",
+      "b": "SPY",
+      "corr": 0.778
+    },
+    {
+      "a": "AMD",
+      "b": "WDC",
+      "corr": 0.777
+    },
+    {
+      "a": "IREN",
+      "b": "NBIS",
+      "corr": 0.775
+    },
+    {
+      "a": "CIFR",
+      "b": "WDC",
+      "corr": 0.774
+    },
+    {
+      "a": "SNDK",
+      "b": "QQQ",
+      "corr": 0.774
     },
     {
       "a": "NVDA",
       "b": "ONDS",
+      "corr": 0.773
+    },
+    {
+      "a": "NVDA",
+      "b": "QQQ",
+      "corr": 0.773
+    },
+    {
+      "a": "IREN",
+      "b": "PLPC",
+      "corr": 0.771
+    },
+    {
+      "a": "STX",
+      "b": "SPY",
       "corr": 0.765
+    },
+    {
+      "a": "STX",
+      "b": "VTI",
+      "corr": 0.765
+    },
+    {
+      "a": "STX",
+      "b": "VOO",
+      "corr": 0.764
+    },
+    {
+      "a": "PLPC",
+      "b": "WDC",
+      "corr": 0.764
     },
     {
       "a": "AMZN",
@@ -107,614 +363,1644 @@
       "corr": 0.76
     },
     {
-      "a": "IREN",
-      "b": "NBIS",
-      "corr": 0.752
+      "a": "CIFR",
+      "b": "PLPC",
+      "corr": 0.76
     },
     {
       "a": "NVDA",
       "b": "SPY",
-      "corr": 0.746
-    },
-    {
-      "a": "STX",
-      "b": "SPY",
-      "corr": 0.745
+      "corr": 0.759
     },
     {
       "a": "AMD",
       "b": "SPY",
-      "corr": 0.742
+      "corr": 0.758
+    },
+    {
+      "a": "CIFR",
+      "b": "WULF",
+      "corr": 0.758
+    },
+    {
+      "a": "EWY",
+      "b": "VTI",
+      "corr": 0.757
     },
     {
       "a": "AMD",
-      "b": "CIFR",
-      "corr": 0.737
+      "b": "VOO",
+      "corr": 0.757
+    },
+    {
+      "a": "NVDA",
+      "b": "VOO",
+      "corr": 0.756
+    },
+    {
+      "a": "EWY",
+      "b": "WDC",
+      "corr": 0.755
+    },
+    {
+      "a": "AMD",
+      "b": "VTI",
+      "corr": 0.752
+    },
+    {
+      "a": "QQQ",
+      "b": "WDC",
+      "corr": 0.751
     },
     {
       "a": "IREN",
       "b": "SPY",
-      "corr": 0.729
+      "corr": 0.75
     },
     {
-      "a": "GOOGL",
+      "a": "IREN",
+      "b": "WDC",
+      "corr": 0.748
+    },
+    {
+      "a": "SIL",
+      "b": "CODA",
+      "corr": 0.748
+    },
+    {
+      "a": "IREN",
+      "b": "VOO",
+      "corr": 0.747
+    },
+    {
+      "a": "AMD",
       "b": "CIFR",
-      "corr": 0.728
+      "corr": 0.747
+    },
+    {
+      "a": "MU",
+      "b": "PLPC",
+      "corr": 0.741
+    },
+    {
+      "a": "ONDS",
+      "b": "CODA",
+      "corr": 0.741
+    },
+    {
+      "a": "EWY",
+      "b": "VOO",
+      "corr": 0.739
+    },
+    {
+      "a": "QQQ",
+      "b": "WULF",
+      "corr": 0.739
     },
     {
       "a": "EWY",
       "b": "IREN",
-      "corr": 0.721
+      "corr": 0.737
     },
     {
       "a": "EWY",
       "b": "SPY",
-      "corr": 0.721
+      "corr": 0.737
+    },
+    {
+      "a": "PLPC",
+      "b": "QQQ",
+      "corr": 0.737
+    },
+    {
+      "a": "NBIS",
+      "b": "MPTI",
+      "corr": 0.735
+    },
+    {
+      "a": "NBIS",
+      "b": "WDC",
+      "corr": 0.735
+    },
+    {
+      "a": "GOOGL",
+      "b": "CIFR",
+      "corr": 0.734
+    },
+    {
+      "a": "NVDA",
+      "b": "VTI",
+      "corr": 0.734
+    },
+    {
+      "a": "EWY",
+      "b": "PLPC",
+      "corr": 0.732
     },
     {
       "a": "IREN",
-      "b": "CIFR",
-      "corr": 0.71
+      "b": "VTI",
+      "corr": 0.731
     },
     {
       "a": "AMD",
-      "b": "GOOGL",
-      "corr": 0.709
+      "b": "SNDK",
+      "corr": 0.729
     },
     {
-      "a": "IREN",
-      "b": "BRK.B",
-      "corr": -0.705
+      "a": "SNDK",
+      "b": "WULF",
+      "corr": 0.727
     },
     {
       "a": "IREN",
       "b": "ONDS",
-      "corr": 0.704
+      "corr": 0.726
     },
     {
-      "a": "NBIS",
+      "a": "NVDA",
+      "b": "NBIS",
+      "corr": 0.724
+    },
+    {
+      "a": "IREN",
       "b": "CIFR",
-      "corr": 0.702
+      "corr": 0.722
+    },
+    {
+      "a": "AMD",
+      "b": "WULF",
+      "corr": 0.721
+    },
+    {
+      "a": "AMD",
+      "b": "GOOGL",
+      "corr": 0.72
     },
     {
       "a": "NVDA",
       "b": "STX",
-      "corr": 0.695
+      "corr": 0.72
     },
     {
-      "a": "EWY",
-      "b": "NBIS",
-      "corr": 0.687
+      "a": "SNDK",
+      "b": "MPTI",
+      "corr": 0.72
+    },
+    {
+      "a": "AMD",
+      "b": "PLPC",
+      "corr": 0.715
     },
     {
       "a": "BN",
       "b": "ELV",
-      "corr": 0.686
+      "corr": 0.714
     },
     {
-      "a": "NVDA",
+      "a": "IREN",
+      "b": "BRK.B",
+      "corr": -0.713
+    },
+    {
+      "a": "EWY",
+      "b": "SIL",
+      "corr": 0.711
+    },
+    {
+      "a": "NBIS",
+      "b": "CIFR",
+      "corr": 0.711
+    },
+    {
+      "a": "ELV",
+      "b": "QQQ",
+      "corr": 0.707
+    },
+    {
+      "a": "MU",
+      "b": "NVDA",
+      "corr": 0.706
+    },
+    {
+      "a": "EWY",
       "b": "NBIS",
-      "corr": 0.679
+      "corr": 0.705
     },
     {
-      "a": "META",
-      "b": "IREN",
-      "corr": 0.677
+      "a": "MU",
+      "b": "MPTI",
+      "corr": 0.704
+    },
+    {
+      "a": "GOOGL",
+      "b": "QQQ",
+      "corr": 0.698
+    },
+    {
+      "a": "BRK.B",
+      "b": "PLPC",
+      "corr": -0.696
+    },
+    {
+      "a": "VTI",
+      "b": "WDC",
+      "corr": 0.695
     },
     {
       "a": "GOOGL",
       "b": "SPY",
-      "corr": 0.677
+      "corr": 0.691
     },
     {
-      "a": "NVDA",
-      "b": "BRK.B",
-      "corr": -0.677
+      "a": "CIFR",
+      "b": "QQQ",
+      "corr": 0.69
     },
     {
-      "a": "META",
-      "b": "DUK",
-      "corr": -0.669
+      "a": "GOOGL",
+      "b": "VOO",
+      "corr": 0.689
+    },
+    {
+      "a": "GOOGL",
+      "b": "WDC",
+      "corr": 0.685
+    },
+    {
+      "a": "NBIS",
+      "b": "WULF",
+      "corr": 0.685
+    },
+    {
+      "a": "WDC",
+      "b": "VOO",
+      "corr": 0.682
+    },
+    {
+      "a": "SPY",
+      "b": "WDC",
+      "corr": 0.681
+    },
+    {
+      "a": "PLPC",
+      "b": "MPTI",
+      "corr": 0.681
     },
     {
       "a": "AMD",
       "b": "NVDA",
+      "corr": 0.679
+    },
+    {
+      "a": "GOOGL",
+      "b": "VTI",
+      "corr": 0.679
+    },
+    {
+      "a": "MU",
+      "b": "WULF",
+      "corr": 0.677
+    },
+    {
+      "a": "NVDA",
+      "b": "SNDK",
+      "corr": 0.672
+    },
+    {
+      "a": "BN",
+      "b": "SCHD",
+      "corr": 0.671
+    },
+    {
+      "a": "PLPC",
+      "b": "WULF",
+      "corr": 0.67
+    },
+    {
+      "a": "EWY",
+      "b": "CODA",
       "corr": 0.668
     },
     {
-      "a": "ELV",
-      "b": "AMD",
-      "corr": 0.652
+      "a": "META",
+      "b": "DUK",
+      "corr": -0.667
+    },
+    {
+      "a": "MU",
+      "b": "ONDS",
+      "corr": 0.666
+    },
+    {
+      "a": "NVDA",
+      "b": "BRK.B",
+      "corr": -0.664
     },
     {
       "a": "IREN",
       "b": "GOOGL",
-      "corr": 0.647
+      "corr": 0.663
+    },
+    {
+      "a": "GOOGL",
+      "b": "PLPC",
+      "corr": 0.66
+    },
+    {
+      "a": "BRK.B",
+      "b": "DUK",
+      "corr": 0.66
+    },
+    {
+      "a": "ONDS",
+      "b": "SPY",
+      "corr": 0.66
+    },
+    {
+      "a": "ONDS",
+      "b": "VOO",
+      "corr": 0.658
+    },
+    {
+      "a": "VTI",
+      "b": "WULF",
+      "corr": 0.657
+    },
+    {
+      "a": "META",
+      "b": "IREN",
+      "corr": 0.655
+    },
+    {
+      "a": "IREN",
+      "b": "WULF",
+      "corr": 0.653
+    },
+    {
+      "a": "PLTR",
+      "b": "MSFT",
+      "corr": 0.649
+    },
+    {
+      "a": "GOOGL",
+      "b": "WULF",
+      "corr": 0.641
+    },
+    {
+      "a": "EWY",
+      "b": "AMD",
+      "corr": 0.638
+    },
+    {
+      "a": "ELV",
+      "b": "AMD",
+      "corr": 0.638
+    },
+    {
+      "a": "MU",
+      "b": "CIFR",
+      "corr": 0.637
+    },
+    {
+      "a": "WULF",
+      "b": "VOO",
+      "corr": 0.636
+    },
+    {
+      "a": "ONDS",
+      "b": "QQQ",
+      "corr": 0.635
+    },
+    {
+      "a": "SPY",
+      "b": "WULF",
+      "corr": 0.635
+    },
+    {
+      "a": "VTI",
+      "b": "SNDK",
+      "corr": 0.634
+    },
+    {
+      "a": "IREN",
+      "b": "MPTI",
+      "corr": 0.633
+    },
+    {
+      "a": "EWY",
+      "b": "ONDS",
+      "corr": 0.632
+    },
+    {
+      "a": "ONDS",
+      "b": "VTI",
+      "corr": 0.632
     },
     {
       "a": "BN",
       "b": "AMZN",
-      "corr": 0.636
+      "corr": 0.63
     },
     {
-      "a": "BRK.B",
-      "b": "DUK",
-      "corr": 0.636
+      "a": "AMZN",
+      "b": "MSFT",
+      "corr": 0.63
     },
     {
-      "a": "ONDS",
-      "b": "SPY",
-      "corr": 0.634
-    },
-    {
-      "a": "EWY",
-      "b": "AMD",
-      "corr": 0.619
-    },
-    {
-      "a": "ELV",
-      "b": "NVDA",
-      "corr": 0.615
-    },
-    {
-      "a": "BRK.B",
-      "b": "LLY",
-      "corr": 0.614
-    },
-    {
-      "a": "EWY",
-      "b": "ONDS",
-      "corr": 0.605
+      "a": "STX",
+      "b": "MPTI",
+      "corr": 0.628
     },
     {
       "a": "EWY",
       "b": "GLD",
-      "corr": 0.6
-    },
-    {
-      "a": "AVO",
-      "b": "LLY",
-      "corr": -0.599
-    },
-    {
-      "a": "META",
-      "b": "GOOGL",
-      "corr": 0.596
-    },
-    {
-      "a": "EWY",
-      "b": "CIFR",
-      "corr": 0.586
-    },
-    {
-      "a": "NVDA",
-      "b": "DUK",
-      "corr": -0.583
-    },
-    {
-      "a": "BRK.B",
-      "b": "ONDS",
-      "corr": -0.58
-    },
-    {
-      "a": "BRK.B",
-      "b": "STX",
-      "corr": -0.579
-    },
-    {
-      "a": "ELV",
-      "b": "GOOGL",
-      "corr": 0.568
+      "corr": 0.627
     },
     {
       "a": "AMZN",
       "b": "ELV",
-      "corr": 0.563
+      "corr": 0.627
+    },
+    {
+      "a": "GLD",
+      "b": "SCHD",
+      "corr": 0.626
+    },
+    {
+      "a": "MPTI",
+      "b": "WDC",
+      "corr": 0.623
+    },
+    {
+      "a": "SPY",
+      "b": "SNDK",
+      "corr": 0.616
+    },
+    {
+      "a": "SNDK",
+      "b": "VOO",
+      "corr": 0.616
+    },
+    {
+      "a": "NVDA",
+      "b": "WDC",
+      "corr": 0.614
+    },
+    {
+      "a": "CIFR",
+      "b": "SNDK",
+      "corr": 0.613
+    },
+    {
+      "a": "NVDA",
+      "b": "PLPC",
+      "corr": 0.612
+    },
+    {
+      "a": "ELV",
+      "b": "GOOGL",
+      "corr": 0.61
+    },
+    {
+      "a": "CIFR",
+      "b": "MPTI",
+      "corr": 0.609
     },
     {
       "a": "NBIS",
-      "b": "SPY",
-      "corr": 0.563
-    },
-    {
-      "a": "BN",
-      "b": "SPY",
-      "corr": 0.559
-    },
-    {
-      "a": "META",
-      "b": "AMD",
-      "corr": 0.555
+      "b": "VTI",
+      "corr": 0.606
     },
     {
       "a": "GLD",
       "b": "ONDS",
-      "corr": 0.546
+      "corr": 0.603
+    },
+    {
+      "a": "NBIS",
+      "b": "SPY",
+      "corr": 0.602
+    },
+    {
+      "a": "EWY",
+      "b": "CIFR",
+      "corr": 0.601
+    },
+    {
+      "a": "NBIS",
+      "b": "VOO",
+      "corr": 0.601
+    },
+    {
+      "a": "META",
+      "b": "GOOGL",
+      "corr": 0.6
+    },
+    {
+      "a": "AMD",
+      "b": "MPTI",
+      "corr": 0.596
+    },
+    {
+      "a": "NVDA",
+      "b": "DUK",
+      "corr": -0.596
+    },
+    {
+      "a": "BRK.B",
+      "b": "STX",
+      "corr": -0.596
+    },
+    {
+      "a": "AVO",
+      "b": "LLY",
+      "corr": -0.592
+    },
+    {
+      "a": "BRK.B",
+      "b": "ONDS",
+      "corr": -0.592
+    },
+    {
+      "a": "IREN",
+      "b": "CODA",
+      "corr": 0.589
+    },
+    {
+      "a": "BRK.B",
+      "b": "SNDK",
+      "corr": -0.586
+    },
+    {
+      "a": "BRK.B",
+      "b": "LLY",
+      "corr": 0.584
     },
     {
       "a": "EWY",
       "b": "NVDA",
-      "corr": 0.545
+      "corr": 0.57
     },
     {
-      "a": "PLTR",
-      "b": "NFLX",
-      "corr": 0.544
-    },
-    {
-      "a": "META",
-      "b": "STX",
-      "corr": 0.537
+      "a": "NFLX",
+      "b": "SIL",
+      "corr": 0.563
     },
     {
       "a": "AMZN",
       "b": "SPY",
-      "corr": 0.533
+      "corr": 0.557
     },
     {
-      "a": "CIFR",
-      "b": "SPY",
-      "corr": 0.527
-    },
-    {
-      "a": "META",
-      "b": "BRK.B",
-      "corr": -0.525
-    },
-    {
-      "a": "ELV",
-      "b": "STX",
-      "corr": 0.519
-    },
-    {
-      "a": "EWY",
-      "b": "GOOGL",
-      "corr": 0.518
+      "a": "BRK.B",
+      "b": "MPTI",
+      "corr": -0.553
     },
     {
       "a": "ONDS",
       "b": "STX",
-      "corr": 0.514
+      "corr": 0.553
+    },
+    {
+      "a": "AMZN",
+      "b": "VOO",
+      "corr": 0.552
+    },
+    {
+      "a": "ONDS",
+      "b": "SIL",
+      "corr": 0.55
+    },
+    {
+      "a": "CIFR",
+      "b": "SPY",
+      "corr": 0.548
+    },
+    {
+      "a": "CIFR",
+      "b": "VOO",
+      "corr": 0.546
+    },
+    {
+      "a": "META",
+      "b": "AMD",
+      "corr": 0.545
+    },
+    {
+      "a": "ONDS",
+      "b": "NBIS",
+      "corr": 0.544
+    },
+    {
+      "a": "CIFR",
+      "b": "VTI",
+      "corr": 0.544
+    },
+    {
+      "a": "IREN",
+      "b": "DUK",
+      "corr": -0.542
     },
     {
       "a": "PLTR",
+      "b": "NFLX",
+      "corr": 0.541
+    },
+    {
+      "a": "EWY",
+      "b": "GOOGL",
+      "corr": 0.534
+    },
+    {
+      "a": "BN",
+      "b": "VTI",
+      "corr": 0.531
+    },
+    {
+      "a": "META",
+      "b": "QQQ",
+      "corr": 0.531
+    },
+    {
+      "a": "PLTR",
+      "b": "DUK",
+      "corr": -0.53
+    },
+    {
+      "a": "ONDS",
+      "b": "SNDK",
+      "corr": 0.526
+    },
+    {
+      "a": "AMZN",
+      "b": "VTI",
+      "corr": 0.524
+    },
+    {
+      "a": "DUK",
+      "b": "QQQ",
+      "corr": -0.524
+    },
+    {
+      "a": "VTI",
+      "b": "PLPC",
+      "corr": 0.524
+    },
+    {
+      "a": "META",
+      "b": "STX",
+      "corr": 0.522
+    },
+    {
+      "a": "META",
+      "b": "BRK.B",
+      "corr": -0.521
+    },
+    {
+      "a": "ELV",
+      "b": "MU",
+      "corr": 0.521
+    },
+    {
+      "a": "BN",
+      "b": "VOO",
+      "corr": 0.517
+    },
+    {
+      "a": "BN",
+      "b": "SPY",
+      "corr": 0.516
+    },
+    {
+      "a": "ELV",
+      "b": "NVDA",
+      "corr": 0.516
+    },
+    {
+      "a": "DUK",
+      "b": "SCHD",
+      "corr": 0.516
+    },
+    {
+      "a": "ONDS",
+      "b": "DUK",
+      "corr": -0.515
+    },
+    {
+      "a": "SPY",
+      "b": "PLPC",
+      "corr": 0.515
+    },
+    {
+      "a": "AMD",
       "b": "DUK",
       "corr": -0.514
     },
     {
-      "a": "IREN",
-      "b": "DUK",
+      "a": "ONDS",
+      "b": "PLTR",
+      "corr": 0.512
+    },
+    {
+      "a": "PLPC",
+      "b": "VOO",
+      "corr": 0.512
+    },
+    {
+      "a": "EWY",
+      "b": "MPTI",
+      "corr": 0.511
+    },
+    {
+      "a": "GOOGL",
+      "b": "SNDK",
+      "corr": 0.511
+    },
+    {
+      "a": "BRK.B",
+      "b": "NBIS",
       "corr": -0.51
+    },
+    {
+      "a": "MU",
+      "b": "GOOGL",
+      "corr": 0.506
+    },
+    {
+      "a": "MPTI",
+      "b": "WULF",
+      "corr": 0.503
+    },
+    {
+      "a": "DUK",
+      "b": "PLPC",
+      "corr": -0.497
+    },
+    {
+      "a": "ELV",
+      "b": "STX",
+      "corr": 0.495
     },
     {
       "a": "GLD",
       "b": "NFLX",
-      "corr": 0.509
+      "corr": 0.493
     },
     {
-      "a": "ONDS",
-      "b": "PLTR",
-      "corr": 0.506
-    },
-    {
-      "a": "ONDS",
-      "b": "NBIS",
-      "corr": 0.504
-    },
-    {
-      "a": "META",
-      "b": "NVDA",
-      "corr": 0.499
-    },
-    {
-      "a": "BRK.B",
-      "b": "NBIS",
-      "corr": -0.49
-    },
-    {
-      "a": "AMD",
-      "b": "DUK",
-      "corr": -0.489
+      "a": "NVDA",
+      "b": "CODA",
+      "corr": 0.493
     },
     {
       "a": "GOOGL",
       "b": "NVDA",
-      "corr": 0.487
+      "corr": 0.49
+    },
+    {
+      "a": "QQQ",
+      "b": "MPTI",
+      "corr": 0.489
+    },
+    {
+      "a": "AMD",
+      "b": "ONDS",
+      "corr": 0.488
+    },
+    {
+      "a": "AMD",
+      "b": "BRK.B",
+      "corr": -0.485
+    },
+    {
+      "a": "SPY",
+      "b": "MSFT",
+      "corr": 0.484
     },
     {
       "a": "META",
-      "b": "CIFR",
+      "b": "CODA",
+      "corr": 0.481
+    },
+    {
+      "a": "MSFT",
+      "b": "VOO",
+      "corr": 0.48
+    },
+    {
+      "a": "GOOGL",
+      "b": "BRK.B",
+      "corr": -0.479
+    },
+    {
+      "a": "ONDS",
+      "b": "WDC",
       "corr": 0.478
     },
     {
-      "a": "ONDS",
-      "b": "DUK",
-      "corr": -0.47
-    },
-    {
-      "a": "AMD",
-      "b": "BRK.B",
-      "corr": -0.465
-    },
-    {
-      "a": "ELV",
-      "b": "ONDS",
-      "corr": 0.462
-    },
-    {
-      "a": "AMD",
-      "b": "ONDS",
-      "corr": 0.454
-    },
-    {
-      "a": "GOOGL",
-      "b": "BRK.B",
-      "corr": -0.453
-    },
-    {
-      "a": "EWY",
-      "b": "ELV",
-      "corr": 0.452
-    },
-    {
-      "a": "NVDA",
-      "b": "PLTR",
-      "corr": 0.452
-    },
-    {
-      "a": "ELV",
-      "b": "IREN",
-      "corr": 0.447
-    },
-    {
       "a": "META",
-      "b": "ONDS",
-      "corr": 0.432
-    },
-    {
-      "a": "NBIS",
-      "b": "DUK",
-      "corr": -0.429
-    },
-    {
-      "a": "BN",
-      "b": "LLY",
-      "corr": 0.427
-    },
-    {
-      "a": "EWY",
-      "b": "META",
-      "corr": 0.424
-    },
-    {
-      "a": "META",
-      "b": "SPY",
-      "corr": 0.419
-    },
-    {
-      "a": "NVDA",
       "b": "CIFR",
-      "corr": 0.413
+      "corr": 0.477
+    },
+    {
+      "a": "STX",
+      "b": "CODA",
+      "corr": 0.476
     },
     {
       "a": "IREN",
       "b": "GLD",
-      "corr": 0.411
+      "corr": 0.469
     },
     {
-      "a": "GOOGL",
+      "a": "MU",
+      "b": "CODA",
+      "corr": 0.468
+    },
+    {
+      "a": "ONDS",
+      "b": "MSFT",
+      "corr": 0.467
+    },
+    {
+      "a": "NBIS",
       "b": "DUK",
-      "corr": -0.401
+      "corr": -0.467
     },
     {
-      "a": "AMZN",
-      "b": "STX",
-      "corr": 0.398
+      "a": "SPY",
+      "b": "CODA",
+      "corr": 0.462
     },
     {
-      "a": "AMZN",
-      "b": "AMD",
-      "corr": 0.394
+      "a": "VOO",
+      "b": "CODA",
+      "corr": 0.462
     },
     {
-      "a": "CIFR",
-      "b": "DUK",
-      "corr": -0.389
+      "a": "SCHD",
+      "b": "SIL",
+      "corr": 0.46
+    },
+    {
+      "a": "VTI",
+      "b": "SIL",
+      "corr": 0.454
     },
     {
       "a": "ELV",
-      "b": "LLY",
-      "corr": 0.387
+      "b": "WDC",
+      "corr": 0.449
     },
     {
-      "a": "GLD",
-      "b": "SPY",
-      "corr": 0.381
+      "a": "SPY",
+      "b": "SIL",
+      "corr": 0.447
     },
     {
-      "a": "AMZN",
-      "b": "IREN",
-      "corr": 0.374
+      "a": "SIL",
+      "b": "VOO",
+      "corr": 0.447
     },
     {
-      "a": "BRK.B",
-      "b": "CIFR",
-      "corr": -0.372
-    },
-    {
-      "a": "AVO",
-      "b": "GLD",
-      "corr": 0.371
-    },
-    {
-      "a": "GOOGL",
-      "b": "NBIS",
-      "corr": 0.362
-    },
-    {
-      "a": "STX",
-      "b": "DUK",
-      "corr": -0.358
+      "a": "META",
+      "b": "NVDA",
+      "corr": 0.445
     },
     {
       "a": "GLD",
       "b": "NVDA",
-      "corr": 0.356
+      "corr": 0.445
+    },
+    {
+      "a": "BRK.B",
+      "b": "QQQ",
+      "corr": -0.444
+    },
+    {
+      "a": "NVDA",
+      "b": "PLTR",
+      "corr": 0.443
+    },
+    {
+      "a": "EWY",
+      "b": "ELV",
+      "corr": 0.442
+    },
+    {
+      "a": "VTI",
+      "b": "CODA",
+      "corr": 0.442
+    },
+    {
+      "a": "GLD",
+      "b": "SNDK",
+      "corr": 0.441
+    },
+    {
+      "a": "MU",
+      "b": "BRK.B",
+      "corr": -0.441
+    },
+    {
+      "a": "META",
+      "b": "MU",
+      "corr": 0.44
+    },
+    {
+      "a": "GLD",
+      "b": "SPY",
+      "corr": 0.438
+    },
+    {
+      "a": "GLD",
+      "b": "VOO",
+      "corr": 0.437
+    },
+    {
+      "a": "NVDA",
+      "b": "CIFR",
+      "corr": 0.437
+    },
+    {
+      "a": "BRK.B",
+      "b": "WDC",
+      "corr": -0.437
+    },
+    {
+      "a": "DUK",
+      "b": "MSFT",
+      "corr": -0.437
+    },
+    {
+      "a": "PLTR",
+      "b": "SIL",
+      "corr": 0.436
+    },
+    {
+      "a": "SGOV",
+      "b": "SCHD",
+      "corr": 0.436
+    },
+    {
+      "a": "GLD",
+      "b": "VTI",
+      "corr": 0.435
+    },
+    {
+      "a": "MU",
+      "b": "DUK",
+      "corr": -0.435
+    },
+    {
+      "a": "WDC",
+      "b": "CODA",
+      "corr": 0.435
+    },
+    {
+      "a": "VTI",
+      "b": "MSFT",
+      "corr": 0.434
+    },
+    {
+      "a": "SNDK",
+      "b": "CODA",
+      "corr": 0.432
+    },
+    {
+      "a": "MU",
+      "b": "SIL",
+      "corr": 0.43
+    },
+    {
+      "a": "META",
+      "b": "PLPC",
+      "corr": 0.429
+    },
+    {
+      "a": "CIFR",
+      "b": "CODA",
+      "corr": 0.429
+    },
+    {
+      "a": "META",
+      "b": "ONDS",
+      "corr": 0.426
+    },
+    {
+      "a": "ELV",
+      "b": "MSFT",
+      "corr": 0.425
+    },
+    {
+      "a": "ELV",
+      "b": "WULF",
+      "corr": 0.423
+    },
+    {
+      "a": "EWY",
+      "b": "META",
+      "corr": 0.419
+    },
+    {
+      "a": "AMZN",
+      "b": "STX",
+      "corr": 0.419
+    },
+    {
+      "a": "AMZN",
+      "b": "AMD",
+      "corr": 0.416
+    },
+    {
+      "a": "BN",
+      "b": "LLY",
+      "corr": 0.415
+    },
+    {
+      "a": "NVDA",
+      "b": "MSFT",
+      "corr": 0.415
+    },
+    {
+      "a": "SNDK",
+      "b": "SIL",
+      "corr": 0.415
+    },
+    {
+      "a": "ELV",
+      "b": "IREN",
+      "corr": 0.412
+    },
+    {
+      "a": "ELV",
+      "b": "ONDS",
+      "corr": 0.411
+    },
+    {
+      "a": "WULF",
+      "b": "CODA",
+      "corr": 0.411
+    },
+    {
+      "a": "QQQ",
+      "b": "CODA",
+      "corr": 0.41
+    },
+    {
+      "a": "META",
+      "b": "SPY",
+      "corr": 0.409
+    },
+    {
+      "a": "GOOGL",
+      "b": "DUK",
+      "corr": -0.409
+    },
+    {
+      "a": "META",
+      "b": "VOO",
+      "corr": 0.407
+    },
+    {
+      "a": "CIFR",
+      "b": "DUK",
+      "corr": -0.406
+    },
+    {
+      "a": "AMZN",
+      "b": "IREN",
+      "corr": 0.404
+    },
+    {
+      "a": "IREN",
+      "b": "SIL",
+      "corr": 0.402
+    },
+    {
+      "a": "ELV",
+      "b": "LLY",
+      "corr": 0.398
+    },
+    {
+      "a": "BRK.B",
+      "b": "CIFR",
+      "corr": -0.395
+    },
+    {
+      "a": "STX",
+      "b": "DUK",
+      "corr": -0.393
+    },
+    {
+      "a": "GOOGL",
+      "b": "NBIS",
+      "corr": 0.39
+    },
+    {
+      "a": "ONDS",
+      "b": "MPTI",
+      "corr": 0.389
+    },
+    {
+      "a": "ONDS",
+      "b": "PLPC",
+      "corr": 0.386
+    },
+    {
+      "a": "PLPC",
+      "b": "SIL",
+      "corr": 0.386
+    },
+    {
+      "a": "VTI",
+      "b": "SCHD",
+      "corr": 0.385
+    },
+    {
+      "a": "NVDA",
+      "b": "SIL",
+      "corr": 0.382
+    },
+    {
+      "a": "IREN",
+      "b": "SGOV",
+      "corr": 0.379
+    },
+    {
+      "a": "META",
+      "b": "SNDK",
+      "corr": 0.378
+    },
+    {
+      "a": "DUK",
+      "b": "SGOV",
+      "corr": 0.377
+    },
+    {
+      "a": "BN",
+      "b": "MSFT",
+      "corr": 0.376
+    },
+    {
+      "a": "AVO",
+      "b": "GLD",
+      "corr": 0.376
+    },
+    {
+      "a": "AMZN",
+      "b": "QQQ",
+      "corr": 0.375
+    },
+    {
+      "a": "GLD",
+      "b": "MU",
+      "corr": 0.375
+    },
+    {
+      "a": "NBIS",
+      "b": "CODA",
+      "corr": 0.373
+    },
+    {
+      "a": "AVO",
+      "b": "SGOV",
+      "corr": 0.371
+    },
+    {
+      "a": "META",
+      "b": "VTI",
+      "corr": 0.37
+    },
+    {
+      "a": "SCHD",
+      "b": "VOO",
+      "corr": 0.37
+    },
+    {
+      "a": "SIL",
+      "b": "QQQ",
+      "corr": 0.37
+    },
+    {
+      "a": "SPY",
+      "b": "SCHD",
+      "corr": 0.368
+    },
+    {
+      "a": "SGOV",
+      "b": "WULF",
+      "corr": 0.364
+    },
+    {
+      "a": "LLY",
+      "b": "VTI",
+      "corr": 0.362
+    },
+    {
+      "a": "NFLX",
+      "b": "SCHD",
+      "corr": 0.357
     },
     {
       "a": "AMZN",
       "b": "CIFR",
-      "corr": 0.344
+      "corr": 0.354
     },
     {
-      "a": "BN",
-      "b": "GOOGL",
-      "corr": 0.338
-    },
-    {
-      "a": "BRK.B",
-      "b": "PLTR",
-      "corr": -0.325
-    },
-    {
-      "a": "META",
-      "b": "AMZN",
-      "corr": 0.323
-    },
-    {
-      "a": "ELV",
-      "b": "NBIS",
-      "corr": 0.323
-    },
-    {
-      "a": "AVO",
-      "b": "PLTR",
-      "corr": -0.321
-    },
-    {
-      "a": "GLD",
-      "b": "PLTR",
-      "corr": 0.321
-    },
-    {
-      "a": "EWY",
-      "b": "BRK.B",
-      "corr": -0.319
-    },
-    {
-      "a": "LLY",
-      "b": "SPY",
-      "corr": 0.316
-    },
-    {
-      "a": "META",
-      "b": "NBIS",
-      "corr": 0.312
-    },
-    {
-      "a": "BN",
-      "b": "AVO",
-      "corr": -0.309
+      "a": "NVDA",
+      "b": "WULF",
+      "corr": 0.353
     },
     {
       "a": "GOOGL",
       "b": "ONDS",
-      "corr": 0.305
+      "corr": 0.348
+    },
+    {
+      "a": "DUK",
+      "b": "MPTI",
+      "corr": -0.348
     },
     {
       "a": "DUK",
       "b": "SPY",
+      "corr": -0.346
+    },
+    {
+      "a": "AVO",
+      "b": "PLPC",
+      "corr": 0.345
+    },
+    {
+      "a": "GLD",
+      "b": "STX",
+      "corr": 0.345
+    },
+    {
+      "a": "GLD",
+      "b": "PLTR",
+      "corr": 0.345
+    },
+    {
+      "a": "EWY",
+      "b": "BRK.B",
+      "corr": -0.344
+    },
+    {
+      "a": "SGOV",
+      "b": "SNDK",
+      "corr": 0.343
+    },
+    {
+      "a": "ELV",
+      "b": "SNDK",
+      "corr": 0.341
+    },
+    {
+      "a": "DUK",
+      "b": "VOO",
+      "corr": -0.341
+    },
+    {
+      "a": "NFLX",
+      "b": "CODA",
+      "corr": 0.341
+    },
+    {
+      "a": "LLY",
+      "b": "VOO",
+      "corr": 0.34
+    },
+    {
+      "a": "BRK.B",
+      "b": "CODA",
+      "corr": -0.339
+    },
+    {
+      "a": "MU",
+      "b": "LLY",
+      "corr": 0.336
+    },
+    {
+      "a": "PLPC",
+      "b": "CODA",
+      "corr": 0.336
+    },
+    {
+      "a": "GLD",
+      "b": "PLPC",
+      "corr": 0.334
+    },
+    {
+      "a": "BRK.B",
+      "b": "PLTR",
+      "corr": -0.334
+    },
+    {
+      "a": "LLY",
+      "b": "SPY",
+      "corr": 0.334
+    },
+    {
+      "a": "META",
+      "b": "AMZN",
+      "corr": 0.333
+    },
+    {
+      "a": "NVDA",
+      "b": "MPTI",
+      "corr": 0.33
+    },
+    {
+      "a": "PLTR",
+      "b": "WDC",
+      "corr": -0.329
+    },
+    {
+      "a": "SCHD",
+      "b": "CODA",
+      "corr": 0.328
+    },
+    {
+      "a": "BN",
+      "b": "GOOGL",
+      "corr": 0.326
+    },
+    {
+      "a": "AMZN",
+      "b": "NVDA",
+      "corr": 0.326
+    },
+    {
+      "a": "ONDS",
+      "b": "WULF",
+      "corr": 0.324
+    },
+    {
+      "a": "AVO",
+      "b": "PLTR",
+      "corr": -0.323
+    },
+    {
+      "a": "AMZN",
+      "b": "ONDS",
+      "corr": 0.321
+    },
+    {
+      "a": "MSFT",
+      "b": "MPTI",
+      "corr": -0.319
+    },
+    {
+      "a": "GLD",
+      "b": "BRK.B",
+      "corr": -0.317
+    },
+    {
+      "a": "AMZN",
+      "b": "BRK.B",
+      "corr": -0.313
+    },
+    {
+      "a": "AVO",
+      "b": "GOOGL",
+      "corr": 0.313
+    },
+    {
+      "a": "BN",
+      "b": "AVO",
+      "corr": -0.311
+    },
+    {
+      "a": "LLY",
+      "b": "SCHD",
+      "corr": 0.31
+    },
+    {
+      "a": "ONDS",
+      "b": "CIFR",
+      "corr": 0.31
+    },
+    {
+      "a": "BN",
+      "b": "DUK",
+      "corr": 0.306
+    },
+    {
+      "a": "STX",
+      "b": "SGOV",
+      "corr": 0.306
+    },
+    {
+      "a": "GOOGL",
+      "b": "CODA",
+      "corr": 0.305
+    },
+    {
+      "a": "LLY",
+      "b": "PLPC",
+      "corr": -0.305
+    },
+    {
+      "a": "DUK",
+      "b": "VTI",
       "corr": -0.305
     },
     {
       "a": "LLY",
       "b": "NFLX",
-      "corr": -0.304
+      "corr": -0.302
+    },
+    {
+      "a": "STX",
+      "b": "SIL",
+      "corr": 0.301
+    },
+    {
+      "a": "NFLX",
+      "b": "MPTI",
+      "corr": -0.301
+    },
+    {
+      "a": "META",
+      "b": "NBIS",
+      "corr": 0.3
+    },
+    {
+      "a": "META",
+      "b": "WDC",
+      "corr": 0.3
+    },
+    {
+      "a": "NFLX",
+      "b": "MSFT",
+      "corr": 0.299
     },
     {
       "a": "AMZN",
-      "b": "NVDA",
-      "corr": 0.302
+      "b": "WDC",
+      "corr": 0.295
     },
     {
-      "a": "AVO",
-      "b": "GOOGL",
-      "corr": 0.298
+      "a": "ELV",
+      "b": "SCHD",
+      "corr": 0.295
     },
     {
-      "a": "BN",
-      "b": "DUK",
-      "corr": 0.296
+      "a": "META",
+      "b": "SCHD",
+      "corr": -0.293
     },
     {
-      "a": "GOOGL",
-      "b": "LLY",
-      "corr": -0.291
+      "a": "META",
+      "b": "MSFT",
+      "corr": 0.288
     },
     {
       "a": "GLD",
-      "b": "STX",
-      "corr": 0.283
-    },
-    {
-      "a": "AMZN",
-      "b": "BRK.B",
-      "corr": -0.281
+      "b": "WDC",
+      "corr": 0.287
     },
     {
       "a": "BN",
       "b": "BRK.B",
-      "corr": 0.278
+      "corr": 0.286
+    },
+    {
+      "a": "GLD",
+      "b": "QQQ",
+      "corr": 0.285
+    },
+    {
+      "a": "SGOV",
+      "b": "WDC",
+      "corr": 0.284
+    },
+    {
+      "a": "ELV",
+      "b": "NBIS",
+      "corr": 0.28
+    },
+    {
+      "a": "AVO",
+      "b": "MSFT",
+      "corr": -0.277
     },
     {
       "a": "META",
       "b": "GLD",
-      "corr": 0.277
+      "corr": 0.276
+    },
+    {
+      "a": "GOOGL",
+      "b": "LLY",
+      "corr": -0.276
+    },
+    {
+      "a": "PLTR",
+      "b": "SGOV",
+      "corr": -0.275
+    },
+    {
+      "a": "AVO",
+      "b": "WDC",
+      "corr": 0.274
     },
     {
       "a": "AVO",
       "b": "STX",
-      "corr": 0.276
+      "corr": 0.273
+    },
+    {
+      "a": "SCHD",
+      "b": "MPTI",
+      "corr": -0.272
+    },
+    {
+      "a": "AMZN",
+      "b": "DUK",
+      "corr": -0.271
+    },
+    {
+      "a": "IREN",
+      "b": "MSFT",
+      "corr": 0.27
+    },
+    {
+      "a": "SIL",
+      "b": "WULF",
+      "corr": 0.27
+    },
+    {
+      "a": "META",
+      "b": "WULF",
+      "corr": 0.269
+    },
+    {
+      "a": "DUK",
+      "b": "SNDK",
+      "corr": -0.269
+    },
+    {
+      "a": "META",
+      "b": "SIL",
+      "corr": 0.268
     },
     {
       "a": "AMD",
       "b": "NFLX",
-      "corr": -0.273
-    },
-    {
-      "a": "GLD",
-      "b": "BRK.B",
-      "corr": -0.272
-    },
-    {
-      "a": "ONDS",
-      "b": "CIFR",
-      "corr": 0.271
-    },
-    {
-      "a": "AMZN",
-      "b": "ONDS",
-      "corr": 0.27
-    },
-    {
-      "a": "LLY",
-      "b": "DUK",
-      "corr": 0.27
-    },
-    {
-      "a": "AMZN",
-      "b": "DUK",
       "corr": -0.266
+    },
+    {
+      "a": "BRK.B",
+      "b": "SPY",
+      "corr": -0.266
+    },
+    {
+      "a": "MSFT",
+      "b": "QQQ",
+      "corr": 0.264
+    },
+    {
+      "a": "EWY",
+      "b": "DUK",
+      "corr": -0.263
+    },
+    {
+      "a": "BRK.B",
+      "b": "VOO",
+      "corr": -0.259
+    },
+    {
+      "a": "MSFT",
+      "b": "CODA",
+      "corr": 0.258
     },
     {
       "a": "AVO",
       "b": "BRK.B",
-      "corr": -0.262
+      "corr": -0.257
     },
     {
-      "a": "PLTR",
-      "b": "CIFR",
-      "corr": -0.26
+      "a": "AVO",
+      "b": "SNDK",
+      "corr": 0.256
+    },
+    {
+      "a": "BN",
+      "b": "MPTI",
+      "corr": -0.255
+    },
+    {
+      "a": "ONDS",
+      "b": "SCHD",
+      "corr": 0.255
+    },
+    {
+      "a": "DUK",
+      "b": "CODA",
+      "corr": -0.255
     },
     {
       "a": "META",
@@ -722,94 +2008,319 @@
       "corr": 0.254
     },
     {
-      "a": "BRK.B",
-      "b": "SPY",
-      "corr": -0.234
+      "a": "GOOGL",
+      "b": "MSFT",
+      "corr": 0.249
+    },
+    {
+      "a": "LLY",
+      "b": "DUK",
+      "corr": 0.245
+    },
+    {
+      "a": "PLTR",
+      "b": "WULF",
+      "corr": -0.245
+    },
+    {
+      "a": "NBIS",
+      "b": "SIL",
+      "corr": 0.245
+    },
+    {
+      "a": "AMZN",
+      "b": "WULF",
+      "corr": 0.244
+    },
+    {
+      "a": "BN",
+      "b": "WULF",
+      "corr": 0.242
     },
     {
       "a": "EWY",
-      "b": "DUK",
-      "corr": -0.229
+      "b": "SCHD",
+      "corr": 0.241
     },
     {
-      "a": "META",
-      "b": "AVO",
-      "corr": 0.222
+      "a": "SNDK",
+      "b": "MSFT",
+      "corr": -0.238
+    },
+    {
+      "a": "GLD",
+      "b": "WULF",
+      "corr": 0.237
+    },
+    {
+      "a": "PLTR",
+      "b": "CIFR",
+      "corr": -0.235
     },
     {
       "a": "PLTR",
       "b": "SPY",
-      "corr": 0.216
+      "corr": 0.234
+    },
+    {
+      "a": "AVO",
+      "b": "CODA",
+      "corr": 0.231
+    },
+    {
+      "a": "BRK.B",
+      "b": "VTI",
+      "corr": -0.231
+    },
+    {
+      "a": "PLTR",
+      "b": "VOO",
+      "corr": 0.23
+    },
+    {
+      "a": "SCHD",
+      "b": "MSFT",
+      "corr": 0.23
+    },
+    {
+      "a": "CIFR",
+      "b": "SGOV",
+      "corr": 0.229
     },
     {
       "a": "GLD",
       "b": "GOOGL",
-      "corr": 0.207
+      "corr": 0.226
     },
     {
-      "a": "AVO",
-      "b": "CIFR",
-      "corr": 0.205
+      "a": "LLY",
+      "b": "QQQ",
+      "corr": 0.226
     },
     {
       "a": "META",
-      "b": "NFLX",
-      "corr": -0.199
+      "b": "MPTI",
+      "corr": 0.224
     },
     {
-      "a": "BN",
-      "b": "META",
-      "corr": -0.197
+      "a": "GOOGL",
+      "b": "MPTI",
+      "corr": 0.224
+    },
+    {
+      "a": "BRK.B",
+      "b": "SCHD",
+      "corr": 0.224
+    },
+    {
+      "a": "PLTR",
+      "b": "CODA",
+      "corr": 0.223
     },
     {
       "a": "AMZN",
-      "b": "LLY",
-      "corr": -0.197
+      "b": "SCHD",
+      "corr": 0.222
     },
     {
-      "a": "BN",
-      "b": "ONDS",
-      "corr": 0.196
+      "a": "META",
+      "b": "AVO",
+      "corr": 0.221
     },
     {
       "a": "ELV",
-      "b": "CIFR",
-      "corr": 0.196
+      "b": "PLPC",
+      "corr": 0.219
+    },
+    {
+      "a": "PLTR",
+      "b": "QQQ",
+      "corr": 0.219
+    },
+    {
+      "a": "DUK",
+      "b": "SIL",
+      "corr": -0.219
+    },
+    {
+      "a": "SIL",
+      "b": "WDC",
+      "corr": 0.217
     },
     {
       "a": "IREN",
       "b": "PLTR",
-      "corr": 0.196
+      "corr": 0.216
     },
     {
-      "a": "META",
-      "b": "LLY",
-      "corr": -0.187
+      "a": "AMD",
+      "b": "SCHD",
+      "corr": -0.216
     },
     {
-      "a": "EWY",
-      "b": "LLY",
-      "corr": 0.183
+      "a": "SGOV",
+      "b": "MPTI",
+      "corr": 0.216
+    },
+    {
+      "a": "MPTI",
+      "b": "CODA",
+      "corr": 0.216
+    },
+    {
+      "a": "AMD",
+      "b": "CODA",
+      "corr": 0.215
+    },
+    {
+      "a": "VTI",
+      "b": "MPTI",
+      "corr": 0.215
     },
     {
       "a": "BN",
-      "b": "NBIS",
-      "corr": -0.182
-    },
-    {
-      "a": "BN",
-      "b": "EWY",
-      "corr": 0.181
+      "b": "QQQ",
+      "corr": 0.213
     },
     {
       "a": "AVO",
-      "b": "ONDS",
-      "corr": -0.18
+      "b": "CIFR",
+      "corr": 0.212
+    },
+    {
+      "a": "BRK.B",
+      "b": "SIL",
+      "corr": -0.211
+    },
+    {
+      "a": "BRK.B",
+      "b": "WULF",
+      "corr": -0.211
     },
     {
       "a": "AVO",
       "b": "ELV",
-      "corr": -0.174
+      "corr": -0.209
+    },
+    {
+      "a": "AVO",
+      "b": "SIL",
+      "corr": 0.207
+    },
+    {
+      "a": "SPY",
+      "b": "MPTI",
+      "corr": 0.206
+    },
+    {
+      "a": "GLD",
+      "b": "MSFT",
+      "corr": 0.205
+    },
+    {
+      "a": "MPTI",
+      "b": "VOO",
+      "corr": 0.204
+    },
+    {
+      "a": "ELV",
+      "b": "CIFR",
+      "corr": 0.203
+    },
+    {
+      "a": "GLD",
+      "b": "SGOV",
+      "corr": 0.203
+    },
+    {
+      "a": "EWY",
+      "b": "LLY",
+      "corr": 0.201
+    },
+    {
+      "a": "PLTR",
+      "b": "VTI",
+      "corr": 0.201
+    },
+    {
+      "a": "META",
+      "b": "NFLX",
+      "corr": -0.2
+    },
+    {
+      "a": "BN",
+      "b": "META",
+      "corr": -0.198
+    },
+    {
+      "a": "BN",
+      "b": "NBIS",
+      "corr": -0.196
+    },
+    {
+      "a": "MU",
+      "b": "NFLX",
+      "corr": -0.196
+    },
+    {
+      "a": "GOOGL",
+      "b": "SIL",
+      "corr": 0.193
+    },
+    {
+      "a": "NFLX",
+      "b": "WDC",
+      "corr": -0.19
+    },
+    {
+      "a": "AMZN",
+      "b": "LLY",
+      "corr": -0.188
+    },
+    {
+      "a": "CIFR",
+      "b": "SCHD",
+      "corr": -0.186
+    },
+    {
+      "a": "AVO",
+      "b": "ONDS",
+      "corr": -0.184
+    },
+    {
+      "a": "NBIS",
+      "b": "SCHD",
+      "corr": -0.184
+    },
+    {
+      "a": "META",
+      "b": "LLY",
+      "corr": -0.183
+    },
+    {
+      "a": "BN",
+      "b": "PLPC",
+      "corr": -0.182
+    },
+    {
+      "a": "ELV",
+      "b": "DUK",
+      "corr": -0.181
+    },
+    {
+      "a": "SGOV",
+      "b": "PLPC",
+      "corr": 0.181
+    },
+    {
+      "a": "SIL",
+      "b": "MSFT",
+      "corr": 0.179
+    },
+    {
+      "a": "BN",
+      "b": "ONDS",
+      "corr": 0.173
     },
     {
       "a": "META",
@@ -817,164 +2328,424 @@
       "corr": 0.171
     },
     {
-      "a": "BN",
-      "b": "GLD",
+      "a": "CIFR",
+      "b": "SIL",
+      "corr": 0.17
+    },
+    {
+      "a": "SCHD",
+      "b": "PLPC",
+      "corr": -0.17
+    },
+    {
+      "a": "PLPC",
+      "b": "MSFT",
+      "corr": -0.167
+    },
+    {
+      "a": "AMZN",
+      "b": "SGOV",
       "corr": 0.166
     },
     {
-      "a": "ELV",
-      "b": "PLTR",
-      "corr": 0.165
+      "a": "AMZN",
+      "b": "PLPC",
+      "corr": 0.164
     },
     {
-      "a": "ELV",
-      "b": "DUK",
-      "corr": -0.164
+      "a": "PLTR",
+      "b": "NBIS",
+      "corr": 0.161
+    },
+    {
+      "a": "BN",
+      "b": "EWY",
+      "corr": 0.16
+    },
+    {
+      "a": "MSFT",
+      "b": "WDC",
+      "corr": -0.159
+    },
+    {
+      "a": "GLD",
+      "b": "NBIS",
+      "corr": 0.157
+    },
+    {
+      "a": "DUK",
+      "b": "WDC",
+      "corr": -0.156
     },
     {
       "a": "ONDS",
       "b": "NFLX",
-      "corr": 0.161
+      "corr": 0.155
     },
     {
-      "a": "LLY",
-      "b": "CIFR",
-      "corr": -0.154
+      "a": "SCHD",
+      "b": "WULF",
+      "corr": 0.154
     },
     {
-      "a": "AVO",
-      "b": "NVDA",
+      "a": "BN",
+      "b": "WDC",
+      "corr": 0.153
+    },
+    {
+      "a": "GOOGL",
+      "b": "SGOV",
       "corr": 0.153
     },
     {
       "a": "EWY",
       "b": "NFLX",
-      "corr": 0.152
+      "corr": 0.149
     },
     {
-      "a": "STX",
+      "a": "AMD",
+      "b": "MSFT",
+      "corr": 0.148
+    },
+    {
+      "a": "ELV",
       "b": "PLTR",
-      "corr": -0.15
+      "corr": 0.147
+    },
+    {
+      "a": "AMD",
+      "b": "LLY",
+      "corr": 0.146
+    },
+    {
+      "a": "AVO",
+      "b": "NVDA",
+      "corr": 0.145
+    },
+    {
+      "a": "AMZN",
+      "b": "MU",
+      "corr": 0.14
     },
     {
       "a": "AVO",
       "b": "IREN",
-      "corr": 0.141
+      "corr": 0.14
+    },
+    {
+      "a": "AVO",
+      "b": "MPTI",
+      "corr": -0.14
     },
     {
       "a": "BN",
-      "b": "AMD",
+      "b": "GLD",
       "corr": 0.138
     },
     {
+      "a": "MSFT",
+      "b": "WULF",
+      "corr": -0.137
+    },
+    {
       "a": "PLTR",
-      "b": "NBIS",
-      "corr": 0.135
-    },
-    {
-      "a": "BN",
-      "b": "STX",
-      "corr": 0.134
-    },
-    {
-      "a": "GOOGL",
-      "b": "PLTR",
-      "corr": -0.131
-    },
-    {
-      "a": "AMD",
-      "b": "LLY",
-      "corr": 0.124
-    },
-    {
-      "a": "GLD",
-      "b": "LLY",
-      "corr": -0.121
-    },
-    {
-      "a": "AVO",
-      "b": "NFLX",
-      "corr": 0.119
-    },
-    {
-      "a": "AVO",
-      "b": "DUK",
-      "corr": 0.115
-    },
-    {
-      "a": "STX",
-      "b": "NFLX",
-      "corr": -0.109
-    },
-    {
-      "a": "ELV",
-      "b": "NFLX",
-      "corr": -0.105
-    },
-    {
-      "a": "ELV",
-      "b": "BRK.B",
-      "corr": -0.1
+      "b": "MPTI",
+      "corr": -0.135
     },
     {
       "a": "LLY",
-      "b": "STX",
-      "corr": -0.099
-    },
-    {
-      "a": "AVO",
-      "b": "AMD",
-      "corr": -0.098
-    },
-    {
-      "a": "ELV",
-      "b": "GLD",
-      "corr": 0.096
+      "b": "CIFR",
+      "corr": -0.134
     },
     {
       "a": "GLD",
       "b": "CIFR",
-      "corr": 0.092
+      "corr": 0.131
     },
     {
-      "a": "AMD",
-      "b": "GLD",
-      "corr": -0.09
+      "a": "SCHD",
+      "b": "WDC",
+      "corr": 0.13
     },
     {
-      "a": "NVDA",
+      "a": "SGOV",
+      "b": "VTI",
+      "corr": 0.129
+    },
+    {
+      "a": "SPY",
+      "b": "SGOV",
+      "corr": 0.123
+    },
+    {
+      "a": "SGOV",
+      "b": "VOO",
+      "corr": 0.121
+    },
+    {
+      "a": "BN",
+      "b": "SGOV",
+      "corr": 0.119
+    },
+    {
+      "a": "BN",
+      "b": "MU",
+      "corr": 0.118
+    },
+    {
+      "a": "ELV",
+      "b": "SIL",
+      "corr": 0.118
+    },
+    {
+      "a": "AVO",
       "b": "NFLX",
-      "corr": 0.088
+      "corr": 0.117
     },
     {
-      "a": "EWY",
-      "b": "AVO",
-      "corr": 0.087
-    },
-    {
-      "a": "NVDA",
-      "b": "LLY",
-      "corr": -0.083
+      "a": "BN",
+      "b": "AMD",
+      "corr": 0.116
     },
     {
       "a": "NFLX",
-      "b": "SPY",
-      "corr": 0.08
+      "b": "WULF",
+      "corr": 0.116
+    },
+    {
+      "a": "ELV",
+      "b": "NFLX",
+      "corr": -0.115
+    },
+    {
+      "a": "BRK.B",
+      "b": "SGOV",
+      "corr": -0.114
+    },
+    {
+      "a": "BRK.B",
+      "b": "MSFT",
+      "corr": -0.113
+    },
+    {
+      "a": "STX",
+      "b": "PLTR",
+      "corr": -0.113
     },
     {
       "a": "LLY",
       "b": "NBIS",
-      "corr": 0.078
+      "corr": 0.112
+    },
+    {
+      "a": "MU",
+      "b": "SGOV",
+      "corr": 0.111
+    },
+    {
+      "a": "GOOGL",
+      "b": "PLTR",
+      "corr": -0.11
+    },
+    {
+      "a": "LLY",
+      "b": "WULF",
+      "corr": 0.109
+    },
+    {
+      "a": "AVO",
+      "b": "WULF",
+      "corr": 0.108
+    },
+    {
+      "a": "AMD",
+      "b": "SGOV",
+      "corr": 0.108
+    },
+    {
+      "a": "BN",
+      "b": "STX",
+      "corr": 0.107
+    },
+    {
+      "a": "ELV",
+      "b": "GLD",
+      "corr": 0.106
+    },
+    {
+      "a": "GLD",
+      "b": "DUK",
+      "corr": -0.106
+    },
+    {
+      "a": "STX",
+      "b": "NFLX",
+      "corr": -0.104
+    },
+    {
+      "a": "AVO",
+      "b": "SCHD",
+      "corr": 0.103
+    },
+    {
+      "a": "SNDK",
+      "b": "SCHD",
+      "corr": 0.101
+    },
+    {
+      "a": "EWY",
+      "b": "SGOV",
+      "corr": 0.1
+    },
+    {
+      "a": "AVO",
+      "b": "DUK",
+      "corr": 0.1
+    },
+    {
+      "a": "NVDA",
+      "b": "SCHD",
+      "corr": 0.1
+    },
+    {
+      "a": "NFLX",
+      "b": "SNDK",
+      "corr": -0.096
+    },
+    {
+      "a": "SGOV",
+      "b": "MSFT",
+      "corr": -0.094
+    },
+    {
+      "a": "LLY",
+      "b": "ONDS",
+      "corr": 0.093
+    },
+    {
+      "a": "EWY",
+      "b": "AVO",
+      "corr": 0.091
+    },
+    {
+      "a": "AVO",
+      "b": "AMD",
+      "corr": -0.091
+    },
+    {
+      "a": "BN",
+      "b": "SIL",
+      "corr": 0.088
+    },
+    {
+      "a": "LLY",
+      "b": "MSFT",
+      "corr": 0.088
+    },
+    {
+      "a": "ONDS",
+      "b": "SGOV",
+      "corr": -0.087
+    },
+    {
+      "a": "GLD",
+      "b": "LLY",
+      "corr": -0.086
+    },
+    {
+      "a": "NBIS",
+      "b": "SGOV",
+      "corr": 0.086
+    },
+    {
+      "a": "AMZN",
+      "b": "CODA",
+      "corr": 0.085
+    },
+    {
+      "a": "AVO",
+      "b": "MU",
+      "corr": -0.085
+    },
+    {
+      "a": "EWY",
+      "b": "PLTR",
+      "corr": 0.083
+    },
+    {
+      "a": "AVO",
+      "b": "QQQ",
+      "corr": -0.082
     },
     {
       "a": "IREN",
-      "b": "LLY",
+      "b": "SCHD",
+      "corr": 0.082
+    },
+    {
+      "a": "AMZN",
+      "b": "GLD",
+      "corr": 0.079
+    },
+    {
+      "a": "AMZN",
+      "b": "PLTR",
+      "corr": 0.079
+    },
+    {
+      "a": "EWY",
+      "b": "AMZN",
+      "corr": 0.078
+    },
+    {
+      "a": "NVDA",
+      "b": "NFLX",
+      "corr": 0.077
+    },
+    {
+      "a": "AMZN",
+      "b": "MPTI",
       "corr": -0.076
     },
     {
-      "a": "DUK",
-      "b": "NFLX",
-      "corr": 0.067
+      "a": "NFLX",
+      "b": "SPY",
+      "corr": 0.076
+    },
+    {
+      "a": "NFLX",
+      "b": "VTI",
+      "corr": 0.074
+    },
+    {
+      "a": "NFLX",
+      "b": "VOO",
+      "corr": 0.074
+    },
+    {
+      "a": "MU",
+      "b": "PLTR",
+      "corr": 0.073
+    },
+    {
+      "a": "SGOV",
+      "b": "CODA",
+      "corr": 0.073
+    },
+    {
+      "a": "MU",
+      "b": "SCHD",
+      "corr": 0.072
+    },
+    {
+      "a": "NFLX",
+      "b": "PLPC",
+      "corr": 0.072
+    },
+    {
+      "a": "ELV",
+      "b": "BRK.B",
+      "corr": -0.068
     },
     {
       "a": "BN",
@@ -982,124 +2753,351 @@
       "corr": 0.066
     },
     {
-      "a": "AVO",
-      "b": "NBIS",
-      "corr": -0.065
+      "a": "ELV",
+      "b": "MPTI",
+      "corr": -0.066
     },
     {
-      "a": "LLY",
-      "b": "ONDS",
+      "a": "DUK",
+      "b": "NFLX",
       "corr": 0.064
     },
     {
-      "a": "AMZN",
-      "b": "GLD",
+      "a": "META",
+      "b": "SGOV",
       "corr": 0.063
     },
     {
-      "a": "GLD",
-      "b": "DUK",
-      "corr": -0.062
-    },
-    {
-      "a": "EWY",
-      "b": "PLTR",
-      "corr": 0.061
-    },
-    {
-      "a": "GLD",
-      "b": "NBIS",
-      "corr": 0.057
-    },
-    {
-      "a": "AMZN",
-      "b": "PLTR",
-      "corr": 0.056
-    },
-    {
-      "a": "AVO",
-      "b": "SPY",
-      "corr": -0.053
-    },
-    {
-      "a": "EWY",
-      "b": "AMZN",
-      "corr": 0.052
-    },
-    {
-      "a": "AMZN",
-      "b": "NBIS",
-      "corr": -0.052
-    },
-    {
-      "a": "BN",
-      "b": "IREN",
-      "corr": 0.05
-    },
-    {
-      "a": "CIFR",
-      "b": "NFLX",
-      "corr": -0.048
-    },
-    {
       "a": "LLY",
-      "b": "PLTR",
-      "corr": -0.047
+      "b": "STX",
+      "corr": -0.063
+    },
+    {
+      "a": "PLTR",
+      "b": "SCHD",
+      "corr": 0.058
     },
     {
       "a": "BN",
       "b": "CIFR",
+      "corr": -0.056
+    },
+    {
+      "a": "AVO",
+      "b": "NBIS",
+      "corr": -0.056
+    },
+    {
+      "a": "AMZN",
+      "b": "SNDK",
+      "corr": 0.052
+    },
+    {
+      "a": "SGOV",
+      "b": "QQQ",
+      "corr": 0.052
+    },
+    {
+      "a": "EWY",
+      "b": "MSFT",
+      "corr": -0.05
+    },
+    {
+      "a": "AMZN",
+      "b": "SIL",
+      "corr": -0.05
+    },
+    {
+      "a": "ELV",
+      "b": "SGOV",
+      "corr": -0.05
+    },
+    {
+      "a": "PLTR",
+      "b": "SNDK",
+      "corr": -0.05
+    },
+    {
+      "a": "ELV",
+      "b": "CODA",
+      "corr": 0.049
+    },
+    {
+      "a": "AVO",
+      "b": "VTI",
+      "corr": -0.048
+    },
+    {
+      "a": "AVO",
+      "b": "VOO",
+      "corr": -0.048
+    },
+    {
+      "a": "AVO",
+      "b": "SPY",
+      "corr": -0.047
+    },
+    {
+      "a": "CIFR",
+      "b": "MSFT",
+      "corr": 0.047
+    },
+    {
+      "a": "CIFR",
+      "b": "NFLX",
+      "corr": -0.046
+    },
+    {
+      "a": "SIL",
+      "b": "MPTI",
+      "corr": 0.046
+    },
+    {
+      "a": "LLY",
+      "b": "CODA",
       "corr": -0.045
+    },
+    {
+      "a": "STX",
+      "b": "SCHD",
+      "corr": 0.045
+    },
+    {
+      "a": "BN",
+      "b": "CODA",
+      "corr": -0.042
+    },
+    {
+      "a": "BN",
+      "b": "SNDK",
+      "corr": -0.04
+    },
+    {
+      "a": "IREN",
+      "b": "LLY",
+      "corr": -0.04
+    },
+    {
+      "a": "LLY",
+      "b": "WDC",
+      "corr": 0.04
     },
     {
       "a": "BRK.B",
       "b": "NFLX",
-      "corr": -0.041
+      "corr": -0.039
+    },
+    {
+      "a": "LLY",
+      "b": "SNDK",
+      "corr": 0.037
+    },
+    {
+      "a": "LLY",
+      "b": "PLTR",
+      "corr": -0.034
+    },
+    {
+      "a": "NVDA",
+      "b": "SGOV",
+      "corr": 0.032
+    },
+    {
+      "a": "STX",
+      "b": "MSFT",
+      "corr": 0.032
     },
     {
       "a": "BN",
-      "b": "NVDA",
-      "corr": 0.04
+      "b": "PLTR",
+      "corr": -0.03
+    },
+    {
+      "a": "AMD",
+      "b": "SIL",
+      "corr": 0.03
+    },
+    {
+      "a": "LLY",
+      "b": "SGOV",
+      "corr": -0.03
+    },
+    {
+      "a": "SGOV",
+      "b": "SIL",
+      "corr": -0.028
+    },
+    {
+      "a": "BN",
+      "b": "IREN",
+      "corr": 0.026
+    },
+    {
+      "a": "GLD",
+      "b": "MPTI",
+      "corr": 0.025
     },
     {
       "a": "GOOGL",
       "b": "NFLX",
-      "corr": -0.027
+      "corr": -0.024
     },
     {
       "a": "NBIS",
       "b": "NFLX",
-      "corr": 0.025
+      "corr": 0.023
     },
     {
-      "a": "BN",
-      "b": "PLTR",
-      "corr": -0.022
+      "a": "PLTR",
+      "b": "PLPC",
+      "corr": 0.019
+    },
+    {
+      "a": "DUK",
+      "b": "WULF",
+      "corr": 0.019
+    },
+    {
+      "a": "MU",
+      "b": "MSFT",
+      "corr": 0.017
+    },
+    {
+      "a": "NVDA",
+      "b": "LLY",
+      "corr": -0.017
+    },
+    {
+      "a": "AMD",
+      "b": "GLD",
+      "corr": -0.015
+    },
+    {
+      "a": "LLY",
+      "b": "SIL",
+      "corr": 0.013
+    },
+    {
+      "a": "NFLX",
+      "b": "QQQ",
+      "corr": -0.013
+    },
+    {
+      "a": "AMZN",
+      "b": "NFLX",
+      "corr": 0.01
     },
     {
       "a": "AMD",
       "b": "PLTR",
-      "corr": -0.016
+      "corr": 0.009
     },
     {
-      "a": "AMZN",
-      "b": "AVO",
-      "corr": -0.014
+      "a": "LLY",
+      "b": "MPTI",
+      "corr": 0.009
     },
     {
       "a": "IREN",
       "b": "NFLX",
-      "corr": -0.007
+      "corr": -0.008
+    },
+    {
+      "a": "NFLX",
+      "b": "SGOV",
+      "corr": -0.008
+    },
+    {
+      "a": "SCHD",
+      "b": "QQQ",
+      "corr": 0.008
     },
     {
       "a": "AMZN",
-      "b": "NFLX",
-      "corr": 0.006
+      "b": "AVO",
+      "corr": 0.005
+    },
+    {
+      "a": "NBIS",
+      "b": "MSFT",
+      "corr": -0.004
+    },
+    {
+      "a": "BN",
+      "b": "NVDA",
+      "corr": -0.002
+    },
+    {
+      "a": "AMZN",
+      "b": "NBIS",
+      "corr": -0.001
+    },
+    {
+      "a": "GOOGL",
+      "b": "SCHD",
+      "corr": -0.001
     }
   ],
   "notes": [
-    "IREN-NBIS correlation 0.73 -> 0.75, rose through 0.75",
-    "NVDA-ONDS correlation 0.75 -> 0.77, rose through 0.75",
+    "AMD ACH leading hypothesis H1 -> H2",
+    "META ACH leading hypothesis H2 -> H1",
+    "AMD-MU monthly correlation 0.82 is above 0.75 (combined weight 2.0%)",
+    "AMD-QQQ monthly correlation 0.93 is above 0.75 (combined weight 7.8%)",
+    "AMD-SPY correlation 0.74 -> 0.76, rose through 0.75",
+    "AMD-VOO monthly correlation 0.76 is above 0.75 (combined weight 11.5%)",
+    "AMD-VTI monthly correlation 0.75 is above 0.75 (combined weight 14.5%)",
+    "AMD-WDC monthly correlation 0.78 is above 0.75 (combined weight 5.4%)",
+    "CIFR-PLPC monthly correlation 0.76 is above 0.75 (combined weight 0.7%)",
+    "CIFR-WDC monthly correlation 0.77 is above 0.75 (combined weight 4.4%)",
+    "CIFR-WULF monthly correlation 0.76 is above 0.75 (combined weight 1.0%)",
+    "CODA-GLD monthly correlation 0.80 is above 0.75 (combined weight 6.0%)",
+    "ELV-VOO monthly correlation 0.84 is above 0.75 (combined weight 11.6%)",
+    "ELV-VTI monthly correlation 0.84 is above 0.75 (combined weight 14.6%)",
+    "EWY-MU monthly correlation 0.88 is above 0.75 (combined weight 0.8%)",
+    "EWY-QQQ monthly correlation 0.82 is above 0.75 (combined weight 6.7%)",
+    "EWY-SNDK monthly correlation 0.84 is above 0.75 (combined weight 0.7%)",
+    "EWY-VTI monthly correlation 0.76 is above 0.75 (combined weight 13.4%)",
+    "EWY-WDC monthly correlation 0.76 is above 0.75 (combined weight 4.2%)",
+    "EWY-WULF monthly correlation 0.79 is above 0.75 (combined weight 0.8%)",
+    "GLD-SIL monthly correlation 0.92 is above 0.75 (combined weight 7.6%)",
+    "IREN-MU monthly correlation 0.83 is above 0.75 (combined weight 1.0%)",
+    "IREN-PLPC monthly correlation 0.77 is above 0.75 (combined weight 0.8%)",
+    "IREN-QQQ monthly correlation 0.84 is above 0.75 (combined weight 6.9%)",
+    "IREN-SNDK monthly correlation 0.83 is above 0.75 (combined weight 0.9%)",
+    "MU-NBIS monthly correlation 0.83 is above 0.75 (combined weight 1.0%)",
+    "MU-QQQ monthly correlation 0.90 is above 0.75 (combined weight 6.9%)",
+    "MU-SNDK monthly correlation 0.89 is above 0.75 (combined weight 0.9%)",
+    "MU-SPY monthly correlation 0.78 is above 0.75 (combined weight 6.5%)",
+    "MU-STX monthly correlation 0.85 is above 0.75 (combined weight 0.6%)",
+    "MU-VOO monthly correlation 0.78 is above 0.75 (combined weight 10.6%)",
+    "MU-VTI monthly correlation 0.79 is above 0.75 (combined weight 13.6%)",
+    "MU-WDC monthly correlation 0.81 is above 0.75 (combined weight 4.5%)",
+    "NBIS-PLPC monthly correlation 0.79 is above 0.75 (combined weight 0.8%)",
+    "NBIS-QQQ monthly correlation 0.83 is above 0.75 (combined weight 6.9%)",
+    "NBIS-SNDK monthly correlation 0.81 is above 0.75 (combined weight 0.9%)",
+    "NVDA-QQQ monthly correlation 0.77 is above 0.75 (combined weight 8.4%)",
+    "NVDA-SPY correlation 0.75 -> 0.76, rose through 0.75",
+    "NVDA-VOO monthly correlation 0.76 is above 0.75 (combined weight 12.1%)",
+    "PLPC-SNDK monthly correlation 0.87 is above 0.75 (combined weight 0.6%)",
+    "PLPC-STX monthly correlation 0.87 is above 0.75 (combined weight 0.3%)",
+    "PLPC-WDC monthly correlation 0.76 is above 0.75 (combined weight 4.2%)",
+    "QQQ-SNDK monthly correlation 0.77 is above 0.75 (combined weight 6.7%)",
+    "QQQ-SPY monthly correlation 0.90 is above 0.75 (combined weight 12.3%)",
+    "QQQ-STX monthly correlation 0.86 is above 0.75 (combined weight 6.4%)",
+    "QQQ-VOO monthly correlation 0.90 is above 0.75 (combined weight 16.5%)",
+    "QQQ-VTI monthly correlation 0.90 is above 0.75 (combined weight 19.5%)",
+    "QQQ-WDC monthly correlation 0.75 is above 0.75 (combined weight 10.3%)",
+    "SNDK-STX monthly correlation 0.88 is above 0.75 (combined weight 0.4%)",
+    "SNDK-WDC monthly correlation 0.86 is above 0.75 (combined weight 4.3%)",
+    "SPY-STX correlation 0.74 -> 0.77, rose through 0.75",
+    "SPY-VOO monthly correlation 1.00 is above 0.75 (combined weight 16.0%)",
+    "SPY-VTI monthly correlation 1.00 is above 0.75 (combined weight 19.0%)",
+    "STX-VOO monthly correlation 0.76 is above 0.75 (combined weight 10.2%)",
+    "STX-VTI monthly correlation 0.77 is above 0.75 (combined weight 13.1%)",
+    "STX-WDC monthly correlation 0.94 is above 0.75 (combined weight 4.0%)",
+    "STX-WULF monthly correlation 0.81 is above 0.75 (combined weight 0.6%)",
+    "VOO-VTI monthly correlation 1.00 is above 0.75 (combined weight 23.2%)",
+    "WDC-WULF monthly correlation 0.82 is above 0.75 (combined weight 4.4%)",
     "Correlation and SAT notes do not create an order. A sell still has to be a risk-cap trim in the plan."
   ]
 }

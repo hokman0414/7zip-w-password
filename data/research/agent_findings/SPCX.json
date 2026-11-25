@@ -1,38 +1,88 @@
 {
   "ticker": "SPCX",
   "company": "Space Exploration Technologies Corp.",
-  "researched_at": "2026-11-12T21:41:03Z",
+  "researched_at": "2026-11-25T17:18:40Z",
   "agent_id": "research-agent-d",
   "findings": [
     {
       "dimension": "economic",
-      "topic": "other",
-      "claim": "On April 7, 2026, Tuttle Capital Management changed the ticker of The SPAC and New Issue ETF from SPCX to SPCK, stating that the change would not affect that fund's objective, strategy, or fees.",
+      "topic": "debt",
+      "claim": "On October 24, 2026 SpaceX signed a binding commitment for a master finance lease under which an Apollo-managed lessor will buy GPU pods and related equipment and lease them to SpaceX in tranches of about five to five and one-quarter years, with expected aggregate principal payments of about $40 billion, closing expected before year end and lease schedules starting in the first half of 2027.",
       "evidence_type": "verified",
-      "sentiment": "neutral",
-      "source_url": "https://www.nasdaq.com/press-release/tuttle-capitals-spac-and-new-issue-etf-change-ticker-spck-2026-04-07",
-      "source_title": "Tuttle Capital's SPAC and New Issue ETF to Change Ticker to SPCK",
-      "published_date": "2026-04-07"
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+      "source_title": "SpaceX Form 8-K reporting the GPU master finance lease commitment",
+      "published_date": "2026-10-26"
     },
     {
       "dimension": "economic",
-      "topic": "other",
-      "claim": "Space Exploration Technologies Corp., a Texas corporation, priced its IPO of Class A common stock at $135.00 per share and was approved to list on Nasdaq and Nasdaq Texas under the symbol SPCX; the June 11, 2026 prospectus said that if the underwriters' option was exercised in full Elon Musk would hold about 82.3% of voting power and the company would be a Nasdaq controlled company because Class B shares carry 10 votes.",
+      "topic": "debt",
+      "claim": "On November 20, 2026 Apollo and Goldman Sachs announced pricing of about $44 billion of senior and subordinated notes, upsized from the $40 billion first announced, to buy NVIDIA Vera Rubin GPUs and related equipment for lease to SpaceX.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
-      "source_title": "Space Exploration Technologies Corp. Rule 424(b)(4) prospectus",
-      "published_date": "2026-06-11"
+      "source_url": "https://ir.apollo.com/news-events/press-releases/detail/662/apollo-and-goldman-sachs-announce-pricing-of-44-billion",
+      "source_title": "Apollo and Goldman Sachs Announce Pricing of $44 Billion SpaceX GPU Financing",
+      "published_date": "2026-11-20"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "On November 23, 2026 NTIA announced a model BEAD agreement under which a LEO provider declines subsidies but must still meet BEAD speeds and testing, supply equipment at no extra cost, and offer a low-cost plan; NTIA said SpaceX agreed to serve all its awarded locations at no cost to the program, and an NTIA official put the forgone grants at about $738 million.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.benton.org/headlines/spacex-declines-bead-awards",
+      "source_title": "SpaceX Declines BEAD Awards (Benton Institute, citing Broadband Breakfast and NTIA)",
+      "published_date": "2026-11-24"
+    },
+    {
+      "dimension": "economic",
+      "topic": "governance",
+      "claim": "SpaceX's Q3 2026 10-Q says its board formed a special committee to evaluate a potential combination with Tesla, that no determination has been made, and that any combination would need approval of the special committee, the board and the controlling shareholder.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
+      "source_title": "SpaceX Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-22"
     },
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "In June 2026 SpaceX completed the IPO by selling 638.9 million Class A shares at $135.00, including the full underwriters' option, for net proceeds of $85,675 million after $575 million of underwriting commissions and offering costs.",
+      "claim": "Press reports on November 24-25, 2026 said Morgan Stanley and Goldman Sachs are advising SpaceX on a possible all-stock Tesla combination, and fund manager Gary Black estimated SpaceX would need to issue about 52% more shares assuming a 25% premium to Tesla holders; no merger agreement has been filed.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.benzinga.com/markets/equities/26/11/63615246/spacex-shares-fall-premarket-gary-black-tesla-merger-valuation",
+      "source_title": "SpaceX (SPCX) Stock Is Trending in Pre-Market as Gary Black Eyes $100 Entry Point Amid Tesla Merger Dilution Fears",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "SPCX fell 6.4% to $117.82 in morning trading on November 25, 2026, below its $135 IPO price and near its 52-week low of $104.83, after closing at $125.81 on November 24.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-sliding-today-93CH-5051090",
+      "source_title": "Why is Space Exploration Technologies stock sliding today?",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "environmental",
+      "topic": "capacity",
+      "claim": "SpaceX won approval in the week of November 16, 2026 for a $24 billion data center and gas-fired power plant project at Starbase, Texas, but local commissioners denied its tax-break requests.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.investors.com/news/spacex-texas-data-center-project-24-billion-approval-tax-break-rejected-elon-musk-abbott-spcx-stock/",
+      "source_title": "SpaceX Wins Permit For $24 Bil Texas Data Center Project, Tax Break Rejected",
+      "published_date": "2026-11-19"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "Press coverage of the Q3 2026 call reports CFO Bret Johnsen said first-quarter 2027 revenue could reach $33 billion to $37 billion, citing visibility into compute contracts, versus $14,575 million of revenue in Q3 2026.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
-      "source_title": "SpaceX Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-22"
+      "source_url": "https://www.tipranks.com/news/spacex-vs-tesla-one-elon-musk-stock-offers-72-upside-after-q3-earnings",
+      "source_title": "SpaceX vs. Tesla: One Elon Musk Stock Offers 72%+ Upside After Q3 Earnings",
+      "published_date": null
     },
     {
       "dimension": "economic",
@@ -47,7 +97,7 @@
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "For the nine months ended September 30, 2026, SpaceX still reported a net loss of $413 million and an accumulated deficit of $37,448 million, and the quarter's net income included a $561 million unrealized gain on an equity-method investment in TBC, an entity the filing says is controlled by the CEO.",
+      "claim": "For the nine months ended September 30, 2026, SpaceX still reported a net loss of $413 million and an accumulated deficit of $37,448 million, and the quarter's net income included a $561 million unrealized gain on an equity-method investment in TBC, an entity controlled by the CEO.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -57,7 +107,7 @@
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Third-quarter 2026 segment revenue was $7,560 million in Super Intelligence, $5,248 million in Connectivity, and $1,767 million in Space, while the Space segment lost $7 million from operations in the quarter and $1,211 million for the nine months, with Space research and development of $1,225 million in the quarter.",
+      "claim": "Third-quarter 2026 segment revenue was $7,560 million in Super Intelligence, $5,248 million in Connectivity and $1,767 million in Space, while the Space segment lost $7 million from operations in the quarter and $1,211 million for the nine months.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -67,7 +117,7 @@
     {
       "dimension": "technological",
       "topic": "product",
-      "claim": "Starlink consumer subscribers were 13.6 million at September 30, 2026, up from 7.2 million a year earlier, while consumer ARPU was $69 in the third quarter versus $83 in the year-ago quarter.",
+      "claim": "Starlink consumer subscribers were 13.6 million at September 30, 2026, up from 7.2 million a year earlier, while consumer ARPU was $69 in the third quarter versus $83 a year earlier.",
       "evidence_type": "verified",
       "sentiment": "neutral",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -77,7 +127,7 @@
     {
       "dimension": "military",
       "topic": "contract",
-      "claim": "Connectivity enterprise and government revenue was $2,127 million in the third quarter of 2026, up from $1,111 million a year earlier, and Launch and Development revenue, which the filing describes as government-agency space programs, was $637 million in the quarter.",
+      "claim": "Connectivity enterprise and government revenue was $2,127 million in the third quarter of 2026, up from $1,111 million a year earlier, and Launch and Development revenue from government-agency space programs was $637 million in the quarter.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -87,7 +137,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "In the third quarter of 2026, Customer B accounted for 34.5% of consolidated revenue, all in the SI segment, Customer A accounted for 16.6% across all three segments, and one customer accounted for 27.7% of accounts receivable.",
+      "claim": "In the third quarter of 2026, Customer B accounted for 34.5% of consolidated revenue, all in the SI segment, Customer A accounted for 16.6%, and one customer accounted for 27.7% of accounts receivable.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -97,7 +147,7 @@
     {
       "dimension": "economic",
       "topic": "backlog",
-      "claim": "Backlog was $62,959 million at September 30, 2026, of which $17,520 million was already recorded as deferred revenue, with about 67% expected to be recognized within one year and about 27% in one to three years.",
+      "claim": "Backlog was $62,959 million at September 30, 2026, of which $17,520 million was recorded as deferred revenue, with about 67% expected to be recognized within one year and about 27% in one to three years.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -107,7 +157,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "At September 30, 2026, debt principal was $38,006 million, including $25,000 million of senior unsecured notes issued in June 2026 at coupons of 5.350% to 6.650% with a 5.855% weighted-average coupon and first maturity on July 15, 2031, and related-party Valor equipment financing recorded as $2,181 million current and $10,716 million long-term debt.",
+      "claim": "At September 30, 2026, debt principal was $38,006 million, including $25,000 million of senior unsecured notes issued in June 2026 with a 5.855% weighted-average coupon and related-party Valor equipment financing of $2,181 million current and $10,716 million long-term.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -117,7 +167,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "Management said existing liquidity should cover cash needs for at least the next twelve months, citing $51,294 million of cash and cash equivalents, $38,561 million of short-term marketable securities, and $5,000 million undrawn on the SpaceX credit facility at September 30, 2026.",
+      "claim": "Management said existing liquidity should cover cash needs for at least the next twelve months, citing $51,294 million of cash and cash equivalents, $38,561 million of short-term marketable securities and $5,000 million undrawn on its credit facility at September 30, 2026.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -135,19 +185,9 @@
       "published_date": "2026-10-22"
     },
     {
-      "dimension": "technological",
-      "topic": "product",
-      "claim": "SpaceX flew 33 Falcon launches in the third quarter of 2026, down from 43 a year earlier, of which 12 were customer launches versus 15, and it flew 2 Starship launches, all of which the company still classifies as internal.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
-      "source_title": "SpaceX Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-22"
-    },
-    {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "On August 14, 2026 SpaceX closed the merger of Anysphere, Inc. (Cursor) for an implied equity value of $60 billion paid in Class A common stock, and weighted-average basic shares for the quarter were 11,942 million versus 2,941 million a year earlier after retroactive adjustment for the May 2026 five-for-one split.",
+      "claim": "On August 14, 2026 SpaceX closed the merger of Anysphere, Inc. (Cursor) for an implied equity value of $60 billion paid in Class A common stock, and weighted-average basic shares for the quarter were 11,942 million versus 2,941 million a year earlier, split-adjusted.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -157,7 +197,7 @@
     {
       "dimension": "legal",
       "topic": "governance",
-      "claim": "The 10-Q discloses multiple 2026 lawsuits alleging that Grok image tools enabled nonconsensual explicit images of women and children, a EUR 120 million European Commission Digital Services Act fine imposed on December 5, 2025 and appealed, a Vidstream jury award of $105 million plus $67 million of prejudgment interest that is on appeal, and a litigation accrual of $350 million at September 30, 2026.",
+      "claim": "The 10-Q discloses 2026 lawsuits alleging Grok image tools enabled nonconsensual explicit images, a EUR 120 million EU Digital Services Act fine under appeal, a Vidstream jury award of $105 million plus $67 million of interest on appeal, and a litigation accrual of $350 million at September 30, 2026.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
@@ -167,19 +207,48 @@
   ],
   "upcoming_catalysts": [
     {
+      "event": "Closing of the GPU master finance lease with the Apollo-managed lessor, which the company expects before year end 2026.",
+      "expected_date": "2026-12-31",
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm"
+    },
+    {
+      "event": "Start of GPU lease schedules on delivery of NVIDIA Vera Rubin GPUs in the first half of 2027.",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://ir.spacex.com/updates/releases-details/2026/SPACEX-SECURES-40-BILLION-IN-THE-LARGEST-GPU-FINANCING-EVER-2026-EnDqGhTAB3/default.aspx"
+    },
+    {
+      "event": "Special-committee decision on a possible combination with Tesla. No agreement, timetable or filing exists; press reports of a December announcement rely on anonymous sources.",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
+    },
+    {
+      "event": "State decisions on whether to sign NTIA's zero-outlay BEAD model agreement with SpaceX or rebid its awarded locations.",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement"
+    },
+    {
       "event": "Recognition of about 67% of the $62,959 million September 30, 2026 backlog within one year.",
       "expected_date": null,
       "date_confidence": "company_guided",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
-    },
-    {
-      "event": "Possible release of a significant portion of the valuation allowance on U.S. deferred tax assets, which management says would produce a material tax benefit if positive evidence becomes available.",
-      "expected_date": null,
-      "date_confidence": "unknown",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
     }
   ],
   "policy_links": [
+    {
+      "country": "United States",
+      "policy": "BEAD program zero-outlay model agreement for LEO providers that decline subsidies but serve awarded locations",
+      "stage": "implementation",
+      "industry": "satellite broadband",
+      "bottleneck": "rural broadband service at BEAD locations",
+      "revenue_mechanism": "SpaceX gives up about $738 million of grants but keeps its BEAD locations, must supply dish and router free, and still collects monthly Starlink subscription fees; holding the locations at a $0 award keeps other federal money from going to competitors there.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement",
+      "published_date": "2026-11-23"
+    },
     {
       "country": "United States",
       "policy": "Government-agency space launch and spacecraft development programs",
@@ -193,7 +262,7 @@
     },
     {
       "country": "European Union",
-      "policy": "Digital Services Act enforcement against X, including the European Commission's December 5, 2025 decision and EUR 120 million fine, now before the EU General Court",
+      "policy": "Digital Services Act enforcement against X, including the December 5, 2025 decision and EUR 120 million fine, now before the EU General Court",
       "stage": "implementation",
       "industry": "social media and online platforms",
       "bottleneck": "content-moderation and platform compliance",
@@ -205,31 +274,37 @@
   ],
   "key_risks": [
     {
-      "risk": "Customer B was 34.5% of third-quarter revenue and that revenue sits entirely in the SI segment, so one SI relationship can move consolidated results.",
+      "risk": "A possible all-stock combination with Tesla is under special-committee review. One public estimate puts the required share issuance at about 52% of SpaceX shares, and Musk, as controlling shareholder, must approve any deal.",
+      "severity": "high",
+      "source_url": "https://www.benzinga.com/markets/equities/26/11/63615246/spacex-shares-fall-premarket-gary-black-tesla-merger-valuation",
+      "published_date": "2026-11-25"
+    },
+    {
+      "risk": "Lease obligations are rising fast: about $40 billion of expected principal under the Apollo GPU lease, financed by about $44 billion of notes, on top of $38.0 billion of debt principal at September 30, 2026.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000110465926118614/tm2628247d1_8k.htm",
+      "published_date": "2026-10-26"
+    },
+    {
+      "risk": "Customer B was 34.5% of third-quarter revenue, all in the SI segment, so one SI relationship can move consolidated results.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "published_date": "2026-10-22"
     },
     {
-      "risk": "Elon Musk was expected to hold about 82.3% of the vote if the IPO option was fully exercised, Class B shares have 10 votes and elect a majority of the board, and the company said it would rely on Nasdaq controlled-company exemptions.",
+      "risk": "Elon Musk was expected to hold about 82.3% of the vote after the IPO, Class B shares have 10 votes, and the company relies on Nasdaq controlled-company exemptions.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
       "published_date": "2026-06-11"
     },
     {
-      "risk": "Grok image-generation litigation, the appealed EUR 120 million DSA fine, and other listed cases are open, with a $350 million accrual and other possible losses the company says it cannot estimate.",
+      "risk": "Grok image-generation litigation, the appealed EUR 120 million DSA fine and other cases are open, with a $350 million accrual and other possible losses the company says it cannot estimate.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "published_date": "2026-10-22"
     },
     {
-      "risk": "Debt principal was $38.0 billion, including a large related-party equipment facility with Valor, and interest expense was $1,968 million for the first nine months of 2026, of which $864 million was related-party.",
-      "severity": "medium",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
-      "published_date": "2026-10-22"
-    },
-    {
-      "risk": "The NAACP sued over mobile gas turbines at the COLOSSUS II data center, alleging Clean Air Act permit violations and seeking an injunction against turbine operation.",
+      "risk": "The NAACP sued over mobile gas turbines at the COLOSSUS II data center, alleging Clean Air Act permit violations, and the new Starbase data center and power plant was denied local tax breaks.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm",
       "published_date": "2026-10-22"
@@ -242,7 +317,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
     },
     {
-      "description": "June 2026 IPO of 638.9 million Class A shares at $135.00, including the full greenshoe, for net proceeds of $85,675 million after $575 million of commissions and offering costs. Outstanding redeemable convertible preferred stock converted into Class A and Class B common stock in connection with the IPO.",
+      "description": "June 2026 IPO of 638.9 million Class A shares at $135.00, including the full greenshoe, for net proceeds of $85,675 million. Redeemable convertible preferred stock converted into common stock in connection with the IPO.",
       "date": null,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm"
     },
@@ -253,5 +328,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "SPCX is Space Exploration Technologies Corp. Class A common stock. The previous SPCX, Tuttle Capital's SPAC and New Issue ETF, changed its ticker to SPCK effective April 7, 2026. The prospectus voting figure of about 82.3% assumes full exercise of the underwriters' option. The 10-Q confirms that exercise but does not restate Musk's voting power after the August 14, 2026 Cursor share issuance. As of October 15, 2026 the 10-Q reports 8,246,541,218 Class A shares and 5,334,522,491 Class B shares. The May 2026 five-for-one split is retroactively reflected in share counts and is not an economic dilution. All Starship launches to date are classified as internal, and the company recognizes no inter-segment revenue for Starlink launches. Management states liquidity is sufficient for at least twelve months. No going-concern paragraph and no disclosed material weakness were found in the Q3 10-Q. A separate earnings exhibit described a Starship flight as revenue-generating because it carried Starlink V3 satellites; that wording was not used here because the 10-Q classifies those launches as internal."
+  "notes": "SPCX is Space Exploration Technologies Corp. Class A common stock; the previous SPCX, Tuttle Capital's SPAC and New Issue ETF, became SPCK on April 7, 2026. New since November 12: the $44 billion GPU financing pricing (Apollo, November 20), NTIA's BEAD zero-outlay agreement (November 23), the Starbase data-center permit with tax breaks denied, and press reports of Tesla-combination advisers. The FT report naming the five directors and the banks was carried by Reuters, which said it could not verify it; neither company has filed a merger agreement, 8-K or proxy. The BEAD forgone amount is about $738 million per an NTIA official, while Telecompetitor cites about $636 million. The $33-37 billion Q1 2027 revenue outlook comes from press coverage of the earnings call and was not found in the 8-K or 10-Q text; the TipRanks page shows no date. PitchBook reports note coupons of 7.666% to 8.759% from market sources, which were not confirmed in a filing. The October 26 8-K's lease is a commitment and was not yet on the September 30 balance sheet. No going-concern paragraph or material weakness was found in the Q3 10-Q."
 }

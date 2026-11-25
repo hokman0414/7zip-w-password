@@ -1,13 +1,33 @@
 {
   "ticker": "EWY",
   "company": "iShares MSCI South Korea ETF",
-  "researched_at": "2026-11-12T21:41:13Z",
+  "researched_at": "2026-11-25T17:18:14Z",
   "agent_id": "research-agent-a",
   "findings": [
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "As of November 11, 2026, EWY had net assets of $21,575,752,251, 145,100,000 shares outstanding, a NAV of $148.70 against a 52-week range of $88.01 to $218.02, a 0.59% expense ratio, and a closing market price of $147.81, a 0.60% discount to NAV.",
+      "claim": "On November 25, 2026 the KOSPI fell 6.16% to 4,697.51, back below 5,000, as Samsung Electronics fell 9.87% to 170,700 won and SK hynix fell 11.05% to 1,030,000 won; foreigners were net sellers of 1.9 trillion won and a sell-side sidecar was triggered.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://en.yna.co.kr/view/AEN20261125006252320",
+      "source_title": "(2nd LD) Seoul shares retreat over 6 pct on revived AI uncertainties",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "competition",
+      "claim": "Goldman Sachs cut its SK hynix price target to 2 million won from 3.5 million won and Samsung Electronics to 350,000 won from 500,000 won, Morgan Stanley had cut them on November 9 to 1.6 million won and 309,000 won, and both banks see downturn risk from 2028 as Goldman forecasts the DRAM supply deficit narrowing from 5.1% next year to 1.2% in 2028.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh",
+      "source_title": "KOSPI sinks 6% as chip outlook, US tariff concerns weigh",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "As of November 24, 2026, before the November 25 KOSPI drop, EWY had net assets of $19,096,039,929, 144,950,000 shares outstanding, a NAV of $131.74 against a 52-week range of $88.69 to $218.02, and a closing price of $130.70, a 0.79% discount to NAV.",
       "evidence_type": "verified",
       "sentiment": "neutral",
       "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
@@ -17,7 +37,7 @@
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "As of November 11, 2026, the fund held 75 securities, information technology was 49.44% of market value, industrials 18.10% and financials 12.37%, and the three-year equity beta was 2.05 with a three-year standard deviation of 44.03% as of October 31, 2026.",
+      "claim": "As of November 24, 2026, the fund held 75 securities, information technology was 48.07% of market value, industrials 18.14% and financials 13.03%, and the three-year equity beta was 2.05 with a three-year standard deviation of 44.03% as of October 31, 2026.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
@@ -167,7 +187,7 @@
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "Trailing valuation is not extreme relative to the profit boom: the iShares page shows a P/E of 16.75 and a P/B of 1.81 as of November 11, 2026, but the NAV of $148.70 was 31.8% below the $218.02 52-week high listed on the same page.",
+      "claim": "Trailing valuation is not extreme relative to the profit boom: the iShares page shows a P/E of 14.92 and a P/B of 1.61 as of November 24, 2026, but the NAV of $131.74 was 39.6% below the $218.02 52-week high listed on the same page, before the further 6% KOSPI fall on November 25.",
       "evidence_type": "analyst_judgment",
       "sentiment": "negative",
       "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
@@ -222,10 +242,22 @@
       "published_date": "2026-09-30"
     },
     {
-      "risk": "The fund's three-year standard deviation was 44.03% and its equity beta was 2.05 as of October 31, 2026, and NAV on November 11, 2026 was $148.70 against a 52-week high of $218.02.",
+      "risk": "The fund's three-year standard deviation was 44.03% and its equity beta was 2.05 as of October 31, 2026, and NAV on November 24, 2026 was $131.74 against a 52-week high of $218.02.",
       "severity": "high",
       "source_url": "https://www.ishares.com/us/products/239681/ishares-msci-south-korea-etf",
       "published_date": null
+    },
+    {
+      "risk": "Sell-side banks now model a memory downturn from 2028 as Chinese CXMT capacity ramps up and PC and smartphone demand moderates, with Goldman projecting conventional DRAM and NAND prices each down about 20% in 2028, which would hit the two holdings that are nearly half of the fund.",
+      "severity": "high",
+      "source_url": "https://www.koreatimes.co.kr/economy/20261125/kospi-sinks-6-as-chip-outlook-us-tariff-concerns-weigh",
+      "published_date": "2026-11-25"
+    },
+    {
+      "risk": "Reports that the Trump administration may push additional tariffs on trading partners including Korea, and Democratic proposals to tighten chip export controls on China, added to the November 25 sell-off.",
+      "severity": "medium",
+      "source_url": "https://www.koreajoongangdaily.com/business/kospi-plunges-back-below-5000-as-chip-selloff-returns/12990750",
+      "published_date": "2026-11-25"
     },
     {
       "risk": "U.S. equipment-license limits stop Samsung and SK hynix from meaningfully expanding their China fabs, which still matter to supply while the memory shortage lasts.",
@@ -242,5 +274,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "EWY is a fund, not an operating company. Share creations change shares outstanding but are not corporate dilution, so dilution_events_last_12m is empty. August 31, 2026 net assets are total assets of $29,253,894,064.63 minus liabilities of $1,531,110,604.83 on the N-PORT XML. The November 11 AUM figure is from the iShares product page and is not in the same filing as the August net assets, so the roughly $6.1 billion decline mixes market moves and any creations or redemptions; share-level flow for that window was not verified. The product page shows a year-to-date NAV figure of 51.39% in the header and 86.11% in a performance table, so no year-to-date return is used above. The 31.8% drawdown from the 52-week high is (218.02-148.70)/218.02. The 3.72 point tracking gap is 137.71 minus 133.99. No 2026 distribution had been declared on the iShares schedule. North Korea security risk and the won were not tied to a fund-specific primary source in this pass and are omitted."
+  "notes": "EWY is a fund, not an operating company. Share creations change shares outstanding but are not corporate dilution, so dilution_events_last_12m is empty. August 31, 2026 net assets are total assets of $29,253,894,064.63 minus liabilities of $1,531,110,604.83 on the N-PORT XML. The November 24 AUM figure is from the iShares product page and is not in the same filing as the August net assets, so the decline mixes market moves and any creations or redemptions; shares outstanding were roughly flat (145.10 million on November 11, 144.95 million on November 24). The product page shows a year-to-date NAV figure of 36.99% in the header and 86.11% in a month-end performance table, so no year-to-date return is used above. The 39.6% drawdown from the 52-week high is (218.02-131.74)/218.02. EWY NAV for November 25 was not yet published at this refresh; the KOSPI, Samsung and SK hynix moves are from Yonhap and the Korea Times. The sell-side price-target cuts are reported by the Korea Times, not taken from the bank reports themselves. The 3.72 point tracking gap is 137.71 minus 133.99. No 2026 distribution had been declared on the iShares schedule. North Korea security risk and the won were not tied to a fund-specific primary source in this pass and are omitted."
 }

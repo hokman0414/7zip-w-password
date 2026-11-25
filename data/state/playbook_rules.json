@@ -1,7 +1,7 @@
 {
   "fractions": {
     "exit": 1.0,
-    "trim_thesis_fails": 0.25,
+    "trim_thesis_fails": 0.5,
     "trim_thesis_holds": 0.25,
     "review": 0.0
   },
@@ -42,6 +42,30 @@
       "as_of": "2026-11-24",
       "source": "BITU",
       "gap": "BITU regular price 7.57 versus the 7.285 exit, up 3.9%. The exit fraction stays 1.0."
+    },
+    {
+      "as_of": "2026-11-25",
+      "source": "learning-horizon",
+      "gap": "The 2026-11-23 step from 0.50 to 0.25 used one session after the fills. By the third session the same trims were below the fill prices, so that step is undone. A batch is now scored once, after 3 sessions."
+    },
+    {
+      "as_of": "2026-11-25",
+      "source": "trim_thesis_fails",
+      "gap": "trim_thesis_fails median move -3.7% (NBIS -5.6%, CIFR -3.1%, IREN -2.5%, DRAM -4.2%). That is inside 5%, so the fraction stays 0.50."
+    },
+    {
+      "as_of": "2026-11-25",
+      "source": "loss-attribution",
+      "gap": "Realized loss -$446.33 on 12 sales from 2026-11-12 to 2026-11-20. Every sold name is lower now, so holding them would have cost $239.39 more. The account fell 5.9% from its high (6,480.82 to 6,101.75) while SPY fell 5.6%. Most realized losses were on entries made before the system (GLD cost 465, NVDA 193, EWY 182, DRAM 57, ONDS 7.53). The one loss the system caused was the 2026-11-23 SPY core buy below the 10-month average (-$9.74), so the core reinvest now pauses below the trend."
+    },
+    {
+      "as_of": "2026-11-25",
+      "source": "transfer-in",
+      "gap": "About $13.4k of positions arrived with no orders and no cash change (VOO, VTI, SCHD, QQQ, SGOV, SIL, MSFT, WDC, SNDK, WULF and more shares of existing names). The high-water mark moved to 19,479.19 with the transfer, so drawdown is measured from today. Untagged funds would have been capped as single stocks, so known funds are now required to carry tags."
     }
+  ],
+  "min_sessions": 3,
+  "learned": [
+    "trim_thesis_fails:2026-11-20"
   ]
 }

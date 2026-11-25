@@ -1,13 +1,63 @@
 {
   "ticker": "MU",
   "company": "Micron Technology, Inc.",
-  "researched_at": "2026-11-12T21:41:03Z",
+  "researched_at": "2026-11-25T17:18:40Z",
   "agent_id": "research-agent-d",
   "findings": [
     {
       "dimension": "economic",
+      "topic": "other",
+      "claim": "Micron shares fell 11.0% to $560.85 in morning trading on November 25, 2026 after BNP Paribas Exane downgraded the stock to Neutral from Outperform and cut its price target to $775 from $1,700, saying DRAM and NAND supply and demand could balance as early as mid-2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-tumbling-today-93CH-5051081",
+      "source_title": "Why is Micron Technology stock tumbling today?",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "competition",
+      "claim": "The same report says Goldman Sachs cut its 2028 conventional DRAM and NAND average selling price forecasts by about 20% and TrendForce lowered its 2027 DRAM contract price increase forecast on weaker consumer demand and lower server orders from Chinese cloud providers.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-tumbling-today-93CH-5051081",
+      "source_title": "Why is Micron Technology stock tumbling today?",
+      "published_date": "2026-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "At the TomorrowX Summit on November 18, 2026, CEO Sanjay Mehrotra said 75% of Micron's 2027 output is sold out, that it is discussing 2028 commitments with customers, and that Micron has signed 26 supply and collaboration agreements with $32 billion of upfront cash and financial commitments, many running five years or longer.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.investing.com/news/transcripts/micron-at-tomorrowx-summit-ai-memory-demand-reshapes-outlook-93CH-5036868",
+      "source_title": "Micron at TomorrowX Summit: AI memory demand reshapes outlook",
+      "published_date": "2026-11-18"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "TrendForce's November 18, 2026 outlook sees conventional DRAM contract prices up 5-10% in the first quarter of 2027 and 3-8% in the second, then flat to up 5% per quarter, while it expects NAND contract prices to start falling in the first quarter of 2027.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/micron-president-says-memory-tight-134550601.html",
+      "source_title": "Micron's President Says Memory Has Been Tight Across Really Multiple Years. TrendForce Sees DRAM Prices Rising Through 2027",
+      "published_date": "2026-11-20"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Fortune, as reported by Yahoo Finance, said the price ceiling in Micron's strategic customer agreements sits roughly at second-quarter 2026 DRAM prices, so output sold under those contracts does not benefit if prices rise further in 2027.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/micron-ceo-nvidia-message-comes-043300809.html",
+      "source_title": "Micron CEO's Nvidia message comes with warning for 2027",
+      "published_date": null
+    },
+    {
+      "dimension": "economic",
       "topic": "earnings",
-      "claim": "For fiscal 2026, ended September 3, 2026, Micron reported revenue of $133.188 billion versus $37.378 billion in fiscal 2025, GAAP net income of $84.969 billion, or $74.33 per diluted share, and fourth-quarter revenue of $54.229 billion with a GAAP gross margin of 86.8% and non-GAAP diluted EPS of $33.42.",
+      "claim": "For fiscal 2026, ended September 3, 2026, Micron reported revenue of $133.188 billion versus $37.378 billion in fiscal 2025, GAAP net income of $84.969 billion, or $74.33 per diluted share, and fourth-quarter revenue of $54.229 billion with a GAAP gross margin of 86.8%.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
@@ -47,7 +97,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "In the third and fourth quarters of fiscal 2026 Micron entered take-or-pay strategic customer agreements with multi-year volume commitments and price bands, and it said gross margins on those agreements should stay meaningfully above prior-cycle peak quarterly margins even at floor prices.",
+      "claim": "In the third and fourth quarters of fiscal 2026 Micron entered take-or-pay strategic customer agreements with multi-year volume commitments and price bands, and it said gross margins on those agreements should stay meaningfully above prior-cycle peak margins even at floor prices.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -57,7 +107,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "Micron received $12.75 billion of customer cash deposits in fiscal 2026 that are returned if purchase commitments are met and are mostly scheduled to be repaid between 2029 and 2031, and letters of credit of $7 billion at September 3, 2026 are not recognized as revenue unless a customer defaults.",
+      "claim": "Micron received $12.75 billion of customer cash deposits in fiscal 2026 that are returned if purchase commitments are met and are mostly scheduled to be repaid between 2029 and 2031.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -77,7 +127,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "Cash and marketable investments were $73.45 billion at September 3, 2026, versus $11.94 billion a year earlier, while debt carrying value was $5.18 billion and $2.00 billion remained undrawn on the revolving credit facility; fiscal 2026 financing cash flows included $10.04 billion of debt repayments.",
+      "claim": "Cash and marketable investments were $73.45 billion at September 3, 2026, versus $11.94 billion a year earlier, while debt carrying value was $5.18 billion and $2.00 billion remained undrawn on the revolving credit facility.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -87,7 +137,7 @@
     {
       "dimension": "economic",
       "topic": "capacity",
-      "claim": "Micron estimates capital spending, net of government-incentive proceeds, at about $11.5 billion in fiscal first-quarter 2027 and about $25 billion in the first half of fiscal 2027, with spending higher in the second half, and it had $4.18 billion of property and equipment purchase obligations at September 3, 2026.",
+      "claim": "Micron estimates net capital spending of about $11.5 billion in fiscal first-quarter 2027 and about $25 billion in the first half of fiscal 2027, with spending higher in the second half.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -97,7 +147,7 @@
     {
       "dimension": "political",
       "topic": "policy",
-      "claim": "Revenue from customers headquartered in mainland China was $8.338 billion and from customers headquartered in Hong Kong was $6.289 billion in fiscal 2026, and the 10-K says the May 2023 Cyberspace Administration of China decision barring critical-information-infrastructure operators from buying Micron products continues to affect that revenue.",
+      "claim": "Revenue from customers headquartered in mainland China was $8.338 billion and in Hong Kong $6.289 billion in fiscal 2026, and the 10-K says the May 2023 Cyberspace Administration of China purchasing ban on Micron products continues to affect that revenue.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -107,7 +157,7 @@
     {
       "dimension": "economic",
       "topic": "competition",
-      "claim": "Micron names Samsung, SK hynix, Kioxia, Sandisk, CXMT, and YMTC as competitors and says Chinese state support for domestic memory makers, plus industry capacity adds, could produce DRAM and NAND oversupply and lower average selling prices.",
+      "claim": "Micron names Samsung, SK hynix, Kioxia, Sandisk, CXMT and YMTC as competitors and says Chinese state support for domestic memory makers, plus industry capacity adds, could produce oversupply and lower average selling prices.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -125,19 +175,9 @@
       "published_date": "2026-10-09"
     },
     {
-      "dimension": "economic",
-      "topic": "other",
-      "claim": "Receivables rose to $36.197 billion at September 3, 2026 from $9.265 billion at August 28, 2025, while inventories were $10.372 billion versus $8.355 billion.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
-      "source_title": "Micron reports record fiscal Q4 and full-year 2026 results",
-      "published_date": "2026-09-30"
-    },
-    {
       "dimension": "political",
       "topic": "policy",
-      "claim": "Micron's CHIPS Act direct-funding agreements provide for up to $6.1 billion for planned fabs in Boise, Idaho and Clay, New York, plus up to $275 million to expand the Manassas, Virginia fab, for total grants of up to $6.4 billion, and the company also receives a 35% investment tax credit on qualified U.S. semiconductor manufacturing investment.",
+      "claim": "Micron's CHIPS Act direct-funding agreements provide up to $6.1 billion for planned fabs in Boise, Idaho and Clay, New York, plus up to $275 million for Manassas, Virginia, for total grants of up to $6.4 billion, alongside a 35% investment tax credit.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -145,19 +185,9 @@
       "published_date": "2026-10-09"
     },
     {
-      "dimension": "legal",
-      "topic": "other",
-      "claim": "Fourth-quarter GAAP results included a $500 million patent-license charge, and fiscal 2026 also included $511 million of losses on debt prepayments in the non-GAAP reconciliation.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx",
-      "source_title": "Micron reports record fiscal Q4 and full-year 2026 results",
-      "published_date": "2026-09-30"
-    },
-    {
       "dimension": "economic",
       "topic": "supply",
-      "claim": "The 10-K says memory average selling prices could fall materially if industry demand does not keep up with new fab capacity, and that China has restricted exports of certain rare-earth materials that Micron's suppliers need.",
+      "claim": "The 10-K says memory average selling prices could fall materially if demand does not keep up with new fab capacity, and that China has restricted exports of certain rare-earth materials that Micron's suppliers need.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
@@ -167,10 +197,16 @@
   ],
   "upcoming_catalysts": [
     {
-      "event": "Fiscal first-quarter 2027 results against company guidance of $61.5 billion plus or minus $1.5 billion of revenue and non-GAAP EPS of $38.15 plus or minus $1.00. The September 30, 2026 release does not give the report date.",
+      "event": "Fiscal first-quarter 2027 earnings call, against guidance of $61.5 billion plus or minus $1.5 billion of revenue and non-GAAP EPS of $38.15 plus or minus $1.00.",
+      "expected_date": "2026-12-17",
+      "date_confidence": "confirmed",
+      "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx"
+    },
+    {
+      "event": "Customer commitments for 2028 supply, which management said are under discussion with 75% of 2027 already sold out.",
       "expected_date": null,
       "date_confidence": "unknown",
-      "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/default.aspx"
+      "source_url": "https://www.investing.com/news/transcripts/micron-at-tomorrowx-summit-ai-memory-demand-reshapes-outlook-93CH-5036868"
     },
     {
       "event": "HBM4E volume ramp in calendar 2027.",
@@ -198,7 +234,7 @@
       "stage": "funded",
       "industry": "semiconductor memory",
       "bottleneck": "U.S. leading-edge memory wafer and packaging capacity",
-      "revenue_mechanism": "The agreements reimburse or credit qualified U.S. fab investment, up to $6.4 billion of grants plus a 35% tax credit. They are not disclosed as product purchase orders. Micron also signed a non-binding New York term sheet for up to $5.5 billion of credits and job incentives over 20-plus years.",
+      "revenue_mechanism": "The agreements reimburse or credit qualified U.S. fab investment, up to $6.4 billion of grants plus a 35% tax credit. They are not product purchase orders.",
       "evidence_of_company_revenue": false,
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
       "published_date": "2026-10-09"
@@ -209,7 +245,7 @@
       "stage": "implementation",
       "industry": "semiconductor memory",
       "bottleneck": "sales to Chinese critical-information-infrastructure operators",
-      "revenue_mechanism": "The 10-K says the decision reduced Micron's ability to sell to customers headquartered in mainland China and Hong Kong, including direct and distributor sales. Fiscal 2026 still reports $8.338 billion of revenue from mainland-China-headquartered customers and $6.289 billion from Hong Kong-headquartered customers.",
+      "revenue_mechanism": "The 10-K says the decision reduced Micron's ability to sell to customers headquartered in mainland China and Hong Kong. Fiscal 2026 still reports $8.338 billion of revenue from mainland-China-headquartered customers and $6.289 billion from Hong Kong-headquartered customers.",
       "evidence_of_company_revenue": true,
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
       "published_date": "2026-10-09"
@@ -217,7 +253,13 @@
   ],
   "key_risks": [
     {
-      "risk": "Gross margin reached 86.8% in fiscal Q4 2026. The 10-K warns that new industry capacity, including state-supported Chinese supply, can push DRAM and NAND into oversupply and cut average selling prices materially.",
+      "risk": "Sell-side and industry forecasters are pulling forward the end of the shortage: BNP Paribas Exane sees DRAM and NAND balance by mid-2027, Goldman cut 2028 DRAM and NAND price forecasts about 20%, and TrendForce expects NAND contract prices to fall from the first quarter of 2027.",
+      "severity": "high",
+      "source_url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-tumbling-today-93CH-5051081",
+      "published_date": "2026-11-25"
+    },
+    {
+      "risk": "Gross margin reached 86.8% in fiscal Q4 2026. The 10-K warns that new industry capacity, including state-supported Chinese supply, can push DRAM and NAND into oversupply and cut prices materially.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
       "published_date": "2026-10-09"
@@ -229,25 +271,25 @@
       "published_date": "2026-10-09"
     },
     {
-      "risk": "The largest block of long-lived assets, $27.613 billion, is in Taiwan, so a disruption there would hit manufacturing that the company does not duplicate one-for-one elsewhere.",
+      "risk": "The largest block of long-lived assets, $27.613 billion, is in Taiwan, so a disruption there would hit manufacturing that is not duplicated elsewhere.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
       "published_date": "2026-10-09"
     },
     {
-      "risk": "The CAC purchasing ban and possible further China action, plus China's restrictions on certain rare-earth exports, can reduce sales or constrain materials even though fiscal 2026 China-headquartered revenue was still material.",
+      "risk": "The CAC purchasing ban, possible further China action and China's rare-earth export restrictions can reduce sales or constrain materials.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
       "published_date": "2026-10-09"
     },
     {
-      "risk": "Customer deposits of $12.75 billion are liabilities Micron expects to repay from 2029 to 2031 if customers meet commitments, and fiscal 2027 capex steps up to about $11.5 billion in the first quarter and about $25 billion in the first half.",
+      "risk": "Price ceilings in long-term agreements, reported at about second-quarter 2026 DRAM levels, cap upside on contracted volume, while $12.75 billion of customer deposits must be repaid from 2029 to 2031 and fiscal 2027 capex steps up to about $25 billion in the first half.",
       "severity": "medium",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
-      "published_date": "2026-10-09"
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/micron-ceo-nvidia-message-comes-043300809.html",
+      "published_date": null
     }
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "No public equity offering, ATM, or convertible issuance was identified in the fiscal 2026 financing section. That section shows $10.04 billion of debt repayment, $1.13 billion of shares withheld for employee taxes, a $650 million repurchase of 2.5 million shares, and $610 million of dividends. Basic weighted-average shares were 1,127 million in fiscal 2026 versus 1,116 million in fiscal 2025. PricewaterhouseCoopers' report in the 10-K says internal control over financial reporting was effective at September 3, 2026. The September 30, 2026 release does not set the fiscal Q1 2027 earnings date; third-party calendars disagreed and were not used. CHIPS funding is disclosed as grants and a tax credit, not as product revenue, so evidence_of_company_revenue is false for that policy. Government-incentive cash proceeds of $3.316 billion appear in the fiscal 2026 cash-flow statement in the earnings release and are not all identified there as CHIPS grant revenue."
+  "notes": "New since November 12: Micron's November 19 release confirms the fiscal Q1 2027 call on December 17, 2026 (earlier third-party calendars said December 16); the November 18 TomorrowX Summit comments (75% of 2027 sold out, 26 agreements with $32 billion of upfront commitments); and the November 25 BNP Paribas Exane downgrade plus Goldman and TrendForce forecast cuts. The TomorrowX figures come from an Investing.com transcript summary, not a Micron filing. The Investing.com stock-move articles say they were AI-assisted and editor-reviewed. The Fortune price-ceiling detail is second-hand via Yahoo Finance, and that page shows no date. No public equity offering, ATM or convertible issuance was found; the fiscal 2026 financing section shows $10.04 billion of debt repayment, a $650 million buyback and $610 million of dividends. PwC said internal control over financial reporting was effective at September 3, 2026. CHIPS funding is grants and a tax credit, not product revenue."
 }

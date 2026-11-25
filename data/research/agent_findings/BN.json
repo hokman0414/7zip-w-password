@@ -1,7 +1,7 @@
 {
   "ticker": "BN",
   "company": "Brookfield Corporation",
-  "researched_at": "2026-11-12T21:41:13Z",
+  "researched_at": "2026-11-25T17:18:14Z",
   "agent_id": "research-agent-a",
   "findings": [
     {
@@ -173,6 +173,36 @@
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
       "source_title": "Brookfield Corporation Reports 16% Increase in Earnings",
       "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On November 23, 2026 Brookfield agreed to acquire PGP Glass from Blackstone funds for $1.7 billion through its flagship private equity strategy and Brookfield Business Corporation; PGP has 13 furnaces with over 1,800 tonnes per day of capacity in India and Sri Lanka, and closing is expected in Q1 2027 subject to regulatory approvals.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/23/3408004/0/en/brookfield-to-acquire-pgp-glass-a-leading-global-manufacturer-of-specialty-glass-packaging-from-blackstone-for-1-7-billion.html",
+      "source_title": "Brookfield to Acquire PGP Glass, a Leading Global Manufacturer of Specialty Glass Packaging from Blackstone for $1.7 billion",
+      "published_date": "2026-11-23"
+    },
+    {
+      "dimension": "military",
+      "topic": "policy",
+      "claim": "On November 20, 2026 Qatar Investment Authority and Brookfield Corporation signed a memorandum of understanding to explore investments in Germany's critical industries and defense sector, aiming for a combined EUR 15 billion; the MoU is non-binding and names no specific deals.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.brookfield.com/sites/default/files/documents/Press%20Release_QIA%20and%20Brookfield%20announce%20initiative%20to%20invest%20in%20Germany.pdf",
+      "source_title": "QIA and Brookfield Announce Initiative to Invest in Germany's Critical Industries",
+      "published_date": "2026-11-20"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "On November 9, 2026 Brookfield and its institutional partners agreed to sell a 50% interest in Enercare to PSP Investments for about C$1.6 billion, with closing expected in the first half of 2027 subject to regulatory approvals.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.mccarthy.ca/en/experience/brookfield-to-sell-50-interest-in-enercare-to-psp-investments",
+      "source_title": "Brookfield to sell 50% interest in Enercare to PSP Investments",
+      "published_date": "2026-11-09"
     }
   ],
   "upcoming_catalysts": [
@@ -199,6 +229,18 @@
       "expected_date": null,
       "date_confidence": "company_guided",
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html"
+    },
+    {
+      "event": "Closing of the $1.7 billion PGP Glass acquisition, guided for Q1 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.globenewswire.com/news-release/2026/11/23/3408004/0/en/brookfield-to-acquire-pgp-glass-a-leading-global-manufacturer-of-specialty-glass-packaging-from-blackstone-for-1-7-billion.html"
+    },
+    {
+      "event": "Closing of the C$1.6 billion sale of 50% of Enercare to PSP Investments, expected in the first half of 2027",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.mccarthy.ca/en/experience/brookfield-to-sell-50-interest-in-enercare-to-psp-investments"
     }
   ],
   "policy_links": [
@@ -212,6 +254,17 @@
       "evidence_of_company_revenue": false,
       "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401431/0/en/brookfield-corporation-reports-16-increase-in-earnings.html",
       "published_date": "2026-11-12"
+    },
+    {
+      "country": "Germany",
+      "policy": "German prioritization of critical industries and defense production capacity, which QIA and Brookfield cite as the basis for a EUR 15 billion co-investment MoU",
+      "stage": "proposed",
+      "industry": "defense and critical industrial manufacturing",
+      "bottleneck": "Domestic production capacity for defense and critical industries",
+      "revenue_mechanism": "Brookfield would earn fees and returns on capital deployed into German industrial and defense businesses, but the MoU is exploratory and no investment or revenue has been announced.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.brookfield.com/sites/default/files/documents/Press%20Release_QIA%20and%20Brookfield%20announce%20initiative%20to%20invest%20in%20Germany.pdf",
+      "published_date": "2026-11-20"
     }
   ],
   "key_risks": [
@@ -242,5 +295,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "Brookfield is a Canadian foreign private issuer and reports under IFRS on Form 6-K and Form 40-F, not a 10-Q. The Q3 2026 figures are from the November 12, 2026 earnings release; the corresponding 6-K was not yet on EDGAR at the time of this write-up, and the release says the figures are unaudited. No equity offering, ATM or new convertible issuance was found in the last twelve months; the share count fell with buybacks, while 116 million existing options and exchangeable shares remain dilutive. Per-share figures in the release are adjusted for the three-for-two split completed on October 9, 2025, which is just outside the twelve-month window. The Westinghouse framework is described only in Brookfield's release, with no contract value, so evidence_of_company_revenue is false. Gross accumulated unrealized carried interest was $13.0 billion at quarter end; that balance is not included above as realized earnings."
+  "notes": "Brookfield is a Canadian foreign private issuer and reports under IFRS on Form 6-K and Form 40-F, not a 10-Q. The Q3 2026 figures are from the November 12, 2026 earnings release; the corresponding 6-K was not yet on EDGAR at the time of this write-up, and the release says the figures are unaudited. No equity offering, ATM or new convertible issuance was found in the last twelve months; the share count fell with buybacks, while 116 million existing options and exchangeable shares remain dilutive. Per-share figures in the release are adjusted for the three-for-two split completed on October 9, 2025, which is just outside the twelve-month window. The Westinghouse framework is described only in Brookfield's release, with no contract value, so evidence_of_company_revenue is false. Gross accumulated unrealized carried interest was $13.0 billion at quarter end; that balance is not included above as realized earnings. November 25, 2026 refresh: added the PGP Glass acquisition (announced by Brookfield Asset Management and funded by the private equity strategy and BBUC, so BN's exposure is indirect), the non-binding QIA Germany MoU, and the Enercare stake sale, which is sourced to the advising law firm's deal page rather than a Brookfield release. Brookfield Wealth Solutions' November 12 release on EDGAR repeats the December 1 closing and December 3 BN trading dates; no delay notice was found as of this refresh."
 }

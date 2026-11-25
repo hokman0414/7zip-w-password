@@ -1,7 +1,7 @@
 {
   "ticker": "AMD",
   "company": "Advanced Micro Devices, Inc.",
-  "researched_at": "2026-11-12T21:45:00Z",
+  "researched_at": "2026-11-25T17:19:00Z",
   "agent_id": "research-agent-c",
   "findings": [
     {
@@ -173,15 +173,39 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/q32026991.htm",
       "source_title": "AMD Reports Third Quarter 2026 Financial Results (8-K Exhibit 99.1)",
       "published_date": "2026-11-03"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "AMD closed the World Labs acquisition on November 13, 2026 and issued 14,978,322 shares of common stock to former World Labs stockholders in a private placement under Section 4(a)(2) and/or Rule 506 of Regulation D.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form 8-K/A (Item 3.02) dated November 16, 2026",
+      "published_date": "2026-11-16"
+    },
+    {
+      "dimension": "economic",
+      "topic": "dilution",
+      "claim": "On November 23, 2026 AMD filed an automatic resale shelf (S-3ASR) covering up to 336,934,324 shares held or issuable to selling stockholders: 320,000,000 shares issuable under the OpenAI (October 5, 2025) and Meta (February 23, 2026) warrants, 14,978,322 World Labs shares, and about 1.96 million Taalas closing, exchangeable and contingent shares; AMD receives no proceeds.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526472370/d171551ds3asr.htm",
+      "source_title": "Advanced Micro Devices, Inc. Form S-3ASR filed November 23, 2026",
+      "published_date": "2026-11-23"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "On November 12, 2026 AMD introduced the Instinct MI450X GPU for Helios with 288 GB of HBM4, and said AMD-run tests of MI455X on Helios reached 21,333 tokens per second per GPU on DeepSeek-R1 in an MLPerf Inference Offline configuration, up to 30% above Nvidia Vera Rubin's latest published MLPerf offline result.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://newsroom.amd.com/news/amd-advances-instinct-mi400-series-ai-scientific-computing/",
+      "source_title": "AMD Advances the Instinct MI400 Series for AI and Scientific Computing",
+      "published_date": "2026-11-12"
     }
   ],
   "upcoming_catalysts": [
-    {
-      "event": "Expected closings of the World Labs all-stock acquisition (about $8.2 billion) and the Taalas cash-and-stock acquisition (about $2.9 billion including contingent consideration)",
-      "expected_date": "2026-12-31",
-      "date_confidence": "company_guided",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
-    },
     {
       "event": "Fourth-quarter 2026 revenue guided to about $17 billion, plus or minus 3%, with Data Center up about 50% sequentially and Client and Gaming down more than 20% sequentially",
       "expected_date": null,
@@ -227,7 +251,7 @@
   ],
   "key_risks": [
     {
-      "risk": "Customer warrants cover up to 320 million shares at $0.01. None had vested, but $4.5 billion of grant-date value is still to be booked against future revenue and the quarter already took a $1.2 billion non-cash warrant-liability charge.",
+      "risk": "Customer warrants cover up to 320 million shares at $0.01. None had vested, but $4.5 billion of grant-date value is still to be booked against future revenue and the quarter already took a $1.2 billion non-cash warrant-liability charge. A November 23, 2026 resale shelf now registers all 320 million warrant shares for resale by OpenAI and Meta once vested and exercised.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
       "published_date": "2026-11-04"
@@ -264,16 +288,21 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
     },
     {
-      "description": "September 26, 2026 merger agreement to acquire World Labs Technologies, Inc. for about $8.2 billion of AMD common stock. The number of shares is not yet known and will be based on the 10-trading-day volume-weighted average price ending on the second trading day before closing.",
-      "date": "2026-09-26",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm"
+      "description": "World Labs acquisition closed; 14,978,322 shares of common stock issued to former World Labs stockholders (about $8.2 billion purchase price).",
+      "date": "2026-11-13",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526462340/d105780d8ka.htm"
     },
     {
-      "description": "August 2026 agreement to acquire Taalas Inc. for about $2.9 billion in cash and stock, including up to about $1.4 billion of contingent consideration. The stock portion is not separately stated. Expected to close by the end of 2026.",
+      "description": "Taalas acquisition closed (agreement dated August 5, 2026): 16,627 common shares issued plus exchangeable preferred shares exchangeable into 466,267 common shares, and up to 568,128 common shares plus 904,980 exchangeable-underlying shares of contingent consideration.",
       "date": null,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526472370/d171551ds3asr.htm"
+    },
+    {
+      "description": "Resale shelf registering up to 336,934,324 shares for selling stockholders, including 160,000,000 OpenAI warrant shares and 160,000,000 Meta warrant shares; no proceeds to AMD.",
+      "date": "2026-11-23",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526472370/d171551ds3asr.htm"
     }
   ],
   "going_concern_warning": false,
-  "notes": "No going-concern language was found. Cash, cash equivalents and short-term investments were $15.8 billion in the 10-Q MD&A, above $7.125 billion of debt principal. The August 13 and August 14, 2026 424B5 filings relate to the senior-note offering, not an equity sale. Customer warrants are contingently issuable and were excluded from diluted shares; none had vested as of September 26, 2026. The 2027 revenue, Data Center mix, server, PC-unit and sequential segment outlooks, and the LUMI-AI second-half 2027 timing, are from the November 3, 2026 prepared remarks. The EuroHPC selection itself is in the earnings release. World Labs share count is not yet determined. The Taalas stock-versus-cash split is not separately disclosed."
+  "notes": "No going-concern language was found. Cash, cash equivalents and short-term investments were $15.8 billion in the 10-Q MD&A, above $7.125 billion of debt principal. The August 13 and August 14, 2026 424B5 filings relate to the senior-note offering, not an equity sale. Customer warrants are contingently issuable and were excluded from diluted shares; none had vested as of September 26, 2026. The 2027 revenue, Data Center mix, server, PC-unit and sequential segment outlooks, and the LUMI-AI second-half 2027 timing, are from the November 3, 2026 prepared remarks. The EuroHPC selection itself is in the earnings release. World Labs share count is not yet determined. The Taalas stock-versus-cash split is not separately disclosed. Refresh 2026-11-25: World Labs closed 2026-11-13 (8-K/A filed 2026-11-16) and the S-3ASR of 2026-11-23 says AMD has acquired Taalas; the exact Taalas closing date was not found. A 2026-11-18 8-K (Item 5.03) amended bylaws on proxy-access and nomination procedures (https://www.sec.gov/Archives/edgar/data/2488/000000248826000218/amd-20261118.htm). Several Form 4 and Form 144 insider-sale filings were made from 2026-11-12 to 2026-11-19 and were not itemized. The MI455X versus Vera Rubin comparison is AMD's own testing."
 }

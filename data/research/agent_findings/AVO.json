@@ -1,7 +1,7 @@
 {
   "ticker": "AVO",
   "company": "Mission Produce, Inc.",
-  "researched_at": "2026-11-12T21:43:08Z",
+  "researched_at": "2026-11-25T17:19:17Z",
   "agent_id": "research-agent-b",
   "findings": [
     {
@@ -183,14 +183,34 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1802974/000180297425000048/avo-20251031.htm",
       "source_title": "Mission Produce, Inc. Form 10-K for the year ended October 31, 2025",
       "published_date": null
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "At its October 8, 2026 Investor Day, Mission set five-year targets of mid-single-digit organic sales growth, about 300 basis points of margin expansion, more than 90% conversion of adjusted net income into free cash flow and net leverage below 1.5 times adjusted EBITDA, plus a 2035 ambition to double sales and triple adjusted EBITDA.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://missionproduce.gcs-web.com/news-releases/news-release-details/mission-produce-unveils-five-year-financial-targets-and/",
+      "source_title": "Mission Produce Unveils Five-Year Financial Targets and Strategies at 2026 Investor Day",
+      "published_date": "2026-10-08"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "On October 8, 2026 Mission reaffirmed second-half fiscal 2026 adjusted EBITDA of $84 million to $88 million, including $52 million to $55 million in the fourth quarter, and Peru exportable volume of 120 million to 130 million pounds in the second half, including 67 million to 77 million pounds in the fourth quarter; it said it has closed the Temecula operation, has a $100 million share-repurchase authorization, and targets the full Calavo synergy run rate within 18 months of closing.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://missionproduce.gcs-web.com/news-releases/news-release-details/mission-produce-unveils-five-year-financial-targets-and/",
+      "source_title": "Mission Produce Unveils Five-Year Financial Targets and Strategies at 2026 Investor Day",
+      "published_date": "2026-10-08"
     }
   ],
   "upcoming_catalysts": [
     {
-      "event": "Fiscal fourth-quarter 2026 results, with company-guided adjusted EBITDA of about $52 million to $55 million and industry pricing about 10% lower year over year",
-      "expected_date": null,
-      "date_confidence": "company_guided",
-      "source_url": "https://investors.missionproduce.com/news-releases/news-release-details/mission-producer-announces-fiscal-2026-third-quarter-financial/"
+      "event": "Fiscal fourth-quarter 2026 results, with company-guided adjusted EBITDA of about $52 million to $55 million and industry pricing about 10% lower year over year; third-party calendars estimate December 17, 2026 based on past schedules, not company-confirmed",
+      "expected_date": "2026-12-17",
+      "date_confidence": "estimated",
+      "source_url": "https://www.marketbeat.com/earnings/reports/2026-9-8-mission-produce-inc-stock/"
     },
     {
       "event": "Annual goodwill impairment test for the fiscal fourth quarter, with post-Calavo reporting units not yet finalized as of July 31, 2026",
@@ -275,5 +295,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "No going-concern language was found in the July 31, 2026 10-Q, and the company reported compliance with credit-facility covenants. The September 8, 2026 press release's $25.4 million of third-quarter Calavo acquisition-related costs is broader than the $12.6 million transaction-advisory-and-integration line on the income statement; the acquisition note says $47.3 million of acquisition-related costs were incurred in the nine months. The press release says cash paid for Calavo was about $267 million and the 10-Q says about $269 million; the 10-Q figure is used above. A fiscal fourth-quarter 2026 earnings release (quarter ended October 31, 2026) was not found, so the September 8 outlook is the latest company guidance. The October 1, 2026 arbitration hearing in the January 2026 wage case had not been updated in a filing reviewed here. Customer-concentration percentages are from the fiscal 2025 10-K; that HTML copy does not print the filing date, so published_date is null. The 10-Q states the 10-K was filed December 18, 2025."
+  "notes": "November 25, 2026 refresh: added the October 8, 2026 Investor Day targets and reaffirmed outlook. No fiscal fourth-quarter release, new SEC filing, offering or buyback execution was found since the last pass; the December 17, 2026 report date is a third-party estimate. Five-year targets are company aspirations, not results. No going-concern language was found in the July 31, 2026 10-Q, and the company reported compliance with credit-facility covenants. The September 8, 2026 press release's $25.4 million of third-quarter Calavo acquisition-related costs is broader than the $12.6 million transaction-advisory-and-integration line on the income statement; the acquisition note says $47.3 million of acquisition-related costs were incurred in the nine months. The press release says cash paid for Calavo was about $267 million and the 10-Q says about $269 million; the 10-Q figure is used above. A fiscal fourth-quarter 2026 earnings release (quarter ended October 31, 2026) was not found, so the September 8 outlook is the latest company guidance. The October 1, 2026 arbitration hearing in the January 2026 wage case had not been updated in a filing reviewed here. Customer-concentration percentages are from the fiscal 2025 10-K; that HTML copy does not print the filing date, so published_date is null. The 10-Q states the 10-K was filed December 18, 2025."
 }

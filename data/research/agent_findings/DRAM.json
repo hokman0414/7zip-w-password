@@ -1,7 +1,7 @@
 {
   "ticker": "DRAM",
   "company": "Roundhill Memory ETF (a series of Roundhill ETF Trust)",
-  "researched_at": "2026-11-12T21:43:08Z",
+  "researched_at": "2026-11-25T17:19:17Z",
   "agent_id": "research-agent-b",
   "findings": [
     {
@@ -173,9 +173,45 @@
       "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
       "source_title": "Roundhill Memory ETF factsheet as of September 30, 2026",
       "published_date": "2026-09-30"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "ETF.com reported that DRAM's assets fell from a peak of $28.2 billion in August 2026 to $14.4 billion by November 6, 2026, that investors withdrew $5.2 billion since August 20 after adding $26.6 billion before then, with outflows on 37 of the prior 56 trading days, and that the fund fell 54% from its June peak to its November 5 low.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.etf.com/sections/features/investors-sour-memory-trade-drams-assets-get-cut-half",
+      "source_title": "Investors Sour on the Memory Trade as DRAM's Assets Get Cut in Half",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "Roundhill wrote that DRAM fell 18% on November 5, 2026, its worst day so far, after newly elected governors in Texas, Ohio and Georgia campaigned on data center moratoriums and voters backed restrictions in nearly all of about 40 data center ballot measures, and that the global memory and storage group was roughly 50% below its late-June high.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://blog.roundhillinvestments.com/memory-a-show-me-story",
+      "source_title": "Memory Becomes a \"Show Me\" Story",
+      "published_date": "2026-11-06"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "DRAM closed at $35.92 on November 24, 2026, down from $43.66 on November 12 and $46.32 on November 2, after daily moves of -13.19% on November 20, +18.62% on November 23 and -9.22% on November 24.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://stockanalysis.com/etf/dram/history/",
+      "source_title": "DRAM Historical Stock Price Data",
+      "published_date": null
     }
   ],
   "upcoming_catalysts": [
+    {
+      "event": "Micron, DRAM's largest look-through holding, reports fiscal first-quarter 2027 results",
+      "expected_date": "2026-12-17",
+      "date_confidence": "confirmed",
+      "source_url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-to-Report-Fiscal-First-Quarter-Results-on-December-17-2026/default.aspx"
+    },
     {
       "event": "Nomura Micron total-return swap matures and must be rolled, replaced or closed",
       "expected_date": "2027-05-04",
@@ -227,6 +263,12 @@
   ],
   "key_risks": [
     {
+      "risk": "Sustained outflows and a roughly 50% drawdown from the June peak, driven by fears that state data center restrictions and a memory-cycle turn will cut demand, with daily swings above 10% in November 2026",
+      "severity": "high",
+      "source_url": "https://www.etf.com/sections/features/investors-sour-memory-trade-drams-assets-get-cut-half",
+      "published_date": "2026-11-06"
+    },
+    {
       "risk": "Three issuers dominate the book: at September 30, 2026 Micron, Samsung and SK hynix were 26.45%, 24.80% and 22.50% on a look-through basis, and South Korea was 47.30%",
       "severity": "high",
       "source_url": "https://www.roundhillinvestments.com/assets/pdfs/dram_factsheet.pdf",
@@ -253,5 +295,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "DRAM is an ETF, not a memory-chip manufacturer. It is not the 2x daily fund; that is the separate Roundhill ticker RAM. The shareholder report covers April 1, 2026 through June 30, 2026 and gives inception as April 1, 2026, while the factsheet and fund page say shares began trading April 2, 2026. Factsheet weights combine stock with total-return swaps, so they are not additive with the Treasury-bill and money-market collateral shown in the June 30 report. Issuer weights at June 30 also sum above 100% for that reason. The reported Micron weight of 26.45% is compared with the general 25% single-company rebalance cap in the April 1, 2026 prospectus. The shareholder report's stub-period cost ratio is 0.63% annualized versus a 0.65% expense ratio in the financial highlights. Since-inception NAV return was 156.29% through June 30, 2026 and 115.41% at September 30, 2026; those figures are in different issuer documents and are not combined in a single sourced claim. Daily holdings after September 30, 2026 were not used: the issuer webpage holdings table did not render, and third-party snapshots were not treated as primary sources. Share creations of $21.709 billion in the initial period are ETF primary-market creations, not a corporate equity offering, so they are not listed as dilution. No going-concern or liquidation notice was found; the flag is false because that concept does not apply to this fund on the evidence reviewed."
+  "notes": "November 25, 2026 refresh: added the November asset decline and outflows (ETF.com), Roundhill's own commentary on the post-election selloff, November closing prices (stockanalysis.com, no page date), and the confirmed December 17 Micron report date. The issuer fund page still does not render AUM or holdings, so no issuer-sourced figure after September 30, 2026 is used; the $14.4 billion AUM is ETF.com's figure. DRAM is an ETF, not a memory-chip manufacturer. It is not the 2x daily fund; that is the separate Roundhill ticker RAM. The shareholder report covers April 1, 2026 through June 30, 2026 and gives inception as April 1, 2026, while the factsheet and fund page say shares began trading April 2, 2026. Factsheet weights combine stock with total-return swaps, so they are not additive with the Treasury-bill and money-market collateral shown in the June 30 report. Issuer weights at June 30 also sum above 100% for that reason. The reported Micron weight of 26.45% is compared with the general 25% single-company rebalance cap in the April 1, 2026 prospectus. The shareholder report's stub-period cost ratio is 0.63% annualized versus a 0.65% expense ratio in the financial highlights. Since-inception NAV return was 156.29% through June 30, 2026 and 115.41% at September 30, 2026; those figures are in different issuer documents and are not combined in a single sourced claim. Daily holdings after September 30, 2026 were not used: the issuer webpage holdings table did not render, and third-party snapshots were not treated as primary sources. Share creations of $21.709 billion in the initial period are ETF primary-market creations, not a corporate equity offering, so they are not listed as dilution. No going-concern or liquidation notice was found; the flag is false because that concept does not apply to this fund on the evidence reviewed."
 }

@@ -1,53 +1,83 @@
 {
   "ticker": "GLD",
   "company": "SPDR Gold Trust",
-  "researched_at": "2026-11-12T21:41:03Z",
+  "researched_at": "2026-11-25T17:18:40Z",
   "agent_id": "research-agent-d",
   "findings": [
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "SPDR Gold Trust is a New York investment trust, sponsored by World Gold Trust Services, LLC, with The Bank of New York Mellon as trustee and HSBC Bank plc and JPMorgan Chase Bank, N.A. as custodians, and its objective is for the shares to reflect the price of gold bullion less the trust's expenses.",
+      "claim": "SPDR Gold Trust is a New York investment trust sponsored by World Gold Trust Services, LLC, with The Bank of New York Mellon as trustee and HSBC Bank plc and JPMorgan Chase Bank, N.A. as custodians, and its objective is for the shares to reflect the price of gold bullion less the trust's expenses.",
       "evidence_type": "verified",
       "sentiment": "neutral",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "At June 30, 2026 the trust held 32,314,227.7 ounces of allocated London Good Delivery gold bars, valued at $130,098,696,246 using the LBMA Gold Price PM, with 352,000,000 shares outstanding and a net asset value of $369.47 per share.",
+      "claim": "At September 30, 2026 the trust held 33,996.7 thousand ounces of gold with a market value of $141,980,319 thousand at an LBMA Gold Price PM of $4,176.30, up from 32,528.2 thousand ounces worth $124,430,281 thousand at $3,825.30 a year earlier.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "The trust's only recurring fixed expense is the sponsor fee, which accrues at 0.40% of daily NAV; sponsor fees were $149,764,000 in the quarter ended June 30, 2026 and $455,828,000 for the nine months then ended, and the annualized net expense ratio was 0.40%.",
+      "claim": "NAV per share rose from $352.09 to $382.88 in the fiscal year ended September 30, 2026, a total return of 8.74% at NAV and 7.14% at market value, compared with 44.89% and 46.25% in fiscal 2025.",
       "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
-      "topic": "other",
-      "claim": "For the three months ended June 30, 2026, NAV total return was -12.72% and market-price total return was -14.39%, as NAV per share fell from $423.34 to $369.47 and the LBMA Gold Price PM ended the quarter at $4,026.05 after a period high of $5,405.00 on January 29, 2026.",
+      "topic": "earnings",
+      "claim": "Fiscal 2026 net income was $10,764,495 thousand versus $35,553,538 thousand in fiscal 2025, and included a $(10,398,959) thousand change in unrealized gain on gold, offset by a $21,540,436 thousand realized gain on gold distributed for redemptions.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
       "topic": "supply",
-      "claim": "In the quarter ended June 30, 2026, 18,500,000 shares were created for 1,698,714.7 ounces of gold, 32,900,000 shares were redeemed for 3,020,610.7 ounces, and 34,843.1 ounces were sold to pay expenses.",
+      "claim": "In fiscal 2026, 155,400 thousand shares were created for 14,314.9 thousand ounces and 139,000 thousand shares were redeemed for 12,715.1 thousand ounces, taking shares outstanding from 353,700 thousand to 370,100 thousand, while 131.3 thousand ounces were sold to pay expenses.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Shares outstanding were 361,800,000 on November 23, 2026, down from 370,100,000 at September 30, 2026, implying net redemptions of about 8.3 million shares after fiscal year end.",
+      "evidence_type": "analyst_judgment",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "The trust's only recurring fixed expense is the sponsor fee, accruing at 0.40% of daily NAV, and sponsor fees were $598,191,851.95 for the year ended September 30, 2026.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "For the three months ended June 30, 2026, NAV total return was -12.72% as NAV per share fell from $423.34 to $369.47, and the LBMA Gold Price PM ended the quarter at $4,026.05 after a period high of $5,405.00 on January 29, 2026.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
@@ -57,7 +87,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "The trust indenture does not authorize borrowing to pay ordinary expenses, the trust holds no derivatives or long-term debt, and at June 30, 2026 it held no cash because gold is sold to pay expenses.",
+      "claim": "The trust indenture does not authorize borrowing to pay ordinary expenses, the trust holds no derivatives or long-term debt, and it holds no cash because gold is sold monthly to pay expenses.",
       "evidence_type": "verified",
       "sentiment": "neutral",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
@@ -65,64 +95,54 @@
       "published_date": "2026-08-04"
     },
     {
-      "dimension": "economic",
-      "topic": "other",
-      "claim": "The ounces of gold represented by each basket decline over time because the trustee sells gold to pay expenses, so a long-term holder does not receive the full change in the gold price.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774925036305/gld20250930_10k.htm",
-      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2025",
-      "published_date": "2025-11-25"
-    },
-    {
       "dimension": "legal",
       "topic": "other",
-      "claim": "The June 30, 2026 10-Q added a risk that if LBMA Good Delivery Rules or the Good Delivery List change or lose acceptance, creations and redemptions could be delayed or suspended and the shares could trade at a significant premium or discount to NAV.",
+      "claim": "The FY2026 10-K repeats the risk that if LBMA Good Delivery Rules or the Good Delivery List change materially or lose acceptance, the trust may be unable to accept gold for creations or deliver gold for redemptions.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
-      "dimension": "legal",
-      "topic": "other",
-      "claim": "The FY2025 Form 10-K states that gain recognized by an individual U.S. shareholder on shares held more than one year is treated as gain on collectibles, taxed at a maximum federal rate of 28% rather than the 20% rate applicable to most other long-term capital gains.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774925036305/gld20250930_10k.htm",
-      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2025",
-      "published_date": "2025-11-25"
-    },
-    {
-      "dimension": "economic",
-      "topic": "other",
-      "claim": "As of November 11, 2026, State Street reported GLD NAV of $367.82, assets of $134,292.53 million, 365.10 million shares outstanding, an LBMA Gold Price PM of $4,014.00, a closing price of $365.17, a 0.02% premium of the 4 p.m. bid/ask midpoint to indicative NAV, and a 0.01% 30-day median bid/ask spread, with the gross expense ratio still 0.40%.",
+      "dimension": "political",
+      "topic": "policy",
+      "claim": "The FY2026 10-K says tariffs, export or import restrictions, sanctions and other trade barriers could disrupt cross-border gold trade, raise transport and trading costs and increase volatility, with either positive or negative effects on the gold price.",
       "evidence_type": "verified",
       "sentiment": "neutral",
-      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
-      "source_title": "SSGA fund page for SPDR Gold Shares (GLD)",
-      "published_date": "2026-11-11"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "As of October 31, 2026, SSGA reported a one-year NAV return of -2.84% and a year-to-date NAV return of -9.46%, compared with LBMA Gold Price PM returns of -2.45% and -10.41% over the same periods.",
+      "claim": "The FY2026 10-K says the premium or discount of the shares to NAV may widen after the COMEX close at 1:30 PM New York time because the shares trade on NYSE Arca until 8:00 PM when gold-market liquidity is lower.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "The FY2025 Form 10-K states that gain recognized by an individual U.S. shareholder on shares held more than one year is treated as gain on collectibles, taxed at a maximum federal rate of 28% rather than 20%.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774925036305/gld20250930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2025",
+      "published_date": "2025-11-25"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "As of October 31, 2026, SSGA reported a one-year NAV return of -2.84% and a year-to-date NAV return of -9.46%, compared with LBMA Gold Price PM returns of -2.45% and -10.41%.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
       "source_title": "SSGA fund page for SPDR Gold Shares (GLD)",
       "published_date": "2026-10-31"
-    },
-    {
-      "dimension": "economic",
-      "topic": "other",
-      "claim": "SSGA's premium/discount summary shows GLD traded at a discount to indicative NAV on 170 days and at a premium on 78 days in calendar 2025, and at a discount on 31 days and a premium on 33 days in the third quarter of 2026.",
-      "evidence_type": "verified",
-      "sentiment": "neutral",
-      "source_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
-      "source_title": "SSGA fund page for SPDR Gold Shares (GLD)",
-      "published_date": null
     },
     {
       "dimension": "economic",
@@ -137,23 +157,23 @@
     {
       "dimension": "environmental",
       "topic": "other",
-      "claim": "Bureau Veritas completed the annual full bar count of the trust's gold at the HSBC London vault and the JPMorgan London and New York vaults on September 30, 2025, and random sample counts at those vaults on March 19 and March 25, 2026.",
+      "claim": "Bureau Veritas completed the annual full bar count of the trust's gold at the HSBC London vault and the JPMorgan London and New York vaults on September 30, 2026, after random sample counts on March 17 and 18, 2026.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "source_title": "SPDR Gold Trust Form 10-Q for the quarter ended June 30, 2026",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "source_title": "SPDR Gold Trust Form 10-K for the year ended September 30, 2026",
+      "published_date": "2026-11-24"
     }
   ],
   "upcoming_catalysts": [
     {
-      "event": "Form 10-K for the fiscal year ended September 30, 2026. The FY2025 10-K was filed on November 25, 2025, and as of the EDGAR list used for this research the FY2026 10-K was not yet filed.",
+      "event": "Form 10-Q for the quarter ended December 31, 2026, the first quarterly report of fiscal 2027.",
       "expected_date": null,
       "date_confidence": "estimated",
-      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001222333&action=getcompany&type=10-K"
+      "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?CIK=0001222333&action=getcompany&type=10-Q"
     },
     {
-      "event": "World Gold Council outlook that central-bank buying is likely to at least match 2025 after a strong third quarter, which would support the gold price GLD is designed to track after expenses.",
+      "event": "World Gold Council outlook that central-bank buying is likely to at least match 2025 after a strong third quarter, which would support the gold price GLD tracks after expenses.",
       "expected_date": null,
       "date_confidence": "estimated",
       "source_url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-q3-2026"
@@ -185,31 +205,31 @@
   ],
   "key_risks": [
     {
-      "risk": "GLD's value is the gold price minus expenses. NAV fell 12.72% in the quarter ended June 30, 2026, and the one-year NAV return was -2.84% as of October 31, 2026.",
+      "risk": "GLD's value is the gold price minus expenses. NAV fell 12.72% in the quarter ended June 30, 2026, the one-year NAV return was -2.84% as of October 31, 2026, and fiscal 2026 net income fell about 70% as unrealized gains on gold shrank by $10.4 billion.",
       "severity": "high",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "published_date": "2026-11-24"
     },
     {
-      "risk": "Creations, redemptions, custody, and orderly trading depend on continued market acceptance of LBMA Good Delivery standards. A break in those standards could suspend the creation mechanism and open a large premium or discount to NAV.",
+      "risk": "Creations, redemptions, custody and orderly trading depend on continued market acceptance of LBMA Good Delivery standards. A break in those standards could stop the creation mechanism and open a large premium or discount to NAV.",
       "severity": "high",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "published_date": "2026-11-24"
     },
     {
-      "risk": "The 0.40% sponsor fee is paid by selling gold, so the gold per share declines even if the gold price is unchanged, and the trust has no yield.",
+      "risk": "The 0.40% sponsor fee, $598 million in fiscal 2026, is paid by selling gold, so gold per share declines even if the gold price is unchanged, and the trust has no yield.",
       "severity": "medium",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774925036305/gld20250930_10k.htm",
-      "published_date": "2025-11-25"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "published_date": "2026-11-24"
     },
     {
       "risk": "All of the gold is held by two custodians, HSBC and JPMorgan, so a custody or sub-custody failure would hit the entire asset pool.",
       "severity": "medium",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926025680/gld20260630_10q.htm",
-      "published_date": "2026-08-04"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1222333/000143774926038190/gld20260930_10k.htm",
+      "published_date": "2026-11-24"
     }
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "GLD is a grantor trust that holds allocated gold, not an operating company, so there is no earnings guidance, debt maturity, or share offering in the corporate sense. Basket creations and redemptions are in-kind exchanges for gold. The fiscal year ends September 30. EDGAR's 10-K list showed the FY2025 Form 10-K filed November 25, 2025 and did not show a FY2026 10-K. The latest 10-Q on that list was filed August 4, 2026. November 11, 2026 NAV and the 0.02% figure are from the sponsor site: the 0.02% is the 4 p.m. bid/ask midpoint versus indicative NAV, while the same page lists an official NAV of $367.82 and a closing price of $365.17. The June 30, 2026 10-Q states there were no legal proceedings. No going-concern language was found. World Gold Council ETF-flow figures are for the global physically backed category and are not a GLD-only creation number."
+  "notes": "GLD is a grantor trust that holds allocated gold, not an operating company, so there is no earnings guidance, debt maturity or share offering in the corporate sense. Basket creations and redemptions are in-kind exchanges for gold and are not dilution. The FY2026 Form 10-K was filed November 24, 2026 (accession 0001437749-26-038190) and replaces the 10-Q as the main source here. The 10-K's Item 3 Legal Proceedings section has no content in the fetched text, so no proceedings were identified. The post-year-end net redemption figure is an inference from the September 30 and November 23 share counts. The SSGA return figures are as of October 31, 2026 and were not refreshed; the FY2026 10-K does not give an October or November NAV. World Gold Council ETF-flow figures are for the global physically backed category and are not a GLD-only number. No going-concern language was found."
 }
