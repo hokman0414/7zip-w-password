@@ -200,7 +200,8 @@ def _order(symbol: str, side: str, *, quantity: float | None = None, dollar_amou
 
 
 def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits: RiskLimits | None = None,
-            hedge_symbol: str = "SH", reinvest_symbol: str | None = None) -> list[dict]:
+            hedge_symbol: str = "SH", reinvest_symbol: str | None = None,
+            allocation: dict | None = None) -> list[dict]:
     lim = limits or RiskLimits()
     total = risk["total_value"]
     out: list[dict] = []
@@ -275,6 +276,15 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
                         "kind": "research_buy", "status": APPROVAL,
                         "review_equity_order": _order(r.ticker, "buy", dollar_amount=per)})
             available -= per
+    from .allocation import load_allocation, propose_allocation
+
+    # `allocation` lets tests pin a profile; `None` loads config/allocation.json.
+    alloc = load_allocation() if allocation is None else allocation
+    if alloc and alloc.get("profile") == "growth":
+        # Growth profile owns idle cash. Do not also buy SPY as core_reinvest.
+        out.extend(propose_allocation(risk, alloc, limits=lim))
+        return out
+
     trend = risk.get("benchmark_trend")
     if reinvest_symbol and available >= lim.min_trade_usd and trend and trend["below_trend"]:
         out.append({"symbol": reinvest_symbol, "side": "none", "kind": "core_reinvest_paused", "status": "INFORMATIONAL",

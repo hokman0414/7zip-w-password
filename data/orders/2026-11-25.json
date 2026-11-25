@@ -1,36 +1,149 @@
 {
   "date": "2026-11-25",
-  "created_at": "2026-11-25T17:24:53.007830+00:00",
+  "created_at": "2026-11-25T17:41:10.260980+00:00",
   "armed": false,
   "blocked_reasons": [
     "ROBINHOOD_AGENTIC_ACCOUNT secret not set"
   ],
   "drawdown_from_hwm": 0.0,
-  "high_water_mark": 19479.191304150183,
+  "high_water_mark": 19583.464482750187,
   "buys_halted": false,
   "orders": [],
   "would_place_if_armed": [
     {
-      "symbol": "MPTI",
+      "symbol": "SCHD",
       "side": "sell",
-      "kind": "risk_trim",
-      "est_usd": 106.05,
-      "ref_price": 60.1675,
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 35.165,
       "max_quote_drift_pct": 0.05,
-      "rationale": "research critical veto (SEVERE_DILUTION); cap 1%",
-      "ref_id": "609c4660-6770-50dc-b458-7c9b5a27ac9c",
+      "rationale": "growth profile: SCHD is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "1d6b57cd-2fb8-53fd-b5ce-6e20c506fa34",
       "params": {
-        "symbol": "MPTI",
+        "symbol": "SCHD",
         "side": "sell",
         "type": "market",
-        "quantity": "1.762506",
+        "quantity": "11.374947",
         "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
         "time_in_force": "gfd",
         "market_hours": "regular_hours"
       },
-      "clipped": false
+      "clipped": true
+    },
+    {
+      "symbol": "VTI",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 348.3298,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: VTI is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "170be22e-5e08-50af-af01-3453a968654f",
+      "params": {
+        "symbol": "VTI",
+        "side": "sell",
+        "type": "market",
+        "quantity": "1.148337",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
+    },
+    {
+      "symbol": "VOO",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 649.56,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: VOO is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "f31e4728-3f48-57c4-901f-9a3adda57467",
+      "params": {
+        "symbol": "VOO",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.615801",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 319.425,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: GLD is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "1b9c8364-6fbc-5340-881c-47ec9c28cf5b",
+      "params": {
+        "symbol": "GLD",
+        "side": "sell",
+        "type": "market",
+        "quantity": "1.252250",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
+    },
+    {
+      "symbol": "SIL",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 62.1799,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: SIL is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "dda94103-bebd-594a-ae56-5259140318c2",
+      "params": {
+        "symbol": "SIL",
+        "side": "sell",
+        "type": "market",
+        "quantity": "6.432947",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
+    },
+    {
+      "symbol": "SGOV",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": 100.6788,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: SGOV is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "0726bbff-1047-55b1-9bb1-5f275251985e",
+      "params": {
+        "symbol": "SGOV",
+        "side": "sell",
+        "type": "market",
+        "quantity": "3.973031",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": true
     }
   ],
-  "rejected": [],
+  "rejected": [
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded buy on 2026-11-23"
+    },
+    {
+      "symbol": "EWY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    }
+  ],
   "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
 }

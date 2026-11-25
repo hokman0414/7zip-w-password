@@ -1,0 +1,31 @@
+{
+  "profile": "growth",
+  "etf_target_weight": 0.80,
+  "researched_at": "2026-11-25T17:36:00Z",
+  "projection_basis": "FactSet Earnings Insight 2026-11-20: S&P 500 CY2027 EPS growth 16.4%, forward P/E 17.1; Information Technology CY2027 EPS growth 42.9% (Fundamental Lens from same report). Citadel Securities 2026-11-04: Nasdaq-100 forward P/E 19.1x, lowest since Oct 2022, after a 19% multiple compression with forward EPS up 14% since June.",
+  "sleeves": [
+    {
+      "symbol": "QQQM",
+      "target_weight": 0.40,
+      "aliases": ["QQQ"],
+      "role": "nasdaq100_growth",
+      "rationale": "Nasdaq-100 growth core. Issuer expense ratio 0.15% vs QQQ ~0.20%. Citadel: NDX 19.1x forward earnings (2026-11-03), lowest since Oct 2022. Counts existing QQQ toward the sleeve."
+    },
+    {
+      "symbol": "SCHG",
+      "target_weight": 0.25,
+      "aliases": [],
+      "role": "large_cap_growth",
+      "rationale": "Dow Jones U.S. Large-Cap Growth. Schwab total expense ratio 0.04%. Broad large-cap growth without a single-sector bet. IT is ~54% of the fund."
+    },
+    {
+      "symbol": "VGT",
+      "target_weight": 0.15,
+      "aliases": ["XLK"],
+      "role": "information_technology",
+      "rationale": "U.S. Information Technology. FactSet CY2027 IT EPS growth 42.9%, the highest sector projection in the 2026-11-20 report. Sized below the Nasdaq sleeve because sector funds are more concentrated."
+    }
+  ],
+  "do_not_buy": ["SMH", "TQQQ", "SOXL", "UPRO", "BITU"],
+  "notes": "Sleeves sum to 80%. The other 20% is cash reserve, single names, and any residual non-growth funds being sold down. SCHD, VTI, VOO, SPY, SGOV, GLD, SIL and EWY are not growth sleeves and are sold toward zero under this profile. Growth buys are not blocked by the SPY 10-month trend pause; that pause applies only to core_reinvest."
+}

@@ -35,3 +35,12 @@ BITU was an exit and the whole position sold. NBIS, CIFR, and IREN were red-team
 ## What changed on 2026-11-25
 
 On 2026-11-23, one session after the Friday trims, they were up a median 15%, and the failed-thesis fraction stepped from 0.50 to 0.25. By the third session they were a median 3.7% below the fill prices. The step was undone, and a batch is now scored once, after 3 sessions. Every sale from 2026-11-12 to 2026-11-20 was followed by a further fall. Holding those shares would have cost $239 more, so the sells were not the leak. The account fell about as much as SPY did. The one loss the system caused was the 2026-11-23 SPY core buy, made while SPY was below its 10-month average. The core reinvest now pauses below that average.
+
+## Growth ETF profile (from 2026-11-25)
+
+The book targets 80% in growth ETFs chosen with forward projections, in `config/allocation.json`:
+- **QQQM 40%** (existing QQQ counts here): Nasdaq-100, 0.15% expense. Citadel 2026-11-03: NDX forward P/E 19.1x, lowest since Oct 2022.
+- **SCHG 25%**: Dow Jones U.S. Large-Cap Growth, 0.04% expense (Schwab).
+- **VGT 15%**: U.S. Information Technology. FactSet 2026-11-20: IT CY2027 EPS growth 42.9%.
+
+SCHD, VTI, VOO, SPY, SGOV, GLD, SIL and EWY are not growth sleeves and are sold down under `growth_rebalance`. SMH and leveraged funds are on the do-not-buy list. A named request that conflicts with this profile (for example "buy more SCHD") still goes through the playbook, but the daily plan will keep selling non-sleeve funds until the 80% target is reached.

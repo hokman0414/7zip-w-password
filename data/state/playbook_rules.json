@@ -62,6 +62,11 @@
       "as_of": "2026-11-25",
       "source": "transfer-in",
       "gap": "About $13.4k of positions arrived with no orders and no cash change (VOO, VTI, SCHD, QQQ, SGOV, SIL, MSFT, WDC, SNDK, WULF and more shares of existing names). The high-water mark moved to 19,479.19 with the transfer, so drawdown is measured from today. Untagged funds would have been capped as single stocks, so known funds are now required to carry tags."
+    },
+    {
+      "as_of": "2026-11-25",
+      "source": "growth-allocation",
+      "gap": "Standing profile is growth: 80% in QQQM 40% / SCHG 25% / VGT 15% (QQQ counts toward QQQM), chosen from FactSet CY2027 IT EPS growth 42.9% and Citadel NDX forward P/E 19.1x. Selected ETFs were 6.3% of the book. First tranche sold ~$2,412 of SCHD, VTI, VOO, GLD, SIL and SGOV. Buys of QQQM/SCHG/VGT wait for cash above the 5% reserve on the next run. SPY sell is on cooldown until 2026-11-26."
     }
   ],
   "min_sessions": 3,

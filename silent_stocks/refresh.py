@@ -16,14 +16,16 @@ SECURITY_FIELDS = ["company", "price", "price_time", "market_cap", "shares_outst
 # An untagged fund is sized as a single stock (10% cap), so a held fund missing its tag blocks trading.
 KNOWN_FUNDS = {
     "SPY": ("index_etf", None), "VOO": ("index_etf", None), "IVV": ("index_etf", None), "VTI": ("index_etf", None),
-    "QQQ": ("index_etf", None), "SCHD": ("index_etf", None), "SCHB": ("index_etf", None), "SCHX": ("index_etf", None),
+    "QQQ": ("index_etf", None), "QQQM": ("index_etf", None), "SCHD": ("index_etf", None), "SCHG": ("index_etf", None),
+    "SCHB": ("index_etf", None), "SCHX": ("index_etf", None), "VUG": ("index_etf", None), "MGK": ("index_etf", None),
+    "IWF": ("index_etf", None), "VGT": ("index_etf", None), "XLK": ("index_etf", None), "SMH": ("index_etf", None),
     "DIA": ("index_etf", None), "IWM": ("index_etf", None), "VXUS": ("index_etf", None), "VEA": ("index_etf", None),
-    "SGOV": ("index_etf", None), "BIL": ("index_etf", None), "SHV": ("index_etf", None),
+    "VIGI": ("index_etf", None), "SGOV": ("index_etf", None), "BIL": ("index_etf", None), "SHV": ("index_etf", None),
     "GLD": ("commodity_etf", None), "IAU": ("commodity_etf", None), "SLV": ("commodity_etf", None),
     "SIL": ("commodity_etf", None), "GDX": ("commodity_etf", None),
     "EWY": ("country_etf", None), "EWJ": ("country_etf", None), "EWT": ("country_etf", None),
     "BITU": ("leveraged_etf", 2.0), "TQQQ": ("leveraged_etf", 3.0), "SSO": ("leveraged_etf", 2.0),
-    "UPRO": ("leveraged_etf", 3.0), "SOXL": ("leveraged_etf", 3.0),
+    "UPRO": ("leveraged_etf", 3.0), "SOXL": ("leveraged_etf", 3.0), "SH": ("index_etf", None),
 }
 
 

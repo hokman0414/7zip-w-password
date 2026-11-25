@@ -1,27 +1,27 @@
 {
  "source": "robinhood-mcp",
- "captured_at": "2026-11-25T17:13:37Z",
+ "captured_at": "2026-11-25T17:40:59Z",
  "tools": [
   "get_portfolio",
   "get_equity_positions",
   "get_equity_quotes",
   "get_equity_historicals(interval=month)"
  ],
- "notes": "Read-only capture. Full account number is not stored. 2026-11-25 includes positions that arrived without orders or cash change (asset transfer in).",
+ "notes": "Post-MPTI-fill refresh. Growth profile targets QQQM/SCHG/VGT.",
  "positions": {
   "account_last4": "0643",
   "account_type": "limited_margin",
   "option_level": null,
   "portfolio": {
-   "total_value": 19479.191304150183,
-   "equity_value": 18498.379787648,
-   "crypto_value": 447.6315165021825,
-   "cash": 533.18,
-   "buying_power": 533.18
+   "total_value": 19583.464482750187,
+   "equity_value": 18493.141494101,
+   "crypto_value": 451.25298864918636,
+   "cash": 639.07,
+   "buying_power": 639.07
   },
   "benchmark": {
    "symbol": "SPY",
-   "price": 706.85,
+   "price": 706.75,
    "monthly_closes": [
     683.39,
     681.92,
@@ -522,7 +522,7 @@
     "symbol": "SPY",
     "quantity": 1.631942,
     "available": 1.631942,
-    "price": 706.85,
+    "price": 706.75,
     "monthly_closes": [
      683.39,
      681.92,
@@ -565,7 +565,7 @@
     "symbol": "VTI",
     "quantity": 7.302474,
     "available": 7.302474,
-    "price": 348.575,
+    "price": 348.3298,
     "monthly_closes": [
      336.31,
      335.27,
@@ -606,7 +606,7 @@
     "symbol": "SCHD",
     "quantity": 93.595095,
     "available": 93.595095,
-    "price": 35.1599,
+    "price": 35.165,
     "monthly_closes": [
      27.59,
      27.43,
@@ -688,7 +688,7 @@
     "symbol": "QQQ",
     "quantity": 2.006913,
     "available": 2.006913,
-    "price": 619.6,
+    "price": 619.2701,
     "monthly_closes": [
      619.25,
      614.31,
@@ -707,8 +707,8 @@
    },
    {
     "symbol": "MPTI",
-    "quantity": 5.0,
-    "available": 5.0,
+    "quantity": 3.237494,
+    "available": 3.237494,
     "price": 60.1675,
     "monthly_closes": [
      46.961313,
@@ -769,7 +769,7 @@
     "symbol": "VOO",
     "quantity": 3.025832,
     "available": 3.025832,
-    "price": 649.61,
+    "price": 649.56,
     "monthly_closes": [
      628.41,
      627.13,

@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "account_last4": "0643",
-  "allowed_kinds": ["risk_trim", "hedge", "research_buy", "core_reinvest"],
+  "allowed_kinds": ["risk_trim", "hedge", "research_buy", "core_reinvest", "growth_rebalance"],
   "reinvest_symbol": "SPY",
   "hedge_symbol": "SH",
   "max_order_usd": 400,

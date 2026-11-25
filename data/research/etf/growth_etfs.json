@@ -1,0 +1,94 @@
+{
+  "researched_at": "2026-11-25T17:36:00Z",
+  "outlook": [
+    {
+      "item": "S&P 500 CY2027 earnings growth",
+      "value": 0.164,
+      "source_url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf",
+      "as_of": "2026-11-20",
+      "source_title": "FactSet Earnings Insight"
+    },
+    {
+      "item": "S&P 500 forward 12-month P/E",
+      "value": 17.1,
+      "source_url": "https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_112026.pdf",
+      "as_of": "2026-11-20",
+      "source_title": "FactSet Earnings Insight"
+    },
+    {
+      "item": "S&P 500 Information Technology CY2027 earnings growth",
+      "value": 0.429,
+      "source_url": "https://fundamentallens.fyi/earnings-revisions.html",
+      "as_of": "2026-11-20",
+      "source_title": "Fundamental Lens (FactSet Earnings Insight 2026-11-20 sector table)"
+    },
+    {
+      "item": "Nasdaq-100 forward P/E",
+      "value": 19.1,
+      "source_url": "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/november-the-setup-improves/",
+      "as_of": "2026-11-03",
+      "source_title": "Citadel Securities Global Market Intelligence"
+    },
+    {
+      "item": "MSCI USA IT 2027E earnings growth",
+      "value": 0.431,
+      "source_url": "https://www.sc.com/en/uploads/sites/66/content/docs/wm-equity-newsletter-long-story-short-opportunities-amid-the-sell-off-06-november-2026.pdf",
+      "as_of": "2026-11-06",
+      "source_title": "Standard Chartered Wealth equity newsletter"
+    }
+  ],
+  "funds": {
+    "QQQM": {
+      "name": "Invesco NASDAQ 100 ETF",
+      "index": "NASDAQ-100 Index",
+      "expense_ratio": 0.0015,
+      "holdings": 102,
+      "top10_weight": 0.463,
+      "forward_pe_proxy": 19.1,
+      "forward_eps_growth_proxy": 0.429,
+      "forward_eps_growth_basis": "S&P 500 IT CY2027 (FactSet) as sector proxy; NDX forward P/E from Citadel",
+      "selected": true,
+      "role": "nasdaq100_growth",
+      "sources": [
+        {"url": "https://www.invesco.com/us-rest/contentdetail?contentId=5b4d8e58e0737710VgnVCM1000006e36b50aRCRD", "title": "Invesco QQQM fact sheet", "as_of": "2026-09-30", "fields": ["expense_ratio", "holdings"]},
+        {"url": "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/november-the-setup-improves/", "title": "Citadel Securities", "as_of": "2026-11-03", "fields": ["forward_pe_proxy"]}
+      ]
+    },
+    "SCHG": {
+      "name": "Schwab U.S. Large-Cap Growth ETF",
+      "index": "Dow Jones U.S. Large-Cap Growth Total Stock Market Index",
+      "expense_ratio": 0.0004,
+      "top_sector": "Information Technology",
+      "top_sector_weight": 0.5414,
+      "selected": true,
+      "role": "large_cap_growth",
+      "sources": [
+        {"url": "https://www.schwabassetmanagement.com/products/schg", "title": "Schwab SCHG product page", "as_of": "2026-11-25", "fields": ["expense_ratio", "index", "top_sector_weight"]}
+      ]
+    },
+    "VGT": {
+      "name": "Vanguard Information Technology ETF",
+      "index": "MSCI US Investable Market Information Technology 25/50",
+      "selected": true,
+      "role": "information_technology",
+      "forward_eps_growth_proxy": 0.429,
+      "forward_eps_growth_basis": "FactSet S&P 500 IT CY2027",
+      "sources": [
+        {"url": "https://fundamentallens.fyi/earnings-revisions.html", "title": "Fundamental Lens / FactSet", "as_of": "2026-11-20", "fields": ["forward_eps_growth_proxy"]}
+      ]
+    },
+    "SCHD": {
+      "name": "Schwab U.S. Dividend Equity ETF",
+      "selected": false,
+      "role": "dividend_not_growth",
+      "notes": "Dividend equity, not a growth sleeve under the growth profile."
+    },
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "selected": false,
+      "role": "semiconductor_excluded",
+      "notes": "Excluded from the 80% sleeves: 47% realized vol and about 40% below the 52-week high; memory-cycle risk is too concentrated for a standing sleeve."
+    }
+  },
+  "notes": "Selected sleeves: QQQM 40%, SCHG 25%, VGT 15%. QQQ counts toward QQQM. Broad market (VOO/VTI/SPY), dividend (SCHD), commodities and T-bills are sold down under this profile."
+}
