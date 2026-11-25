@@ -133,3 +133,13 @@ def test_portfolio_validation_catches_transcription_error():
     d["positions"]["portfolio"]["equity_value"] = 2000.0
     errors, _ = validate_portfolio(d, MONDAY_10)
     assert any("differs >3%" in e for e in errors)
+
+
+def test_untagged_known_fund_blocks_the_snapshot():
+    d = doc()
+    d["positions"]["holdings"][0]["symbol"] = "VOO"
+    errors, _ = validate_portfolio(d, MONDAY_10)
+    assert "VOO: tag as asset_type index_etf" in errors
+    d["positions"]["holdings"][0]["asset_type"] = "index_etf"
+    errors, _ = validate_portfolio(d, MONDAY_10)
+    assert not [e for e in errors if "VOO" in e]

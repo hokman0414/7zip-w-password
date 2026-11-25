@@ -6,7 +6,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from silent_stocks.config import Settings
-from silent_stocks.portfolio_risk import APPROVAL, assess, propose
+from silent_stocks.portfolio_risk import APPROVAL, RiskLimits, assess, propose
 from silent_stocks.scheduler import build_trigger
 
 PKG = Path(__file__).resolve().parent.parent / "silent_stocks"
@@ -35,6 +35,20 @@ def test_concentration_and_leverage_trims_are_proposals_only():
         if p["side"] in ("buy", "sell"):
             assert p["status"] == APPROVAL
             assert p["review_equity_order"]["type"] == "market"
+
+
+def test_core_reinvest_pauses_below_the_benchmark_trend():
+    snap = snapshot()
+    snap["positions"]["portfolio"]["cash"] = 300.0
+    no_hedge = RiskLimits(beta_tolerance=10.0)
+    up = propose(assess(snap), limits=no_hedge, reinvest_symbol="SPY")
+    assert any(p["kind"] == "core_reinvest" for p in up)
+    snap["positions"]["benchmark"]["price"] = 100.0
+    risk = assess(snap)
+    assert risk["benchmark_trend"]["below_trend"]
+    down = propose(risk, limits=no_hedge, reinvest_symbol="SPY")
+    assert not [p for p in down if p["kind"] == "core_reinvest"]
+    assert any(p["kind"] == "core_reinvest_paused" for p in down)
 
 
 def test_no_buys_without_qualified_research():

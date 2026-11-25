@@ -13,6 +13,18 @@ from .connectors.research import AgentFindings, load_findings
 SECURITY_FIELDS = ["company", "price", "price_time", "market_cap", "shares_outstanding", "float", "avg_volume_30d",
                    "high_52w", "low_52w", "pe_ratio", "pb_ratio", "sector", "industry", "hq", "employees",
                    "listing_status", "price_12m_ago", "monthly_closes"]
+# An untagged fund is sized as a single stock (10% cap), so a held fund missing its tag blocks trading.
+KNOWN_FUNDS = {
+    "SPY": ("index_etf", None), "VOO": ("index_etf", None), "IVV": ("index_etf", None), "VTI": ("index_etf", None),
+    "QQQ": ("index_etf", None), "SCHD": ("index_etf", None), "SCHB": ("index_etf", None), "SCHX": ("index_etf", None),
+    "DIA": ("index_etf", None), "IWM": ("index_etf", None), "VXUS": ("index_etf", None), "VEA": ("index_etf", None),
+    "SGOV": ("index_etf", None), "BIL": ("index_etf", None), "SHV": ("index_etf", None),
+    "GLD": ("commodity_etf", None), "IAU": ("commodity_etf", None), "SLV": ("commodity_etf", None),
+    "SIL": ("commodity_etf", None), "GDX": ("commodity_etf", None),
+    "EWY": ("country_etf", None), "EWJ": ("country_etf", None), "EWT": ("country_etf", None),
+    "BITU": ("leveraged_etf", 2.0), "TQQQ": ("leveraged_etf", 3.0), "SSO": ("leveraged_etf", 2.0),
+    "UPRO": ("leveraged_etf", 3.0), "SOXL": ("leveraged_etf", 3.0),
+}
 
 
 def _latest_screen(settings: Settings) -> list[str]:
@@ -71,6 +83,9 @@ def validate_portfolio(doc: dict, now: datetime) -> tuple[list[str], list[str]]:
             errors.append(f"{h.get('symbol')}: invalid quantity/price")
         if h.get("available") is not None and float(h["available"]) > float(h["quantity"]) + 1e-9:
             errors.append(f"{h['symbol']}: available > quantity")
+        known = KNOWN_FUNDS.get(h.get("symbol"))
+        if known and (h.get("asset_type") != known[0] or (known[1] and h.get("leverage") != known[1])):
+            errors.append(f"{h['symbol']}: tag as asset_type {known[0]}" + (f", leverage {known[1]}" if known[1] else ""))
     implied = sum(float(h["quantity"]) * float(h["price"]) for h in holds)
     eq = float(port.get("equity_value") or 0)
     if eq and abs(implied / eq - 1) > 0.03:
