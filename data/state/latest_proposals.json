@@ -1,6 +1,6 @@
 {
- "run_id": "daily-20261123T193729Z",
- "created_at": "2026-11-23T19:37:29.062180+00:00",
+ "run_id": "daily-20261124T144206Z",
+ "created_at": "2026-11-24T14:42:06.890774+00:00",
  "proposals": [
   {
    "symbol": "-",
@@ -12,7 +12,7 @@
   {
    "symbol": "SPY",
    "side": "buy",
-   "dollar_amount": 457.53,
+   "dollar_amount": 52.84,
    "order_type": "market",
    "rationale": "idle cash above the 5% reserve goes to the diversified core fund (beta ~1, capped at 20% weight)",
    "kind": "core_reinvest",
@@ -24,7 +24,7 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "dollar_amount": "457.53"
+    "dollar_amount": "52.84"
    }
   }
  ]

@@ -16,7 +16,7 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
   or symbols outside the plan.
 - Never edit `config/autotrade.json`, `silent_stocks/execution.py` or `silent_stocks/portfolio_risk.py` during a run
   to loosen limits.
-- The words "do trade" are the yes for that run. Place every buy and every sell in `orders`. If `armed` is false only because `ROBINHOOD_AGENTIC_ACCOUNT` is unset, place `would_place_if_armed` with those params and `ref_id`s. Any other blocked reason means place nothing and report it. Do not ask for a second yes.
+- The words "do trade" are the yes for that run. Run the checklist straight through, with no pause between the snapshot, the plan, and the orders. Place every buy and every sell in `orders`. If `armed` is false only because `ROBINHOOD_AGENTIC_ACCOUNT` is unset, place `would_place_if_armed` with those params and `ref_id`s. Any other blocked reason means place nothing and report it. Do not ask for a second yes. Do not repeat a rejected order later the same day.
 - If `plan-orders` reports `armed: false` and the user did not say "do trade", place nothing. Report the `blocked_reasons`.
 - If any step fails or the data looks wrong, stop trading for the day and report what happened. Research and reports may still finish.
 - The account number comes only from the `ROBINHOOD_AGENTIC_ACCOUNT` env var. Never write it to a file, commit or message.

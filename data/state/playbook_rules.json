@@ -32,6 +32,16 @@
       "as_of": "2026-11-23",
       "source": "BITU",
       "gap": "BITU regular price 7.80 versus the 7.285 exit, up 7%. The exit fraction stays 1.0."
+    },
+    {
+      "as_of": "2026-11-24",
+      "source": "trim_thesis_fails",
+      "gap": "Tuesday regular prices versus the Friday fills: NBIS +6.1%, CIFR +4.6%, IREN +7.3%, DRAM +6.7%. Median +6.4%. The failed-thesis fraction is already at the 0.25 floor, so it stays 0.25."
+    },
+    {
+      "as_of": "2026-11-24",
+      "source": "BITU",
+      "gap": "BITU regular price 7.57 versus the 7.285 exit, up 3.9%. The exit fraction stays 1.0."
     }
   ]
 }

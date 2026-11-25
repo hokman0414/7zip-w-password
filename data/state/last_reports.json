@@ -1,4 +1,27 @@
 {
+ "AAOI": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "44cfb997ec679039",
+   "fa37752f01a2b354"
+  ],
+  "iyes": 15,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MATERIAL_WEAKNESS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "AEVA": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "519e995585a5a722",
+   "7264c391fe9f4780"
+  ],
+  "iyes": 17,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "AGX": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
   "evidence": [
@@ -10,6 +33,37 @@
   "vetoes": [
    "STALE_MARKET_DATA"
   ]
+ },
+ "AIRO": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "0773aa3e069983ef",
+   "0f9964dc777ec3dd",
+   "19b31b3f33aa1fa6",
+   "1cbdb26fde2a553b",
+   "35e5172730e8c0c8",
+   "40dfb172696dd007",
+   "538902cd22b46ea2",
+   "559f42c543ad0ea8",
+   "60d53f13694ec9ad",
+   "b0c9592e041c0c7e",
+   "cbd2406d806ca4f8",
+   "d249a60dbcf84d7d",
+   "e7f0bc9d6eab4329"
+  ],
+  "iyes": 21,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "ALAB": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "4c84b4b7f2e84ac1",
+   "8ee4cb3d98482f55"
+  ],
+  "iyes": 21,
+  "status": "DISCOVERY",
+  "vetoes": []
  },
  "ALMR": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
@@ -31,10 +85,10 @@
   ]
  },
  "AMBQ": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "5f88d1f1db1f2bc7",
-   "94952feca499327e"
+   "b1223fbf849cf77b"
   ],
   "iyes": 19,
   "status": "DISQUALIFIED",
@@ -44,17 +98,17 @@
   ]
  },
  "AMD": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "03ab7b93c3cc5c09",
    "051faf96bcba4956",
    "096bea78c7cf4f89",
    "1888cc5bd491b928",
-   "28b83065e3e3799a",
+   "200fe3820012d563",
    "30595afb40e80b36",
    "38a456996ce9bdc7",
+   "441d9050ac4ea6ae",
    "455d864f4998e613",
-   "562afe0a2f81725a",
    "599f6aa2a8790f6a",
    "62e9a133eb1172a5",
    "67458a962a6e4f47",
@@ -79,7 +133,7 @@
   "vetoes": []
  },
  "AMPX": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "06e4c651f5e82c77",
    "0a75395b720ae27a",
@@ -88,8 +142,7 @@
    "1af7388a0505dda8",
    "1d33282b545fbd0a",
    "314483416a282baf",
-   "377078a2e2fac3f9",
-   "39a39583c2241a8e",
+   "325b519143f332ee",
    "405883278f3e3ae5",
    "48e6a789fc95d686",
    "4de299727b3cd57d",
@@ -110,18 +163,19 @@
    "f81e711657a50ba3",
    "fd747eee0dab16d6"
   ],
-  "iyes": 36,
+  "iyes": 35,
   "status": "DISQUALIFIED",
   "vetoes": [
    "CASH_RUNWAY"
   ]
  },
  "AMZN": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "02323e3f7842af5f",
    "0c3240ce1528d795",
    "0e72fac825afb049",
+   "179e2653191faeeb",
    "1a0338ed0bb03a40",
    "1bdab2e199a4c193",
    "2045d0bd46ebe29d",
@@ -131,13 +185,11 @@
    "4b5acd5a2cba2143",
    "4fe7c310c853cd2a",
    "551bfc0b98feea3d",
-   "55533fad5a61a0cf",
    "66b7516e831b0b49",
    "6b82bcb7c152c27e",
    "70b7cba0c6a9dac4",
    "74fc79929e307a6a",
    "7b7497b626a24a82",
-   "7d30bf5e1fa3ba1b",
    "8a523361ec12e66b",
    "94c4c94a467df4c2",
    "9861cc8330d280fd",
@@ -151,7 +203,8 @@
    "cdd89e3ce1aa255f",
    "d38088330aa3b7f0",
    "d7ce87b074a755e2",
-   "df2b6fca564bc00a"
+   "df2b6fca564bc00a",
+   "f71037a16ceed7de"
   ],
   "iyes": 25,
   "status": "DISQUALIFIED",
@@ -171,15 +224,16 @@
   ]
  },
  "AVO": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
+   "085bb7c6927aee35",
    "1aab9b10b8025b55",
    "3ac359efd5268c9c",
    "3e6b78b56af36071",
-   "43e06a27e38d4899",
    "4479bceb71e15aa7",
    "470eb93cd279dc28",
    "5acc9fd247ec8cc0",
+   "5d80611fca0168f3",
    "8267a42e3680ca8d",
    "841bf1dfa7c18d72",
    "86d9e47042af501b",
@@ -192,7 +246,6 @@
    "aeff0ae53b6e4536",
    "c7a31fd291dff5c8",
    "cbaaf8d19ddb3de1",
-   "d1e4af8e988a14fa",
    "d41cb88fa53fbb27",
    "d80f835b8e76abfa",
    "da31c6744b2c388c",
@@ -205,22 +258,23 @@
   "vetoes": []
  },
  "AXTI": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "04688dd467ac8009",
    "1760fd04e625d3d1",
    "1b3d99f24141d634",
    "2cbf1469314ca629",
-   "334ca7dc2bd8aa51",
    "34fad28d51928124",
    "369e939278721625",
    "36cebe49c1b96811",
    "466c786ca46dd669",
+   "4fd1a65bb4dd0d82",
    "518d175a5c7190d1",
    "526f0278669be1d4",
    "536082a307251b92",
    "5535e77999538f4a",
    "56c333522e28494b",
+   "599c549c15a3d9b1",
    "5a54d048ca25a256",
    "68263a486593251a",
    "6b07f13a0872e835",
@@ -232,28 +286,24 @@
    "b1e4e0da7f42faef",
    "b7164d0863cf0ab6",
    "ca6434425e5fba10",
-   "ec436da2cd94b0ce",
    "fbef1cd7748e416a"
   ],
-  "iyes": 28,
-  "status": "STALE DATA",
+  "iyes": 27,
+  "status": "DISQUALIFIED",
   "vetoes": [
-   "ALREADY_MOVED",
-   "SEVERE_DILUTION",
-   "STALE_MARKET_DATA"
+   "SEVERE_DILUTION"
   ]
  },
  "BE": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "38c7fd62197b83a9",
-   "54b180bc26dbec31"
+   "4dc9b6e07bbb80f1",
+   "e3a5827dbb82c97d"
   ],
-  "iyes": 25,
-  "status": "STALE DATA",
+  "iyes": 22,
+  "status": "DISQUALIFIED",
   "vetoes": [
-   "SEVERE_DILUTION",
-   "STALE_MARKET_DATA"
+   "SEVERE_DILUTION"
   ]
  },
  "BETA": {
@@ -270,9 +320,10 @@
   ]
  },
  "BN": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0172015e390d4ec1",
+   "084faa3e412b6e67",
    "105bb2d19a5f7761",
    "190f7f6a9c885a60",
    "2397b126d55c7f44",
@@ -283,11 +334,10 @@
    "47a04f2a821b2080",
    "585c757e0aa408f5",
    "59d8ad270df4aff6",
-   "62b8d1ff3a9f421e",
    "7f2468998b9e7adb",
    "8cfc9cec6566b68d",
+   "a17f7e172714f9f7",
    "a89c671220abeea8",
-   "b0a9163f5d980f98",
    "bab7a146f67424c8",
    "bba618322d2c7bf9",
    "c7e58f6324755d6f",
@@ -303,20 +353,32 @@
    "MISSING_FUNDAMENTALS"
   ]
  },
- "CIFR": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+ "CENX": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
+   "160116807e8ee903",
+   "474c5e403399e407"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "RESTATEMENT"
+  ]
+ },
+ "CIFR": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "0f4735c134b8a15e",
    "14756885536b1238",
    "25331217496c6ddd",
    "29d7da8a76874d04",
    "2ecdecd0d9b3b332",
    "323384285a0b9a8a",
    "334a46ef562412c5",
+   "4458a49166de440e",
    "459886dcde17af47",
    "4873235220e7b06d",
-   "5c4eaf47add47887",
    "6269f99a515510b0",
-   "686d68787ca6b0ae",
    "6cc541bc4c4742f8",
    "7b3065d1164fd6e6",
    "85d342182ba2e2cc",
@@ -354,16 +416,30 @@
    "SUB_DOLLAR"
   ]
  },
- "CODA": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+ "CMCO": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "07c776e5fecd7c3a",
+   "1c47fbf61720d227",
+   "58be04e606e3182f",
+   "a7ed5ee39a02b701",
+   "e67c9618e1347e66"
+  ],
+  "iyes": 13,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY"
+  ]
+ },
+ "CODA": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
    "1886eefa6dcc4a40",
    "292e9c23b858256c",
    "3391a94c782044db",
    "597164d52a92a0a6",
    "620c3a880e17f53f",
    "7488470bc0090a1c",
+   "76848c18d3855c0c",
    "820d86e12dfe6c83",
    "8879b70645006452",
    "921322e8e1dbe5d8",
@@ -374,9 +450,9 @@
    "b5f10bac48841078",
    "c1d163b7da0af923",
    "ca367e0a5e033ddf",
+   "d36c46a9c92b06c4",
    "d63b28d1192ffd80",
    "def7010851a0ec46",
-   "f1acdf742bd1077e",
    "f5edcb3b4362652b",
    "f6e29347b22a09bb",
    "fce6f33821682a94"
@@ -386,17 +462,17 @@
   "vetoes": []
  },
  "COUR": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "034d97d59c6c1d53",
    "2b71fe6f6fd2574a",
-   "6ba0ca3c7220db58",
    "8cebd9ac0d3ca8fb",
    "95b7bb10f15a1d0e",
-   "9a75c71eccbcedee",
    "bd83291d8531e050",
    "cd0d1c508dd117a0",
+   "d7f0dd2419448a3f",
    "d900e43392483e7b",
+   "e4e8690809713528",
    "fa8b6e7295f1fc32"
   ],
   "iyes": 22,
@@ -406,19 +482,29 @@
   ]
  },
  "CRON": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "1612884d98b72df7",
-   "4e84df9511a1a7c7",
    "5e2f46edfbb3de25",
-   "974df8dc91d5aab0"
+   "bbaed6411cf65181",
+   "d91aaee3613106e3"
   ],
   "iyes": 26,
   "status": "DISCOVERY",
   "vetoes": []
  },
+ "DCTH": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "6c5d3d0ca75b9222",
+   "a7232e49f3ed0ebe"
+  ],
+  "iyes": 22,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "DUK": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "095286df073b7132",
    "0956fb3e6561b335",
@@ -433,6 +519,7 @@
    "30a32affa983f00e",
    "34c48aff3aef1375",
    "3b20a70564340e0e",
+   "3bde333f514195d1",
    "3d48cd35dfc2be1d",
    "3ef0ea66099a9b44",
    "428d0ba7d06c512d",
@@ -451,6 +538,7 @@
    "985cdb1ad1fc9bd8",
    "9d67f0de134f502d",
    "b1243a043618aade",
+   "b1696ad59965af1e",
    "b4950a33c2771632",
    "b5a675ccaf5978ee",
    "b7fbb7adc2a4593a",
@@ -459,11 +547,9 @@
    "c7abcf1031bf30bf",
    "ca42ea1e47489ae5",
    "d637b9a8b7b004de",
-   "d94d49fbf482e515",
    "de7ca3ab26bc31b8",
    "e0bb90c16e318254",
    "e294e5954b625da9",
-   "eaba5c6e5338923d",
    "ef9a34d8a4abe45b",
    "f167943a60293c17",
    "f59c679c5817cce4",
@@ -472,6 +558,19 @@
   "iyes": 24,
   "status": "DISQUALIFIED",
   "vetoes": []
+ },
+ "DUOT": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "4f9a5d3940c2fc05",
+   "dcb1d078ecc6adb4",
+   "eb57413fd652a04a"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "SEVERE_DILUTION"
+  ]
  },
  "DVLT": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
@@ -489,11 +588,29 @@
    "SUB_DOLLAR"
   ]
  },
+ "ELMT": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "0d2142e91e4b535f",
+   "3073abc8dbb2756e",
+   "3c346cf1e57bdd7f",
+   "47e48678aa140e7b",
+   "52d6e041ae209dc7",
+   "ce68fcf5e7720f1c",
+   "e19028aa3010e2fc",
+   "ed6577f4991144df"
+  ],
+  "iyes": 10,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
  "ELV": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "050e98400c699f1f",
-   "06a729f4710e0bcc",
    "0a007fb882d1080a",
    "0af33a1a8b56a9eb",
    "0d59b114756f93d9",
@@ -503,8 +620,9 @@
    "2a27dd1120ed0fb2",
    "3a3183a9206ffbbd",
    "4bb4a89d976a4401",
-   "59b3eb70a82ea52b",
    "680c82b6c7b4fb86",
+   "6df2fe6f3fcbdcfb",
+   "7638e3e0bcc3acd7",
    "8799473c94c41e93",
    "8ed83488d7262a51",
    "92120e69fba4f7f4",
@@ -525,7 +643,7 @@
   "vetoes": []
  },
  "EOSE": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "00fbc4c6cac9316e",
    "0d7497c0af0d2773",
@@ -540,10 +658,10 @@
    "68af14b13f7b1bdd",
    "6d35f5970701bf01",
    "6d7a8d46cc7a5c30",
+   "6e7f98666a16f4ad",
    "73cf80ed93ffde0a",
    "7a460841881c62c8",
    "7a7706cac6b21374",
-   "7ae6f6d8ccae992a",
    "b833b274e7ac617f",
    "bc804a7e78fbcb7e",
    "bf424d2ac5589001",
@@ -576,6 +694,16 @@
    "MATERIAL_WEAKNESS"
   ]
  },
+ "FTK": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "69d6cb5a3dd565db",
+   "daa534dd48604cce"
+  ],
+  "iyes": 16,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "GAME": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
   "evidence": [
@@ -588,25 +716,40 @@
    "CASH_RUNWAY"
   ]
  },
+ "GEVO": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "18cdb94c087674e1",
+   "3d7c13f8be60afaa",
+   "baa8f8242e8483bf",
+   "c71168283d51a928",
+   "d5312692c0cd8f63"
+  ],
+  "iyes": 15,
+  "status": "DISCOVERY",
+  "vetoes": [
+   "MATERIAL_WEAKNESS"
+  ]
+ },
  "GLD": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0bcd1f6883b729f8",
    "1db95c7b916fd057",
    "24f3561332b58c41",
-   "2eff15b6ee771859",
    "3b774db61a46317a",
    "4057ab78f85dca35",
    "4cf70cee3a0d8f34",
    "5573676c9d11b765",
-   "5a24ef63e4bc33c0",
    "5b1e20570dbda931",
+   "62bebd51584e5e38",
    "809d95cca4c6b32a",
    "87ba853d0e98fce1",
    "9ca785df75f8e9d5",
    "9d579e1bc0500676",
    "9dd995a350470eb2",
    "9f6a29ce76e231e5",
+   "b87855d6bbcac4f1",
    "cfdca969e6637b2e",
    "d915b7ab810c5cb5",
    "da92ee7aaed93bea",
@@ -619,18 +762,17 @@
   ]
  },
  "GOOGL": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "024c493faed8d78f",
-   "03e61061143178e4",
    "0ecab9bf93070a82",
    "156874313367e88a",
    "195937789bf5e2eb",
    "262c54c87d1dedbd",
-   "262fa88ad1afe94c",
    "376e48055834f184",
    "48625dcb1c19f65d",
    "4c3753bbe1a89a09",
+   "6619483990574824",
    "66999f02ed63bd2e",
    "6a24aa2a3d7b86ab",
    "6b2d70ba30142122",
@@ -650,6 +792,7 @@
    "e36d8169f473a601",
    "e75e3f990ee29aff",
    "ec0227f755d7f715",
+   "ec6937c62f17d1bf",
    "f06b4cdfb71bf844",
    "f7b158a3f2136cf4"
   ],
@@ -658,10 +801,10 @@
   "vetoes": []
  },
  "HCTI": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "c2104714b971fbf7",
-   "d8672af9be30f905"
+   "2084d500c201fc35",
+   "9a5e72b41f6f67a1"
   ],
   "iyes": 16,
   "status": "DISQUALIFIED",
@@ -671,11 +814,11 @@
   ]
  },
  "HLIT": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "056eecb5d7e2577b",
-   "3654dcffa63b22d3",
+   "40cb0cdf5f27c570",
    "6fad671015320179",
+   "7d1909704e11351f",
    "8fa4834e3e8271df",
    "ba1ad1167a4590ae"
   ],
@@ -720,6 +863,64 @@
    "SEVERE_DILUTION"
   ]
  },
+ "HYPR": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "099ae9497b8c3096",
+   "27ec2e562e3531fd",
+   "a5cd2ba70516cf6f",
+   "d686f1f3d36830f1",
+   "e31d633ea2de5023",
+   "fcab7c24416503cf",
+   "ff17f9018b9e6030"
+  ],
+  "iyes": 19,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "GOING_CONCERN",
+   "SEVERE_DILUTION",
+   "SUB_DOLLAR"
+  ]
+ },
+ "ICCC": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "5f43521a8d21e55a",
+   "fcb703f019bcc89d"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "IMAX": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "275de2178a285937",
+   "27bc2dabdb0d4ef4",
+   "31241b0bcfb26ec5",
+   "362abeff3b8089fa",
+   "39a257f2f859885e",
+   "52b24d1af09d7c50",
+   "5c9c84c109c2584e",
+   "6fd21229bf4230dc",
+   "74d5eaf47bad249c",
+   "a357ef035e9cd5a0",
+   "a6647a984c2eb5f0",
+   "a971a77c725a38c8",
+   "b91df9b716f5e210",
+   "bb7ccd3341fbede0",
+   "be08cafc8d29ea83",
+   "c4a70c1a944ec83c",
+   "d104ccd4126d3e6e",
+   "d6ea54e9f94cdfce",
+   "df3b031314568bda",
+   "f1409370ead68a86",
+   "f2e933bfb2cef84a"
+  ],
+  "iyes": 24,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "INFQ": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
   "evidence": [
@@ -738,7 +939,7 @@
   ]
  },
  "IREN": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "07cf4a1a09a9c0a1",
    "0909bdf8d39b0be4",
@@ -749,7 +950,6 @@
    "467afd5892b4e62b",
    "470640a0d558bb6e",
    "4e3df75be0ba7d21",
-   "5a15b2708f18c7a5",
    "61a32a409e6aab63",
    "68a7c148846eea22",
    "69b1d0afddf162ad",
@@ -758,12 +958,12 @@
    "71c4eca30f78dc2a",
    "73abd08e3e8b8a11",
    "73db524a6869d85b",
+   "7b7273dc86057a92",
    "83147fe287958afa",
    "8d1db136c88f6a8d",
    "8d23672f2eb69502",
    "90f90e0759a37e54",
    "946f7cd525b99396",
-   "ad95b8d46695a8f5",
    "ae9d6e74560551ae",
    "af9d37cb72e5715e",
    "bdbfd4ec771af9c7",
@@ -771,6 +971,7 @@
    "d71e468d260d11de",
    "d8a9b02e31f06798",
    "dd22062f555abfec",
+   "ddaa3380c33852bb",
    "eed4888db556df65"
   ],
   "iyes": 24,
@@ -802,13 +1003,13 @@
   "vetoes": []
  },
  "KSCP": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "2bf6d6b8641ed3ed",
    "34611dcfc78ae787",
+   "47fe3bc0c1eb7d6a",
    "4c820445bdeb5af3",
    "54e5ceb58fe6d29c",
-   "595773dbb2dc0f46",
    "c6339f4ffba84d03",
    "dbeabe876ffa1661",
    "df1d4181fc0cc076"
@@ -824,7 +1025,7 @@
   ]
  },
  "KTOS": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "004d5795863e9537",
    "0b6e890c3aaf58e5",
@@ -834,6 +1035,7 @@
    "21296b2932d16833",
    "2963231f19f721fa",
    "2f53f1c1468927a1",
+   "3100155cc57b07e0",
    "358592565413fbfb",
    "368fa773d081a6a2",
    "383d02d8f5cf55ff",
@@ -841,6 +1043,7 @@
    "48c52f0245f7b69c",
    "5f2e140b0d1698a3",
    "6517b30716f7d23b",
+   "67872410cf46da76",
    "6ac48389a4533176",
    "8dbcc4eecec74829",
    "afc0476e9f48fc60",
@@ -849,10 +1052,8 @@
    "bd0b966fc70ff311",
    "d6b6e830cf67f7b1",
    "d905db05538e4304",
-   "d9caa06ba8c82e67",
    "e32e6c8fd98e9cbf",
    "e6f15540f24dc0b3",
-   "f29d7f4042a878d2",
    "f4c5e9c3aa39a36c",
    "fcf378b5b496fb69"
   ],
@@ -861,13 +1062,15 @@
   "vetoes": []
  },
  "LLY": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0dc9b8988e6d2c09",
    "14ed29a4bad417eb",
    "1939e3e2c52b9aae",
    "23bb005e6a054844",
+   "289d6c3ddf747f1d",
    "30f88316336908a0",
+   "3ba8ca45fd004819",
    "3ec737f2b4187f1a",
    "44dfb327f29c96f4",
    "5e6d9c433fb939ca",
@@ -876,7 +1079,6 @@
    "84e87a689be4bc72",
    "8841600c628b5504",
    "8a084aa8bab35487",
-   "8a9df4f03dd5bfe1",
    "a3dd185fad092fa5",
    "ab69e6f38f59014c",
    "b545825f347f3850",
@@ -887,7 +1089,6 @@
    "d68a10b0e7452ab0",
    "dd80b5ec46552544",
    "e3ab14c39cac9119",
-   "edaa3a4b6a441fe9",
    "fa8739f57e9e1846"
   ],
   "iyes": 29,
@@ -895,16 +1096,14 @@
   "vetoes": []
  },
  "LSCC": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "6747ac96543a1c58",
-   "f8eee1ddf6e871f0"
+   "0cd4b275aedbc0fb",
+   "58ed5b759bed99da"
   ],
-  "iyes": 25,
-  "status": "STALE DATA",
-  "vetoes": [
-   "STALE_MARKET_DATA"
-  ]
+  "iyes": 22,
+  "status": "DISCOVERY",
+  "vetoes": []
  },
  "LSF": {
   "as_of": "2026-11-18T15:05:05.544960+00:00",
@@ -943,7 +1142,7 @@
   "vetoes": []
  },
  "META": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0066626db46efe50",
    "0c887b60f2dbf31b",
@@ -958,14 +1157,14 @@
    "474fb5839351f6a2",
    "69f9d7b27d404e15",
    "6a4a4b4a811063ee",
+   "731189d3d3ccb9a4",
    "7f775c74559b299d",
    "81c50b854124a015",
    "83fb9551ee3c0b38",
    "8be37a8df8d17529",
-   "92e3eb9bb09ac35a",
    "986e8cdc32d7ff94",
-   "9e60f861f0ae9c1e",
    "a0cde0980cbde5e6",
+   "a25def5b35ffcf06",
    "a80717825c2eb5a7",
    "bd8905d6cd4a91f7",
    "c8f17bde8fcf63d7",
@@ -1001,7 +1200,7 @@
   ]
  },
  "MPTI": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0e2c6308be28f08e",
    "2236517feef17ad6",
@@ -1009,19 +1208,19 @@
    "36e2f6c5a6753425",
    "37d86da5a102f2c7",
    "3bb2def290031d34",
+   "3d6cf0bce7347b6f",
    "4356ffd7417de275",
    "4fd163e15658ec57",
-   "6624c9db0fe7ffce",
    "71675602432ce50b",
    "95aee0411ce7a1ba",
    "a7e759643a4a66ed",
    "aef63b36167de1cb",
    "b3bf22e334687a95",
+   "d40f28c9f795c4ea",
    "d60aa7ff1fd15761",
    "d9df53faf38e2628",
    "e0989336d13b67d5",
    "e814f3618e63f2bc",
-   "f370f72a0afdd090",
    "f4120a75f49acd31",
    "f8f0020fb810bfde",
    "fb42416343713cf8",
@@ -1035,16 +1234,15 @@
   ]
  },
  "MPWR": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "54fd0398c1f613d2",
-   "8d8ba3996b8ec6d3"
+   "8d8ba3996b8ec6d3",
+   "d1bbc6539c72b182"
   ],
-  "iyes": 24,
-  "status": "STALE DATA",
+  "iyes": 21,
+  "status": "DISCOVERY",
   "vetoes": [
-   "MATERIAL_WEAKNESS",
-   "STALE_MARKET_DATA"
+   "MATERIAL_WEAKNESS"
   ]
  },
  "MRAM": {
@@ -1060,20 +1258,17 @@
   ]
  },
  "MXL": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "073c4b1f7cb05eae",
-   "682f815d4b5c95d3"
+   "04c74fbfe1a735bd",
+   "cddb59324a43637d"
   ],
-  "iyes": 22,
-  "status": "STALE DATA",
-  "vetoes": [
-   "ALREADY_MOVED",
-   "STALE_MARKET_DATA"
-  ]
+  "iyes": 20,
+  "status": "DISCOVERY",
+  "vetoes": []
  },
  "NBIS": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "038144f046caf084",
    "084d632065e2f5f7",
@@ -1082,14 +1277,15 @@
    "1853289f1dff2914",
    "1c6e108b1df9807a",
    "238594904a3d3f7f",
-   "330ce9c9c6ece258",
    "425e5ddb54f6c4ec",
    "4e3065ecd9046f06",
+   "5001e823e40abc61",
    "5b987b454d011ea8",
    "5f029212080141f2",
    "6da91c63bfa4ea08",
    "7e1abad393e1d5fa",
    "8793c177a1e9512a",
+   "974a95b02e4038d2",
    "a650da8255a33967",
    "ad273f98b9a8ba77",
    "b627a07dd4110564",
@@ -1097,7 +1293,6 @@
    "c6418ab24f578f8e",
    "c7b60b5871d20e48",
    "cc476314a060aa19",
-   "da98ceeed298ba7d",
    "dd36f576cbd9c5ad",
    "e2ca95f6ec2d9295",
    "e7768dd26e3d65a8",
@@ -1127,29 +1322,28 @@
   ]
  },
  "NESR": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "24521ef56d8d9cb5",
-   "3998d8f4d36d8147"
+   "3998d8f4d36d8147",
+   "6bf769c2acc2aba3"
   ],
   "iyes": 21,
-  "status": "STALE DATA",
+  "status": "DISCOVERY",
   "vetoes": [
-   "MATERIAL_WEAKNESS",
-   "STALE_MARKET_DATA"
+   "MATERIAL_WEAKNESS"
   ]
  },
  "NFLX": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "000de19a424920ed",
+   "07b65c927c6e4473",
+   "0d5391918d4c48f7",
    "27cb6b7f7fdf00ee",
    "2b298d925a89b7fa",
    "2ccdbabe4e01eb50",
    "361a6bc3dfe9071f",
-   "47238f8cfed9bbb2",
    "61d86d7ef3a5f762",
-   "63ad556ae5929928",
    "6a026c732b515d26",
    "7bfaf690c094b493",
    "8dd0daede8f39278",
@@ -1170,23 +1364,33 @@
   "status": "DISQUALIFIED",
   "vetoes": []
  },
+ "NMAX": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "636c915e49c16082",
+   "e4446ec22c45c028"
+  ],
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "NVDA": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "039576dcb4ce6208",
    "2541410c250ad57a",
    "2af0f928339cab2c",
    "2ceb73bb34501a4c",
+   "2dfffb5ac29e7621",
    "31699068f9ff0253",
-   "494e976649387d1f",
    "543496c70e7fcf91",
-   "60673acc5886cd65",
    "78cccda023bf0780",
    "88ff5083fad5f69c",
    "8a42734ea2718755",
    "8bf21339461c5803",
    "908eed17fd614abf",
    "9123b13789d5ba2e",
+   "ab5323d06da77131",
    "ac75ddfc58dd0de9",
    "b658cba150ea293b",
    "dd73d6dd58b2b3db",
@@ -1211,18 +1415,32 @@
    "CASH_RUNWAY"
   ]
  },
+ "NXH": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "4ca6c7c8821081aa",
+   "7b4e6fcb67a84f70"
+  ],
+  "iyes": 13,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "SEVERE_DILUTION"
+  ]
+ },
  "ONDS": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "14227aafbd5b0f57",
    "1589c53e37ee4509",
    "1dc0a38f1a519d12",
    "2a677e2ef8cc1058",
    "2f8b1d24a6ecf4fb",
+   "5e8ba28570dbc131",
    "66dfa6ed8f8a6ed4",
    "8235d2e5da5911a8",
    "837e342239727fc8",
-   "8b2b4e4f46b8ca98",
+   "851abafca72785e2",
    "8c47f660b714ac51",
    "8f8767ef66295c1e",
    "99ac176535d9d42b",
@@ -1234,8 +1452,7 @@
    "c87a9e36d84be9f1",
    "ca4ce07e81864f8e",
    "d0352d0264831db8",
-   "d87dd98243396419",
-   "f88e790caab46707"
+   "d87dd98243396419"
   ],
   "iyes": 29,
   "status": "DISQUALIFIED",
@@ -1243,8 +1460,18 @@
    "SEVERE_DILUTION"
   ]
  },
+ "ONTO": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "90f11b9894cc0282",
+   "c61a47314fa3d81e"
+  ],
+  "iyes": 20,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "PLPC": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "0eab5fb53646e23f",
    "0f042654a8f5bddd",
@@ -1255,11 +1482,11 @@
    "4671f8fc5d92d837",
    "5659a8c2d4d76a68",
    "59fe0ad2fe7e4fc2",
-   "616c87288aa8101a",
+   "65a42a037f4e4635",
    "71bd68240d4aa58e",
    "8942dbe0eeb9d2b5",
    "8d7de905492d7014",
-   "9df8ba2101c8ed5c",
+   "8e9ac4760bf78eec",
    "a66f43c14f06b269",
    "a7afbdd4e0177f61",
    "c03e486c9eaac603",
@@ -1272,11 +1499,10 @@
   "vetoes": []
  },
  "PLTR": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "02428e241cf712c9",
    "0885bf062752dace",
-   "0be8c581307d10ec",
    "131af888676cad2e",
    "1e66bd4f8fb0ab65",
    "24aa04d131ee4f6a",
@@ -1305,13 +1531,14 @@
    "7b1439955a3787bf",
    "7c130d057fd9dd3b",
    "83f252739099d21f",
+   "85ed7b5a1a3a9008",
    "893792ed1c3b5fd5",
    "a169b6eb8ab7981a",
    "a7acba72f459c4f1",
    "afbddda69da6ffea",
+   "b0881e744c3775bf",
    "b346bae09914ed4b",
    "b5366784e364bd84",
-   "bbb36e6b67121120",
    "c1db7f7fa506f34f",
    "c6bf408e888619d3",
    "cac841335698b690",
@@ -1326,26 +1553,49 @@
   "status": "DISQUALIFIED",
   "vetoes": []
  },
- "QUIK": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+ "PROF": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "4a7c3f77a12ea3ab",
-   "66dc9c62b9e2f775"
+   "701c3f35986ac889",
+   "d3749cdcba345539"
   ],
-  "iyes": 22,
-  "status": "STALE DATA",
+  "iyes": 15,
+  "status": "DISQUALIFIED",
   "vetoes": [
-   "STALE_MARKET_DATA"
+   "GOING_CONCERN",
+   "MATERIAL_WEAKNESS"
   ]
  },
+ "QMLS": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "37b3a0a5815403b1",
+   "fbaffd3b914f8b6d"
+  ],
+  "iyes": 5,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "QUIK": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "bd4d4824e78640c1",
+   "dddb60d6681fae7d"
+  ],
+  "iyes": 19,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "RCAT": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "06a5805ee3d3449c",
    "0f081af374f0a287",
    "141c6d3559010708",
    "195591a7ba419e11",
-   "23dba2a834fb35c9",
    "286231ccbdbd45b8",
    "2a433874920abd85",
    "2ec919137664e096",
@@ -1353,6 +1603,7 @@
    "4bcd89d1fabb31ab",
    "51173f2c97255bb6",
    "5c1fe78d7c0b9c56",
+   "5d7bdfec520d99d9",
    "80fa96010dec6716",
    "881b3e2dad096eb9",
    "8ce3279fecdc4db7",
@@ -1370,6 +1621,26 @@
   "vetoes": [
    "MATERIAL_WEAKNESS",
    "SEVERE_DILUTION"
+  ]
+ },
+ "RCEL": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "1f3a82792ed69ce8",
+   "319c09bc5861804e",
+   "4ba9c713e415feab",
+   "6f2e59246171b754",
+   "983635658eabda26",
+   "a0f27b8e3e1d8b07",
+   "d22910ddf798a5b0",
+   "e1891199c0392747"
+  ],
+  "iyes": 16,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "CASH_RUNWAY",
+   "GOING_CONCERN",
+   "NEGATIVE_EQUITY"
   ]
  },
  "RDW": {
@@ -1405,10 +1676,35 @@
    "SEVERE_DILUTION"
   ]
  },
- "SENS": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+ "RMIX": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "cb4ea9287e06c604",
+   "bf4d62bd882f5ef5",
+   "d2aca6db0d4551ab"
+  ],
+  "iyes": 5,
+  "status": "DISQUALIFIED",
+  "vetoes": [
+   "GOING_CONCERN",
+   "MATERIAL_WEAKNESS",
+   "MISSING_FUNDAMENTALS",
+   "SEVERE_DILUTION"
+  ]
+ },
+ "RPAY": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "1ffaf17edaf76967",
+   "9b956b1624580c56"
+  ],
+  "iyes": 17,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "SENS": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "0db2b688931d2a90",
    "cf0814181aa0fc17",
    "f7d211ed2efabbb3"
   ],
@@ -1420,20 +1716,18 @@
   ]
  },
  "SITM": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "ae35cd546d7c97bd",
-   "b37fb5b6e8742b97",
+   "101489bd3b51d61b",
+   "b4e266019dcdf46d",
    "b636817e9c53320a"
   ],
-  "iyes": 26,
-  "status": "STALE DATA",
-  "vetoes": [
-   "STALE_MARKET_DATA"
-  ]
+  "iyes": 23,
+  "status": "DISCOVERY",
+  "vetoes": []
  },
  "SPCX": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "07214563fe6a4de3",
    "09af4eb1616fc4fd",
@@ -1442,13 +1736,13 @@
    "10285c29aaf9e16e",
    "1105cd78855744ef",
    "16085945af1d189b",
+   "17eaab80b6f0b2c1",
    "213dd689af8cbcab",
    "23e1bc3f12ebe727",
    "26bc9699d4973d3b",
    "277c38306969d18f",
    "2ab865c672ebf645",
    "2aed06ff258e8a6a",
-   "31dc7f5913d72ce1",
    "38c18ac1a7c968a2",
    "3e7974a18ff031b6",
    "44da20514f7dc221",
@@ -1464,13 +1758,13 @@
    "7ed09acb174352f8",
    "818f53f05956d1a3",
    "98bb0e30349c5401",
-   "a2d9797d0be0a7da",
    "a53e1e8b6e04f16f",
    "ab6650d79db7bb19",
    "b7939808bd1622ab",
    "b7a0a5485b2250bf",
    "bd277d4eccf03cb6",
    "bd972b5e1240584d",
+   "c1b00b3c9dd420f6",
    "c3b91ebbaa10dbbc",
    "d1e6bd86f8b1d1c2",
    "d89eda0afb3ec652",
@@ -1495,10 +1789,10 @@
   ]
  },
  "SPY": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
-   "9d478f4d54cfd529",
-   "ad6115e57af7564e"
+   "2c8f8fe939fac69a",
+   "7df07c363ece7d8b"
   ],
   "iyes": 4,
   "status": "DISQUALIFIED",
@@ -1533,7 +1827,7 @@
   "vetoes": []
  },
  "STX": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "115f7049872a6b84",
    "15dfd2f6e4b7c210",
@@ -1546,7 +1840,8 @@
    "5a49231c12e61c7d",
    "6fdb80cda2d39e8c",
    "7469d7b80c08dc88",
-   "8644dd4d02d3227e",
+   "76bb991cca001ddf",
+   "85737b792972e05a",
    "8deb05410f4f9929",
    "9aae6b11a845c485",
    "9ad20c7ce44b379d",
@@ -1560,7 +1855,6 @@
    "e775e5cd9f30eec5",
    "e7c5472ebf550219",
    "f3630af92d50b81a",
-   "f69ebc65d163bcbc",
    "f6d61c98cdc0938f"
   ],
   "iyes": 27,
@@ -1654,13 +1948,14 @@
   "vetoes": []
  },
  "TSSI": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "04bb1946eb30d884",
    "06c57f7f7558a3ca",
    "0942baaa53e41397",
    "121f024c1b50e14c",
    "15c5b8a777b685f4",
+   "1c3d54d1fe249d61",
    "2359810701a8f38d",
    "23ea55c0df6a56db",
    "2c36b97342197338",
@@ -1675,7 +1970,6 @@
    "5a56653b30264d2b",
    "6692491b18deb695",
    "6a10e629a53f32c9",
-   "6d3b5e9e745ff69d",
    "6f0b520dc38fff2f",
    "730cac83e45afc5b",
    "7d12a00d39863fb0",
@@ -1700,13 +1994,24 @@
    "MATERIAL_WEAKNESS"
   ]
  },
+ "TTMI": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "ad1004dcb5a010e6",
+   "e5d295d4acf04ed8"
+  ],
+  "iyes": 21,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
  "TWIN": {
-  "as_of": "2026-11-23T19:37:29.062180+00:00",
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
   "evidence": [
    "00293a065c8e4bd4",
    "06fed3552079e2c1",
    "0762027e52f26a6a",
    "0a022a9bbf2536be",
+   "0b015dbe2bd788bb",
    "0c124821f6c54f12",
    "0f0fdccb56e8dfa6",
    "121522a27c52528f",
@@ -1718,7 +2023,6 @@
    "3b9482f6e9db899a",
    "47b84d748cbf7524",
    "48f6c835b1723f69",
-   "5e4bf5af1429be86",
    "62a65fe38dd1f7ad",
    "6854933697b9a349",
    "6a8aad86d79d54a0",
@@ -1747,10 +2051,10 @@
    "dc63823823a55cf1",
    "dd933172185792de",
    "df3e031ec80c61f8",
+   "e212e2338f45ef97",
    "e36d59bdf94e4ea1",
    "e6cf90bf83a423cb",
    "ef7161b769011f23",
-   "f73e5746d78f8870",
    "f904db57d4a6cf4e"
   ],
   "iyes": 37,
@@ -1787,5 +2091,31 @@
    "GOING_CONCERN",
    "NEGATIVE_EQUITY"
   ]
+ },
+ "VICR": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "0217da1f5ab96d7d",
+   "10abea8fa5c017a6",
+   "239e18067e72741d",
+   "26ae0c110699b749",
+   "28aeb2b0f19c984e",
+   "4f0199517cdb59ce",
+   "8b91ed435fe37264",
+   "8bb15fc324862b03"
+  ],
+  "iyes": 22,
+  "status": "DISCOVERY",
+  "vetoes": []
+ },
+ "VOYG": {
+  "as_of": "2026-11-24T14:42:06.890774+00:00",
+  "evidence": [
+   "11d2f91695520eb4",
+   "e2dcf3c064e2baa7"
+  ],
+  "iyes": 18,
+  "status": "DISCOVERY",
+  "vetoes": []
  }
 }
