@@ -1,7 +1,28 @@
 {
- "run_id": "growth-2026-11-25",
- "created_at": "2026-11-25T17:41:10.125719+00:00",
+ "run_id": "holiday-2026-11-26",
+ "created_at": "2026-11-26T16:28:02.853242+00:00",
  "proposals": [
+  {
+   "symbol": "WDC",
+   "side": "sell",
+   "quantity": 0.174356,
+   "est_value": 48.5,
+   "order_type": "market",
+   "from_weight": 0.0424,
+   "to_weight": 0.04,
+   "rationale": "realized vol 82% at 4.2%; high-vol cap 4%",
+   "kind": "risk_trim",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "WDC",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "0.174356"
+   }
+  },
   {
    "symbol": "-",
    "side": "none",
@@ -14,11 +35,11 @@
    "side": "none",
    "kind": "growth_allocation_status",
    "status": "INFORMATIONAL",
-   "rationale": "growth profile: selected ETFs are 6.3% of the account vs 80% target (sleeves QQQM 40%, SCHG 25%, VGT 15%)",
-   "growth_etf_weight": 0.0635,
+   "rationale": "growth profile: selected ETFs are 6.4% of the account vs 80% target (sleeves QQQM 40%, SCHG 25%, VGT 15%)",
+   "growth_etf_weight": 0.0641,
    "target_weight": 0.8,
    "sleeve_weights": {
-    "QQQM": 0.0635,
+    "QQQM": 0.0641,
     "SCHG": 0.0,
     "VGT": 0.0
    }
@@ -26,10 +47,10 @@
   {
    "symbol": "SCHD",
    "side": "sell",
-   "quantity": 93.595095,
-   "est_value": 3291.27,
+   "quantity": 82.220148,
+   "est_value": 2913.88,
    "order_type": "market",
-   "from_weight": 0.1681,
+   "from_weight": 0.1461,
    "to_weight": 0.0,
    "rationale": "growth profile: SCHD is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
    "kind": "growth_rebalance",
@@ -41,16 +62,16 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "quantity": "93.595095"
+    "quantity": "82.220148"
    }
   },
   {
    "symbol": "VTI",
    "side": "sell",
-   "quantity": 7.302474,
-   "est_value": 2543.67,
+   "quantity": 6.154137,
+   "est_value": 2185.72,
    "order_type": "market",
-   "from_weight": 0.1299,
+   "from_weight": 0.1096,
    "to_weight": 0.0,
    "rationale": "growth profile: VTI is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
    "kind": "growth_rebalance",
@@ -62,16 +83,16 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "quantity": "7.302474"
+    "quantity": "6.154137"
    }
   },
   {
    "symbol": "VOO",
    "side": "sell",
-   "quantity": 3.025832,
-   "est_value": 1965.46,
+   "quantity": 2.410031,
+   "est_value": 1595.95,
    "order_type": "market",
-   "from_weight": 0.1004,
+   "from_weight": 0.08,
    "to_weight": 0.0,
    "rationale": "growth profile: VOO is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
    "kind": "growth_rebalance",
@@ -83,16 +104,16 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "quantity": "3.025832"
+    "quantity": "2.410031"
    }
   },
   {
    "symbol": "SPY",
    "side": "sell",
    "quantity": 1.631942,
-   "est_value": 1153.38,
+   "est_value": 1175.7,
    "order_type": "market",
-   "from_weight": 0.0589,
+   "from_weight": 0.059,
    "to_weight": 0.0,
    "rationale": "growth profile: SPY is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
    "kind": "growth_rebalance",
@@ -110,10 +131,10 @@
   {
    "symbol": "GLD",
    "side": "sell",
-   "quantity": 3.22241,
-   "est_value": 1029.32,
+   "quantity": 1.97016,
+   "est_value": 643.38,
    "order_type": "market",
-   "from_weight": 0.0526,
+   "from_weight": 0.0323,
    "to_weight": 0.0,
    "rationale": "growth profile: GLD is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
    "kind": "growth_rebalance",
@@ -125,56 +146,14 @@
     "type": "market",
     "time_in_force": "gfd",
     "market_hours": "regular_hours",
-    "quantity": "3.222410"
-   }
-  },
-  {
-   "symbol": "SIL",
-   "side": "sell",
-   "quantity": 7.324248,
-   "est_value": 455.42,
-   "order_type": "market",
-   "from_weight": 0.0233,
-   "to_weight": 0.0,
-   "rationale": "growth profile: SIL is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
-   "kind": "growth_rebalance",
-   "status": "PROPOSED \u2014 requires human approval; not submitted",
-   "review_equity_order": {
-    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
-    "symbol": "SIL",
-    "side": "sell",
-    "type": "market",
-    "time_in_force": "gfd",
-    "market_hours": "regular_hours",
-    "quantity": "7.324248"
-   }
-  },
-  {
-   "symbol": "SGOV",
-   "side": "sell",
-   "quantity": 4.449425,
-   "est_value": 447.96,
-   "order_type": "market",
-   "from_weight": 0.0229,
-   "to_weight": 0.0,
-   "rationale": "growth profile: SGOV is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
-   "kind": "growth_rebalance",
-   "status": "PROPOSED \u2014 requires human approval; not submitted",
-   "review_equity_order": {
-    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
-    "symbol": "SGOV",
-    "side": "sell",
-    "type": "market",
-    "time_in_force": "gfd",
-    "market_hours": "regular_hours",
-    "quantity": "4.449425"
+    "quantity": "1.970160"
    }
   },
   {
    "symbol": "EWY",
    "side": "sell",
    "quantity": 0.477443,
-   "est_value": 59.79,
+   "est_value": 62.26,
    "order_type": "market",
    "from_weight": 0.0031,
    "to_weight": 0.0,
@@ -192,25 +171,103 @@
    }
   },
   {
+   "symbol": "SIL",
+   "side": "sell",
+   "quantity": 0.891301,
+   "est_value": 59.05,
+   "order_type": "market",
+   "from_weight": 0.003,
+   "to_weight": 0.0,
+   "rationale": "growth profile: SIL is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+   "kind": "growth_rebalance",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "SIL",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "0.891301"
+   }
+  },
+  {
+   "symbol": "SGOV",
+   "side": "sell",
+   "quantity": 0.476394,
+   "est_value": 47.96,
+   "order_type": "market",
+   "from_weight": 0.0024,
+   "to_weight": 0.0,
+   "rationale": "growth profile: SGOV is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+   "kind": "growth_rebalance",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "SGOV",
+    "side": "sell",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "quantity": "0.476394"
+   }
+  },
+  {
    "symbol": "QQQM",
-   "side": "none",
-   "kind": "growth_rebalance_unfunded",
-   "status": "INFORMATIONAL",
-   "rationale": "growth sleeve QQQM is 6.3% vs target 40%; $6,591 needed, waiting on sale proceeds / cash above the reserve"
+   "side": "buy",
+   "dollar_amount": 400,
+   "order_type": "market",
+   "rationale": "growth sleeve QQQM at 6.4% vs target 40% (nasdaq100_growth); Nasdaq-100 growth core. Issuer expense ratio 0.15% vs QQQ ~0.20%. Citadel: NDX 19.1x forward earnings (2026-11-03), lowest since Oct 2022. Counts existing QQQ toward the sleeve.",
+   "kind": "growth_rebalance",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "QQQM",
+    "side": "buy",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "dollar_amount": "400.00"
+   },
+   "ref_price": null
   },
   {
    "symbol": "SCHG",
-   "side": "none",
-   "kind": "growth_rebalance_unfunded",
-   "status": "INFORMATIONAL",
-   "rationale": "growth sleeve SCHG is 0.0% vs target 25%; $4,896 needed, waiting on sale proceeds / cash above the reserve"
+   "side": "buy",
+   "dollar_amount": 400,
+   "order_type": "market",
+   "rationale": "growth sleeve SCHG at 0.0% vs target 25% (large_cap_growth); Dow Jones U.S. Large-Cap Growth. Schwab total expense ratio 0.04%. Broad large-cap growth without a single-sector bet. IT is ~54% of the fund.",
+   "kind": "growth_rebalance",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "SCHG",
+    "side": "buy",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "dollar_amount": "400.00"
+   },
+   "ref_price": null
   },
   {
    "symbol": "VGT",
-   "side": "none",
-   "kind": "growth_rebalance_unfunded",
-   "status": "INFORMATIONAL",
-   "rationale": "growth sleeve VGT is 0.0% vs target 15%; $2,938 needed, waiting on sale proceeds / cash above the reserve"
+   "side": "buy",
+   "dollar_amount": 400,
+   "order_type": "market",
+   "rationale": "growth sleeve VGT at 0.0% vs target 15% (information_technology); U.S. Information Technology. FactSet CY2027 IT EPS growth 42.9%, the highest sector projection in the 2026-11-20 report. Sized below the Nasdaq sleeve because sector funds are more concentrated.",
+   "kind": "growth_rebalance",
+   "status": "PROPOSED \u2014 requires human approval; not submitted",
+   "review_equity_order": {
+    "account_number": "<set ROBINHOOD_AGENTIC_ACCOUNT>",
+    "symbol": "VGT",
+    "side": "buy",
+    "type": "market",
+    "time_in_force": "gfd",
+    "market_hours": "regular_hours",
+    "dollar_amount": "400.00"
+   },
+   "ref_price": null
   }
  ]
 }

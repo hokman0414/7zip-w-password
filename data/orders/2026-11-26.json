@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-26",
+  "created_at": "2026-11-26T16:28:02.853242+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set",
+    "market closed on Thu 2026-11-26"
+  ],
+  "drawdown_from_hwm": 0.0,
+  "high_water_mark": 19940.838161974567,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [
+    {
+      "symbol": "WDC",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 48.5,
+      "ref_price": 278.17,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "realized vol 82% at 4.2%; high-vol cap 4%",
+      "ref_id": "ccf74fb2-aa5f-57b9-b463-4fa59b57725f",
+      "params": {
+        "symbol": "WDC",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.174356",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "EWY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "est_usd": 62.26,
+      "ref_price": 130.401,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth profile: EWY is not a selected growth sleeve (target sleeves ['QQQM', 'SCHG', 'VGT']); sell toward 0",
+      "ref_id": "44f2bca3-ca3f-5780-99b9-5d7cb60382d9",
+      "params": {
+        "symbol": "EWY",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.477443",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "QQQM",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": null,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth sleeve QQQM at 6.4% vs target 40% (nasdaq100_growth); Nasdaq-100 growth core. Issuer expense ratio 0.15% vs QQQ ~0.20%. Citadel: NDX 19.1x forward earnings (2026-11-03), lowest since Oct 2022. Counts existing QQQ toward the sleeve.",
+      "ref_id": "e85a7f22-5698-596a-a9a3-339800eb052d",
+      "params": {
+        "symbol": "QQQM",
+        "side": "buy",
+        "type": "market",
+        "dollar_amount": "400.00",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "SCHG",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": null,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth sleeve SCHG at 0.0% vs target 25% (large_cap_growth); Dow Jones U.S. Large-Cap Growth. Schwab total expense ratio 0.04%. Broad large-cap growth without a single-sector bet. IT is ~54% of the fund.",
+      "ref_id": "2c6d34f8-95e9-5381-9fdd-e1a7d6d3f139",
+      "params": {
+        "symbol": "SCHG",
+        "side": "buy",
+        "type": "market",
+        "dollar_amount": "400.00",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "VGT",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "est_usd": 400.0,
+      "ref_price": null,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "growth sleeve VGT at 0.0% vs target 15% (information_technology); U.S. Information Technology. FactSet CY2027 IT EPS growth 42.9%, the highest sector projection in the 2026-11-20 report. Sized below the Nasdaq sleeve because sector funds are more concentrated.",
+      "ref_id": "e47a76f1-2a58-5476-8891-28dd6a2b70a2",
+      "params": {
+        "symbol": "VGT",
+        "side": "buy",
+        "type": "market",
+        "dollar_amount": "400.00",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    }
+  ],
+  "rejected": [
+    {
+      "symbol": "SCHD",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "VTI",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "VOO",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded buy on 2026-11-23"
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "SIL",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "SGOV",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    }
+  ],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`."
+}

@@ -67,6 +67,11 @@
       "as_of": "2026-11-25",
       "source": "growth-allocation",
       "gap": "Standing profile is growth: 80% in QQQM 40% / SCHG 25% / VGT 15% (QQQ counts toward QQQM), chosen from FactSet CY2027 IT EPS growth 42.9% and Citadel NDX forward P/E 19.1x. Selected ETFs were 6.3% of the book. First tranche sold ~$2,412 of SCHD, VTI, VOO, GLD, SIL and SGOV. Buys of QQQM/SCHG/VGT wait for cash above the 5% reserve on the next run. SPY sell is on cooldown until 2026-11-26."
+    },
+    {
+      "as_of": "2026-11-26",
+      "source": "thanksgiving",
+      "gap": "NYSE closed for Thanksgiving. Cash is $3,050.70 (~$2,054 above the 5% reserve) after yesterday's sells. Growth ETFs are still 6.4% (QQQ only). Would-place if open: sell WDC risk-trim $48.50, sell EWY $62.26, buy QQQM/SCHG/VGT $400 each. Non-sleeve cooldowns clear 2026-11-28; SPY sell cooldown clears after 2026-11-26 3:26 PM ET. Buy sizing now caps each sleeve at max_order_usd so sibling sleeves fund the same day."
     }
   ],
   "min_sessions": 3,

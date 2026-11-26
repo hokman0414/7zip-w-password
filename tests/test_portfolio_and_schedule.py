@@ -51,14 +51,15 @@ def test_growth_profile_sells_non_sleeve_funds_and_skips_spy_core():
         "do_not_buy": ["SMH"],
     }
     snap = snapshot()
-    snap["positions"]["portfolio"]["cash"] = 300.0
+    snap["positions"]["portfolio"]["cash"] = 1300.0
+    snap["positions"]["portfolio"]["total_value"] = 2000.0
     snap["positions"]["holdings"] = [
         {"symbol": "SCHD", "quantity": 50, "price": 10.0, "asset_type": "index_etf",
          "monthly_closes": [10] * 12, "available": 50},
         {"symbol": "QQQ", "quantity": 5, "price": 20.0, "asset_type": "index_etf",
          "monthly_closes": [20] * 12, "available": 5},
-        {"symbol": "BIG", "quantity": 20, "price": 10.0, "monthly_closes": [8 + 0.2 * i for i in range(12)],
-         "available": 20},
+        {"symbol": "BIG", "quantity": 10, "price": 10.0, "monthly_closes": [8 + 0.2 * i for i in range(12)],
+         "available": 10},
     ]
     risk = assess(snap)
     props = propose(risk, limits=RiskLimits(beta_tolerance=10.0), reinvest_symbol="SPY")
@@ -67,11 +68,12 @@ def test_growth_profile_sells_non_sleeve_funds_and_skips_spy_core():
     assert {p["symbol"] for p in sells} == {"SCHD"}
     assert not [p for p in sells if p["symbol"] == "QQQ"]
     status = next(p for p in props if p["kind"] == "growth_allocation_status")
-    assert status["sleeve_weights"]["QQQM"] == 0.1
-    # With cash above the reserve, QQQM/SCHG/VGT buys appear for the underweight sleeves.
+    assert abs(status["sleeve_weights"]["QQQM"] - 0.05) < 1e-9
+    # With cash above the reserve, each underweight sleeve gets its own capped buy.
     buys = [p for p in props if p.get("kind") == "growth_rebalance" and p["side"] == "buy"]
-    assert {p["symbol"] for p in buys} >= {"QQQM", "SCHG"}
-    assert propose_allocation(risk, alloc)
+    assert {p["symbol"] for p in buys} >= {"QQQM", "SCHG", "VGT"}
+    assert all(p["dollar_amount"] <= 400 for p in buys)
+    assert propose_allocation(risk, alloc, max_order_usd=400)
 
 
 def test_core_reinvest_pauses_below_the_benchmark_trend():
