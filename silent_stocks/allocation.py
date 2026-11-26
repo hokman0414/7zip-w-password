@@ -48,11 +48,18 @@ def growth_etf_weight(risk: dict, allocation: dict) -> float:
     return sum(h.weight for h in risk["holdings"] if h.symbol in members)
 
 
-def propose_allocation(risk: dict, allocation: dict | None = None, limits=None) -> list[dict]:
-    """Sell non-sleeve funds toward zero; buy underweight growth sleeves from spendable cash."""
+def propose_allocation(risk: dict, allocation: dict | None = None, limits=None,
+                       max_order_usd: float | None = None) -> list[dict]:
+    """Sell non-sleeve funds toward zero; buy underweight growth sleeves from spendable cash.
+
+    Each sleeve buy is capped at `max_order_usd` (default from config/autotrade.json) so one
+    underweight sleeve cannot consume the whole cash budget before the order planner clips it.
+    """
+    from .execution import AutotradeConfig
     from .portfolio_risk import RiskLimits
 
     lim = limits or RiskLimits()
+    order_cap = AutotradeConfig.load().max_order_usd if max_order_usd is None else max_order_usd
     alloc = allocation or load_allocation()
     if not alloc or alloc.get("profile") != "growth":
         return []
@@ -106,7 +113,9 @@ def propose_allocation(risk: dict, allocation: dict | None = None, limits=None) 
         elif any(a in held for a in sleeve.get("aliases") or []):
             # Sleeve weight already includes aliases; still buy the primary to complete the sleeve.
             pass
-        amt = min(need, available)
+        # Cap one buy at the fund weight limit and the per-order dollar cap so sibling sleeves still fund.
+        room = lim.max_fund_weight * total - (held[buy_sym].value if buy_sym in held else 0.0)
+        amt = min(need, available, order_cap, max(room, 0.0))
         if amt < lim.min_trade_usd:
             if need >= lim.min_trade_usd:
                 out.append({
@@ -116,11 +125,6 @@ def propose_allocation(risk: dict, allocation: dict | None = None, limits=None) 
                                   f"{sleeve['target_weight']:.0%}; ${need:,.0f} needed, "
                                   f"waiting on sale proceeds / cash above the reserve"),
                 })
-            continue
-        # Cap one buy at the fund weight limit so a single fill cannot breach concentration.
-        room = lim.max_fund_weight * total - (held[buy_sym].value if buy_sym in held else 0.0)
-        amt = min(amt, max(room, 0.0))
-        if amt < lim.min_trade_usd:
             continue
         available -= amt
         out.append({
