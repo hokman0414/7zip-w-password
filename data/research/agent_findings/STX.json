@@ -1,8 +1,8 @@
 {
   "ticker": "STX",
   "company": "Seagate Technology Holdings plc",
-  "researched_at": "2026-11-13T17:16:45Z",
-  "agent_id": "research-agent-f",
+  "researched_at": "2026-11-27T23:51:15Z",
+  "agent_id": "research-agent-b",
   "findings": [
     {
       "dimension": "economic",
@@ -27,17 +27,7 @@
     {
       "dimension": "technological",
       "topic": "product",
-      "claim": "In the quarter ended October 2, 2026 Seagate shipped 220 exabytes of HDD capacity, including 198 nearline exabytes, versus 182 total and 160 nearline exabytes a year earlier, and data-center end markets were 81% of revenue; management said demand was supported by traditional data-intensive workloads and AI-related applications.",
-      "evidence_type": "verified",
-      "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
-      "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
-      "published_date": "2026-10-29"
-    },
-    {
-      "dimension": "economic",
-      "topic": "earnings",
-      "claim": "GAAP gross margin rose 18 percentage points from the year-earlier quarter to 57%, which Seagate attributed primarily to pricing actions and a mix shift toward higher-capacity products.",
+      "claim": "In the quarter ended October 2, 2026 Seagate shipped 220 exabytes of HDD capacity, including 198 nearline exabytes, versus 182 total and 160 nearline exabytes a year earlier, and data-center end markets were 81% of revenue.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
@@ -47,7 +37,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "Long-term debt, less current portion, was $2.351 billion at October 2, 2026, down from $3.380 billion at July 3, 2026; cash was $1.258 billion, the $1.3 billion revolving credit facility had no borrowings, and on October 15, 2026 Seagate redeemed $750 million of 2032 notes and said it expects to record an approximately $81 million net loss on that redemption in fiscal second-quarter 2027.",
+      "claim": "Long-term debt, less current portion, was $2.351 billion at October 2, 2026, down from $3.380 billion at July 3, 2026; cash was $1.258 billion and the $1.3 billion revolving credit facility had no borrowings. On July 15, 2026 Seagate redeemed $1 billion principal of 2029 and 2031 notes and recorded a $44 million loss, and on October 15, 2026 it redeemed $750 million of 2032 notes and said it expects an approximately $81 million net loss on that redemption in fiscal second-quarter 2027.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
@@ -87,12 +77,22 @@
     {
       "dimension": "legal",
       "topic": "other",
-      "claim": "Seagate agreed on April 3, 2026 to settle the consolidated securities class action for $175 million, of which about $70 million is to be paid by insurers; the company recorded a $105 million charge in fiscal 2026, transferred $105 million to escrow in the quarter ended October 2, 2026, and a final approval hearing is set for November 17, 2026.",
+      "claim": "Seagate agreed on April 3, 2026 to settle the consolidated securities class action for $175 million, of which about $70 million is to be paid by insurers; the company recorded a $105 million charge in fiscal 2026, transferred $105 million to escrow in the quarter ended October 2, 2026, and the 10-Q set a final approval hearing for November 17, 2026.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
       "source_title": "Seagate Technology Holdings plc Form 10-Q for the quarter ended October 2, 2026",
       "published_date": "2026-10-29"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "On November 17, 2026 the U.S. District Court for the Northern District of California found the settlement in In re Seagate Technology Holdings plc Securities Litigation fair, reasonable, and adequate and dismissed the claims against Seagate, William D. Mosley, and Gianluca Romano with prejudice.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://seagatesecuritieslitigation.com/wp-content/uploads/sites/27/2026/11/2026-11-17-Order-Approving-Class-Action-Settlement.pdf",
+      "source_title": "Order approving class action settlement, In re Seagate Technology Holdings plc Securities Litigation",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "political",
@@ -117,7 +117,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "In fiscal 2026 one customer accounted for about 14% of consolidated revenue, up from about 10% in fiscal 2025, and at July 3, 2026 three customers accounted for 18%, 16%, and 10% of accounts receivable.",
+      "claim": "In fiscal 2026 one customer accounted for approximately 14% of consolidated revenue, up from approximately 10% in fiscal 2025, and at July 3, 2026 three customers accounted for 18%, 16%, and 10% of accounts receivable.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
@@ -167,12 +167,6 @@
   ],
   "upcoming_catalysts": [
     {
-      "event": "Final approval hearing for the $175 million securities class-action settlement",
-      "expected_date": "2026-11-17",
-      "date_confidence": "confirmed",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
-    },
-    {
       "event": "Quarterly cash dividend of $0.76 per share to shareholders of record on December 23, 2026",
       "expected_date": "2027-01-07",
       "date_confidence": "confirmed",
@@ -200,7 +194,7 @@
   ],
   "key_risks": [
     {
-      "risk": "One customer was about 14% of fiscal 2026 revenue, three customers were 18%, 16%, and 10% of receivables at July 3, 2026, and data-center customers were 81% of fiscal first-quarter 2027 revenue.",
+      "risk": "One customer was approximately 14% of fiscal 2026 revenue, up from approximately 10% in fiscal 2025, and three customers were 18%, 16%, and 10% of receivables at July 3, 2026.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
       "published_date": "2026-08-04"
@@ -212,13 +206,13 @@
       "published_date": "2026-10-29"
     },
     {
-      "risk": "Exchange of the 2028 notes in fiscal 2026 and the September 2026 quarter issued roughly 6 million, 2 million, 0.4 million, and 1.6 million shares, lifting the share count from 227 million to 230 million in the latest quarter. The notes themselves are now extinguished.",
+      "risk": "In the quarter ended October 2, 2026, exchanges of the 2028 notes delivered about 0.4 million shares on a $35 million exercise and about 1.6 million shares when the remaining notes were exchanged on September 8, 2026, lifting shares outstanding from 227 million to 230 million. No 2028 notes remained afterward.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
       "published_date": "2026-10-29"
     },
     {
-      "risk": "About $105 million of the BIS Huawei penalty remained accrued at October 2, 2026, and export rules can still block sales to restricted customers.",
+      "risk": "At October 2, 2026, $45 million of the BIS Huawei penalty was in accrued expenses and $60 million was in other non-current liabilities, and export rules can still block sales to restricted customers.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm",
       "published_date": "2026-10-29"
@@ -241,7 +235,7 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm"
     },
     {
-      "description": "Holder exercise of $35 million principal of the 2028 notes, settled in the quarter ended October 2, 2026 with approximately 0.4 million ordinary shares.",
+      "description": "Holder exercise of $35 million principal of the 2028 notes, exercised in June 2026 and settled in the quarter ended October 2, 2026 with approximately 0.4 million ordinary shares.",
       "date": null,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm"
     },
@@ -252,5 +246,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "No going-concern language was found in the fiscal 2026 Form 10-K or the October 2, 2026 Form 10-Q. A separate November 12, 2025 exchange of $500 million principal for $500 million cash and about 4.3 million shares is in the fiscal 2026 10-K but falls just outside a strict one-year window ending November 13, 2026, so it is not listed as a last-12-month dilution event. The $400 million buyback and $4.4 billion remaining authorization are in the 10-Q; the press release is cited for the $568 million combined return and the dividend increase to $0.76. The capped-call cap price is $107.741 in the October 2, 2026 10-Q and $107.746 in the July 3, 2026 10-K. The earnings-release date on the SEC exhibit is October 28, 2026, and the 10-Q is signed October 29, 2026. The date of the fiscal second-quarter earnings announcement was not published in these sources."
+  "notes": "No going-concern language was found in the fiscal 2026 Form 10-K or the October 2, 2026 Form 10-Q. A separate November 12, 2025 exchange of $500 million principal for $500 million cash and about 4.3 million shares is in the fiscal 2026 10-K but falls before November 27, 2025, so it is not listed as a last-12-month dilution event. The $131 million induced-conversion expense includes that November 2025 exchange together with the February 19 and May 27, 2026 exchanges. The 2028 notes were fully extinguished on September 8, 2026. Balance-sheet cash is $1,258 million; the liquidity discussion rounds cash to approximately $1.3 billion. The November 17, 2026 court order approves the securities settlement and dismisses the case; the $175 million amount is taken from the 10-Q. The date of the fiscal second-quarter earnings announcement was not published in these sources. Data-center end markets were 81% of fiscal first-quarter 2027 revenue in the October 2, 2026 10-Q."
 }

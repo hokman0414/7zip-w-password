@@ -1,0 +1,11 @@
+{
+  "intents": [],
+  "orders": [],
+  "notes": [],
+  "fractions": {
+    "exit": 1.0,
+    "trim_thesis_fails": 0.5,
+    "trim_thesis_holds": 0.25,
+    "review": 0.0
+  }
+}
