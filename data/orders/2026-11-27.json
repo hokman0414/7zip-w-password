@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-27",
+  "created_at": "2026-11-27T15:34:31.375807+00:00",
+  "armed": false,
+  "blocked_reasons": [
+    "ROBINHOOD_AGENTIC_ACCOUNT secret not set"
+  ],
+  "drawdown_from_hwm": 0.0,
+  "high_water_mark": 20050.43794833199,
+  "buys_halted": false,
+  "orders": [],
+  "would_place_if_armed": [
+    {
+      "symbol": "WDC",
+      "side": "sell",
+      "kind": "risk_trim",
+      "est_usd": 59.75,
+      "ref_price": 283.31,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "realized vol 81% at 4.3%; high-vol cap 4%",
+      "ref_id": "ba0fc681-17f3-5fca-867d-a00312517f81",
+      "params": {
+        "symbol": "WDC",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.210905",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "SNDK",
+      "side": "sell",
+      "kind": "loss_cut",
+      "est_usd": 41.96,
+      "ref_price": 81.94,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "loss cut: -55% vs average cost 183.74 (threshold -15%); trim 50%",
+      "ref_id": "d74706f0-7358-51a9-b752-883000d1391f",
+      "params": {
+        "symbol": "SNDK",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.512024",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "ONDS",
+      "side": "sell",
+      "kind": "loss_cut",
+      "est_usd": 24.33,
+      "ref_price": 4.095,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "loss cut: -46% vs average cost 7.53 (threshold -15%); trim 50%",
+      "ref_id": "17031283-cf6d-5edf-9f74-75568a639cb3",
+      "params": {
+        "symbol": "ONDS",
+        "side": "sell",
+        "type": "market",
+        "quantity": "5.942102",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "WULF",
+      "side": "sell",
+      "kind": "loss_cut",
+      "est_usd": 52.02,
+      "ref_price": 10.465,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "loss cut: -44% vs average cost 18.84 (threshold -15%); trim 50%",
+      "ref_id": "6dbe8b80-1453-57aa-8bea-bf8f221adeea",
+      "params": {
+        "symbol": "WULF",
+        "side": "sell",
+        "type": "market",
+        "quantity": "4.970383",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "NBIS",
+      "side": "sell",
+      "kind": "loss_cut",
+      "est_usd": 53.04,
+      "ref_price": 85.92,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "loss cut: -43% vs average cost 150.17 (threshold -15%); trim 50%",
+      "ref_id": "a825b12a-55b0-5029-b79e-716766a08f3c",
+      "params": {
+        "symbol": "NBIS",
+        "side": "sell",
+        "type": "market",
+        "quantity": "0.617283",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    },
+    {
+      "symbol": "IREN",
+      "side": "sell",
+      "kind": "loss_cut",
+      "est_usd": 52.2,
+      "ref_price": 13.1184,
+      "max_quote_drift_pct": 0.05,
+      "rationale": "loss cut: -42% vs average cost 22.58 (threshold -15%); trim 50%",
+      "ref_id": "a19033aa-1900-5696-9226-969588a42815",
+      "params": {
+        "symbol": "IREN",
+        "side": "sell",
+        "type": "market",
+        "quantity": "3.979357",
+        "account_number": "$ROBINHOOD_AGENTIC_ACCOUNT",
+        "time_in_force": "gfd",
+        "market_hours": "regular_hours"
+      },
+      "clipped": false
+    }
+  ],
+  "rejected": [
+    {
+      "symbol": "STX",
+      "side": "sell",
+      "kind": "loss_cut",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "DRAM",
+      "side": "sell",
+      "kind": "loss_cut",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "CIFR",
+      "side": "sell",
+      "kind": "loss_cut",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "NVDA",
+      "side": "sell",
+      "kind": "loss_cut",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "AMD",
+      "side": "sell",
+      "kind": "loss_cut",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "SCHD",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "VTI",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "VOO",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "GLD",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "EWY",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "SIL",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "SGOV",
+      "side": "sell",
+      "kind": "growth_rebalance",
+      "reason": "cooldown: traded sell on 2026-11-25"
+    },
+    {
+      "symbol": "QQQM",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "SCHG",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    },
+    {
+      "symbol": "VGT",
+      "side": "buy",
+      "kind": "growth_rebalance",
+      "reason": "max_orders_per_day reached"
+    }
+  ],
+  "instructions": "Sells first. For each order: substitute ROBINHOOD_AGENTIC_ACCOUNT, call review_equity_order; skip if order_checks/alerts are non-empty or the quoted price drifts more than max_quote_drift_pct from ref_price; otherwise call place_equity_order with the same params and ref_id. Never place an order that is not in `orders`.",
+  "loss_cut_only": true,
+  "skipped_buys_for_loss_cut_mode": []
+}

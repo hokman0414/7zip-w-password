@@ -44,3 +44,7 @@ The book targets 80% in growth ETFs chosen with forward projections, in `config/
 - **VGT 15%**: U.S. Information Technology. FactSet 2026-11-20: IT CY2027 EPS growth 42.9%.
 
 SCHD, VTI, VOO, SPY, SGOV, GLD, SIL and EWY are not growth sleeves and are sold down under `growth_rebalance`. SMH and leveraged funds are on the do-not-buy list. A named request that conflicts with this profile (for example "buy more SCHD") still goes through the playbook, but the daily plan will keep selling non-sleeve funds until the 80% target is reached.
+
+## Loss cutting (from 2026-11-27)
+
+If the user asks to cut losses / only sell / loss-cutting settings: place sells only. A new `loss_cut` kind trims **50%** of any single name whose price is **15% or more below average cost**. Risk trims and non-sleeve fund sells still run. Do not buy growth sleeves on that request.

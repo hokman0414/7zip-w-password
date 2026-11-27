@@ -33,6 +33,9 @@ class RiskLimits:
     min_trade_usd: float = 5.0
     dust_usd: float = 1.0
     trend_months: int = 10
+    # Single-name unrealized loss vs average cost that triggers an automatic loss-cut trim.
+    loss_cut_threshold: float = -0.15
+    loss_cut_fraction: float = 0.50
 
 
 @dataclass
@@ -44,6 +47,7 @@ class Holding:
     asset_type: str | None = None
     leverage: float | None = None
     available: float | None = None
+    average_cost: float | None = None
     value: float = 0.0
     weight: float = 0.0
     vol: float | None = None
@@ -51,6 +55,7 @@ class Holding:
     report_status: str | None = None
     critical_vetoes: list[str] = field(default_factory=list)
     review_vetoes: list[str] = field(default_factory=list)
+    unrealized_pnl_pct: float | None = None
 
 
 def _rets(closes: list[float], price: float) -> list[float]:
@@ -95,9 +100,12 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
     for h in pos["holdings"]:
         x = Holding(h["symbol"], float(h["quantity"]), float(h["price"]), list(h.get("monthly_closes") or []),
                     h.get("asset_type"), h.get("leverage"),
-                    float(h["available"]) if h.get("available") is not None else None)
+                    float(h["available"]) if h.get("available") is not None else None,
+                    float(h["average_cost"]) if h.get("average_cost") not in (None, "") else None)
         x.value = x.quantity * x.price
         x.weight = x.value / total if total else 0.0
+        if x.average_cost and x.average_cost > 0:
+            x.unrealized_pnl_pct = x.price / x.average_cost - 1
         r = _rets(x.monthly_closes, x.price)
         x.vol = float(np.std(r, ddof=1) * sqrt(12)) if len(r) >= 6 else None
         x.beta = _beta(r, m_rets)
@@ -154,6 +162,10 @@ def assess(snapshot: dict, reports: dict[str, CompanyReport] | None = None, limi
             flags.append({"symbol": h.symbol, "flag": "leveraged_etf", "detail": f"{h.leverage:.0f}x daily-reset product: volatility decay over multi-month holds"})
         if h.vol and h.vol > lim.high_vol_threshold:
             flags.append({"symbol": h.symbol, "flag": "high_volatility", "detail": f"realized vol {h.vol:.0%} (monthly, annualized)"})
+        if (h.unrealized_pnl_pct is not None and h.unrealized_pnl_pct <= lim.loss_cut_threshold
+                and h.asset_type not in FUND_TYPES):
+            flags.append({"symbol": h.symbol, "flag": "unrealized_loss",
+                          "detail": f"{h.unrealized_pnl_pct:.0%} vs average cost {h.average_cost:.2f}"})
         if h.critical_vetoes:
             flags.append({"symbol": h.symbol, "flag": "research_veto", "detail": ", ".join(h.critical_vetoes)})
         if h.review_vetoes:
@@ -233,6 +245,29 @@ def propose(risk: dict, reports: dict[str, CompanyReport] | None = None, limits:
                     "order_type": "market", "from_weight": round(h.weight, 4), "to_weight": tw,
                     "rationale": "; ".join(r for _, r in caps), "kind": "risk_trim", "status": APPROVAL,
                     "review_equity_order": _order(h.symbol, "sell", quantity=qty)})
+
+    # Loss cuts: single names underwater vs average cost by the threshold, deepest first.
+    already = {p["symbol"] for p in out if p.get("side") == "sell"}
+    losers = sorted(
+        (h for h in risk["holdings"]
+         if h.symbol not in already and h.asset_type not in FUND_TYPES and h.value >= lim.dust_usd
+         and h.unrealized_pnl_pct is not None and h.unrealized_pnl_pct <= lim.loss_cut_threshold),
+        key=lambda h: h.unrealized_pnl_pct,
+    )
+    for h in losers:
+        qty = min(round(h.quantity * lim.loss_cut_fraction, 6),
+                  h.available if h.available is not None else h.quantity)
+        if qty * h.price < lim.min_trade_usd:
+            continue
+        out.append({
+            "symbol": h.symbol, "side": "sell", "quantity": qty, "est_value": round(qty * h.price, 2),
+            "order_type": "market", "from_weight": round(h.weight, 4),
+            "to_weight": round(h.weight * (1 - lim.loss_cut_fraction), 4),
+            "rationale": (f"loss cut: {h.unrealized_pnl_pct:.0%} vs average cost {h.average_cost:.2f} "
+                          f"(threshold {lim.loss_cut_threshold:.0%}); trim {lim.loss_cut_fraction:.0%}"),
+            "kind": "loss_cut", "status": APPROVAL,
+            "review_equity_order": _order(h.symbol, "sell", quantity=qty),
+        })
 
     beta_after = None
     if risk["portfolio_beta"] is not None:
