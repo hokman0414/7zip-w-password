@@ -1,103 +1,93 @@
 {
   "ticker": "NVDA",
   "company": "NVIDIA Corporation",
-  "researched_at": "2026-11-13T17:06:00Z",
-  "agent_id": "research-agent-e",
+  "researched_at": "2026-11-27T23:50:50Z",
+  "agent_id": "research-agent-a",
   "findings": [
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "For the quarter ended July 26, 2026, NVIDIA reported revenue of $96.221 billion, up 106% from $46.743 billion and 18% sequentially, GAAP gross margin of 75.0%, operating income of $63.734 billion, and diluted EPS of $2.46.",
+      "claim": "For the quarter ended October 25, 2026, NVIDIA reported revenue of $115.844 billion, up 103% from $57.006 billion and 20% sequentially, GAAP gross margin of 74.8%, operating income of $77.520 billion, and diluted EPS of $2.70, and said Vera Rubin NVL72 has shipped.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
-      "source_title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "economic",
-      "topic": "earnings",
-      "claim": "Data Center revenue was $89.023 billion, up 117% year over year, including Hyperscale revenue of $48.710 billion and AI Clouds, Industrial, and Enterprise revenue of $40.313 billion, driven by the Blackwell Ultra ramp.",
-      "evidence_type": "verified",
-      "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "source_title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "economic",
-      "topic": "guidance",
-      "claim": "NVIDIA guided third-quarter fiscal 2027 revenue to $108.0 billion, plus or minus 2%, and GAAP and non-GAAP gross margin to 74.0%, plus or minus 50 basis points, and said it is not assuming any Data Center compute revenue from China.",
-      "evidence_type": "verified",
-      "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
-      "source_title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "political",
-      "topic": "supply",
-      "claim": "Shipments of Data Center Hopper products to China in the second quarter of fiscal 2027 were less than 1% of Data Center revenue, while revenue from customers headquartered in China including Hong Kong was $7.880 billion of $96.221 billion.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "source_title": "NVIDIA Corporation Form 10-Q for the quarter ended July 26, 2026",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "economic",
-      "topic": "customer",
-      "claim": "One direct customer represented 16% of second-quarter fiscal 2027 revenue, primarily in Compute & Networking, and for the first half three direct customers represented 16%, 15%, and 13% of revenue.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "source_title": "NVIDIA Corporation Form 10-Q for the quarter ended July 26, 2026",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "economic",
-      "topic": "supply",
-      "claim": "Supply and capacity commitments rose from $119 billion in the prior quarter to $279 billion as of July 26, 2026, and total future commitments across supply, cloud services, leases, equity investments, and capital expenditures were $366 billion.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "source_title": "NVIDIA Corporation Form 10-Q for the quarter ended July 26, 2026",
-      "published_date": "2026-08-26"
-    },
-    {
-      "dimension": "economic",
-      "topic": "debt",
-      "claim": "Maximum gross guarantee exposure was $108.5 billion, including $3.5 billion of land, power, and shell guarantees for AI clouds and $105 billion of SB Energy guarantees, signed in August 2026, that become effective in phases with the first expected in fiscal 2029 and support about 4.25 gigawatts of OpenAI leases at the PORTS-Pike campus.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "source_title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "technological",
       "topic": "product",
-      "claim": "NVIDIA said the Vera Rubin platform is ramping into full production, with racks running at CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure, and Nebius.",
+      "claim": "Data Center revenue was a record $107.6 billion, up 110% from a year ago and 21% sequentially, including Hyperscale revenue of $60.1 billion and AI Clouds, Industrial, and Enterprise revenue of $47.5 billion, driven by the Rubin infrastructure introduction, standalone Vera CPUs, and continued Blackwell Ultra growth.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
-      "source_title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "economic",
-      "topic": "other",
-      "claim": "Accounts receivable was $63.1 billion and days sales outstanding rose to 60 from 45 on extended payment terms for large multi-quarter agreements, and inventory rose to $31.6 billion from $25.8 billion sequentially ahead of the Vera Rubin introduction.",
+      "topic": "guidance",
+      "claim": "NVIDIA guided fourth-quarter fiscal 2027 revenue, for a quarter that includes an additional week, to $130.0 billion plus or minus 3%.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "guidance",
+      "claim": "GAAP and non-GAAP gross margins are expected to be between 71.0% and 72.0% in the fourth quarter, down from 74.8% GAAP in the third quarter, and NVIDIA said it is not assuming any Data Center compute revenue from China.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "source_title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "political",
+      "topic": "supply",
+      "claim": "Shipments of Data Center Hopper products to China during the third quarter were $2.4 billion, while the fourth-quarter outlook assumes no Data Center compute revenue from China.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "Supply and capacity commitments rose from $279 billion in the prior quarter to $390 billion as of October 25, 2026, primarily for multi-year memory procurement, and total future commitments across supply, cloud services, uncommenced data-center leases, equity investments, and capital expenditures were $518 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "In June 2026 NVIDIA issued $25.0 billion of senior unsecured notes, and long-term debt was $32.366 billion at July 26, 2026 versus $7.469 billion at January 25, 2026.",
+      "claim": "Maximum gross guarantee exposure was $118.0 billion at October 25, 2026, including $3.5 billion of land, power, and shell guarantees for neoclouds, $105.0 billion of SB Energy credit support for about 4.25 gigawatts at the PORTS-Pike campus under 20-year OpenAI leases with the first phase expected in fiscal 2029, and $9.5 billion of power and systems credit support.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "Accounts receivable was $81.0 billion and days sales outstanding rose to 64 from 60 on Rubin shipment timing and extended payment terms, and inventory rose to $39.7 billion from $31.6 billion sequentially to support the Rubin ramp.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "customer",
+      "claim": "In the latest filed 10-Q, for the quarter ended July 26, 2026, one direct customer represented 16% of revenue, primarily in Compute & Networking, and for the first half three direct customers represented 16%, 15%, and 13% of revenue.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
@@ -107,91 +97,143 @@
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "NVIDIA repurchased 94 million shares for $19.7 billion in the second quarter and 203 million shares for $39.8 billion in the first half, had $99.3 billion of repurchase authorization left after an additional $80.0 billion approved on May 18, 2026, and raised the quarterly dividend from $0.01 to $0.25 per share on that date.",
+      "claim": "In September 2026 the board added $150 billion to the share-repurchase authorization; NVIDIA returned $28.1 billion through repurchases and dividends in the third quarter, had about $227.3 billion of authorization left, and will pay a $0.25 quarterly dividend on December 23, 2026 to holders of record on December 2, 2026.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "source_title": "NVIDIA Corporation Form 10-Q for the quarter ended July 26, 2026",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Second-quarter free cash flow was $21.341 billion, and cash, cash equivalents, and marketable debt securities were $56.6 billion, up from $50.3 billion a quarter earlier.",
+      "claim": "Third-quarter free cash flow was $43.777 billion, and cash, cash equivalents, and marketable debt securities were $53.5 billion, down from $56.6 billion a quarter earlier.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "source_title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Long-term debt was $32.371 billion at October 25, 2026 versus $7.469 billion at January 25, 2026; nine-month proceeds from debt issuance, net of costs, were $24.896 billion, and NVIDIA repaid $1.0 billion of senior notes in the third quarter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "economic",
+      "topic": "other",
+      "claim": "Net gains from equity securities were $1.8 billion in the third quarter, made up of $2.8 billion of gains on publicly held securities and a $1.0 billion net loss on non-marketable securities, including $1.8 billion of impairment.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "economic",
       "topic": "product",
-      "claim": "Edge Computing revenue was $7.198 billion, up 27% year over year, and the increase from Blackwell workstations was partly offset by slower consumer PC sales tempered by elevated memory and systems prices.",
+      "claim": "Edge Computing revenue was $8.2 billion, up 42% from a year ago, and the company said higher memory and system prices continue to affect consumer PC demand.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "source_title": "NVIDIA CFO Commentary on Second Quarter Fiscal 2027 Results",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "source_title": "NVIDIA CFO Commentary on Third Quarter Fiscal 2027 Results",
+      "published_date": "2026-11-17"
+    },
+    {
+      "dimension": "legal",
+      "topic": "other",
+      "claim": "The third-quarter GAAP-to-non-GAAP reconciliation excluded $107 million of legal settlement costs from non-GAAP operating expenses; the exhibit does not name the matter.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
     },
     {
       "dimension": "political",
       "topic": "governance",
-      "claim": "On November 11, 2026, the board accepted Jen-Hsun Huang's resignation as president, chief executive officer, and director, effective immediately, appointed CFO Colette M. Kress interim CEO while she remains CFO, and appointed Harvey C. Jones chair; the 8-K does not state a reason for the resignation.",
+      "claim": "On November 22, 2026 the board reinstated Jen-Hsun Huang as president, chief executive officer, and director, and Colette M. Kress continued as executive vice president and chief financial officer; the November 23 release says an independent-director committee is still investigating reporting that Huang was the target of a foreign intelligence effort, the board formed a National Security and Export Control Committee, NVIDIA is searching for a chief compliance officer, and the company will continue to cooperate with ongoing government investigations.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
-      "source_title": "NVIDIA Corporation Form 8-K filed November 12, 2026",
-      "published_date": "2026-11-12"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm",
+      "source_title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+      "published_date": "2026-11-23"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "The November 17, 2026 earnings release announced an agreement to acquire Hugging Face and did not disclose a price or a closing date.",
+      "evidence_type": "verified",
+      "sentiment": "neutral",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "source_title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "published_date": "2026-11-17"
     }
   ],
   "upcoming_catalysts": [
     {
-      "event": "Third-quarter fiscal 2027 results for the quarter ended October 25, 2026, to be announced at about 1:20 p.m. PT, with the earnings call at 2 p.m. PT",
-      "expected_date": "2026-11-17",
+      "event": "Quarterly cash dividend of $0.25 per share payable to shareholders of record on December 2, 2026",
+      "expected_date": "2026-12-23",
       "date_confidence": "confirmed",
-      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm"
+    },
+    {
+      "event": "Form 10-Q for the quarter ended October 25, 2026, which the CFO commentary says the company plans to file in the coming weeks",
+      "expected_date": null,
+      "date_confidence": "company_guided",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm"
+    },
+    {
+      "event": "Independent-director committee investigation into reporting that Jensen Huang was the target of a foreign intelligence effort, which the board said will proceed to conclusion",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm"
     }
   ],
   "policy_links": [
     {
       "country": "United States",
-      "policy": "Inflation Reduction Act 1% excise tax on certain net share repurchases",
-      "stage": "enacted",
-      "industry": "semiconductors",
-      "bottleneck": "cost of returning capital through buybacks",
-      "revenue_mechanism": "The tax is added to the cost of share repurchases and does not create product revenue; NVIDIA said the excise tax was not significant in the second quarter or first half of fiscal 2027.",
-      "evidence_of_company_revenue": false,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-      "published_date": "2026-08-26"
+      "policy": "Controls reflected in NVIDIA's exclusion of China Data Center compute revenue from its outlook, alongside disclosed Hopper shipments to China",
+      "stage": "implementation",
+      "industry": "data center semiconductors",
+      "bottleneck": "permission to ship advanced Data Center compute to China",
+      "revenue_mechanism": "Third-quarter shipments of Data Center Hopper products to China were $2.4 billion, and the fourth-quarter outlook assumes no Data Center compute revenue from China.",
+      "evidence_of_company_revenue": true,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "published_date": "2026-11-17"
     },
     {
-      "country": "Japan",
-      "policy": "National AI infrastructure partnership with the Japan government and industrial leaders",
+      "country": "United States",
+      "policy": "National Security and Export Control Committee and ongoing government investigations and inquiries",
       "stage": "implementation",
-      "industry": "data center AI infrastructure",
-      "bottleneck": "sovereign AI compute",
-      "revenue_mechanism": "NVIDIA said it partnered with the Japan government and industrial leaders to launch national AI infrastructure and that Japanese enterprises, startups, and research institutions are building models with NVIDIA Nemotron, but the release does not state an order value.",
+      "industry": "semiconductors",
+      "bottleneck": "export-control and national-security compliance",
+      "revenue_mechanism": "The November 23 release says the committee will oversee trade compliance and national security risks and that NVIDIA will cooperate with ongoing government investigations; it does not state an order value or a revenue amount.",
       "evidence_of_company_revenue": false,
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm",
+      "published_date": "2026-11-23"
     }
   ],
   "key_risks": [
     {
-      "risk": "Founder and CEO Jensen Huang resigned on November 11, 2026, and the board is searching for a permanent chief executive while CFO Colette Kress serves as interim CEO.",
+      "risk": "An independent-director committee is still investigating reporting that Jensen Huang was the target of a foreign intelligence effort, NVIDIA said it will cooperate with ongoing government investigations, and the board is searching for a chief compliance officer, even though Huang was reinstated on November 22, 2026.",
       "severity": "high",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
-      "published_date": "2026-11-12"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm",
+      "published_date": "2026-11-23"
     },
     {
-      "risk": "Supply and capacity commitments were $279 billion, and maximum guarantee exposure was $108.5 billion, including $105 billion of phased SB Energy guarantees whose first phase is expected in fiscal 2029.",
+      "risk": "Supply and capacity commitments were $390 billion and maximum gross guarantee exposure was $118.0 billion, including $105 billion of phased SB Energy guarantees whose first phase is expected in fiscal 2029.",
       "severity": "high",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27cfocommentary.htm",
-      "published_date": "2026-08-26"
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "published_date": "2026-11-17"
     },
     {
-      "risk": "One direct customer accounted for 16% of second-quarter fiscal 2027 revenue, and three direct customers accounted for 16%, 15%, and 13% of first-half revenue, all primarily in Compute & Networking.",
+      "risk": "The latest filed 10-Q, for the quarter ended July 26, 2026, said one direct customer accounted for 16% of quarterly revenue and three direct customers accounted for 16%, 15%, and 13% of first-half revenue.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
       "published_date": "2026-08-26"
@@ -199,5 +241,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "Third-quarter fiscal 2027 results were not yet released; the company scheduled them for November 17, 2026. The November 12, 2026 8-K states the resignation and succession and does not give a reason, so press reports about the cause are not used as findings. No equity offering, ATM, or convertible issuance was found in the fiscal 2027 filings reviewed; the company repurchased stock and issued $25 billion of debt. No going-concern or delisting language was found. The 10-Q says liquidity is sufficient for the next twelve months. The $150 billion to $200 billion PORTS-Pike revenue figure is the company's own 'could represent' estimate, not recognized revenue. Inventory of $31.575 billion is the July 26 balance-sheet figure; the sequential $25.8 billion comparison is from the CFO commentary."
+  "notes": "The Form 10-Q for the quarter ended October 25, 2026 was not on EDGAR as of this research; the CFO commentary says it will be filed in the coming weeks. Customer-concentration and the absence of a going-concern paragraph were checked in the Form 10-Q signed August 26, 2026, not in a third-quarter 10-Q. No public equity offering, at-the-market program, or convertible issuance was found in the third-quarter materials; financing cash flow shows employee stock-plan proceeds of $279 million in the quarter and debt-issuance proceeds of $24.896 billion for the nine months, and common-stock repurchase payments of $22.122 billion in the quarter. Diluted weighted-average shares were 24,186 million versus 24,483 million a year earlier. The November 11, 2026 8-K records Huang's resignation and Kress's appointment as interim CEO; the November 22 reinstatement supersedes that status, and the November 23 release is used for the current facts. The release describes the investigation as responding to recent reporting and does not itself establish the underlying allegation. Hugging Face consideration was not disclosed. The $53.5 billion cash and marketable-debt figure is the CFO commentary total; the balance sheet shows cash of $29.089 billion and marketable debt securities of $24.423 billion. Free cash flow of $43.777 billion and the $53.5 billion cash and marketable-debt total are stated in the CFO commentary; the earnings-release balance sheet shows cash of $29.089 billion and marketable debt securities of $24.423 billion, and purchases of equity securities of $15.696 billion."
 }

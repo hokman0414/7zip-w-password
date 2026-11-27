@@ -1,8 +1,8 @@
 {
   "ticker": "GOOGL",
   "company": "Alphabet Inc.",
-  "researched_at": "2026-11-13T17:06:00Z",
-  "agent_id": "research-agent-e",
+  "researched_at": "2026-11-27T23:50:50Z",
+  "agent_id": "research-agent-a",
   "findings": [
     {
       "dimension": "economic",
@@ -17,17 +17,17 @@
     {
       "dimension": "economic",
       "topic": "backlog",
-      "claim": "Google Cloud revenue rose 103% to $30.709 billion from $15.157 billion, Cloud operating income rose to $11.121 billion from $3.594 billion, and remaining performance obligations were $567.7 billion, of which $560.8 billion was Google Cloud, with just over 55% expected to be recognized over the next 24 months.",
+      "claim": "Google Cloud revenue was $30.709 billion versus $15.157 billion and Cloud operating income was $11.121 billion versus $3.594 billion; remaining performance obligations were $567.7 billion, of which $560.8 billion was Google Cloud, with just over 55% expected to be recognized over the next 24 months.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "technological",
       "topic": "product",
-      "claim": "Alphabet said Google Search & other revenue grew 12% to $63.350 billion, the year-over-year Search query growth rate was the highest in five years, the Gemini app reached one billion users, first-party model APIs processed nearly 32 billion tokens per minute, and YouTube Music and Premium surpassed 150 million subscribers including trials.",
+      "claim": "Google Search & other revenue grew 12% to $63.350 billion, the company said the year-over-year Search query growth rate was the highest in five years, first-party model APIs were processing nearly 32 billion tokens per minute, the Gemini app reached one billion users, and YouTube Music and Premium surpassed 150 million subscribers including trials.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
@@ -37,7 +37,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "Google Network revenue was $7.455 billion versus $7.354 billion a year earlier, and YouTube ads were $11.207 billion versus $10.261 billion, both much slower than the 25% consolidated revenue increase.",
+      "claim": "YouTube ads were $11.207 billion versus $10.261 billion and Google Network revenue was $7.455 billion versus $7.354 billion, both much slower than the 25% increase in consolidated revenue.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
@@ -47,7 +47,7 @@
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Net income available to common stockholders fell to $26.170 billion from $34.979 billion and diluted EPS fell to $2.12 from $2.87, and the company said an $8.7 billion net loss on equity securities reduced diluted EPS by $0.55.",
+      "claim": "Net income available to common stockholders fell to $26.170 billion from $34.979 billion and diluted EPS fell to $2.12 from $2.87; the company said a net loss on equity securities of $8.7 billion reduced diluted EPS by $0.55.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
@@ -57,7 +57,7 @@
     {
       "dimension": "economic",
       "topic": "capacity",
-      "claim": "Purchases of property and equipment were $51.355 billion in the third quarter and $131.953 billion for the first nine months of 2026, versus $23.953 billion and $63.596 billion a year earlier, and non-GAAP free cash flow was negative $9.065 billion in the quarter.",
+      "claim": "Purchases of property and equipment were $51.355 billion in the third quarter and $131.953 billion for the first nine months of 2026, versus $23.953 billion and $63.596 billion a year earlier, and non-GAAP free cash flow was negative $9.065 billion in the quarter even though trailing-twelve-month free cash flow was $19.747 billion.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
@@ -72,37 +72,47 @@
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "On November 5, 2026, Alphabet closed an underwritten offering of €6 billion of euro-denominated senior notes, consisting of €750 million floating-rate notes due 2028, €750 million of 3.700% notes due 2028, €1.25 billion of 4.050% notes due 2030, €750 million of 4.250% notes due 2032, €750 million of 4.500% notes due 2035, €750 million of 4.875% notes due 2039, and €1 billion of 5.250% notes due 2045.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "source_title": "Alphabet Inc. Form 8-K filed November 5, 2026",
+      "published_date": "2026-11-05"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "On November 24, 2026, Alphabet closed an underwritten offering of C$6 billion of Canadian-dollar senior notes: C$2 billion of 4.100% notes due 2029, C$1.25 billion of 4.800% notes due 2034, C$1.5 billion of 5.325% notes due 2038, and C$1.25 billion of 6.000% notes due 2066.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
+      "source_title": "Alphabet Inc. Form 8-K filed November 24, 2026",
+      "published_date": "2026-11-24"
     },
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "On June 4, 2026, Alphabet completed a public offering of 29 million Class A shares at $355.1982 and 29 million Class C shares at $351.8018 for net proceeds of $20.5 billion, plus a private placement of 14 million Class A and 14 million Class C shares to a Berkshire Hathaway affiliate for net proceeds of $10.0 billion.",
+      "claim": "On June 4, 2026, Alphabet completed a public offering of 29 million Class A shares at $355.1982 and 29 million Class C shares at $351.8018 for net proceeds of $20.5 billion, plus a private placement of 14 million Class A and 14 million Class C shares to a Berkshire Hathaway affiliate for net proceeds of $10.0 billion, and on June 5, 2026 it issued 385 million depositary shares representing 19 million shares of 6.25% mandatory convertible preferred stock for net proceeds of $19.0 billion, with mandatory conversion on or about May 15, 2029.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "On June 5, 2026, Alphabet issued 385 million depositary shares representing 19 million shares of 6.25% mandatory convertible preferred stock for net proceeds of $19.0 billion; unless converted earlier, the shares convert on or about May 15, 2029 into 2.2520 to 2.8160 Class A shares per Series A preferred share and 2.2740 to 2.8420 Class C shares per Series B preferred share.",
+      "claim": "Under a June 1, 2026 at-the-market program of up to $40.0 billion, Alphabet issued 12 million Class A shares for net proceeds of $4.3 billion and 24 million Class C shares for net proceeds of $8.1 billion during the quarter ended September 30, 2026, leaving $27.6 billion available, while the nine-month cash-flow statement shows zero stock repurchases in the first nine months of 2026 and $69.5 billion remained on the April 2025 repurchase authorization.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
-    },
-    {
-      "dimension": "economic",
-      "topic": "dilution",
-      "claim": "Under a June 1, 2026 at-the-market program of up to $40.0 billion, Alphabet issued 12 million Class A shares for net proceeds of $4.3 billion and 24 million Class C shares for net proceeds of $8.1 billion during the quarter ended September 30, 2026, leaving $27.6 billion available, and it repurchased no Class A or Class C shares in the nine months ended September 30, 2026 despite $69.5 billion remaining on the April 2025 repurchase authorization.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "legal",
@@ -112,7 +122,7 @@
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "legal",
@@ -122,17 +132,17 @@
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "legal",
       "topic": "other",
-      "claim": "In September 2026 the Eastern District of Virginia denied the DOJ's request to divest Google advertising-technology assets and instead ordered behavioral remedies on interoperability, data access, and auction conduct, which Alphabet said it may appeal.",
+      "claim": "In September 2026 the Eastern District of Virginia denied the DOJ's request to divest Google advertising-technology assets and instead ordered behavioral remedies on interoperability, data access, and auction conduct; Alphabet said it plans to appeal the adverse portion of the April 2025 liability decision and may appeal aspects of the remedies decision.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "legal",
@@ -142,7 +152,27 @@
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "economic",
+      "topic": "supply",
+      "claim": "As of September 30, 2026, material purchase commitments were $924.4 billion, of which $802.1 billion was multi-year technical infrastructure, inventory, energy take-or-pay, and content licenses and $213.4 billion was due within 12 months; leases not yet commenced were another $130.5 billion, and contingent data-center backstop obligations were $75.7 billion.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-28"
+    },
+    {
+      "dimension": "technological",
+      "topic": "product",
+      "claim": "On March 11, 2026, Alphabet completed the acquisition of Wiz for $29.5 billion after purchase-price adjustments and excluding post-combination compensation, and the results are included in Google Cloud.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
+      "published_date": "2026-10-28"
     },
     {
       "dimension": "economic",
@@ -152,31 +182,21 @@
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
-    },
-    {
-      "dimension": "economic",
-      "topic": "supply",
-      "claim": "As of September 30, 2026, off-balance-sheet material purchase commitments were $924.4 billion, of which $802.1 billion was multi-year technical infrastructure, inventory, energy take-or-pay, and content licenses, $213.4 billion was due within 12 months, and leases not yet commenced were another $130.5 billion.",
-      "evidence_type": "verified",
-      "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "source_title": "Alphabet Inc. Form 10-Q for the quarter ended September 30, 2026",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     }
   ],
   "upcoming_catalysts": [
-    {
-      "event": "Quarterly cash dividend of $15.63 per share on Series A and Series B mandatory convertible preferred stock, payable to holders of record on November 1, 2026",
-      "expected_date": "2026-11-15",
-      "date_confidence": "confirmed",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
-    },
     {
       "event": "Quarterly cash dividend of $0.22 per share on Class A, Class B, and Class C stock, payable to holders of record on December 7, 2026",
       "expected_date": "2026-12-14",
       "date_confidence": "confirmed",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+    },
+    {
+      "event": "Appeals of the December 2025 U.S. Search antitrust final judgment, filed by Alphabet in January 2026 and by the DOJ and states in February 2026, remained pending with no decision date disclosed",
+      "expected_date": null,
+      "date_confidence": "unknown",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
     }
   ],
   "policy_links": [
@@ -185,11 +205,11 @@
       "policy": "Digital Markets Act non-compliance decisions on Google Play and Google Search",
       "stage": "implementation",
       "industry": "digital advertising and app distribution",
-      "bottleneck": "search data sharing, Play billing, and product-design obligations",
-      "revenue_mechanism": "The decisions impose fines and require changes to Search and Google Play; the filing records a charge rather than an order or revenue amount.",
+      "bottleneck": "Search and Google Play product-design and billing obligations",
+      "revenue_mechanism": "The decisions impose fines and require changes to Search and Google Play; the 10-Q records a $1.0 billion charge and does not tie the decisions to an order or a revenue amount.",
       "evidence_of_company_revenue": false,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "country": "United States",
@@ -197,35 +217,35 @@
       "stage": "implementation",
       "industry": "internet search advertising",
       "bottleneck": "default distribution agreements and competitor access to search data",
-      "revenue_mechanism": "The judgment restricts how Google distributes Search and requires data sharing and syndication to certain competitors, which can change search-advertising economics; the 10-Q does not quantify a revenue effect and appeals are pending.",
+      "revenue_mechanism": "The judgment restricts how Google distributes Search and requires data sharing and syndication to certain competitors; the 10-Q does not quantify a revenue effect and appeals are pending.",
       "evidence_of_company_revenue": false,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     }
   ],
   "key_risks": [
     {
-      "risk": "A $40 billion at-the-market program still had $27.6 billion available after third-quarter sales, the 6.25% mandatory convertible preferred converts into common stock by about May 15, 2029, and Alphabet bought back no shares in the first nine months of 2026.",
+      "risk": "A $40 billion at-the-market program still had $27.6 billion available after third-quarter sales, the 6.25% mandatory convertible preferred converts into common stock by about May 15, 2029, and the cash-flow statement shows no share repurchases in the first nine months of 2026.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
-      "risk": "Off-balance-sheet material purchase commitments were $924.4 billion at September 30, 2026, including $213.4 billion due within 12 months, and leases not yet commenced were another $130.5 billion.",
+      "risk": "Material purchase commitments were $924.4 billion at September 30, 2026, including $213.4 billion due within 12 months, leases not yet commenced were $130.5 billion, and contingent data-center backstops were $75.7 billion.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     },
     {
       "risk": "The December 2025 Search antitrust judgment requires distribution limits, search-data sharing, and syndication, and both sides' 2026 appeals were still pending.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
-      "published_date": "2026-10-29"
+      "published_date": "2026-10-28"
     }
   ],
   "dilution_events_last_12m": [
     {
-      "description": "Public offering of 29 million Class A shares at $355.1982 and 29 million Class C shares at $351.8018, net proceeds $20.5 billion, for AI infrastructure and general corporate purposes.",
+      "description": "Public offering of 29 million Class A shares at $355.1982 and 29 million Class C shares at $351.8018, net proceeds $20.5 billion, for general corporate purposes including AI infrastructure.",
       "date": "2026-06-04",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
     },
@@ -240,11 +260,11 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
     },
     {
-      "description": "At-the-market sales during the quarter ended September 30, 2026 of 12 million Class A shares for net proceeds of $4.3 billion and 24 million Class C shares for net proceeds of $8.1 billion; $27.6 billion of the $40 billion program remained available.",
+      "description": "At-the-market sales during the quarter ended September 30, 2026 of 12 million Class A shares for net proceeds of $4.3 billion and 24 million Class C shares for net proceeds of $8.1 billion; $27.6 billion of the $40 billion program remained available. The 10-Q says ATM proceeds are primarily intended to meet tax obligations on employee equity grants.",
       "date": null,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"
     }
   ],
   "going_concern_warning": false,
-  "notes": "No going-concern paragraph, delisting notice, or material-weakness disclosure was found. The 10-Q says there were no changes in internal control over financial reporting during the quarter that materially affected, or were reasonably likely to materially affect, ICFR. The September 2025 European Commission advertising-technology fine of €3.0 billion predates the last 12 months and is not repeated here as a new event; the appeal was still pending. A specific date for the fourth-quarter 2026 earnings release was not found. Separate from the $924.4 billion purchase commitments, maximum potential payments under TPU repurchase contracts were $6.6 billion, and Alphabet said that fair value was not material. Third-quarter free cash flow was negative $9.065 billion on $51.355 billion of capital spending, from the October 28, 2026 earnings exhibit."
+  "notes": "No going-concern paragraph, delisting notice, or material-weakness disclosure was found. The 10-Q says there were no changes in internal control over financial reporting during the quarter that materially affected, or were reasonably likely to materially affect, ICFR. The 10-Q is signed October 28, 2026. The November 5 euro notes and November 24 Canadian-dollar notes closed after the September 30 balance sheet, so they are not included in the $125.102 billion long-term debt figure. The November 15, 2026 preferred dividend has passed. A date for the fourth-quarter 2026 earnings release was not found. Short-term accrued legal and regulatory fines and settlements were $13.8 billion at September 30, 2026. Maximum potential payments under TPU repurchase contracts were $6.6 billion, and Alphabet said that fair value was not material. The September 2025 European Commission advertising-technology fine of €3.0 billion predates this 12-month window; the appeal was still pending and is not repeated here as a new event."
 }
