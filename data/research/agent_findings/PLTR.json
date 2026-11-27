@@ -1,8 +1,8 @@
 {
   "ticker": "PLTR",
   "company": "Palantir Technologies Inc.",
-  "researched_at": "2026-11-13T17:08:00Z",
-  "agent_id": "research-agent-g",
+  "researched_at": "2026-11-27T23:53:01Z",
+  "agent_id": "research-agent-c",
   "findings": [
     {
       "dimension": "economic",
@@ -27,7 +27,7 @@
     {
       "dimension": "economic",
       "topic": "guidance",
-      "claim": "Palantir raised full-year 2026 revenue guidance to $8.530–$8.534 billion and U.S. commercial revenue guidance to in excess of $3.559 billion (at least 143% growth), and guided fourth-quarter 2026 revenue to $2.649–$2.653 billion and adjusted free cash flow for 2026 to $4.8–$5.0 billion.",
+      "claim": "Palantir raised full-year 2026 revenue guidance to $8.530\u2013$8.534 billion and U.S. commercial revenue guidance to in excess of $3.559 billion (at least 143% growth), and guided fourth-quarter 2026 revenue to $2.649\u2013$2.653 billion and adjusted free cash flow for 2026 to $4.8\u2013$5.0 billion.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
@@ -37,7 +37,7 @@
     {
       "dimension": "economic",
       "topic": "backlog",
-      "claim": "Palantir closed total contract value of $2.918 billion in the third quarter, up 6% year over year, including $1.463 billion of U.S. commercial TCV, up 11% year over year, while U.S. commercial remaining deal value was $6.517 billion, up 79% year over year but only 4% sequentially.",
+      "claim": "Palantir closed total contract value of $2.918 billion in the third quarter, up 6% year over year, including $1.463 billion of U.S. commercial TCV, up 11% year over year, while U.S. commercial remaining deal value was $6.517 billion, up 79% year over year and 4% sequentially. The release says TCV and remaining deal value assume options are exercised and contracts are not terminated.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
@@ -47,7 +47,7 @@
     {
       "dimension": "economic",
       "topic": "backlog",
-      "claim": "Remaining performance obligations were $4.9 billion at September 30, 2026, of which Palantir expects to recognize about 44% over the next 12 months; the company allows many customers to terminate contracts for convenience with less than twelve months' notice, and cancelable contracted revenue is excluded from remaining performance obligations.",
+      "claim": "Remaining performance obligations were $4.9 billion at September 30, 2026, of which Palantir expects to recognize about 44% over the next 12 months. The company allows many customers to terminate contracts for convenience with less than twelve months' notice, excludes cancelable contracted revenue from remaining performance obligations, and does not disclose remaining performance obligations for contracts with original terms of twelve months or less.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
@@ -77,7 +77,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "U.S. revenue was $1.937 billion, or 84% of third-quarter 2026 revenue, up from 75% a year earlier, while rest-of-world revenue was $376.2 million, or 16% of the quarter, down from 25% a year earlier; no other country was 10% or more of revenue.",
+      "claim": "U.S. revenue was $1.937 billion, or 84% of third-quarter 2026 revenue, up from 75% a year earlier, while rest-of-world revenue was $376.2 million, or 16% of the quarter, down from 25% a year earlier. For the nine months, 51% of revenue came from government customers and 49% from commercial customers.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
@@ -87,7 +87,7 @@
     {
       "dimension": "economic",
       "topic": "other",
-      "claim": "Palantir reported net dollar retention of 165% in the third quarter of 2026.",
+      "claim": "Palantir reported net dollar retention of 165% in the third quarter of 2026, an increase of 8 points from the prior quarter.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://investors.palantir.com/files/Palantir%20-%20Q3%202026%20Business%20Update.pdf",
@@ -97,7 +97,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "The third-quarter balance sheet reported cash and cash equivalents of $3.619 billion and marketable securities of $6.942 billion, and the earnings release reported $10.4 billion of cash, cash equivalents, and U.S. Treasury securities; the cash-flow statement shows no new borrowings.",
+      "claim": "The September 30, 2026 balance sheet reported cash and cash equivalents of $3.619 billion and marketable securities of $6.942 billion, and the earnings release reported $10.4 billion of cash, cash equivalents, and U.S. Treasury securities. The nine-month cash-flow statement shows no new borrowings.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
@@ -107,7 +107,7 @@
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "Stock-based compensation was $318.9 million in the third quarter of 2026 and $785.7 million for the nine months, and 146.8 million stock options remained outstanding at September 30, 2026 at a weighted-average exercise price of $10.16, with an aggregate intrinsic value of $25.974 billion.",
+      "claim": "Stock-based compensation was $318.9 million in the third quarter of 2026 and $785.7 million for the nine months. The option table, presented in thousands except per-share amounts and aggregate intrinsic value in millions, shows 146,841 thousand stock options outstanding at September 30, 2026 at a weighted-average exercise price of $10.16, with aggregate intrinsic value of $25,974 million.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
@@ -127,7 +127,7 @@
     {
       "dimension": "military",
       "topic": "contract",
-      "claim": "On September 1, 2026, Palantir said Army Contracting Command awarded Palantir USG, Inc. a prime agreement to produce and deliver eight Tactical Intelligence Targeting Access Node (TITAN) systems, four Advanced and four Basic, and to field them to the operational Army; the release does not state the contract dollar value.",
+      "claim": "On September 1, 2026, Palantir said Army Contracting Command awarded Palantir USG, Inc. a prime agreement to produce and deliver eight Tactical Intelligence Targeting Access Node (TITAN) systems, four Advanced and four Basic, and to field them to the operational Army. The release does not state the contract dollar value.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army",
@@ -137,7 +137,7 @@
     {
       "dimension": "political",
       "topic": "governance",
-      "claim": "Class F common stock held in a voting trust of Stephen Cohen, Alexander Karp, and Peter Thiel generally gives the founders the ability to control up to 49.999999% of total voting power so long as the founders and certain affiliates hold at least 100 million equity securities, the threshold in effect at September 30, 2026; Class B stock carries 10 votes per share.",
+      "claim": "Class F common stock held in a voting trust of Stephen Cohen, Alexander Karp, and Peter Thiel generally gives the founders the ability to control up to 49.999999% of total voting power so long as the founders and certain affiliates hold at least 100 million equity securities, the threshold in effect at September 30, 2026. Class B stock carries 10 votes per share.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
@@ -147,7 +147,7 @@
     {
       "dimension": "legal",
       "topic": "other",
-      "claim": "The Tenth Circuit heard oral argument on March 16, 2026 in the appeal of Cupat v. Palantir, a securities class action the district court had dismissed with prejudice on April 4, 2025; Palantir said that as of September 30, 2026 it was not aware of any pending legal matter expected to have a material adverse impact on its financial statements.",
+      "claim": "The Tenth Circuit heard oral argument on March 16, 2026 in the appeal of Cupat v. Palantir, a securities class action the district court had dismissed with prejudice on April 4, 2025. Palantir said that as of September 30, 2026 it was not aware of any pending legal matter expected to have a material adverse impact on its financial statements.",
       "evidence_type": "verified",
       "sentiment": "neutral",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
@@ -157,13 +157,13 @@
   ],
   "upcoming_catalysts": [
     {
-      "event": "Fourth-quarter 2026 revenue, guided at $2.649–$2.653 billion, and full-year 2026 revenue, guided at $8.530–$8.534 billion.",
-      "expected_date": "2026-12-31",
+      "event": "Fourth-quarter 2026 revenue, guided at $2.649\u2013$2.653 billion, and full-year 2026 revenue, guided at $8.530\u2013$8.534 billion. The company has not stated the earnings-release date.",
+      "expected_date": null,
       "date_confidence": "company_guided",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm"
     },
     {
-      "event": "Production and fielding of eight TITAN ground-station systems under the Army prime agreement announced September 1, 2026; no delivery date was stated.",
+      "event": "Production and fielding of eight TITAN ground-station systems under the Army prime agreement announced September 1, 2026. No delivery date or dollar value was stated.",
       "expected_date": null,
       "date_confidence": "unknown",
       "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army"
@@ -176,7 +176,7 @@
       "stage": "funded",
       "industry": "defense software and ground-station systems",
       "bottleneck": "sensor fusion and AI-enabled targeting ground stations",
-      "revenue_mechanism": "Palantir USG, Inc. is prime contractor to produce, integrate, and field eight TITAN systems and the software that runs them for the Army.",
+      "revenue_mechanism": "Palantir USG, Inc. is prime contractor to produce, integrate, and field eight TITAN systems and the software that runs them for the Army. The September 1, 2026 release does not disclose the dollar value.",
       "evidence_of_company_revenue": true,
       "source_url": "https://investors.palantir.com/news-details/2026/Palantir-to-Deliver-Eight-TITAN-Systems-to-the-U-S--Army",
       "published_date": "2026-09-01"
@@ -184,19 +184,19 @@
   ],
   "key_risks": [
     {
-      "risk": "Most customer contracts can be terminated for convenience, and total contract value and remaining deal value assume options are exercised and contracts are not canceled, so booked value can exceed revenue that is actually recognized.",
+      "risk": "Most customer contracts can be terminated for convenience, and total contract value grew only 6% year over year in the third quarter while revenue grew 96%. Booked value assumes options are exercised and contracts are not canceled.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000045/a2026q3ex991pressrelease.htm",
       "published_date": "2026-11-02"
     },
     {
-      "risk": "Third-quarter revenue was 84% from the United States, and large government customers remain exposed to budget, timing, and policy changes; government customers were 51% of revenue for the nine months ended September 30, 2026.",
+      "risk": "Third-quarter revenue was 84% from the United States, and government customers were 51% of revenue for the nine months ended September 30, 2026, so budget, timing, and policy changes can move a large share of revenue.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
       "published_date": "2026-11-03"
     },
     {
-      "risk": "Stock-based compensation was $785.7 million over nine months and 146.8 million options remain outstanding, so future share issuance can dilute holders even without a public offering.",
+      "risk": "Stock-based compensation was $785.7 million over nine months and 146.841 million options remain outstanding, so future share issuance can dilute holders even without a public offering.",
       "severity": "medium",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000048/pltr-20260930.htm",
       "published_date": "2026-11-03"
@@ -210,5 +210,5 @@
   ],
   "dilution_events_last_12m": [],
   "going_concern_warning": false,
-  "notes": "No equity offering, ATM, convertible, or going-concern language was found in the Q3 2026 8-K or 10-Q. The September 1, 2026 TITAN release does not disclose a dollar value. Net dollar retention is taken from the Q3 2026 business-update PDF, which does not print its own publication date. The securities appeal remains pending, and the company said it does not expect a material financial impact. Option and share counts in the 10-Q tables are in thousands."
+  "notes": "No equity offering, ATM, convertible issuance, going-concern warning, or delisting notice was found in the Q3 2026 8-K or 10-Q. The balance-sheet marketable-securities line of $6.942 billion includes equity securities of public companies, so it is not the same figure as the earnings release's $10.4 billion of cash, cash equivalents, and U.S. Treasury securities; both figures are reported and are not added together here. The September 1, 2026 TITAN release does not disclose a dollar value. Net dollar retention is taken from the Q3 2026 business-update PDF, which does not print its own publication date. The securities appeal remains pending, and the company said it does not expect a material financial impact. Option counts in the 10-Q table are in thousands; intrinsic value is in millions."
 }
