@@ -37,6 +37,28 @@ def test_concentration_and_leverage_trims_are_proposals_only():
             assert p["review_equity_order"]["type"] == "market"
 
 
+def test_loss_cut_trims_single_names_underwater_vs_cost():
+    snap = snapshot()
+    # Keep LOSER under the 10% single-name cap so the proposal is a loss_cut, not a risk_trim.
+    snap["positions"]["holdings"] = [
+        {"symbol": "LOSER", "quantity": 10, "price": 5.0, "average_cost": 10.0,
+         "monthly_closes": [10, 9, 8, 7, 6, 6, 5, 5, 5, 5, 5, 5], "available": 10},
+        {"symbol": "OK", "quantity": 40, "price": 10.0, "average_cost": 9.0,
+         "monthly_closes": [9] * 12, "available": 40},
+        {"symbol": "FUND", "quantity": 5, "price": 10.0, "average_cost": 20.0, "asset_type": "index_etf",
+         "monthly_closes": [20, 18, 16, 14, 12, 12, 11, 10, 10, 10, 10, 10], "available": 5},
+    ]
+    snap["positions"]["portfolio"]["total_value"] = 1000.0
+    snap["positions"]["portfolio"]["cash"] = 500.0
+    risk = assess(snap)
+    assert any(f["flag"] == "unrealized_loss" and f["symbol"] == "LOSER" for f in risk["flags"])
+    props = propose(risk, allocation={})
+    cuts = [p for p in props if p.get("kind") == "loss_cut"]
+    assert {p["symbol"] for p in cuts} == {"LOSER"}
+    assert cuts[0]["quantity"] == 5.0  # 50% of 10
+    assert not [p for p in cuts if p["symbol"] == "FUND"]
+
+
 def test_growth_profile_sells_non_sleeve_funds_and_skips_spy_core():
     from silent_stocks.allocation import propose_allocation
 

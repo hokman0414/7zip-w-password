@@ -85,6 +85,8 @@ Work from the repo root and run the steps in order. Use `.venv/bin/silent-stocks
 3. When SPY is below its 10-month average of monthly closes, the brief flags `below_trend` and the SPY core reinvest becomes `core_reinvest_paused`. Idle cash stays in cash. Do not buy the core fund by hand to get around it.
 4. When `config/allocation.json` has `"profile": "growth"`, the standing target is 80% in the selected growth ETF sleeves (QQQM 40%, SCHG 25%, VGT 15%, with QQQ counting toward QQQM). Proposals of kind `growth_rebalance` sell non-sleeve funds (SCHD, VTI, VOO, SPY, SGOV, GLD, SIL, EWY, …) toward zero and buy underweight sleeves from cash above the reserve. Growth buys are not blocked by the SPY trend pause. The migration is multi-day because of the $400 order cap, 6 orders/day and the rule that sale proceeds fund the next run. Place `growth_rebalance` orders the same way as other kinds in the plan.
 
+5. When the user says loss-cutting / cut losses / only sells: place only `risk_trim`, `loss_cut`, and non-sleeve `growth_rebalance` sells from the plan. Skip every buy, including growth sleeves. `loss_cut` trims 50% of a single name whose price is 15% or more below average cost.
+
 ## 5. Guarded execution
 1. Run `silent-stocks plan-orders`, which writes `data/orders/<date>.json`.
    - If the user said "do trade" and the only blocked reason is the unset account variable, use `would_place_if_armed`. Otherwise, if `armed` is false, skip to step 6.

@@ -72,6 +72,11 @@
       "as_of": "2026-11-26",
       "source": "thanksgiving",
       "gap": "NYSE closed for Thanksgiving. Cash is $3,050.70 (~$2,054 above the 5% reserve) after yesterday's sells. Growth ETFs are still 6.4% (QQQ only). Would-place if open: sell WDC risk-trim $48.50, sell EWY $62.26, buy QQQM/SCHG/VGT $400 each. Non-sleeve cooldowns clear 2026-11-28; SPY sell cooldown clears after 2026-11-26 3:26 PM ET. Buy sizing now caps each sleeve at max_order_usd so sibling sleeves fund the same day."
+    },
+    {
+      "as_of": "2026-11-27",
+      "source": "loss-cut-mode",
+      "gap": "User asked for loss-cutting only. New loss_cut kind trims 50% of a single name when unrealized PnL vs average cost is -15% or worse. Placed WDC risk-trim plus SNDK/ONDS/WULF/NBIS/IREN loss cuts (~$283). Skipped growth buys. Remaining losers (STX, DRAM, CIFR, NVDA, AMD, \u2026) hit the 6-order daily cap."
     }
   ],
   "min_sessions": 3,
