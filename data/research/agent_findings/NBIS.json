@@ -1,17 +1,17 @@
 {
   "ticker": "NBIS",
   "company": "Nebius Group N.V.",
-  "researched_at": "2026-11-13T17:08:00Z",
-  "agent_id": "research-agent-g",
+  "researched_at": "2026-11-27T23:53:01Z",
+  "agent_id": "research-agent-c",
   "findings": [
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Third-quarter 2026 revenue was $980.8 million, up 571% from $146.1 million a year earlier and 68% from the second quarter; Nebius AI cloud revenue was $973.8 million, up 643%, and about 99% of group revenue.",
+      "claim": "Third-quarter 2026 revenue was $980.8 million, up 571% from $146.1 million a year earlier. Nebius AI cloud revenue was $973.8 million, up 643% from $131.1 million, and there was no partnership revenue in the year-earlier quarter.",
       "evidence_type": "verified",
       "sentiment": "positive",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
-      "source_title": "Nebius Group Q3 2026 letter to shareholders (Form 6-K Exhibit 99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "source_title": "Nebius Group operating and financial review for the quarter ended September 30, 2026",
       "published_date": "2026-11-12"
     },
     {
@@ -27,7 +27,7 @@
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Net loss from continuing operations was $37.5 million in the third quarter of 2026, compared with a $119.6 million loss a year earlier; interest expense was $112.5 million and induced conversion expense was $49.5 million.",
+      "claim": "Net loss from continuing operations was $37.5 million in the third quarter of 2026, compared with a $119.6 million loss a year earlier. Interest expense was $112.5 million and induced conversion expense was $49.5 million.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
@@ -37,17 +37,17 @@
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Nine-month 2026 net income from continuing operations was $393.3 million and included a $780.6 million gain from revaluation of the ClickHouse equity investment; that gain was zero in the third quarter, so the quarterly result was a loss even though the year-to-date result was a profit.",
+      "claim": "Nine-month 2026 net income from continuing operations was $393.3 million and included a $780.6 million gain from revaluation of the ClickHouse equity investment. That gain is presented in the nine-month column and was zero in the third-quarter column of the same statement.",
       "evidence_type": "verified",
       "sentiment": "negative",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
-      "source_title": "Nebius Group unaudited condensed consolidated financial statements, September 30, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "source_title": "Nebius Group operating and financial review for the quarter ended September 30, 2026",
       "published_date": "2026-11-12"
     },
     {
       "dimension": "economic",
       "topic": "earnings",
-      "claim": "Nebius AI cloud revenue in the third quarter included $325.1 million from strategic partnerships, which management says are non-recurring and hard to predict in timing and amount; there was no partnership revenue in the year-earlier quarter.",
+      "claim": "Nebius AI cloud revenue in the third quarter included $325.1 million from strategic partnerships. Management says those revenues are by their nature non-recurring and that the timing and amounts are hard to predict.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
@@ -57,7 +57,17 @@
     {
       "dimension": "economic",
       "topic": "backlog",
-      "claim": "Remaining performance obligations were $38.7 billion at the end of September 2026, up 3% from $37.5 billion at the end of June, and customers committed more than $12 billion of contract value since the start of the third quarter.",
+      "claim": "Unsatisfied remaining performance obligations were $38.7 billion at September 30, 2026, fully attributed to the Nebius AI cloud business. The company expects to recognize 40% during the 24 months ending September 30, 2028 and 40% between months 25 and 48, and the figure excludes performance obligations with an original duration of one year or less.",
+      "evidence_type": "verified",
+      "sentiment": "positive",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+      "source_title": "Nebius Group unaudited condensed consolidated financial statements, September 30, 2026",
+      "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "backlog",
+      "claim": "The shareholder letter says remaining performance obligations were $38.7 billion at the end of September 2026, up 3% from $37.5 billion at the end of June, and that customers committed more than $12 billion of contract value since the start of the third quarter.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
@@ -67,7 +77,7 @@
     {
       "dimension": "economic",
       "topic": "guidance",
-      "claim": "Nebius cut its 2026 outlook to the low end of the $3.0–$3.4 billion revenue range because some third-party capacity slipped into the first half of 2027, raised expected 2026 capital expenditure to about $27 billion from a prior $20–$25 billion range, and moved the ARR target from $7–$9 billion by December to more than $7 billion in February.",
+      "claim": "Nebius now expects 2026 revenue at the low end of its $3.0\u2013$3.4 billion range, capital expenditure of approximately $27 billion, above its prior $20\u2013$25 billion range, and annualized recurring revenue to exceed $7 billion for the month of February 2027, versus a prior guide of $7\u2013$9 billion by December.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
@@ -77,9 +87,9 @@
     {
       "dimension": "economic",
       "topic": "guidance",
-      "claim": "The initial 2027 outlook is revenue of $12–$13 billion, pre-tax breakeven in the fourth quarter of 2027 after financing costs, and capital expenditure of $40–$45 billion, of which prepayments and asset-backed financing of investment-grade contracts are expected to cover 75–85%.",
+      "claim": "The initial 2027 outlook in the shareholder letter is revenue of $12\u2013$13 billion, pre-tax breakeven in the fourth quarter of 2027 after financing costs, and capital expenditure of $40\u2013$45 billion, of which advanced prepayments and asset-backed financing of investment-grade contracts are expected to cover 75\u201385%.",
       "evidence_type": "verified",
-      "sentiment": "positive",
+      "sentiment": "neutral",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
       "source_title": "Nebius Group Q3 2026 letter to shareholders (Form 6-K Exhibit 99.2)",
       "published_date": "2026-11-12"
@@ -87,7 +97,7 @@
     {
       "dimension": "technological",
       "topic": "contract",
-      "claim": "On September 8, 2025, Nebius Inc. agreed to give Microsoft dedicated GPU infrastructure at a new Vineland, New Jersey data center over five years; subject to deployment and availability, total contract value is about $17.4 billion through 2031, or about $19.4 billion if Microsoft takes additional services or capacity.",
+      "claim": "On September 8, 2025, Nebius Inc. agreed to give Microsoft dedicated GPU infrastructure at a new Vineland, New Jersey data center over five years. Subject to deployment and availability, total contract value is about $17.4 billion through 2031, or about $19.4 billion if Microsoft takes additional services or capacity, and Microsoft may terminate a GPU service if Nebius misses the agreed delivery date after a grace period and cannot provide alternative capacity.",
       "evidence_type": "verified",
       "sentiment": "positive",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm",
@@ -97,7 +107,7 @@
     {
       "dimension": "technological",
       "topic": "capacity",
-      "claim": "Nebius now expects to have delivered more than half of the New Jersey capacity contracted with Microsoft by year-end 2026, with the remaining tranches reset to the second quarter of 2027 after DataOne began retiring temporary generation ahead of permanent power.",
+      "claim": "Nebius now expects to have delivered more than half of the New Jersey capacity contracted with Microsoft by year-end 2026, with the remaining tranches scheduled for the second quarter of 2027, after DataOne began retiring temporary generation ahead of permanent power.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
@@ -107,7 +117,7 @@
     {
       "dimension": "economic",
       "topic": "customer",
-      "claim": "In the third quarter of 2026, Customer E, Customer D, and Customer C accounted for 33%, 22%, and 15% of revenue, respectively, and at September 30, 2026 Customer D accounted for 75% of accounts receivable, which had risen to $4.040 billion from $720.3 million at December 31, 2025.",
+      "claim": "In the third quarter of 2026, Customer E, Customer D, and Customer C accounted for 33%, 22%, and 15% of revenue, respectively. Accounts receivable, net rose to $4,039.9 million at September 30, 2026 from $720.3 million at December 31, 2025, and Customer D accounted for 75% of that receivable balance.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
@@ -117,7 +127,7 @@
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "Under the ATM program for up to 25,000,000 Class A shares, Nebius sold 4,633,800 shares in the third quarter at a $229.14 weighted-average price for $1,048.5 million of net proceeds, and 17,363,293 shares over nine months for $3,859.6 million of net proceeds, leaving 7,636,707 shares available at September 30, 2026.",
+      "claim": "Under the ATM program for up to 25,000,000 Class A shares, established in November 2025 with sales commencing in May 2026, Nebius sold 4,633,800 shares in the third quarter at a $229.14 weighted-average price for $1,048.5 million of net proceeds, and 17,363,293 shares over nine months at a $225.10 weighted-average price for $3,859.6 million of net proceeds, leaving 7,636,707 shares available at September 30, 2026.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
@@ -127,7 +137,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "On August 24, 2026 Nebius completed a $5.75 billion convertible offering, $3.45 billion of 0.50% notes due February 2030 convertible at about $313.46 per share and $2.30 billion of 4.50% notes due February 2034 convertible at about $324.65 per share; total debt principal outstanding at September 30, 2026 was $16.478 billion, with a carrying amount of $14.163 billion.",
+      "claim": "On August 24, 2026 Nebius completed a $5.75 billion convertible offering, $3.45 billion of 0.50% notes due February 2030 convertible at about $313.46 per share and $2.30 billion of 4.50% notes due February 2034 convertible at about $324.65 per share. The September 30, 2026 debt table reports principal amount outstanding of $16,478.0 million and a carrying amount of $14,162.8 million, including accreted principal on those notes.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
@@ -137,7 +147,7 @@
     {
       "dimension": "economic",
       "topic": "dilution",
-      "claim": "In August 2026 Nebius delivered 15,770,124 Class A shares in exchange for $800.0 million of original principal amount of the June 2029 and June 2031 convertible notes, and on March 11, 2026 it issued NVIDIA pre-funded warrants for 21,065,936 Class A shares for $2.0 billion of gross proceeds at a $0.0001 exercise price.",
+      "claim": "On August 24, 2026 Nebius delivered 15,770,124 Class A shares in exchange for $800.0 million original principal of the June 2029 and June 2031 convertible notes and recorded $49.5 million of induced conversion expense. On March 11, 2026 it issued NVIDIA pre-funded warrants for 21,065,936 Class A shares for $2.0 billion of gross proceeds at a $0.0001 exercise price. On March 20, 2026 it issued about $4.34 billion original principal of additional convertible notes.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
@@ -147,7 +157,7 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "On October 17, 2026 Nebius, Nebius Inc., and Nebius B.V. entered a bridge facility with Citibank for a $3.5 billion senior secured term loan to finance GPU-infrastructure buildout and general corporate purposes, maturing October 16, 2027, at Term SOFR plus a margin starting at 2.75% and stepping up to 3.50%, secured by substantially all of each borrower's assets and subject to a minimum liquidity covenant.",
+      "claim": "On October 17, 2026 Nebius, Nebius Inc., and Nebius B.V. entered a bridge facility with Citibank for a $3.5 billion senior secured term loan to finance GPU-infrastructure buildout and general corporate purposes, maturing October 16, 2027, at Term SOFR plus a margin starting at 2.75% and stepping up to 3.50%, secured by substantially all of each borrower's assets and subject to a minimum liquidity covenant. The 6-K does not state how much was drawn.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm",
@@ -157,17 +167,17 @@
     {
       "dimension": "economic",
       "topic": "debt",
-      "claim": "Cash and cash equivalents were $7,425.6 million at September 30, 2026. For the nine months, continuing operations provided $4,231.1 million of cash, including a $7,829.0 million increase in deferred revenue; investing activities used $15,924.0 million, including $15,430.7 million of property and equipment purchases; and financing activities provided $16,618.0 million.",
+      "claim": "Cash and cash equivalents were $7,425.6 million at September 30, 2026. For the nine months, continuing operations provided $4,231.1 million of cash, including a $7,829.0 million increase in deferred revenue; purchases of property and equipment and intangible assets were $15,430.7 million; and financing activities provided $16,618.0 million.",
       "evidence_type": "verified",
       "sentiment": "neutral",
-      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
-      "source_title": "Nebius Group unaudited condensed consolidated financial statements, September 30, 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "source_title": "Nebius Group operating and financial review for the quarter ended September 30, 2026",
       "published_date": "2026-11-12"
     },
     {
       "dimension": "legal",
       "topic": "other",
-      "claim": "Nebius subsidiaries are defendants in, or have received notice of, U.S. proceedings over zoning, permitting, and environmental compliance of data-center sites; management says a loss is reasonably possible but, because the matters are early, cannot estimate the loss or range of loss.",
+      "claim": "Nebius subsidiaries are defendants in, or have received notice of, U.S. proceedings over zoning, permitting, and environmental compliance of data-center sites. Management says a loss is reasonably possible but, because the matters are early, cannot estimate the loss or range of loss.",
       "evidence_type": "verified",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
@@ -177,17 +187,27 @@
     {
       "dimension": "political",
       "topic": "governance",
-      "claim": "At September 30, 2026, 33,305,053 Class B shares with ten votes each were outstanding against 259,597,352 Class A shares with one vote each, so Class B holders control a majority of votes.",
+      "claim": "At September 30, 2026, 33,305,053 Class B shares with ten votes each were outstanding against 259,597,352 Class A shares with one vote each, and no Class C shares were outstanding. Those counts give Class B holders 333,050,530 of 592,647,882 votes, or about 56.2%.",
       "evidence_type": "analyst_judgment",
       "sentiment": "negative",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
       "source_title": "Nebius Group unaudited condensed consolidated financial statements, September 30, 2026",
       "published_date": "2026-11-12"
+    },
+    {
+      "dimension": "economic",
+      "topic": "debt",
+      "claim": "Nebius says that, based on the expected path of its share price relative to the conversion prices, it currently expects a significant portion of its convertible notes to be converted into Class A shares rather than settled in cash, while the cash ultimately required depends on the future share price, conversion conditions, and holder elections.",
+      "evidence_type": "verified",
+      "sentiment": "negative",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "source_title": "Nebius Group operating and financial review for the quarter ended September 30, 2026",
+      "published_date": "2026-11-12"
     }
   ],
   "upcoming_catalysts": [
     {
-      "event": "Company now expects ARR to exceed $7 billion for the month of February 2027, about two months later than the prior December target, before New Jersey is at full capacity.",
+      "event": "Management expects annualized recurring revenue to exceed $7 billion for the month of February 2027, about two months later than the prior December target, before New Jersey is at full capacity.",
       "expected_date": null,
       "date_confidence": "company_guided",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
@@ -199,41 +219,59 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
     },
     {
-      "event": "Initial 2027 outlook calls for pre-tax breakeven in the fourth quarter of 2027 and $12–$13 billion of revenue.",
+      "event": "Initial 2027 outlook calls for pre-tax breakeven in the fourth quarter of 2027, after financing costs, and revenue of $12\u2013$13 billion.",
       "expected_date": null,
       "date_confidence": "company_guided",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm"
     },
     {
-      "event": "$3.5 billion Citibank senior secured bridge facility matures.",
+      "event": "The $3.5 billion Citibank senior secured bridge facility matures.",
       "expected_date": "2027-10-16",
       "date_confidence": "confirmed",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm"
     }
   ],
-  "policy_links": [],
+  "policy_links": [
+    {
+      "country": "United States",
+      "policy": "U.S. tariffs and export controls on servers, GPUs, and related equipment",
+      "stage": "enacted",
+      "industry": "AI cloud infrastructure",
+      "bottleneck": "GPU and equipment availability, delivery timing, and pricing",
+      "revenue_mechanism": "The company says the timing of equipment purchases and capital expenditure depends in part on tariffs, export controls, and other supply-chain conditions. The filing does not tie a specific statute to a Nebius order or to recognized revenue.",
+      "evidence_of_company_revenue": false,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d1.htm",
+      "published_date": "2026-11-12"
+    }
+  ],
   "key_risks": [
     {
-      "risk": "Three customers were 70% of third-quarter revenue and one customer was 75% of $4.040 billion of accounts receivable, so a delay or nonpayment by a large counterparty would hit reported revenue and cash collection.",
+      "risk": "Three customers were 33%, 22%, and 15% of third-quarter revenue, and one customer was 75% of $4,039.9 million of accounts receivable, so a delay or nonpayment by a large counterparty would hit reported revenue and cash collection.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
       "published_date": "2026-11-12"
     },
     {
-      "risk": "Debt principal was $16.478 billion at September 30, 2026, and the company then entered a $3.5 billion secured bridge maturing October 16, 2027, while 2027 capital expenditure is guided at $40–$45 billion.",
+      "risk": "Debt principal outstanding was $16,478.0 million at September 30, 2026, with a carrying amount of $14,162.8 million.",
+      "severity": "high",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
+      "published_date": "2026-11-12"
+    },
+    {
+      "risk": "The October 17, 2026 Citibank facility is a $3.5 billion senior secured term loan maturing October 16, 2027, secured by substantially all of each borrower's assets, with a minimum liquidity covenant and a margin that steps up from 2.75% to 3.50%.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm",
       "published_date": "2026-10-22"
     },
     {
-      "risk": "The ATM, the August convertible exchange, and the NVIDIA pre-funded warrants have already issued or committed tens of millions of Class A shares, and 7.6 million ATM shares remained available.",
+      "risk": "The ATM, the August convertible exchange, the March 2026 convertible issue, and the NVIDIA pre-funded warrants have already issued or committed tens of millions of Class A shares, and 7,636,707 ATM shares remained available.",
       "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm",
       "published_date": "2026-11-12"
     },
     {
-      "risk": "Part of the Microsoft New Jersey deployment slipped to the second quarter of 2027, and 2026 revenue guidance was moved to the low end of the prior range because other third-party capacity also slipped.",
-      "severity": "medium",
+      "risk": "Part of the Microsoft New Jersey deployment slipped to the second quarter of 2027, and 2026 revenue guidance was moved to the low end of the prior $3.0\u2013$3.4 billion range because third-party capacity slipped into 2027.",
+      "severity": "high",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126008/tm2629571d1_ex99-2.htm",
       "published_date": "2026-11-12"
     },
@@ -246,8 +284,8 @@
   ],
   "dilution_events_last_12m": [
     {
-      "description": "ATM sales of 17,363,293 Class A shares during the nine months ended September 30, 2026, including 4,633,800 shares in the third quarter, for net proceeds of $3,859.6 million and $1,048.5 million, respectively; 7,636,707 shares remained available under the 25,000,000-share program.",
-      "date": "2026-09-30",
+      "description": "ATM sales of 17,363,293 Class A shares during the nine months ended September 30, 2026, including 4,633,800 shares in the third quarter, for net proceeds of $3,859.6 million and $1,048.5 million, respectively, at weighted-average prices of $225.10 and $229.14. 7,636,707 shares remained available under the 25,000,000-share program established in November 2025.",
+      "date": null,
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm"
     },
     {
@@ -256,8 +294,13 @@
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm"
     },
     {
-      "description": "August 2026 exchange of $800.0 million original principal of the June 2029 and June 2031 convertible notes for 15,770,124 Class A shares, with $49.5 million of induced conversion expense.",
-      "date": null,
+      "description": "March 20, 2026 issuance of approximately $4.34 billion original principal of convertible notes: $2.59 billion 1.25% notes due March 2031 convertible at about $183.22 per share and $1.75 billion 2.625% notes due March 2033 convertible at about $180.31 per share.",
+      "date": "2026-03-20",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm"
+    },
+    {
+      "description": "August 24, 2026 exchange of $800.0 million original principal of the June 2029 and June 2031 convertible notes for 15,770,124 Class A shares, with $49.5 million of induced conversion expense.",
+      "date": "2026-08-24",
       "source_url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926126238/nbis-ex99d2.htm"
     },
     {
@@ -267,5 +310,5 @@
     }
   ],
   "going_concern_warning": false,
-  "notes": "The September 30, 2026 financial statements are prepared on a going-concern basis and do not describe substantial doubt. Cash was $7.4 billion, but nine-month property and equipment purchases of $15.4 billion were funded by convertible notes, the ATM, the NVIDIA warrants, and customer deferred revenue, which rose $7.8 billion. The Citibank 6-K authorizes a $3.5 billion facility; it does not state how much was drawn by November 12, 2026. The debt-table principal of $16.478 billion includes accreted maturity principal on the August 2026 notes, which were issued at $5.75 billion original principal. No government appropriation tying a statute to Nebius revenue was verified. The Microsoft agreement was signed September 8, 2025, outside the trailing twelve months, and is included because the November 2026 letter updates its delivery schedule. Class B voting control is computed from the disclosed share counts and 10-vote right."
+  "notes": "The September 30, 2026 financial statements say they were prepared assuming the group will continue as a going concern and do not describe substantial doubt. Cash was $7,425.6 million, while nine-month purchases of property and equipment and intangible assets were $15,430.7 million and were funded by convertible notes, the ATM, the NVIDIA warrants, the term loan, and customer prepayments. The financial-statement note, separate from the operating-review cash-flow discussion, reports deferred revenue of $9,409.2 million at September 30, 2026 versus $1,577.5 million at December 31, 2025; the operating-review cash-flow increase in deferred revenue is $7,829.0 million. The Citibank 6-K authorizes a $3.5 billion facility and does not state how much was drawn. The debt-table principal of $16,478.0 million is accreted principal, higher than the original principal of the August 2026 and March 2026 notes. The Microsoft agreement was signed September 8, 2025, outside a strict trailing twelve months, and is included because the November 12, 2026 letter resets its New Jersey delivery schedule and the 6-K states the termination right for late delivery. Class B voting control is computed from the disclosed share counts and the ten-vote right. No delisting notice was found."
 }
